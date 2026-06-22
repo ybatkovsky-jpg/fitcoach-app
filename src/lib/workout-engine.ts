@@ -5,6 +5,7 @@ import {
   EXERCISE_CATALOG,
   EQUIPMENT_PRIORITY,
   FULL_BODY_TARGETS,
+  CARDIO_TARGETS,
   type ExerciseConfig,
   type ExerciseVariant,
   type EquipmentType,
@@ -22,7 +23,9 @@ export interface ExerciseInPlan {
   targetSets: number;
   targetReps: number;
   weightKg: number | null;
+  durationSeconds?: number | null; // for timed exercises (cardio, plank)
   primaryMuscleGroups: string[];
+  category: 'strength' | 'cardio' | 'flexibility';
   completedSets: number;
   setResults: { reps: number; rpe?: number }[];
 }
@@ -65,7 +68,6 @@ export function resolveBestVariant(
 
   if (availableVariants.length === 0) return null;
 
-  // Pick variant with highest equipment priority
   return availableVariants.reduce((best, current) => {
     const currentPriority = EQUIPMENT_PRIORITY[current.requiredEquipment] ?? 0;
     const bestPriority = EQUIPMENT_PRIORITY[best.requiredEquipment] ?? 0;
@@ -102,7 +104,6 @@ function calculateWeight(
 ): number | null {
   if (variant.adjustments.defaultWeightPercent === 0) return null;
 
-  // 60% of estimated 1RM based on RPE assumption
   const base = userWeight * (variant.adjustments.defaultWeightPercent / 100);
   const modifier = level === 'beginner' ? 0.6 : level === 'intermediate' ? 0.75 : 0.85;
   return Math.round(base * modifier * 10) / 10;
@@ -113,7 +114,6 @@ function calculateReps(
   level: FitnessLevel,
 ): number {
   const { min, max } = variant.adjustments.repRange;
-  // Beginners: lower end, advanced: higher end
   switch (level) {
     case 'beginner': return min;
     case 'intermediate': return Math.round((min + max) / 2);
@@ -121,58 +121,99 @@ function calculateReps(
   }
 }
 
+function buildExerciseInPlan(
+  config: ExerciseConfig,
+  variant: ExerciseVariant,
+  profile: UserProfile,
+  sets: number,
+): ExerciseInPlan {
+  const reps = calculateReps(variant, profile.fitnessLevel);
+  const weight = calculateWeight(variant, profile.weight, profile.fitnessLevel);
+
+  return {
+    exerciseConfigId: config.id,
+    exerciseName: config.name,
+    variantId: variant.variantId,
+    variantName: variant.variantName,
+    requiredEquipment: variant.requiredEquipment,
+    alternativeHint: variant.alternativeEquipmentHint,
+    targetSets: sets,
+    targetReps: reps,
+    weightKg: weight,
+    durationSeconds: variant.adjustments.durationSeconds ?? null,
+    primaryMuscleGroups: config.primaryMuscleGroups,
+    category: config.category,
+    completedSets: 0,
+    setResults: [],
+  };
+}
+
 export function generateWorkout(profile: UserProfile): WorkoutPlan {
   const availableSet = new Set(profile.inventory);
   const selectedExercises: ExerciseInPlan[] = [];
-  const coveredMuscles = new Set<string>();
+  const coveredIds = new Set<string>();
   const sets = calculateSets(profile.fitnessLevel);
 
-  // First pass: pick exercises for each target muscle group
-  for (const target of FULL_BODY_TARGETS) {
-    if (coveredMuscles.has(target)) continue;
+  const needsCardio = profile.goal === 'lose_weight' || profile.goal === 'maintain';
+  const needsFlexibility = profile.goal === 'flexibility' || profile.goal === 'maintain';
 
-    // Find exercises that target this muscle
-    const candidates = EXERCISE_CATALOG.filter(
+  // 1. Strength exercises for each target muscle group
+  const strengthCatalog = EXERCISE_CATALOG.filter((e) => e.category === 'strength');
+  for (const target of FULL_BODY_TARGETS) {
+    const candidates = strengthCatalog.filter(
       (ex) => ex.primaryMuscleGroups.includes(target),
     );
 
-    // Try to find one with a matching variant
     for (const candidate of candidates) {
+      if (coveredIds.has(candidate.id)) continue;
       const variant = resolveBestVariant(candidate, availableSet);
       if (!variant) continue;
 
-      const alreadyAdded = selectedExercises.some(
-        (e) => e.exerciseConfigId === candidate.id,
-      );
-      if (alreadyAdded) continue;
-
-      const reps = calculateReps(variant, profile.fitnessLevel);
-      const weight = calculateWeight(variant, profile.weight, profile.fitnessLevel);
-
-      selectedExercises.push({
-        exerciseConfigId: candidate.id,
-        exerciseName: candidate.name,
-        variantId: variant.variantId,
-        variantName: variant.variantName,
-        requiredEquipment: variant.requiredEquipment,
-        alternativeHint: variant.alternativeEquipmentHint,
-        targetSets: sets,
-        targetReps: reps,
-        weightKg: weight,
-        primaryMuscleGroups: candidate.primaryMuscleGroups,
-        completedSets: 0,
-        setResults: [],
-      });
-
-      candidate.primaryMuscleGroups.forEach((m) => coveredMuscles.add(m));
-      candidate.secondaryMuscleGroups.forEach((m) => coveredMuscles.add(m));
+      selectedExercises.push(buildExerciseInPlan(candidate, variant, profile, sets));
+      coveredIds.add(candidate.id);
       break;
     }
   }
 
-  // Estimate duration: ~2 min per set + 1 min rest
+  // 2. Add 1-2 cardio exercises (all goals benefit from cardio for cardiovascular health)
+  {
+    const cardioCatalog = EXERCISE_CATALOG.filter((e) => e.category === 'cardio');
+    const cardioCount = profile.goal === 'lose_weight' ? 2 : 1;
+    let added = 0;
+    for (const candidate of cardioCatalog) {
+      if (added >= cardioCount) break;
+      if (coveredIds.has(candidate.id)) continue;
+      const variant = resolveBestVariant(candidate, availableSet);
+      if (!variant) continue;
+
+      selectedExercises.push(buildExerciseInPlan(candidate, variant, profile, 1));
+      coveredIds.add(candidate.id);
+      added++;
+    }
+  }
+
+  // 3. Add flexibility/stretching if goal matches
+  if (needsFlexibility) {
+    const flexCatalog = EXERCISE_CATALOG.filter((e) => e.category === 'flexibility');
+    for (const candidate of flexCatalog) {
+      if (coveredIds.has(candidate.id)) continue;
+      const variant = resolveBestVariant(candidate, availableSet);
+      if (!variant) continue;
+
+      selectedExercises.push(buildExerciseInPlan(candidate, variant, profile, 1));
+      coveredIds.add(candidate.id);
+      break;
+    }
+  }
+
+  // Estimate duration
   const totalSets = selectedExercises.reduce((sum, ex) => sum + ex.targetSets, 0);
-  const estimatedDurationMin = Math.round(totalSets * 2.5 + selectedExercises.length * 1.5);
+  const cardioTime = selectedExercises
+    .filter((ex) => ex.category === 'cardio' && ex.durationSeconds)
+    .reduce((sum, ex) => sum + (ex.durationSeconds ?? 0), 0);
+  const estimatedDurationMin = Math.round(
+    (totalSets * 2.5 + selectedExercises.length * 1.5 + cardioTime / 60) / 1,
+  );
 
   return {
     id: `plan_${Date.now()}`,
@@ -191,22 +232,11 @@ export function getAdaptiveMultiplier(
   missedDays: number,
   consecutiveHardCount: number,
 ): number {
-  // Deload week
   if (consecutiveHardCount >= 2) return 0.7;
-
-  // Missed >3 days
   if (missedDays > 3) return 0.8;
-
-  // Very hard or missed 1-2 days
   if (feedback === 'very_hard' || missedDays > 0) return 1.0;
-
-  // Harder than expected
   if (feedback === 'harder') return 1.0;
-
-  // Normal — progressive overload 5-10%
   if (feedback === 'normal') return 1.05;
-
-  // Easier — can push more 10%
   return 1.1;
 }
 
@@ -216,7 +246,9 @@ export function applyAdaptiveLoad(
 ): ExerciseInPlan[] {
   return plan.map((ex) => ({
     ...ex,
-    targetReps: Math.max(1, Math.round(ex.targetReps * multiplier)),
+    targetReps: ex.category === 'cardio'
+      ? ex.targetReps // don't scale cardio reps by multiplier
+      : Math.max(1, Math.round(ex.targetReps * multiplier)),
     weightKg: ex.weightKg
       ? Math.round(ex.weightKg * multiplier * 10) / 10
       : null,

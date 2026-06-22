@@ -20,7 +20,9 @@ export type AppScreen =
   | 'dashboard'
   | 'workout'
   | 'feedback'
-  | 'profile';
+  | 'profile'
+  | 'nutrition'
+  | 'exercise_guide';
 
 // --- Workout session state ---
 
@@ -49,6 +51,10 @@ interface AppState {
   // Navigation
   screen: AppScreen;
   setScreen: (s: AppScreen) => void;
+
+  // Exercise guide
+  selectedExerciseId: string | null;
+  openExerciseGuide: (id: string) => void;
 
   // Onboarding
   onboardingStep: number;
@@ -107,6 +113,8 @@ export const useAppStore = create<AppState>()(
       // Navigation
       screen: 'onboarding' as AppScreen,
       setScreen: (s) => set({ screen: s }),
+      selectedExerciseId: null,
+      openExerciseGuide: (id) => set({ selectedExerciseId: id, screen: 'exercise_guide' }),
 
       // Onboarding
       onboardingStep: 0,

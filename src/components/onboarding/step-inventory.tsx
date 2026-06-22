@@ -4,10 +4,11 @@ import { useAppStore } from '@/lib/store';
 import { INVENTORY_OPTIONS, EQUIPMENT_LABELS, type EquipmentType } from '@/lib/exercises';
 import {
   Square, Dumbbell, CircleDot, Minus, GripHorizontal, Link, Armchair, Plus,
+  Waves, Activity, Bike, RotateCw,
 } from 'lucide-react';
 
 const ICON_MAP: Record<string, React.ComponentType<{ className?: string }>> = {
-  Square, Dumbbell, CircleDot, Minus, GripHorizontal, Link, Armchair,
+  Square, Dumbbell, CircleDot, Minus, GripHorizontal, Link, Armchair, Waves, Activity, Bike, RotateCw,
 };
 
 export function StepInventory() {

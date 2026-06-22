@@ -8,7 +8,7 @@ import { Progress } from '@/components/ui/progress';
 import { Badge } from '@/components/ui/badge';
 import {
   ChevronLeft, ChevronRight, Pause, Play, SkipForward, X, Timer,
-  CheckCircle2, Circle,
+  CheckCircle2, Circle, BookOpen, Zap,
 } from 'lucide-react';
 import { MUSCLE_LABELS, EQUIPMENT_LABELS } from '@/lib/exercises';
 
@@ -21,6 +21,7 @@ export function WorkoutScreen() {
     tickRest,
     nextExercise,
     finishWorkout,
+    openExerciseGuide,
   } = useAppStore();
 
   // Rest timer
@@ -117,13 +118,24 @@ export function WorkoutScreen() {
           <div className="space-y-5 pt-4">
             {/* Exercise name and variant */}
             <div className="text-center space-y-1">
-              <h2 className="text-2xl font-bold">{exercise.exerciseName}</h2>
+              <div className="flex items-center justify-center gap-2">
+                {exercise.category === 'cardio' && <Zap className="w-4 h-4 text-orange-500" />}
+                <h2 className="text-2xl font-bold">{exercise.exerciseName}</h2>
+              </div>
               <p className="text-sm text-muted-foreground">{exercise.variantName}</p>
               {exercise.alternativeHint && (
                 <p className="text-xs text-amber-600 bg-amber-50 dark:bg-amber-900/20 dark:text-amber-400 rounded-lg px-3 py-2 mt-2">
                   💡 {exercise.alternativeHint}
                 </p>
               )}
+              {/* How to perform button */}
+              <button
+                onClick={() => openExerciseGuide(exercise.exerciseConfigId)}
+                className="inline-flex items-center gap-1.5 text-xs text-primary font-medium mt-2 hover:underline"
+              >
+                <BookOpen className="w-3.5 h-3.5" />
+                Как выполнять?
+              </button>
             </div>
 
             {/* Muscle groups */}

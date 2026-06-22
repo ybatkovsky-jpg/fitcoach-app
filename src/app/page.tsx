@@ -7,6 +7,8 @@ import { DashboardScreen } from '@/components/screens/dashboard-screen';
 import { WorkoutScreen } from '@/components/screens/workout-screen';
 import { FeedbackScreen } from '@/components/screens/feedback-screen';
 import { ProfileScreen } from '@/components/screens/profile-screen';
+import { NutritionScreen } from '@/components/screens/nutrition-screen';
+import { ExerciseGuideScreen } from '@/components/screens/exercise-guide-screen';
 import { BottomNav } from '@/components/screens/bottom-nav';
 import { Dumbbell } from 'lucide-react';
 
@@ -52,7 +54,6 @@ export default function Home() {
                 transition={{ duration: 0.2 }}
                 className="absolute inset-0"
               >
-                {/* Onboarding header */}
                 <div className="px-6 pt-4 pb-2 flex items-center gap-2">
                   <div className="p-1.5 rounded-lg bg-primary/10">
                     <Dumbbell className="w-4 h-4 text-primary" />
@@ -116,6 +117,34 @@ export default function Home() {
                 className="absolute inset-0"
               >
                 <ProfileScreen />
+              </motion.div>
+            )}
+
+            {effectiveScreen === 'nutrition' && (
+              <motion.div
+                key="nutrition"
+                variants={screenVariants}
+                initial="initial"
+                animate="animate"
+                exit="exit"
+                transition={{ duration: 0.2 }}
+                className="absolute inset-0"
+              >
+                <NutritionScreen />
+              </motion.div>
+            )}
+
+            {effectiveScreen === 'exercise_guide' && (
+              <motion.div
+                key="exercise_guide"
+                variants={screenVariants}
+                initial="initial"
+                animate="animate"
+                exit="exit"
+                transition={{ duration: 0.2 }}
+                className="absolute inset-0"
+              >
+                <ExerciseGuideScreen />
               </motion.div>
             )}
           </AnimatePresence>

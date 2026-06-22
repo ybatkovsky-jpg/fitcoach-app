@@ -7,7 +7,7 @@ import { Badge } from '@/components/ui/badge';
 import { MUSCLE_LABELS, EQUIPMENT_LABELS, type FitnessLevel } from '@/lib/exercises';
 import {
   Play, RotateCcw, Clock, Dumbbell, TrendingUp, Flame,
-  ChevronRight, Zap, Calendar,
+  ChevronRight, Zap, Calendar, BookOpen,
 } from 'lucide-react';
 
 const LEVEL_LABELS: Record<FitnessLevel, string> = {
@@ -37,6 +37,7 @@ export function DashboardScreen() {
     generateNewPlan,
     history,
     setScreen,
+    openExerciseGuide,
   } = useAppStore();
 
   if (!profile || !currentPlan) return null;
@@ -117,15 +118,26 @@ export function DashboardScreen() {
                     <span className="text-xs font-bold text-muted-foreground w-5">
                       {i + 1}
                     </span>
-                    <div>
-                      <div className="text-sm font-medium">{ex.exerciseName}</div>
-                      <div className="text-[10px] text-muted-foreground">
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center gap-1.5">
+                        {ex.category === 'cardio' && <Zap className="w-3 h-3 text-orange-500 shrink-0" />}
+                        <span className="text-sm font-medium truncate">{ex.exerciseName}</span>
+                      </div>
+                      <div className="text-[10px] text-muted-foreground truncate">
                         {ex.variantName}
                       </div>
                     </div>
+                    <button
+                      onClick={() => openExerciseGuide(ex.exerciseConfigId)}
+                      className="p-1.5 rounded-lg hover:bg-muted shrink-0"
+                    >
+                      <BookOpen className="w-3.5 h-3.5 text-muted-foreground" />
+                    </button>
                   </div>
-                  <div className="text-xs text-muted-foreground">
-                    {ex.targetSets} × {ex.targetReps}
+                  <div className="text-xs text-muted-foreground shrink-0 ml-2">
+                    {ex.durationSeconds
+                      ? `${Math.round(ex.durationSeconds / 60)} мин`
+                      : `${ex.targetSets} × ${ex.targetReps}`}
                   </div>
                 </div>
               ))}
