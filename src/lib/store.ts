@@ -12,6 +12,12 @@ import {
   calculateSets,
 } from './workout-engine';
 import type { EquipmentType, FitnessLevel } from './exercises';
+import {
+  ACHIEVEMENTS,
+  getLevelInfo,
+  calculateStreak,
+  type AchievementDef,
+} from './achievements';
 
 // --- Screen types ---
 
@@ -22,7 +28,9 @@ export type AppScreen =
   | 'feedback'
   | 'profile'
   | 'nutrition'
-  | 'exercise_guide';
+  | 'exercise_guide'
+  | 'lab_tests'
+  | 'achievements';
 
 // --- Workout session state ---
 
@@ -43,6 +51,14 @@ export interface HistoryEntry {
   feedback: WorkoutFeedback | null;
   exercises: { name: string; sets: number; reps: number; completed: boolean }[];
   durationMin: number;
+}
+
+// --- Lab test entry ---
+
+export interface LabTestEntry {
+  id: string;
+  date: string;
+  results: Record<string, number>; // biomarkerId -> value
 }
 
 // --- Store interface ---
@@ -93,6 +109,19 @@ interface AppState {
   history: HistoryEntry[];
   missedDays: number;
 
+  // --- GAMIFICATION ---
+  totalXp: number;
+  unlockedAchievements: string[]; // achievement IDs
+  recentlyUnlocked: string[]; // IDs to show as notifications
+  awardXp: (amount: number, reason: string) => void;
+  checkAchievements: () => string[]; // returns newly unlocked IDs
+  clearRecentUnlocks: () => void;
+
+  // --- LAB TESTS ---
+  labTestEntries: LabTestEntry[];
+  addLabTestEntry: (results: Record<string, number>) => void;
+  removeLabTestEntry: (id: string) => void;
+
   // Reset
   resetAll: () => void;
 }
@@ -106,6 +135,23 @@ const defaultSession = (): WorkoutSession => ({
 });
 
 const REST_DURATION = 60; // seconds between sets
+
+function makeDefaultProfile(): UserProfile {
+  return {
+    gender: 'male' as const,
+    age: 25,
+    height: 170,
+    weight: 70,
+    medicalRestrictions: false,
+    goal: 'maintain' as const,
+    inventory: [] as EquipmentType[],
+    rpeSquat: 5,
+    rpePushUp: 5,
+    rpePlank: 5,
+    comfortableMinutes: 15,
+    fitnessLevel: 'beginner' as FitnessLevel,
+  };
+}
 
 export const useAppStore = create<AppState>()(
   persist(
@@ -122,37 +168,11 @@ export const useAppStore = create<AppState>()(
       isOnboarded: false,
 
       // Profile
-      profile: {
-        gender: 'male' as const,
-        age: 25,
-        height: 170,
-        weight: 70,
-        medicalRestrictions: false,
-        goal: 'maintain' as const,
-        inventory: [] as EquipmentType[],
-        rpeSquat: 5,
-        rpePushUp: 5,
-        rpePlank: 5,
-        comfortableMinutes: 15,
-        fitnessLevel: 'beginner' as FitnessLevel,
-      } as UserProfile,
+      profile: makeDefaultProfile() as UserProfile,
       setProfileField: (key, value) =>
         set((state) => ({
           profile: {
-            ...(state.profile ?? {
-              gender: 'male' as const,
-              age: 25,
-              height: 170,
-              weight: 70,
-              medicalRestrictions: false,
-              goal: 'maintain' as const,
-              inventory: [] as EquipmentType[],
-              rpeSquat: 5,
-              rpePushUp: 5,
-              rpePlank: 5,
-              comfortableMinutes: 15,
-              fitnessLevel: 'beginner' as FitnessLevel,
-            }),
+            ...(state.profile ?? makeDefaultProfile()),
             [key]: value,
           } as UserProfile,
         })),
@@ -271,7 +291,6 @@ export const useAppStore = create<AppState>()(
           if (!state.workoutSession || !state.workoutSession.isResting) return state;
           const left = state.workoutSession.restSecondsLeft - 1;
           if (left <= 0) {
-            // Auto-advance: if last set of exercise, go to next exercise
             const { currentExerciseIndex, currentSet } = state.workoutSession;
             const plan = state.currentPlan!;
             const exercise = plan.exercises[currentExerciseIndex];
@@ -299,7 +318,6 @@ export const useAppStore = create<AppState>()(
           if (!state.workoutSession || !state.currentPlan) return state;
           const nextIdx = state.workoutSession.currentExerciseIndex + 1;
           if (nextIdx >= state.currentPlan.exercises.length) {
-            // Workout complete
             const duration = Math.round((Date.now() - state.workoutSession.startTime) / 60000);
             const entry: HistoryEntry = {
               id: `hist_${Date.now()}`,
@@ -347,10 +365,25 @@ export const useAppStore = create<AppState>()(
             })) ?? [],
             durationMin: duration,
           };
+
+          // Award XP for workout completion
+          let newXp = state.totalXp + 50; // base XP for completing a workout
+          const newUnlocked = [...state.recentlyUnlocked];
+
+          // Bonus for all exercises completed
+          const allDone = entry.exercises.every((e) => e.completed);
+          if (allDone) newXp += 25;
+
+          // XP for each completed exercise
+          const completedExCount = entry.exercises.filter((e) => e.completed).length;
+          newXp += completedExCount * 5;
+
           return {
             screen: 'feedback',
             workoutSession: null,
             history: [...state.history, entry],
+            totalXp: newXp,
+            recentlyUnlocked: newUnlocked,
           };
         }),
 
@@ -366,12 +399,24 @@ export const useAppStore = create<AppState>()(
         if (history.length > 0) {
           history[history.length - 1] = { ...history[history.length - 1], feedback: f };
         }
+
+        // Award XP for feedback
+        let newXp = state.totalXp + 10;
+        const newUnlocked = [...state.recentlyUnlocked];
+
         set({
           lastFeedback: f,
           consecutiveHardCount: newConsecutive,
           history,
           screen: 'dashboard',
+          totalXp: newXp,
+          recentlyUnlocked: newUnlocked,
         });
+
+        // Check achievements after a tick
+        setTimeout(() => {
+          get().checkAchievements();
+        }, 50);
       },
       consecutiveHardCount: 0,
 
@@ -379,32 +424,119 @@ export const useAppStore = create<AppState>()(
       history: [],
       missedDays: 0,
 
+      // --- GAMIFICATION ---
+      totalXp: 0,
+      unlockedAchievements: [] as string[],
+      recentlyUnlocked: [] as string[],
+
+      awardXp: (amount: number, _reason: string) =>
+        set((state) => ({ totalXp: state.totalXp + amount })),
+
+      checkAchievements: () => {
+        const state = get();
+        const unlocked = new Set(state.unlockedAchievements);
+        const newUnlocks: string[] = [];
+
+        const history = state.history;
+        const totalWorkouts = history.length;
+        const streak = calculateStreak(history.map((h) => h.date));
+        const levelInfo = getLevelInfo(state.totalXp);
+        const totalMinutes = history.reduce((s, h) => s + h.durationMin, 0);
+
+        // Count normal feedbacks
+        const normalFeedbacks = history.filter((h) => h.feedback === 'normal').length;
+
+        // Check last workout for cardio and all-completed
+        const lastEntry = history.length > 0 ? history[history.length - 1] : null;
+        const hadCardio = lastEntry
+          ? state.currentPlan?.exercises.some(
+              (ex) => ex.category === 'cardio' && lastEntry.exercises.some((e) => e.name === ex.exerciseName && e.completed),
+            ) ?? false
+          : false;
+        const allExercisesCompleted = lastEntry
+          ? lastEntry.exercises.every((e) => e.completed)
+          : false;
+
+        const checks: Record<string, boolean> = {
+          first_workout: totalWorkouts >= 1,
+          cardio_done: hadCardio,
+          all_exercises_done: allExercisesCompleted,
+          streak_3: streak.current >= 3,
+          streak_7: streak.current >= 7,
+          streak_14: streak.current >= 14,
+          streak_30: streak.current >= 30,
+          workouts_5: totalWorkouts >= 5,
+          workouts_10: totalWorkouts >= 10,
+          workouts_25: totalWorkouts >= 25,
+          workouts_50: totalWorkouts >= 50,
+          workouts_100: totalWorkouts >= 100,
+          level_5: levelInfo.level >= 5,
+          level_10: levelInfo.level >= 10,
+          minutes_60_total: totalMinutes >= 60,
+          minutes_300_total: totalMinutes >= 300,
+          first_feedback: history.some((h) => h.feedback !== null),
+          feedback_normal_5: normalFeedbacks >= 5,
+          intermediate_fitness: state.profile?.fitnessLevel === 'intermediate',
+          advanced_fitness: state.profile?.fitnessLevel === 'advanced',
+        };
+
+        let bonusXp = 0;
+        for (const [id, condition] of Object.entries(checks)) {
+          if (condition && !unlocked.has(id)) {
+            unlocked.add(id);
+            newUnlocks.push(id);
+            const def = ACHIEVEMENTS.find((a) => a.id === id);
+            if (def) bonusXp += def.xpReward;
+          }
+        }
+
+        if (newUnlocks.length > 0) {
+          set({
+            unlockedAchievements: [...unlocked],
+            totalXp: state.totalXp + bonusXp,
+            recentlyUnlocked: newUnlocks,
+          });
+        }
+        return newUnlocks;
+      },
+
+      clearRecentUnlocks: () => set({ recentlyUnlocked: [] }),
+
+      // --- LAB TESTS ---
+      labTestEntries: [] as LabTestEntry[],
+      addLabTestEntry: (results: Record<string, number>) =>
+        set((state) => ({
+          labTestEntries: [
+            ...state.labTestEntries,
+            {
+              id: `lab_${Date.now()}`,
+              date: new Date().toISOString().split('T')[0],
+              results,
+            },
+          ],
+        })),
+      removeLabTestEntry: (id: string) =>
+        set((state) => ({
+          labTestEntries: state.labTestEntries.filter((e) => e.id !== id),
+        })),
+
       // Reset
       resetAll: () =>
         set({
           screen: 'onboarding',
           onboardingStep: 0,
           isOnboarded: false,
-          profile: {
-            gender: 'male' as const,
-            age: 25,
-            height: 170,
-            weight: 70,
-            medicalRestrictions: false,
-            goal: 'maintain' as const,
-            inventory: [] as EquipmentType[],
-            rpeSquat: 5,
-            rpePushUp: 5,
-            rpePlank: 5,
-            comfortableMinutes: 15,
-            fitnessLevel: 'beginner' as FitnessLevel,
-          } as UserProfile,
+          profile: makeDefaultProfile() as UserProfile,
           currentPlan: null,
           workoutSession: null,
           lastFeedback: null,
           consecutiveHardCount: 0,
           history: [],
           missedDays: 0,
+          totalXp: 0,
+          unlockedAchievements: [],
+          recentlyUnlocked: [],
+          labTestEntries: [],
         }),
     }),
     {
@@ -419,6 +551,9 @@ export const useAppStore = create<AppState>()(
         consecutiveHardCount: state.consecutiveHardCount,
         history: state.history,
         missedDays: state.missedDays,
+        totalXp: state.totalXp,
+        unlockedAchievements: state.unlockedAchievements,
+        labTestEntries: state.labTestEntries,
       }),
     },
   ),

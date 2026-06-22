@@ -4,9 +4,10 @@ import { useAppStore } from '@/lib/store';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
+import { getRecommendations } from '@/lib/lab-tests';
 import {
   Apple, Egg, Beef, Droplets, Pill, Dumbbell, Fish, Salad,
-  Wheat, Milk, Clock, AlertTriangle, Info,
+  Wheat, Milk, Clock, AlertTriangle, Info, FlaskConical, ChevronRight,
 } from 'lucide-react';
 
 interface NutritionTip {
@@ -45,10 +46,14 @@ function getCalorieTarget(profile: { weight: number; height: number; age: number
 }
 
 export function NutritionScreen() {
-  const { profile } = useAppStore();
+  const { profile, setScreen, labTestEntries } = useAppStore();
   if (!profile) return null;
 
   const macros = getCalorieTarget(profile);
+
+  // Count lab test issues for badge
+  const lastLabEntry = labTestEntries.length > 0 ? labTestEntries[labTestEntries.length - 1] : null;
+  const labRecs = lastLabEntry ? getRecommendations(lastLabEntry.results) : [];
 
   const baseTips: NutritionTip[] = [
     {
@@ -163,6 +168,36 @@ export function NutritionScreen() {
           </div>
         </CardContent>
       </Card>
+
+      {/* Lab tests link */}
+      <button
+        onClick={() => setScreen('lab_tests')}
+        className="w-full text-left"
+      >
+        <Card className="border-0 shadow-sm hover:shadow-md transition-shadow">
+          <CardContent className="p-4 flex items-center gap-3">
+            <div className="p-2.5 rounded-xl bg-violet-100 dark:bg-violet-900/30 shrink-0">
+              <FlaskConical className="w-5 h-5 text-violet-600 dark:text-violet-400" />
+            </div>
+            <div className="flex-1 min-w-0">
+              <div className="flex items-center gap-2">
+                <span className="text-sm font-semibold">Анализы и БАДы</span>
+                {labRecs.length > 0 && (
+                  <Badge variant="secondary" className="text-[10px] bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400">
+                    {labRecs.length} рек.
+                  </Badge>
+                )}
+              </div>
+              <p className="text-xs text-muted-foreground mt-0.5">
+                {labTestEntries.length > 0
+                  ? `Последний анализ: ${lastLabEntry?.date}. ${labRecs.length > 0 ? 'Есть рекомендации' : 'Всё в норме'}`
+                  : 'Введите результаты анализов для персональных рекомендаций по добавкам'}
+              </p>
+            </div>
+            <ChevronRight className="w-4 h-4 text-muted-foreground shrink-0" />
+          </CardContent>
+        </Card>
+      </button>
 
       {/* Nutrition tips */}
       <div className="space-y-3">

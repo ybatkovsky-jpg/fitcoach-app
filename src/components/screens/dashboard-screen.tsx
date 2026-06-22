@@ -7,8 +7,9 @@ import { Badge } from '@/components/ui/badge';
 import { MUSCLE_LABELS, EQUIPMENT_LABELS, type FitnessLevel } from '@/lib/exercises';
 import {
   Play, RotateCcw, Clock, Dumbbell, TrendingUp, Flame,
-  ChevronRight, Zap, Calendar, BookOpen,
+  ChevronRight, Zap, Calendar, BookOpen, Trophy, Star,
 } from 'lucide-react';
+import { getLevelInfo, getLevelTitle, calculateStreak, ACHIEVEMENTS as ACHIEVEMENT_DEF } from '@/lib/achievements';
 
 const LEVEL_LABELS: Record<FitnessLevel, string> = {
   beginner: 'Новичок',
@@ -38,6 +39,8 @@ export function DashboardScreen() {
     history,
     setScreen,
     openExerciseGuide,
+    totalXp,
+    unlockedAchievements,
   } = useAppStore();
 
   if (!profile || !currentPlan) return null;
@@ -45,6 +48,14 @@ export function DashboardScreen() {
   const completedCount = history.length;
   const totalExercises = currentPlan.exercises.length;
   const estMinutes = currentPlan.estimatedDurationMin;
+
+  // Gamification data
+  const levelInfo = getLevelInfo(totalXp);
+  const streak = calculateStreak(history.map((h) => h.date));
+  const nextAchievement = (() => {
+    const locked = ACHIEVEMENT_DEF.filter((a) => !unlockedAchievements.includes(a.id));
+    return locked.length > 0 ? locked[0] : null;
+  })();
 
   // This week's activity (simplified)
   const weekDays = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'];
@@ -65,6 +76,42 @@ export function DashboardScreen() {
           <span className="text-sm text-muted-foreground">{GOAL_LABELS[profile.goal]}</span>
         </div>
       </div>
+
+      {/* XP & Level mini card */}
+      <button
+        onClick={() => setScreen('achievements')}
+        className="w-full text-left"
+      >
+        <Card className="border-0 shadow-sm hover:shadow-md transition-shadow">
+          <CardContent className="p-3">
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-xl bg-amber-100 dark:bg-amber-900/30 flex items-center justify-center shrink-0">
+                <span className="text-lg font-black text-amber-600 dark:text-amber-400">{levelInfo.level}</span>
+              </div>
+              <div className="flex-1 min-w-0">
+                <div className="flex items-center justify-between">
+                  <span className="text-xs font-semibold">{getLevelTitle(levelInfo.level)}</span>
+                  <span className="text-[10px] text-primary font-medium flex items-center gap-0.5">
+                    <Zap className="w-3 h-3" />{totalXp} XP
+                  </span>
+                </div>
+                <div className="mt-1.5 h-1.5 rounded-full bg-muted overflow-hidden">
+                  <div
+                    className="h-full rounded-full bg-primary transition-all duration-500"
+                    style={{ width: `${levelInfo.progress * 100}%` }}
+                  />
+                </div>
+                <div className="flex items-center justify-between mt-1">
+                  <span className="text-[10px] text-muted-foreground">
+                    {streak.current > 0 ? `🔥 ${streak.current} дн. серия` : `Следующее: ${nextAchievement?.name ?? '—'}`}
+                  </span>
+                  <ChevronRight className="w-3 h-3 text-muted-foreground" />
+                </div>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+      </button>
 
       {/* Quick stats */}
       <div className="grid grid-cols-3 gap-3">

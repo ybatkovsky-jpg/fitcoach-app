@@ -1,7 +1,7 @@
 'use client';
 
 import { useAppStore, type AppScreen } from '@/lib/store';
-import { Home, Dumbbell, BarChart3, User, Apple } from 'lucide-react';
+import { Home, Dumbbell, BarChart3, User, Apple, Trophy } from 'lucide-react';
 
 const NAV_ITEMS: {
   screen: AppScreen;
@@ -11,15 +11,21 @@ const NAV_ITEMS: {
   { screen: 'dashboard', label: 'Главная', icon: Home },
   { screen: 'workout', label: 'Тренировка', icon: Dumbbell },
   { screen: 'nutrition', label: 'Питание', icon: Apple },
+  { screen: 'achievements', label: 'Достижения', icon: Trophy },
   { screen: 'profile', label: 'Профиль', icon: User },
 ];
 
 export function BottomNav() {
   const { screen, setScreen, workoutSession, isOnboarded } = useAppStore();
 
-  if (!isOnboarded || screen === 'onboarding' || screen === 'workout' || screen === 'feedback' || screen === 'exercise_guide') {
+  // Hide nav during onboarding, active workout, feedback, exercise guide, lab tests
+  const hasActiveWorkout = screen === 'workout' && !!workoutSession;
+  if (!isOnboarded || screen === 'onboarding' || hasActiveWorkout || screen === 'feedback' || screen === 'exercise_guide' || screen === 'lab_tests') {
     return null;
   }
+
+  // When screen is 'workout' but no session, treat as dashboard for active tab highlight
+  const effectiveScreen = screen === 'workout' ? 'dashboard' : screen;
 
   return (
     <nav className="fixed bottom-0 left-0 right-0 z-50">
@@ -27,12 +33,12 @@ export function BottomNav() {
         <div className="flex items-center justify-around h-16 bg-background/95 backdrop-blur-sm border-t">
           {NAV_ITEMS.map((item) => {
             const Icon = item.icon;
-            const active = screen === item.screen;
+            const active = effectiveScreen === item.screen;
             return (
               <button
                 key={item.screen}
                 onClick={() => setScreen(item.screen)}
-                className={`flex flex-col items-center gap-0.5 px-3 py-1 transition-colors ${
+                className={`flex flex-col items-center gap-0.5 px-2.5 py-1 transition-colors ${
                   active ? 'text-primary' : 'text-muted-foreground hover:text-foreground'
                 }`}
               >
