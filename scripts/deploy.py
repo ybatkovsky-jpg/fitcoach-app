@@ -58,28 +58,30 @@ def main():
     print("\n=== Building ===")
     run_cmd(ssh, "cd /root/fitcoach-app && npm run build 2>&1 | tail -10", timeout=180)
 
-    # Kill old process
-    run_cmd(ssh, "pkill -f 'next start' 2>/dev/null; sleep 1")
+    PORT = "3080"
 
-    # Start with nohup on port 3000
-    print("\n=== Starting app on port 3000 ===")
-    run_cmd(ssh, "cd /root/fitcoach-app && nohup npm start -- -p 3000 > /tmp/fitcoach.log 2>&1 &")
-    time.sleep(4)
+    # Kill old fitcoach process
+    run_cmd(ssh, f"pkill -f 'next.*{PORT}' 2>/dev/null; sleep 1")
+
+    # Start with nohup
+    print(f"\n=== Starting app on port {PORT} ===")
+    run_cmd(ssh, f"cd /root/fitcoach-app && nohup npx next start -p {PORT} > /tmp/fitcoach.log 2>&1 &")
+    time.sleep(5)
 
     # Verify
-    code, out, _ = run_cmd(ssh, "curl -s -o /dev/null -w '%{http_code}' http://localhost:3000")
+    code, out, _ = run_cmd(ssh, f"curl -s -o /dev/null -w '%{{http_code}}' http://localhost:{PORT}")
     print(f"\n=== Status: HTTP {out.strip()} ===")
 
-    # Check if port is open externally
-    code2, out2, _ = run_cmd(ssh, "ss -tlnp | grep 3000")
-    print(f"  Port 3000: {out2.strip()}")
+    # Check port
+    code2, out2, _ = run_cmd(ssh, f"ss -tlnp | grep {PORT}")
+    print(f"  Port {PORT}: {out2.strip()}")
 
     # Check firewall
-    run_cmd(ssh, "ufw allow 3000/tcp 2>/dev/null; iptables -I INPUT -p tcp --dport 3000 -j ACCEPT 2>/dev/null; echo 'Firewall updated'")
+    run_cmd(ssh, f"ufw allow {PORT}/tcp 2>/dev/null; iptables -I INPUT -p tcp --dport {PORT} -j ACCEPT 2>/dev/null; echo 'Firewall updated'")
 
     ssh.close()
     print(f"\n✅ FitCoach запущен!")
-    print(f"👉 Открой в браузере: http://{HOST}:3000")
+    print(f"👉 Открой в браузере: http://{HOST}:{PORT}")
 
 if __name__ == "__main__":
     main()
