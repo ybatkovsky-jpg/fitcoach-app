@@ -11,7 +11,7 @@ import {
   applyAdaptiveLoad,
   calculateSets,
 } from './workout-engine';
-import type { EquipmentType, FitnessLevel } from './exercises';
+import type { EquipmentType, FitnessLevel, ExerciseConfig } from './exercises';
 import {
   ACHIEVEMENTS,
   getLevelInfo,
@@ -24,13 +24,15 @@ import {
 export type AppScreen =
   | 'onboarding'
   | 'dashboard'
+  | 'workout_preview'
   | 'workout'
   | 'feedback'
   | 'profile'
   | 'nutrition'
   | 'exercise_guide'
   | 'lab_tests'
-  | 'achievements';
+  | 'achievements'
+  | 'admin';
 
 // --- Workout session state ---
 
@@ -93,6 +95,7 @@ interface AppState {
   // Active workout session
   workoutSession: WorkoutSession | null;
   startWorkout: () => void;
+  beginWorkout: () => void;
   completeSet: (reps: number, rpe?: number) => void;
   skipSet: () => void;
   startRest: () => void;
@@ -102,6 +105,7 @@ interface AppState {
 
   // Feedback
   lastFeedback: WorkoutFeedback | null;
+  workoutNotCounted: boolean;
   setFeedback: (f: WorkoutFeedback) => void;
   consecutiveHardCount: number;
 
@@ -122,7 +126,12 @@ interface AppState {
   addLabTestEntry: (results: Record<string, number>) => void;
   removeLabTestEntry: (id: string) => void;
 
-  // Reset
+  // --- ADMIN ---
+  customExercises: ExerciseConfig[];
+  addCustomExercise: (ex: ExerciseConfig) => void;
+  updateCustomExercise: (id: string, ex: Partial<ExerciseConfig>) => void;
+  removeCustomExercise: (id: string) => void;
+
   resetAll: () => void;
 }
 
@@ -184,7 +193,7 @@ export const useAppStore = create<AppState>()(
         const updatedProfile = { ...state.profile, fitnessLevel: level };
         set({ isOnboarded: true, profile: updatedProfile, screen: 'dashboard' });
         // Auto-generate first plan
-        const plan = generateWorkout(updatedProfile);
+        const plan = generateWorkout(updatedProfile, state.customExercises);
         set({ currentPlan: plan });
       },
 
@@ -210,7 +219,7 @@ export const useAppStore = create<AppState>()(
             createdAt: Date.now(),
           };
         } else {
-          plan = generateWorkout(state.profile);
+          plan = generateWorkout(state.profile, state.customExercises);
         }
 
         set({ currentPlan: plan });
@@ -219,6 +228,10 @@ export const useAppStore = create<AppState>()(
       // Active workout
       workoutSession: null,
       startWorkout: () => {
+        // Just navigate to preview — actual start happens via beginWorkout
+        set({ screen: 'workout_preview' });
+      },
+      beginWorkout: () => {
         const state = get();
         if (!state.currentPlan) return;
         const profile = state.profile;
@@ -352,45 +365,65 @@ export const useAppStore = create<AppState>()(
           const duration = state.workoutSession
             ? Math.round((Date.now() - state.workoutSession.startTime) / 60000)
             : 0;
+          const exercises = state.currentPlan?.exercises ?? [];
+
+          // Calculate completion: only sets with reps > 0 count
+          const totalTargetSets = exercises.reduce((s, ex) => s + ex.targetSets, 0);
+          const completedSets = exercises.reduce(
+            (s, ex) => s + ex.setResults.filter((r) => r.reps > 0).length, 0,
+          );
+          const completionPct = totalTargetSets > 0 ? completedSets / totalTargetSets : 0;
+
+          // Less than 10% = not counted
+          if (completionPct < 0.1) {
+            return {
+              screen: 'feedback',
+              workoutSession: null,
+              workoutNotCounted: true,
+            };
+          }
+
           const entry: HistoryEntry = {
             id: `hist_${Date.now()}`,
             date: new Date().toISOString().split('T')[0],
             planId: state.currentPlan?.id ?? '',
             feedback: null,
-            exercises: state.currentPlan?.exercises.map((ex) => ({
+            exercises: exercises.map((ex) => ({
               name: ex.exerciseName,
               sets: ex.targetSets,
               reps: ex.targetReps,
               completed: ex.completedSets >= ex.targetSets,
-            })) ?? [],
+            })),
             durationMin: duration,
           };
 
-          // Award XP for workout completion
-          let newXp = state.totalXp + 50; // base XP for completing a workout
-          const newUnlocked = [...state.recentlyUnlocked];
-
-          // Bonus for all exercises completed
-          const allDone = entry.exercises.every((e) => e.completed);
-          if (allDone) newXp += 25;
-
-          // XP for each completed exercise
-          const completedExCount = entry.exercises.filter((e) => e.completed).length;
-          newXp += completedExCount * 5;
+          // Proportional XP: base 100 * completion ratio
+          const baseXp = Math.round(100 * completionPct);
+          // Bonus for 100% completion
+          const allDone = completionPct >= 1;
+          const bonusXp = allDone ? 25 : 0;
+          const newXp = state.totalXp + baseXp + bonusXp;
 
           return {
             screen: 'feedback',
             workoutSession: null,
+            workoutNotCounted: false,
             history: [...state.history, entry],
             totalXp: newXp,
-            recentlyUnlocked: newUnlocked,
+            recentlyUnlocked: [],
           };
         }),
 
       // Feedback
       lastFeedback: null,
+      workoutNotCounted: false,
       setFeedback: (f) => {
         const state = get();
+        if (state.workoutNotCounted) {
+          // Don't process feedback for uncounted workouts
+          set({ screen: 'dashboard', workoutNotCounted: false });
+          return;
+        }
         const newConsecutive = f === 'very_hard'
           ? state.consecutiveHardCount + 1
           : 0;
@@ -400,17 +433,12 @@ export const useAppStore = create<AppState>()(
           history[history.length - 1] = { ...history[history.length - 1], feedback: f };
         }
 
-        // Award XP for feedback
-        let newXp = state.totalXp + 10;
-        const newUnlocked = [...state.recentlyUnlocked];
-
         set({
           lastFeedback: f,
           consecutiveHardCount: newConsecutive,
           history,
           screen: 'dashboard',
-          totalXp: newXp,
-          recentlyUnlocked: newUnlocked,
+          workoutNotCounted: false,
         });
 
         // Check achievements after a tick
@@ -520,6 +548,19 @@ export const useAppStore = create<AppState>()(
           labTestEntries: state.labTestEntries.filter((e) => e.id !== id),
         })),
 
+      // --- ADMIN ---
+      customExercises: [] as ExerciseConfig[],
+      addCustomExercise: (ex) =>
+        set((s) => ({ customExercises: [...s.customExercises, ex] })),
+      updateCustomExercise: (id, patch) =>
+        set((s) => ({
+          customExercises: s.customExercises.map((e) =>
+            e.id === id ? { ...e, ...patch } : e,
+          ),
+        })),
+      removeCustomExercise: (id) =>
+        set((s) => ({ customExercises: s.customExercises.filter((e) => e.id !== id) })),
+
       // Reset
       resetAll: () =>
         set({
@@ -530,6 +571,7 @@ export const useAppStore = create<AppState>()(
           currentPlan: null,
           workoutSession: null,
           lastFeedback: null,
+          workoutNotCounted: false,
           consecutiveHardCount: 0,
           history: [],
           missedDays: 0,
@@ -537,6 +579,7 @@ export const useAppStore = create<AppState>()(
           unlockedAchievements: [],
           recentlyUnlocked: [],
           labTestEntries: [],
+          customExercises: [],
         }),
     }),
     {
@@ -554,6 +597,7 @@ export const useAppStore = create<AppState>()(
         totalXp: state.totalXp,
         unlockedAchievements: state.unlockedAchievements,
         labTestEntries: state.labTestEntries,
+        customExercises: state.customExercises,
       }),
     },
   ),

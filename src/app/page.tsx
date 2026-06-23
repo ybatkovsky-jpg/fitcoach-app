@@ -5,12 +5,14 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { OnboardingScreen } from '@/components/onboarding/onboarding-screen';
 import { DashboardScreen } from '@/components/screens/dashboard-screen';
 import { WorkoutScreen } from '@/components/screens/workout-screen';
+import { WorkoutPreviewScreen } from '@/components/screens/workout-preview-screen';
 import { FeedbackScreen } from '@/components/screens/feedback-screen';
 import { ProfileScreen } from '@/components/screens/profile-screen';
 import { NutritionScreen } from '@/components/screens/nutrition-screen';
 import { ExerciseGuideScreen } from '@/components/screens/exercise-guide-screen';
 import { LabTestsScreen } from '@/components/screens/lab-tests-screen';
 import { AchievementsScreen } from '@/components/screens/achievements-screen';
+import { AdminScreen } from '@/components/screens/admin-screen';
 import { BottomNav } from '@/components/screens/bottom-nav';
 import { Dumbbell } from 'lucide-react';
 
@@ -76,6 +78,20 @@ export default function Home() {
                 className="absolute inset-0"
               >
                 <DashboardScreen />
+              </motion.div>
+            )}
+
+            {effectiveScreen === 'workout_preview' && (
+              <motion.div
+                key="workout_preview"
+                variants={screenVariants}
+                initial="initial"
+                animate="animate"
+                exit="exit"
+                transition={{ duration: 0.2 }}
+                className="absolute inset-0"
+              >
+                <WorkoutPreviewScreen />
               </motion.div>
             )}
 
@@ -160,6 +176,20 @@ export default function Home() {
                 className="absolute inset-0"
               >
                 <LabTestsScreen />
+              </motion.div>
+            )}
+
+            {effectiveScreen === 'admin' && (
+              <motion.div
+                key="admin"
+                variants={screenVariants}
+                initial="initial"
+                animate="animate"
+                exit="exit"
+                transition={{ duration: 0.2 }}
+                className="absolute inset-0"
+              >
+                <AdminScreen />
               </motion.div>
             )}
 

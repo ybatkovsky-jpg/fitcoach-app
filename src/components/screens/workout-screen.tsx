@@ -294,8 +294,17 @@ export function WorkoutScreen() {
                   ))}
                 </div>
                 <div className="text-center">
-                  <span className="text-4xl font-bold">{exercise.targetReps}</span>
-                  <span className="text-sm text-muted-foreground ml-1">повторений</span>
+                  {exercise.isTimed ? (
+                    <>
+                      <span className="text-4xl font-bold">{exercise.durationSeconds ?? exercise.targetReps}</span>
+                      <span className="text-sm text-muted-foreground ml-1">секунд</span>
+                    </>
+                  ) : (
+                    <>
+                      <span className="text-4xl font-bold">{exercise.targetReps}</span>
+                      <span className="text-sm text-muted-foreground ml-1">повторений</span>
+                    </>
+                  )}
                 </div>
               </CardContent>
             </Card>
@@ -308,7 +317,9 @@ export function WorkoutScreen() {
                   <div key={i} className="flex items-center justify-between py-1.5 px-3 rounded-lg bg-muted/50">
                     <span className="text-xs text-muted-foreground">Подход {i + 1}</span>
                     <div className="flex items-center gap-2">
-                      <span className="text-sm font-medium">{r.reps} реп.</span>
+                      <span className="text-sm font-medium">
+                        {exercise.isTimed ? `${r.reps} сек.` : `${r.reps} реп.`}
+                      </span>
                       {r.rpe && (
                         <Badge variant="outline" className="text-[10px] px-1.5">
                           RPE {r.rpe}

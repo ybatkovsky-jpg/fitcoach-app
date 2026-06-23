@@ -20,7 +20,7 @@ export function BottomNav() {
 
   // Hide nav during onboarding, active workout, feedback, exercise guide, lab tests
   const hasActiveWorkout = screen === 'workout' && !!workoutSession;
-  if (!isOnboarded || screen === 'onboarding' || hasActiveWorkout || screen === 'feedback' || screen === 'exercise_guide' || screen === 'lab_tests') {
+  if (!isOnboarded || screen === 'onboarding' || hasActiveWorkout || screen === 'workout_preview' || screen === 'feedback' || screen === 'exercise_guide' || screen === 'lab_tests') {
     return null;
   }
 

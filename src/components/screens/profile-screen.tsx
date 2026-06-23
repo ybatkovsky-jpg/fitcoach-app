@@ -9,7 +9,7 @@ import { EQUIPMENT_LABELS, MUSCLE_LABELS } from '@/lib/exercises';
 import type { FitnessLevel } from '@/lib/exercises';
 import {
   User, Dumbbell, Target, Activity, Calendar, RotateCcw,
-  ChevronRight, Trophy, Flame,
+  ChevronRight, Trophy, Flame, Settings,
 } from 'lucide-react';
 
 const LEVEL_LABELS: Record<FitnessLevel, string> = {
@@ -192,6 +192,14 @@ export function ProfileScreen() {
         >
           <RotateCcw className="w-4 h-4" />
           Сгенерировать новый план
+        </Button>
+        <Button
+          variant="outline"
+          className="w-full gap-2"
+          onClick={() => setScreen('admin')}
+        >
+          <Settings className="w-4 h-4" />
+          Управление упражнениями
         </Button>
         <Button
           variant="destructive"

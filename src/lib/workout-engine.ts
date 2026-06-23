@@ -6,6 +6,7 @@ import {
   EQUIPMENT_PRIORITY,
   FULL_BODY_TARGETS,
   CARDIO_TARGETS,
+  ANTAGONIST_PAIRS,
   type ExerciseConfig,
   type ExerciseVariant,
   type EquipmentType,
@@ -23,7 +24,8 @@ export interface ExerciseInPlan {
   targetSets: number;
   targetReps: number;
   weightKg: number | null;
-  durationSeconds?: number | null; // for timed exercises (cardio, plank)
+  durationSeconds?: number | null;
+  isTimed?: boolean;
   primaryMuscleGroups: string[];
   category: 'strength' | 'cardio' | 'flexibility';
   completedSets: number;
@@ -129,6 +131,7 @@ function buildExerciseInPlan(
 ): ExerciseInPlan {
   const reps = calculateReps(variant, profile.fitnessLevel);
   const weight = calculateWeight(variant, profile.weight, profile.fitnessLevel);
+  const dur = variant.adjustments.durationSeconds ?? null;
 
   return {
     exerciseConfigId: config.id,
@@ -138,9 +141,10 @@ function buildExerciseInPlan(
     requiredEquipment: variant.requiredEquipment,
     alternativeHint: variant.alternativeEquipmentHint,
     targetSets: sets,
-    targetReps: reps,
+    targetReps: config.isTimed && dur ? dur : reps,
     weightKg: weight,
-    durationSeconds: variant.adjustments.durationSeconds ?? null,
+    durationSeconds: dur,
+    isTimed: config.isTimed,
     primaryMuscleGroups: config.primaryMuscleGroups,
     category: config.category,
     completedSets: 0,
@@ -148,8 +152,9 @@ function buildExerciseInPlan(
   };
 }
 
-export function generateWorkout(profile: UserProfile): WorkoutPlan {
+export function generateWorkout(profile: UserProfile, extraExercises?: ExerciseConfig[]): WorkoutPlan {
   const availableSet = new Set(profile.inventory);
+  const allCatalog = [...EXERCISE_CATALOG, ...(extraExercises ?? [])];
   const selectedExercises: ExerciseInPlan[] = [];
   const coveredIds = new Set<string>();
   const sets = calculateSets(profile.fitnessLevel);
@@ -158,7 +163,7 @@ export function generateWorkout(profile: UserProfile): WorkoutPlan {
   const needsFlexibility = profile.goal === 'flexibility' || profile.goal === 'maintain';
 
   // 1. Strength exercises for each target muscle group
-  const strengthCatalog = EXERCISE_CATALOG.filter((e) => e.category === 'strength');
+  const strengthCatalog = allCatalog.filter((e) => e.category === 'strength');
   for (const target of FULL_BODY_TARGETS) {
     const candidates = strengthCatalog.filter(
       (ex) => ex.primaryMuscleGroups.includes(target),
@@ -177,7 +182,7 @@ export function generateWorkout(profile: UserProfile): WorkoutPlan {
 
   // 2. Add 1-2 cardio exercises (all goals benefit from cardio for cardiovascular health)
   {
-    const cardioCatalog = EXERCISE_CATALOG.filter((e) => e.category === 'cardio');
+    const cardioCatalog = allCatalog.filter((e) => e.category === 'cardio');
     const cardioCount = profile.goal === 'lose_weight' ? 2 : 1;
     let added = 0;
     for (const candidate of cardioCatalog) {
@@ -194,7 +199,7 @@ export function generateWorkout(profile: UserProfile): WorkoutPlan {
 
   // 3. Add flexibility/stretching if goal matches
   if (needsFlexibility) {
-    const flexCatalog = EXERCISE_CATALOG.filter((e) => e.category === 'flexibility');
+    const flexCatalog = allCatalog.filter((e) => e.category === 'flexibility');
     for (const candidate of flexCatalog) {
       if (coveredIds.has(candidate.id)) continue;
       const variant = resolveBestVariant(candidate, availableSet);
@@ -206,18 +211,64 @@ export function generateWorkout(profile: UserProfile): WorkoutPlan {
     }
   }
 
+  // 4. Sort strength exercises by antagonist pairing for optimal rest
+  const strengthExercises = selectedExercises.filter((e) => e.category === 'strength');
+  const otherExercises = selectedExercises.filter((e) => e.category !== 'strength');
+
+  const sorted: ExerciseInPlan[] = [];
+  const used = new Set<number>();
+
+  // Build a map: primary muscle group -> exercise index
+  const muscleToIdx = new Map<string, number>();
+  strengthExercises.forEach((ex, i) => {
+    for (const mg of ex.primaryMuscleGroups) {
+      if (!muscleToIdx.has(mg)) muscleToIdx.set(mg, i);
+    }
+  });
+
+  // Greedy antagonist ordering
+  while (used.size < strengthExercises.length) {
+    const lastPrimary = sorted.length > 0
+      ? sorted[sorted.length - 1].primaryMuscleGroups[0]
+      : null;
+    const targetAntagonist = lastPrimary ? ANTAGONIST_PAIRS[lastPrimary] : null;
+
+    // Prefer antagonist, then any unused
+    let nextIdx = -1;
+    if (targetAntagonist) {
+      const antIdx = muscleToIdx.get(targetAntagonist);
+      if (antIdx !== undefined && !used.has(antIdx)) nextIdx = antIdx;
+    }
+    if (nextIdx === -1) {
+      for (let i = 0; i < strengthExercises.length; i++) {
+        if (!used.has(i)) { nextIdx = i; break; }
+      }
+    }
+    if (nextIdx === -1) break;
+    used.add(nextIdx);
+    sorted.push(strengthExercises[nextIdx]);
+  }
+
+  // Cardio between first and last strength block, flexibility at end
+  const finalExercises = [
+    ...sorted.slice(0, 1),
+    ...otherExercises.filter((e) => e.category === 'cardio'),
+    ...sorted.slice(1),
+    ...otherExercises.filter((e) => e.category === 'flexibility'),
+  ];
+
   // Estimate duration
-  const totalSets = selectedExercises.reduce((sum, ex) => sum + ex.targetSets, 0);
-  const cardioTime = selectedExercises
+  const totalSets = finalExercises.reduce((sum, ex) => sum + ex.targetSets, 0);
+  const cardioTime = finalExercises
     .filter((ex) => ex.category === 'cardio' && ex.durationSeconds)
     .reduce((sum, ex) => sum + (ex.durationSeconds ?? 0), 0);
   const estimatedDurationMin = Math.round(
-    (totalSets * 2.5 + selectedExercises.length * 1.5 + cardioTime / 60) / 1,
+    (totalSets * 2.5 + finalExercises.length * 1.5 + cardioTime / 60) / 1,
   );
 
   return {
     id: `plan_${Date.now()}`,
-    exercises: selectedExercises,
+    exercises: finalExercises,
     createdAt: Date.now(),
     estimatedDurationMin,
   };

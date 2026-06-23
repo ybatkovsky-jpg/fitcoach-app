@@ -41,9 +41,9 @@ export interface ExerciseConfig {
   secondaryMuscleGroups: string[];
   difficultyLevel: 'beginner' | 'intermediate' | 'advanced';
   category: 'strength' | 'cardio' | 'flexibility';
+  isTimed?: boolean; // isometric/cardio exercises measured in seconds
   variants: ExerciseVariant[];
   icon: string;
-  // Exercise instructions for visual guide
   instructions: string[];
 }
 
@@ -233,6 +233,7 @@ export const EXERCISE_CATALOG: ExerciseConfig[] = [
     secondaryMuscleGroups: ['shoulders', 'glutes'],
     difficultyLevel: 'beginner',
     category: 'strength',
+    isTimed: true,
     icon: 'Minus',
     instructions: [
       'Встаньте на предплечья и носки стоп',
@@ -755,9 +756,20 @@ export const MUSCLE_LABELS: Record<string, string> = {
   arms: 'Руки',
 };
 
+// Antagonist muscle pairs for workout ordering (agonist -> antagonist)
+export const ANTAGONIST_PAIRS: Record<string, string> = {
+  chest: 'back',
+  back: 'chest',
+  quads: 'hamstrings',
+  hamstrings: 'quads',
+  biceps: 'triceps',
+  triceps: 'biceps',
+  shoulders: 'back',
+};
+
 // Target muscle groups for a full-body workout
 export const FULL_BODY_TARGETS = [
-  'quads', 'glutes', 'chest', 'back', 'core', 'shoulders',
+  'quads', 'chest', 'back', 'core', 'shoulders', 'hamstrings',
 ] as const;
 
 // Cardio target groups

@@ -4,7 +4,7 @@ import { useAppStore, type WorkoutFeedback } from '@/lib/store';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { motion } from 'framer-motion';
-import { Smile, Meh, Frown, Angry } from 'lucide-react';
+import { Smile, Meh, Frown, Angry, XCircle } from 'lucide-react';
 
 const FEEDBACK_OPTIONS: {
   value: WorkoutFeedback;
@@ -49,7 +49,34 @@ const FEEDBACK_OPTIONS: {
 ];
 
 export function FeedbackScreen() {
-  const { setFeedback, history } = useAppStore();
+  const { setFeedback, workoutNotCounted, history } = useAppStore();
+
+  // Not counted: <10% completed
+  if (workoutNotCounted) {
+    return (
+      <div className="flex flex-col h-full px-5 pt-6 pb-6 overflow-y-auto min-h-0">
+        <div className="flex-1 flex flex-col items-center justify-center text-center gap-4">
+          <motion.div
+            initial={{ scale: 0.5, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ type: 'spring', stiffness: 200, damping: 15 }}
+            className="p-4 rounded-full bg-muted"
+          >
+            <XCircle className="w-12 h-12 text-muted-foreground" />
+          </motion.div>
+          <div>
+            <h1 className="text-xl font-bold">Тренировка не засчитана</h1>
+            <p className="text-sm text-muted-foreground mt-2 max-w-[260px] mx-auto">
+              Выполнено менее 10% упражнений. Очки опыта не начислены.
+            </p>
+          </div>
+          <Button onClick={() => setFeedback('normal' as WorkoutFeedback)} className="mt-4">
+            На главную
+          </Button>
+        </div>
+      </div>
+    );
+  }
 
   const lastSession = history.length > 0 ? history[history.length - 1] : null;
   const completedCount = lastSession?.exercises.filter((e) => e.completed).length ?? 0;
