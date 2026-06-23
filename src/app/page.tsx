@@ -23,8 +23,7 @@ const screenVariants = {
 export default function Home() {
   const { screen, workoutSession } = useAppStore();
 
-  // Redirect "Тренировка" tab to dashboard if no active session
-  const effectiveScreen = screen === 'workout' && !workoutSession ? 'dashboard' : screen;
+  const effectiveScreen = screen;
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-muted/50 via-background to-muted/30 p-4">

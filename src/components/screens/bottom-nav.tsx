@@ -16,7 +16,7 @@ const NAV_ITEMS: {
 ];
 
 export function BottomNav() {
-  const { screen, setScreen, workoutSession, isOnboarded } = useAppStore();
+  const { screen, setScreen, workoutSession, isOnboarded, startWorkout } = useAppStore();
 
   // Hide nav during onboarding, active workout, feedback, exercise guide, lab tests
   const hasActiveWorkout = screen === 'workout' && !!workoutSession;
@@ -24,8 +24,13 @@ export function BottomNav() {
     return null;
   }
 
-  // When screen is 'workout' but no session, treat as dashboard for active tab highlight
-  const effectiveScreen = screen === 'workout' ? 'dashboard' : screen;
+  const handleNavClick = (itemScreen: AppScreen) => {
+    if (itemScreen === 'workout') {
+      startWorkout();
+    } else {
+      setScreen(itemScreen);
+    }
+  };
 
   return (
     <nav className="fixed bottom-0 left-0 right-0 z-50">
@@ -33,11 +38,11 @@ export function BottomNav() {
         <div className="flex items-center justify-around h-16 bg-background/95 backdrop-blur-sm border-t">
           {NAV_ITEMS.map((item) => {
             const Icon = item.icon;
-            const active = effectiveScreen === item.screen;
+            const active = screen === item.screen;
             return (
               <button
                 key={item.screen}
-                onClick={() => setScreen(item.screen)}
+                onClick={() => handleNavClick(item.screen)}
                 className={`flex flex-col items-center gap-0.5 px-2.5 py-1 transition-colors ${
                   active ? 'text-primary' : 'text-muted-foreground hover:text-foreground'
                 }`}

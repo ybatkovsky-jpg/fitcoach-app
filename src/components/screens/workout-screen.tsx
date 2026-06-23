@@ -14,25 +14,71 @@ import { MUSCLE_LABELS, EQUIPMENT_LABELS } from '@/lib/exercises';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const EXERCISE_IMAGES: Record<string, string> = {
-  squat: '/exercises/squat.png',
-  push_up: '/exercises/push_up.png',
-  row: '/exercises/row.png',
-  plank: '/exercises/plank.png',
-  lunge: '/exercises/lunge.png',
-  shoulder_press: '/exercises/shoulder_press.png',
-  deadlift: '/exercises/deadlift.png',
-  bridge: '/exercises/bridge.png',
-  jumping_jacks: '/exercises/jumping_jacks.png',
-  burpees: '/exercises/burpees.png',
-  high_knees: '/exercises/high_knees.png',
-  mountain_climbers: '/exercises/mountain_climbers.png',
-  jump_rope: '/exercises/jump_rope.png',
-  rowing_machine_ex: '/exercises/rowing_machine_ex.png',
-  treadmill_run: '/exercises/treadmill_run.png',
-  exercise_bike_ex: '/exercises/exercise_bike_ex.png',
-  stretch_hamstrings: '/exercises/stretch_hamstrings.png',
-  cat_cow: '/exercises/cat_cow.png',
+const PHASES = ['start', 'mid', 'finish'] as const;
+type Phase = (typeof PHASES)[number];
+
+/** Auto-cycling 3-phase exercise illustration */
+function PhaseIllustration({ images, alt }: { images: { start: string; mid: string; finish: string }; alt: string }) {
+  const [phase, setPhase] = useState<Phase>('start');
+  const [dir, setDir] = useState(1); // 1=forward, -1=backward
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setPhase((p) => {
+        const idx = PHASES.indexOf(p);
+        if (idx >= 2) { setDir(-1); return PHASES[1]; }
+        if (idx <= 0) { setDir(1); return PHASES[1]; }
+        return PHASES[idx + dir];
+      });
+    }, 1200);
+    return () => clearInterval(interval);
+  }, [dir]);
+
+  const labels: Record<Phase, string> = { start: 'Старт', mid: 'Фаза', finish: 'Финиш' };
+
+  return (
+    <div className="relative w-full h-full flex items-center justify-center">
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={phase}
+          initial={{ opacity: 0, x: dir * 30 }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: dir * -30 }}
+          transition={{ duration: 0.25 }}
+          className="absolute inset-0"
+        >
+          <Image src={images[phase]} alt={`${alt} ${labels[phase]}`} fill className="object-contain p-2" sizes="360px" />
+        </motion.div>
+      </AnimatePresence>
+      {/* Phase dots */}
+      <div className="absolute bottom-1.5 left-1/2 -translate-x-1/2 flex gap-1.5 z-10">
+        {PHASES.map((p) => (
+          <div key={p} className={`w-1.5 h-1.5 rounded-full transition-colors ${phase === p ? 'bg-primary' : 'bg-primary/30'}`} />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+const EXERCISE_IMAGES: Record<string, { start: string; mid: string; finish: string }> = {
+  squat: { start: '/exercises/squat_start.png', mid: '/exercises/squat.png', finish: '/exercises/squat_finish.png' },
+  push_up: { start: '/exercises/push_up_start.png', mid: '/exercises/push_up.png', finish: '/exercises/push_up_finish.png' },
+  row: { start: '/exercises/row_start.png', mid: '/exercises/row.png', finish: '/exercises/row_finish.png' },
+  plank: { start: '/exercises/plank_start.png', mid: '/exercises/plank.png', finish: '/exercises/plank_finish.png' },
+  lunge: { start: '/exercises/lunge_start.png', mid: '/exercises/lunge.png', finish: '/exercises/lunge_finish.png' },
+  shoulder_press: { start: '/exercises/shoulder_press_start.png', mid: '/exercises/shoulder_press.png', finish: '/exercises/shoulder_press_finish.png' },
+  deadlift: { start: '/exercises/deadlift_start.png', mid: '/exercises/deadlift.png', finish: '/exercises/deadlift_finish.png' },
+  bridge: { start: '/exercises/bridge_start.png', mid: '/exercises/bridge.png', finish: '/exercises/bridge_finish.png' },
+  jumping_jacks: { start: '/exercises/jumping_jacks_start.png', mid: '/exercises/jumping_jacks.png', finish: '/exercises/jumping_jacks_finish.png' },
+  burpees: { start: '/exercises/burpees_start.png', mid: '/exercises/burpees.png', finish: '/exercises/burpees_finish.png' },
+  high_knees: { start: '/exercises/high_knees_start.png', mid: '/exercises/high_knees.png', finish: '/exercises/high_knees_finish.png' },
+  mountain_climbers: { start: '/exercises/mountain_climbers_start.png', mid: '/exercises/mountain_climbers.png', finish: '/exercises/mountain_climbers_finish.png' },
+  jump_rope: { start: '/exercises/jump_rope_start.png', mid: '/exercises/jump_rope.png', finish: '/exercises/jump_rope_finish.png' },
+  rowing_machine_ex: { start: '/exercises/rowing_machine_ex_start.png', mid: '/exercises/rowing_machine_ex.png', finish: '/exercises/rowing_machine_ex_finish.png' },
+  treadmill_run: { start: '/exercises/treadmill_run_start.png', mid: '/exercises/treadmill_run.png', finish: '/exercises/treadmill_run_finish.png' },
+  exercise_bike_ex: { start: '/exercises/exercise_bike_ex_start.png', mid: '/exercises/exercise_bike_ex.png', finish: '/exercises/exercise_bike_ex_finish.png' },
+  stretch_hamstrings: { start: '/exercises/stretch_hamstrings_start.png', mid: '/exercises/stretch_hamstrings.png', finish: '/exercises/stretch_hamstrings_finish.png' },
+  cat_cow: { start: '/exercises/cat_cow_start.png', mid: '/exercises/cat_cow.png', finish: '/exercises/cat_cow_finish.png' },
 };
 
 export function WorkoutScreen() {
@@ -161,7 +207,7 @@ export function WorkoutScreen() {
         ) : (
           /* Exercise screen */
           <div className="space-y-4 pt-2">
-            {/* Exercise illustration */}
+            {/* Exercise illustration — 3-phase animated */}
             <AnimatePresence mode="wait">
               <motion.div
                 key={exercise.exerciseConfigId}
@@ -169,16 +215,10 @@ export function WorkoutScreen() {
                 animate={{ opacity: 1, y: 0, scale: 1 }}
                 exit={{ opacity: 0, y: -20, scale: 0.95 }}
                 transition={{ duration: 0.35, ease: 'easeOut' }}
-                className="relative h-32 rounded-2xl overflow-hidden bg-gradient-to-br from-primary/5 to-primary/10"
+                className="relative h-36 rounded-2xl overflow-hidden bg-gradient-to-br from-primary/5 to-primary/10"
               >
                 {EXERCISE_IMAGES[exercise.exerciseConfigId] ? (
-                  <Image
-                    src={EXERCISE_IMAGES[exercise.exerciseConfigId]}
-                    alt={exercise.exerciseName}
-                    fill
-                    className="object-contain p-2"
-                    sizes="360px"
-                  />
+                  <PhaseIllustration images={EXERCISE_IMAGES[exercise.exerciseConfigId]} alt={exercise.exerciseName} />
                 ) : (
                   <div className="w-full h-full flex items-center justify-center text-primary/20">
                     <Zap className="w-14 h-14" />

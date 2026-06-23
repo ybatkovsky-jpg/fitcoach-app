@@ -9,26 +9,26 @@ import { ArrowLeft, Dumbbell, Zap, Waves } from 'lucide-react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 
-// Map exercise IDs to generated illustration images
-const EXERCISE_IMAGES: Record<string, string> = {
-  squat: '/exercises/squat.png',
-  push_up: '/exercises/push_up.png',
-  row: '/exercises/row.png',
-  plank: '/exercises/plank.png',
-  lunge: '/exercises/lunge.png',
-  shoulder_press: '/exercises/shoulder_press.png',
-  deadlift: '/exercises/deadlift.png',
-  bridge: '/exercises/bridge.png',
-  jumping_jacks: '/exercises/jumping_jacks.png',
-  burpees: '/exercises/burpees.png',
-  high_knees: '/exercises/high_knees.png',
-  mountain_climbers: '/exercises/mountain_climbers.png',
-  jump_rope: '/exercises/jump_rope.png',
-  rowing_machine_ex: '/exercises/rowing_machine_ex.png',
-  treadmill_run: '/exercises/treadmill_run.png',
-  exercise_bike_ex: '/exercises/exercise_bike_ex.png',
-  stretch_hamstrings: '/exercises/stretch_hamstrings.png',
-  cat_cow: '/exercises/cat_cow.png',
+// Map exercise IDs to generated illustration images (3 phases)
+const EXERCISE_IMAGES: Record<string, { start: string; mid: string; finish: string }> = {
+  squat: { start: '/exercises/squat_start.png', mid: '/exercises/squat.png', finish: '/exercises/squat_finish.png' },
+  push_up: { start: '/exercises/push_up_start.png', mid: '/exercises/push_up.png', finish: '/exercises/push_up_finish.png' },
+  row: { start: '/exercises/row_start.png', mid: '/exercises/row.png', finish: '/exercises/row_finish.png' },
+  plank: { start: '/exercises/plank_start.png', mid: '/exercises/plank.png', finish: '/exercises/plank_finish.png' },
+  lunge: { start: '/exercises/lunge_start.png', mid: '/exercises/lunge.png', finish: '/exercises/lunge_finish.png' },
+  shoulder_press: { start: '/exercises/shoulder_press_start.png', mid: '/exercises/shoulder_press.png', finish: '/exercises/shoulder_press_finish.png' },
+  deadlift: { start: '/exercises/deadlift_start.png', mid: '/exercises/deadlift.png', finish: '/exercises/deadlift_finish.png' },
+  bridge: { start: '/exercises/bridge_start.png', mid: '/exercises/bridge.png', finish: '/exercises/bridge_finish.png' },
+  jumping_jacks: { start: '/exercises/jumping_jacks_start.png', mid: '/exercises/jumping_jacks.png', finish: '/exercises/jumping_jacks_finish.png' },
+  burpees: { start: '/exercises/burpees_start.png', mid: '/exercises/burpees.png', finish: '/exercises/burpees_finish.png' },
+  high_knees: { start: '/exercises/high_knees_start.png', mid: '/exercises/high_knees.png', finish: '/exercises/high_knees_finish.png' },
+  mountain_climbers: { start: '/exercises/mountain_climbers_start.png', mid: '/exercises/mountain_climbers.png', finish: '/exercises/mountain_climbers_finish.png' },
+  jump_rope: { start: '/exercises/jump_rope_start.png', mid: '/exercises/jump_rope.png', finish: '/exercises/jump_rope_finish.png' },
+  rowing_machine_ex: { start: '/exercises/rowing_machine_ex_start.png', mid: '/exercises/rowing_machine_ex.png', finish: '/exercises/rowing_machine_ex_finish.png' },
+  treadmill_run: { start: '/exercises/treadmill_run_start.png', mid: '/exercises/treadmill_run.png', finish: '/exercises/treadmill_run_finish.png' },
+  exercise_bike_ex: { start: '/exercises/exercise_bike_ex_start.png', mid: '/exercises/exercise_bike_ex.png', finish: '/exercises/exercise_bike_ex_finish.png' },
+  stretch_hamstrings: { start: '/exercises/stretch_hamstrings_start.png', mid: '/exercises/stretch_hamstrings.png', finish: '/exercises/stretch_hamstrings_finish.png' },
+  cat_cow: { start: '/exercises/cat_cow_start.png', mid: '/exercises/cat_cow.png', finish: '/exercises/cat_cow_finish.png' },
 };
 
 const CATEGORY_ICONS: Record<string, React.ComponentType<{ className?: string }>> = {
@@ -82,7 +82,7 @@ export function ExerciseGuideScreen() {
 
       {/* Content */}
       <div className="flex-1 overflow-y-auto px-5 pb-6 space-y-5 min-h-0">
-        {/* Illustration */}
+        {/* 3-phase illustration */}
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -90,21 +90,33 @@ export function ExerciseGuideScreen() {
         >
           <Card className="border-0 shadow-sm overflow-hidden">
             <CardContent className="p-3">
-              <div className="h-44 relative rounded-xl overflow-hidden bg-gradient-to-br from-primary/5 to-primary/10">
-                {exerciseImage ? (
-                  <Image
-                    src={exerciseImage}
-                    alt={exercise.name}
-                    fill
-                    className="object-contain p-3"
-                    sizes="360px"
-                  />
-                ) : (
-                  <div className="w-full h-full flex items-center justify-center text-muted-foreground">
-                    <Dumbbell className="w-12 h-12 opacity-30" />
-                  </div>
-                )}
-              </div>
+              {exerciseImage ? (
+                <div className="grid grid-cols-3 gap-2">
+                  {([['start', 'Старт'], ['mid', 'Фаза'], ['finish', 'Финиш']] as const).map(([phase, label], i) => (
+                    <motion.div
+                      key={phase}
+                      initial={{ opacity: 0, y: 10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.1 + i * 0.1 }}
+                    >
+                      <div className="relative h-28 rounded-xl overflow-hidden bg-gradient-to-br from-primary/5 to-primary/10">
+                        <Image
+                          src={exerciseImage[phase]}
+                          alt={`${exercise.name} ${label}`}
+                          fill
+                          className="object-contain p-1.5"
+                          sizes="120px"
+                        />
+                      </div>
+                      <p className="text-[10px] text-center text-muted-foreground mt-1 font-medium">{label}</p>
+                    </motion.div>
+                  ))}
+                </div>
+              ) : (
+                <div className="h-44 flex items-center justify-center bg-gradient-to-br from-primary/5 to-primary/10 rounded-xl">
+                  <Dumbbell className="w-12 h-12 text-muted-foreground/30" />
+                </div>
+              )}
             </CardContent>
           </Card>
         </motion.div>
