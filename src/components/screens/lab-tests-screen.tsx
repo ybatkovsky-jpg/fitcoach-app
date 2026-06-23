@@ -10,14 +10,23 @@ import {
   BIOMARKERS,
   getBiomarkerStatus,
   getRecommendations,
+  getLifestyleRecommendations,
   STATUS_CONFIG,
+  LAB_PANELS,
   type BiomarkerDef,
   type BiomarkerStatus,
 } from '@/lib/lab-tests';
 import {
   ChevronLeft, Plus, Trash2, Pill, FlaskConical, Info,
   AlertTriangle, CheckCircle2, ArrowDown, ArrowUp, Minus,
+  ClipboardList, Heart, Lightbulb, Clock, DollarSign, Beaker,
 } from 'lucide-react';
+
+const PRIORITY_CONFIG = {
+  essential: { label: 'Обязательно', color: 'text-rose-600', bg: 'bg-rose-100 dark:bg-rose-900/30', dot: 'bg-rose-500' },
+  recommended: { label: 'Рекомендовано', color: 'text-amber-600', bg: 'bg-amber-100 dark:bg-amber-900/30', dot: 'bg-amber-500' },
+  optional: { label: 'По желанию', color: 'text-blue-600', bg: 'bg-blue-100 dark:bg-blue-900/30', dot: 'bg-blue-500' },
+};
 
 export function LabTestsScreen() {
   const { labTestEntries, addLabTestEntry, removeLabTestEntry, setScreen } = useAppStore();
@@ -25,8 +34,9 @@ export function LabTestsScreen() {
   // Input state
   const [inputValues, setInputValues] = useState<Record<string, string>>({});
   const [showForm, setShowForm] = useState(false);
-  const [activeTab, setActiveTab] = useState<'enter' | 'history' | 'recommendations'>('enter');
+  const [activeTab, setActiveTab] = useState<'enter' | 'history' | 'recommendations' | 'panels' | 'lifestyle'>('panels');
   const [selectedEntry, setSelectedEntry] = useState<string | null>(null);
+  const [expandedPanel, setExpandedPanel] = useState<string | null>(null);
 
   const handleSave = () => {
     const results: Record<string, number> = {};
@@ -40,7 +50,6 @@ export function LabTestsScreen() {
     }
     if (!hasValue) return;
 
-    // Pre-compute the entry ID (matches store logic)
     const newId = `lab_${Date.now()}`;
     addLabTestEntry(results);
     setInputValues({});
@@ -58,6 +67,10 @@ export function LabTestsScreen() {
 
   const recommendations = selectedEntryData
     ? getRecommendations(selectedEntryData.results)
+    : [];
+
+  const lifestyleRecs = selectedEntryData
+    ? getLifestyleRecommendations(selectedEntryData.results)
     : [];
 
   const filledCount = Object.values(inputValues).filter((v) => v.trim() !== '').length;
@@ -79,16 +92,18 @@ export function LabTestsScreen() {
       </div>
 
       {/* Tabs */}
-      <div className="px-5 flex gap-1 shrink-0">
+      <div className="px-5 flex gap-1 shrink-0 overflow-x-auto">
         {([
+          { id: 'panels' as const, label: 'Что сдать' },
           { id: 'enter' as const, label: 'Ввести' },
-          { id: 'history' as const, label: 'История' },
           { id: 'recommendations' as const, label: 'БАДы' },
+          { id: 'lifestyle' as const, label: 'Советы' },
+          { id: 'history' as const, label: 'История' },
         ]).map((tab) => (
           <button
             key={tab.id}
             onClick={() => setActiveTab(tab.id)}
-            className={`flex-1 py-2 text-xs font-medium rounded-lg transition-colors ${
+            className={`shrink-0 py-2 text-[10px] font-medium rounded-lg transition-colors px-2.5 ${
               activeTab === tab.id
                 ? 'bg-primary text-primary-foreground'
                 : 'text-muted-foreground hover:bg-muted'
@@ -101,6 +116,152 @@ export function LabTestsScreen() {
 
       {/* Content */}
       <div className="flex-1 overflow-y-auto px-5 pt-4 pb-24 min-h-0">
+        {/* === PANELS TAB (What to test) === */}
+        {activeTab === 'panels' && (
+          <div className="space-y-4">
+            <div className="text-center space-y-2 mb-4">
+              <div className="p-4 rounded-2xl bg-primary/5 inline-block">
+                <ClipboardList className="w-8 h-8 text-primary" />
+              </div>
+              <h2 className="text-base font-bold">Какие анализы сдать?</h2>
+              <p className="text-xs text-muted-foreground leading-relaxed max-w-[280px] mx-auto">
+                Выберите панель анализов в зависимости от ваших целей. Каждая панель содержит конкретные показатели и даёт чёткий результат: что у вас в норме, а что требует внимания.
+              </p>
+            </div>
+
+            {LAB_PANELS.map((panel) => {
+              const isExpanded = expandedPanel === panel.id;
+              const pCfg = PRIORITY_CONFIG[panel.priority];
+              // Check which biomarkers have already been tested
+              const testedCount = labTestEntries.length > 0
+                ? panel.biomarkerIds.filter((id) =>
+                    labTestEntries[labTestEntries.length - 1].results[id] !== undefined
+                  ).length
+                : 0;
+
+              return (
+                <Card key={panel.id} className="border-0 shadow-sm overflow-hidden">
+                  <CardContent className="p-0">
+                    <button
+                      className="w-full text-left p-4"
+                      onClick={() => setExpandedPanel(isExpanded ? null : panel.id)}
+                    >
+                      <div className="flex items-start justify-between gap-2">
+                        <div className="flex-1 min-w-0">
+                          <div className="flex items-center gap-2 flex-wrap mb-1">
+                            <h3 className="text-sm font-bold">{panel.name}</h3>
+                            <span className={`text-[10px] px-2 py-0.5 rounded-md font-medium ${pCfg.bg} ${pCfg.color}`}>
+                              {pCfg.label}
+                            </span>
+                          </div>
+                          <p className="text-[11px] text-muted-foreground leading-relaxed line-clamp-2">
+                            {panel.description}
+                          </p>
+                          <div className="flex items-center gap-3 mt-2 text-[10px] text-muted-foreground">
+                            <span className="flex items-center gap-1">
+                              <Beaker className="w-3 h-3" />
+                              {panel.biomarkerIds.length} показателей
+                            </span>
+                            <span className="flex items-center gap-1">
+                              <Clock className="w-3 h-3" />
+                              {panel.frequency}
+                            </span>
+                            <span className="flex items-center gap-1">
+                              <DollarSign className="w-3 h-3" />
+                              {panel.estimatedCost}
+                            </span>
+                          </div>
+                        </div>
+                        <ChevronIcon expanded={isExpanded} />
+                      </div>
+                    </button>
+
+                    {isExpanded && (
+                      <div className="border-t">
+                        {/* What you get */}
+                        <div className="p-4 space-y-2.5">
+                          <div className="flex items-center gap-1.5">
+                            <Lightbulb className="w-3.5 h-3.5 text-primary" />
+                            <span className="text-xs font-semibold">Что вы узнаете:</span>
+                          </div>
+                          <ul className="space-y-1.5">
+                            {panel.whatYouGet.map((item, i) => (
+                              <li key={i} className="flex items-start gap-2 text-[11px] text-muted-foreground">
+                                <CheckCircle2 className="w-3 h-3 text-emerald-500 shrink-0 mt-0.5" />
+                                <span>{item}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+
+                        {/* Biomarkers included */}
+                        <div className="px-4 pb-3">
+                          <div className="text-[10px] font-medium text-muted-foreground mb-1.5">Показатели в панели:</div>
+                          <div className="flex flex-wrap gap-1">
+                            {panel.biomarkerIds.map((id) => {
+                              const b = BIOMARKERS.find((bm) => bm.id === id);
+                              if (!b) return null;
+                              const isTested = labTestEntries.length > 0 &&
+                                labTestEntries[labTestEntries.length - 1].results[id] !== undefined;
+                              return (
+                                <span
+                                  key={id}
+                                  className={`text-[10px] px-2 py-0.5 rounded-md font-medium ${
+                                    isTested
+                                      ? 'bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400'
+                                      : 'bg-muted text-muted-foreground'
+                                  }`}
+                                >
+                                  {isTested ? '✓ ' : ''}{b.name.split('(')[0].trim()}
+                                </span>
+                              );
+                            })}
+                          </div>
+                        </div>
+
+                        {/* Preparation */}
+                        <div className="px-4 pb-3">
+                          <div className="p-3 rounded-xl bg-muted/50 text-[10px] text-muted-foreground space-y-1">
+                            <div className="flex items-center gap-1 font-medium text-foreground">
+                              <Info className="w-3 h-3 text-primary" />
+                              Подготовка к сдаче
+                            </div>
+                            <p>{panel.preparation}</p>
+                          </div>
+                        </div>
+
+                        {/* Action */}
+                        {testedCount > 0 && testedCount < panel.biomarkerIds.length && (
+                          <div className="px-4 pb-4">
+                            <div className="p-2.5 rounded-xl bg-amber-50 dark:bg-amber-900/20 text-[10px] text-amber-700 dark:text-amber-400">
+                              Из этой панели уже сдано {testedCount} из {panel.biomarkerIds.length}. Остальные показатели можно добавить в новой записи.
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    )}
+                  </CardContent>
+                </Card>
+              );
+            })}
+
+            {/* General advice at bottom */}
+            <Card className="border-0 shadow-sm">
+              <CardContent className="p-4 space-y-2">
+                <div className="flex items-center gap-1.5">
+                  <Heart className="w-3.5 h-3.5 text-rose-500" />
+                  <span className="text-xs font-semibold">Общие правила</span>
+                </div>
+                <div className="space-y-1.5 text-[11px] text-muted-foreground leading-relaxed">
+                  <p>Сдавайте анализы утром натощак (8–12 часов голодания). Воду пить можно. Все анализы сдавайте в один день, чтобы получить полную картину.</p>
+                  <p>За 48 часов до сдачи исключите интенсивные тренировки и алкоголь. Приём БАДов отмените в день сдачи (кроме тех, что назначены врачом постоянно).</p>
+                  <p>Результаты введите в раздел «Ввести» — приложение автоматически определит отклонения и подберёт персональные рекомендации по добавкам и образу жизни.</p>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        )}
+
         {/* === ENTER TAB === */}
         {activeTab === 'enter' && (
           <div className="space-y-4">
@@ -160,79 +321,7 @@ export function LabTestsScreen() {
           </div>
         )}
 
-        {/* === HISTORY TAB === */}
-        {activeTab === 'history' && (
-          <div className="space-y-3">
-            {labTestEntries.length === 0 ? (
-              <div className="flex flex-col items-center gap-3 py-10 text-center">
-                <FlaskConical className="w-10 h-10 text-muted-foreground/40" />
-                <p className="text-sm text-muted-foreground">Пока нет сохранённых анализов</p>
-                <Button variant="outline" size="sm" className="gap-2" onClick={() => setActiveTab('enter')}>
-                  <Plus className="w-3.5 h-3.5" />
-                  Добавить
-                </Button>
-              </div>
-            ) : (
-              labTestEntries.map((entry) => {
-                const recs = getRecommendations(entry.results);
-                const hasIssues = recs.length > 0;
-                return (
-                  <Card
-                    key={entry.id}
-                    className={`border-0 shadow-sm cursor-pointer transition-all ${
-                      selectedEntry === entry.id ? 'ring-2 ring-primary' : ''
-                    }`}
-                    onClick={() => { setSelectedEntry(entry.id); setActiveTab('recommendations'); }}
-                  >
-                    <CardContent className="p-4">
-                      <div className="flex items-center justify-between mb-2">
-                        <div className="flex items-center gap-2">
-                          <span className="text-sm font-semibold">{entry.date}</span>
-                          <Badge variant="outline" className="text-[10px]">
-                            {Object.keys(entry.results).length} показателей
-                          </Badge>
-                        </div>
-                        <div className="flex items-center gap-2">
-                          {hasIssues && (
-                            <Badge variant="secondary" className="text-[10px] bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400">
-                              {recs.length} рек.
-                            </Badge>
-                          )}
-                          <button
-                            onClick={(e) => { e.stopPropagation(); removeLabTestEntry(entry.id); }}
-                            className="p-1 rounded-lg hover:bg-destructive/10 text-muted-foreground hover:text-destructive transition-colors"
-                          >
-                            <Trash2 className="w-3.5 h-3.5" />
-                          </button>
-                        </div>
-                      </div>
-
-                      {/* Mini results */}
-                      <div className="flex flex-wrap gap-1.5">
-                        {Object.entries(entry.results).map(([id, value]) => {
-                          const b = BIOMARKERS.find((bm) => bm.id === id);
-                          if (!b) return null;
-                          const status = getBiomarkerStatus(value, b);
-                          const cfg = STATUS_CONFIG[status];
-                          return (
-                            <span
-                              key={id}
-                              className={`text-[10px] px-2 py-0.5 rounded-md font-medium ${cfg.bg} ${cfg.color}`}
-                            >
-                              {b.name.split('(')[0].trim()} {value} {b.unit}
-                            </span>
-                          );
-                        })}
-                      </div>
-                    </CardContent>
-                  </Card>
-                );
-              })
-            )}
-          </div>
-        )}
-
-        {/* === RECOMMENDATIONS TAB === */}
+        {/* === RECOMMENDATIONS TAB (Supplements) === */}
         {activeTab === 'recommendations' && (
           <div className="space-y-4">
             {!selectedEntryData ? (
@@ -302,7 +391,7 @@ export function LabTestsScreen() {
                   </CardContent>
                 </Card>
 
-                {/* Recommendations */}
+                {/* Supplement Recommendations */}
                 {recommendations.length === 0 ? (
                   <Card className="border-0 shadow-sm">
                     <CardContent className="p-5 text-center space-y-2">
@@ -336,7 +425,6 @@ export function LabTestsScreen() {
                             </Badge>
                           </div>
 
-                          {/* Biomarker description */}
                           {(() => {
                             const bDef = BIOMARKERS.find((b) => b.id === rec.biomarkerId);
                             return bDef ? (
@@ -348,7 +436,6 @@ export function LabTestsScreen() {
 
                           <Separator />
 
-                          {/* Supplement recommendations */}
                           <div className="space-y-2.5">
                             <div className="flex items-center gap-1.5">
                               <Pill className="w-3.5 h-3.5 text-primary" />
@@ -380,7 +467,7 @@ export function LabTestsScreen() {
                   </>
                 )}
 
-                {/* General advice */}
+                {/* General retest advice */}
                 <Card className="border-0 shadow-sm">
                   <CardContent className="p-4 space-y-2">
                     <h3 className="text-sm font-semibold">Когда пересдать анализы?</h3>
@@ -400,8 +487,169 @@ export function LabTestsScreen() {
             )}
           </div>
         )}
+
+        {/* === LIFESTYLE TAB === */}
+        {activeTab === 'lifestyle' && (
+          <div className="space-y-4">
+            {!selectedEntryData ? (
+              <div className="flex flex-col items-center gap-3 py-10 text-center">
+                <Lightbulb className="w-10 h-10 text-muted-foreground/40" />
+                <p className="text-sm text-muted-foreground">
+                  Введите результаты анализов для персональных рекомендаций по образу жизни
+                </p>
+                <Button variant="outline" size="sm" className="gap-2" onClick={() => setActiveTab('enter')}>
+                  <Plus className="w-3.5 h-3.5" />
+                  Ввести анализы
+                </Button>
+              </div>
+            ) : lifestyleRecs.length === 0 ? (
+              <Card className="border-0 shadow-sm">
+                <CardContent className="p-5 text-center space-y-2">
+                  <CheckCircle2 className="w-10 h-10 mx-auto text-emerald-500" />
+                  <h3 className="text-sm font-bold text-emerald-700 dark:text-emerald-400">Ваш образ жизни в норме!</h3>
+                  <p className="text-xs text-muted-foreground">
+                    По вашим показателям нет отклонений, требующих корректировки образа жизни.
+                    Продолжайте текущий режим тренировок и отдыха.
+                  </p>
+                </CardContent>
+              </Card>
+            ) : (
+              <>
+                <div className="flex items-center gap-2 mb-2">
+                  <Lightbulb className="w-4 h-4 text-amber-500" />
+                  <h2 className="text-sm font-bold">Рекомендации по образу жизни</h2>
+                </div>
+                <p className="text-[11px] text-muted-foreground leading-relaxed">
+                  Эти рекомендации подобраны на основе ваших отклонений от нормы. Каждая совет связан с конкретными показателями, которые нуждаются в корректировке.
+                </p>
+
+                {lifestyleRecs.map((advice, i) => (
+                  <Card key={i} className="border-0 shadow-sm">
+                    <CardContent className="p-4 space-y-2">
+                      <div className="flex items-start gap-3">
+                        <span className="text-xl shrink-0">{advice.icon}</span>
+                        <div>
+                          <h3 className="text-sm font-bold">{advice.title}</h3>
+                          <p className="text-[11px] text-muted-foreground leading-relaxed mt-1">
+                            {advice.description}
+                          </p>
+                          <div className="flex flex-wrap gap-1 mt-2">
+                            {advice.affectedBiomarkerIds.map((id) => {
+                              const b = BIOMARKERS.find((bm) => bm.id === id);
+                              const val = selectedEntryData?.results[id];
+                              if (!b || val === undefined) return null;
+                              const status = getBiomarkerStatus(val, b);
+                              const cfg = STATUS_CONFIG[status];
+                              return (
+                                <span key={id} className={`text-[10px] px-1.5 py-0.5 rounded-md font-medium ${cfg.bg} ${cfg.color}`}>
+                                  {b.name.split('(')[0].trim()}
+                                </span>
+                              );
+                            })}
+                          </div>
+                        </div>
+                      </div>
+                    </CardContent>
+                  </Card>
+                ))}
+
+                <div className="flex items-start gap-2 p-3 rounded-xl bg-muted/50 text-xs text-muted-foreground">
+                  <Info className="w-3.5 h-3.5 shrink-0 mt-0.5 text-primary" />
+                  <span>
+                    Рекомендации носят информационный характер и не заменяют консультацию врача.
+                    При серьёзных отклонениях обратитесь к специалисту.
+                  </span>
+                </div>
+              </>
+            )}
+          </div>
+        )}
+
+        {/* === HISTORY TAB === */}
+        {activeTab === 'history' && (
+          <div className="space-y-3">
+            {labTestEntries.length === 0 ? (
+              <div className="flex flex-col items-center gap-3 py-10 text-center">
+                <FlaskConical className="w-10 h-10 text-muted-foreground/40" />
+                <p className="text-sm text-muted-foreground">Пока нет сохранённых анализов</p>
+                <Button variant="outline" size="sm" className="gap-2" onClick={() => setActiveTab('enter')}>
+                  <Plus className="w-3.5 h-3.5" />
+                  Добавить
+                </Button>
+              </div>
+            ) : (
+              labTestEntries.map((entry) => {
+                const recs = getRecommendations(entry.results);
+                const hasIssues = recs.length > 0;
+                return (
+                  <Card
+                    key={entry.id}
+                    className={`border-0 shadow-sm cursor-pointer transition-all ${
+                      selectedEntry === entry.id ? 'ring-2 ring-primary' : ''
+                    }`}
+                    onClick={() => { setSelectedEntry(entry.id); setActiveTab('recommendations'); }}
+                  >
+                    <CardContent className="p-4">
+                      <div className="flex items-center justify-between mb-2">
+                        <div className="flex items-center gap-2">
+                          <span className="text-sm font-semibold">{entry.date}</span>
+                          <Badge variant="outline" className="text-[10px]">
+                            {Object.keys(entry.results).length} показателей
+                          </Badge>
+                        </div>
+                        <div className="flex items-center gap-2">
+                          {hasIssues && (
+                            <Badge variant="secondary" className="text-[10px] bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400">
+                              {recs.length} рек.
+                            </Badge>
+                          )}
+                          <button
+                            onClick={(e) => { e.stopPropagation(); removeLabTestEntry(entry.id); }}
+                            className="p-1 rounded-lg hover:bg-destructive/10 text-muted-foreground hover:text-destructive transition-colors"
+                          >
+                            <Trash2 className="w-3.5 h-3.5" />
+                          </button>
+                        </div>
+                      </div>
+
+                      <div className="flex flex-wrap gap-1.5">
+                        {Object.entries(entry.results).map(([id, value]) => {
+                          const b = BIOMARKERS.find((bm) => bm.id === id);
+                          if (!b) return null;
+                          const status = getBiomarkerStatus(value, b);
+                          const cfg = STATUS_CONFIG[status];
+                          return (
+                            <span
+                              key={id}
+                              className={`text-[10px] px-2 py-0.5 rounded-md font-medium ${cfg.bg} ${cfg.color}`}
+                            >
+                              {b.name.split('(')[0].trim()} {value} {b.unit}
+                            </span>
+                          );
+                        })}
+                      </div>
+                    </CardContent>
+                  </Card>
+                );
+              })
+            )}
+          </div>
+        )}
       </div>
     </div>
+  );
+}
+
+// --- Chevron toggle ---
+
+function ChevronIcon({ expanded }: { expanded: boolean }) {
+  return (
+    <svg
+      className={`w-4 h-4 text-muted-foreground shrink-0 transition-transform ${expanded ? 'rotate-180' : ''}`}
+      viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+    >
+      <polyline points="6 9 12 15 18 9" />
+    </svg>
   );
 }
 

@@ -11,6 +11,8 @@ import { ProfileScreen } from '@/components/screens/profile-screen';
 import { NutritionScreen } from '@/components/screens/nutrition-screen';
 import { ExerciseGuideScreen } from '@/components/screens/exercise-guide-screen';
 import { LabTestsScreen } from '@/components/screens/lab-tests-screen';
+import { BodyMetricsScreen } from '@/components/screens/body-metrics-screen';
+import { ProgressScreen } from '@/components/screens/progress-screen';
 import { AchievementsScreen } from '@/components/screens/achievements-screen';
 import { AdminScreen } from '@/components/screens/admin-screen';
 import { BottomNav } from '@/components/screens/bottom-nav';
@@ -23,7 +25,7 @@ const screenVariants = {
 };
 
 export default function Home() {
-  const { screen, workoutSession } = useAppStore();
+  const { screen } = useAppStore();
 
   const effectiveScreen = screen;
 
@@ -176,6 +178,34 @@ export default function Home() {
                 className="absolute inset-0"
               >
                 <LabTestsScreen />
+              </motion.div>
+            )}
+
+            {effectiveScreen === 'body_metrics' && (
+              <motion.div
+                key="body_metrics"
+                variants={screenVariants}
+                initial="initial"
+                animate="animate"
+                exit="exit"
+                transition={{ duration: 0.2 }}
+                className="absolute inset-0"
+              >
+                <BodyMetricsScreen />
+              </motion.div>
+            )}
+
+            {effectiveScreen === 'progress' && (
+              <motion.div
+                key="progress"
+                variants={screenVariants}
+                initial="initial"
+                animate="animate"
+                exit="exit"
+                transition={{ duration: 0.2 }}
+                className="absolute inset-0"
+              >
+                <ProgressScreen />
               </motion.div>
             )}
 

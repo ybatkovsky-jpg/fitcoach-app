@@ -22,6 +22,7 @@ export interface RepRange {
 
 export interface VariantAdjustments {
   defaultWeightPercent: number;
+  discreteWeights?: number[]; // fixed weights in kg (e.g. kettlebells: [16, 24, 32])
   repRange: RepRange;
   durationSeconds?: number; // for timed exercises (plank, cardio)
 }

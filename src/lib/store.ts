@@ -31,10 +31,20 @@ export type AppScreen =
   | 'nutrition'
   | 'exercise_guide'
   | 'lab_tests'
+  | 'body_metrics'
+  | 'progress'
   | 'achievements'
   | 'admin';
 
 // --- Workout session state ---
+
+export interface ExerciseTiming {
+  exerciseConfigId: string;
+  startedAt: number;   // timestamp when exercise began
+  finishedAt: number;  // timestamp when last set completed / skipped
+  totalRepsDone: number;
+  totalSeconds: number;
+}
 
 export interface WorkoutSession {
   currentExerciseIndex: number;
@@ -42,16 +52,28 @@ export interface WorkoutSession {
   isResting: boolean;
   restSecondsLeft: number;
   startTime: number;
+  exerciseTimings: ExerciseTiming[];
 }
 
 // --- History entry ---
+
+export interface ExerciseHistoryRecord {
+  exerciseConfigId: string;
+  exerciseName: string;
+  sets: number;
+  reps: number;
+  completed: boolean;
+  totalSeconds: number;  // time spent on this exercise
+  totalRepsDone: number; // actual reps performed (not target)
+  repsPerMinute: number; // calculated speed metric
+}
 
 export interface HistoryEntry {
   id: string;
   date: string;
   planId: string;
   feedback: WorkoutFeedback | null;
-  exercises: { name: string; sets: number; reps: number; completed: boolean }[];
+  exercises: ExerciseHistoryRecord[];
   durationMin: number;
 }
 
@@ -61,6 +83,19 @@ export interface LabTestEntry {
   id: string;
   date: string;
   results: Record<string, number>; // biomarkerId -> value
+}
+
+// --- Body metrics ---
+
+export interface BodyMetricEntry {
+  id: string;
+  date: string;
+  weightKg: number | null;
+  waistCm: number | null;
+  chestCm?: number | null;
+  hipsCm?: number | null;
+  bicepsCm?: number | null;
+  thighCm?: number | null;
 }
 
 // --- Store interface ---
@@ -126,6 +161,11 @@ interface AppState {
   addLabTestEntry: (results: Record<string, number>) => void;
   removeLabTestEntry: (id: string) => void;
 
+  // --- BODY METRICS ---
+  bodyMetrics: BodyMetricEntry[];
+  addBodyMetric: (m: Omit<BodyMetricEntry, 'id' | 'date'>) => void;
+  removeBodyMetric: (id: string) => void;
+
   // --- ADMIN ---
   customExercises: ExerciseConfig[];
   addCustomExercise: (ex: ExerciseConfig) => void;
@@ -141,6 +181,7 @@ const defaultSession = (): WorkoutSession => ({
   isResting: false,
   restSecondsLeft: 0,
   startTime: Date.now(),
+  exerciseTimings: [],
 });
 
 const REST_DURATION = 60; // seconds between sets
@@ -242,9 +283,17 @@ export const useAppStore = create<AppState>()(
           completedSets: 0,
           setResults: [] as { reps: number; rpe?: number }[],
         }));
+        // Record start time for first exercise
+        const firstTiming: ExerciseTiming = {
+          exerciseConfigId: state.currentPlan.exercises[0]?.exerciseConfigId ?? '',
+          startedAt: Date.now(),
+          finishedAt: Date.now(),
+          totalRepsDone: 0,
+          totalSeconds: 0,
+        };
         set({
           screen: 'workout',
-          workoutSession: defaultSession(),
+          workoutSession: { ...defaultSession(), exerciseTimings: [firstTiming] },
           currentPlan: { ...state.currentPlan, exercises: newSets },
         });
       },
@@ -330,6 +379,22 @@ export const useAppStore = create<AppState>()(
         set((state) => {
           if (!state.workoutSession || !state.currentPlan) return state;
           const nextIdx = state.workoutSession.currentExerciseIndex + 1;
+
+          // Finalize timing for current exercise
+          const timings = [...state.workoutSession.exerciseTimings];
+          const curEx = state.currentPlan.exercises[state.workoutSession.currentExerciseIndex];
+          if (curEx) {
+            const tIdx = timings.findIndex((t) => t.exerciseConfigId === curEx.exerciseConfigId);
+            if (tIdx >= 0) {
+              timings[tIdx] = {
+                ...timings[tIdx],
+                finishedAt: Date.now(),
+                totalRepsDone: curEx.setResults.reduce((s, r) => s + r.reps, 0),
+                totalSeconds: Math.round((Date.now() - timings[tIdx].startedAt) / 1000),
+              };
+            }
+          }
+
           if (nextIdx >= state.currentPlan.exercises.length) {
             const duration = Math.round((Date.now() - state.workoutSession.startTime) / 60000);
             const entry: HistoryEntry = {
@@ -337,12 +402,22 @@ export const useAppStore = create<AppState>()(
               date: new Date().toISOString().split('T')[0],
               planId: state.currentPlan.id,
               feedback: null,
-              exercises: state.currentPlan.exercises.map((ex) => ({
-                name: ex.exerciseName,
-                sets: ex.targetSets,
-                reps: ex.targetReps,
-                completed: ex.completedSets >= ex.targetSets,
-              })),
+              exercises: state.currentPlan.exercises.map((ex) => {
+                const timing = timings.find((t) => t.exerciseConfigId === ex.exerciseConfigId);
+                const totalRepsDone = ex.setResults.reduce((s, r) => s + r.reps, 0);
+                const totalSeconds = timing ? Math.round((timing.finishedAt - timing.startedAt) / 1000) : 0;
+                const repsPerMin = totalSeconds > 0 ? Math.round((totalRepsDone / totalSeconds) * 60) : 0;
+                return {
+                  exerciseConfigId: ex.exerciseConfigId,
+                  exerciseName: ex.exerciseName,
+                  sets: ex.targetSets,
+                  reps: ex.targetReps,
+                  completed: ex.completedSets >= ex.targetSets,
+                  totalSeconds,
+                  totalRepsDone,
+                  repsPerMinute,
+                };
+              }),
               durationMin: duration,
             };
             return {
@@ -351,12 +426,24 @@ export const useAppStore = create<AppState>()(
               history: [...state.history, entry],
             };
           }
+
+          // Start timing for next exercise
+          const nextEx = state.currentPlan.exercises[nextIdx];
+          const newTiming: ExerciseTiming = {
+            exerciseConfigId: nextEx.exerciseConfigId,
+            startedAt: Date.now(),
+            finishedAt: Date.now(),
+            totalRepsDone: 0,
+            totalSeconds: 0,
+          };
+
           return {
             workoutSession: {
               ...state.workoutSession,
               currentExerciseIndex: nextIdx,
               currentSet: 0,
               isResting: false,
+              exerciseTimings: [...timings, newTiming],
             },
           };
         }),
@@ -366,6 +453,20 @@ export const useAppStore = create<AppState>()(
             ? Math.round((Date.now() - state.workoutSession.startTime) / 60000)
             : 0;
           const exercises = state.currentPlan?.exercises ?? [];
+          // Finalize timing for the last active exercise
+          const timings = (state.workoutSession?.exerciseTimings ?? []).map((t) => {
+            if (t.finishedAt <= t.startedAt) {
+              // This timing was never finalized — do it now
+              const curIdx = state.workoutSession?.currentExerciseIndex;
+              const curEx = curIdx !== undefined ? exercises[curIdx] : undefined;
+              if (curEx && t.exerciseConfigId === curEx.exerciseConfigId) {
+                const totalRepsDone = curEx.setResults.reduce((s, r) => s + r.reps, 0);
+                const totalSeconds = Math.round((Date.now() - t.startedAt) / 1000);
+                return { ...t, finishedAt: Date.now(), totalRepsDone, totalSeconds };
+              }
+            }
+            return t;
+          });
 
           // Calculate completion: only sets with reps > 0 count
           const totalTargetSets = exercises.reduce((s, ex) => s + ex.targetSets, 0);
@@ -388,12 +489,22 @@ export const useAppStore = create<AppState>()(
             date: new Date().toISOString().split('T')[0],
             planId: state.currentPlan?.id ?? '',
             feedback: null,
-            exercises: exercises.map((ex) => ({
-              name: ex.exerciseName,
-              sets: ex.targetSets,
-              reps: ex.targetReps,
-              completed: ex.completedSets >= ex.targetSets,
-            })),
+            exercises: exercises.map((ex) => {
+              const timing = timings.find((t) => t.exerciseConfigId === ex.exerciseConfigId);
+              const totalRepsDone = ex.setResults.reduce((s, r) => s + r.reps, 0);
+              const totalSeconds = timing ? Math.round((timing.finishedAt - timing.startedAt) / 1000) : 0;
+              const repsPerMin = totalSeconds > 0 ? Math.round((totalRepsDone / totalSeconds) * 60) : 0;
+              return {
+                exerciseConfigId: ex.exerciseConfigId,
+                exerciseName: ex.exerciseName,
+                sets: ex.targetSets,
+                reps: ex.targetReps,
+                completed: ex.completedSets >= ex.targetSets,
+                totalSeconds,
+                totalRepsDone,
+                repsPerMinute,
+              };
+            }),
             durationMin: duration,
           };
 
@@ -548,6 +659,20 @@ export const useAppStore = create<AppState>()(
           labTestEntries: state.labTestEntries.filter((e) => e.id !== id),
         })),
 
+      // --- BODY METRICS ---
+      bodyMetrics: [] as BodyMetricEntry[],
+      addBodyMetric: (m) =>
+        set((state) => ({
+          bodyMetrics: [
+            ...state.bodyMetrics,
+            { ...m, id: `metric_${Date.now()}`, date: new Date().toISOString().split('T')[0] },
+          ],
+        })),
+      removeBodyMetric: (id: string) =>
+        set((state) => ({
+          bodyMetrics: state.bodyMetrics.filter((e) => e.id !== id),
+        })),
+
       // --- ADMIN ---
       customExercises: [] as ExerciseConfig[],
       addCustomExercise: (ex) =>
@@ -579,6 +704,7 @@ export const useAppStore = create<AppState>()(
           unlockedAchievements: [],
           recentlyUnlocked: [],
           labTestEntries: [],
+          bodyMetrics: [],
           customExercises: [],
         }),
     }),
@@ -597,6 +723,7 @@ export const useAppStore = create<AppState>()(
         totalXp: state.totalXp,
         unlockedAchievements: state.unlockedAchievements,
         labTestEntries: state.labTestEntries,
+        bodyMetrics: state.bodyMetrics,
         customExercises: state.customExercises,
       }),
     },

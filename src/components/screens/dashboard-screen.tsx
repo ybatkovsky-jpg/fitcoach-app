@@ -222,7 +222,7 @@ export function DashboardScreen() {
           <div className="flex items-center justify-between">
             <h3 className="font-semibold text-sm">Последние тренировки</h3>
             <button
-              onClick={() => setScreen('profile')}
+              onClick={() => setScreen('progress')}
               className="text-xs text-primary font-medium flex items-center gap-1"
             >
               Все <ChevronRight className="w-3 h-3" />

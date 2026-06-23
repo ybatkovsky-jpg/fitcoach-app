@@ -9,7 +9,7 @@ import { EQUIPMENT_LABELS, MUSCLE_LABELS } from '@/lib/exercises';
 import type { FitnessLevel } from '@/lib/exercises';
 import {
   User, Dumbbell, Target, Activity, Calendar, RotateCcw,
-  ChevronRight, Trophy, Flame, Settings,
+  ChevronRight, Trophy, Flame, Settings, Ruler, BarChart3,
 } from 'lucide-react';
 
 const LEVEL_LABELS: Record<FitnessLevel, string> = {
@@ -179,6 +179,49 @@ export function ProfileScreen() {
           ))}
         </div>
       )}
+
+      {/* Quick links */}
+      <div className="space-y-2">
+        <button
+          onClick={() => setScreen('body_metrics')}
+          className="w-full text-left"
+        >
+          <Card className="border-0 shadow-sm hover:shadow-md transition-shadow">
+            <CardContent className="p-4 flex items-center gap-3">
+              <div className="p-2.5 rounded-xl bg-blue-100 dark:bg-blue-900/30 shrink-0">
+                <Ruler className="w-5 h-5 text-blue-600 dark:text-blue-400" />
+              </div>
+              <div className="flex-1 min-w-0">
+                <span className="text-sm font-semibold">Тело и вес</span>
+                <p className="text-[10px] text-muted-foreground mt-0.5">Замеры веса, талии, объёмов с графиком динамики</p>
+              </div>
+              <ChevronRight className="w-4 h-4 text-muted-foreground shrink-0" />
+            </CardContent>
+          </Card>
+        </button>
+        <button
+          onClick={() => setScreen('progress')}
+          className="w-full text-left"
+        >
+          <Card className="border-0 shadow-sm hover:shadow-md transition-shadow">
+            <CardContent className="p-4 flex items-center gap-3">
+              <div className="p-2.5 rounded-xl bg-emerald-100 dark:bg-emerald-900/30 shrink-0">
+                <BarChart3 className="w-5 h-5 text-emerald-600 dark:text-emerald-400" />
+              </div>
+              <div className="flex-1 min-w-0">
+                <div className="flex items-center gap-2">
+                  <span className="text-sm font-semibold">Прогресс</span>
+                  <Badge variant="secondary" className="text-[10px] bg-primary/10 text-primary">
+                    {totalWorkouts} трен.
+                  </Badge>
+                </div>
+                <p className="text-[10px] text-muted-foreground mt-0.5">Скорость упражнений, объём тренировок, тренды</p>
+              </div>
+              <ChevronRight className="w-4 h-4 text-muted-foreground shrink-0" />
+            </CardContent>
+          </Card>
+        </button>
+      </div>
 
       {/* Actions */}
       <div className="space-y-2">
