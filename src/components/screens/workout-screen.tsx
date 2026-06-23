@@ -346,14 +346,21 @@ export function WorkoutScreen() {
           </Button>
           <Button
             className="flex-1 h-12 text-base font-semibold gap-2"
-            onClick={() => completeSet(exercise.targetReps)}
+            onClick={() => {
+              if (allDone && isLastExercise) {
+                finishWorkout();
+              } else if (allDone) {
+                nextExercise();
+              } else {
+                completeSet(exercise.targetReps);
+              }
+            }}
           >
-            <CheckCircle2 className="w-5 h-5" />
             {allDone
               ? isLastExercise
-                ? 'Завершить тренировку'
-                : 'Следующее упражнение'
-              : `Выполнить подход ${currentSet + 1}`}
+                ? <><CheckCircle2 className="w-5 h-5" /> Завершить тренировку</>
+                : <><SkipForward className="w-5 h-5" /> Следующее упражнение</>
+              : <><CheckCircle2 className="w-5 h-5" /> Выполнить подход {currentSet + 1}</>}
           </Button>
         </div>
       )}
