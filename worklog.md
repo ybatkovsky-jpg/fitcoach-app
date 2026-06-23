@@ -1,49 +1,83 @@
 ---
 Task ID: 1
-Agent: Main Agent
-Task: Build interactive web prototype of adaptive Android fitness training app (FitCoach)
+Agent: main
+Task: Fix finishWorkout() — finalize last exercise timing
 
 Work Log:
-- Initialized fullstack dev environment
-- Created exercise catalog (8 exercises, 20+ variants) with equipment priority system in src/lib/exercises.ts
-- Built adaptive workout generation engine with RPE-based fitness level calculation, progressive overload algorithm, and equipment-aware variant resolution in src/lib/workout-engine.ts
-- Created Zustand store with persist middleware for full app state management (onboarding, workout session, feedback, history) in src/lib/store.ts
-- Built 4-step onboarding flow: Profile (gender/age/height/weight/medical), Goal selection, Inventory grid, RPE self-assessment + comfort minutes
-- Built Dashboard with greeting, stats cards, today's workout plan preview, history list
-- Built Active Workout screen with exercise display, set tracking, rest countdown timer, set history
-- Built Post-workout Feedback screen with 4 options (easier/normal/harder/very hard) and animated transitions
-- Built Profile screen with user info, stats, inventory, adaptive algorithm explanation, history, reset
-- Built Bottom Navigation (Главная/Тренировка/Профиль) with context-aware visibility
-- Wrapped everything in a realistic phone frame with status bar
-- Fixed 3 bugs: missing export, null profile crash on hydration, screen persistence in localStorage
-- Verified all 9 core flows via Agent Browser — 100% pass rate, 0 errors
+- Analyzed the bug: finishWorkout() didn't update finishedAt/totalSeconds for the last active exercise
+- Added timing finalization logic: before calculating completion %, map over timings and finalize any where finishedAt <= startedAt
+- Looks up the current exercise from the session, calculates totalRepsDone and totalSeconds, updates the timing
 
 Stage Summary:
-- Deliverable: Interactive web prototype at / route simulating the full Android app UX
-- Files created: 12 source files across lib/ and components/
-- All screens functional: onboarding (4 steps) → dashboard → workout → feedback → profile
-- Adaptive algorithm implemented: progressive overload, deload detection, missed-day handling
-- Phone frame wrapper provides realistic mobile preview
+- Fixed critical bug where last exercise had 0 timing data in history
+- File: src/lib/store.ts lines 448-467
 
 ---
 Task ID: 2
-Agent: Main Agent
-Task: Add lab tests analysis screen with supplement recommendations and gamification/achievements system
+Agent: main
+Task: Expand lab-tests with "What to test" panels + lifestyle recommendations
 
 Work Log:
-- Created src/lib/achievements.ts: 20 achievements across 4 categories (workout/streak/milestone/special), XP system with level formula, streak calculation, level titles
-- Created src/lib/lab-tests.ts: 12 biomarker definitions (Vitamin D, Ferritin, Testosterone, TSH, Hemoglobin, LDL, Glucose, Cortisol, Insulin, CRP, Total Protein, B12) with reference ranges, descriptions, and personalized supplement recommendations per deviation
-- Updated src/lib/store.ts: added LabTestEntry interface, labTestEntries/addLabTestEntry/removeLabTestEntry, gamification state (totalXp, unlockedAchievements, recentlyUnlocked), awardXp, checkAchievements, XP rewards in finishWorkout (+50 base, +25 all-done bonus, +5 per exercise) and setFeedback (+10)
-- Created src/components/screens/lab-tests-screen.tsx: 3-tab layout (Enter/History/Recommendations), 12 biomarker input forms with real-time status coloring (low/normal/ideal/high), save with auto-switch to recommendations, personalized БАД recommendations with dosage and notes, entry history with color-coded mini-results
-- Created src/components/screens/achievements-screen.tsx: XP card with level/progress bar, stats row (streak/achievements/minutes), streak fire card, category filter chips, achievement grid with locked/unlocked states and XP rewards, unlock popup animation with spring physics, "How to earn XP" guide
-- Updated bottom-nav.tsx: added 5th tab "Достижения" with Trophy icon, fixed workout tab bug (nav no longer disappears when clicking workout without active session)
-- Updated page.tsx: added routing for lab_tests and achievements screens
-- Updated nutrition-screen.tsx: added "Анализы и БАДы" link card with badge showing recommendation count
-- Updated dashboard-screen.tsx: added XP/level mini card with progress bar, streak display, click navigates to achievements
-- Fixed 2 bugs: (1) bottom nav disappearing on workout tab click without session, (2) lab tests save not switching to recommendations tab
+- Added LAB_PANELS: 4 comprehensive test panels (base_fitness, hormonal_balance, cardio_metabolic, vitamin_mineral)
+- Each panel has: description, whatYouGet list, biomarkerIds, frequency, preparation, estimatedCost, priority
+- Added LIFESTYLE_ADVICE: 8 lifestyle recommendations linked to biomarker deviations
+- Added getLifestyleRecommendations() function that filters advice based on out-of-range biomarkers
+- Rewrote lab-tests-screen.tsx with 5 tabs: "Что сдать" (panels), "Ввести" (input), "БАДы" (supplements), "Советы" (lifestyle), "История"
+- Panels tab shows expandable cards with priority badges, included biomarkers (green for tested), preparation info
+- Lifestyle tab shows personalized advice based on actual lab results with affected biomarker tags
 
 Stage Summary:
-- 7/7 Agent Browser tests passed (5 initial + 2 regression after fixes)
-- New features: Lab test analysis with 12 biomarkers, personalized БАД recommendations, XP/level system, 20 achievements, streak tracking, achievement unlock popups
-- Files created: 4 (achievements.ts, lab-tests.ts, lab-tests-screen.tsx, achievements-screen.tsx)
-- Files modified: 5 (store.ts, bottom-nav.tsx, page.tsx, nutrition-screen.tsx, dashboard-screen.tsx)
+- Users now see WHAT tests to order before they have results
+- After entering results, they get both supplement AND lifestyle recommendations
+- Files: src/lib/lab-tests.ts (expanded), src/components/screens/lab-tests-screen.tsx (rewritten)
+
+---
+Task ID: 4
+Agent: main
+Task: Create Body Metrics screen with chart
+
+Work Log:
+- Created body-metrics-screen.tsx with form for weight, waist, chest, hips, biceps, thigh
+- Quick stats cards showing latest values with trend arrows (up/down/same)
+- Interactive recharts line chart with multi-field toggle (up to 3 lines simultaneously)
+- Color-coded per metric, responsive tooltip
+- History list with delete capability
+- Weight/waist show green for decrease, other metrics show green for increase
+
+Stage Summary:
+- Full body metrics tracking with visual chart
+- File: src/components/screens/body-metrics-screen.tsx
+
+---
+Task ID: 5
+Agent: main
+Task: Create Progress screen with exercise speed comparison
+
+Work Log:
+- Created progress-screen.tsx with 3 tabs: Overview, Speed, Volume
+- Overview: summary stats (total reps, minutes, avg rpm, volume trend %), best exercise by speed, volume bar chart
+- Speed tab: exercise selector → per-exercise line chart (reps/min over time), bar chart (total reps), per-session table
+- Volume tab: planned vs actual reps bar chart, completion % line chart, per-workout breakdown with progress bars
+- All charts use recharts with dark-mode compatible styling
+
+Stage Summary:
+- Comprehensive progress tracking with multiple chart types
+- File: src/components/screens/progress-screen.tsx
+
+---
+Task ID: 6
+Agent: main
+Task: Wire new screens into navigation and page.tsx
+
+Work Log:
+- Added 'body_metrics' | 'progress' to AppScreen type in store.ts
+- Added body_metrics and progress routes in page.tsx with motion.div transitions
+- Updated bottom-nav.tsx to hide nav on new screens
+- Added "Тело и вес" and "Прогресс" link cards in profile-screen.tsx
+- Changed dashboard "Все" link to point to progress screen instead of profile
+- Removed unused workoutSession destructuring in page.tsx
+
+Stage Summary:
+- All new screens accessible from Profile
+- Build passes successfully
+- Git pushed to GitHub
