@@ -50,7 +50,14 @@ export function AchievementsScreen() {
       setShowUnlockPopup(true);
       setPopupIndex(0);
     }
-  }, [recentlyUnlocked.length]);
+    }, [recentlyUnlocked.length]);
+
+  // Auto-dismiss popup on unmount (when user navigates away)
+  useEffect(() => {
+    return () => {
+      clearRecentUnlocks();
+    };
+  }, []);
 
   const handlePopupClose = () => {
     if (popupIndex < recentlyUnlocked.length - 1) {
@@ -80,6 +87,7 @@ export function AchievementsScreen() {
             exit={{ opacity: 0 }}
             className="absolute inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm"
             onClick={handlePopupClose}
+            style={{ cursor: 'pointer' }}
           >
             <motion.div
               key={popupIndex}
@@ -88,7 +96,6 @@ export function AchievementsScreen() {
               exit={{ scale: 0.8, opacity: 0 }}
               transition={{ type: 'spring', stiffness: 300, damping: 20 }}
               className="mx-8 p-6 rounded-3xl bg-background shadow-2xl text-center max-w-[280px]"
-              onClick={(e) => e.stopPropagation()}
             >
               <div className="text-5xl mb-3">
                 {ACHIEVEMENTS.find((a) => a.id === recentlyUnlocked[popupIndex])?.icon}
