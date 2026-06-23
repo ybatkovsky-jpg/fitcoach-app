@@ -11,6 +11,29 @@ import {
   CheckCircle2, Circle, BookOpen, Zap,
 } from 'lucide-react';
 import { MUSCLE_LABELS, EQUIPMENT_LABELS } from '@/lib/exercises';
+import Image from 'next/image';
+import { motion, AnimatePresence } from 'framer-motion';
+
+const EXERCISE_IMAGES: Record<string, string> = {
+  squat: '/exercises/squat.png',
+  push_up: '/exercises/push_up.png',
+  row: '/exercises/row.png',
+  plank: '/exercises/plank.png',
+  lunge: '/exercises/lunge.png',
+  shoulder_press: '/exercises/shoulder_press.png',
+  deadlift: '/exercises/deadlift.png',
+  bridge: '/exercises/bridge.png',
+  jumping_jacks: '/exercises/jumping_jacks.png',
+  burpees: '/exercises/burpees.png',
+  high_knees: '/exercises/high_knees.png',
+  mountain_climbers: '/exercises/mountain_climbers.png',
+  jump_rope: '/exercises/jump_rope.png',
+  rowing_machine_ex: '/exercises/rowing_machine_ex.png',
+  treadmill_run: '/exercises/treadmill_run.png',
+  exercise_bike_ex: '/exercises/exercise_bike_ex.png',
+  stretch_hamstrings: '/exercises/stretch_hamstrings.png',
+  cat_cow: '/exercises/cat_cow.png',
+};
 
 export function WorkoutScreen() {
   const {
@@ -115,7 +138,33 @@ export function WorkoutScreen() {
           </div>
         ) : (
           /* Exercise screen */
-          <div className="space-y-5 pt-4">
+          <div className="space-y-4 pt-2">
+            {/* Exercise illustration */}
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={exercise.exerciseConfigId}
+                initial={{ opacity: 0, y: 20, scale: 0.95 }}
+                animate={{ opacity: 1, y: 0, scale: 1 }}
+                exit={{ opacity: 0, y: -20, scale: 0.95 }}
+                transition={{ duration: 0.35, ease: 'easeOut' }}
+                className="relative h-32 rounded-2xl overflow-hidden bg-gradient-to-br from-primary/5 to-primary/10"
+              >
+                {EXERCISE_IMAGES[exercise.exerciseConfigId] ? (
+                  <Image
+                    src={EXERCISE_IMAGES[exercise.exerciseConfigId]}
+                    alt={exercise.exerciseName}
+                    fill
+                    className="object-contain p-2"
+                    sizes="360px"
+                  />
+                ) : (
+                  <div className="w-full h-full flex items-center justify-center text-primary/20">
+                    <Zap className="w-14 h-14" />
+                  </div>
+                )}
+              </motion.div>
+            </AnimatePresence>
+
             {/* Exercise name and variant */}
             <div className="text-center space-y-1">
               <div className="flex items-center justify-center gap-2">

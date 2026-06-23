@@ -7,139 +7,28 @@ import { Badge } from '@/components/ui/badge';
 import { EXERCISE_CATALOG, MUSCLE_LABELS, EQUIPMENT_LABELS } from '@/lib/exercises';
 import { ArrowLeft, Dumbbell, Zap, Waves } from 'lucide-react';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
-// Simple SVG stick-figure illustrations for key exercises
-const EXERCISE_ILLUSTRATIONS: Record<string, React.ReactNode> = {
-  squat: (
-    <svg viewBox="0 0 120 140" className="w-full h-full" fill="none">
-      {/* Stick figure squatting */}
-      <circle cx="60" cy="22" r="10" className="fill-primary/20 stroke-primary" strokeWidth="2.5"/>
-      <line x1="60" y1="32" x2="60" y2="70" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      {/* Arms forward */}
-      <line x1="60" y1="45" x2="38" y2="55" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="60" y1="45" x2="82" y2="55" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      {/* Legs bent */}
-      <line x1="60" y1="70" x2="40" y2="85" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="40" y1="85" x2="30" y2="115" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="60" y1="70" x2="80" y2="85" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="80" y1="85" x2="90" y2="115" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      {/* Floor line */}
-      <line x1="15" y1="118" x2="105" y2="118" className="stroke-muted" strokeWidth="1" strokeDasharray="4 3"/>
-      {/* Direction arrow */}
-      <path d="M25 100 L25 80" className="stroke-amber-500" strokeWidth="2" markerEnd="url(#arrowhead)"/>
-      <path d="M95 100 L95 80" className="stroke-amber-500" strokeWidth="2" markerEnd="url(#arrowhead)"/>
-      <defs><marker id="arrowhead" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" className="fill-amber-500"/></marker></defs>
-    </svg>
-  ),
-  push_up: (
-    <svg viewBox="0 0 120 100" className="w-full h-full" fill="none">
-      <circle cx="90" cy="35" r="8" className="fill-primary/20 stroke-primary" strokeWidth="2.5"/>
-      <line x1="90" y1="43" x2="60" y2="55" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="60" y1="55" x2="30" y2="55" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="30" y1="55" x2="25" y2="75" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="60" y1="55" x2="65" y2="75" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="15" y1="78" x2="105" y2="78" className="stroke-muted" strokeWidth="1" strokeDasharray="4 3"/>
-      <path d="M65 68 L65 50" className="stroke-amber-500" strokeWidth="2" markerEnd="url(#arrowup)"/>
-      <defs><marker id="arrowup" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" className="fill-amber-500"/></marker></defs>
-    </svg>
-  ),
-  row: (
-    <svg viewBox="0 0 120 120" className="w-full h-full" fill="none">
-      <circle cx="55" cy="25" r="8" className="fill-primary/20 stroke-primary" strokeWidth="2.5"/>
-      <line x1="55" y1="33" x2="50" y2="55" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="50" y1="55" x2="60" y2="75" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="60" y1="75" x2="55" y2="105" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="60" y1="75" x2="75" y2="105" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      {/* Arm pulling */}
-      <line x1="50" y1="45" x2="80" y2="55" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="50" y1="45" x2="75" y2="40" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="15" y1="108" x2="105" y2="108" className="stroke-muted" strokeWidth="1" strokeDasharray="4 3"/>
-      <path d="M80 55 L70 48" className="stroke-amber-500" strokeWidth="2" markerEnd="url(#arrowpull)"/>
-      <defs><marker id="arrowpull" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" className="fill-amber-500"/></marker></defs>
-    </svg>
-  ),
-  plank: (
-    <svg viewBox="0 0 120 80" className="w-full h-full" fill="none">
-      <circle cx="25" cy="32" r="8" className="fill-primary/20 stroke-primary" strokeWidth="2.5"/>
-      <line x1="33" y1="32" x2="55" y2="40" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="55" y1="40" x2="95" y2="40" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="55" y1="40" x2="45" y2="65" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="95" y1="40" x2="105" y2="65" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      {/* Elbow support */}
-      <rect x="40" y="38" width="8" height="12" rx="2" className="fill-primary/10 stroke-primary" strokeWidth="1.5"/>
-      <line x1="15" y1="68" x2="115" y2="68" className="stroke-muted" strokeWidth="1" strokeDasharray="4 3"/>
-      <text x="60" y="22" textAnchor="middle" className="fill-amber-500 text-[8px] font-medium">держать прямую линию</text>
-      <line x1="25" y1="26" x2="105" y2="35" className="stroke-amber-500" strokeWidth="1" strokeDasharray="3 2"/>
-    </svg>
-  ),
-  lunge: (
-    <svg viewBox="0 0 120 130" className="w-full h-full" fill="none">
-      <circle cx="60" cy="15" r="8" className="fill-primary/20 stroke-primary" strokeWidth="2.5"/>
-      <line x1="60" y1="23" x2="60" y2="60" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="60" y1="35" x2="42" y2="50" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="60" y1="35" x2="78" y2="50" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="60" y1="60" x2="40" y2="80" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="40" y1="80" x2="35" y2="110" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="60" y1="60" x2="80" y2="80" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="80" y1="80" x2="85" y2="110" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="15" y1="112" x2="105" y2="112" className="stroke-muted" strokeWidth="1" strokeDasharray="4 3"/>
-      <path d="M88 108 L88 88" className="stroke-amber-500" strokeWidth="2" markerEnd="url(#arrowlunge)"/>
-      <defs><marker id="arrowlunge" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" className="fill-amber-500"/></marker></defs>
-    </svg>
-  ),
-  shoulder_press: (
-    <svg viewBox="0 0 120 130" className="w-full h-full" fill="none">
-      <circle cx="60" cy="20" r="8" className="fill-primary/20 stroke-primary" strokeWidth="2.5"/>
-      <line x1="60" y1="28" x2="60" y2="70" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="60" y1="70" x2="45" y2="110" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="60" y1="70" x2="75" y2="110" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="60" y1="40" x2="35" y2="25" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="60" y1="40" x2="85" y2="25" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="15" y1="112" x2="105" y2="112" className="stroke-muted" strokeWidth="1" strokeDasharray="4 3"/>
-      <path d="M38 22 L38 12" className="stroke-amber-500" strokeWidth="2" markerEnd="url(#arrowpress)"/>
-      <path d="M82 22 L82 12" className="stroke-amber-500" strokeWidth="2" markerEnd="url(#arrowpress)"/>
-      <defs><marker id="arrowpress" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" className="fill-amber-500"/></marker></defs>
-    </svg>
-  ),
-  deadlift: (
-    <svg viewBox="0 0 120 130" className="w-full h-full" fill="none">
-      <circle cx="60" cy="18" r="8" className="fill-primary/20 stroke-primary" strokeWidth="2.5"/>
-      <line x1="60" y1="26" x2="55" y2="55" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="55" y1="55" x2="55" y2="80" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="55" y1="80" x2="45" y2="110" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="55" y1="80" x2="70" y2="110" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="55" y1="45" x2="30" y2="65" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="55" y1="45" x2="80" y2="65" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="15" y1="112" x2="105" y2="112" className="stroke-muted" strokeWidth="1" strokeDasharray="4 3"/>
-      <path d="M60 108 L60 78" className="stroke-amber-500" strokeWidth="2" markerEnd="url(#arrowdl)"/>
-      <defs><marker id="arrowdl" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" className="fill-amber-500"/></marker></defs>
-    </svg>
-  ),
-  bridge: (
-    <svg viewBox="0 0 120 90" className="w-full h-full" fill="none">
-      <circle cx="40" cy="30" r="8" className="fill-primary/20 stroke-primary" strokeWidth="2.5"/>
-      <line x1="48" y1="35" x2="75" y2="50" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="20" y1="55" x2="75" y2="50" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="75" y1="50" x2="100" y2="55" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="20" y1="55" x2="15" y2="75" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="100" y1="55" x2="105" y2="75" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="15" y1="78" x2="105" y2="78" className="stroke-muted" strokeWidth="1" strokeDasharray="4 3"/>
-      <path d="M60 48 L60 38" className="stroke-amber-500" strokeWidth="2" markerEnd="url(#arrowbr)"/>
-      <defs><marker id="arrowbr" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" className="fill-amber-500"/></marker></defs>
-    </svg>
-  ),
-  // Default for exercises without custom illustration
-  _default: (
-    <svg viewBox="0 0 120 120" className="w-full h-full" fill="none">
-      <circle cx="60" cy="35" r="12" className="fill-primary/20 stroke-primary" strokeWidth="2.5"/>
-      <line x1="60" y1="47" x2="60" y2="80" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="60" y1="55" x2="35" y2="70" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="60" y1="55" x2="85" y2="70" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="60" y1="80" x2="42" y2="108" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="60" y1="80" x2="78" y2="108" className="stroke-primary" strokeWidth="2.5" strokeLinecap="round"/>
-      <line x1="20" y1="110" x2="100" y2="110" className="stroke-muted" strokeWidth="1" strokeDasharray="4 3"/>
-    </svg>
-  ),
+// Map exercise IDs to generated illustration images
+const EXERCISE_IMAGES: Record<string, string> = {
+  squat: '/exercises/squat.png',
+  push_up: '/exercises/push_up.png',
+  row: '/exercises/row.png',
+  plank: '/exercises/plank.png',
+  lunge: '/exercises/lunge.png',
+  shoulder_press: '/exercises/shoulder_press.png',
+  deadlift: '/exercises/deadlift.png',
+  bridge: '/exercises/bridge.png',
+  jumping_jacks: '/exercises/jumping_jacks.png',
+  burpees: '/exercises/burpees.png',
+  high_knees: '/exercises/high_knees.png',
+  mountain_climbers: '/exercises/mountain_climbers.png',
+  jump_rope: '/exercises/jump_rope.png',
+  rowing_machine_ex: '/exercises/rowing_machine_ex.png',
+  treadmill_run: '/exercises/treadmill_run.png',
+  exercise_bike_ex: '/exercises/exercise_bike_ex.png',
+  stretch_hamstrings: '/exercises/stretch_hamstrings.png',
+  cat_cow: '/exercises/cat_cow.png',
 };
 
 const CATEGORY_ICONS: Record<string, React.ComponentType<{ className?: string }>> = {
@@ -169,7 +58,7 @@ export function ExerciseGuideScreen() {
     );
   }
 
-  const illustration = EXERCISE_ILLUSTRATIONS[exercise.id] ?? EXERCISE_ILLUSTRATIONS._default;
+  const exerciseImage = EXERCISE_IMAGES[exercise.id];
   const CategoryIcon = CATEGORY_ICONS[exercise.category] ?? Dumbbell;
 
   return (
@@ -194,13 +83,31 @@ export function ExerciseGuideScreen() {
       {/* Content */}
       <div className="flex-1 overflow-y-auto px-5 pb-6 space-y-5">
         {/* Illustration */}
-        <Card className="border-0 shadow-sm overflow-hidden">
-          <CardContent className="p-4">
-            <div className="h-40 flex items-center justify-center bg-gradient-to-br from-primary/5 to-primary/10 rounded-xl">
-              {illustration}
-            </div>
-          </CardContent>
-        </Card>
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.4, ease: 'easeOut' }}
+        >
+          <Card className="border-0 shadow-sm overflow-hidden">
+            <CardContent className="p-3">
+              <div className="h-44 relative rounded-xl overflow-hidden bg-gradient-to-br from-primary/5 to-primary/10">
+                {exerciseImage ? (
+                  <Image
+                    src={exerciseImage}
+                    alt={exercise.name}
+                    fill
+                    className="object-contain p-3"
+                    sizes="360px"
+                  />
+                ) : (
+                  <div className="w-full h-full flex items-center justify-center text-muted-foreground">
+                    <Dumbbell className="w-12 h-12 opacity-30" />
+                  </div>
+                )}
+              </div>
+            </CardContent>
+          </Card>
+        </motion.div>
 
         {/* Muscle groups */}
         <div>
