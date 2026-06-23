@@ -56,7 +56,7 @@ export function FeedbackScreen() {
   const totalCount = lastSession?.exercises.length ?? 0;
 
   return (
-    <div className="flex flex-col h-full px-5 pt-6 pb-6 overflow-y-auto">
+    <div className="flex flex-col h-full px-5 pt-6 pb-6 overflow-y-auto min-h-0">
       <div className="text-center mb-6 pt-4">
         <motion.div
           initial={{ scale: 0.5, opacity: 0 }}

@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useCallback } from 'react';
+import { useEffect, useCallback, useState, useRef } from 'react';
 import { useAppStore } from '@/lib/store';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -47,6 +47,25 @@ export function WorkoutScreen() {
     openExerciseGuide,
   } = useAppStore();
 
+  // Elapsed time
+  const [elapsed, setElapsed] = useState(0);
+  const startTimeRef = useRef<number | null>(null);
+
+  // Elapsed timer
+  useEffect(() => {
+    if (!startTimeRef.current) startTimeRef.current = Date.now();
+    const interval = setInterval(() => {
+      setElapsed(Math.floor((Date.now() - startTimeRef.current!) / 1000));
+    }, 1000);
+    return () => clearInterval(interval);
+  }, []);
+
+  const formatTime = (s: number) => {
+    const m = Math.floor(s / 60);
+    const sec = s % 60;
+    return `${m}:${sec.toString().padStart(2, '0')}`;
+  };
+
   // Rest timer
   useEffect(() => {
     if (!workoutSession?.isResting) return;
@@ -85,6 +104,9 @@ export function WorkoutScreen() {
           <Button variant="ghost" size="icon" className="h-9 w-9" onClick={finishWorkout}>
             <X className="w-5 h-5" />
           </Button>
+          <span className="text-sm font-semibold tabular-nums">
+            {formatTime(elapsed)}
+          </span>
           <span className="text-sm font-semibold">
             {currentExerciseIndex + 1} / {totalExercises}
           </span>
@@ -94,7 +116,7 @@ export function WorkoutScreen() {
       </div>
 
       {/* Main content */}
-      <div className="flex-1 overflow-y-auto px-5 pb-4">
+      <div className="flex-1 overflow-y-auto px-5 pb-4 min-h-0">
         {isResting ? (
           /* Rest screen */
           <div className="flex flex-col items-center justify-center h-full gap-6">

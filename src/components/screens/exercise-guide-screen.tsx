@@ -81,7 +81,7 @@ export function ExerciseGuideScreen() {
       </div>
 
       {/* Content */}
-      <div className="flex-1 overflow-y-auto px-5 pb-6 space-y-5">
+      <div className="flex-1 overflow-y-auto px-5 pb-6 space-y-5 min-h-0">
         {/* Illustration */}
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}

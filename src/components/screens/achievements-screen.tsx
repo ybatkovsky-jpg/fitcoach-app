@@ -140,8 +140,7 @@ export function AchievementsScreen() {
         <h1 className="text-2xl font-bold tracking-tight">Достижения</h1>
       </div>
 
-      <div className="flex-1 overflow-y-auto px-5 pb-24">
-        {/* Level & XP Card */}
+      <div className="flex-1 overflow-y-auto px-5 pb-24 min-h-0">        {/* Level & XP Card */}
         <Card className="border-0 shadow-md overflow-hidden mb-5">
           <CardContent className="p-0">
             <div className="bg-gradient-to-br from-amber-500/10 via-primary/5 to-background p-5">

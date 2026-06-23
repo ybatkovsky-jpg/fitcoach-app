@@ -100,7 +100,7 @@ export function LabTestsScreen() {
       </div>
 
       {/* Content */}
-      <div className="flex-1 overflow-y-auto px-5 pt-4 pb-24">
+      <div className="flex-1 overflow-y-auto px-5 pt-4 pb-24 min-h-0">
         {/* === ENTER TAB === */}
         {activeTab === 'enter' && (
           <div className="space-y-4">

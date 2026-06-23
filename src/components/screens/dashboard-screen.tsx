@@ -63,7 +63,7 @@ export function DashboardScreen() {
   const dayOfWeek = (today.getDay() + 6) % 7; // Monday = 0
 
   return (
-    <div className="flex flex-col gap-5 px-5 pt-6 pb-24 overflow-y-auto h-full">
+    <div className="flex flex-col gap-5 px-5 pt-6 pb-24 overflow-y-auto h-full min-h-0">
       {/* Greeting */}
       <div>
         <h1 className="text-2xl font-bold tracking-tight">

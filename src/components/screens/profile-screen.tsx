@@ -47,7 +47,7 @@ export function ProfileScreen() {
   })();
 
   return (
-    <div className="flex flex-col gap-5 px-5 pt-6 pb-24 overflow-y-auto h-full">
+    <div className="flex flex-col gap-5 px-5 pt-6 pb-24 overflow-y-auto h-full min-h-0">
       <h1 className="text-2xl font-bold tracking-tight">Профиль</h1>
 
       {/* User info card */}
