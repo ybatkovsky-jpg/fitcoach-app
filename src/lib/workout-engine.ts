@@ -31,6 +31,7 @@ import {
   PHASE_CONFIG,
   TOTAL_CYCLE_WEEKS,
   getPhaseForWeek,
+  getPhaseForWeek,
   getCurrentPhaseInfo,
   getScientificRest,
   calculateScientificReps,
@@ -296,12 +297,14 @@ export function generateWorkout(
 
   // --- 1. Determine periodization phase and training method ---
   const phaseInfo = getCurrentPhaseInfo(periodizationWeek);
-  const { method, isDeload, weekInPhase, blockNumber, name: phaseName } = phaseInfo;
+  const { method, isDeload, weekInPhase, blockNumber } = phaseInfo;
+  // Use the actual phase key (not the display name) for lookups
+  const phaseKey = getPhaseForWeek(periodizationWeek).phase;
   const recentIdSet = new Set(recentExerciseIds);
 
   // Bompa: exercise count varies by phase (AA=6-8, Hyp=5-7, MxS=4-6, Power=3-5, Deload=4-6)
   const exerciseCount = getExerciseCountForPhase(
-    phaseInfo.name as PeriodizationPhase,
+    phaseKey,
     profile.fitnessLevel,
     isDeload,
   );
@@ -335,7 +338,7 @@ export function generateWorkout(
       const variant = resolveBestVariant(candidate, availableSet);
       if (!variant) continue;
 
-      const rationale = getPhaseRationale(phaseInfo.name as PeriodizationPhase, candidate.tier);
+      const rationale = getPhaseRationale(phaseKey, candidate.tier);
       selectedExercises.push(
         buildExerciseInPlan(candidate, variant, profile, method, isDeload, undefined, rationale),
       );
