@@ -233,7 +233,14 @@ export function WorkoutScreen() {
             <Button
               variant="outline"
               className="gap-2"
-              onClick={nextExercise}
+              onClick={() => {
+                // Just exit rest — don't advance to next exercise
+                useAppStore.getState().set((state) => ({
+                  workoutSession: state.workoutSession
+                    ? { ...state.workoutSession, isResting: false, restSecondsLeft: 0 }
+                    : null,
+                }));
+              }}
             >
               Пропустить отдых <SkipForward className="w-4 h-4" />
             </Button>

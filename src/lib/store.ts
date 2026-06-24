@@ -406,12 +406,13 @@ export const useAppStore = create<AppState>()(
           if (!state.workoutSession || !state.workoutSession.isResting) return state;
           const left = state.workoutSession.restSecondsLeft - 1;
           if (left <= 0) {
-            const { currentExerciseIndex, currentSet } = state.workoutSession;
+            const { currentExerciseIndex } = state.workoutSession;
             const plan = state.currentPlan!;
             const exercise = plan.exercises[currentExerciseIndex];
-            const isLastSet = currentSet >= exercise.targetSets;
-            if (isLastSet && currentExerciseIndex < plan.exercises.length - 1) {
-              // Move to next exercise
+            const allSetsDone = exercise.completedSets >= exercise.targetSets;
+
+            if (allSetsDone && currentExerciseIndex < plan.exercises.length - 1) {
+              // All sets done → move to next exercise
               const nextIdx = currentExerciseIndex + 1;
               const nextEx = plan.exercises[nextIdx];
               const nextRest = getRestForExercise(nextEx);
@@ -426,6 +427,7 @@ export const useAppStore = create<AppState>()(
                 },
               };
             }
+            // More sets remain (or last exercise) → just stop resting, stay on same set
             return {
               workoutSession: { ...state.workoutSession, isResting: false, restSecondsLeft: 0 },
             };
