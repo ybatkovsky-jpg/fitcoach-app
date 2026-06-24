@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, type ReactNode } from 'react';
 import { useAppStore, type BodyMetricEntry } from '@/lib/store';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -24,7 +24,7 @@ type MetricField = {
   label: string;
   unit: string;
   color: string;
-  icon: React.ComponentType<{ className?: string }>;
+  icon: React.ComponentType<{ className?: string; style?: React.CSSProperties }>;
 };
 
 const METRIC_FIELDS: MetricField[] = [
@@ -72,16 +72,16 @@ export function BodyMetricsScreen() {
   const chartData = bodyMetrics.map((m) => ({
     date: m.date.slice(5), // MM-DD
     ...Object.fromEntries(
-      VISIBLE_FIELDS.filter((f) => m[f] != null).map((f) => [f, (m as Record<string, unknown>)[f] as number])
+      VISIBLE_FIELDS.filter((f) => m[f] != null).map((f) => [f, (m as unknown as Record<string, unknown>)[f] as number])
     ),
   }));
 
   // Latest change for each field
   const getChange = (key: string): { value: number; direction: 'up' | 'down' | 'same' } | null => {
-    const withValue = bodyMetrics.filter((m) => (m as Record<string, unknown>)[key] != null);
+    const withValue = bodyMetrics.filter((m) => (m as unknown as Record<string, unknown>)[key] != null);
     if (withValue.length < 2) return null;
-    const last = (withValue[withValue.length - 1] as Record<string, unknown>)[key] as number;
-    const prev = (withValue[withValue.length - 2] as Record<string, unknown>)[key] as number;
+    const last = (withValue[withValue.length - 1] as unknown as Record<string, unknown>)[key] as number;
+    const prev = (withValue[withValue.length - 2] as unknown as Record<string, unknown>)[key] as number;
     const diff = Math.round((last - prev) * 10) / 10;
     if (Math.abs(diff) < 0.05) return { value: 0, direction: 'same' };
     return { value: diff, direction: diff > 0 ? 'up' : 'down' };
@@ -111,7 +111,7 @@ export function BodyMetricsScreen() {
         {latestMetric && (
           <div className="grid grid-cols-2 gap-3 mb-5">
             {METRIC_FIELDS.map((field) => {
-              const val = (latestMetric as Record<string, unknown>)[field.key];
+              const val = (latestMetric as unknown as Record<string, unknown>)[field.key];
               if (val == null) return null;
               const change = getChange(field.key);
               const Icon = field.icon;
@@ -138,7 +138,7 @@ export function BodyMetricsScreen() {
                         </span>
                       )}
                     </div>
-                    <div className="text-xl font-bold">{val} <span className="text-xs font-normal text-muted-foreground">{field.unit}</span></div>
+                    <div className="text-xl font-bold">{val as ReactNode} <span className="text-xs font-normal text-muted-foreground">{field.unit}</span></div>
                   </CardContent>
                 </Card>
               );
@@ -157,7 +157,7 @@ export function BodyMetricsScreen() {
               {/* Field toggles */}
               <div className="flex flex-wrap gap-1.5 mb-3">
                 {METRIC_FIELDS.map((field) => {
-                  const hasData = bodyMetrics.some((m) => (m as Record<string, unknown>)[field.key] != null);
+                  const hasData = bodyMetrics.some((m) => (m as unknown as Record<string, unknown>)[field.key] != null);
                   if (!hasData) return null;
                   const isActive = selectedFields.has(field.key);
                   return (

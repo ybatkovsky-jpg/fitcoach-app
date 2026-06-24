@@ -107,6 +107,7 @@ export type UserProfile = {
   rpePlank: number;
   comfortableMinutes: number;
   fitnessLevel: FitnessLevel;
+  weightedEquipment?: WeightedEquipment;
 };
 
 // --- Variant Resolution (weight-aware) ---

@@ -79,7 +79,24 @@ export const EQUIPMENT_PRIORITY: Record<EquipmentType, number> = {
   barbell: 3,
 };
 
-// Equipment types that have discrete weights (user specifies exact weights available)export type WeightedEquipmentType = 'dumbbell' | 'kettlebell' | 'barbell';// A single weight item the user ownsexport interface WeightItem {  weightKg: number;  count: number; // how many of this weight (e.g. 2 dumbbells of 10kg)}// Per-equipment-type weight inventoryexport interface WeightedEquipment {  dumbbell: WeightItem[];  kettlebell: WeightItem[];  barbell: WeightItem[]; // barbell: usually 1 bar + plates, but we store the total weight}export type FitnessLevel = 'beginner' | 'intermediate' | 'advanced';
+// Equipment types that have discrete weights (user specifies exact weights available)
+export type WeightedEquipmentType = 'dumbbell' | 'kettlebell' | 'barbell';
+
+// A single weight item the user owns
+export interface WeightItem {
+  weightKg: number;
+  count: number; // how many of this weight (e.g. 2 dumbbells of 10kg)
+}
+
+// Per-equipment-type weight inventory
+export interface WeightedEquipment {
+  dumbbell: WeightItem[];
+  kettlebell: WeightItem[];
+  barbell: WeightItem[]; // barbell: usually 1 bar + plates, but we store the total weight
+}
+
+export type FitnessLevel = 'beginner' | 'intermediate' | 'advanced';
+
 
 export const EQUIPMENT_LABELS: Record<EquipmentType, string> = {
   none: 'Без инвентаря',
@@ -121,13 +138,14 @@ export function resolveWeightFromInventory(
   const items = weightedEquipment?.[equipmentType];
   if (!items || items.length === 0) return null;
   const sorted = [...items].sort((a, b) => a.weightKg - b.weightKg);
-  let best = null;
+  let best: WeightItem | null = null;
   for (const item of sorted) {
     if (item.weightKg <= targetWeightKg) { best = item; } else { break; }
   }
   if (!best) {
     if (level === 'beginner') return null;
     best = sorted[0];
+    if (!best) return null;
   }
   const countLabel = equipmentType === 'barbell' ? '' : best.count >= 2 ? `${best.count}×` : '';
   const label = `${EQUIPMENT_LABELS[equipmentType]} ${countLabel}${best.weightKg} кг`;

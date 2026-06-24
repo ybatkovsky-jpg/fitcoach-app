@@ -89,6 +89,7 @@ function getMethodBadgeClass(method?: TrainingMethod): string {
     case 'submaximal': return 'bg-blue-100 text-blue-800 dark:bg-blue-900/40 dark:text-blue-300';
     case 'dynamic_effort': return 'bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-300';
     case 'maximal_effort': return 'bg-rose-100 text-rose-800 dark:bg-rose-900/40 dark:text-rose-300';
+    default: return 'bg-secondary text-secondary-foreground';
   }
 }
 
@@ -235,11 +236,11 @@ export function WorkoutScreen() {
               className="gap-2"
               onClick={() => {
                 // Just exit rest — don't advance to next exercise
-                useAppStore.getState().set((state) => ({
-                  workoutSession: state.workoutSession
-                    ? { ...state.workoutSession, isResting: false, restSecondsLeft: 0 }
+                useAppStore.setState({
+                  workoutSession: useAppStore.getState().workoutSession
+                    ? { ...useAppStore.getState().workoutSession!, isResting: false, restSecondsLeft: 0 }
                     : null,
-                }));
+                });
               }}
             >
               Пропустить отдых <SkipForward className="w-4 h-4" />
