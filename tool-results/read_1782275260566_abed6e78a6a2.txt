@@ -1,0 +1,816 @@
+     1→// =============================================================================
+     2→// SCIENTIFIC TRAINING PRINCIPLES — Enhanced Edition
+     3→// Based on 8 evidence-based sources:
+     4→//   1. Jason Brown "Lower Body Training" — 4 training methods, Prilepin's chart,
+     5→//      exercise selection hierarchy, progressive overload
+     6→//   2. John Graham "Metabolic Training" — 7 training principles, work/rest ratios,
+     7→//      energy system targeting, block periodization
+     8→//   3. Roy Benson "Heart Rate Training" — 4 HR zones, zone-based training,
+     9→//      Karvonen formula, recovery principles
+    10→//   4. K. Roberts "Professional Guide to Small Group Personal Training" —
+    11→//      undulating periodization for general fitness, intensity escalation
+    12→//      without load changes, HIIT protocols, exercise order principles
+    13→//   5. T.O. Bompa "Periodization: Theory and Methodology of Training" (4th ed.) —
+    14→//      5-phase periodization (AA→Hyp→MxS→Power→Deload), exercise count by
+    15→//      phase, rest periods by %1RM, tempo guidelines, strength reserve
+    16→//   6. N. Signor "Foundations of Speed Training" — VBT zones, velocity loss
+    17→//      protocols, CNS readiness testing, velocity-based autoregulation
+    18→//   7. V.M. Zatsiorsky & W.J. Kraemer "Science and Practice of Strength
+    19→//      Training" (3rd ed.) — fitness-fatigue model, supercompensation,
+    20→//      force-velocity curve, SSC mechanics, residual training effects
+    21→//   8. Schoenfeld et al. — volume landmarks (10-20 sets/muscle group/week)
+    22→// =============================================================================
+    23→
+    24→// ===== TRAINING METHODS (Brown Ch.3; enhanced with Bompa & Signor) =====
+    25→
+    26→export type TrainingMethod =
+    27→  | 'anatomical_adaptation' // Bompa Phase I: tissue prep, high volume/low intensity
+    28→  | 'repeated_effort'       // Brown: hypertrophy / endurance — highest volume
+    29→  | 'submaximal'            // Brown: strength — high intensity, moderate volume
+    30→  | 'dynamic_effort'        // Brown: power / speed — submaximal load, max velocity
+    31→  | 'maximal_effort';       // Brown: absolute strength — only for advanced
+    32→
+    33→export interface TrainingMethodParams {
+    34→  name: string;
+    35→  nameRu: string;
+    36→  description: string;
+    37→  repRange: { min: number; max: number };
+    38→  setsRange: { min: number; max: number };
+    39→  restSeconds: { min: number; max: number };
+    40→  intensityPercent: number;   // target % of 1RM
+    41→  cnsDemand: 'low' | 'medium' | 'high' | 'very_high';
+    42→  purpose: string;
+    43→  source: string;
+    44→  // Bompa: set duration guidelines
+    45→  setDurationSec?: { min: number; max: number };
+    46→  // Bompa: tempo
+    47→  tempoEccentric?: string;
+    48→  tempoConcentric?: string;
+    49→}
+    50→
+    51→export const TRAINING_METHODS: Record<TrainingMethod, TrainingMethodParams> = {
+    52→  anatomical_adaptation: {
+    53→    name: 'Anatomical Adaptation',
+    54→    nameRu: 'Анатомическая адаптация',
+    55→    description: 'Подготовка мышц, связок, сухожилий и суставов. Высокий объём, много упражнений, низкая интенсивность. Bompa: первый этап перед гипертрофией.',
+    56→    repRange: { min: 10, max: 20 },
+    57→    setsRange: { min: 2, max: 3 },
+    58→    restSeconds: { min: 30, max: 60 },
+    59→    intensityPercent: 50,
+    60→    cnsDemand: 'low',
+    61→    purpose: 'Подготовка тканей, обучение двигательным паттернам, капилляризация',
+    62→    source: 'Bompa Ch.4 — Anatomical Adaptation Phase',
+    63→    setDurationSec: { min: 30, max: 60 },
+    64→    tempoEccentric: 'Медленно',
+    65→    tempoConcentric: 'Медленно или умеренно',
+    66→  },
+    67→  repeated_effort: {
+    68→    name: 'Repeated Effort',
+    69→    nameRu: 'Повторный метод',
+    70→    description: 'Гипертрофия и мышечная выносливость. Высокий объём, умеренная интенсивность.',
+    71→    repRange: { min: 8, max: 15 },
+    72→    setsRange: { min: 3, max: 4 },
+    73→    restSeconds: { min: 60, max: 90 },
+    74→    intensityPercent: 65,
+    75→    cnsDemand: 'low',
+    76→    purpose: 'Гипертрофия, время под нагрузкой, слабые точки',
+    77→    source: 'Brown Ch.3 — Repeated Effort Method; Bompa Ch.4 — Hypertrophy',
+    78→    setDurationSec: { min: 30, max: 60 },
+    79→    tempoEccentric: 'Медленно (3-4 сек)',
+    80→    tempoConcentric: 'Быстро',
+    81→  },
+    82→  submaximal: {
+    83→    name: 'Submaximal Effort',
+    84→    nameRu: 'Субмаксимальный метод',
+    85→    description: 'Развитие максимальной силы. Высокая интенсивность, умеренный объём. Задействование высокопороговых моторных единиц.',
+    86→    repRange: { min: 3, max: 8 },
+    87→    setsRange: { min: 3, max: 5 },
+    88→    restSeconds: { min: 120, max: 180 },
+    89→    intensityPercent: 82,
+    90→    cnsDemand: 'high',
+    91→    purpose: 'Максимальная сила, набор высокопороговых моторных единиц',
+    92→    source: 'Brown Ch.3 — Submaximal Effort Method; Bompa Ch.4 — Max Strength',
+    93→    setDurationSec: { min: 15, max: 25 },
+    94→    tempoEccentric: 'Медленно (3-4 сек, пауза 1-2 сек)',
+    95→    tempoConcentric: 'Быстро / взрывно',
+    96→  },
+    97→  dynamic_effort: {
+    98→    name: 'Dynamic Effort',
+    99→    nameRu: 'Динамический метод',
+   100→    description: 'Взрывная сила и скорость. Субмаксимальный вес с максимальной скоростью. Signor: остановка при потере скорости >10%.',
+   101→    repRange: { min: 2, max: 6 },
+   102→    setsRange: { min: 4, max: 6 },
+   103→    restSeconds: { min: 45, max: 75 },
+   104→    intensityPercent: 55,
+   105→    cnsDemand: 'medium',
+   106→    purpose: 'RFD, взрывная сила, поддержание тип II волокон',
+   107→    source: 'Brown Ch.3 — Dynamic Effort Method; Signor Ch.4 — Speed-Strength Zone',
+   108→    setDurationSec: { min: 15, max: 30 },
+   109→    tempoEccentric: 'Быстро',
+   110→    tempoConcentric: 'Максимально быстро (взрывно)',
+   111→  },
+   112→  maximal_effort: {
+   113→    name: 'Maximal Effort',
+   114→    nameRu: 'Максимальный метод',
+   115→    description: 'Абсолютная сила. Максимальный рекрутмент моторных единиц. Только для продвинутых.',
+   116→    repRange: { min: 1, max: 3 },
+   117→    setsRange: { min: 3, max: 5 },
+   118→    restSeconds: { min: 180, max: 240 },
+   119→    intensityPercent: 95,
+   120→    cnsDemand: 'very_high',
+   121→    purpose: 'Абсолютная сила, 1RM рекрутмент',
+   122→    source: 'Brown Ch.3 — Maximal Effort Method; Bompa Ch.4 — Supermax',
+   123→    setDurationSec: { min: 2, max: 12 },
+   124→    tempoEccentric: 'Медленно (3-4 сек)',
+   125→    tempoConcentric: 'Взрывно',
+   126→  },
+   127→};
+   128→
+   129→// ===== 5-PHASE PERIODIZATION (Bompa Ch.4-6; Graham Ch.12; Roberts Ch.9) =====
+   130→// Bompa canonical: AA → Hypertrophy → Maximum Strength → Power → Deload
+   131→// Enhanced with Roberts' undulating option and Signor's VBT phases
+   132→
+   133→export type PeriodizationPhase =
+   134→  | 'anatomical_adaptation'  // Bompa Phase I: prepare tissues, learn patterns
+   135→  | 'accumulation'           // Bompa Phase II: Hypertrophy (Brown: repeated effort)
+   136→  | 'transmutation'          // Bompa Phase III: Maximum Strength
+   137→  | 'realization'            // Bompa Phase IV: Power / Speed peaking
+   138→  | 'deload';                // Recovery & supercompensation
+   139→
+   140→export interface PhaseConfig {
+   141→  name: string;
+   142→  nameRu: string;
+   143→  weeksDuration: number;
+   144→  method: TrainingMethod;
+   145→  volumePercent: number;     // % of max training volume
+   146→  intensityPercent: number;  // target intensity scaling
+   147→  description: string;
+   148→  color: string;             // Tailwind bg color for UI badges
+   149→  badgeClass: string;        // Full badge styling
+   150→  // Bompa: how many exercises per session
+   151→  exerciseCountRange: { min: number; max: number };
+   152→  // Bompa: priority exercise types
+   153→  priorityTiers: ('bilateral_compound' | 'unilateral_compound' | 'isolation' | 'plyometric')[];
+   154→  // Scientific rationale for this phase
+   155→  rationale: string;
+   156→}
+   157→
+   158→export const PERIODIZATION_PHASES: PeriodizationPhase[] = [
+   159→  'anatomical_adaptation',
+   160→  'accumulation',
+   161→  'transmutation',
+   162→  'realization',
+   163→  'deload',
+   164→];
+   165→
+   166→export const PHASE_CONFIG: Record<PeriodizationPhase, PhaseConfig> = {
+   167→  anatomical_adaptation: {
+   168→    name: 'Anatomical Adaptation',
+   169→    nameRu: 'Анатомическая адаптация',
+   170→    weeksDuration: 2,
+   171→    method: 'anatomical_adaptation',
+   172→    volumePercent: 100,
+   173→    intensityPercent: 50,
+   174→    description: 'Подготовка мышц, связок и суставов. Обучение базовым двигательным паттернам.',
+   175→    color: 'bg-violet-500',
+   176→    badgeClass: 'bg-violet-100 text-violet-800 dark:bg-violet-900/40 dark:text-violet-300',
+   177→    exerciseCountRange: { min: 6, max: 8 },
+   178→    priorityTiers: ['bilateral_compound', 'unilateral_compound'],
+   179→    rationale: 'Bompa: AA необходим перед любыми высокоинтенсивными нагрузками для подготовки соединительной ткани и обучения двигательным паттернам.',
+   180→  },
+   181→  accumulation: {
+   182→    name: 'Accumulation / Hypertrophy',
+   183→    nameRu: 'Накопление',
+   184→    weeksDuration: 3,
+   185→    method: 'repeated_effort',
+   186→    volumePercent: 100,
+   187→    intensityPercent: 65,
+   188→    description: 'Гипертрофия и базовая выносливость. Максимальный объём работы.',
+   189→    color: 'bg-emerald-500',
+   190→    badgeClass: 'bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-300',
+   191→    exerciseCountRange: { min: 5, max: 7 },
+   192→    priorityTiers: ['bilateral_compound', 'unilateral_compound', 'isolation'],
+   193→    rationale: 'Brown: повторный метод — основной драйвер гипертрофии. Schoenfeld: 10-20 сетов на мышцу в неделю для оптимального роста.',
+   194→  },
+   195→  transmutation: {
+   196→    name: 'Transmutation / Strength',
+   197→    nameRu: 'Сила',
+   198→    weeksDuration: 3,
+   199→    method: 'submaximal',
+   200→    volumePercent: 80,
+   201→    intensityPercent: 80,
+   202→    description: 'Развитие максимальной силы через нейромышечные адаптации.',
+   203→    color: 'bg-blue-500',
+   204→    badgeClass: 'bg-blue-100 text-blue-800 dark:bg-blue-900/40 dark:text-blue-300',
+   205→    exerciseCountRange: { min: 4, max: 6 },
+   206→    priorityTiers: ['bilateral_compound', 'unilateral_compound'],
+   207→    rationale: 'Bompa: МxS — основа для развития мощности. Сила = фундамент, из которого строится взрывная сила. Zatsiorsky: рекрутмент высокопороговых МЕ.',
+   208→  },
+   209→  realization: {
+   210→    name: 'Realization / Power',
+   211→    nameRu: 'Мощность',
+   212→    weeksDuration: 2,
+   213→    method: 'dynamic_effort',
+   214→    volumePercent: 70,
+   215→    intensityPercent: 55,
+   216→    description: 'Конверсия силы в мощность и скорость. Взрывные движения.',
+   217→    color: 'bg-amber-500',
+   218→    badgeClass: 'bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-300',
+   219→    exerciseCountRange: { min: 3, max: 5 },
+   220→    priorityTiers: ['bilateral_compound', 'plyometric'],
+   221→    rationale: 'Signor: мощность = сила x скорость. Zatsiorsky: максимальная мощность при ~1/3 макс. скорости и ~1/2 макс. силы. Bompa: конверсия МxS в мощность.',
+   222→  },
+   223→  deload: {
+   224→    name: 'Deload',
+   225→    nameRu: 'Разгрузка',
+   226→    weeksDuration: 1,
+   227→    method: 'repeated_effort',
+   228→    volumePercent: 50,
+   229→    intensityPercent: 55,
+   230→    description: 'Восстановление и суперкомпенсация. Снижение объёма.',
+   231→    color: 'bg-slate-400',
+   232→    badgeClass: 'bg-slate-100 text-slate-700 dark:bg-slate-800/40 dark:text-slate-400',
+   233→    exerciseCountRange: { min: 4, max: 6 },
+   234→    priorityTiers: ['bilateral_compound', 'unilateral_compound'],
+   235→    rationale: 'Zatsiorsky: модель фитнес-усталости — усталость краткосрочна, фитнес-эффект долгосрочен. Bompa: суперкомпенсация требует разгрузки.',
+   236→  },
+   237→};
+   238→
+   239→// Total cycle = 2 + 3 + 3 + 2 + 1 = 11 weeks
+   240→export const TOTAL_CYCLE_WEEKS = PERIODIZATION_PHASES.reduce(
+   241→  (sum, phase) => sum + PHASE_CONFIG[phase].weeksDuration,
+   242→  0,
+   243→);
+   244→
+   245→// ===== BACKWARD COMPATIBILITY: old 4-phase week mapping =====
+   246→// Old cycle was 10 weeks (3+3+3+1). New cycle is 11 weeks (2+3+3+2+1).
+   247→// Migrate old weeks: if someone is in old cycle, we map proportionally.
+   248→
+   249→function migrateOldWeek(oldWeek: number): number {
+   250→  // Old: 0-2 accum, 3-5 trans, 6-8 real, 9 deload (10 total)
+   251→  // New: 0-1 AA, 2-4 accum, 5-7 trans, 8-9 real, 10 deload (11 total)
+   252→  // Simple proportional mapping
+   253→  return Math.round((oldWeek / 10) * 11);
+   254→}
+   255→
+   256→// ===== HEART RATE ZONES (Benson) =====
+   257→
+   258→export interface HRZone {
+   259→  zone: number;
+   260→  name: string;
+   261→  nameRu: string;
+   262→  minPercentMHR: number;
+   263→  maxPercentMHR: number;
+   264→  purpose: string;
+   265→  talkTest: string;
+   266→  breathing: string;
+   267→}
+   268→
+   269→export const HR_ZONES: HRZone[] = [
+   270→  {
+   271→    zone: 1,
+   272→    name: 'Endurance',
+   273→    nameRu: 'Выносливость',
+   274→    minPercentMHR: 60,
+   275→    maxPercentMHR: 75,
+   276→    purpose: 'Базовая аэробная выносливость, жиросжигание, капилляризация',
+   277→    talkTest: 'Свободная беседа',
+   278→    breathing: 'Ровное дыхание через нос',
+   279→  },
+   280→  {
+   281→    zone: 2,
+   282→    name: 'Stamina',
+   283→    nameRu: 'Стамина',
+   284→    minPercentMHR: 75,
+   285→    maxPercentMHR: 85,
+   286→    purpose: 'Анаэробный порог, экономия гликогена, подготовка',
+   287→    talkTest: 'Короткие фразы',
+   288→    breathing: 'Глубокое, ритмичное',
+   289→  },
+   290→  {
+   291→    zone: 3,
+   292→    name: 'Economy',
+   293→    nameRu: 'Экономика',
+   294→    minPercentMHR: 85,
+   295→    maxPercentMHR: 95,
+   296→    purpose: 'Толерантность к лактату, гоночная форма',
+   297→    talkTest: 'Отдельные слова',
+   298→    breathing: 'Тяжёлое, быстрое',
+   299→  },
+   300→  {
+   301→    zone: 4,
+   302→    name: 'Speed',
+   303→    nameRu: 'Скорость',
+   304→    minPercentMHR: 95,
+   305→    maxPercentMHR: 100,
+   306→    purpose: 'Максимальная мощность, нейромышечная координация',
+   307→    talkTest: 'Невозможно говорить',
+   308→    breathing: 'Максимальная одышка',
+   309→  },
+   310→];
+   311→
+   312→// ===== REST PERIOD SCIENCE (Bompa Ch.4 table; Brown Ch.3; Graham Ch.4-6) =====
+   313→// Bompa: rest depends on load (%1RM) and training goal
+   314→// Enhanced: now considers phase/method intensity, not just method name
+   315→
+   316→export function getScientificRest(
+   317→  method: TrainingMethod,
+   318→  category: 'strength' | 'cardio' | 'flexibility',
+   319→  fitnessLevel: 'beginner' | 'intermediate' | 'advanced',
+   320→): number {
+   321→  if (category === 'flexibility') return 15;
+   322→
+   323→  if (category === 'cardio') {
+   324→    // Graham: metabolic training rest
+   325→    // Roberts: HIIT work/rest ratios (beginner 2:1, advanced 3.3:1)
+   326→    return fitnessLevel === 'beginner' ? 30 : 20;
+   327→  }
+   328→
+   329→  const params = TRAINING_METHODS[method];
+   330→
+   331→  // Bompa Table: rest maps to intensity zone
+   332→  // Supermax >105%: 4-8 min, Max 90-100%: 3-6 min
+   333→  // Heavy 85-90%: 3-5 min, Med-Heavy 80-85%: 3-5 min
+   334→  // Medium 70-80%: 2-3 min, Low-Med 50-70%: 0.5-2 min, Low <50%: 0.5-2 min
+   335→
+   336→  // For AA (50%): 30-90s
+   337→  // For repeated_effort (65%): 60-90s (already set)
+   338→  // For submaximal (82%): 180-300s → cap at 240s (4 min) for practical app use
+   339→  // For dynamic_effort (55%): 45-90s
+   340→  // For maximal_effort (95%): 180-360s → cap at 240s
+   341→
+   342→  // Beginners get longer rest (more recovery), advanced get minimum
+   343→  let rest: number;
+   344→  if (fitnessLevel === 'beginner') {
+   345→    rest = params.restSeconds.max;
+   346→  } else if (fitnessLevel === 'advanced') {
+   347→    rest = params.restSeconds.min;
+   348→  } else {
+   349→    rest = Math.round((params.restSeconds.min + params.restSeconds.max) / 2);
+   350→  }
+   351→
+   352→  // Bompa: for high-CNS-demand methods, ensure minimum rest
+   353→  if (params.cnsDemand === 'high' || params.cnsDemand === 'very_high') {
+   354→    rest = Math.max(rest, 120); // minimum 2 min for high CNS demand
+   355→  }
+   356→
+   357→  return rest;
+   358→}
+   359→
+   360→// ===== PRILEPIN'S CHART (Brown Ch.3; Zatsiorsky Ch.3) =====
+   361→// NOW ACTIVELY USED for set/rep validation and optimization
+   362→
+   363→export interface PrilepinRow {
+   364→  percentRange: string;       // e.g. "70-80%"
+   365→  repsPerSet: number;         // optimal reps per set
+   366→  optimalTotal: number;       // optimal total reps across all sets
+   367→  totalRange: [number, number]; // acceptable range
+   368→}
+   369→
+   370→export function getPrilepinRange(percent1RM: number): {
+   371→  repsPerSet: number;
+   372→  optimalTotal: number;
+   373→  range: [number, number];
+   374→} {
+   375→  if (percent1RM <= 50) return { repsPerSet: 6, optimalTotal: 36, range: [30, 50] };
+   376→  if (percent1RM <= 60) return { repsPerSet: 5, optimalTotal: 30, range: [18, 30] };
+   377→  if (percent1RM <= 70) return { repsPerSet: 4, optimalTotal: 24, range: [18, 30] };
+   378→  if (percent1RM <= 80) return { repsPerSet: 3, optimalTotal: 18, range: [12, 24] };
+   379→  if (percent1RM <= 90) return { repsPerSet: 2, optimalTotal: 10, range: [6, 20] };
+   380→  return { repsPerSet: 1, optimalTotal: 4, range: [1, 10] };
+   381→}
+   382→
+   383→/** Validate and adjust sets/reps against Prilepin's chart */
+   384→export function validateWithPrilepin(
+   385→  targetReps: number,
+   386→  targetSets: number,
+   387→  intensityPercent: number,
+   388→): { adjustedReps: number; adjustedSets: number; isOptimal: boolean; totalReps: number } {
+   389→  const prilepin = getPrilepinRange(intensityPercent);
+   390→  const totalReps = targetReps * targetSets;
+   391→  const [minTotal, maxTotal] = prilepin.range;
+   392→  const isOptimal = totalReps >= minTotal && totalReps <= maxTotal;
+   393→
+   394→  if (isOptimal) {
+   395→    return { adjustedReps: targetReps, adjustedSets: targetSets, isOptimal: true, totalReps };
+   396→  }
+   397→
+   398→  // Adjust: try to get within Prilepin range by modifying sets (not reps, since reps match method)
+   399→  if (totalReps < minTotal) {
+   400→    // Too few total reps — add sets
+   401→    const neededSets = Math.min(
+   402→      Math.ceil(minTotal / targetReps),
+   403→      8, // cap at 8 sets
+   404→    );
+   405→    return { adjustedReps: targetReps, adjustedSets: neededSets, isOptimal: false, totalReps: neededSets * targetReps };
+   406→  }
+   407→
+   408→  // Too many total reps — reduce sets
+   409→  const neededSets = Math.max(
+   410→    Math.floor(maxTotal / targetReps),
+   411→    2, // minimum 2 sets
+   412→  );
+   413→  return { adjustedReps: targetReps, adjustedSets: neededSets, isOptimal: false, totalReps: neededSets * targetReps };
+   414→}
+   415→
+   416→// ===== VOLUME LANDMARKS (Schoenfeld et al.) =====
+   417→// Evidence-based weekly set targets per muscle group
+   418→
+   419→export interface VolumeLandmark {
+   420→  level: string;
+   421→  nameRu: string;
+   422→  setsPerMusclePerWeek: [number, number];
+   423→  description: string;
+   424→}
+   425→
+   426→export const VOLUME_LANDMARKS: VolumeLandmark[] = [
+   427→  {
+   428→    level: 'minimum_effective',
+   429→    nameRu: 'Минимально эффективный',
+   430→    setsPerMusclePerWeek: [5, 9],
+   431→    description: 'Минимальный объём для адаптации у новичков. Schoenfeld: некоторые рост при <5 сетах, но не надёжно.',
+   432→  },
+   433→  {
+   434→    level: 'optimal_hypertrophy',
+   435→    nameRu: 'Оптимальный (гипертрофия)',
+   436→    setsPerMusclePerWeek: [10, 20],
+   437→    description: 'Диапазон с наибольшей вероятностью гипертрофии. Schoenfeld et al. 2017: 10-20 сетов/мышцу/неделю.',
+   438→  },
+   439→  {
+   440→    level: 'upper_limit',
+   441→    nameRu: 'Верхняя граница',
+   442→    setsPerMusclePerWeek: [20, 25],
+   443→    description: 'Возможен дополнительный рост, но риск перетренировки возрастает. Zatsiorsky: закон монотонности.',
+   444→  },
+   445→  {
+   446→    level: 'junk_volume',
+   447→    nameRu: 'Мусорный объём',
+   448→    setsPerMusclePerWeek: [25, 999],
+   449→    description: 'Объём свыше эффективного порога. Усиление усталости без дополнительного роста. Schoenfeld: diminishing returns.',
+   450→  },
+   451→];
+   452→
+   453→/** Calculate weekly volume (sets per muscle group) from a workout plan */
+   454→export function calculateWeeklyVolume(
+   455→  exercises: { targetSets: number; primaryMuscleGroups: string[]; completedSets?: number }[],
+   456→  useCompleted = false,
+   457→): Record<string, number> {
+   458→  const volume: Record<string, number> = {};
+   459→  for (const ex of exercises) {
+   460→    const sets = useCompleted && ex.completedSets !== undefined ? ex.completedSets : ex.targetSets;
+   461→    for (const mg of ex.primaryMuscleGroups) {
+   462→      volume[mg] = (volume[mg] ?? 0) + sets;
+   463→    }
+   464→  }
+   465→  return volume;
+   466→}
+   467→
+   468→/** Get volume assessment for each muscle group */
+   469→export function getVolumeAssessment(
+   470→  weeklyVolume: Record<string, number>,
+   471→  workoutsPerWeek: number = 3,
+   472→): Record<string, { sets: number; level: string; inRange: boolean }> {
+   473→  const assessment: Record<string, { sets: number; level: string; inRange: boolean }> = {};
+   474→  for (const [muscle, sets] of Object.entries(weeklyVolume)) {
+   475→    let level = 'minimum_effective';
+   476→    let inRange = false;
+   477→    if (sets >= 10 && sets <= 20) { level = 'optimal_hypertrophy'; inRange = true; }
+   478→    else if (sets >= 20 && sets <= 25) { level = 'upper_limit'; inRange = true; }
+   479→    else if (sets > 25) { level = 'junk_volume'; }
+   480→    assessment[muscle] = { sets, level, inRange };
+   481→  }
+   482→  return assessment;
+   483→}
+   484→
+   485→// ===== PERIODIZATION HELPERS =====
+   486→
+   487→export function getPhaseForWeek(weekNumber: number): {
+   488→  phase: PeriodizationPhase;
+   489→  weekInPhase: number;
+   490→  blockNumber: number;
+   491→} {
+   492→  // Migrate old 10-week cycle weeks to new 11-week cycle
+   493→  const effectiveWeek = weekNumber < 20 ? migrateOldWeek(weekNumber) : weekNumber;
+   494→
+   495→  const blockNumber = Math.floor(effectiveWeek / TOTAL_CYCLE_WEEKS) + 1;
+   496→  const weekInCycle = effectiveWeek % TOTAL_CYCLE_WEEKS;
+   497→
+   498→  let remaining = weekInCycle;
+   499→  for (const phase of PERIODIZATION_PHASES) {
+   500→    const duration = PHASE_CONFIG[phase].weeksDuration;
+   501→    if (remaining < duration) {
+   502→      return { phase, weekInPhase: remaining + 1, blockNumber };
+   503→    }
+   504→    remaining -= duration;
+   505→  }
+   506→  return { phase: 'deload', weekInPhase: 1, blockNumber };
+   507→}
+   508→
+   509→export function getCurrentPhaseInfo(weekNumber: number): PhaseConfig & {
+   510→  method: TrainingMethod;
+   511→  weekInPhase: number;
+   512→  blockNumber: number;
+   513→  isDeload: boolean;
+   514→} {
+   515→  const { phase, weekInPhase, blockNumber } = getPhaseForWeek(weekNumber);
+   516→  const config = PHASE_CONFIG[phase];
+   517→  return {
+   518→    ...config,
+   519→    method: config.method,
+   520→    weekInPhase,
+   521→    blockNumber,
+   522→    isDeload: phase === 'deload',
+   523→  };
+   524→}
+   525→
+   526→// ===== EXERCISE COUNT BY PHASE (Bompa Ch.4) =====
+   527→// Beginners get more exercises (broader foundation)
+   528→// Advanced get fewer (more specific, more sets per exercise)
+   529→
+   530→export function getExerciseCountForPhase(
+   531→  phase: PeriodizationPhase,
+   532→  fitnessLevel: 'beginner' | 'intermediate' | 'advanced',
+   533→  isDeload: boolean,
+   534→): { min: number; max: number } {
+   535→  const config = PHASE_CONFIG[phase];
+   536→  const range = { ...config.exerciseCountRange };
+   537→
+   538→  // Bompa: beginners need more exercises for anatomical foundation
+   539→  if (fitnessLevel === 'beginner') {
+   540→    range.min = Math.min(range.min + 2, 8);
+   541→    range.max = Math.min(range.max + 2, 10);
+   542→  }
+   543→  // Advanced: fewer exercises, more sets each
+   544→  if (fitnessLevel === 'advanced') {
+   545→    range.min = Math.max(range.min - 1, 3);
+   546→    range.max = Math.max(range.max - 1, 4);
+   547→  }
+   548→
+   549→  // Deload: maintain movement patterns but reduce total
+   550→  if (isDeload) {
+   551→    range.max = Math.min(range.max, 6);
+   552→  }
+   553→
+   554→  return range;
+   555→}
+   556→
+   557→// ===== RESIDUAL TRAINING EFFECTS (Zatsiorsky Ch.9) =====
+   558→// How long training effects persist after stopping
+   559→
+   560→export interface ResidualEffect {
+   561→  quality: string;
+   562→  nameRu: string;
+   563→  durationDays: [number, number]; // [fast decay, slow decay]
+   564→  source: string;
+   565→}
+   566→
+   567→export const RESIDUAL_EFFECTS: ResidualEffect[] = [
+   568→  { quality: 'Анаэробная алактатная (мощность)', nameRu: 'Мощность/скорость', durationDays: [5, 10], source: 'Zatsiorsky; Signor' },
+   569→  { quality: 'Анаэробная лактатная', nameRu: 'Силовая выносливость', durationDays: [10, 18], source: 'Bompa Ch.6' },
+   570→  { quality: 'Максимальная сила', nameRu: 'Максимальная сила', durationDays: [14, 30], source: 'Zatsiorsky Ch.9' },
+   571→  { quality: 'Мышечная гипертрофия', nameRu: 'Гипертрофия', durationDays: [30, 45], source: 'Bompa Ch.6' },
+   572→  { quality: 'Аэробная выносливость', nameRu: 'Аэробная выносливость', durationDays: [10, 14], source: 'Benson; Bompa Ch.7' },
+   573→];
+   574→
+   575→// ===== EXERCISE SELECTION PRIORITY (Brown Ch.1-2; Bompa Ch.4) =====
+   576→// Hierarchy: bilateral compound → unilateral → isolation → plyometric
+   577→// Bompa: AA phase uses all tiers, MxS/Power phases focus on bilateral compound only
+   578→
+   579→export type ExerciseTier =
+   580→  | 'bilateral_compound'
+   581→  | 'unilateral_compound'
+   582→  | 'isolation'
+   583→  | 'plyometric';
+   584→
+   585→export const EXERCISE_TIER_PRIORITY: Record<ExerciseTier, number> = {
+   586→  bilateral_compound: 0,
+   587→  unilateral_compound: 1,
+   588→  isolation: 2,
+   589→  plyometric: 3,
+   590→};
+   591→
+   592→// ===== MOVEMENT PATTERNS (Roberts Ch.9) =====
+   593→// 5 primary patterns that should be covered in every workout
+   594→
+   595→export type MovementPattern =
+   596→  | 'squat_hinge'       // bilateral bend and lift (squat, deadlift, hip hinge)
+   597→  | 'lunge_single_leg'  // single-leg stance (lunge, step-up)
+   598→  | 'push'              // horizontal or vertical push
+   599→  | 'pull'              // horizontal or vertical pull
+   600→  | 'core'              // anti-extension, rotation, stabilization
+   601→  | 'cardio_metabolic'; // cardio/metabolic
+   602→
+   603→export const MOVEMENT_PATTERNS: { id: MovementPattern; name: string; nameRu: string; description: string; examples: string }[] = [
+   604→  { id: 'squat_hinge', name: 'Squat / Hinge', nameRu: 'Присед / Наклон', description: 'Двусторонние сгибания бёдер и коленей', examples: 'Приседания, становая тяга, ягодичный мостик' },
+   605→  { id: 'lunge_single_leg', name: 'Lunge / Single Leg', nameRu: 'Выпад / Одна нога', description: 'Упражнения на одной ноге для баланса и симметрии', examples: 'Выпады, выпад назад, тяга на одной ноге' },
+   606→  { id: 'push', name: 'Push', nameRu: 'Толчок', description: 'Горизонтальный или вертикальный толчок', examples: 'Отжимания, жим над головой, пайк-отжимания' },
+   607→  { id: 'pull', name: 'Pull', nameRu: 'Тяга', description: 'Горизонтальная или вертикальная тяга', examples: 'Тяга к поясу, подтягивания, австралийские подтягивания' },
+   608→  { id: 'core', name: 'Core', nameRu: 'Кор', description: 'Стабилизация, анти-расширение, ротация', examples: 'Планка, ягодичный мостик, скручивания' },
+   609→  { id: 'cardio_metabolic', name: 'Cardio / Metabolic', nameRu: 'Кардио', description: 'Метаболическая и кардио работа', examples: 'Бёрпи, прыжки, бег на месте' },
+   610→];
+   611→
+   612→// ===== ENERGY SYSTEM DOMAINS (Graham Ch.3) =====
+   613→
+   614→export interface EnergySystem {
+   615→  name: string;
+   616→  nameRu: string;
+   617→  duration: string;
+   618→  primary: string;
+   619→  purpose: string;
+   620→}
+   621→
+   622→export const ENERGY_SYSTEMS: EnergySystem[] = [
+   623→  {
+   624→    name: 'Alactic (ATP-PC)',
+   625→    nameRu: 'Алактатная (АТФ-КФ)',
+   626→    duration: '0-10 сек',
+   627→    primary: 'Максимальная мощность/скорость',
+   628→    purpose: 'Взрывная сила, спринт',
+   629→  },
+   630→  {
+   631→    name: 'Lactic (Anaerobic Glycolysis)',
+   632→    nameRu: 'Лактатная (анаэробный гликолиз)',
+   633→    duration: '10 сек - 2 мин',
+   634→    primary: 'Силовая выносливость',
+   635→    purpose: 'Гипертрофия, силовая работа',
+   636→  },
+   637→  {
+   638→    name: 'Aerobic (Oxidative)',
+   639→    nameRu: 'Аэробная (окислительная)',
+   640→    duration: '2+ мин',
+   641→    primary: 'Жиросжигание / выносливость',
+   642→    purpose: 'Восстановление, базовая форма',
+   643→  },
+   644→];
+   645→
+   646→// ===== METABOLIC TRAINING PARAMS (Graham Ch.4-6; Roberts Ch.9) =====
+   647→
+   648→export function getCardioWorkRestRatio(
+   649→  fitnessLevel: 'beginner' | 'intermediate' | 'advanced',
+   650→): { workSeconds: number; restSeconds: number; ratio: string } {
+   651→  switch (fitnessLevel) {
+   652→    case 'beginner':
+   653→      return { workSeconds: 20, restSeconds: 10, ratio: '2:1' };
+   654→    case 'intermediate':
+   655→      return { workSeconds: 40, restSeconds: 15, ratio: '2.7:1' };
+   656→    case 'advanced':
+   657→      return { workSeconds: 50, restSeconds: 15, ratio: '3.3:1' };
+   658→  }
+   659→}
+   660→
+   661→// ===== SCIENTIFIC FITNESS LEVEL (Bompa: reassess periodically) =====
+   662→
+   663→export function calculateScientificFitnessLevel(
+   664→  avgRPE: number,
+   665→  comfortableMinutes: number,
+   666→  totalWorkouts: number,
+   667→): 'beginner' | 'intermediate' | 'advanced' {
+   668→  // Bompa: beginners need anatomical adaptation, advanced can handle maximal effort
+   669→  // Advanced: very easy RPE + long sessions + significant experience
+   670→  if (avgRPE <= 2 && comfortableMinutes >= 40 && totalWorkouts >= 20) return 'advanced';
+   671→  // Intermediate: comfortable + decent session length
+   672→  if (avgRPE <= 4 && comfortableMinutes >= 25 && totalWorkouts >= 5) return 'intermediate';
+   673→  if (avgRPE <= 3 && comfortableMinutes >= 15 && totalWorkouts >= 8) return 'intermediate';
+   674→  // Beginner: default
+   675→  return 'beginner';
+   676→}
+   677→
+   678→// ===== SCIENTIFIC ADAPTIVE LOAD (Enhanced: Bompa fatigue + Zatsiorsky fitness-fatigue) =====
+   679→// Graham Ch.2: Overload + Individuality + Progression principles
+   680→// Benson: Reversibility (detraining begins within days)
+   681→// Zatsiorsky: Fitness-Fatigue model — fatigue is short-lived, fitness persists
+   682→
+   683→export function getScientificAdaptiveMultiplier(
+   684→  feedback: 'easier' | 'normal' | 'harder' | 'very_hard',
+   685→  missedDays: number,
+   686→  consecutiveHardCount: number,
+   687→  phase: PeriodizationPhase,
+   688→): number {
+   689→  // Deload phase: always reduce volume (Bompa)
+   690→  if (phase === 'deload') return 0.85;
+   691→
+   692→  // Severe overreaching: significant regression
+   693→  // Zatsiorsky: accumulated fatigue > fitness gain
+   694→  if (consecutiveHardCount >= 3) return 0.65;
+   695→  if (consecutiveHardCount >= 2) return 0.75;
+   696→
+   697→  // Very hard: moderate reduction
+   698→  if (feedback === 'very_hard') return 0.85;
+   699→
+   700→  // Hard: slight reduction or maintenance
+   701→  if (feedback === 'harder') return 0.92;
+   702→
+   703→  // Detraining: regression based on residual effects (Zatsiorsky)
+   704→  // Power fades in 7-10 days, strength in 14-30 days, hypertrophy in 30-45 days
+   705→  if (missedDays > 14) return 0.70;  // hypertrophy starting to decay
+   706→  if (missedDays > 7) return 0.80;   // power significantly decayed
+   707→  if (missedDays > 3) return 0.88;   // early power decay
+   708→  if (missedDays > 0) return 0.95;   // minimal detraining
+   709→
+   710→  // Normal: slight progressive overload (Graham: 2-10% increase)
+   711→  if (feedback === 'normal') return 1.05;
+   712→
+   713→  // Easier: larger progression
+   714→  // Bompa: if athlete adapts easily, increase volume first, then intensity
+   715→  if (feedback === 'easier') return 1.12;
+   716→
+   717→  return 1.0;
+   718→}
+   719→
+   720→// ===== REP CALCULATION: Scientific Method Intersection + Prilepin =====
+   721→// Intersect variant's natural rep range with the training method's target range
+   722→// Then validate against Prilepin's chart
+   723→
+   724→export function calculateScientificReps(
+   725→  variantRepRange: { min: number; max: number },
+   726→  method: TrainingMethod,
+   727→  fitnessLevel: 'beginner' | 'intermediate' | 'advanced',
+   728→  isDeload: boolean,
+   729→): number {
+   730→  const methodRange = TRAINING_METHODS[method].repRange;
+   731→
+   732→  // Intersect the ranges
+   733→  const intersectMin = Math.max(variantRepRange.min, methodRange.min);
+   734→  const intersectMax = Math.min(variantRepRange.max, methodRange.max);
+   735→
+   736→  let reps: number;
+   737→
+   738→  if (intersectMin > intersectMax) {
+   739→    // No overlap: use closest endpoint of variant range to method range
+   740→    const distToMin = Math.abs(variantRepRange.min - methodRange.max);
+   741→    const distToMax = Math.abs(variantRepRange.max - methodRange.min);
+   742→    reps = distToMin <= distToMax ? variantRepRange.min : variantRepRange.max;
+   743→  } else {
+   744→    // Pick within intersection based on fitness level
+   745→    const range = intersectMax - intersectMin;
+   746→    switch (fitnessLevel) {
+   747→      case 'beginner':
+   748→        reps = intersectMin;
+   749→        break;
+   750→      case 'advanced':
+   751→        reps = intersectMax;
+   752→        break;
+   753→      default:
+   754→        reps = Math.round((intersectMin + intersectMax) / 2);
+   755→        break;
+   756→    }
+   757→  }
+   758→
+   759→  // Deload: reduce 1-2 reps (but minimum 1)
+   760→  if (isDeload) reps = Math.max(1, reps - 2);
+   761→
+   762→  return reps;
+   763→}
+   764→
+   765→// ===== SET CALCULATION: Scientific Method + Prilepin Validation =====
+   766→// Enhanced: validate total reps against Prilepin's chart after initial calculation
+   767→
+   768→export function calculateScientificSets(
+   769→  method: TrainingMethod,
+   770→  fitnessLevel: 'beginner' | 'intermediate' | 'advanced',
+   771→  isDeload: boolean,
+   772→  category: 'strength' | 'cardio' | 'flexibility',
+   773→  goal: 'maintain' | 'lose_weight' | 'muscle_tone' | 'flexibility',
+   774→): number {
+   775→  if (category === 'flexibility') return 1;
+   776→
+   777→  if (category === 'cardio') {
+   778→    const base = goal === 'lose_weight' ? 2 : 1;
+   779→    return isDeload ? 1 : base;
+   780→  }
+   781→
+   782→  const methodRange = TRAINING_METHODS[method].setsRange;
+   783→  let sets: number;
+   784→  switch (fitnessLevel) {
+   785→    case 'beginner':
+   786→      sets = methodRange.min;
+   787→      break;
+   788→    case 'advanced':
+   789→      sets = methodRange.max;
+   790→      break;
+   791→    default:
+   792→      sets = Math.round((methodRange.min + methodRange.max) / 2);
+   793→      break;
+   794→  }
+   795→
+   796→  // Deload: reduce to 60%, minimum 2 sets
+   797→  if (isDeload) {
+   798→    sets = Math.max(2, Math.round(sets * 0.6));
+   799→  }
+   800→
+   801→  return sets;
+   802→}
+   803→
+   804→// ===== WORKOUT TYPE LABELS =====
+   805→
+   806→export function getWorkoutTypeLabel(phase: PeriodizationPhase): string {
+   807→  const method = TRAINING_METHODS[PHASE_CONFIG[phase].method];
+   808→  const methodName = method.nameRu;
+   809→  return `${PHASE_CONFIG[phase].nameRu} · ${methodName}`;
+   810→}
+   811→
+   812→export function getWorkoutTypeDescription(phase: PeriodizationPhase): string {
+   813→  const config = PHASE_CONFIG[phase];
+   814→  const method = TRAINING_METHODS[config.method];
+   815→  return `${config.description}. ${method.repRange.min}-${method.repRange.max} повторений, ${method.restSeconds.min}-${method.restSeconds.max} сек отдых.`;
+   816→}

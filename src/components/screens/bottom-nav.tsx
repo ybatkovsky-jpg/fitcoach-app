@@ -20,7 +20,7 @@ export function BottomNav() {
 
   // Hide nav during onboarding, active workout, feedback, exercise guide, lab tests
   const hasActiveWorkout = screen === 'workout' && !!workoutSession;
-  if (!isOnboarded || screen === 'onboarding' || hasActiveWorkout || screen === 'workout_preview' || screen === 'feedback' || screen === 'exercise_guide' || screen === 'lab_tests' || screen === 'body_metrics' || screen === 'progress' || screen === 'knowledge') {
+  if (!isOnboarded || screen === 'onboarding' || hasActiveWorkout || screen === 'workout_preview' || screen === 'feedback' || screen === 'exercise_guide' || screen === 'lab_tests' || screen === 'body_metrics' || screen === 'progress' || screen === 'knowledge' || screen === 'inventory_edit') {
     return null;
   }
 

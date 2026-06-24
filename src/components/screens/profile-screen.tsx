@@ -127,23 +127,31 @@ export function ProfileScreen() {
         </Card>
       </div>
 
-      {/* Inventory */}
-      <Card className="border-0 shadow-sm">
-        <CardContent className="p-4">
-          <h3 className="text-sm font-semibold mb-2">Инвентарь</h3>
-          {profile.inventory.length === 0 ? (
-            <p className="text-xs text-muted-foreground">Без инвентаря (собственный вес)</p>
-          ) : (
-            <div className="flex flex-wrap gap-1.5">
-              {profile.inventory.map((t) => (
-                <Badge key={t} variant="secondary" className="text-xs">
-                  {EQUIPMENT_LABELS[t]}
-                </Badge>
-              ))}
+      {/* Inventory — clickable to edit */}
+      <button
+        onClick={() => setScreen('inventory_edit')}
+        className="w-full text-left"
+      >
+        <Card className="border-0 shadow-sm hover:shadow-md transition-shadow">
+          <CardContent className="p-4">
+            <div className="flex items-center justify-between mb-2">
+              <h3 className="text-sm font-semibold">Инвентарь</h3>
+              <ChevronRight className="w-4 h-4 text-muted-foreground shrink-0" />
             </div>
-          )}
-        </CardContent>
-      </Card>
+            {profile.inventory.length === 0 ? (
+              <p className="text-xs text-muted-foreground">Без инвентаря (собственный вес)</p>
+            ) : (
+              <div className="flex flex-wrap gap-1.5">
+                {profile.inventory.map((t) => (
+                  <Badge key={t} variant="secondary" className="text-xs">
+                    {EQUIPMENT_LABELS[t]}
+                  </Badge>
+                ))}
+              </div>
+            )}
+          </CardContent>
+        </Card>
+      </button>
 
       {/* Adaptive algorithm info */}
       <Card className="border-0 shadow-sm">

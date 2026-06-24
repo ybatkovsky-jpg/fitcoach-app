@@ -40,7 +40,8 @@ export type AppScreen =
   | 'progress'
   | 'achievements'
   | 'knowledge'
-  | 'admin';
+  | 'admin'
+  | 'inventory_edit';
 
 // --- Workout session state ---
 

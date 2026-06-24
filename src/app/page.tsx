@@ -16,6 +16,7 @@ import { ProgressScreen } from '@/components/screens/progress-screen';
 import { AchievementsScreen } from '@/components/screens/achievements-screen';
 import { AdminScreen } from '@/components/screens/admin-screen';
 import { KnowledgeScreen } from '@/components/screens/knowledge-screen';
+import { InventoryEditScreen } from '@/components/screens/inventory-edit-screen';
 import { BottomNav } from '@/components/screens/bottom-nav';
 import { Dumbbell } from 'lucide-react';
 
@@ -249,6 +250,20 @@ export default function Home() {
                 className="absolute inset-0"
               >
                 <KnowledgeScreen />
+              </motion.div>
+            )}
+
+            {effectiveScreen === 'inventory_edit' && (
+              <motion.div
+                key="inventory_edit"
+                variants={screenVariants}
+                initial="initial"
+                animate="animate"
+                exit="exit"
+                transition={{ duration: 0.2 }}
+                className="absolute inset-0"
+              >
+                <InventoryEditScreen />
               </motion.div>
             )}
           </AnimatePresence>
