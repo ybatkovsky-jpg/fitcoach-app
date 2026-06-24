@@ -1,0 +1,771 @@
+     1→// =============================================================================
+     2→// SCIENTIFIC WORKOUT GENERATION ENGINE — Enhanced Edition
+     3→// Implements principles from 8 evidence-based sources:
+     4→//   Brown: 4 training methods, exercise hierarchy, antagonist pairing, Prilepin
+     5→//   Graham: 7 training principles, work/rest ratios, energy system targeting
+     6→//   Benson: HR zones, zone-based intensity, recovery management
+     7→//   Roberts: undulating periodization, movement patterns, exercise order
+     8→//   Bompa: 5-phase periodization, exercise count by phase, rest by %1RM
+     9→//   Signor: VBT zones, velocity loss protocols, CNS readiness
+    10→//   Zatsiorsky: fitness-fatigue model, residual effects, SSC
+    11→//   Schoenfeld: volume landmarks (10-20 sets/muscle/week)
+    12→// =============================================================================
+    13→
+    14→import {
+    15→  EXERCISE_CATALOG,
+    16→  EQUIPMENT_PRIORITY,
+    17→  FULL_BODY_TARGETS,
+    18→  ANTAGONIST_PAIRS,
+    19→  type ExerciseConfig,
+    20→  type ExerciseVariant,
+    21→  type EquipmentType,
+    22→  type ExerciseTier,
+    23→  type MovementPattern,
+    24→  type WeightedEquipment,
+    25→  type WeightedEquipmentType,
+    26→  resolveWeightFromInventory,
+    27→} from './exercises';
+    28→import type { FitnessLevel } from './exercises';
+    29→
+    30→import {
+    31→  type TrainingMethod,
+    32→  type PeriodizationPhase,
+    33→  TRAINING_METHODS,
+    34→  PHASE_CONFIG,
+    35→  TOTAL_CYCLE_WEEKS,
+    36→  getPhaseForWeek,
+    37→  getCurrentPhaseInfo,
+    38→  getScientificRest,
+    39→  calculateScientificReps,
+    40→  calculateScientificSets,
+    41→  calculateScientificFitnessLevel,
+    42→  getScientificAdaptiveMultiplier,
+    43→  getWorkoutTypeLabel,
+    44→  getExerciseCountForPhase,
+    45→  validateWithPrilepin,
+    46→  EXERCISE_TIER_PRIORITY,
+    47→} from './training-science';
+    48→
+    49→// --- Types ---
+    50→
+    51→export interface ExerciseInPlan {
+    52→  exerciseConfigId: string;
+    53→  exerciseName: string;
+    54→  variantId: string;
+    55→  variantName: string;
+    56→  requiredEquipment: EquipmentType;
+    57→  alternativeHint?: string;
+    58→  targetSets: number;
+    59→  targetReps: number;
+    60→  weightKg: number | null;
+    61→  recommendedWeightLabel?: string;  // e.g. "Гиря 16 кг" or "Гантели 2×10 кг"
+    62→  durationSeconds?: number | null;
+    63→  isTimed?: boolean;
+    64→  primaryMuscleGroups: string[];
+    65→  category: 'strength' | 'cardio' | 'flexibility';
+    66→  completedSets: number;
+    67→  setResults: { reps: number; rpe?: number }[];
+    68→  // --- Scientific fields ---
+    69→  restSeconds: number;            // Scientific rest period for this exercise
+    70→  trainingMethod: TrainingMethod; // Which training method this follows
+    71→  // --- NEW: Enhanced scientific fields ---
+    72→  movementPattern?: MovementPattern;
+    73→  tier?: ExerciseTier;
+    74→  prilepinValidated?: boolean;    // Whether total reps are within Prilepin range
+    75→  phaseRationale?: string;        // Why this exercise was selected for this phase
+    76→}
+    77→
+    78→export interface WorkoutPlan {
+    79→  id: string;
+    80→  exercises: ExerciseInPlan[];
+    81→  createdAt: number;
+    82→  estimatedDurationMin: number;
+    83→  // --- Scientific metadata ---
+    84→  workoutType: string;               // e.g. "Накопление · Повторный метод"
+    85→  workoutTypeDescription: string;    // Human-readable description
+    86→  periodizationPhase: PeriodizationPhase;
+    87→  blockNumber: number;
+    88→  weekInBlock: number;
+    89→  totalCycleWeeks: number;           // 11 (new 5-phase cycle)
+    90→  // --- NEW: Science dashboard data ---
+    91→  coveredPatterns: MovementPattern[];
+    92→  volumePerMuscle: Record<string, number>;
+    93→  phaseRationale: string;            // Scientific explanation of this phase
+    94→  scienceNote?: string;              // Additional science note for the user
+    95→}
+    96→
+    97→export type UserProfile = {
+    98→  gender: 'male' | 'female' | 'other';
+    99→  age: number;
+   100→  height: number;
+   101→  weight: number;
+   102→  medicalRestrictions: boolean;
+   103→  goal: 'maintain' | 'lose_weight' | 'muscle_tone' | 'flexibility';
+   104→  inventory: EquipmentType[];
+   105→  rpeSquat: number;
+   106→  rpePushUp: number;
+   107→  rpePlank: number;
+   108→  comfortableMinutes: number;
+   109→  fitnessLevel: FitnessLevel;
+   110→  weightedEquipment?: WeightedEquipment;
+   111→};
+   112→
+   113→// --- Variant Resolution (weight-aware) ---
+   114→
+   115→export function resolveBestVariant(
+   116→  config: ExerciseConfig,
+   117→  availableEquipment: Set<EquipmentType>,
+   118→  weightedEquipment?: WeightedEquipment,
+   119→  userWeight?: number,
+   120→  level?: FitnessLevel,
+   121→): ExerciseVariant | null {
+   122→  const availableVariants = config.variants.filter(
+   123→    (v) =>
+   124→      v.requiredEquipment === 'none' ||
+   125→      availableEquipment.has(v.requiredEquipment),
+   126→  );
+   127→  if (availableVariants.length === 0) return null;
+   128→
+   129→  // If we have weight info, filter out variants whose required weight is unavailable
+   130→  const weightedTypes: WeightedEquipmentType[] = ['dumbbell', 'kettlebell', 'barbell'];
+   131→  let viableVariants = availableVariants;
+   132→  if (weightedEquipment && userWeight && level) {
+   133→    viableVariants = availableVariants.filter((v) => {
+   134→      const eqType = v.requiredEquipment as WeightedEquipmentType;
+   135→      if (!weightedTypes.includes(eqType)) return true;
+   136→      const base = userWeight * (v.adjustments.defaultWeightPercent / 100);
+   137→      const modifier = level === 'beginner' ? 0.6 : level === 'intermediate' ? 0.75 : 0.85;
+   138→      return resolveWeightFromInventory(eqType, base * modifier, weightedEquipment, level) !== null;
+   139→    });
+   140→    if (viableVariants.length === 0) {
+   141→      viableVariants = availableVariants.filter(
+   142→        (v) => !weightedTypes.includes(v.requiredEquipment as WeightedEquipmentType),
+   143→      );
+   144→    }
+   145→  }
+   146→  if (viableVariants.length === 0) return null;
+   147→  return viableVariants.reduce((best, current) => {
+   148→    const cp = EQUIPMENT_PRIORITY[current.requiredEquipment] ?? 0;
+   149→    const bp = EQUIPMENT_PRIORITY[best.requiredEquipment] ?? 0;
+   150→    return cp >= bp ? current : best;
+   151→  });
+   152→}
+   153→
+   154→// --- Fitness Level ---
+   155→
+   156→export function calculateFitnessLevel(
+   157→  profile: Omit<UserProfile, 'fitnessLevel'>,
+   158→  totalWorkouts: number = 0,
+   159→): FitnessLevel {
+   160→  const avgRPE = (profile.rpeSquat + profile.rpePushUp + profile.rpePlank) / 3;
+   161→  return calculateScientificFitnessLevel(avgRPE, profile.comfortableMinutes, totalWorkouts);
+   162→}
+   163→
+   164→// Legacy export
+   165→export function calculateSets(level: FitnessLevel): number {
+   166→  return calculateScientificSets('repeated_effort', level, false, 'strength', 'maintain');
+   167→}
+   168→
+   169→// --- Weight Calculation (enhanced: uses actual inventory) ---
+   170→
+   171→interface WeightResult {
+   172→  weightKg: number | null;
+   173→  label?: string;
+   174→}
+   175→
+   176→function calculateWeight(
+   177→  variant: ExerciseVariant,
+   178→  userWeight: number,
+   179→  level: FitnessLevel,
+   180→  weightedEquipment?: WeightedEquipment,
+   181→): WeightResult {
+   182→  if (variant.adjustments.defaultWeightPercent === 0) return { weightKg: null };
+   183→
+   184→  const base = userWeight * (variant.adjustments.defaultWeightPercent / 100);
+   185→  const modifier =
+   186→    level === 'beginner' ? 0.6 : level === 'intermediate' ? 0.75 : 0.85;
+   187→  const targetWeight = Math.round(base * modifier * 10) / 10;
+   188→
+   189→  // Try to resolve from user's actual inventory
+   190→  const eqType = variant.requiredEquipment as WeightedEquipmentType;
+   191→  const weightedTypes: WeightedEquipmentType[] = ['dumbbell', 'kettlebell', 'barbell'];
+   192→  
+   193→  if (weightedTypes.includes(eqType) && weightedEquipment) {
+   194→    const resolved = resolveWeightFromInventory(eqType, targetWeight, weightedEquipment, level);
+   195→    if (resolved) {
+   196→      return { weightKg: resolved.weightKg, label: resolved.label };
+   197→    }
+   198→    // No suitable weight found — return null (bodyweight fallback)
+   199→    return { weightKg: null };
+   200→  }
+   201→
+   202→  // For non-discrete equipment (bands, machines, etc.) — use calculated %
+   203→  return { weightKg: targetWeight };
+   204→}
+   205→
+   206→// --- Build Exercise In Plan (scientific version with Prilepin validation) ---
+   207→
+   208→function buildExerciseInPlan(
+   209→  config: ExerciseConfig,
+   210→  variant: ExerciseVariant,
+   211→  profile: UserProfile,
+   212→  method: TrainingMethod,
+   213→  isDeload: boolean,
+   214→  setsOverride?: number,
+   215→  phaseRationale?: string,
+   216→): ExerciseInPlan {
+   217→  const level = profile.fitnessLevel;
+   218→  const category = config.category as 'strength' | 'cardio' | 'flexibility';
+   219→
+   220→  // Scientific sets based on training method
+   221→  let targetSets =
+   222→    setsOverride ??
+   223→    calculateScientificSets(method, level, isDeload, category, profile.goal);
+   224→
+   225→  // Scientific reps: intersect variant range with method range
+   226→  let targetReps = calculateScientificReps(
+   227→    variant.adjustments.repRange,
+   228→    method,
+   229→    level,
+   230→    isDeload,
+   231→  );
+   232→
+   233→  // Prilepin validation for strength exercises
+   234→  let prilepinValidated = false;
+   235→  if (category === 'strength') {
+   236→    const intensityPercent = TRAINING_METHODS[method].intensityPercent;
+   237→    const validation = validateWithPrilepin(targetReps, targetSets, intensityPercent);
+   238→    if (!validation.isOptimal) {
+   239→      // Adjust sets to match Prilepin's optimal total reps
+   240→      targetSets = validation.adjustedSets;
+   241→    }
+   242→    prilepinValidated = true;
+   243→  }
+   244→
+   245→  // For timed exercises, use duration
+   246→  const dur = variant.adjustments.durationSeconds ?? null;
+   247→
+   248→  // Scientific rest period (Bompa: based on intensity and CNS demand)
+   249→  const restSeconds = getScientificRest(method, category, level);
+   250→
+   251→  // Weight (enhanced: from actual inventory)
+   252→  const weightResult = calculateWeight(variant, profile.weight, level, profile.weightedEquipment);
+   253→
+   254→  return {
+   255→    exerciseConfigId: config.id,
+   256→    exerciseName: config.name,
+   257→    variantId: variant.variantId,
+   258→    variantName: variant.variantName,
+   259→    requiredEquipment: variant.requiredEquipment,
+   260→    alternativeHint: variant.alternativeEquipmentHint,
+   261→    targetSets,
+   262→    targetReps: config.isTimed && dur ? dur : targetReps,
+   263→    weightKg: weightResult.weightKg,
+   264→    recommendedWeightLabel: weightResult.label,
+   265→    durationSeconds: dur,
+   266→    isTimed: config.isTimed,
+   267→    primaryMuscleGroups: config.primaryMuscleGroups,
+   268→    category,
+   269→    completedSets: 0,
+   270→    setResults: [],
+   271→    restSeconds,
+   272→    trainingMethod: method,
+   273→    movementPattern: config.movementPattern,
+   274→    tier: config.tier,
+   275→    prilepinValidated,
+   276→    phaseRationale,
+   277→  };
+   278→}
+   279→
+   280→// --- Exercise Sorting by Tier Priority (Brown Ch.1-2; Bompa Ch.4) ---
+   281→// Bompa: exercise selection by phase — AA uses broad, MxS/Power uses specific
+   282→
+   283→function sortCandidatesByTierAndRecency(
+   284→  candidates: ExerciseConfig[],
+   285→  recentIds: Set<string>,
+   286→  priorityTiers: ExerciseTier[],
+   287→): ExerciseConfig[] {
+   288→  return [...candidates].sort((a, b) => {
+   289→    // 1. Tier priority (lower number = higher priority)
+   290→    const aTier = a.tier ? (EXERCISE_TIER_PRIORITY[a.tier] ?? 99) : 99;
+   291→    const bTier = b.tier ? (EXERCISE_TIER_PRIORITY[b.tier] ?? 99) : 99;
+   292→    
+   293→    // If both tiers are in the priority list, sort by tier
+   294→    const aInPriority = priorityTiers.includes(a.tier as ExerciseTier);
+   295→    const bInPriority = priorityTiers.includes(b.tier as ExerciseTier);
+   296→    
+   297→    if (aInPriority && !bInPriority) return -1;
+   298→    if (!aInPriority && bInPriority) return 1;
+   299→    if (aInPriority && bInPriority) {
+   300→      const aTierIdx = priorityTiers.indexOf(a.tier as ExerciseTier);
+   301→      const bTierIdx = priorityTiers.indexOf(b.tier as ExerciseTier);
+   302→      if (aTierIdx !== bTierIdx) return aTierIdx - bTierIdx;
+   303→    }
+   304→    
+   305→    // 2. Recency: prefer exercises NOT recently used (Brown: accommodation)
+   306→    const aRecent = recentIds.has(a.id) ? 1 : 0;
+   307→    const bRecent = recentIds.has(b.id) ? 1 : 0;
+   308→    if (aRecent !== bRecent) return aRecent - bRecent;
+   309→
+   310→    return 0;
+   311→  });
+   312→}
+   313→
+   314→// --- Movement Pattern Coverage Check (Roberts Ch.9) ---
+   315→
+   316→function getMissingPatterns(
+   317→  selectedExercises: ExerciseInPlan[],
+   318→): MovementPattern[] {
+   319→  const covered = new Set(
+   320→    selectedExercises
+   321→      .map((e) => e.movementPattern)
+   322→      .filter((p): p is MovementPattern => !!p && p !== 'cardio_metabolic' && p !== 'flexibility'),
+   323→  );
+   324→  
+   325→  const essentialPatterns: MovementPattern[] = [
+   326→    'squat_hinge', 'push', 'pull', 'core',
+   327→  ];
+   328→  
+   329→  return essentialPatterns.filter((p) => !covered.has(p));
+   330→}
+   331→
+   332→// --- MAIN WORKOUT GENERATION (Scientific Enhanced) ---
+   333→
+   334→export function generateWorkout(
+   335→  profile: UserProfile,
+   336→  extraExercises?: ExerciseConfig[],
+   337→  periodizationWeek: number = 0,
+   338→  recentExerciseIds: string[] = [],
+   339→): WorkoutPlan {
+   340→  const availableSet = new Set(profile.inventory);
+   341→  const allCatalog = [...EXERCISE_CATALOG, ...(extraExercises ?? [])];
+   342→  const selectedExercises: ExerciseInPlan[] = [];
+   343→  const coveredIds = new Set<string>();
+   344→
+   345→  // --- 1. Determine periodization phase and training method ---
+   346→  const phaseInfo = getCurrentPhaseInfo(periodizationWeek);
+   347→  const { method, isDeload, weekInPhase, blockNumber } = phaseInfo;
+   348→  // Use the actual phase key (not the display name) for lookups
+   349→  const phaseKey = getPhaseForWeek(periodizationWeek).phase;
+   350→  const recentIdSet = new Set(recentExerciseIds);
+   351→
+   352→  // Bompa: exercise count varies by phase (AA=6-8, Hyp=5-7, MxS=4-6, Power=3-5, Deload=4-6)
+   353→  const exerciseCount = getExerciseCountForPhase(
+   354→    phaseKey,
+   355→    profile.fitnessLevel,
+   356→    isDeload,
+   357→  );
+   358→  const maxStrengthExercises = exerciseCount.max;
+   359→  const priorityTiers = phaseInfo.priorityTiers;
+   360→
+   361→  // --- 2. Select strength exercises with tier priority ---
+   362→  const strengthCatalog = allCatalog.filter((e) => e.category === 'strength');
+   363→
+   364→  // Bompa: in AA and Hyp phases, beginners get more exercises for broader foundation
+   365→  // In MxS and Power phases, focus on prime movers (bilateral compound only)
+   366→  
+   367→  for (const target of FULL_BODY_TARGETS) {
+   368→    if (selectedExercises.filter((e) => e.category === 'strength').length >= maxStrengthExercises) {
+   369→      break; // Bompa: respect exercise count limit for this phase
+   370→    }
+   371→
+   372→    // Find candidates for this muscle group
+   373→    let candidates = strengthCatalog.filter((ex) =>
+   374→      ex.primaryMuscleGroups.includes(target),
+   375→    );
+   376→
+   377→    // Remove already-selected exercises
+   378→    candidates = candidates.filter((c) => !coveredIds.has(c.id));
+   379→
+   380→    // Sort by tier priority + recency (Brown Ch.1-2 hierarchy + Bomba accommodation)
+   381→    candidates = sortCandidatesByTierAndRecency(candidates, recentIdSet, priorityTiers);
+   382→
+   383→    // Pick first available with a valid variant (weight-aware)
+   384→    for (const candidate of candidates) {
+   385→      const variant = resolveBestVariant(candidate, availableSet, profile.weightedEquipment, profile.weight, profile.fitnessLevel);
+   386→      if (!variant) continue;
+   387→
+   388→      const rationale = getPhaseRationale(phaseKey, candidate.tier);
+   389→      selectedExercises.push(
+   390→        buildExerciseInPlan(candidate, variant, profile, method, isDeload, undefined, rationale),
+   391→      );
+   392→      coveredIds.add(candidate.id);
+   393→      break;
+   394→    }
+   395→  }
+   396→
+   397→  // --- 2b. Fill missing movement patterns if budget allows (Roberts Ch.9) ---
+   398→  const missingPatterns = getMissingPatterns(selectedExercises);
+   399→  const strengthCount = selectedExercises.filter((e) => e.category === 'strength').length;
+   400→  const remainingBudget = maxStrengthExercises - strengthCount;
+   401→
+   402→  if (remainingBudget > 0 && missingPatterns.length > 0) {
+   403→    for (const pattern of missingPatterns) {
+   404→      if (strengthCount + selectedExercises.filter((e) => e.category === 'strength' && e.movementPattern === pattern).length >= maxStrengthExercises) break;
+   405→
+   406→      const patternCandidates = strengthCatalog.filter(
+   407→        (ex) => ex.movementPattern === pattern && !coveredIds.has(ex.id),
+   408→      );
+   409→      const sorted = sortCandidatesByTierAndRecency(patternCandidates, recentIdSet, priorityTiers);
+   410→
+   411→      for (const candidate of sorted) {
+   412→        const variant = resolveBestVariant(candidate, availableSet, profile.weightedEquipment, profile.weight, profile.fitnessLevel);
+   413→        if (!variant) continue;
+   414→        selectedExercises.push(
+   415→          buildExerciseInPlan(candidate, variant, profile, method, isDeload),
+   416→        );
+   417→        coveredIds.add(candidate.id);
+   418→        break;
+   419→      }
+   420→    }
+   421→  }
+   422→
+   423→  // --- 3. Add cardio exercises ---
+   424→  const cardioCatalog = allCatalog.filter((e) => e.category === 'cardio');
+   425→  const cardioCount = profile.goal === 'lose_weight' ? 2 : 1;
+   426→  // Bompa: in Power phase, reduce cardio (focus on CNS freshness)
+   427→  const effectiveCardioCount = (phaseInfo.name === 'realization') ? Math.max(1, cardioCount - 1) : cardioCount;
+   428→  let added = 0;
+   429→
+   430→  const cardioCandidates = sortCandidatesByTierAndRecency(
+   431→    cardioCatalog.filter((c) => !coveredIds.has(c.id)),
+   432→    recentIdSet,
+   433→    priorityTiers,
+   434→  );
+   435→
+   436→  for (const candidate of cardioCandidates) {
+   437→    if (added >= effectiveCardioCount) break;
+   438→    const variant = resolveBestVariant(candidate, availableSet);
+   439→    if (!variant) continue;
+   440→
+   441→    selectedExercises.push(
+   442→      buildExerciseInPlan(candidate, variant, profile, method, isDeload, 1),
+   443→    );
+   444→    coveredIds.add(candidate.id);
+   445→    added++;
+   446→  }
+   447→
+   448→  // --- 4. Flexibility (conditional) ---
+   449→  const needsFlexibility =
+   450→    profile.goal === 'flexibility' || profile.goal === 'maintain';
+   451→
+   452→  if (needsFlexibility) {
+   453→    const flexCatalog = allCatalog.filter((e) => e.category === 'flexibility');
+   454→    const flexCandidates = sortCandidatesByTierAndRecency(
+   455→      flexCatalog.filter((c) => !coveredIds.has(c.id)),
+   456→      recentIdSet,
+   457→      priorityTiers,
+   458→    );
+   459→
+   460→    for (const candidate of flexCandidates) {
+   461→      const variant = resolveBestVariant(candidate, availableSet);
+   462→      if (!variant) continue;
+   463→
+   464→      selectedExercises.push(
+   465→        buildExerciseInPlan(candidate, variant, profile, method, isDeload, 1),
+   466→      );
+   467→      coveredIds.add(candidate.id);
+   468→      break;
+   469→    }
+   470→  }
+   471→
+   472→  // --- 5. Order exercises scientifically ---
+   473→
+   474→  const strengthExercises = selectedExercises.filter(
+   475→    (e) => e.category === 'strength',
+   476→  );
+   477→  const cardioExercises = selectedExercises.filter(
+   478→    (e) => e.category === 'cardio',
+   479→  );
+   480→  const flexExercises = selectedExercises.filter(
+   481→    (e) => e.category === 'flexibility',
+   482→  );
+   483→
+   484→  // Bompa Ch.4: exercise order rules:
+   485→  // 1. Complex multi-joint first (prime movers, CNS fresh)
+   486→  // 2. Speed/power before strength (Signor)
+   487→  // 3. Large muscle groups before small
+   488→  // 4. Core/structural before limb exercises
+   489→  // 5. Alternate agonist/antagonist (Brown Ch.1)
+   490→
+   491→  // Sort strength: bilateral compound first, then by antagonist alternation
+   492→  const tierSorted = [...strengthExercises].sort((a, b) => {
+   493→    const aTier = a.tier ? (EXERCISE_TIER_PRIORITY[a.tier] ?? 99) : 99;
+   494→    const bTier = b.tier ? (EXERCISE_TIER_PRIORITY[b.tier] ?? 99) : 99;
+   495→    return aTier - bTier;
+   496→  });
+   497→
+   498→  const sorted = antagonistSort(tierSorted);
+   499→
+   500→  let finalExercises: ExerciseInPlan[];
+   501→
+   502→  if (profile.goal === 'lose_weight' && cardioExercises.length > 0) {
+   503→    // Roberts Ch.9: metabolic pod system
+   504→    finalExercises = interleaveCardio(sorted, cardioExercises, flexExercises);
+   505→  } else {
+   506→    // Bompa Ch.4: standard order — strength → cardio → flexibility
+   507→    // Signor: power exercises before strength (in realization phase)
+   508→    finalExercises = [...sorted, ...cardioExercises, ...flexExercises];
+   509→  }
+   510→
+   511→  // --- 6. Cap to comfortable minutes ---
+   512→  finalExercises = capToTimeLimit(finalExercises, profile.comfortableMinutes);
+   513→
+   514→  // --- 7. Estimate duration ---
+   515→  const estimatedDurationMin = estimateDuration(finalExercises);
+   516→
+   517→  // --- 8. Calculate volume per muscle group (Schoenfeld landmarks) ---
+   518→  const volumePerMuscle = calculateVolumePerMuscle(finalExercises);
+   519→
+   520→  // --- 9. Get covered movement patterns ---
+   521→  const coveredPatterns = [
+   522→    ...new Set(
+   523→      finalExercises
+   524→        .map((e) => e.movementPattern)
+   525→        .filter((p): p is MovementPattern => !!p),
+   526→    ),
+   527→  ];
+   528→
+   529→  // --- 10. Build science note ---
+   530→  const scienceNote = getScienceNote(phaseInfo.name as PeriodizationPhase, weekInPhase, profile.fitnessLevel);
+   531→
+   532→  // --- 11. Build result ---
+   533→  return {
+   534→    id: `plan_${Date.now()}`,
+   535→    exercises: finalExercises,
+   536→    createdAt: Date.now(),
+   537→    estimatedDurationMin,
+   538→    workoutType: getWorkoutTypeLabel(phaseKey),
+   539→    workoutTypeDescription: `${phaseInfo.description}. ${TRAINING_METHODS[method].repRange.min}-${TRAINING_METHODS[method].repRange.max} повторений, отдых ${getScientificRest(method, 'strength', profile.fitnessLevel)} сек.`,
+   540→    periodizationPhase: phaseKey,
+   541→    blockNumber,
+   542→    weekInBlock: weekInPhase,
+   543→    totalCycleWeeks: TOTAL_CYCLE_WEEKS,
+   544→    coveredPatterns,
+   545→    volumePerMuscle,
+   546→    phaseRationale: phaseInfo.rationale,
+   547→    scienceNote,
+   548→  };
+   549→}
+   550→
+   551→// --- Helper: Phase rationale for exercise selection ---
+   552→
+   553→function getPhaseRationale(phase: PeriodizationPhase, tier?: ExerciseTier): string {
+   554→  if (phase === 'anatomical_adaptation') {
+   555→    return 'Bompa: подготовка тканей перед нагрузкой. Широкий спектр упражнений.';
+   556→  }
+   557→  if (phase === 'realization' && tier === 'bilateral_compound') {
+   558→    return 'Signor: многосуставные упражнения для взрывной силы при 40-60% 1RM.';
+   559→  }
+   560→  if (phase === 'transmutation') {
+   561→    return 'Bompa: фокус на prime movers для максимальной силы.';
+   562→  }
+   563→  return '';
+   564→}
+   565→
+   566→// --- Helper: Science note for the user ---
+   567→
+   568→function getScienceNote(phase: PeriodizationPhase, weekInPhase: number, level: FitnessLevel): string {
+   569→  const notes: Record<PeriodizationPhase, string[]> = {
+   570→    anatomical_adaptation: [
+   571→      'Подготовительная фаза: укрепляем связки и суставы перед основными нагрузками.',
+   572→      'Высокий объём, низкая интенсивность — обучаемся правильной технике.',
+   573→    ],
+   574→    accumulation: [
+   575→      'Фаза гипертрофии: Schoenfeld рекомендует 10-20 сетов на мышечную группу в неделю.',
+   576→      'Множество повторений (8-15) с умеренным весом для максимального роста.',
+   577→    ],
+   578→    transmutation: [
+   579→      'Фаза максимальной силы: Bompa — фундамент для развития мощности.',
+   580→      'Высокая интенсивность (80-85% 1RM), длинный отдых (2-3 мин) для полного восстановления.',
+   581→      'Zatsiorsky: рекрутмент высокопороговых моторных единиц.',
+   582→    ],
+   583→    realization: [
+   584→      'Фаза мощности: Signor — скорость падения >10% означает остановку сета.',
+   585→      'Bompa: конверсия силы в мощность. Меньше упражнений, больше взрывной работы.',
+   586→    ],
+   587→    deload: [
+   588→      'Разгрузка: Zatsiorsky — модель фитнес-усталости. Усталость краткосрочна, адаптация долгосрочна.',
+   589→      'Снижение объёма для суперкомпенсации. Не пропускайте эту фазу!',
+   590→    ],
+   591→  };
+   592→
+   593→  const phaseNotes = notes[phase] ?? [];
+   594→  // Cycle through notes based on week in phase
+   595→  return phaseNotes[(weekInPhase - 1) % phaseNotes.length] ?? '';
+   596→}
+   597→
+   598→// --- Helper: Volume per muscle group ---
+   599→
+   600→function calculateVolumePerMuscle(
+   601→  exercises: ExerciseInPlan[],
+   602→): Record<string, number> {
+   603→  const volume: Record<string, number> = {};
+   604→  for (const ex of exercises) {
+   605→    for (const mg of ex.primaryMuscleGroups) {
+   606→      volume[mg] = (volume[mg] ?? 0) + ex.targetSets;
+   607→    }
+   608→  }
+   609→  return volume;
+   610→}
+   611→
+   612→// --- Antagonist Sorting ---
+   613→
+   614→function antagonistSort(exercises: ExerciseInPlan[]): ExerciseInPlan[] {
+   615→  if (exercises.length <= 1) return exercises;
+   616→
+   617→  const sorted: ExerciseInPlan[] = [];
+   618→  const used = new Set<number>();
+   619→
+   620→  const muscleToIdx = new Map<string, number[]>();
+   621→  exercises.forEach((ex, i) => {
+   622→    for (const mg of ex.primaryMuscleGroups) {
+   623→      if (!muscleToIdx.has(mg)) muscleToIdx.set(mg, []);
+   624→      muscleToIdx.get(mg)!.push(i);
+   625→    }
+   626→  });
+   627→
+   628→  while (used.size < exercises.length) {
+   629→    const lastPrimary =
+   630→      sorted.length > 0 ? sorted[sorted.length - 1].primaryMuscleGroups : [];
+   631→
+   632→    let nextIdx = -1;
+   633→
+   634→    for (const mg of lastPrimary) {
+   635→      const targetAntagonist = ANTAGONIST_PAIRS[mg];
+   636→      if (targetAntagonist) {
+   637→        const candidates = muscleToIdx.get(targetAntagonist) ?? [];
+   638→        for (const idx of candidates) {
+   639→          if (!used.has(idx)) {
+   640→            nextIdx = idx;
+   641→            break;
+   642→          }
+   643→        }
+   644→        if (nextIdx >= 0) break;
+   645→      }
+   646→    }
+   647→
+   648→    if (nextIdx === -1) {
+   649→      for (let i = 0; i < exercises.length; i++) {
+   650→        if (!used.has(i)) {
+   651→          nextIdx = i;
+   652→          break;
+   653→        }
+   654→      }
+   655→    }
+   656→
+   657→    if (nextIdx === -1) break;
+   658→    used.add(nextIdx);
+   659→    sorted.push(exercises[nextIdx]);
+   660→  }
+   661→
+   662→  return sorted;
+   663→}
+   664→
+   665→// --- Metabolic Pod System (Roberts Ch.9 / Graham Ch.7) ---
+   666→
+   667→function interleaveCardio(
+   668→  strength: ExerciseInPlan[],
+   669→  cardio: ExerciseInPlan[],
+   670→  flexibility: ExerciseInPlan[],
+   671→): ExerciseInPlan[] {
+   672→  if (cardio.length === 0) return [...strength, ...flexibility];
+   673→
+   674→  const result: ExerciseInPlan[] = [];
+   675→  const cardioCopy = [...cardio];
+   676→  let cardioIdx = 0;
+   677→
+   678→  const midPoint = Math.ceil(strength.length / 2);
+   679→
+   680→  for (let i = 0; i < midPoint && i < strength.length; i++) {
+   681→    result.push(strength[i]);
+   682→  }
+   683→
+   684→  while (cardioIdx < cardioCopy.length) {
+   685→    result.push(cardioCopy[cardioIdx]);
+   686→    cardioIdx++;
+   687→  }
+   688→
+   689→  for (let i = midPoint; i < strength.length; i++) {
+   690→    result.push(strength[i]);
+   691→  }
+   692→
+   693→  result.push(...flexibility);
+   694→
+   695→  return result;
+   696→}
+   697→
+   698→// --- Time Cap ---
+   699→
+   700→function capToTimeLimit(
+   701→  exercises: ExerciseInPlan[],
+   702→  maxMinutes: number,
+   703→): ExerciseInPlan[] {
+   704→  const estimated = estimateDuration(exercises);
+   705→  if (estimated <= maxMinutes) return exercises;
+   706→
+   707→  const result = [...exercises];
+   708→  while (result.length > 3 && estimateDuration(result) > maxMinutes) {
+   709→    const lastIdx = result.length - 1;
+   710→    const lastEx = result[lastIdx];
+   711→    if (lastEx.category !== 'strength') {
+   712→      result.pop();
+   713→    } else {
+   714→      result.pop();
+   715→    }
+   716→  }
+   717→  return result;
+   718→}
+   719→
+   720→// --- Duration Estimation ---
+   721→
+   722→function estimateDuration(exercises: ExerciseInPlan[]): number {
+   723→  let totalSeconds = 0;
+   724→
+   725→  for (const ex of exercises) {
+   726→    const sets = ex.targetSets;
+   727→
+   728→    if (ex.isTimed && ex.durationSeconds) {
+   729→      totalSeconds += sets * ex.durationSeconds;
+   730→    } else if (ex.category === 'cardio') {
+   731→      totalSeconds += sets * 35;
+   732→    } else {
+   733→      totalSeconds += sets * ex.targetReps * 3;
+   734→    }
+   735→
+   736→    totalSeconds += Math.max(0, sets - 1) * ex.restSeconds;
+   737→    totalSeconds += 15;
+   738→  }
+   739→
+   740→  return Math.round(totalSeconds / 60);
+   741→}
+   742→
+   743→// --- Adaptive Load ---
+   744→
+   745→export type WorkoutFeedback = 'easier' | 'normal' | 'harder' | 'very_hard';
+   746→
+   747→export function getAdaptiveMultiplier(
+   748→  feedback: WorkoutFeedback,
+   749→  missedDays: number,
+   750→  consecutiveHardCount: number,
+   751→): number {
+   752→  return getScientificAdaptiveMultiplier(feedback, missedDays, consecutiveHardCount, 'accumulation');
+   753→}
+   754→
+   755→export function applyAdaptiveLoad(
+   756→  plan: ExerciseInPlan[],
+   757→  multiplier: number,
+   758→): ExerciseInPlan[] {
+   759→  return plan.map((ex) => ({
+   760→    ...ex,
+   761→    targetReps:
+   762→      ex.category === 'cardio'
+   763→        ? ex.targetReps
+   764→        : Math.max(1, Math.round(ex.targetReps * multiplier)),
+   765→    weightKg: ex.weightKg
+   766→      ? Math.round(ex.weightKg * multiplier * 10) / 10
+   767→      : null,
+   768→    completedSets: 0,
+   769→    setResults: [],
+   770→  }));
+   771→}
