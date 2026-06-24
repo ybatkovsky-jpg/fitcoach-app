@@ -1,0 +1,844 @@
+--- PAGE 44 ---
+It’s true that someone not experienced with exhaustive levels of athletic
+effort might not do well on a first max treadmill stress test. So the idea that
+treadmill or bike testing for MHR is not a learned skill and takes no
+experience is a myth. People often bail out long before they reach their true
+maximum values because they don’t know how to endure the pain of full
+fatigue or they simply are unfamiliar with this level of effort and are
+uncomfortable with it. True MHR is not reached until the beats per minute
+plateau and refuse to rise any higher no matter how much harder, faster, or
+longer the subject moves. Most rookies have to survive several close
+brushes with exhaustion before they realize how hard they can push
+themselves and what levels of fatigue they can endure and live to tell about.
+If you have suspicions about your MHR, keep trying by repeating the tests
+we recommend, or checking your monitor at the end of really hard
+workouts or races.
+--- PAGE 45 ---
+Even an endurance fitness test in a clinical setting may not accurately reveal true
+maximum heart rate. Athletes have to push themselves until their heart rate plateaus,
+which is beyond what many people can endure.
+Myth 3: Getting a Real Maximum Effort
+Doctors usually don’t like to stand around watching patients perform heroic
+feats of athletic endurance during exercise stress tests. Because doctors are
+in the business of detecting hidden heart disease, treadmill or bike cardiac
+stress tests administered in a physician’s office are usually submaximal and
+don’t reveal true MHR. Symptoms of coronary artery problems usually
+surface once the subject reaches or slightly exceeds anaerobic threshold
+(AT). Despite the fact that the anaerobic threshold is fitness dependent and
+--- PAGE 46 ---
+can be experienced by unfit folks at very low percentages of MHR, it is
+expected by most doctors to be about 85 percent MHR. So once that effort
+level is achieved, often the test is ended with the subject far short of that
+real MHR. Furthermore, most physicians are not well educated in exercise
+physiology and often naively use the age-adjusted formula for predicting
+that target in the first place. (See the first myth for why this is not a good
+idea.) If you are still suspicious about your real MHR, keep reading.
+Myth 4: Applying Heart Rate Responses Across Exercise
+Modes
+Heart rate responses vary depending on work rate across exercise modes.
+What this means is that a 60 percent MHR while running can feel
+completely different than a 60 percent MHR while cycling or swimming.
+Triathletes know this only too well. Heart rate varies as a function of many
+variables; one is the number of active muscle contractions and whether you
+are carrying your weight as in running, pushing it as in cycling, or pulling it
+in a supported environment as in swimming. Therefore, multisport athletes
+should have different heart rate values for different activities. Your
+familiarity with an activity and the specificity of the activity affect your
+heart rate response.
+Determining Maximum Heart Rate
+As you contemplate determining your true maximum heart rate, think back
+to the information presented for myth 1. Make sure you have accurate data
+based on you in your chosen activity. The sport-specific chapters provide
+more relevant information on this topic, but we want to emphasize here how
+important it is to have this information.
+This section presents protocols for self-testing in running. (The protocols
+for swimming, cycling, rowing, and cross-country skiing are in those
+specific chapters.)
+Not knowing your true MHR is the first error. If you don’t know your
+actual MHR, you could be in exactly the same shape, have exactly the same
+running ability, and be running the same pace as your training partner while
+your respective heart rates are as much as 72 beats apart in extreme cases.
+--- PAGE 47 ---
+Remember what we said about comparing heart rates: Don’t do it.
+Furthermore, be skeptical when using a monitor for the first time if the
+numbers you’ve calculated from the predicted max formula don’t seem to
+make sense. Take a treadmill stress test supervised by a physiologist or
+physician who promises to take you to your maximum. Obviously, a testing
+facility is the safest and most effective place to be tested for your MHR.
+Some universities offer these services, as do higher-end sport clubs, sports
+medicine clinics, and even some private practitioners. Cost ranges from
+$100 to $350.
+Choose where you get tested carefully. There is a lot of room for
+interpretation and measurement error depending on the skill of the
+technician. Look for certified technicians and exercise physiologists and not
+a self-professed fitness enthusiast who took a weekend course and bought
+some equipment. Simple testing protocols, such as the running test
+described here, are useful for most people but may not tell the whole story,
+depending on your level of fitness, skill, and mode of activity. If you
+suspect your numbers aren’t right, try the tests in the programming
+chapters. Before undergoing any testing, be sure to get the okay from your
+doctor.
+Sample Running Test for MHR
+1. Find a running track or a small and gradual incline 400 to 600 meters
+long. Put on your heart rate monitor.
+2. Jog 0.5- to 1-mile (0.8 to 1.6 km) to warm-up.
+3. Run one lap or one incline as fast as you can. Check and record your
+heart rate at the end of the effort.
+4. Take a 2-minute recovery walk or jog, and then repeat the run. Again,
+check and record your heart rate when you finish.
+5. Take a 2-minute recovery and repeat the run. Again, check and record
+your heart rate when you finish. Your heart rate at the end of this third
+trial will be a pretty good indicator of your maximum heart rate.
+See also page 154 in chapter 10 for another option for self-testing MHR.
+--- PAGE 48 ---
+Calculating Target Heart Rate or
+Heart Rate Training Zones
+The level of stimulus to your organs affects their rate of adaptation. As you
+might expect, lower-intensity activity has a different effect than higher-
+intensity activity does. You have already come across the terms aerobic and
+anaerobic in the previous chapter. Here we combine them with metabolism
+to discuss aerobic and anaerobic energy systems. Think of aerobic and
+anaerobic as synonymous with low intensity and high intensity.
+These terms have several implications for training. How effectively you
+develop these systems is of major importance in how you perform. For the
+most part, the information in this book targets the endurance, or aerobic,
+athlete. However, top-class endurance performances also depend heavily on
+anaerobic energy. If peak performances are your objective, it would be a
+fatal mistake to have a well-developed aerobic system without an
+appropriately developed anaerobic system. Conversely, it usually is a
+mistake to try anaerobic workouts without first developing a base of
+endurance from aerobic training. One last point to remember: All recovery
+is aerobic, so having a good aerobic base is important for all forms of
+recovery.
+You can also differentiate between aerobic and anaerobic work this way:
+Lower-intensity, aerobic work at heart rates lower than 75 percent MHR
+induces cardiovascular and body composition changes, whereas higher-
+intensity, anaerobic work at heart rates greater than 80 percent induces more
+neural, respiratory, and biochemical changes. Unfortunately, endurance
+athletes often pay too much attention to long, slow aerobic miles and not
+enough attention to the “bone crusher” anaerobic workouts, which is what
+the Kenyans call their high-intensity track workouts. We’ll come back to
+these issues later in the book.
+Because the right intensity ensures the right adaptations, you need to not
+only fully understand the reason for each target heart rate zone, but also
+trust the accuracy of the numbers on your monitor. To ensure that your
+workout meets its objective, and that the beats per minute on your monitor
+make sense, we suggest that you match them with a backup system such as
+a pace chart or a set of perceived exertions. Of course, the preferable way to
+--- PAGE 49 ---
+regulate intensity is to measure it objectively and reliably with your heart
+rate monitor. Using pace charts implies that you have tested your level of
+fitness with results from an all-out effort at a race. Measuring it subjectively
+may take some experience, but it is a practical and easily learned method.
+The Borg Scale of Perceived Exertion is the best subjective method and we
+present an adapted version of this in the next couple of pages.
+There are several methods of calculating target heart rate zones.
+However, all use predictions for MHR, which we have pointed out can yield
+varying results. We include them here so you can see how much room for
+error there is when predicting. You can use these approaches, but we
+suggest that you get an actual measurement (which we covered earlier).
+These are the more common calculation methods:
+Equation 1: 220 − age (years) = MHR
+Equation 2: 210 − [0.5 × age (years)] = MHR
+Equation 3: Karvonen formula
+The Karvonen formula uses 220 − age (years) for MHR, but it doesn’t
+stop there. Here is the full formula:
+220 − age (years) = MHR
+MHR − resting heart rate (RHR) = heart rate reserve (HRR)
+Intensity = % × HRR + RHR
+In recent years there has been speculation that MHR varies between men
+and women. As science continues to explore this topic, there is a mixed
+consensus on which gender has the higher MHR. The following formulas
+are adjusted to accommodate this gender effect.
+Equation 4 (males): 202 − [0.55 × age (years)]
+Equation 5 (females): 216 − [1.09 × age (years)]
+Note that age is the determining factor in all calculations. It is well
+established that MHR declines with increasing age, and age alone is pretty
+much the primary determining factor. However, like most physiological
+variables, there is a high degree of individual variation. Consider the
+following numbers based on calculating 70 to 80 percent training zones for
+a 40-year-old with a resting heart rate of 65 bpm using each method.
+Equation 1
+220 − 40 (age in years) = 180 bpm
+--- PAGE 50 ---
+180 bpm (MHR) × 0.7 (70%) = 126; 180 bpm × 0.8 (80%) = 144
+Training zone = 126 to 144 bpm
+Equation 2
+210 − 20 [0.5 × 40 (age in years)] = 190 bpm
+190 bpm (MHR) × 0.7 (70%) = 133; 190 bpm × 0.8 (80%) = 152
+Training zone = 133 to 152 bpm
+Equation 3
+220 − 40 (age in years) = 180 bpm
+180 bpm (MHR) − 65 bpm (RHR) = 115 bpm (HRR)
+0.7 (70%) × 115 bpm (HRR) + 65 bpm (RHR) = 145.5 bpm
+0.8 (80%) × 115 bpm + 65 bpm = 157
+Training zone = 145 to 157 bpm
+Equation 4
+202 − [0.55 × 40 (age in years)] = 202 − 22 = 180 bpm
+Training zone = 126 to 144 bpm
+Equation 5
+216 − [1.09 × 40 (age in years)] = 216 − 43.6 = 172.4 bpm
+Training zone = 121 to 138 bpm
+Using these simple figures alone, we have up to a 17 percent variation in
+the low-end exercise heart rate. For serious athletes, this is a huge
+difference that will yield considerable variations in training outcomes. This
+problem may be compounded if we are unsure about the correctness of any
+of these numbers.
+Note that the major limitation in all calculations is the absence of a true
+measure of MHR. This is really what all athletes need individually and
+should determine periodically during their training phases. Multisport
+athletes should be measured for all sports because MHR varies according to
+activity modes. This measurement does not require sophisticated equipment
+but an accurately administered and progressive protocol that incrementally
+exhausts the athlete in 12 to 15 minutes. This often requires a little
+experience because if you fatigue too early or too late, you often don’t get
+good data. Many facilities that offer these services do not understand proper
+methodology and consequently generate inaccurate data, much to the
+frustration of the client who then uses it for months without the desired
+adaptations. You’ll need a heart rate monitor and the ability to record the
+--- PAGE 51 ---
+MHR you achieve during the session. (Typically it occurs as you become
+exhausted.)
+When we fitness test in the laboratory, we use a telemetry system that
+allows us to constantly monitor the response and also relate the heart rate
+response to workload, which could be wattage, speed, 500-meter splits, and
+so on. This approach yields much greater accuracy than a traditional
+prediction equation does.
+Also, you need to be aware that a small spike in MHR often follows the
+cessation of maximum exercise; this should not be considered a sustainable
+MHR. This is another common mistake.
+Remember that different modes of exercise yield different responses.
+Running yields a higher MHR than cycling does for most people. However,
+trained cyclists and rowers have higher MHRs in their chosen sports than
+they have running. Therefore, rowers should perform this trial on rowing
+ergometers or on the water. Cyclists should perform the trial on bikes; and
+runners, on treadmills. Each athlete should have his or her own individually
+measured MHR.
+Research data show variations in calculated heart rates quite nicely as a
+function of mode. They first showed the variation in MHR as a function of
+mode and also that running produced MHR numbers close to the 220 − age
+equation. The numbers generated on the treadmill were significantly
+different from the numbers generated using other exercise modes. The
+numbers generated during cycling were significantly less than predicted (on
+average 18 bpm) and varied from −35 bpm to +16 bpm. Cycling data were
+on average 96 percent of treadmill data. A meta-analysis by some authors
+suggested that age accounted for about 75 percent of MHR variability, but
+others have reported that age actually accounts for a lower percentage of the
+variability. On average, the heart rate variability from age-predicted MHR is
+±10 to 12 bpm.
+Using the data from our earlier calculated example, we now see that a
+40-year-old using a prediction equation could exercise anywhere from 121
+to 145 bpm and assume it was 70 percent MHR. This is a large variation
+and not altogether accurate. The take-home message is that many of us will
+have an MHR that varies significantly from the predicted values, and if we
+are using these equations, may be well off the mark. Therefore, a simple
+--- PAGE 52 ---
+approach to increase accuracy and reliability is to measure your own MHR
+and then calculate your percentage of intensity using this real number.
+Note: The determination of MHR requires a maximum effort and
+therefore presents a potentially dangerous situation for certain people.
+Consequently, qualified personnel should perform your testing.
+Balancing Numbers With Common
+Sense
+The fallback method of gauging the intensity levels of your workouts
+features the use of common sense in the form of subjectively perceived
+exertion. You ask yourself, “How hard or easy does this feel?” A perceived
+exertion scale was developed by scientist Gunnar Borg back in the early
+1960s. Dr. Borg was actually more into psychosomatic research and was
+interested in developing a feeling scale that could in some way be
+quantified. He developed the Rating of Perceived Exertion (RPE) chart. The
+original scale ran from 6 to 20 with verbal cues describing perceived
+exertion on the odd numbers (for example, a perceived exertion of 7 is very,
+very light; a perceived exertion of 11 is fairly light; and a perceived exertion
+of 19 is very, very hard). The scale has undergone several editions since the
+early work of Dr. Borg.
+Thanks to Dr. Borg’s example, Coach Benson has created a similar scale
+that directly converts perceived effort into percentages of your MHR. Our
+version, depicted in table 2.1, uses extensive verbal cues to describe what it
+feels like to go from easy at 60 percent all the way to all out at 100 percent.
+While running is used as an example here, the scale could be used with any
+activity or sport.
+TABLE 2.1 Coach Benson’s Workouts and Perceived Effort
+Chart
+Training
+Workout Perceived effort (i.e., feels like) phases
+1 Slow slogging at 60–65%. So easy that it’s somewhat awkward to III and IV
+Maintains endurance while jog so slow. Hard to work up a sweat.
+--- PAGE 53 ---
+getting maximum recovery
+before race.
+2 Just jogging at 65–70%. Can work up a sweat. You can carry on a I–IV
+Allows muscle to replete full conversation. It’s a fast jog that won’t
+glycogen by burning mainly tire you.
+fats.
+3 Loping long and easy at 70– Still a slow run. Still easy to talk. If you do I–III
+75%. Develops and long distances, you may need a nap.
+maintains local muscle
+endurance and mental
+patience.
+4 Striding steadily at 75–80%. Faster pace but easy enough to sustain II and III
+Prepares muscles and for a long distance. You breathe heavier.
+respiratory system for Talking is now in half sentences. This is
+transition from aerobic to your half marathon pace.
+anaerobic work.
+5 Running rapidly at 80–85%. Harder running and breathing. You can II and III
+Improves anaerobic only talk in single words and short
+threshold. sentences. At 30 seconds slower than 5K
+race pace, it’s uncomfortable but
+sustainable for 3–4 miles.
+6 Determined dashing at 85– Very fast but not all out. No talking here. III and IV
+95%. Increases O max and It takes a conscious effort to run this fast.
+2
+However, you still have a little kick left.
+self-discipline to not go all
+out in practice.
+7 Serious sprinting at 95– Faster than race pace. Legs are heavy. IV
+100% of O max. Improves Close to full sprint speed. It’s over so
+2
+quickly that your heart rate lags behind.
+lactic acid tolerance. Very
+Only doable for short distances.
+tough mentally.
+Benson’s Perceived Effort scale has increased usefulness for people
+whose heart rates vary significantly from the norm and when target heart
+rates don’t seem to match the effort described. Common sense must
+overrule numbers calculated as MHR that were predicted instead of tested.
+Do not hesitate to add or subtract several beats per minute to your target
+heart rate until you get comfortable with the relationship between bpm and
+how things feel.
+Whether you use the Benson table or one of Borg’s charts, combining
+the common sense of feeling your exertion and effort with your heart rate
+--- PAGE 54 ---
+will allow you both intuitively and objectively to select the right intensity to
+meet your exercise goal. Eventually, you’ll be able to say fairly accurately
+what your heart rate is, based solely on how you feel. One final point about
+using this combination method: On days when the conditions of your
+workout are not normal (e.g., you’re still not recovered or it’s really humid
+and warm), the perception approach can be used to reinforce the accuracy
+of the higher-than-normal heart rates on your heart rate monitor, allowing
+you to make sensible adjustments to your workout volume and intensity.
+Factors Affecting Heart Rate at Rest
+and During Exercise
+One of the most valuable long-term pieces of information you can gather is
+resting heart rate. When you wake up each morning, take a minute to get an
+accurate resting heart rate and keep a log. You’ll find this an invaluable
+tool, providing feedback on injury, illness, overtraining, stress, incomplete
+recovery, and so on. It is also a simple gauge of improvements in fitness.
+We know athletes who have gathered resting heart rate data for years and in
+a day or two can identify a 1 or 2 bpm elevation that precedes an illness or a
+bonk session. Some newer heart rate monitors have the capacity for 24-hour
+monitoring, which we’ll discuss more in chapter 3.
+Several factors affect heart rate at rest and during exercise. In general,
+the main factors affecting heart rate at rest are level of fitness and state of
+recovery. Gender also is suggested to play a role, albeit inconsistently. In
+general, fitter people tend to have lower resting heart rates. Some great
+athletes of the past have recorded remarkably low resting heart rates. For
+example, Miguel Indurain, five-time winner of the Tour de France, reported
+a resting heart rate of only 28 bpm. The reason for this is that, with
+appropriate training, the heart muscle increases in both size and strength.
+The stronger heart moves more blood with each beat (this is called stroke
+volume) and therefore can do the same amount of work with fewer beats.
+As you get fitter, your resting heart rate should get lower.
+The second main factor affecting resting heart rate is state of recovery.
+After exercise, particularly after a long run or bike ride, several things
+happen in the body. Fuel sources are depleted, body temperature is elevated,
+--- PAGE 55 ---
+and muscles are damaged. All of these factors must be addressed and
+corrected. The body has to work harder, and this increased work results in a
+higher heart rate. Even though you might feel okay at rest, your body is
+working harder to repair itself, and you’ll notice an elevated heart rate.
+Monitoring your resting heart rate and your exercise heart rate will allow
+you to make appropriate adjustments such as eating or hydrating better or
+taking a day off when your rate is elevated.
+These factors of recovery and injury also affect heart rate during
+exercise. The factors that elevate resting heart rate also elevate exercise
+heart rate. If you’re not fully recovered from a previous workout, you might
+notice, for example, at your usual steady-state pace, an exercise heart rate
+that is 5 to 10 bpm higher than normal. This is usually accompanied by a
+rapidly increasing heart rate throughout the exercise session.
+An extremely important factor affecting exercise heart rate is
+temperature. Warmer temperatures cause the heart to beat faster and place
+considerable strain on the body. Simply put, when it is hot, the body must
+move more blood to the skin to cool itself while also maintaining blood
+flow to the muscles. The only way to do both of these things is to increase
+overall blood flow, which means that the heart must beat faster. Depending
+on how fit you are and how hot it is, this might mean a heart rate that is 20
+to 40 bpm higher than normal. Fluid intake is important under these
+conditions. Sweating changes blood volume, which eventually can cause
+cardiac problems. The simplest and most effective intervention to address
+high temperature and heart rate is regular fluid intake. The average-size
+adult’s stomach has the ability to absorb 6 to 8 ounces (0.17-0.24 L) of
+water (a swallow usually equals an ounce) every 15 to 20 minutes. Keep
+this little pearl in mind so you don’t drink too often and fill your stomach to
+the point that it inhibits your breathing capacity. Stomach cramps, anyone?
+This helps to preserve the blood volume and prevent the heart from beating
+faster and faster.
+Another important factor affecting exercise heart rate is age. In general,
+MHR will decline by about one beat per year starting at around 20 years
+old. Interestingly, resting heart rate is not affected. This is why the basic
+prediction equation of 220 − age has an age correction factor. As a side
+note, this decrease in MHR often is used to explain decreases in O max
+2
+--- PAGE 56 ---
+and endurance performance with increasing age, because the number of
+times the heart beats in a minute affects how much blood is moved and
+available to the muscles. We have coached and tested thousands of athletes,
+and the general trend is that athletes of the same age who produce higher
+heart rates often have higher fitness scores. However, your MHR is what it
+is, and you cannot change it. Don’t obsess over it.
+A final factor is gender. Recent studies have suggested a variation in
+MHR between males and females. However, the data are inconclusive with
+the calculations resulting in lower MHRs for males versus females of the
+same age, while anecdotal reports suggest that the MHRs are higher in
+males. In general, females have smaller hearts and smaller muscles overall
+than males. Both of these factors would support the conclusion of a higher
+MHR in females, certainly at the same workload. We have to conclude that
+the jury is still out on the gender effect.
+Chapter 3 considers possible sources of mechanical interference that
+cause irregular and incorrect readings. However, during exercise, several
+conditions can develop, often as a result of environmental factors that have
+a paradoxical but real effect on heart rate. Let’s look more specifically at
+some of these.
+Atrial Fibrillation
+One medical condition that may cause heart rate irregularity is atrial
+fibrillation. Although it happens rarely, electrolytes (minerals in the blood
+that help regulate the contraction and relaxation of muscles) can be out of
+balance enough to cause atrial fibrillation, an arrhythmia of the receiving
+chambers of the heart. This is not immediately life threatening. But, because
+A-fib is a serious condition, if your numbers are erratic, you should be
+tested by a cardiologist to determine whether you have this condition.
+Typically, people with A-fib have numbers skipping wildly and ranging
+as much as 30 to 70 bpm higher than expected at a given intensity. They
+also feel a little faint, weak, and short of breath. If your receiver has the
+little silhouette of a heart that flashes on and off, study it for a minute or so.
+If you notice pauses and then several quick flashes of the heart in a row,
+you should see a physician for a checkup. We’ve seen, however, several
+cases of dehydrated runners with A-fib cured quickly by Gatorade, Dr.
+--- PAGE 57 ---
+Cade’s wonderful over-the-counter prescription for fluid and electrolyte
+imbalance.
+Atrial fibrillation is one of the more extreme and concerning situations.
+Most sources of interference can be easily traced to one of the other factors
+addressed in the following sections.
+Cardiac Creep
+The technical term for this condition is cardiovascular drift. In warm, hot,
+humid weather and even in cold temperatures if you are wildly overdressed,
+heart rate can easily climb above the upper target limits of your aerobic
+training zones without a (perceived) increase in effort. At and above
+anaerobic threshold levels, this cardiac creep will occur more quickly as
+your heart finds it difficult to deliver the needed oxygen as fast as it is
+needed by the muscles while at the same time body temperature is also
+increasing. Recent studies have shown that this is not just a simple increase
+in beats per minute caused by the heart having to work harder as it pushes
+more blood to the skin to cool the body through sweating. This subtle,
+gradual increase also reflects an actual decrease in blood volume as water is
+lost through sweat. With a decreased volume of blood coursing through the
+vascular system, the heart has to compensate by contracting faster.
+Cardiac creep (see figure 2.1) is a good example of the effect of blood
+volume on the bpm of the heart. When blood volume is normal, resting and
+exercise heart rates also will be normal. We know that you can’t rehydrate
+with water or sport fluids as fast as you can become dehydrated. (Adults
+can digest and absorb only 6 to 8 ounces [0.17-0.24 L] of water every 15 to
+20 minutes [about 24 ounces, or 0.7 liters, in an hour] whereas a well-
+trained, vigorously exercising person can lose 40 to 50 ounces [1.2-1.5 L]
+of water per hour.) To make up for the diminishing amount of blood
+returning to the heart, the heart rate simply increases. Now we don’t want to
+overstate the obvious, but in warm conditions adequate fluid replacement
+helps to preserve blood volume and also keep heart rate lower.
+Our main point is this: The increase in heart rate can be independent of
+the effort skeletal muscles are making. A slow, steady increase in heart rate
+while you are keeping the work rate absolutely constant doesn’t necessarily
+mean that you are working harder and that you should therefore ease up or
+--- PAGE 58 ---
+slow down. What you are trying to measure by checking your heart rate is
+how much oxygen the working muscles require. What you want to know is
+how hard your body is working, not just how fast your heart is beating. In
+warm and humid conditions, during longer but easy to barely moderate
+efforts, a creeping heart rate probably is creating false feedback. If the effort
+honestly feels the same, but your heart rate has drifted up over your easy-
+day target by 10 to 15 bpm, you are experiencing cardiac creep.
+FIGURE 2.1 Changes in heart rate response over time at a fixed workload.
+On the other hand, hard workouts in warm, humid weather that are
+planned to take you to or above your anaerobic threshold are not going to
+be as fast as planned. Once this increase in heart rate cannot keep up with
+the rapidly diminishing blood volume, your performance will decrease.
+Your availability of oxygen decreases, causing the muscles to start
+producing more lactic acid. Now your muscles tighten up and refuse to
+relax and stretch easily through the range of motion you were enjoying.
+Slowing down is inevitable as you try to get closer to an aerobically
+sustainable pace. Now you know why world distance records aren’t set on
+hot days.
+This situation is likely to happen only a few times when you are initially
+exposed to warmer temperatures. We often see it happen in runs and races
+early in the months of spring when we haven’t seen warm temperatures for
+a while. After two or three weeks of exposure to the warmer temperatures,
+we tend to see less cardiac creep.
+--- PAGE 59 ---
+Cardiac Crimp
+The converse of cardiac creep is cardiac crimp. On cool days with low
+humidity when you are supposed to be taking it slow and easy, you can be
+fooled into allowing low numbers to give you permission to go much faster,
+and hence much harder, than you should. Don’t fall for this. Use your sense
+of perceived exertion to keep your pace slow and easy. In fact, if the
+purpose of the workout is recovery, your bpm can never be too low.
+Celebrate easy effort and low numbers as you think about what happens on
+hard days. Cool, dry weather results in low heart rates because you are not
+losing blood volume and you are also cooling effectively as a result of the
+low humidity. Think about those workouts on early spring or fall mornings.
+These conditions are perfect for great personal records. You could say that
+no sweat equals world records and personal records.
+Effects of Medications
+The importance of getting individualized heart rate data that accurately
+reflects your current fitness state is crucial. Therefore, we want to make
+sure that you understand how some common medications affect heart rate.
+Many people use prescription medications over the long term to treat a
+chronic medical condition such as asthma, high blood pressure, or a more
+specific heart condition and, therefore, take them every day. In this instance,
+testing needs to be performed under the medicated condition, because that
+is the normal state. Many people also use medications to treat acute
+conditions such as allergies, colds, headaches, and so on. When using
+medications for those conditions, delay self-testing until the medications
+have cleared your system.
+TABLE 2.2 Effects of Commonly Used Medications on Resting
+and Exercise Heart Rate
+Condition Medication Heart rate effect*
+Asthma Inhalers, anti-inflammatories Acute increase
+Common cold and OTC decongestants, Palpitations, irregular, increase,
+headache pseudoephedrine, decrease
+acetaminophen
+--- PAGE 60 ---
+Arthritis Anti-inflammatories Increase, increased blood
+pressure
+High blood pressure Beta-blockers Decreases heart rates to keep
+heart muscles from working too
+hard
+Cardiac conditions Multiple drugs, depending on Increase, decrease
+condition
+Bacterial illness Antibiotics Most likely increase or no
+change
+Antidepressants Norepinephrine inhibitors Likely increase
+Diabetes Insulin Acute increase
+*These are the common heart rate effects. Effects vary significantly, and people using a medication should consult with
+their doctor about use during exercise. In addition to the above medical conditions, supplements such as vitamins,
+minerals, and herbs might affect your heart rate.
+Table 2.2 presents some of the more commonly used over-the-counter
+(OTC) and prescribed medications that can affect your heart rate.
+Lead (Heavy) Legs
+You go out for a run without realizing that you are not recovered, or worse,
+are starting to become overtrained. You start moving along and quickly
+perceive the effort to be pretty hard. You check your receiver for validation,
+expecting to see a high number, but your heart rate is surprisingly low. Next
+you check your pace, and it’s also surprisingly slow.
+In this scenario, the fact is that your muscles simply don’t have enough
+energy to move you as fast as you expect and they have microdamage. Slow
+pace equals low heart rate despite your perception of hard effort. So take the
+day off. Return home and rest. Eat more wisely and drink more profusely.
+This is not the time to be stubbornly heroic and continue to push through
+the rest of the workout.
+The exercise heart rate response in this mildly overtrained or
+unrecovered state is best used in conjunction with a waking morning heart
+rate. If you are indeed not recovered, you should notice two things: an
+elevated heart rate upon waking and a decreased heart rate during exercise.
+Remember, with heart rate training, it’s your body, not your mind, that you
+want to train. The mental toughening needs to be done on days when you
+--- PAGE 61 ---
+are well rested and can go fast until you drop from exhaustion. Fast times in
+practice on hard days build confidence as well as improve fitness. If you are
+a veteran, keep in mind that the best places for fast, hard efforts are races. If
+you are a rookie, all-out workouts are probably necessary to help you learn
+what drop-dead exhaustion feels like.
+Emotional and Hormonal Changes
+We have all felt that racing heart rate in anticipation of a race or
+competition. In this situation the increase in heart rate is mediated by
+hormonal responses, primarily adrenaline released as a result of
+nervousness or excitement. Such elevations in heart rate are confusing and
+can be difficult to deal with in these situations. You must be alert to this
+effect and implement strategies such as following a certain warm-up or
+using breathing exercises or relaxation to control your heart rate response.
+If adrenaline is increasing your heart rate, your heart rate is not reliable for
+guiding your effort. This tends to improve with practice but generally will
+settle to normal within 5 to 7 minutes of exercise.
+Recommendations for Evaluating
+and Revising Zones
+By now you know what you need to perform calculations and determine
+your training zones. You know the factors that will influence your numbers
+either artificially or because of anatomical or biochemical adaptations.
+Artificial factors generally go away on their own, but you need to pay
+attention to the anatomical and biochemical ones because they require that
+you recalculate some numbers.
+Remember that the purpose of training is to induce adaptations in your
+cardiovascular, respiratory, and musculoskeletal systems. Some of the
+changes you want to see are a decrease in your resting heart rate, a decrease
+in your exercise heart rate at a fixed load, and an increase in your heart rate
+at anaerobic threshold. The change in resting heart rate is easily explained:
+The heart is bigger and stronger and can pump more blood with each beat,
+allowing it to beat slower within a given time frame. This factor also
+explains why the heart rate is lower at a given workload after training.
+--- PAGE 62 ---
+These changes don’t necessarily require recalculations because, to produce
+heart rates in a given zone, you’ll have to move faster and faster, which is
+exactly what you want.
+The number that will need continual monitoring is the heart rate at
+anaerobic threshold. If all goes according to plan, this heart rate number
+will increase (e.g., from 145 to 155 bpm) allowing you to move at a faster
+speed without putting yourself under additional metabolic stress, such as
+increased lactic acid. You are now a faster, more efficient machine. This
+self-correction is the beauty of heart rate training. Keeping track of your
+workouts in a daily logbook and also including both resting and exercise
+heart rates (along with paces you ran) will allow you to see your progress in
+several areas. You’ll see your heart rate response to a given workload or
+speed decrease over time, you’ll see your speed at a given heart rate
+increase over time, and finally, you’ll see a decrease in your resting heart
+rate. Self-testing every 10 to 12 weeks will allow you to confirm this
+information and document the changes.
+After 12 to 16 weeks of training, you should notice the following:
+You are moving at a much faster speed, but at the same level of effort
+and heart rate.
+You have improved your anaerobic threshold at a higher heart rate, but
+at the same perceived effort.
+You are eliciting a lower heart rate at any given submaximal speed.
+In general, we recommend that you revisit your heart rate data every six
+weeks, especially with an increase in mileage or intensity. This goes back to
+good record keeping. Keeping an accurate morning heart rate and exercise
+log will be a great help as you plan and monitor your fitness programs.
+--- PAGE 63 ---
+CHAPTER 3
+Getting the Most From Your
+Monitor
+I
+ncorrect heart rate information can come from two sources. The first is
+incorrect training zone numbers. This might be the case if your
+predicted maximum heart rate (MHR) is different from your actual MHR.
+Also, the monitor itself may be displaying erroneous numbers because of
+poor contact or another technical problem. Awareness of the origin of the
+error usually leads to an easy fix. This book mostly addresses using your
+heart rate to optimize training; however, you need to be sure that the data
+you get from your monitor are accurate.
+Watching Your Numbers
+As you learned in chapter 1, using heart rate to guide your training is a
+sound, scientific way to ensure that you train at the right intensity at the
+right time. It is also time efficient, helping you avoid the garbage work you
+don’t need so you can meet the objective of your workout. Much of this
+chapter is devoted to making sure that you don’t waste time blindly staying
+in heart rate zones that aren’t effective or valid.
+Before relying on your heart rate monitor, take it out for a trial workout
+to get a rough idea of how it works and the sort of feedback it gives you.
+Before using it for another workout, closely study the information in this
+--- PAGE 64 ---
+chapter and chapter 2 to guarantee that you are using your monitor
+correctly.
+In this chapter, we will also discuss the newer wrist and chest monitors.
+While both offer reliable and accurate numbers, we want to point out
+differences in what is being measured. Wrist monitors measure the
+differences in the density of your red blood cells as they pass under the
+LED lights on the back of the watch. With the contraction and relaxation of
+your heart muscles, your red blood cell volume is more or less dense and
+these changes can be detected by the monitor. With the proliferation of
+activity tracking wristbands, our informal surveys convince us that you will
+need a fairly high-end model to guarantee reliability of the unit. Chest strap
+monitors measure the electrical activity of the contracting cardiac muscles
+in order to count the rate of the beats. We have more confidence in the chest
+strap systems.
+The first thing you want to do is ensure that your monitor is fitted
+correctly. Wrist-reading monitors need to be especially tight during
+workouts, even to the point of discomfort. Using a wrist monitor throughout
+the day as a watch requires that you loosen it a bit in order to be
+comfortable. If you use a chest strap, make sure it has good contact with
+your skin by holding the rubber transmitter section with the electrodes tight
+on your chest just below your chest muscles (it needs to fit snugly). With
+your free hand, bring the elastic strap from behind your back and around
+your other side, without stretching the elastic material, to within 6 inches
+(15 cm) of the free end of the transmitter section. If the elastic strap is too
+far away or too close, adjust it through the slide until you have that crucial
+6-inch (15 cm) gap between the ends of the chest unit. Now pull and stretch
+the elastic strap until you can clip the end into the transmitter section. It
+should feel snug, but not so tight that it restricts the expansion of your rib
+cage as you inhale. If the strap is too loose, the transmitter unit will slip up
+and down on your skin and create friction that will result in phony numbers
+being sent to your wrist receiver and this will only get worse during
+exercise. It is a good idea to moisten the grooved electrodes to start the
+conduction of the electrical activity of your heart contractions. If you use a
+chest monitor, when you strap on the transmitter and do not see a reading
+on the receiver, the electrodes are probably not in solid contact with your
+skin. Wet your finger with water or saliva and moisten the electrodes. Or
+--- PAGE 65 ---
+just start working out and, as soon as you sweat, the readings should
+normalize and appear. If your numbers on a wrist reader don’t make sense,
+simply tighten the strap so there is no movement between the watch and
+your skin.
+Now, go for a nice 20- to 30-minute comfortable walk or jog at a
+conversational pace. Observe the heart rate numbers and mentally note
+them along with how you feel. If your monitor can record split times, press
+the button at random times while walking or jogging. Do not be afraid to
+increase and decrease your speed randomly during the run to ensure you see
+those changes in heart rate.
+--- PAGE 66 ---
+To get the most from your heart rate monitor, attach it correctly, use it frequently, and
+understand its strengths and limitations.
+When you finish, hit the recall functions and get the high and low
+numbers and the average heart rate for the session. Write them down, along
+with a verbal description of the effort you felt at those recorded points (e.g.,
+light, very light, somewhat hard).
+The heart rate monitor is a machine, and like all machines, it can be a bit
+temperamental. To use it properly, you need to be aware of the factors that
+affect the monitor, the heart rate response, and ultimately the information
+from the monitor. Chapter 2 covered specific issues that affect heart rate
+zones and readings. You should not proceed if you have not resolved these
+issues to your satisfaction. However, other conditions can cause your
+monitor to display results that appear to be anomalies, contradictions, and
+paradoxes. Before you send it to the repair shop, closely review the
+information in this chapter. Almost all the brands and models of heart rate
+monitors we have used are reliable and accurate. Therefore, when your
+numbers seem to make no sense, your best action is to check out the
+conditions and situations discussed in this chapter. You are most likely
+getting false readings, and this can be easily corrected.
+As you learned in chapter 1, individualizing your target heart rate zones
+to fit the objectives of your workouts is as important and challenging as
+individualizing your workouts to suit yourself. Once you know for sure
+what your MHR is, and once you have carefully calculated your target heart
+rate zones for each of the workouts you want to do, then read on. If you
+strap on your monitor and go without knowing what the numbers should be
+telling you, you’ll get frustrated. Please don’t give up on this investment. It
+may take longer than you expected to get started, but without doing this
+work now, our answer to your question “What about me?” will not make
+sense.
+The following are warnings about contradictory and paradoxical
+numbers that could cause you to sprint when you should jog, put the brakes
+on when you should pedal harder, or think that your irregular pulse must
+surely be a heart attack. By understanding the physical or mechanical
+causes of these numbers, you’ll know that you can just relax while using the
+--- PAGE 67 ---
+common sense of perceived exertion to figure out whether what you’re
+seeing is valid.
+Technical Difficulties That Cause
+Irregular Numbers
+Several conditions may cause your heart rate numbers to skip all over the
+place. Normally, you will notice a steady increase or decrease in your heart
+rate that will pretty much match your effort. The chest monitor is not an
+electrocardiogram (ECG). However, it does use the electrical activity of the
+heart to give you a signal. Therefore, any time an irregularity occurs in the
+signal, it will be reflected in the heart rate number displayed. The following
+are examples of what might lead to erroneous numbers.
+Slippage
+One cause of irregular readings is a loose chest strap that allows the
+electrodes to slip and slide on the skin, causing a loss of signal. This
+interferes with the transmitting of the electrical impulses of the heart muscle
+to the chest strap. In this case, you need to shorten the elastic strap. If you
+have a very small rib cage and narrow chest, just tighten the strap well past
+the halfway point to achieve the 6-inch (15 cm) gap even if it means that the
+extra material loops down. Put a safety pin in front of the slide to keep the
+strap from slipping back to the original halfway position. If this is a
+consistent problem, buy a shorter strap or permanently shorten your strap
+by putting a few stitches into it to hold it in the shortened position. Straps
+stretch over time and become loose. When this happens, we recommend
+buying a new strap. The same goes for wrist straps as the band material
+ages. In fact, keeping it tight enough may make the material start to stretch
+away from the housing of the watch. Eventually this could cause the watch
+to literally fall out of the strap, in which case you will want to replace the
+strap.
+Static Cling on Clothing
+One cause of irregular readings is the type of clothing worn over the chest
+transmitter. Shirts still charged with static electricity from the dryer can
+--- PAGE 68 ---
+confuse the receiver. Nylon wind jackets can generate static electricity that
+also can interfere with the transmission from the chest strap to the receiver,
+although this is more likely to be a concern in dry or cold climates. Usually,
+sweat takes care of it pretty quickly. Females may find that underwire bras
+can be a source of interference. If you suspect that static cling is causing the
+problem, wet your hand and wipe it across the material in front of the
+transmitter, or just wait until you’ve run far enough for sweat to drain off
+the static. (This should take 8 to 10 minutes.) The signal is also transmitted
+better and stronger once you start to sweat.
+Interference From Cross-Feeds
+Cross-feed occurs when your chest monitor receives information from the
+transmitter of the person next to you. The solution may be to find a partner
+who isn’t as scientific as you are (and therefore does not wear a monitor). If
+not, arrange yourselves so that you are both wearing your receivers on your
+outside arms. More advanced (and expensive) monitors have their own
+embedded codes to prevent cross-feeds. Typically, this is more of a problem
+in gym settings where treadmills and machines are closer together.
+If you’re a real techno geek, you may have other devices that are
+confusing your heart rate signal. When testing in the lab, we have seen
+devices such as pedometers and GPS systems interfere with the heart rate
+monitor signal. This is also the case when exercising indoors on a stationary
+piece of equipment with lots of information displayed on the console. In
+this case, either exercise outside for a change or take the receiver off your
+wrist and strap it to a lower part of the machine out of range of the console.
+Soaked Shirts
+Shirts soaked with sweat can get heavy enough to bounce up and down in
+front of your chest transmitter and interfere with the signal to your receiver.
+If it is that hot and humid, remove the chest strap from under your shirt and
+refasten it on top of the wet shirt just below your chest muscles. The wet
+shirt will still allow the electrodes to have great contact with skin and be
+able to pick up the electrical activity of your heart muscles. In fact, this is
+also the solution if you experience chaffing from a strap that seems to slip
+--- PAGE 69 ---
+up and down on your skin. Just wet your shirt first before starting the
+workout.
+Safety Alarms
+Radio frequency alarm systems installed in buildings can occasionally
+interfere with your monitor’s own radio frequency as you go past. The
+solution: Ignore them and keep going. The goofy numbers will return to
+normal as soon as you are out of range of the alarm system.
+New Technology
+Heart rate monitor capacities have advanced dramatically in the last several
+years. They have improved in function, appearance, reliability, and
+accuracy. The new generation of wrist-reading monitors has proven reliable
+for the most part, and so much more practical than the chest strap systems.
+Modern monitors provide basic information on calorie expenditure, oxygen
+consumption, time in target zones, average and maximum heart rates
+achieved during the workout, and time in heart rate recovery zones, as well
+as offering audible signals, 24-hour heart rate measurements, and a whole
+lot more. All this information can be easily recorded and stored on your
+smartphone for later analysis, allowing you to fine-tune and individualize
+your program to a greater degree than ever before. This info can be
+downloaded and stored on your computer as well. You can also compare
+your heart rate response from day to day. If these workouts are at the same
+speed, you will be able to see your training heart rate response over time
+(i.e., Your heart rate should decrease when working at the same speed as
+you get fitter). The recordable and downloadable features allow you to see
+your daily data on a spreadsheet. When viewing your changes over time on
+this single spreadsheet, the data can greatly reinforce your determination to
+train smartly.
+Data on calories expended, which is indirectly calculated from heart rate,
+is a helpful feature because it expands the use of the monitor to people who
+are less performance oriented and more interested in issues such as health
+improvement, weight loss, and cardiac rehabilitation. Often people will
+have a distinct caloric expenditure target per day or week that translates into
+--- PAGE 70 ---
+weight or fat loss. For example, it is common to use the basic value that you
+must burn 3,500 calories to lose one pound (0.5 kg) of fat. Therefore,
+burning 500 additional calories per day through exercise equates to roughly
+one pound of fat loss per week.
+For athletes, the 24-hour monitoring option provides an abundance of
+new information they can use to fine-tune their programs and monitor their
+intensity levels. This fairly convenient system tracks not only exercise heart
+rates but also recovery rates. This provides vital information related to
+adaptation and recovery. By tracking the heart rate over 24 hours, athletes
+get thousands of data points that are downloadable to a computer to create a
+graph or spreadsheet. These data can reveal not only the slightest signs of
+illness, overtraining, and fatigue, but also improvement in fitness levels.
+Having this data can allow an athlete to compare morning resting heart rates
+over time and potentially even detect early signs of overtraining or illness
+before it progresses too far.
+Of course, with increased function comes increased complexity and cost.
+However, spending a little time with the owner’s manual will resolve most
+operating concerns, and ensuring that the watch is properly set up and
+programmed from the outset will result in much greater accuracy. Many
+features are downloadable with the more advanced systems. Being able to
+download and observe the heart rate responses to a single exercise session
+(or multiple sessions) is invaluable. You can look back at particular times of
+a workout or a hill or a longer workout and detect where your creep set in,
+an entertaining way to distract yourself during longer workouts.
+Deciding which heart rate monitor to buy is a matter of personal choice.
+Factors that will influence your decision include cost, your goals, your
+fitness level, and the amount of information you need. The more serious and
+competitive you are, the more features you’ll want. Features such as 24-
+hour monitoring, caloric expenditure, and target zone audible alarm signals
+can increase the accuracy and individualization of your training program.
+Many heart rate monitor company websites provide sheets that compare
+their models to their competitors to allow you to see at a glance the different
+features of the models.
+A final consideration when purchasing your heart rate monitor is that
+some companies make models with additional features that span different
+sports. For example, if you are a triathlete, you may want a heart rate

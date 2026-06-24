@@ -1,0 +1,602 @@
+    50→with a rest day scheduled every other day. Intermediate athletes should
+    51→exercise four to seven times a week. Advanced athletes may exercise up to
+    52→15 times a week. More competitive athletes often exercise twice a day,
+    53→incorporating one aerobic session and perhaps one weightlifting session, or
+    54→one session may be slow and the other fast. The bottom line is that virtually
+    55→all of the more competitive athletes exercise at least seven times a week.
+    56→Intensity is a measure of how hard you work, and your intensity must be
+    57→planned and correlated with your progression. In chapter 1, we showed that
+    58→intensity can be measured by percent MHR (maximum heart rate) or
+    59→percent O max. Heart rate is the simplest and most effective tool for
+    60→2
+    61→guiding intensity. You can ensure the adaptation you need for the training
+    62→phase you are in by selecting the appropriate intensity. People often
+    63→exercise too hard too early in their training programs and then get injured or
+    64→fail to develop the appropriate foundation needed for higher intensity later
+    65→on. Classifying yourself properly from the beginning will guide you in
+    66→selecting the right intensity.
+    67→--- PAGE 163 ---
+    68→Duration is the length of the exercise session, the recovery interval, or
+    69→the repetition. As a general rule, the longer the duration, the more the
+    70→intensity will increase. Duration becomes an intensity factor over time
+    71→because fatigue during a workout is cumulative, unless the exerciser slows
+    72→the rate or pace of the workout. Even then, duration will eventually become
+    73→an intensity factor. Duration is important because it is often manipulated to
+    74→ensure a certain intensity stimulus. It also determines whether you will need
+    75→to refuel your energy during an exercise session. Duration and intensity are
+    76→closely intertwined.
+    77→Mode refers to the type of activity you do. Running, swimming, and
+    78→cycling are all examples of exercise modes. Mode is relevant for the
+    79→development of efficiency, especially mechanical and metabolic efficiency.
+    80→It also has implications for energy expended because different activities
+    81→burn calories at different rates, even if the heart rate is the same. We also
+    82→can be at different intensities or perceived efforts in different modes while
+    83→exhibiting the same heart rate. Triathletes often notice greater comfort
+    84→running at a heart rate of 140 bpm versus biking or swimming at 140 bpm.
+    85→The four factors discussed so far—frequency, intensity, duration, and
+    86→mode—are the four core principles that are essential in the initial design of
+    87→any exercise program. The next four components are more concerned with
+    88→the progression of the program.
+    89→Overload refers to the increased demand placed on the muscular system.
+    90→It simply means requiring the system to do more. Overload, sometimes
+    91→referred to as progression, is also concerned with how much you increase
+    92→your volume or intensity over time. As a general rule, beginner and
+    93→intermediate athletes should not increase volume by more than 10 percent in
+    94→any given session during a two- to three-week period, the exception being
+    95→when total duration is 10 or fewer miles per week, which may make a 15
+    96→percent increase more appropriate. This increase assumes a minimum of
+    97→three exercise sessions each week. In other words, you should do at least
+    98→eight exercise sessions in a row at the same load before implementing an
+    99→increase.
+   100→For example, let’s say a beginner runs Monday, Wednesday, and Friday.
+   101→He or she runs 3 miles (4.8 km) a day for a total of 9 (14.5 km) miles a
+   102→week. After two weeks, this mileage would increase to approximately 10.5
+   103→miles (17 km) a week, or three runs at 3.5 miles (5.6 km) each. This
+   104→--- PAGE 164 ---
+   105→progression model is slow, but it helps prevent injury and muscle damage
+   106→while also allowing adequate time for multiple systems to adapt to the new
+   107→overload. Using percentage of volume to increase overload is difficult
+   108→because of the small amounts of increase. Instead, you can use time, which
+   109→is easier to measure and monitor.
+   110→Specificity has two components—metabolic specificity and muscle
+   111→contraction specificity. Specificity is concerned with putting the correct
+   112→type of stress on your metabolic and musculoskeletal systems. For example,
+   113→have you ever seen a really good runner struggle to swim 400 meters in the
+   114→pool? Essentially, we become efficient at specific muscle contractions
+   115→through practice and training. For runners this might require sprint work,
+   116→for cyclists it might be hill work, and for triathletes it might involve
+   117→working on transitions. The bottom line is that specificity has to do with
+   118→coordinating your central nervous system to work in conjunction with your
+   119→metabolic demands during muscular contractions. For many athletes this
+   120→requires training at various speeds and intensities and in the mode that is
+   121→most important. Of particular importance in this category is speed work, but
+   122→again, only when the endurance base has been built. LeBron James doesn’t
+   123→practice his free throws by dunking the ball and Yo-Yo Ma doesn’t prepare
+   124→for his cello concerts by playing the violin; their training is specific.
+   125→Reversibility relates to losing whatever fitness you have gained. The
+   126→amount of time it takes to lose fitness varies among athletes and types of
+   127→fitness. For example, aerobic fitness begins to decline without exercise in
+   128→about 10 days. Muscular strength will not decline for about 30 days.
+   129→Athletes often have a hard time grasping this concept. They believe that if
+   130→they can’t work out, the system starts to reverse and fitness is lost within
+   131→one or two days. Consequently, many athletes do not rest appropriately for
+   132→important races, especially long races such as marathons or Ironman
+   133→triathlons. In reality, well-trained aerobic athletes do not lose fitness for at
+   134→least seven days. In fact, with appropriate rest, they will improve
+   135→performance, which is what happens during tapering. Remember, the hard
+   136→part is getting fit; staying fit is a bit easier.
+   137→Maintenance and reversibility are somewhat linked. Maintenance refers
+   138→to hanging onto current fitness. Maintenance of fitness is achieved with
+   139→much less work and effort than improving fitness. If your goal is simply to
+   140→maintain fitness, you can achieve this with a 30 to 40 percent decrease in
+   141→--- PAGE 165 ---
+   142→volume at your current intensity. However, at certain points in your training
+   143→you can improve performance by decreasing volume and increasing
+   144→intensity. During the tapering phases of training, you can decrease your
+   145→volume up to 80 percent provided that you keep the intensity very high
+   146→(usually greater than 90 percent of MHR). This is why many athletes
+   147→dramatically cut volume but increase speed and intensity in the weeks
+   148→leading up to big races, yet still race faster. This is typically known as
+   149→“peaking” when done near the end of a season in preparation for
+   150→championship performances.
+   151→Now that you understand these programming principles, let’s consider
+   152→how you can manipulate them during training using heart rate training
+   153→zones. Remember, you are trying to build a logical and systematic program
+   154→to develop the elements of power, speed, and endurance that you need—and
+   155→do it without getting hurt.
+   156→Periodization
+   157→Before we get into the real nuts and bolts of building the program, we want
+   158→to take a look at the big picture of a training program. We refer to this as
+   159→periodization, and it describes the organization of an overall training
+   160→program. The program might be 12 weeks, six months, or one year long.
+   161→For Olympic athletes, it might be four years. Regardless of the length, the
+   162→program is organized around the scientific principles of progression. If you
+   163→plan your periodization correctly, you will find that you can align heart rate
+   164→intensities with periods in the cycle for the most part. The longer, slower,
+   165→base-building cycles will be characterized by much lower heart rates overall
+   166→(both at rest and during exercise) and display the phase I endurance zone.
+   167→As you move into higher-intensity cycles, your heart rate will elevate
+   168→significantly during exercise as you prime for race condition.
+   169→A well-organized program focuses on different components of overall
+   170→fitness during different periods—macrocycles, microcycles, and
+   171→mesocycles. The four phases of training—endurance, stamina, economy,
+   172→and speed—fit within these periods. In general, macrocycles are longer, or
+   173→more generally defined, periods of training that lack the specificity and
+   174→detail of microcycles and mesocycles. For example, a macrocycle in a six-
+   175→--- PAGE 166 ---
+   176→month training program might comprise the first 12 weeks of simple, low-
+   177→intensity aerobic conditioning designed to build an endurance base.
+   178→Microcycles are shorter periods with an increased focus on another
+   179→aspect of fitness. For example, in a six-month training program in which the
+   180→first 12 weeks are a macrocycle, two microcycles of four weeks each might
+   181→follow. These microcycles might include a focus on speed work, hill work,
+   182→tempo runs, or flexibility in order to improve stamina. During microcycles
+   183→we tend to focus a little more on the specific components, such as the
+   184→economy required for performance and racing.
+   185→Mesocycles are the final part of the periodization process. These are
+   186→individual sessions designed to address a particular skill component. A
+   187→mesocycle for a runner might focus on pacing, speed and power
+   188→development, or mechanics. For a cyclist, a mesocycle might focus on body
+   189→position or climbing posture. For a swimmer, it might focus on stroke
+   190→technique.
+   191→The use of periodization forces you to consider in detail the type of
+   192→adaptations you are looking for during a particular phase of your program.
+   193→It forces you to be organized, consider how long you have to adapt, and
+   194→decide where the competition occurs in your overall training program.
+   195→When designing an exercise program, you should be looking at the desired
+   196→end point, or product. Ask yourself, “What am I looking for in terms of
+   197→performance at the end of the training program?” When you can define that,
+   198→you can work backward to ensure that the correct amount of time is
+   199→available to ensure the adaptations needed. This prevents you from making
+   200→the basic mistake of progressing too rapidly and increasing your risk of
+   201→injury.
+   202→If you look back at the general structure of a training program through
+   203→the lens of periodization, you will see that more general conditioning
+   204→sessions occur early on (macrocycles), and that these become progressively
+   205→more specific (microcycles and mesocycles). Within each of these periods
+   206→you will also see variations in intensity, distance, recovery, and so on. Here
+   207→again, heart rate is your guiding tool to ensure that you stay within the
+   208→parameters of intensity you need to get the appropriate adaptation. Clearly,
+   209→being organized and plotting out your program is paramount.
+   210→--- PAGE 167 ---
+   211→Principle of Progressive Resistance
+   212→The principle of progressive resistance can be applied to either slow or
+   213→fleet-footed movements. A primary law of exercise physiology is that we
+   214→can condition our muscles by working them with repetitive movements to a
+   215→state of fatigue and then overloading them with a few more repetitions.
+   216→The most familiar application of this principle is weight training. We all
+   217→know that lifting weights can make us stronger. Perhaps you are familiar
+   218→with the two ways to weight train: lift a light weight many times or lift a
+   219→heavy weight a few times. Either one works, but only if the weight is lifted
+   220→enough times or is heavy enough to stimulate more muscle fibers to be
+   221→recruited into action, almost reach failure, and then be made to overload to
+   222→the quiver, struggle, and burn level.
+   223→Although there are important secondary fitness benefits to both types of
+   224→weight training, let’s consider a standard set of 10 repetitions (or reps) as an
+   225→example. A set of 10 reps is both safe and efficient for improving strength.
+   226→Start by selecting, through trial and error, the amount of weight that will
+   227→fatigue your muscle group within seven reps. The overload that occurs with
+   228→the eighth, ninth, and tenth reps stimulates adaptation. Once the muscle is
+   229→strong enough to move that weight 10 times without reaching overload,
+   230→increase the resistance to reach the next level of fitness and strength. How
+   231→long this process continues depends on your goal, but more resistance in the
+   232→form of heavier weights is necessary for getting stronger. For example, if
+   233→Larry Lifter found that he could reach overload with 95 pounds (43 kg)
+   234→when doing bench presses, once he could do his set of 10 reps, he would
+   235→add 10 pounds (4.5 kg) to reach the new overload. This process would
+   236→continue to 115 pounds (52 kg) once he could not overload with 105 pounds
+   237→(48 kg).
+   238→Now, let’s apply the principles of progressive resistance training to
+   239→walking, jogging, and running. In fact, you can extend this example
+   240→creatively to any of the endurance sports. The resistance for these activities
+   241→is the body’s weight against gravity. However, you won’t be moving heavier
+   242→weights to increase the resistance. In fact, as you get in better shape, you
+   243→may actually move less weight. Therefore, you have three choices for
+   244→increasing resistance:
+   245→--- PAGE 168 ---
+   246→1. Lengthen the duration of the exercise sessions—walk, jog, or run
+   247→farther at the same pace.
+   248→2. Add intensity by lifting your weight higher against gravity—walk,
+   249→jog, or run faster.
+   250→3. Add intensity by changing the degree of incline—head for the hills.
+   251→In other words, getting stronger and fitter by walking is like lifting a very
+   252→light weight many times. Jogging is like lifting the next increment of still
+   253→fairly light weight not quite so many times. Running is like lifting heavy
+   254→weights fewer times. Running up hills is akin to lifting the maximum
+   255→weight just a few times.
+   256→Workouts at slower paces in lower-intensity heart rate zones will take
+   257→more time, whereas faster workouts in higher-intensity zones will be over
+   258→more quickly. Your heart rate, patience, and goals will determine how much
+   259→or how little time you spend.
+   260→Monitoring Progress and Recovery
+   261→By now the concept of monitoring heart rate is familiar to you. You also
+   262→know that increased duration, if the pace stays the same, represents
+   263→increased intensity, and in general, increases in duration require more
+   264→recovery. However, because we know that heart rate is extremely versatile
+   265→and responsive, we can use it to monitor both acute and chronic recovery as
+   266→well as adaptations. In the next section we take a look at both acute and
+   267→chronic heart rate responses and consider how they can be used to regulate
+   268→intensity and recovery within an exercise session and also guide recovery
+   269→between workouts to prevent overtraining.
+   270→Using Acute Heart Rate to Guide Recovery Within an
+   271→Exercise Session
+   272→Heart rate response during exercise is typically a reflection of the intensity
+   273→of the exercise. During an exercise session, you may experience several
+   274→increases in intensity that cause a higher heart rate, such as after you climb
+   275→a hill. It also happens during speed interval sessions on the track. You may
+   276→have to slow down or stop after this brief period of increased intensity to
+   277→recover to some degree. An important question at this point is: When are
+   278→--- PAGE 169 ---
+   279→you ready to perform the next interval? Your within-exercise recovery heart
+   280→rate can help guide you safely.
+   281→You can determine when you are ready to start again by monitoring your
+   282→recovery heart rate. As a general rule, 65 percent MHR is used as the
+   283→criterion for adequate recovery. However, this is not a hard-and-fast rule. If
+   284→you are doing high-intensity speed or power workouts that last only a few
+   285→seconds, your coach might select a 50 percent recovery rate for 800-meter
+   286→intervals. The bottom line with recovery heart rates is that you must achieve
+   287→enough recovery to allow you to perform your complete workout with
+   288→sufficient quality rather than at significantly reduced speeds or efforts.
+   289→Generally, fitter athletes use higher percentages of MHR while recovering.
+   290→Your appropriate heart rate recovery depends on how much and how
+   291→well you want to recover between bouts. In general, the faster or the higher
+   292→the intensity of the exercise piece, the greater your recovery should be. So,
+   293→for example, if you are running repetitions at 85 percent MHR, you would
+   294→need less recovery than if you were running them at 95 to 100 percent
+   295→MHR.
+   296→Here’s an example. A coach might select a 50 percent MHR target as a
+   297→recovery number. When the athlete’s heart rate drops back down to that
+   298→level, she can resume the workload or perform the next piece. Here is an
+   299→easy math example: A 20-year-old runner has a maximum heart rate of 200
+   300→bpm. The session comprises ten 200-meter repeats on the track. Following
+   301→the repeats, the coach can use time or heart rate to determine when the
+   302→athlete should start again. Some coaches use a combination of both. In the
+   303→current example, the coach does not have the athlete perform the next 200
+   304→meters until her heart rate drops below 100 bpm (50 percent of the
+   305→maximum heart rate). This is an example of using acute heart rate response
+   306→during recovery when monitoring heart rate solely within a given exercise
+   307→session.
+   308→Using Chronic Heart Rate to Guide Recovery After an
+   309→Exercise Session
+   310→Changes in heart rate measurement technology now allow us to collect data
+   311→for much longer periods extending beyond the exercise session (over 24
+   312→hours at a time). Because we can monitor heart rate over longer periods, we
+   313→--- PAGE 170 ---
+   314→can collect excellent resting and recovery data between days of exercise.
+   315→(You could refer to this as daily heart rate recovery.) This can guide daily
+   316→training intensities and allow you to make changes if you’re not fully
+   317→recovered from the previous exercise bout. This can reduce the likelihood of
+   318→acute overtraining and even injury.
+   319→Look back at figure 1.2 (page 12) to see this depicted. Here is an
+   320→example to illustrate this point. Let’s say you get into the habit of recording
+   321→resting heart rate, and your average heart rate when you wake up in the
+   322→morning is 52 bpm. On Sunday you do a 10-mile (16 km) run. You wake up
+   323→on Monday with a resting heart rate of 55 bpm. You choose to go ahead
+   324→with a scheduled track and speed session (low volume but high intensity) on
+   325→Monday. When you wake up Tuesday morning, your resting heart rate is 56
+   326→bpm. This is an indication that you have not recovered from the Sunday
+   327→workout (and Monday added to the dilemma) and that you should
+   328→implement either a very easy workout on Tuesday or preferably take a
+   329→complete rest day. This illustrates why good record keeping is useful. Using
+   330→this approach, you adjust the Monday (and Tuesday) workout and then
+   331→hopefully see that within one or two more days your resting heart rate
+   332→recovers to normal. If it does not, you may have a more serious problem of
+   333→overtraining or staleness on your hands. This will necessitate longer periods
+   334→of rest and strategic nutrition.
+   335→If you pay close attention to your heart rate not only during exercise but
+   336→also throughout the day, you will get a lot of feedback about your overall
+   337→state of recovery and readiness for the next training session. Again, this will
+   338→also help reduce the likelihood of injury.
+   339→Avoiding Overtraining and Staleness
+   340→You can avoid overtraining and staleness by both resting and training your
+   341→heart rates. Although overtraining is a complex issue, you can use heart rate
+   342→data to detect when you are training too much in the early stages of getting
+   343→in shape. Heart rate data can also warn when you are at risk of staleness
+   344→from stretching a running season past your peak.
+   345→Another important concept is overreaching, which applies to short-term
+   346→overtraining, as might happen after a particularly hard training session. This
+   347→usually occurs in the few days following a longer, more strenuous workout.
+   348→--- PAGE 171 ---
+   349→Overtraining applies to longer, more chronic periods of training too hard or
+   350→racing too often. This condition results after weeks or months of training
+   351→without adequate rest and nutrition. This is a more serious condition,
+   352→requiring lengthy periods of rest and attention to nutrition and perhaps
+   353→medical intervention. In contrast, overreaching can normally be addressed
+   354→with a few days of rest and a few hearty meals.
+   355→Using your heart rate monitor can keep you from developing either
+   356→overtraining condition. To use it effectively, you need to do two things:
+   357→1. Record and monitor your resting heart rate and exercise heart rate
+   358→response to a given workload as often as possible. These should be
+   359→documented over days, weeks, and months.
+   360→2. Understand how your heart rate should respond both at rest and
+   361→during exercise as you train. Make sure it is increasing and decreasing
+   362→as you would expect.
+   363→Addressing the first issue is fairly straightforward. The second requires
+   364→that you read on a little further. Under normal conditions, resting heart rate
+   365→should be back to normal within 24 hours of a workout. You should make
+   366→sure this is the case before proceeding with a higher-intensity workout the
+   367→following day. Over time, however, your heart rate should decrease both at
+   368→rest and in response to a fixed workload. The decreased heart rate response
+   369→under both situations is a result of improved cardiac muscle function—the
+   370→heart is stronger and can move more blood with each beat. We call this
+   371→increased stroke volume. If you are not fully recovered, then your heart rate
+   372→at rest will be elevated because it is still working at repairing tissues and
+   373→replenishing fuels. What’s more, if you are not recovered, your heart rate
+   374→during exercise will not increase to where it needs to be to supply the
+   375→needed blood flow. This results in the sluggishness or staleness athletes
+   376→often experience during early overreaching. It feels as though someone has
+   377→put the lid on the heart rate. As a result, you try to work harder but cannot
+   378→because the heart rate cannot elevate to give you the blood supply you need.
+   379→The result is a frustrating and psychologically damaging workout. Your legs
+   380→and arms are heavy, and the best thing you can do is go home, eat, and
+   381→sleep.
+   382→It is nice to have your 12-week program carved in stone. However, you
+   383→need to be open-minded enough to change your daily plan if your body
+   384→--- PAGE 172 ---
+   385→needs it. The question is, What should you do if your heart rate indicates
+   386→overtraining? The obvious answer is to cut back the volume of exercise you
+   387→are doing, especially for the next few days. For some athletes this is not
+   388→always possible, but there are a few other precautions you can take, like
+   389→decreasing intensity or frequency of hard workouts.
+   390→The first step is to determine whether you are in an acute stage of
+   391→overtraining or overreaching, or whether these are early symptoms of a
+   392→more long-term, chronic problem. To determine this, we ask athletes three
+   393→questions. (1) Are you finding your exercise sessions getting more difficult
+   394→or easier? If they are getting more difficult and they are the same workouts
+   395→(i.e., same speed), you’re overtraining. (2) Are you very tired but having
+   396→trouble getting good-quality sleep? If so, you are overtraining. (3) Do you
+   397→find it difficult to exert maximum effort during a routine training session? If
+   398→so, you’re overtraining. These three simple questions will help you
+   399→determine whether you are starting to overtrain.
+   400→Early stages of overtraining are really overreaching. Overreaching
+   401→generally occurs when there is a marked increase in intensity or volume,
+   402→which quite often happens to athletes attending a training camp where there
+   403→is a significant increase in workload within a short period of time. The good
+   404→news about overreaching is that it can be addressed relatively quickly and
+   405→easily, with three or four days of planned rest and appropriate nutritional
+   406→intervention.
+   407→Ignoring the symptoms and continuing to train with the mentality that
+   408→you just need to grind through the sessions will inevitably lead to classic
+   409→overtraining. Classic overtraining is a more long-term problem with more
+   410→serious consequences. It usually exhibits all the signs and symptoms of
+   411→overreaching plus a couple more: heart rate continues to be elevated at rest,
+   412→and exercise heart rates continue to be depressed despite efforts to work
+   413→harder. What follows tends to be a period of illness or sickness as a result of
+   414→a compromised immune system. At this point you are clearly overtraining
+   415→and facing several weeks or possibly several months of layoff from
+   416→exercise.
+   417→Fortunately, by monitoring your heart rate regularly both at rest and
+   418→during exercise, you can detect these early symptoms. Then, you can take
+   419→appropriate action to vary the intensity and duration of workouts to ensure
+   420→--- PAGE 173 ---
+   421→that you do not move from the overreaching condition into the overtraining
+   422→condition.
+   423→FIGURE 8.1 Organizational flowchart for program design.
+   424→One of the keys to ensuring that you do not overtrain is to consider your
+   425→abilities, nutrition, age, and recovery profiles when designing your training
+   426→program. An individually designed program will enable you to detect early
+   427→whether you are overreaching and overtraining. Developing appropriate
+   428→training programs requires an understanding of progression, duration,
+   429→intensity, and the other factors. You also need to clearly identify the length
+   430→of the training program. From there the program should be built using the
+   431→foundations described in chapter 1.
+   432→Putting It Together
+   433→We have covered the elements to consider in program design. Now we can
+   434→think about piecing together this puzzle. Look at the flowchart in figure 8.1
+   435→for an overall picture of what the program might look like in terms of time
+   436→focused on particular fitness components. We find it is helpful to plot out
+   437→--- PAGE 174 ---
+   438→your time frames generically and then go back into those sections and add
+   439→greater detail. Doing so results in a more detailed training program such as
+   440→the example provided for a 1,500-meter runner (see table 8.2). Workouts
+   441→that are designed to focus more specifically on a singular or particular
+   442→element of performance, e.g., starting position, are usually described in
+   443→detail in a microcycle session. The details of such a workout would be
+   444→described in a single microcycle cell (the cells in the bottom row of table
+   445→8.2).
+   446→To design an effective program, you need to know the type of
+   447→adaptations that must occur during the various cycles of the program. In
+   448→general, we recognize several cycles that must occur in an overall training
+   449→program: the base cycle (endurance-building cycle); a competition cycle;
+   450→and a recovery, or transition, cycle. A program that clearly defines each of
+   451→these phases will result in sound progression. It will allow you to peak at
+   452→the right time. It will also ensure that you have an appropriate taper phase.
+   453→As you look at the programs for the various sports, remember that the same
+   454→logic and organization applies for all sports. Always start with the low-
+   455→intensity endurance, or base-building, phase, which is the longest phase.
+   456→Then, methodically and patiently move through the more specific, higher-
+   457→intensity phases, which are shorter. The general model is the same for all
+   458→sports. The only variations are those that need to occur because of specific
+   459→movement patterns required by the sport. For example, in swimming, more
+   460→time might be spent doing drills.
+   461→Whether your goal is consistent recreational exercise, finishing an event
+   462→with a smile on your face, or to win an age-group award, having a plan
+   463→makes reaching your goal more likely. Even if you do not follow it 100
+   464→percent, at least you have an outline that you can adjust as your heart rates
+   465→dictate. This is important for both exercise heart rates and resting heart
+   466→rates. And in order for this to work, you must keep good records.
+   467→--- PAGE 176 ---
+   468→CHAPTER 9
+   469→Walking
+   470→T
+   471→he previous chapters delivered a great deal of theory as well as
+   472→practical advice on monitored training and its application to
+   473→exercising in general. The submaximal nature of walking, the activity
+   474→covered in this chapter, requires some exceptions to the concepts discussed
+   475→previously. Creative alternatives are needed. For example, although you
+   476→will use percentage of maximum heart rate (MHR) to determine your
+   477→training zones, you will use a special, perhaps slightly less than fully
+   478→maximum heart rate. The challenge is to find a lower zone of intensity that
+   479→will still accomplish the goals of improving endurance and stamina.
+   480→Your training zones will have wide ranges. You may need to rely on your
+   481→own perception of your effort to verify that the heart rates you see are,
+   482→indeed, reliable and effective. You’ll still use your heart rate to determine
+   483→how far, how “fast,” and how hard you should work out. This approach
+   484→should be both easy to follow and yet challenging enough to be effective at
+   485→elevating your fitness level.
+   486→In this chapter, you will learn to apply the overload principle of
+   487→progressive resistance to your walking. Just as someone must lift a light
+   488→weight many times to get stronger, walkers must take a lot of steps to reach
+   489→the point of muscle overload because of the rather weak challenge to
+   490→gravity. By comparison, sprinting is like lifting a heavy weight a few times
+   491→to reach muscle overload. In either case, you can track the oxygen demands
+   492→of your working muscles by keeping track of your cardiac system’s
+   493→response in heartbeats per minute.
+   494→--- PAGE 177 ---
+   495→This chapter will also require that you be the subject in a scientific
+   496→“study of one.” In designing your workouts, you will manipulate time,
+   497→distance, pace, and, especially, your effort as measured by your heart rate
+   498→response. Designing a workout is like designing an experiment, and these
+   499→components will be designated either the givens (the parts of your workouts
+   500→that are controlled) or the variables (the parts that are allowed to change).
+   501→A Quick Fitness Evaluation
+   502→Before proceeding, we must ask this question: What kind of shape are you in? Have
+   503→you been enjoying enough casual, unstructured walking long enough to be able to
+   504→comfortably walk at least 20 minutes two or three times a week and take one longer
+   505→stroll of 30 minutes once a week? Furthermore, during one of your 20-minute walks, can
+   506→you cover at least 1 mile (1.6 km)? If so, skip the next paragraph. If you cannot
+   507→complete that routine, read on.
+   508→Our programs are not designed for rank beginners who are just sliding off the couch.
+   509→If you don’t meet the prerequisite of 20 minutes two or three times a week (one of them
+   510→for at least 1 mile, or 1.6 km) and a 30-minute walk once a week, begin your program
+   511→with very slow, easy, gentle walks until you can accomplish these criteria. We suggest
+   512→that you start by trying to follow half of the described routine without worrying about how
+   513→far you go. Each week add 2 to 3 minutes to the walks until you reach the goal of three
+   514→20-minute walks and one 30-minute walk. Before trying to cover 1 mile in 20 minutes,
+   515→take at least one day off between walks in order to be fully rested. When you can pass
+   516→our test, you will be set to move on to our structured workouts.
+   517→The following program is an individualized, structured plan that you can
+   518→use to take your walking fitness to higher levels. Use your heart rate
+   519→monitor to make sure your effort is hard enough to reach the quality needed
+   520→to improve, but more important, to be sure that you do not try so hard that
+   521→you overtrain and come down with a case of shin splints or worse.
+   522→Classifying Your Current Fitness
+   523→Level
+   524→Before you can get a driver’s license, you need to learn to make a car move
+   525→where you want it to by practicing under proper supervision. Then you must
+   526→take the exam to earn your license. At this point, you should have your
+   527→learner’s permit and have had plenty of practice. Now you need to take a
+   528→--- PAGE 178 ---
+   529→test to determine your current state of fitness. This will help you pick the
+   530→appropriate level of workout as your starting point.
+   531→Carefully look over the outline of the following test to make sure you
+   532→understand all the instructions. Remember to wear a watch or take a
+   533→stopwatch so you can time yourself. Also, wear your heart rate monitor to
+   534→see how high your heart rate goes when you walk this time trial. Strap on
+   535→your heart rate monitor, reset your stopwatch to zero, take a deep breath,
+   536→and head for the track.
+   537→While doing the test, check your heart rate monitor every minute. Expect
+   538→a fairly even, steady increase in the numbers, but be aware that the highest
+   539→number may not be right at the finish of the test if you get tired and have to
+   540→slow down before the end.
+   541→Using a heart rate monitor while you walk is a good way to measure your training
+   542→level and optimize your intensity.
+   543→One-Mile Walking Test
+   544→1. Find a track or measure a flat trail with a smooth surface. (On a
+   545→standard track, one lap is 400 meters, or 7.5 feet short of a quarter of
+   546→a mile, so for 1 mile you will walk four laps, plus 3–4 more giant
+   547→strides.) Use the inside lane to be sure that you do not walk more than
+   548→a mile in the outer lanes. If you don’t have access to a track, measure
+   549→a route using your car’s odometer. This method may not be quite as
+   550→accurate, but it will be close enough for this test.
+   551→--- PAGE 179 ---
+   552→2. Warm up with several minutes of easy walking and stretching.
+   553→3. Start the stopwatch and begin to walk 1 mile. Don’t start too fast. Use
+   554→a steady marching-style pace that makes you feel you are pushing
+   555→hard. As you near the 1-mile mark, pick up the pace and finish strong.
+   556→Stop the watch. After the test, you should feel a little winded, but you
+   557→shouldn’t be exhausted.
+   558→4. Cool down with a few minutes of easy walking. Compare your time
+   559→to table 9.1 to determine your walking classification.
+   560→Adapted T. Iknoian, Fitness Walking, 2nd ed. (Champaign, IL: Human Kinetics, 2005), 13.
+   561→If you met the prerequisites noted earlier, you likely are already in the
+   562→health category. If you qualified in the fitness category, use the level 1
+   563→program to build a better base of endurance. If you reached the athletic
+   564→category, start at level 2. Level 2 will be especially stimulating for your
+   565→muscular and respiratory systems because it develops your stamina.
+   566→Determining Your Walking Maximum
+   567→Heart Rate
+   568→We have to admit that walkers present a bit of a conundrum when it comes
+   569→to testing for MHR. Estimating MHR through the methods described in
+   570→chapter 2 isn’t very reliable. For other sports and exercise activities, it is
+   571→standard practice to base target heart rates on percentages of MHR
+   572→identified as the athlete runs up a steep incline on a treadmill at a high rate
+   573→of speed. However, it is virtually impossible to walk to your MHR without
+   574→the test constituting cruel and unusual punishment because low-intensity
+   575→walking workouts inadequately challenge the muscular and respiratory
+   576→systems for such a high-stress test. Even so, you need to test yourself
+   577→somehow to calculate your target heart rates. The customized test described
+   578→here is still intense and should be attempted only with permission from your
+   579→doctor.
+   580→TABLE 9.1 Walking Classification Based on 1-Mile Walking
+   581→Test Result
+   582→Men (in min) Women (in min) Walking classification
+   583→--- PAGE 180 ---
+   584→>16 >17 Health
+   585→13–16 14–17 Fitness
+   586→<13 <14 Athletic
+   587→The Connolly-Benson stress test for walkers requires a treadmill. Before
+   588→starting the test, check your heart rate monitor for possible interference
+   589→from the electrical console of the treadmill. If your numbers are erratic and
+   590→make no sense, you may have to ask a friend to hold your receiver off to the
+   591→side out of the range of the treadmill’s control board.
+   592→Start by walking for 3 minutes at 3 miles per hour (4.8 km/h) to warm
+   593→up. Raise the elevation 1 percent and walk for 1 minute. Raise the elevation
+   594→another 1 percent and walk another minute. Continue raising the elevation 1
+   595→percent every minute. Do not hold on to the guardrails or hand bar.
+   596→Carefully monitor your heart rate a couple of times per minute. When the
+   597→combination of the speed and the incline make it impossible for you to keep
+   598→up, double-check your heart rate, note this number, and then slow the belt
+   599→speed and decrease the elevation. Walk for several minutes to cool down.
+   600→For walking purposes, you have established a maximum heart rate.
+   601→Your walking MHR is an important given that will allow us to use the
+   602→classic design of a scientific experiment for your progression in this
+   603→program. Your goal will be to get in better shape by walking farther without
+   604→exceeding your upper heart rate limit. The long-term variable of the
+   605→experiment is the period of time it takes you to cover the given distance
+   606→without exceeding your upper heart rate limit. As your endurance improves,
+   607→the walks will become easier and your heart will not have to work as hard,
+   608→thus allowing you to walk faster. Your current fitness level is the short-term
+   609→variable to measure if you can keep the other workout elements, such as
+   610→pace and terrain, constant as givens. Admittedly, the elements that influence
+   611→your heart rate on workout days, such as the temperature, the wind, surface
+   612→flatness, your degree of recovery from previous workouts, and your stress
+   613→level, can vary from day to day. By not exceeding your upper heart rate
+   614→target, you will ensure that you stay in the endurance- and stamina-
+   615→development zones.
+   616→Practical scientists deal with these varying conditions by using finagled
+   617→factors. You, too, may have to be a bit broad-minded and play with your
+   618→--- PAGE 181 ---
+   619→walking speed to adjust for conditions when you work out. To keep within
+   620→your target zone, you may have to slow down on bad days or speed up on
+   621→good days. It is okay for pace to be a variable. Look at the big picture to
+   622→make sure that your workout heart rates, not your speed, are constant over a
+   623→week or two.
+   624→In two to three weeks, you’ll notice that your heart rate response at the
+   625→same walking speed decreases. The goal is to track the slowly decreasing
+   626→number of beats per minute as you get in better shape. You will do that by
+   627→using the goal time of your workouts as another given. During each
+   628→progression, you will repeat the same workouts until you can cover the time
+   629→of each progression without exceeding your upper target heart rate.
+   630→In level 1, you’ll improve your endurance by doing more reps with your
+   631→light body weight as you walk longer.
+   632→Determining Your Walking Training
+   633→Zones
+   634→Your lower target heart rate is 50 percent of your walking MHR, and your
+   635→upper target heart rate for level 1 is 75 percent of your walking MHR. If
+   636→you decide to continue up to level 2, your target heart rate will be 85
+   637→percent of your walking MHR. As long as you are within this range and
+   638→definitely not exceeding the upper limit, you will be safe from the pace
+   639→police. Your challenge is to walk fast enough to at least reach your lower
+   640→target heart rate and then fast and far enough without exceeding your upper
+   641→target heart rate. These target heart rates will be givens in your fitness
+   642→measurement.
+   643→As you increase the amount of time you walk, another given will be the
+   644→distance and the variable will be your pace per mile or kilometer. Following
+   645→our heart rate heartlek protocol, you will change your pace as needed to stay
+   646→within your target zones.
+   647→You will do each workout within three heart rate zones: a lower zone, a
+   648→recovery zone, and an upper zone.
+   649→1. Your lower target heart rate is 50 percent of your MHR from the
+
+[showing lines 50-649 of 1205; use offset=650 with limit to continue reading]

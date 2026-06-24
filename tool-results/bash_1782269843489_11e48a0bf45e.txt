@@ -1,0 +1,1205 @@
+--- PAGE 161 ---
+the higher-intensity threshold work and finally into the red zone where
+intensity is very high and speed is very fast.
+You will also remember the four training phases that specifically target
+endurance, stamina, economy, and speed. These phases span the spectrum
+of energy systems ranging from very aerobic to slightly anaerobic
+(economy) to highly anaerobic (power). The training triangle emphasizes
+the importance of developing your systems progressively. You can develop
+your anaerobic systems only after you have developed an appropriate
+endurance (aerobic) base.
+Depending on your initial level of fitness, developing an adequate
+aerobic base can take from 4 to 20 weeks. As a general rule, we classify
+aerobic fitness according to maximum oxygen consumption values. This
+data is presented in chapter 10 in tables 10.2 and 10.3 (page 153). However,
+because most of us do not have access to the technology required to
+measure such values, we have provided a classification table (see table 8.1)
+that uses a more accessible method by using your 5K time. Using this table,
+you can figure out whether you are a beginner (needing 16 to 20 weeks), at
+the intermediate level (needing 12 to 16 weeks), or advanced (needing 4 to
+12 weeks).
+Now that you have a sense of how to organize programs, it is time to
+look at some of the other factors and terms related to program design.
+Factors in Program Design
+As we move on in our discussion of training and using heart rate, we want
+to make sure you understand the related training concepts and variables you
+must consider when developing a training program. Heart rate, although an
+extremely important variable, is only one measuring tool. To design a good
+program, you should also understand the following eight basic,
+straightforward principles of exercise prescription:
+1. Frequency
+2. Intensity
+3. Duration
+4. Mode
+5. Overload
+--- PAGE 162 ---
+6. Specificity
+7. Reversibility
+8. Maintenance
+Collectively, these eight principles dictate your current level of fitness.
+Let’s look at each principle in greater detail.
+Frequency is a measure of how many times you exercise in a week.
+Basic fitness guidelines advise three to five times per week. However, this
+can vary significantly depending on the interaction between intensity and
+duration.
+TABLE 8.1 5K Race Times for Runners at Different Levels
+Beginner >29:30
+Intermediate 22:30–29:29
+Advanced <22:29
+As a general rule, beginners should exercise three or four times per week
+with a rest day scheduled every other day. Intermediate athletes should
+exercise four to seven times a week. Advanced athletes may exercise up to
+15 times a week. More competitive athletes often exercise twice a day,
+incorporating one aerobic session and perhaps one weightlifting session, or
+one session may be slow and the other fast. The bottom line is that virtually
+all of the more competitive athletes exercise at least seven times a week.
+Intensity is a measure of how hard you work, and your intensity must be
+planned and correlated with your progression. In chapter 1, we showed that
+intensity can be measured by percent MHR (maximum heart rate) or
+percent O max. Heart rate is the simplest and most effective tool for
+2
+guiding intensity. You can ensure the adaptation you need for the training
+phase you are in by selecting the appropriate intensity. People often
+exercise too hard too early in their training programs and then get injured or
+fail to develop the appropriate foundation needed for higher intensity later
+on. Classifying yourself properly from the beginning will guide you in
+selecting the right intensity.
+--- PAGE 163 ---
+Duration is the length of the exercise session, the recovery interval, or
+the repetition. As a general rule, the longer the duration, the more the
+intensity will increase. Duration becomes an intensity factor over time
+because fatigue during a workout is cumulative, unless the exerciser slows
+the rate or pace of the workout. Even then, duration will eventually become
+an intensity factor. Duration is important because it is often manipulated to
+ensure a certain intensity stimulus. It also determines whether you will need
+to refuel your energy during an exercise session. Duration and intensity are
+closely intertwined.
+Mode refers to the type of activity you do. Running, swimming, and
+cycling are all examples of exercise modes. Mode is relevant for the
+development of efficiency, especially mechanical and metabolic efficiency.
+It also has implications for energy expended because different activities
+burn calories at different rates, even if the heart rate is the same. We also
+can be at different intensities or perceived efforts in different modes while
+exhibiting the same heart rate. Triathletes often notice greater comfort
+running at a heart rate of 140 bpm versus biking or swimming at 140 bpm.
+The four factors discussed so far—frequency, intensity, duration, and
+mode—are the four core principles that are essential in the initial design of
+any exercise program. The next four components are more concerned with
+the progression of the program.
+Overload refers to the increased demand placed on the muscular system.
+It simply means requiring the system to do more. Overload, sometimes
+referred to as progression, is also concerned with how much you increase
+your volume or intensity over time. As a general rule, beginner and
+intermediate athletes should not increase volume by more than 10 percent in
+any given session during a two- to three-week period, the exception being
+when total duration is 10 or fewer miles per week, which may make a 15
+percent increase more appropriate. This increase assumes a minimum of
+three exercise sessions each week. In other words, you should do at least
+eight exercise sessions in a row at the same load before implementing an
+increase.
+For example, let’s say a beginner runs Monday, Wednesday, and Friday.
+He or she runs 3 miles (4.8 km) a day for a total of 9 (14.5 km) miles a
+week. After two weeks, this mileage would increase to approximately 10.5
+miles (17 km) a week, or three runs at 3.5 miles (5.6 km) each. This
+--- PAGE 164 ---
+progression model is slow, but it helps prevent injury and muscle damage
+while also allowing adequate time for multiple systems to adapt to the new
+overload. Using percentage of volume to increase overload is difficult
+because of the small amounts of increase. Instead, you can use time, which
+is easier to measure and monitor.
+Specificity has two components—metabolic specificity and muscle
+contraction specificity. Specificity is concerned with putting the correct
+type of stress on your metabolic and musculoskeletal systems. For example,
+have you ever seen a really good runner struggle to swim 400 meters in the
+pool? Essentially, we become efficient at specific muscle contractions
+through practice and training. For runners this might require sprint work,
+for cyclists it might be hill work, and for triathletes it might involve
+working on transitions. The bottom line is that specificity has to do with
+coordinating your central nervous system to work in conjunction with your
+metabolic demands during muscular contractions. For many athletes this
+requires training at various speeds and intensities and in the mode that is
+most important. Of particular importance in this category is speed work, but
+again, only when the endurance base has been built. LeBron James doesn’t
+practice his free throws by dunking the ball and Yo-Yo Ma doesn’t prepare
+for his cello concerts by playing the violin; their training is specific.
+Reversibility relates to losing whatever fitness you have gained. The
+amount of time it takes to lose fitness varies among athletes and types of
+fitness. For example, aerobic fitness begins to decline without exercise in
+about 10 days. Muscular strength will not decline for about 30 days.
+Athletes often have a hard time grasping this concept. They believe that if
+they can’t work out, the system starts to reverse and fitness is lost within
+one or two days. Consequently, many athletes do not rest appropriately for
+important races, especially long races such as marathons or Ironman
+triathlons. In reality, well-trained aerobic athletes do not lose fitness for at
+least seven days. In fact, with appropriate rest, they will improve
+performance, which is what happens during tapering. Remember, the hard
+part is getting fit; staying fit is a bit easier.
+Maintenance and reversibility are somewhat linked. Maintenance refers
+to hanging onto current fitness. Maintenance of fitness is achieved with
+much less work and effort than improving fitness. If your goal is simply to
+maintain fitness, you can achieve this with a 30 to 40 percent decrease in
+--- PAGE 165 ---
+volume at your current intensity. However, at certain points in your training
+you can improve performance by decreasing volume and increasing
+intensity. During the tapering phases of training, you can decrease your
+volume up to 80 percent provided that you keep the intensity very high
+(usually greater than 90 percent of MHR). This is why many athletes
+dramatically cut volume but increase speed and intensity in the weeks
+leading up to big races, yet still race faster. This is typically known as
+“peaking” when done near the end of a season in preparation for
+championship performances.
+Now that you understand these programming principles, let’s consider
+how you can manipulate them during training using heart rate training
+zones. Remember, you are trying to build a logical and systematic program
+to develop the elements of power, speed, and endurance that you need—and
+do it without getting hurt.
+Periodization
+Before we get into the real nuts and bolts of building the program, we want
+to take a look at the big picture of a training program. We refer to this as
+periodization, and it describes the organization of an overall training
+program. The program might be 12 weeks, six months, or one year long.
+For Olympic athletes, it might be four years. Regardless of the length, the
+program is organized around the scientific principles of progression. If you
+plan your periodization correctly, you will find that you can align heart rate
+intensities with periods in the cycle for the most part. The longer, slower,
+base-building cycles will be characterized by much lower heart rates overall
+(both at rest and during exercise) and display the phase I endurance zone.
+As you move into higher-intensity cycles, your heart rate will elevate
+significantly during exercise as you prime for race condition.
+A well-organized program focuses on different components of overall
+fitness during different periods—macrocycles, microcycles, and
+mesocycles. The four phases of training—endurance, stamina, economy,
+and speed—fit within these periods. In general, macrocycles are longer, or
+more generally defined, periods of training that lack the specificity and
+detail of microcycles and mesocycles. For example, a macrocycle in a six-
+--- PAGE 166 ---
+month training program might comprise the first 12 weeks of simple, low-
+intensity aerobic conditioning designed to build an endurance base.
+Microcycles are shorter periods with an increased focus on another
+aspect of fitness. For example, in a six-month training program in which the
+first 12 weeks are a macrocycle, two microcycles of four weeks each might
+follow. These microcycles might include a focus on speed work, hill work,
+tempo runs, or flexibility in order to improve stamina. During microcycles
+we tend to focus a little more on the specific components, such as the
+economy required for performance and racing.
+Mesocycles are the final part of the periodization process. These are
+individual sessions designed to address a particular skill component. A
+mesocycle for a runner might focus on pacing, speed and power
+development, or mechanics. For a cyclist, a mesocycle might focus on body
+position or climbing posture. For a swimmer, it might focus on stroke
+technique.
+The use of periodization forces you to consider in detail the type of
+adaptations you are looking for during a particular phase of your program.
+It forces you to be organized, consider how long you have to adapt, and
+decide where the competition occurs in your overall training program.
+When designing an exercise program, you should be looking at the desired
+end point, or product. Ask yourself, “What am I looking for in terms of
+performance at the end of the training program?” When you can define that,
+you can work backward to ensure that the correct amount of time is
+available to ensure the adaptations needed. This prevents you from making
+the basic mistake of progressing too rapidly and increasing your risk of
+injury.
+If you look back at the general structure of a training program through
+the lens of periodization, you will see that more general conditioning
+sessions occur early on (macrocycles), and that these become progressively
+more specific (microcycles and mesocycles). Within each of these periods
+you will also see variations in intensity, distance, recovery, and so on. Here
+again, heart rate is your guiding tool to ensure that you stay within the
+parameters of intensity you need to get the appropriate adaptation. Clearly,
+being organized and plotting out your program is paramount.
+--- PAGE 167 ---
+Principle of Progressive Resistance
+The principle of progressive resistance can be applied to either slow or
+fleet-footed movements. A primary law of exercise physiology is that we
+can condition our muscles by working them with repetitive movements to a
+state of fatigue and then overloading them with a few more repetitions.
+The most familiar application of this principle is weight training. We all
+know that lifting weights can make us stronger. Perhaps you are familiar
+with the two ways to weight train: lift a light weight many times or lift a
+heavy weight a few times. Either one works, but only if the weight is lifted
+enough times or is heavy enough to stimulate more muscle fibers to be
+recruited into action, almost reach failure, and then be made to overload to
+the quiver, struggle, and burn level.
+Although there are important secondary fitness benefits to both types of
+weight training, let’s consider a standard set of 10 repetitions (or reps) as an
+example. A set of 10 reps is both safe and efficient for improving strength.
+Start by selecting, through trial and error, the amount of weight that will
+fatigue your muscle group within seven reps. The overload that occurs with
+the eighth, ninth, and tenth reps stimulates adaptation. Once the muscle is
+strong enough to move that weight 10 times without reaching overload,
+increase the resistance to reach the next level of fitness and strength. How
+long this process continues depends on your goal, but more resistance in the
+form of heavier weights is necessary for getting stronger. For example, if
+Larry Lifter found that he could reach overload with 95 pounds (43 kg)
+when doing bench presses, once he could do his set of 10 reps, he would
+add 10 pounds (4.5 kg) to reach the new overload. This process would
+continue to 115 pounds (52 kg) once he could not overload with 105 pounds
+(48 kg).
+Now, let’s apply the principles of progressive resistance training to
+walking, jogging, and running. In fact, you can extend this example
+creatively to any of the endurance sports. The resistance for these activities
+is the body’s weight against gravity. However, you won’t be moving heavier
+weights to increase the resistance. In fact, as you get in better shape, you
+may actually move less weight. Therefore, you have three choices for
+increasing resistance:
+--- PAGE 168 ---
+1. Lengthen the duration of the exercise sessions—walk, jog, or run
+farther at the same pace.
+2. Add intensity by lifting your weight higher against gravity—walk,
+jog, or run faster.
+3. Add intensity by changing the degree of incline—head for the hills.
+In other words, getting stronger and fitter by walking is like lifting a very
+light weight many times. Jogging is like lifting the next increment of still
+fairly light weight not quite so many times. Running is like lifting heavy
+weights fewer times. Running up hills is akin to lifting the maximum
+weight just a few times.
+Workouts at slower paces in lower-intensity heart rate zones will take
+more time, whereas faster workouts in higher-intensity zones will be over
+more quickly. Your heart rate, patience, and goals will determine how much
+or how little time you spend.
+Monitoring Progress and Recovery
+By now the concept of monitoring heart rate is familiar to you. You also
+know that increased duration, if the pace stays the same, represents
+increased intensity, and in general, increases in duration require more
+recovery. However, because we know that heart rate is extremely versatile
+and responsive, we can use it to monitor both acute and chronic recovery as
+well as adaptations. In the next section we take a look at both acute and
+chronic heart rate responses and consider how they can be used to regulate
+intensity and recovery within an exercise session and also guide recovery
+between workouts to prevent overtraining.
+Using Acute Heart Rate to Guide Recovery Within an
+Exercise Session
+Heart rate response during exercise is typically a reflection of the intensity
+of the exercise. During an exercise session, you may experience several
+increases in intensity that cause a higher heart rate, such as after you climb
+a hill. It also happens during speed interval sessions on the track. You may
+have to slow down or stop after this brief period of increased intensity to
+recover to some degree. An important question at this point is: When are
+--- PAGE 169 ---
+you ready to perform the next interval? Your within-exercise recovery heart
+rate can help guide you safely.
+You can determine when you are ready to start again by monitoring your
+recovery heart rate. As a general rule, 65 percent MHR is used as the
+criterion for adequate recovery. However, this is not a hard-and-fast rule. If
+you are doing high-intensity speed or power workouts that last only a few
+seconds, your coach might select a 50 percent recovery rate for 800-meter
+intervals. The bottom line with recovery heart rates is that you must achieve
+enough recovery to allow you to perform your complete workout with
+sufficient quality rather than at significantly reduced speeds or efforts.
+Generally, fitter athletes use higher percentages of MHR while recovering.
+Your appropriate heart rate recovery depends on how much and how
+well you want to recover between bouts. In general, the faster or the higher
+the intensity of the exercise piece, the greater your recovery should be. So,
+for example, if you are running repetitions at 85 percent MHR, you would
+need less recovery than if you were running them at 95 to 100 percent
+MHR.
+Here’s an example. A coach might select a 50 percent MHR target as a
+recovery number. When the athlete’s heart rate drops back down to that
+level, she can resume the workload or perform the next piece. Here is an
+easy math example: A 20-year-old runner has a maximum heart rate of 200
+bpm. The session comprises ten 200-meter repeats on the track. Following
+the repeats, the coach can use time or heart rate to determine when the
+athlete should start again. Some coaches use a combination of both. In the
+current example, the coach does not have the athlete perform the next 200
+meters until her heart rate drops below 100 bpm (50 percent of the
+maximum heart rate). This is an example of using acute heart rate response
+during recovery when monitoring heart rate solely within a given exercise
+session.
+Using Chronic Heart Rate to Guide Recovery After an
+Exercise Session
+Changes in heart rate measurement technology now allow us to collect data
+for much longer periods extending beyond the exercise session (over 24
+hours at a time). Because we can monitor heart rate over longer periods, we
+--- PAGE 170 ---
+can collect excellent resting and recovery data between days of exercise.
+(You could refer to this as daily heart rate recovery.) This can guide daily
+training intensities and allow you to make changes if you’re not fully
+recovered from the previous exercise bout. This can reduce the likelihood of
+acute overtraining and even injury.
+Look back at figure 1.2 (page 12) to see this depicted. Here is an
+example to illustrate this point. Let’s say you get into the habit of recording
+resting heart rate, and your average heart rate when you wake up in the
+morning is 52 bpm. On Sunday you do a 10-mile (16 km) run. You wake up
+on Monday with a resting heart rate of 55 bpm. You choose to go ahead
+with a scheduled track and speed session (low volume but high intensity) on
+Monday. When you wake up Tuesday morning, your resting heart rate is 56
+bpm. This is an indication that you have not recovered from the Sunday
+workout (and Monday added to the dilemma) and that you should
+implement either a very easy workout on Tuesday or preferably take a
+complete rest day. This illustrates why good record keeping is useful. Using
+this approach, you adjust the Monday (and Tuesday) workout and then
+hopefully see that within one or two more days your resting heart rate
+recovers to normal. If it does not, you may have a more serious problem of
+overtraining or staleness on your hands. This will necessitate longer periods
+of rest and strategic nutrition.
+If you pay close attention to your heart rate not only during exercise but
+also throughout the day, you will get a lot of feedback about your overall
+state of recovery and readiness for the next training session. Again, this will
+also help reduce the likelihood of injury.
+Avoiding Overtraining and Staleness
+You can avoid overtraining and staleness by both resting and training your
+heart rates. Although overtraining is a complex issue, you can use heart rate
+data to detect when you are training too much in the early stages of getting
+in shape. Heart rate data can also warn when you are at risk of staleness
+from stretching a running season past your peak.
+Another important concept is overreaching, which applies to short-term
+overtraining, as might happen after a particularly hard training session. This
+usually occurs in the few days following a longer, more strenuous workout.
+--- PAGE 171 ---
+Overtraining applies to longer, more chronic periods of training too hard or
+racing too often. This condition results after weeks or months of training
+without adequate rest and nutrition. This is a more serious condition,
+requiring lengthy periods of rest and attention to nutrition and perhaps
+medical intervention. In contrast, overreaching can normally be addressed
+with a few days of rest and a few hearty meals.
+Using your heart rate monitor can keep you from developing either
+overtraining condition. To use it effectively, you need to do two things:
+1. Record and monitor your resting heart rate and exercise heart rate
+response to a given workload as often as possible. These should be
+documented over days, weeks, and months.
+2. Understand how your heart rate should respond both at rest and
+during exercise as you train. Make sure it is increasing and decreasing
+as you would expect.
+Addressing the first issue is fairly straightforward. The second requires
+that you read on a little further. Under normal conditions, resting heart rate
+should be back to normal within 24 hours of a workout. You should make
+sure this is the case before proceeding with a higher-intensity workout the
+following day. Over time, however, your heart rate should decrease both at
+rest and in response to a fixed workload. The decreased heart rate response
+under both situations is a result of improved cardiac muscle function—the
+heart is stronger and can move more blood with each beat. We call this
+increased stroke volume. If you are not fully recovered, then your heart rate
+at rest will be elevated because it is still working at repairing tissues and
+replenishing fuels. What’s more, if you are not recovered, your heart rate
+during exercise will not increase to where it needs to be to supply the
+needed blood flow. This results in the sluggishness or staleness athletes
+often experience during early overreaching. It feels as though someone has
+put the lid on the heart rate. As a result, you try to work harder but cannot
+because the heart rate cannot elevate to give you the blood supply you need.
+The result is a frustrating and psychologically damaging workout. Your legs
+and arms are heavy, and the best thing you can do is go home, eat, and
+sleep.
+It is nice to have your 12-week program carved in stone. However, you
+need to be open-minded enough to change your daily plan if your body
+--- PAGE 172 ---
+needs it. The question is, What should you do if your heart rate indicates
+overtraining? The obvious answer is to cut back the volume of exercise you
+are doing, especially for the next few days. For some athletes this is not
+always possible, but there are a few other precautions you can take, like
+decreasing intensity or frequency of hard workouts.
+The first step is to determine whether you are in an acute stage of
+overtraining or overreaching, or whether these are early symptoms of a
+more long-term, chronic problem. To determine this, we ask athletes three
+questions. (1) Are you finding your exercise sessions getting more difficult
+or easier? If they are getting more difficult and they are the same workouts
+(i.e., same speed), you’re overtraining. (2) Are you very tired but having
+trouble getting good-quality sleep? If so, you are overtraining. (3) Do you
+find it difficult to exert maximum effort during a routine training session? If
+so, you’re overtraining. These three simple questions will help you
+determine whether you are starting to overtrain.
+Early stages of overtraining are really overreaching. Overreaching
+generally occurs when there is a marked increase in intensity or volume,
+which quite often happens to athletes attending a training camp where there
+is a significant increase in workload within a short period of time. The good
+news about overreaching is that it can be addressed relatively quickly and
+easily, with three or four days of planned rest and appropriate nutritional
+intervention.
+Ignoring the symptoms and continuing to train with the mentality that
+you just need to grind through the sessions will inevitably lead to classic
+overtraining. Classic overtraining is a more long-term problem with more
+serious consequences. It usually exhibits all the signs and symptoms of
+overreaching plus a couple more: heart rate continues to be elevated at rest,
+and exercise heart rates continue to be depressed despite efforts to work
+harder. What follows tends to be a period of illness or sickness as a result of
+a compromised immune system. At this point you are clearly overtraining
+and facing several weeks or possibly several months of layoff from
+exercise.
+Fortunately, by monitoring your heart rate regularly both at rest and
+during exercise, you can detect these early symptoms. Then, you can take
+appropriate action to vary the intensity and duration of workouts to ensure
+--- PAGE 173 ---
+that you do not move from the overreaching condition into the overtraining
+condition.
+FIGURE 8.1 Organizational flowchart for program design.
+One of the keys to ensuring that you do not overtrain is to consider your
+abilities, nutrition, age, and recovery profiles when designing your training
+program. An individually designed program will enable you to detect early
+whether you are overreaching and overtraining. Developing appropriate
+training programs requires an understanding of progression, duration,
+intensity, and the other factors. You also need to clearly identify the length
+of the training program. From there the program should be built using the
+foundations described in chapter 1.
+Putting It Together
+We have covered the elements to consider in program design. Now we can
+think about piecing together this puzzle. Look at the flowchart in figure 8.1
+for an overall picture of what the program might look like in terms of time
+focused on particular fitness components. We find it is helpful to plot out
+--- PAGE 174 ---
+your time frames generically and then go back into those sections and add
+greater detail. Doing so results in a more detailed training program such as
+the example provided for a 1,500-meter runner (see table 8.2). Workouts
+that are designed to focus more specifically on a singular or particular
+element of performance, e.g., starting position, are usually described in
+detail in a microcycle session. The details of such a workout would be
+described in a single microcycle cell (the cells in the bottom row of table
+8.2).
+To design an effective program, you need to know the type of
+adaptations that must occur during the various cycles of the program. In
+general, we recognize several cycles that must occur in an overall training
+program: the base cycle (endurance-building cycle); a competition cycle;
+and a recovery, or transition, cycle. A program that clearly defines each of
+these phases will result in sound progression. It will allow you to peak at
+the right time. It will also ensure that you have an appropriate taper phase.
+As you look at the programs for the various sports, remember that the same
+logic and organization applies for all sports. Always start with the low-
+intensity endurance, or base-building, phase, which is the longest phase.
+Then, methodically and patiently move through the more specific, higher-
+intensity phases, which are shorter. The general model is the same for all
+sports. The only variations are those that need to occur because of specific
+movement patterns required by the sport. For example, in swimming, more
+time might be spent doing drills.
+Whether your goal is consistent recreational exercise, finishing an event
+with a smile on your face, or to win an age-group award, having a plan
+makes reaching your goal more likely. Even if you do not follow it 100
+percent, at least you have an outline that you can adjust as your heart rates
+dictate. This is important for both exercise heart rates and resting heart
+rates. And in order for this to work, you must keep good records.
+--- PAGE 176 ---
+CHAPTER 9
+Walking
+T
+he previous chapters delivered a great deal of theory as well as
+practical advice on monitored training and its application to
+exercising in general. The submaximal nature of walking, the activity
+covered in this chapter, requires some exceptions to the concepts discussed
+previously. Creative alternatives are needed. For example, although you
+will use percentage of maximum heart rate (MHR) to determine your
+training zones, you will use a special, perhaps slightly less than fully
+maximum heart rate. The challenge is to find a lower zone of intensity that
+will still accomplish the goals of improving endurance and stamina.
+Your training zones will have wide ranges. You may need to rely on your
+own perception of your effort to verify that the heart rates you see are,
+indeed, reliable and effective. You’ll still use your heart rate to determine
+how far, how “fast,” and how hard you should work out. This approach
+should be both easy to follow and yet challenging enough to be effective at
+elevating your fitness level.
+In this chapter, you will learn to apply the overload principle of
+progressive resistance to your walking. Just as someone must lift a light
+weight many times to get stronger, walkers must take a lot of steps to reach
+the point of muscle overload because of the rather weak challenge to
+gravity. By comparison, sprinting is like lifting a heavy weight a few times
+to reach muscle overload. In either case, you can track the oxygen demands
+of your working muscles by keeping track of your cardiac system’s
+response in heartbeats per minute.
+--- PAGE 177 ---
+This chapter will also require that you be the subject in a scientific
+“study of one.” In designing your workouts, you will manipulate time,
+distance, pace, and, especially, your effort as measured by your heart rate
+response. Designing a workout is like designing an experiment, and these
+components will be designated either the givens (the parts of your workouts
+that are controlled) or the variables (the parts that are allowed to change).
+A Quick Fitness Evaluation
+Before proceeding, we must ask this question: What kind of shape are you in? Have
+you been enjoying enough casual, unstructured walking long enough to be able to
+comfortably walk at least 20 minutes two or three times a week and take one longer
+stroll of 30 minutes once a week? Furthermore, during one of your 20-minute walks, can
+you cover at least 1 mile (1.6 km)? If so, skip the next paragraph. If you cannot
+complete that routine, read on.
+Our programs are not designed for rank beginners who are just sliding off the couch.
+If you don’t meet the prerequisite of 20 minutes two or three times a week (one of them
+for at least 1 mile, or 1.6 km) and a 30-minute walk once a week, begin your program
+with very slow, easy, gentle walks until you can accomplish these criteria. We suggest
+that you start by trying to follow half of the described routine without worrying about how
+far you go. Each week add 2 to 3 minutes to the walks until you reach the goal of three
+20-minute walks and one 30-minute walk. Before trying to cover 1 mile in 20 minutes,
+take at least one day off between walks in order to be fully rested. When you can pass
+our test, you will be set to move on to our structured workouts.
+The following program is an individualized, structured plan that you can
+use to take your walking fitness to higher levels. Use your heart rate
+monitor to make sure your effort is hard enough to reach the quality needed
+to improve, but more important, to be sure that you do not try so hard that
+you overtrain and come down with a case of shin splints or worse.
+Classifying Your Current Fitness
+Level
+Before you can get a driver’s license, you need to learn to make a car move
+where you want it to by practicing under proper supervision. Then you must
+take the exam to earn your license. At this point, you should have your
+learner’s permit and have had plenty of practice. Now you need to take a
+--- PAGE 178 ---
+test to determine your current state of fitness. This will help you pick the
+appropriate level of workout as your starting point.
+Carefully look over the outline of the following test to make sure you
+understand all the instructions. Remember to wear a watch or take a
+stopwatch so you can time yourself. Also, wear your heart rate monitor to
+see how high your heart rate goes when you walk this time trial. Strap on
+your heart rate monitor, reset your stopwatch to zero, take a deep breath,
+and head for the track.
+While doing the test, check your heart rate monitor every minute. Expect
+a fairly even, steady increase in the numbers, but be aware that the highest
+number may not be right at the finish of the test if you get tired and have to
+slow down before the end.
+Using a heart rate monitor while you walk is a good way to measure your training
+level and optimize your intensity.
+One-Mile Walking Test
+1. Find a track or measure a flat trail with a smooth surface. (On a
+standard track, one lap is 400 meters, or 7.5 feet short of a quarter of
+a mile, so for 1 mile you will walk four laps, plus 3–4 more giant
+strides.) Use the inside lane to be sure that you do not walk more than
+a mile in the outer lanes. If you don’t have access to a track, measure
+a route using your car’s odometer. This method may not be quite as
+accurate, but it will be close enough for this test.
+--- PAGE 179 ---
+2. Warm up with several minutes of easy walking and stretching.
+3. Start the stopwatch and begin to walk 1 mile. Don’t start too fast. Use
+a steady marching-style pace that makes you feel you are pushing
+hard. As you near the 1-mile mark, pick up the pace and finish strong.
+Stop the watch. After the test, you should feel a little winded, but you
+shouldn’t be exhausted.
+4. Cool down with a few minutes of easy walking. Compare your time
+to table 9.1 to determine your walking classification.
+Adapted T. Iknoian, Fitness Walking, 2nd ed. (Champaign, IL: Human Kinetics, 2005), 13.
+If you met the prerequisites noted earlier, you likely are already in the
+health category. If you qualified in the fitness category, use the level 1
+program to build a better base of endurance. If you reached the athletic
+category, start at level 2. Level 2 will be especially stimulating for your
+muscular and respiratory systems because it develops your stamina.
+Determining Your Walking Maximum
+Heart Rate
+We have to admit that walkers present a bit of a conundrum when it comes
+to testing for MHR. Estimating MHR through the methods described in
+chapter 2 isn’t very reliable. For other sports and exercise activities, it is
+standard practice to base target heart rates on percentages of MHR
+identified as the athlete runs up a steep incline on a treadmill at a high rate
+of speed. However, it is virtually impossible to walk to your MHR without
+the test constituting cruel and unusual punishment because low-intensity
+walking workouts inadequately challenge the muscular and respiratory
+systems for such a high-stress test. Even so, you need to test yourself
+somehow to calculate your target heart rates. The customized test described
+here is still intense and should be attempted only with permission from your
+doctor.
+TABLE 9.1 Walking Classification Based on 1-Mile Walking
+Test Result
+Men (in min) Women (in min) Walking classification
+--- PAGE 180 ---
+>16 >17 Health
+13–16 14–17 Fitness
+<13 <14 Athletic
+The Connolly-Benson stress test for walkers requires a treadmill. Before
+starting the test, check your heart rate monitor for possible interference
+from the electrical console of the treadmill. If your numbers are erratic and
+make no sense, you may have to ask a friend to hold your receiver off to the
+side out of the range of the treadmill’s control board.
+Start by walking for 3 minutes at 3 miles per hour (4.8 km/h) to warm
+up. Raise the elevation 1 percent and walk for 1 minute. Raise the elevation
+another 1 percent and walk another minute. Continue raising the elevation 1
+percent every minute. Do not hold on to the guardrails or hand bar.
+Carefully monitor your heart rate a couple of times per minute. When the
+combination of the speed and the incline make it impossible for you to keep
+up, double-check your heart rate, note this number, and then slow the belt
+speed and decrease the elevation. Walk for several minutes to cool down.
+For walking purposes, you have established a maximum heart rate.
+Your walking MHR is an important given that will allow us to use the
+classic design of a scientific experiment for your progression in this
+program. Your goal will be to get in better shape by walking farther without
+exceeding your upper heart rate limit. The long-term variable of the
+experiment is the period of time it takes you to cover the given distance
+without exceeding your upper heart rate limit. As your endurance improves,
+the walks will become easier and your heart will not have to work as hard,
+thus allowing you to walk faster. Your current fitness level is the short-term
+variable to measure if you can keep the other workout elements, such as
+pace and terrain, constant as givens. Admittedly, the elements that influence
+your heart rate on workout days, such as the temperature, the wind, surface
+flatness, your degree of recovery from previous workouts, and your stress
+level, can vary from day to day. By not exceeding your upper heart rate
+target, you will ensure that you stay in the endurance- and stamina-
+development zones.
+Practical scientists deal with these varying conditions by using finagled
+factors. You, too, may have to be a bit broad-minded and play with your
+--- PAGE 181 ---
+walking speed to adjust for conditions when you work out. To keep within
+your target zone, you may have to slow down on bad days or speed up on
+good days. It is okay for pace to be a variable. Look at the big picture to
+make sure that your workout heart rates, not your speed, are constant over a
+week or two.
+In two to three weeks, you’ll notice that your heart rate response at the
+same walking speed decreases. The goal is to track the slowly decreasing
+number of beats per minute as you get in better shape. You will do that by
+using the goal time of your workouts as another given. During each
+progression, you will repeat the same workouts until you can cover the time
+of each progression without exceeding your upper target heart rate.
+In level 1, you’ll improve your endurance by doing more reps with your
+light body weight as you walk longer.
+Determining Your Walking Training
+Zones
+Your lower target heart rate is 50 percent of your walking MHR, and your
+upper target heart rate for level 1 is 75 percent of your walking MHR. If
+you decide to continue up to level 2, your target heart rate will be 85
+percent of your walking MHR. As long as you are within this range and
+definitely not exceeding the upper limit, you will be safe from the pace
+police. Your challenge is to walk fast enough to at least reach your lower
+target heart rate and then fast and far enough without exceeding your upper
+target heart rate. These target heart rates will be givens in your fitness
+measurement.
+As you increase the amount of time you walk, another given will be the
+distance and the variable will be your pace per mile or kilometer. Following
+our heart rate heartlek protocol, you will change your pace as needed to stay
+within your target zones.
+You will do each workout within three heart rate zones: a lower zone, a
+recovery zone, and an upper zone.
+1. Your lower target heart rate is 50 percent of your MHR from the
+treadmill test (page 140). This is the beats per minute you should reach
+when you start timing your workouts. By the end of a 5-minute warm-up
+--- PAGE 182 ---
+walk, you must be going fast enough to approach this number. Keep in
+mind that we’re looking for a realistic number that you’d see at a casual
+stroll effort.
+2. Your recovery heart rate is 65 to 70 percent of your walking MHR.
+Use this target if you start to exceed your upper target. Just slow down until
+your heart rate drops into this zone. Then, pick up the pace again and go
+farther until you again start to exceed your upper limit.
+3. Your upper target heart rate is always 75 percent of the walking
+MHR identified during the treadmill stress test. If you doubt that number,
+perform the test again and recalculate your target heart rates.
+The progressions with each program level are designed to challenge you
+by making you walk for more minutes. When you reach your upper target
+heart rate, slow down and let your heart rate drop until it hits the recovery
+rate; then pick it up again. Eventually, you will cover the entire workout
+without reaching your upper target. When you achieve that, you’re ready to
+graduate to the next progression.
+Choosing a Training Program
+Deciding where to begin depends on how you scored on the walking test.
+Level 1 workouts will expand your base of aerobic endurance. Level 2
+workouts will improve your stamina. Those are the first two phases of
+conditioning for every endurance-based sport. The fitness developed here
+may bring you to a point at which you decide to try something more
+challenging. If so, you’ll be able to springboard off a fairly good base of
+overall fitness.
+Within each of the level 1 and 2 workouts below are progressions,
+labeled alphabetically by level of difficulty. When you are able to complete
+one progression without exceeding your upper heart rate target, you move
+to the next progression. As you move from one progression to the next, the
+conditioning responses you’re seeking will require longer and longer
+efforts. When you are able to complete the last progression in level 1, you
+may progress to level 2.
+The programs that follow are based on the experimental model discussed
+earlier, with upper target heart rate zone always being the primary given;
+--- PAGE 183 ---
+you should not exceed it during the workout. Variables are time, distance,
+and pace. For example, at level 1 you are given a period of time to walk at
+whatever pace feels biomechanically optimal. That pace should be close to
+what you maintained during the walking test if you did not need a week off,
+massage therapy, or medical treatment to recover from the strains to your
+musculoskeletal system.
+During a workout, if the additional distance causes your heart rate to
+exceed your upper limit, you will need an interval of slower pace and easier
+effort to drop to your target recovery number of 70 percent MHR.
+Obviously, the more time you spend going slowly during recovery, the
+shorter the total distance will be that you’ll cover during the prescribed
+time. As your fitness improves, you will need less time for recovery, and
+you’ll go farther in the same amount of time for each progression.
+Eventually, your endurance will reach an optimal stage and you will enjoy a
+healthy level of cardiovascular fitness. Once you are able to walk the
+programmed number of minutes at the top speed at which you are
+biomechanically comfortable, your reward will be to see how much easier
+walking becomes by tracking both your morning resting heart rate and your
+heart rate at the end of the workout. You’ll be able to walk at the same
+speed at a lower heart rate, indicating improved fitness. When time is the
+experimental given, then your improved fitness is the variable being
+measured.
+The walking program levels are based on your tested degree of fitness.
+The progressive workouts in each level will incrementally take your
+physical fitness to higher levels. The progressions are based on more
+minutes of exercise. Use your recent history as well as your score from the
+walking test to find a reasonable starting point. You will notice as you
+review the progressions that they do not require you to follow them for a
+certain number of weeks. How long you stay with a particular progression
+will depend on your heart rate response. When you can complete the entire
+workout without exceeding your upper target heart rate, it is time to go to
+the next progression. That’s the beauty of this protocol: It offers a totally
+individualized program. This means that you have the most customized
+possible answer to the “What about me?” question.
+Level 1
+--- PAGE 184 ---
+The level 1 workouts feature a range of minutes based on your time from
+the walking test. Because the fastest time for a male in the fitness category
+is 13 minutes and the fastest time for a female is 14 minutes, we’ve used a
+target time of 30 minutes to start our progressions. The weekly long walk is
+10 minutes longer. However, to customize the time ranges based on your
+current fitness level, you can simply double your test time for your starting
+workouts. So, if your test time was 15 minutes, then you would walk for 30
+minutes. This will help you reach the goal of improving your endurance as
+soon as possible.
+Start each workout with an easy 5-minute stroll that slowly increases
+your heart rate to your lower target (50 percent of your walking MHR).
+When you can do these workouts without exceeding your upper target, go
+to the next progression.
+Progression A
+Monday through Friday
+Walk 30 minutes on three or four of these days.
+Saturday or Sunday
+Walk 40 minutes on one of these days.
+Progression B
+Monday through Friday
+Walk 35 minutes on four of these days.
+Saturday or Sunday
+Walk 45 minutes on one of these days.
+Progression C
+Monday through Friday
+Walk 40 minutes on four or five of these days.
+Saturday or Sunday
+Walk 50 minutes on one of these days.
+--- PAGE 185 ---
+After completing progression C, you may choose to continue this level 1
+routine to enjoy a healthy level of cardiovascular health and long-term
+weight control. Simply stay at progression C in level 1. However, if you are
+interested in a higher level of physical fitness, repeat the 1-mile walking test
+to see if you can reach the athletic category. If so, and you wish to work
+harder and get healthier, proceed to level 2.
+Level 2
+In the level 2 program, you will face hard days of higher intensity that will
+improve your cardiorespiratory fitness as you increase your effort to 85
+percent of your walking MHR. There is only one practical way to elevate
+your breathing and heart rate to stamina levels while walking: going
+vertical. Yes, that means going uphill. This increases your resistance to
+gravity and enables you to achieve a major increase in your working heart
+rate. Choose stairs, stadium steps, hills, or incline settings on a treadmill.
+The goal of the level 2 program is to develop stamina by increasing the
+intensity of exercise. To reduce the risk of injury and overtraining, you will
+need to follow the classic hard–easy workout pattern that allows recovery
+from higher-intensity workouts by separating them with off or easy days.
+You also may have to warm up an extra 5 minutes before your workout on
+hard days. On recovery days, the closer you keep your effort to the lower
+target, the more effective your recovery will be.
+On the easy recovery days, walk for at least 20 minutes but not longer
+than 30 minutes, keeping your heart rate between 50 and 60 percent of your
+walking MHR.
+Before you start the progressions, choose one of the patterns of hard–
+easy workouts shown in table 9.2. Choose your pattern based on which
+weekend day you prefer for your longer walk.
+Both patterns require flexibility. Feel free to switch the off and easy days
+as needed. However, if you have to miss a hard day, do not make it up the
+next day and wind up doing two hard days back to back. Either skip the
+missed workout and stick with the pattern, or move everything back a day.
+In the long term, there are no penalties for doing back-to-back easy days.
+However, the injury fairy may get after you for trying to do two hard days
+in a row.
+--- PAGE 186 ---
+Level 2 workouts also use our experimental format. Each progression
+designates the number of uphill trips you will walk. These uphill trips last
+as long as it takes to reach your upper target heart rate and are followed by
+downhill or flat recovery intervals until your heart rate drops to your lower
+target heart rate. The time it takes you to hit the upper target depends on the
+steepness of the surface. This provides a great deal of flexibility: Less
+incline means a longer time to reach the target heart rate; more incline
+means a shorter time to reach the target heart rate. But please stick with the
+same incline during the three progressions because you must measure how
+long it takes initially to reach your upper target. Proof of your improved
+fitness will be the increasingly longer time it takes to reach that target. Your
+recovery interval times between repeated uphill trips will vary as you
+become more fatigued with each trip.
+This program should significantly improve your stamina by the end of
+the third progression, enough that you can move on to more intense
+activities if that’s your goal. To prove it to yourself, see how much faster
+you walk during the walking test.
+The hard days of the level 2 patterns will use a higher upper target rate.
+Calculate your new upper target heart rate by using 85 percent of your
+walking MHR as discovered during the treadmill test (see page 140). Your
+new target heart rate is appropriate if you start to fail the talk test just as you
+reach the target number. You should be huffing and puffing enough to kill
+your enthusiasm for saying even a quick yes or no.
+Time is the variable on your hard days, provided you continue to use the
+same venue. As proof of your improving your stamina, it will take you
+longer to reach your target of 85 percent of walking MHR.
+--- PAGE 187 ---
+Progression A
+Hard Days
+Walk up the incline of your choice until you reach your upper target
+heart rate. Time is a variable and depends on the steepness of the
+incline. Once you reach your upper target (85 percent of your
+walking MHR), walk back down the incline or lower the treadmill
+incline setting until your heart rate drops to 70 percent MHR. Do this
+twice. Before and after each workout, walk easily for 10 minutes to
+warm up and cool down.
+Easy Days
+On recovery days, walk for at least 20 minutes but not longer than 30
+minutes, keeping your heart rate between 50 and 60 percent of your
+walking MHR.
+Long Day
+Once a week, walk for 50 minutes without exceeding 75 percent of
+your walking MHR. Your time goal does not include whatever easier,
+slower pace you need to warm up and cool down.
+Follow progression A for two weeks. After the two weeks, take a
+recovery week without hills. During the recovery week, walk 40 minutes
+four or five times Monday through Friday and 50 minutes once on the
+weekend.
+Progression B
+Hard Days
+Walk up the incline of your choice until you reach your upper target
+heart rate. Time is a variable and depends on the steepness of the
+incline. Once you reach your upper target (85 percent of your
+walking MHR), walk back down the incline or lower the treadmill
+incline setting until your heart rate drops to 70 percent MHR. Do this
+four times. Before and after each workout, walk easily for 10 minutes
+to warm up and cool down.
+Easy Days
+--- PAGE 188 ---
+On recovery days, walk for 30 minutes, keeping your heart rate
+between 50 and 60 percent of your walking MHR.
+Long Day
+Once a week, walk for 55 minutes without exceeding 75 percent of
+your walking MHR. Your time goal does not include whatever easier,
+slower pace you need to warm up and cool down.
+Follow progression B for two weeks. After the two weeks, take a
+recovery week without hills. During the recovery week, walk 40 minutes
+four or five times Monday through Friday and 50 minutes once on the
+weekend.
+Progression C
+Hard Days
+Walk up the incline of your choice until you reach your upper target
+heart rate. Time is a variable and depends on the steepness of the
+incline. Once you reach your upper target (85 percent of your
+walking MHR), walk back down the incline or lower the treadmill
+incline setting until your heart rate drops to 70 percent MHR. Do this
+six times. Before and after each workout, walk easily for 10 minutes
+to warm up and cool down.
+Easy Days
+On recovery days, walk for 30 minutes, keeping your heart rate
+between 50 and 60 percent of your walking MHR.
+Long Day
+Once a week, walk for 60 minutes without exceeding 75 percent of
+your walking MHR. Your time goal does not include whatever easier,
+slower pace you need to warm up and cool down.
+Follow progression C for two weeks. After the two weeks, take a
+recovery week without hills. During the recovery week, walk 40 minutes
+four or five times Monday through Friday and 50 minutes once on the
+weekend.
+Repeat progression C as long as you wish, but be sure to take a recovery
+week after each two-week period of hill work. If your pattern is interrupted
+--- PAGE 189 ---
+for any reason and you miss two weeks or more, do at least one week of
+level 1 training before resuming the level 2 workouts at a lower
+progression.
+Continuing Your Training
+After completing level 2, you will be a very fit walker with a strong
+cardiorespiratory system who will love going up steps while everyone else
+uses the elevator. Enjoy your higher level of physical fitness as you decide
+whether you want to try the challenge of jogging and running. If so, read
+on.
+--- PAGE 190 ---
+CHAPTER 10
+Jogging and Running
+N
+othing enhances compliance with an exercise program more than
+convenience, and few activities are more convenient than jogging or
+running. Just slip on your sneakers and jump on the treadmill or head out
+the door. Compliance is also enhanced when you have a successful,
+systematic approach to training and a structured program to follow that
+provides results. The jogging and running programs in this chapter take into
+account the health improvements from exercise that stimulate the
+cardiovascular, cardiorespiratory, and musculoskeletal systems.
+Unfortunately, as you seek to improve health and fitness to higher levels,
+the risk of injury or illness also gradually increases for a while. These risks
+are seldom to your circulatory or respiratory systems; however, chronically
+ill-advised training can have premature aging effects on your
+musculoskeletal system, especially your legs (e.g., arthritis).
+Therefore, for your body’s sake, you need to understand the effects your
+workouts might have on your health as well as your ability to compete in
+races. The American College of Sports Medicine, not surprisingly, believes
+that exercise is good medicine. Those folk also know that although ramping
+up the intensity and volume of workouts can be beneficial, those harder
+workouts also present health risks. The good news is that you can minimize
+those risks with the individualization that our monitored and well-planned
+training offers. Our guidelines, which regulate the intensity of your
+workouts, are designed to provide you with safe and efficient training
+programs. So, whether your age is 7 or 77, whether you are just beginning
+--- PAGE 191 ---
+or have been running for many, many years, we want you running for the
+rest of your life by keeping your legs from aging faster than your heart.
+Developing either recreational or competitive levels of fitness takes time.
+Getting in better shape may take weeks or months. In previous chapters, we
+discussed the physiological, biochemical, and biomechanical changes
+associated with this process for all types of exercise and activities. This
+chapter focuses on implementing these changes by jogging, running, and,
+when appropriate, walking and cross-training.
+The programs outlined here are designed for people who already have a
+base level of fitness and want to use their time and energy more effectively.
+If your most recent medical exam confirms that your risk factors are low, if
+you have been jogging for 20 minutes three or four times week, and if you
+can jog at least 30 minutes in one workout, you qualify to use the level 1
+jogging program. If this does not describe you, get approval from your
+doctor. Then take several months of very easy, slow jogging and walking to
+reach these entry qualifications. If you currently run more frequently or
+longer, be sure to take the O max test on page 151. to classify your current
+2
+level of fitness and choose a running program from levels 2 or 3 based on
+your current fitness level and your running goals.
+Jogging is an effective exercise for weight control, but it carries a
+slightly higher risk of overuse injuries such as plantar fasciitis, Achilles
+tendinitis, or even stress fractures because of the distances required to burn
+off significant calories of fat. Be especially sensitive to aches and pains
+from sore, stiff muscles and joints. Do not try to push through the pain.
+What endurance athletes refer to as the pain barrier is the total body fatigue
+and exhaustion that comes from going deep into oxygen debt during peak
+performances at 100 percent effort. Pains in your muscles, ligaments,
+tendons, and bones, however, are often symptoms of injuries and are not to
+be ignored. Don’t just mask them with over-the-counter painkillers such as
+aspirin and nonsteroidal anti-inflammatory drugs (NSAIDS). Back off, rest
+up, and then resume when the symptoms have gone away. Remember that
+burning fat for fuel is maximized at 60 to 75 percent of your maximum
+heart rate (MHR). Everything in between is productive, although with
+slightly different benefits at either end.
+--- PAGE 192 ---
+Joggers and runners have one important initial training objective in
+common: to improve endurance by training in the zone of 60 to 75 percent
+MHR. For many joggers, good cardiovascular health, weight management,
+and that intangible feeling of well-being are also major goals. For
+competitive runners, endurance training is simply for building the
+foundation of aerobic fitness to support the next stages of conditioning. A
+runner’s training pattern needs to be more comprehensive and include
+workouts that are not necessary for joggers.
+The level 1 program for joggers features a series of progressions based
+solely on heart rate targets to improve endurance. You need not overdo it by
+working harder than necessary to develop endurance. (That may be good
+news if you have been working harder than you need to.) If you only want
+to jog enough to build fitness and manage weight, you will need to take the
+MHR test on page 154, but you do not need to determine your O max or
+2
+anaerobic threshold because the level 1 program does not involve efforts at
+those levels. After determining your MHR, you can move on to the
+programs that begin on page 157.
+The level 2 program is for you if you are a recreational runner who
+wants to participate in 5Ks, 10Ks, half marathons, or full marathons and
+finish smiling but are not looking to be competitive. If you want to be
+competitive in 5Ks, 10Ks, half marathons, or full marathons or are seeking
+peak personal record performances, the level 3 programs are for you.
+--- PAGE 193 ---
+Joggers and runners both seek to build a good base of endurance at low-intensity
+effort while gradually increasing the duration of their workouts. Runners then build
+on this base to reach higher levels of conditioning.
+To answer the “What about me?” question, you need to do a little self-
+evaluating and calculating. First, you need to classify your current level of
+fitness. Second, you need to find your jogging or running MHR. Third, you
+need to calculate your current anaerobic threshold. (If you are interested in
+the level 1 jogging program only and meet the criteria described earlier, you
+don’t need to classify your current level of fitness or determine your
+anaerobic threshold.) This information will help you calculate your target
+heart rate zones and build the best training program for you.
+--- PAGE 194 ---
+Classifying Your Current Fitness
+Level
+If you are a recreational or competitive runner, use this simple, modified
+treadmill test to predict your oxygen uptake capacity, or O max. Use
+2
+tables 10.1, 10.2, and 10.3 to interpret the results and determine your level
+of training. To get the most reliable and valid results, taper your training for
+a few days before taking the test.
+Start the test at a very slow speed to warm up. If you find the starting
+speed of the test—6 miles per hour (9.6 km/h) at a 2 percent grade—fairly
+easy, start with that speed and build this as a warm-up into the test protocol.
+Run on the treadmill at the identified speed for each stage (see table
+10.1). Adjust the speed every 2 minutes until you can no longer complete a
+stage. The last stage you complete is your ending stage, or workload. Use
+this stage to classify your fitness level and calculate your O max. If you
+2
+want to collect MHR data simultaneously, wear your heart rate monitor and
+record your heart rate at the end of the test.
+This prediction of your maximum oxygen consumption is based on a
+formula developed by the American College of Sports Medicine (Williams
+& Wilkins, 1995). Table 10.1 lists the approximate O needed to run at this
+2
+speed and grade over this time period. Once you have your ending O max,
+2
+look for your fitness classification in table 10.2 (if you are male) or table
+10.3 (if you are female), using the maximum oxygen consumption value
+you achieved. Your program level is determined by matching your O max
+2
+score from table 10.1 with the data in either table 10.2 or table 10.3. Find
+the line on the table that corresponds to your age.
+For example, let’s say you are a 30-year-old female and you complete
+stage 4. Your predicted O max is 50.22 ml/kg/min. This would give you a
+2
+rating of average. We suggest you start with a level 2 training program.
+If you score at level 3, you may immediately start your heart rate–
+monitored workouts at the advanced stage of conditioning, beginning on
+page 160. However, we strongly urge you to review the level 1 and level 2
+programs to ensure that your endurance, stamina, and economy are
+--- PAGE 195 ---
+sufficiently developed to allow you to sustain a serious season of
+competition and to peak at the right time.
+Determining Your Running Training
+Zones
+Next we are going to learn how to determine maximum heart rate and
+anaerobic threshold for running and then use that information to determine
+your training zones.
+Determining Your Running Maximum Heart Rate
+Both maximum and target heart rates are sport specific. Because your
+workouts will be based on target heart rate zones, we provide two runner-
+specific tests for determining your running MHR. A formal treadmill stress
+test in a cardiologist’s office or physiology lab is the best way to determine
+your true MHR, but most of us don’t have access to such tests. The tests
+outlined in this book provide good estimates and so are satisfactory
+alternatives.
+The first test, described in chapter 2, is best for those with more speed
+than endurance. Surviving the three efforts of very high intensity and high
+speed without significant muscle stiffness and soreness requires a very good
+level of fitness.
+The second test is better suited for those with more endurance and
+patience, and a lower level of fitness. The protocol for this second test is
+based on the design of a graded treadmill maximum stress test. The
+difference is that it doesn’t require a treadmill. It uses the same graded
+increments of increasing speed and intensity, but without the steep incline at
+the end. Here is how you do it.
+TABLE 10.1 Prediction of O max Based on Treadmill Running
+2
+Times
+Stage Duration (min) Speed (mph) Grade (%) O 2 max (ml/kg/min)
+0 2:00 6.0 2% 38.54
+--- PAGE 196 ---
+1 2:00 6.5 2 41.46
+2 2:00 7.0 2 44.38
+3 2:00 7.5 2 47.30
+4 2:00 8.0 2 50.22
+5 2:00 8.5 2 53.14
+6 2:00 9.0 2 56.06
+7 2:00 9.5 2 58.98
+8 2:00 10.0 2 61.90
+9 2:00 10.5 2 64.82
+10 2:00 11.0 2 67.70
+11 2:00 11.5 2 70.60
+--- PAGE 197 ---
+Find a 400-meter running track. Dress to run and put on your heart rate
+monitor. Begin at the end of a straightaway at the start of a curve. Cover
+eight laps as described. Check your working heart rate every 200 meters.
+Lap 1: Walk an easy lap at your normal walking pace.
+Lap 2: Walk faster for another lap at close to a marching pace.
+Lap 3: Jog one lap at the slowest jogging pace you can manage.
+Lap 4: Break into an easy, slow run at a conversational pace for one lap.
+Lap 5: Run hard enough to lightly huff and puff at a short-sentences
+pace.
+Lap 6: Run hard enough to huff and puff hard and fast enough to lose
+your desire to answer even a yes or no question.
+Laps 7 and 8: Run faster on each of the last two laps, increasing the pace
+and effort at the start of each curve so the last half lap is an all-out,
+maximum effort.
+Remember to check your heart rate every 200 meters. Expect a steady,
+incremental increase at the end of each of the first six laps. Carefully read
+your heart rate at least four times during the last two laps.
+When you are running hard and wearing the monitor on your wrist like a
+watch, seeing the numbers can be difficult. Try holding the monitor in your
+hand and lifting it in front of your face as you run. To do so, buckle the
+wrist strap and make a loop. Slip your middle two fingers through the loop.
+Cradle the top and bottom of the face between your thumb and first finger
+so it is in position for you to read when you swing your arm forward in its
+natural motion.
+Do not stop dead in your tracks when you are finished. After the final
+lap, walk around while double-checking your heart rate. The highest
+number you see during or right after the test is probably within several beats
+per minute of your true maximum. For our purposes, that is close enough.
+Before trying either of these tests, be sure your doctor has cleared you
+for exercise. If you have any doubts about the validity of the test, repeat it
+every week until you are satisfied with the results. Just remember that your
+own MHR may be way over or under your predicted MHR from the age-
+adjusted formula.
+--- PAGE 198 ---
+Determining Your Running Anaerobic Threshold
+A runner in good competitive shape will have an anaerobic threshold (AT)
+between 85 and 90 percent MHR, according to most experts. Anaerobic
+threshold reflects your body’s ability to take in, distribute, and use oxygen
+and depends on the capacities and the fitness of your respiratory,
+circulatory, and muscular systems. These three systems, although
+interrelated, enjoy different levels of capacity for work at the same time.
+This means that AT is a rather fluid component of fitness and that there is a
+direct correlation between your AT and your heart rate. If your AT is below
+lousy, your heart rate will be lower than the 85 percent that you would
+expect. Equally surprising can be how heavy and hard your breathing will
+be at such low heart rates.
+This can be explained by using an example of a runner whose training
+has been strictly focused on endurance. Because almost all of the work is
+done at highly aerobic effort in the 60 to 75 percent target heart rate zone,
+the cardiovascular system gets lots of stimulation. However, the easy work
+minimally challenges the respiratory or muscular systems.
+As a result, when the workouts get more difficult, those latter two
+systems are not in very good shape, even though the heart is much stronger,
+as evidenced by the significant drop in resting heart rate.
+After a long layoff or lots of easy distance work, you may find yourself
+breathing hard at an easy heart rate such as 73 percent MHR, which means
+you are probably training at your current AT. But don’t worry. You can raise
+your AT to 80 to 85 percent with lots of stamina training, and economy
+workouts will take it up to as high as 90 percent in a few weeks.
+Another useful, but not as accurate, way to determine your AT is to run
+until the effort feels difficult and you are huffing and puffing too fast to talk
+in anything but one-word sentences. Although this pace is uncomfortable,
+you can sustain it for 2 to 3 miles (3.2 to 4.8 km). This is a rough estimate
+of your pace and heart rate at your current AT.
+With that description and the previous discussion in mind, take your
+heart rate monitor out for a workout. Jog slowly for several minutes and
+then pick up the pace while frequently monitoring your heart rate. Note
+your heart rate when your perceived effort reaches the one-word-sentence
+stage. For all practical purposes, this is your AT. Rest assured that your AT
+--- PAGE 199 ---
+is a fluid point along a continuum of beats per minute over a wide range and
+that it reveals the shape you’re in. Your perception of the effort will stay the
+same, but as you get in better shape, your heart rate will go higher while the
+pace gets faster.
+Once you have a reliable estimate of your MHR, you can determine your
+training zones. Remember that training zones are sport specific, so they
+vary between activities. Use your estimated MHR and the Appendix to
+determine the beats per minute for each zone:
+Long, endurance-building runs: 60–75% MHR
+Easy, recovery jogs: 65–70% MHR
+Maximal recovery and taper jogs: 60–65% MHR
+Stamina runs: 75–85% MHR
+Economy runs: 85–95% MHR
+Speed and power runs: 95–100% MHR
+Record your training zones based on these percentages and use them to
+plan and monitor your training.
+Choosing a Training Program
+This section presents a set of idealized training programs that feature
+workouts to develop all four components of fitness (endurance, stamina,
+economy, and speed) and that progress through each of the four training
+phases to safely develop those components. Level 1 is for joggers who wish
+to build endurance and enjoy better health and weight control. Level 2
+workouts develop endurance and stamina for recreational runners who wish
+to finish 5Ks, 10Ks, half marathons, and full marathons, but not compete at
+an elite level. Level 3 builds economy, speed, and power that is appropriate
+for racing runners who aspire to compete against the clock to set personal
+records and beat other competitors in 5Ks, 10Ks, half marathons, and full
+marathons. Level 3 also features workouts to take racing runners down the
+home stretch as fast as hungry cheetahs, helping them peak at the right time.
+Level 1: Jogging to Build Endurance
+--- PAGE 200 ---
+It might appear a bit exaggerated, but the range of 60 percent MHR as your
+lower target heart rate and 75 percent MHR as your upper limit is valid for
+level 1. It’s true that the lower end is best for maintaining endurance and the
+upper end is best for developing endurance. Slightly different benefits occur
+at either end, and everything between is productive.
+This program uses the scientific format of givens, or controls, and a
+variable. In each progression, the stated duration of the workout and the
+frequency of workouts in a week are givens. The most important given is
+intensity in the form of the set of target heart rates. That allows you to track
+your improving fitness by measuring how much distance you cover each
+day as the variable. For example, if you use a running track, you might
+cover only three or four laps during your first 30-minute workout. Three or
+four weeks later, you might be able to complete five or six laps in 30
+minutes because you can go longer before reaching your upper limit. You’ll
+spend less time walking because your heart rate will drop faster into your
+recovery zone.
+If you prefer to run on the street instead of a track, use a landmark, such
+as a neighbor’s mailbox, to note where you finish the first time. Soon you’ll
+be going past that mailbox to the gas station on the corner. You could also
+break the duration of the workout into half periods and then note how much
+farther past the starting line you go as you return from the turnaround point
+day after day, week after week.
+The number of weeks it takes you to accomplish each progression is the
+ending variable. In short, you are measuring both short- and long-term
+improvements in your fitness.
+Your jogging pace and how much walking you have to do to recover
+once (and if) you exceed your upper heart rate limit will determine how
+much distance you cover during the specified time. The beauty of using our
+heartlek protocol is that you will answer the “What about me?” question
+because the variable reflects your current level of fitness (refer to chapter 5
+for more detail on heartlek).
+Even if you are already doing what seems to be more mileage than is
+covered in progression A, follow it as an introduction to using target heart
+rate zones. If you are in better shape, you’ll simply graduate to progression
+B sooner.

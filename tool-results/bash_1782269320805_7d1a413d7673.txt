@@ -1,0 +1,878 @@
+--- PAGE 35 ---
+Chapter 3
+Go Beyond
+the Basics
+It’s no secret that training big core lifts like the front squat and sumo
+stance deadlift will produce delayed training effects; more importantly,
+because the range of motion (ROM) is significant with these lifts, the
+hormonal response in the body is also significant. We are going to
+address hormonal response and cover a variety of strength training
+methods, including the repeated effort method, the maximal effort (ME)
+method, the submaximal effort method, and the dynamic effort (DE)
+method, as well as general physical preparedness (GPP) work. You will
+see throughout this book that being aware of the adaptations that take
+place from each method, the demand on the nervous system from each
+method, and the overall goal for each method is critical to designing
+effective training programs that are balanced and thorough.
+It’s common for individuals to attempt the “next best thing” instead of
+adhering to tried-and-true methods that have been around for decades.
+It’s also important to note that not all methods have the same intent and
+each method has a specific place and desired stimulus—you will notice
+how synergy can be created by using opposing methods. The benefits
+of blending opposing methods are twofold: (1) variability in bar velocity
+(bar speed), which utilizes both the force and velocity components of the
+force-velocity curve to create different training effects and neurological
+adaptations (Haff and Bompa 2009); and (2) the ability to prevent
+overtraining. Favoring one method over others presents challenges in
+terms of motor recruitment and, more importantly, risks overuse injuries
+and overtraining (e.g., performing ME training too often only utilizes
+the force component of strength training and does not present differing
+demands on the CNS). In short, each method described will serve a
+specific and unique purpose for you, and while not all methods need to
+19
+--- PAGE 36 ---
+20 Lower Body Training
+The Force-Velocity Curve
+When different strength development methods are used, there
+is more potential for altering the force-velocity curve. The force-
+velocity curve examines the
+interactions between force and
+velocity and suggests there is
+an inverse relationship: when
+external resistance increases,
+movement velocity decreases
+(maximal effort work); and
+when external resistance
+decreases, movement velocity
+increases (Haff and Bompa
+2009). See figure for an
+Velocity
+example of the force-velocity
+curve.
+E8335/Brown/F10.01/678853/mh-R3
+be used simultaneously, you will learn how to balance your plan of attack
+by working both ends of the force-velocity curve.
+HORMONAL RESPONSES OF STRENGTH
+TRAINING
+The benefits of effective lower limb training extend to optimal hormone
+production because the lower body represents the largest muscle groups
+in the body that signal the growth hormone insulin-like growth factor 1
+(IGF-1) and serum testosterone. It’s been widely established that long-
+term heavy resistance training can bring about significant increases of
+muscle size, strength, and power. These increases can boost hormonal
+interactions, and the type of exercise is a major player in how big the
+hormonal response is. Because heavy compound movements like squats
+and deadlifts require high levels of motor-unit recruitment, they activate
+androgen receptors for anabolic hormones such as testosterone. The
+inflammatory response to skeletal muscle damage causes remodeling to
+take place and consequently new growth to occur. Moreover, long-term
+training effects from heavy lower body resistance exercises can result
+in adaptations in the endocrine system, thus creating an environment
+in the human body that is suited for transport of anabolic hormones.
+ecroF
+Maximal strength
+Strength speed
+Power
+Speed strength
+Speed
+Force-velocity curve.
+--- PAGE 37 ---
+Go Beyond the Basics 21
+Therefore, heavy resistance training is a requisite for creating an anabolic
+environment in the human body that is more capable of gaining lean
+tissue; and gains in lean tissue are closely related to gains in maximal
+strength because cell size and volume are synonymous with improved
+motor-unit recruitment (Kraemer, Vingren, and Spiering 2016).
+While you don’t need to be an exercise physiologist to understand
+the positive effect strength training produces with regard to anabolic
+(muscle-building) hormones, it is important to have a baseline level of
+knowledge about the training effects of lower body training. It seems
+logical that the largest muscles in the human body are going to facilitate
+spikes in hormones that involve building strength and muscle mass.
+There are a couple things to consider in addition to the roles of IGF-1,
+growth hormone, testosterone, and insulin. The first thing is your training
+age or the total amount of time you’ve spent performing resistance training
+because this can dictate improvements that take place from a neural
+standpoint; there is more to the picture than just hormonal response. For
+instance, it is common for beginners just starting strength training to see
+improvement in strength before seeing large gains in muscle hypertrophy.
+Beginner-level individuals may add 40 to 50 pounds (18 to 23 kg) to their
+squat and deadlift in as little as 16 weeks owing to neural adaptations that
+take place upon initial exposure to strength training.
+Over the course of your first 8 to 12 weeks of a strength training
+program, you typically see a much faster rate of strength improvement
+due to direct factors relating to the nervous system, such as:
+• Increased neural drive
+• Increased neural coordination
+• Increased motor-unit synchronization
+These physiological changes (among many others) allow a beginner to
+recruit more high-threshold motor units, leading to an increase in type
+II muscle fiber activation. Not only can an individual recruit more high-
+threshold motor units, but the firing rate (rate coding) may also become
+more synchronous with other high-threshold motor units, which will affect
+the onset of discharge and therefore improve the rate of force development
+(RFD). This increase in RFD means an athlete requires a shorter time to
+reach maximal force (this helps translate to explosive movements). After
+the initial 8 to 12 weeks, increase in muscle hypertrophy becomes a more
+important factor, further increasing maximal strength (Schoenfeld 2021).
+In short, while strength training has positive effects on anabolic hormone
+production, this is only one piece of the puzzle; it is important to understand
+that this process is multifaceted and very much dictated by your overall
+training experience (or lack of experience).
+--- PAGE 38 ---
+22 Lower Body Training
+STRENGTH TRAINING AND ITS RELATION
+TO OTHER BIOMOTOR ABILITIES
+Before we delve into the various methods of strength development, it is
+important to understand what strength is. Although one can read about
+strength in just about any exercise physiology book, let’s review a few
+key definitions first and see how and why strength is relevant to your
+training program. It’s important to note that strength provides the basis
+for success across multiple modalities, as well as increased resiliency
+and longevity; and it connects to every biomotor ability (see figure 3.1).
+There is no question that strength is the ultimate biomotor ability and
+carries over to improvements in other important fitness characteristics
+such as speed, power, and muscle endurance. So even if the goal isn’t
+necessarily to improve upon maximal strength (increasing your one-rep
+max squat), there are still connections between maximal strength and
+other abilities such as strength endurance. For example, if your one-rep
+max squat increases, it’s likely that your five-rep max will too.
+By definition, strength is the ability of a given muscle or muscle group
+to generate force (Haff and Bompa 2009). While there are a number of
+scenarios for strength to be manifested, the training methods presented
+later in this chapter will help provide context around how strength is
+developed, its classifications, and specific guidelines on how to develop
+each type of strength. The exercises and training programs provided later
+in this book will also include appropriate rep schemes that coincide with
+these methods. Different strength methods all contribute to increasing
+Strength
+Agility
+Endurance
+Muscular Power
+endurance
+Maximal
+strength
+Aerobic
+endurance
+Maximal
+Speed
+Anaerobic speed
+endurance
+Speed
+endurance
+Figure 3.1 Interaction of biomotor abilities and various aspects of sports
+performance.
+E8335/Brown/F03.01/678308/mh-R2
+Reprinted by permission from T. Bompa and C.A. Buzzichelli, Periodization: Theory and
+Methodology of Training, 6th ed. (Champaign, IL: Human Kinetics, 2019), 231.
+--- PAGE 39 ---
+Go Beyond the Basics 23
+strength qualities, but establishing a baseline level of maximal strength
+(assuming you have built efficient movement patterns with a given
+lift) will ensure that all qualities are increasing commensurately. Each
+strength method has a specific intent and specific parameters that are
+important when using a concurrent (training multiple biomotor abilities
+within the same week of training) form of training.
+Also, understanding the adaptations that take place from various
+forms of strength training helps ensure that your training program will
+promote balanced strength development. Maximal force or velocity of a
+muscle or a muscle group can be expressed in other biomotor abilities
+like speed and endurance. We hear many individuals say things like “I’m
+not concerned with gaining maximal strength” simply because they are
+not yet educated in the connection between maximal strength and nearly
+every other biomotor ability.
+Now that we’ve established that maximal strength plays a key role in
+the strength development of other biomotor abilities, it is important for
+you to understand its other advantages, which may not be obvious to
+the untrained eye:
+• Synergy of strength modalities. It’s important to know the
+differences between strength training methods and how they blend
+together in a successful training plan. With this in mind, this book
+will use a variety of strength training measures that look to improve
+different components of strength at different locations on the force-
+velocity curve (maximal force versus maximal velocity). This allows
+you to effectively create balance within a training plan and prevent
+overtraining.
+• Improvement of strength limitations. As Louie Simmons says,
+“You’re only as strong as your weakest link.” This holds true with
+developing lower body strength. A consistent attack on limitations
+with a wide variety of special exercises will prevent weak links from
+destabilizing your training and is instrumental to your lower body
+training success (Simmons 2015). You cannot effectively build a
+base of strength if you’re neglecting general strength measures (i.e.,
+unilateral work, which not only allows you to consistently address
+your limitations but sets up success with other modalities such as
+maximal strength work).
+• Avoiding accommodation or adapting to a repetitive stimulus.
+The biological law of accommodation states that constant exposure
+to the same stimulus results in detraining. In order to prevent
+accommodation, exercise selection and volume prescriptions
+should be adjusted regularly (Simmons 2015). We know the body
+thrives on variability in order to continue to make progress, and
+--- PAGE 40 ---
+24 Lower Body Training
+this variability will come by way of varying exercise selection while
+still programming the essential foundational patterns of squatting,
+lunging, and hip hinging.
+• Improving motor-unit recruitment as it relates to strength
+training. Maximal strength work has the ability to recruit and use
+higher-threshold motor units.
+In short, having a firm grasp on the methods and their overall goals will
+be instrumental in creating better synergy, adaptations, and improvement
+of limitations. It is clear that heavy lower body resistance training has
+massive returns on investment with regard to improving maximal
+strength, which has strong ties to performance, but understanding the
+endocrinology of multijoint training is a key factor in creating an anabolic
+environment in the human body. You need to make the connection that
+growth can only occur in an optimal stress environment. Detraining
+can also occur if you undergo doses of heavy resistance training that
+are too high. For example, stress levels that are too high (by way of a
+training session being too long in duration or simply using high-intensity
+measures too frequently in one’s program design) can increase catabolic
+hormones such as cortisol that may override anabolic hormones, thus
+delaying positive training adaptations or eventually leading to central
+fatigue. In short, how you manage stress within the training session
+affects the success of your training; there is a fine line between too much
+volume, intensity, or frequency and not enough stress to induce positive
+training adaptations.
+STRENGTH TRAINING METHODS
+Now that we’ve examined the various qualities of strength training, we’ll
+dive into the training methods, in order of importance. These methods
+will be used in the programs provided in part III of the book. However,
+with any training method comes a number of caveats. For instance, the
+ME method is an incredibly effective method to build absolute strength,
+but it may simply be out of alignment if you’re not advanced in terms of
+training age, training history, and motor control with bilateral movements
+such as the squat and deadlift. The old adage “one must learn to crawl
+before one can walk” rings true with strength training, and the foundation
+of strength training is built with “general strength” measures such as
+unilateral exercises. The methods are therefore presented in the order
+of which will have the largest effect on your current training state
+fastest. Later in this book, we’ll highlight exercise variations and how
+those variations are sequenced with a training plan specifically geared
+at developing lower limb strength. Keep in mind that while this book is
+--- PAGE 41 ---
+Go Beyond the Basics 25
+designed to improve your knowledge and understanding of optimal lower
+body programming, the same logic, tenets, and methods can be applied
+when programming for the upper body.
+General Physical Preparedness Work
+The term general physical preparedness (GPP) gets thrown around
+quite a bit—many coaches claim that the goal of their program is to
+develop GPP, yet many of these same coaches don’t use measures that
+actually develop it. Throwing heavy deadlifts into a workout if you are
+already lacking in the strength department won’t develop GPP and
+will likely get you hurt. We are talking about building your foundation.
+This is something that should take precedence in any programming—if
+you cannot pull a sled or carry two heavy kettlebells without having to
+rest excessively between sets, then higher-skill work like ME squats or
+deadlifts isn’t a smart move. The Russians had a GPP plan for all of their
+athletes called the “rule of three” that they employed for three years in
+the early stages of training before specialization took place. Yup, you
+read that right. Why is this relevant to your training programs? If the
+Russians were smart enough to build their athletes’ foundations first,
+then maybe this is something you should consider. More importantly, all
+of the training goals expressed by most people (look better, feel better,
+get stronger, have fun) can be addressed with GPP measures.
+Improving maximal strength indirectly connects to qualities of
+strength endurance, although the two strengths could not be further
+from each other. Using measures like sled drags, we can effectively
+improve aerobic capacity and oxidative qualities of the musculature of
+the hips, hamstrings, and calves, as well as bridge the gap between ME
+and DE training sessions. Think of the sled as an intermediary to improve
+strength qualities with only a small cost on the nervous and muscular
+systems due to the fact there is zero axial loading. Moreover, the sled
+also will improve the oxidative quality of fast-twitch muscle fibers.
+Fast-twitch type II muscle fibers have an aerobic as well as
+anaerobic ability, which strengthens the connection between maximal
+and submaximal strength development and strength endurance.
+Unfortunately, sled work is less common and accessible at a commercial
+gym, but times have changed and many folks are now investing in
+their own home gyms. The sled is an expensive training tool that is the
+difference maker between reasonable gains and exceptional gains—it
+really is that powerful. The sled may be one of the most valuable training
+tools we have available, and at less than 120 dollars it is cost-effective.
+The sled is a mainstay in effective program design and can be used for
+strengthening as well as restoration. In addition, we can effectively train
+--- PAGE 42 ---
+26 Lower Body Training
+all three energy systems with the sled, and while this book is geared more
+toward strength development than it is conditioning, it would be foolish
+to not mention the benefits that the sled provides for both strength and
+conditioning that are different from those of any other training modality.
+One can perform both short and long intervals of work with this tool,
+making it quite versatile. In the programs presented in part III of the
+book, schemes will be presented for programming sled work optimally
+and logically so it is building upon other modalities such as ME work.
+Moreover, sled work is a great way to unload the body and expedite
+recovery. And building upon our unilateral versus bilateral debate, the
+sled in essence is a unilateral training modality where both legs and arms
+work contralaterally, allowing you to continuously address asymmetries.
+Additionally, because the arms and legs are working in a contralateral
+fashion comparable to that of a normal walking gait, the sled can actually
+improve the most basic human function of local motion.
+GPP is a huge aspect of any successful strength and conditioning
+program. Although GPP is often an afterthought and usually traded
+for “sexier modalities” like squats or deadlifts, the use of tools like the
+sled on a regular basis as well as high-volume band work to improve
+connective tissue quality and strengthen tendons can be the catalyst for
+longevity and consistency as far as strength and hypertrophy gains are
+concerned. And while this work is prescribed more anecdotally, with no
+peer-reviewed research to support its efficacy, it makes complete sense
+given the physiology of how tendons work. The storage of kinetic energy
+takes place in the series elastic component (SEC), the musculotendinous
+unit within our tendons, which will also be addressed in parts II and III
+where plyometrics are employed to improve explosive strength qualities.
+The rapid nature of accommodating resistance (AR) band exercises
+and the band’s ability to be executed with rapid movement can increase
+the storage of kinetic energy within tendons (Potach and Chu 2016).
+Therefore, the makeup of high-volume, rapid band exercises supports
+the notion that tendon quality and stiffness can be improved in this
+manner. In fact, Westside Barbell, the “strongest gym in the world” that
+we discussed previously, relies heavily on higher-volume band exercises
+such as leg curls and pushdowns to prevent soft-tissue injuries when
+pushing loads with maximal weights. The good news is that this band
+work can be done just about anywhere with a few inexpensive bands
+on hand, making this option great for the home gym. Additionally, for
+the amount of time that’s needed for this work on a daily basis (5 to 10
+minutes), the return on investment is sizable.
+To recap, building a base of fitness is done most effectively with
+measures that would be considered “general” in nature, like single-joint
+exercises performed in typical hypertrophy and strength endurance
+--- PAGE 43 ---
+Go Beyond the Basics 27
+schemes or sled drag variations that provide a high volume of work with
+little cost on the nervous and muscular systems. However, let’s not forget
+that while incurring tissue breakdown and rebuilding is part of gaining
+new muscle mass, there must be a way to bridge the gap and expedite
+recovery—you’re only as good as your ability to recover between sessions.
+This is best accomplished with tools such as a sled and bands, which
+both provide unique benefits that go beyond strength qualities. So if
+your training plan is going to be complete, modalities like sled drags and
+high-volume band exercises are a must. These variations are included in
+the training programs provided in part III.
+Repeated Effort Method
+The repeated effort method is a premier method of improving muscular
+imbalance and muscular hypertrophy and providing rehabilitative or
+prehabilitative work to ensure you’re constantly improving symmetry.
+This work is done through single-joint exercises and isolation work to
+target musculature limitations. It’s important to prioritize unilateral
+assistance exercises because you can dedicate time to improving
+limitations, and classic lifts such as the squat, press, and deadlift will
+improve through establishing symmetry and strength in lagging muscle
+groups. Because unilateral exercises are less demanding on the nervous
+system, you are able to add volume and frequency with the overall
+objective of improving deficiencies. The volume of assistance exercises
+can be pushed to high levels and align with your training age and needs
+quite well with less risk. Moreover, people often fail to take inventory of
+where they struggle the most and experiment with exercises that will
+potentially help improve their limiting factors. This is what assistance
+exercises are for—to strategically improve limitations in a muscle or
+muscle group that may be holding one back, or worse, increasing their risk
+of injury in the future. A simple example of this is the glutes, which extend
+the hips and abduct and externally rotate the legs. They are therefore
+responsible for the finishing, hip extension–based portions of the squat
+and deadlift. Performing exercises that duplicate these actions is key.
+The Romanian deadlift (RDL) and the glute hip thrust are two excellent
+choices to build glute strength around hip extension movements.
+Of course, improving performance is important to many individuals,
+but many people tend to have the primary goal of improving body
+composition. Luckily, assistance exercise work can be instrumental in
+helping add lean muscle mass because the 8- to 12-rep range will facilitate
+muscular hypertrophy (also known as sarcoplasmic hypertrophy), which
+is an increase in the volume of sarcoplasmic fluid in the muscle cell
+with no actual increase in muscular strength—envision the “muscle
+--- PAGE 44 ---
+28 Lower Body Training
+pump” you get after doing three sets of biceps curls (French 2016). In
+this case, time under tension will be significantly higher than for your
+max effort, and DE work as the objective is quite different in terms of
+strength development. (Hypertrophy work prioritizes time under tension,
+whereas DE work prioritizes bar velocity to improve RFD.) The ultimate
+goal here is to improve and isolate lagging muscle groups, so single-joint
+exercises like split squats, single-leg RDLs, and glute hip thrust variations
+are pillars of effective lower body program design.
+Benefits of Prioritizing
+Assistance Exercises
+The benefits of prioritizing assistance exercises (roughly 80 per-
+cent of your training volume in a given session) are understated.
+Of course, it’s much sexier to squat with a barbell than it is to split
+squat with two dumbbells, but the latter allows you to execute higher
+volumes of work with less chance of compensation and will carry
+over to improve your squat numbers through improved motor-neuron
+synchronization. The benefits of prioritization are the following:
+Focuses Lagging Muscle Groups
+In an effort to target where you may be lacking, we can add a high
+volume of work without the risk of exacerbating compensation
+patterns—this will carry over to bigger movements like squats
+and deadlifts by improving muscle function and coordination with
+other muscles.
+Safely Creates Higher Volume Through Unilateral
+Movements
+It is much safer to push the volume of a unilateral movement like a
+split squat than a bilateral movement like a back squat. Pushing the
+volume on compound movements carries inherent risks of overuse
+injury and creating compensation patterns—with heavy, high-rep
+bilateral work, there will almost always be a breakdown in the chain
+as fatigue sets in. This can exacerbate your current asymmetries
+and set you up for injury instead of making actual improvements.
+Increases the Time Under Tension
+Unilateral work requires less skill and neural demand, so we can
+increase loading and volume commensurately, thereby increasing
+--- PAGE 45 ---
+Go Beyond the Basics 29
+time under tension. This leads to increasing muscular hypertro-
+phy. Sarcoplasmic hypertrophy is a product of time under tension,
+unlike maximal strength development, where time under tension
+is much lower.
+Improves Bilateral Movement Motor Control and
+Performance
+To improve bilateral movements like squats, pulls, and Olympic lifts,
+you have to have a continuous focus on isolating the areas where you
+are weakest. For many, something as simple as adding more direct
+posterior chain work is all it takes to produce noticeable gains in
+all of the previously mentioned lifts (glute hip thrusts, back raises,
+and RDL variations) and is a great vehicle to improve lifts where
+the posterior chain predominates, such as squats, deadlifts, and
+even the Olympic lifts.
+Reduces the Risk of Injury
+Assistance exercise work can effectively reduce the risk of injury
+as well as rehabilitate current injuries. Advanced individuals must
+be constantly assessing where they may be most limited; other-
+wise they risk eventually incurring a setback or even detraining
+effects. Strategically isolating weak muscle groups with unilateral
+exercises can bring someone back from injury as well as prevent
+future injuries.
+Maximal Effort Method
+The ME method is considered the superior method of improving both
+intramuscular and intermuscular coordination; the muscles and CNS
+adapt only to the load placed upon them, and this method brings forth
+the greatest strength gains (Zatsiorsky, Kraemer, and Fry 2021). With
+that said, what is meant by “maximal” can span a number of scenarios,
+making the ME method a polarizing topic to say the least. Is training
+maximally done with multiple repetitions such as a two-, three-, or even
+five-rep max? Or are we talking about simply loading the bar with as much
+weight as one can move for one repetition? In this book, we are referring
+to maximal tension with the heaviest load for one repetition. The ME
+method here is lifting a maximal load for one repetition performed with
+bilateral movements such as squat, deadlift, and press variations. These
+variations are included in the training programs provided in part III.
+--- PAGE 46 ---
+30 Lower Body Training
+The adaptations occur in both intermuscular and intramuscular
+coordination—in essence improving both the ability of muscles to fire
+in synchronicity with one another and motor patterns. The ME method
+brings forth the greatest gains in maximal strength with the most amount
+of motor units activated (Zatsiorsky, Kraemer, and Fry 2021) and has the
+highest-intensity strength measure (maximum load/resistance for one
+repetition) but lowest-volume bilateral training measure (intensity and
+volume should not intersect with this method) (Simmons 2015).
+As previously mentioned, there are connections between maximal
+strength and other biomotor abilities like strength endurance, but we
+must first consider if the ME method can fit into your training plan,
+allowing you to arrive at optimal results and a favorable risk-versus-
+reward ratio. Exercise variations should be rotated weekly to reduce
+risk of injury and to identify variations that are anthropometrically most
+suited to the individual. Also, individuals using this method should be
+fully comfortable building to one-rep maximum with any foundational
+movement pattern such as a box squat or a floor press. Another safety
+note is that this method requires the use of a spotter every time.
+While this method does come with a stigma of being dangerous and is
+not recommended for beginner or even intermediate individuals, it’s only
+dangerous if the individual has not learned how to properly perform the
+big lifts. Not having learned proper motor patterns can be a detriment
+with any method, but it’s certainly not prudent to imagine working with
+maximal loads without the proper movement patterns enforced first.
+However, there are certainly other methods that will be a better match
+for novices.
+Submaximal Effort Method
+The submaximal effort method differs from the ME method in the
+number of repetitions executed, not necessarily the level of effort. While
+the ME method results in the highest levels of motor-unit recruitment,
+the submaximal effort method still results in high levels of motor-unit
+recruitment that correspond with the size principle—recruitment order is
+determined by the load placed upon the body; as the relative load increases
+across multiple repetitions, large motor units will be recruited (Zatsiorsky,
+Kraemer, and Fry 2021). With that said, the adaptations with this method
+will be different from those with the ME method; however, a key takeaway
+is that this method is optimal for individuals who have less experience.
+This is because the emphasis is on building motor patterns with more
+exposure to lighter loads. Individuals will not typically be asked to go
+to one-rep maximum if they are still learning how to move with a given
+pattern. Performing a multiple-rep max with a bilateral movement such
+--- PAGE 47 ---
+Go Beyond the Basics 31
+as a squat variation technically constitutes submaximal work—remember
+that true ME work is trained with a maximum singular effort.
+The adaptations for this method are intermuscular and intramuscular
+coordination—in essence improving both the ability of muscles to fire
+in synchronicity with one another and motor patterns. Also, time under
+tension is higher and results in more hypertrophic adaptations. The
+submaximal effort method presents moderate-intensity, moderate-volume
+measure—it’s recommended that you do not attempt to ramp up to the
+same degree one would expect with a method like the repeated effort
+method. Exercise variations should be rotated every two to three weeks
+to allow time to ingrain good motor patterns.
+In short, the logic behind the submaximal effort method is twofold:
+(1) improve motor patterns with bigger bilateral movements—this is
+critical for newer individuals before attempting to progress to a method
+such as the ME method; and (2) incur higher bouts of volume with bigger
+lifts. Remember, you will still incur the largest volume with the repeated
+effort method and smaller unilateral exercises, but that’s not to say that
+including heavier multiple-rep maxes with bilateral movements does not
+have a place in your training plan. You must be mindful of proper volume
+prescriptions and how this method synergizes with other methods, which
+will play out optimally in the programs in part III.
+Dynamic Effort Method
+The DE method is used not to increase maximal strength but only to
+improve the RFD and explosive strength (Zatsiorsky, Kraemer, and Fry
+2021). Working harder is often associated with making more gains in the
+gym, but I’d urge you to consider working smarter. The different methods
+introduced here will allow you to create a more well-rounded training
+plan that covers all bases in terms of special strength development. The
+DE method works with lighter loads and emphasizes bar velocity; only
+working with submaximal or maximal loads does not offer the benefits
+of dedicating time to work on bar velocity or power such as with the DE
+method. Oftentimes people associate power training with the Olympic lifts,
+and while there is certainly a power component to the Olympic lifts, for
+many the Olympic lifts are not practical as they require years of experience
+and coaching from a qualified coach. Instead, you can arrive at the same
+improvements in RFD, in this case speed strength, by using the DE method
+without having to learn the snatch or clean and jerk. Again, the focus is
+on bar velocity against intermediate resistance, which will provide better
+results than simply using ME or submaximal effort training alone.
+The DE method is integral for improving RFD and explosive strength.
+(We’ll learn more about explosive strength work via plyometrics in
+--- PAGE 48 ---
+32 Lower Body Training
+parts II and III.) In fact, there are a number of peer-reviewed studies
+that support the efficacy of speed training (DE training) in terms of
+motor-unit recruitment, improving fast-twitch type II muscle fibers,
+and improving the elastic abilities of muscles and tendons (Cormie,
+McGuigan, and Newton 2011). Because of this, it is prudent to include
+such training in a well-rounded training plan. Even if your goal is to
+gain lean muscle mass, this method will provide a synergistic effect
+when used with other methods such as the ME method. The volume in
+the DE method is significantly higher than that of the ME method, so
+together the two methods correspond with each other to optimize gains
+in both speed strength and strength speed and to prevent overtraining.
+On your DE training days, the inclusion of explosive strength work via
+plyometrics allows you to add a vital component of improving RFD as
+well as maintaining type II fibers, which is particularly beneficial to
+aging individuals. In short, when methods like the ME and DE methods
+are used in conjunction with each other in the same week of training,
+it creates a symbiotic relationship between methods that, in essence,
+oppose but blend well with one another. The DE and ME methods are
+different but present similar demands on the CNS.
+Furthermore, this method gives an advantage when trying to mimic the
+specificity of a sport. For instance, American football plays last between
+four and seven seconds, with 45 to 60 seconds of rest between plays.
+You can easily replicate this pattern by using the box squat, performing
+eight triples every 45 to 60 seconds. This trains the ability of the aerobic
+system to replenish high-energy phosphates, which is critical for success
+in a sport like American football; while this sport draws largely on the
+anaerobic adenosine triphosphate–phosphocreatine (ATP-PC) system,
+there is a component of replenishing ATP aerobically since the athlete
+does not receive full recovery between efforts. Moreover, this work carries
+over to other sports such as ice or field hockey or soccer where explosive
+bursts of movement are needed. In this case, the demands can be aligned
+with the time domains of each sport allowing an athlete to effectively
+train specificity that will have a real-world carryover to their sport.
+The adaptations for this method are intermuscular and intramuscular
+coordination, in essence improving both the ability of muscles to fire
+in synchronicity with one another and motor patterns. The DE method
+presents a high-intensity, moderate-volume measure—the focus is on bar
+velocity and perfect technique, not maximal loading. Exercise variations
+should be rotated every three weeks to allow for time to ingrain good
+motor patterns and increase loading each subsequent week. Furthermore,
+the DE method will help maintain type II fibers that deteriorate with
+age (Potach and Chu 2016). Lastly, to fully reap the benefits of the DE
+method, using AR is recommended. Even if you are not an athlete or do
+not care about becoming more explosive, the DE method has a place
+--- PAGE 49 ---
+Go Beyond the Basics 33
+within your program. Again, the adaptations are different from those of
+the other methods, which creates favorable circumstances.
+Explosive Strength
+While jumping is an integral part of improving explosive strength for
+athletics, it has value in terms of physiology and type II muscle fibers
+Optimal Volume Prescriptions
+for Training Methods
+This chapter would not be complete without discussing optimal
+volume recommendations for all methods. The following table shows
+optimal Olympic weightlifting rep ranges used for training. Known
+as Prilepin’s Chart, it was created by A.S. Prilepin, a Soviet-era
+sports scientist who reviewed the training journals of thousands
+of weightlifting athletes. It is meant to portray the optimal number
+of reps per set and total rep count (volume) for power training
+required for the Olympic lifts (the snatch and the clean and jerk).
+Approximate Optimal
+Percent of number of number of
+1RM repetitions reps Total range
+40% 4-8 36 30-50
+50% 3-6 30 18-30
+60% 3-6 24 18-30
+70% 3-6 18 12-24
+80% 2-4 15 10-20
+90+% 1-2 4-10 1-10
+Adapted from Prilepin’s Chart, A.S. Prilepin.
+This chart has stood the test of time, and I’ve used it extensively
+over the last decade. Of course, a guide is just that, a guide, and
+never one-size-fits-all, but this chart is a great starting point when
+attempting to arrive at optimal volume with the ME, submaximal
+effort, and DE methods.
+--- PAGE 50 ---
+34 Lower Body Training
+even for people who simply want to look and feel better and hit new With these variations it would be easy to increase or decrease difficulty
+personal records from time to time. For those who don’t have any interest based on individual needs by simply modifying the jump height or adding
+in athletic competition or powerlifting, the question comes down to resistance, but if you are not comfortable jumping and landing, there are
+determining proper volume prescriptions and plyometric variations. In other available options such as static isometrics that have carryover and
+terms of programming for general fitness, performing 20 to 25 jumps training effects similar to those of dynamic plyometrics.
+twice a week is more than sufficient to prime the sympathetic nervous
+system prior to a training session or as a stand-alone movement for In short, you will find that it is advantageous to have many tools in your
+explosive strength work. The benefits span beyond improving power toolbox as far as strength training is concerned, and simply working “hard”
+and RFD because we know that type II fibers deteriorate as folks age— doesn’t mean results are guaranteed. Instead, it’s best to work smarter
+plyometrics can be a powerful catalyst for maintaining those type II and understand the stress cycle the body goes through with the ebbs and
+fibers, and the return on a small investment of time is significant (Potach flows of high-intensity training—this is a major reason why we’ve talked
+and Chu 2016). about other measures (repeated effort method and GPP work) that act as
+For athletes, on the other hand, plyometrics can certainly serve as a a bridge between your more demanding training sessions.
+permanent fixture in multiple sessions each week in which programmed
+volume is higher and the skill requisite of variations can be higher. (This ADDITIONAL TRAINING TOOLS
+is not always the case because the basic variations are still vital.) Of
+Training for strength is comparable to building a house where each
+course, this would need to be specific to the individual based on their
+tool has a very specific focus and role. Tools such as cluster sets,
+training age, the bioenergetics of their chosen sport, and their training
+accommodating resistance, reverse bands, sleds, barbells, kettlebells,
+history (to include proper ability for jumping and landing mechanics).
+dumbbells, or specialized machines all help an individual arrive at their
+When used correctly, plyometric training has been shown to improve
+desired result. Much like building a house, more tools in your toolbox
+the production of muscle force and power, so not only will regular
+will allow you to complete the task faster and more efficiently.
+plyometric work help with the overall goal of body composition, but it
+will also improve performance. Moreover, since we know the sympathetic
+Cluster Sets
+nervous system’s fight-or-flight response and post-activation potentiation
+last roughly five to eight minutes, we can effectively use some form of
+Using intraset rest or “clusters” is hardly a new concept. In fact, Olympic
+plyometrics to serve as a proper warm-up tool and prime the CNS for a
+lifters use clusters regularly, some without even knowing it. Cluster
+maximal lift that requires high levels of motor-unit recruitment.
+training allows for small bouts of rest (10 to 20 seconds) in between
+Choosing variations doesn’t have to be overly complicated. A few
+reps to provide recovery and avoid the movement deterioration that
+variations that are low in skill requisite and impact are shown in table 3.1.
+would normally occur during a straight set with appreciable loading. In
+Supertraining, cluster training is categorized two ways: (1) extensive
+clustering, which involves four to six repetitions at four- to six-rep max
+Table 3.1 Lower-Skill and Low-Impact Plyometric Variations
+with 10-second rest intervals between each cluster; and (2) intensive
+Plyometric variation Sets Reps Rest clustering with four to six total reps performed one repetition at a time
+at between 75 and 90 percent of one-rep max, with about 20 seconds of
+Seated dynamic vertical 6 3 45-60 sec rest between repetitions (Verkhoshansky and Siff 2009). There is a place
+jump
+for both extensive and intensive clustering, and I’ve used both with great
+success. For purposes of hypertrophy, where the intent is longer time
+Seated dynamic box jump 6 3 45-60 sec
+under tension, extensive clustering fits the bill and can be used with a
+Dumbbell squat jump + box 6 2 60 sec myriad of movements that would normally cause high neural fatigue.
+jump
+Cluster sets work quite well when used for general strength purposes.
+In part III of this book, I’ve applied cluster work in hypertrophy, strength,
+Trap bar jump 5 4 60 sec
+and athletic performance settings. Intermediate and even more advanced
+--- PAGE 51 ---
+Go Beyond the Basics 35
+With these variations it would be easy to increase or decrease difficulty
+based on individual needs by simply modifying the jump height or adding
+resistance, but if you are not comfortable jumping and landing, there are
+other available options such as static isometrics that have carryover and
+training effects similar to those of dynamic plyometrics.
+In short, you will find that it is advantageous to have many tools in your
+toolbox as far as strength training is concerned, and simply working “hard”
+doesn’t mean results are guaranteed. Instead, it’s best to work smarter
+and understand the stress cycle the body goes through with the ebbs and
+flows of high-intensity training—this is a major reason why we’ve talked
+about other measures (repeated effort method and GPP work) that act as
+a bridge between your more demanding training sessions.
+ADDITIONAL TRAINING TOOLS
+Training for strength is comparable to building a house where each
+tool has a very specific focus and role. Tools such as cluster sets,
+accommodating resistance, reverse bands, sleds, barbells, kettlebells,
+dumbbells, or specialized machines all help an individual arrive at their
+desired result. Much like building a house, more tools in your toolbox
+will allow you to complete the task faster and more efficiently.
+Cluster Sets
+Using intraset rest or “clusters” is hardly a new concept. In fact, Olympic
+lifters use clusters regularly, some without even knowing it. Cluster
+training allows for small bouts of rest (10 to 20 seconds) in between
+reps to provide recovery and avoid the movement deterioration that
+would normally occur during a straight set with appreciable loading. In
+Supertraining, cluster training is categorized two ways: (1) extensive
+clustering, which involves four to six repetitions at four- to six-rep max
+Table 3.1 Lower-Skill and Low-Impact Plyometric Variations
+with 10-second rest intervals between each cluster; and (2) intensive
+Plyometric variation Sets Reps Rest clustering with four to six total reps performed one repetition at a time
+at between 75 and 90 percent of one-rep max, with about 20 seconds of
+Seated dynamic vertical 6 3 45-60 sec rest between repetitions (Verkhoshansky and Siff 2009). There is a place
+jump
+for both extensive and intensive clustering, and I’ve used both with great
+success. For purposes of hypertrophy, where the intent is longer time
+Seated dynamic box jump 6 3 45-60 sec
+under tension, extensive clustering fits the bill and can be used with a
+Dumbbell squat jump + box 6 2 60 sec myriad of movements that would normally cause high neural fatigue.
+jump
+Cluster sets work quite well when used for general strength purposes.
+In part III of this book, I’ve applied cluster work in hypertrophy, strength,
+Trap bar jump 5 4 60 sec
+and athletic performance settings. Intermediate and even more advanced
+--- PAGE 52 ---
+36 Lower Body Training
+athletes can benefit from using intraset rest, and I’d even go so far as to
+say that for beginner athletes, having small bouts of rest between reps
+can help instill efficient movement patterns while minimizing the risk
+of mechanical breakdown or creating faulty motor patterns. Although it
+may seem that cluster sets are not necessary for general fitness, much
+like any other method we use, they are a tool that can spark some new
+progress. Cluster sets are a staple in my own personal programming and
+in my programming for my clients. Here are some reasons why it may be
+prudent to use clusters:
+• Increased time under tension
+• Improved movement patterns
+• Increased neural drive with heavier loading
+• Efficient use of time
+Using cluster sets for the squat or other bilateral movements can be
+quite effective in improving your ability to perform higher amounts of
+volume with heavier loads. In the case of the squat, we prefer to opt for
+longer rest bouts of 15 to 25 seconds, depending on the objectives of your
+training session. Here are a few examples:
+Front squat: 4 sets × 2.2.2 (15 sec) @ 80%. Rest 3 min.
+1 set = perform 2 reps—rerack weight and rest 15 sec, followed by
+2 reps + rest 15 sec + 2 reps + rest 3 min
+Back squat: 4 sets × 3.2.1 (20 sec) @ 85%. Rest 3 min.
+1 set = perform 3 reps—rerack weight and rest 20 sec, followed by
+2 reps + rest 20 sec + 1 rep + rest 3 min
+In short, cluster work is not only time-efficient but, more importantly,
+economical for increasing trainability of a given bilateral movement (squat,
+press, pulls) while simultaneously decreasing the risk of breakdown and
+thus the chance of overuse injury.
+Accommodating Resistance
+We alluded to the fact that using AR is optimal with the DE method, so
+let’s explore what AR is and why it can be beneficial to your training
+plan. AR refers to the use of chains or bands to develop maximal tension
+throughout the full ROM, rather than at your weakest point. While there
+are a number of benefits to using AR, one of the most noteworthy is
+accommodating the strength curve, in which tension is highest where
+we are strongest and lowest where we are weakest (Simmons 2015). Here
+are a few key points when using AR:
+--- PAGE 53 ---
+Go Beyond the Basics 37
+Bands Versus Chains
+The major difference between bands and chains is the phenomenon
+known as “overspeed eccentric.” Put simply, in the case of a squat,
+bands actually pull you down in the lowering portion of your lift,
+increasing the amount of kinetic energy that is produced. Because
+of this, you are able to enhance reversal strength and your ability
+to absorb force, crucial to any sport. With chains, the overspeed
+eccentric is not present because the resistance does not stay consis-
+tent when an athlete is lowering the weight. Overall, using bands is
+particularly advantageous to strength athletes who want to become
+more explosive. These benefits can translate into cracking personal
+records in the big three.
+• AR allows for greater accountability with bar speed compared to
+just straight weight—as tension increases through ROM, you are
+forced to accelerate through each repetition and not get complacent.
+• AR coincides with the strength curve, meaning that your band
+tension will be highest where you are strongest (top of the movement)
+and lowest where you are weakest (bottom of the movement).
+• The RFD provides more resistance without compromising bar speed
+with regard to the strength curve of a given movement (i.e., band
+tension is highest where you are strongest and vice versa).
+• As weight increases, bar speed decreases. Maximal strength force is
+high, and velocity is low. AR gives you the ability to develop speed
+strength, whereas with simply adding straight weight, bar velocity
+will inevitably decline.
+• AR teaches you how to absorb more force, which in turn allows you
+to become more powerful.
+• Without bands or chains, bar deceleration is inevitable, and when
+bar speed is too slow, RFD simply cannot be developed. AR forces
+you to accelerate through full ROM, and becoming more explosive
+translates to becoming stronger!
+• AR can also be used for ME work. The advantage here is that you
+will be able to use less straight weight, with overload occurring at
+the top of a given movement. As a result, external loading through
+ROM is lower, which equates to less breakdown and less delayed
+onset muscle soreness. For a movement like an ME rack deadlift,
+--- PAGE 54 ---
+38 Lower Body Training
+where loading for some can reach supramaximal levels, using AR
+will reduce the amount of wear and tear compared to what would
+occur with just straight weight.
+Reverse Bands
+Reverse bands are the opposite of AR; bands are fixed to the top of the
+squat rack, and the load is lightest at the top and heaviest at the bottom
+as a given movement goes through eccentric ROM. (Think of the lowering
+phase of an RDL.) The benefits of using this method are improvements in
+neuromuscular efficiency and, more importantly, the ability to fine-tune
+and repattern foundational movements. In addition, being able to work
+with supramaximal loads at the top of each movement creates different
+scenarios from just working with straight weight—the degree to which
+you’ll be able to exceed your one-rep max will depend on the thickness
+of the band you choose. Because you’re able to work with supramaximal
+loads, this method tends to be quite demanding on the nervous system,
+particularly when used in true ME scenarios with big movements like
+the deadlift. However, in submaximal or repeated effort scenarios, you’ll
+likely find you’re able to maintain better position even with loads that
+exceed your current one-rep max. For the purposes of this book, though,
+we recommend the use of reverse bands not in an ME session but as an
+assistance exercise with a pattern like the RDL to reinforce (or rebuild)
+an effective hip hinge pattern (more on this in chapter 6). With that
+said, the reverse band method can also work quite well with repeated
+effort work and allow you to reinforce better movement patterns. Even
+if you approach loads where you would normally have some mechanical
+breakdown if you were using straight weight, the band will deload a
+percentage of the weight in the bottom position, thus allowing you to
+reinforce better motor patterns with less breakdown while still receiving
+the desired training effects.
+Reverse bands are optimal when used for the following:
+• ME work: one-repetition maximum (1RM)
+• Submaximal effort work: 2-6RM
+• Repetition effort work: 6- to 10-rep sets
+• Technique work: Straight sets with moderately heavy loads of 80
+to 85 percent of 1RM
+These are the benefits of reverse bands:
+• Improved neuromuscular efficiency. This is the ability of the
+nervous system to recruit the correct muscles to produce force.
+--- PAGE 55 ---
+Go Beyond the Basics 39
+• Improved stability. This is the ability of your body to stabilize and
+brace while achieving supramaximal loading at the end ROM.
+• Improved motor patterns. Reverse bands deload a percentage of
+the weight at the bottom of a movement and allow you to in essence
+do the opposite of AR. Where with AR tension is highest where we
+are strongest (accommodating the strength curve), with reverse
+bands tension is highest where you are weakest.
+• Opportunity for technique work. Reverse bands allow you to work
+with heavier loads with less chance of mechanical breakdown.
+• Hypertrophy. If gaining lean mass is your goal, reverse bands work
+great with big movements so you can create situations with high
+amounts of metabolic stress but less mechanical breakdown.
+In conclusion, the best part of using reverse bands is that they can
+serve a variety of purposes—maximal strength development, technique
+improvement, bodybuilding, and motor pattern refinement. The most
+critical aspect of this method is that it allows you to maximize trainability
+and decrease the risk of injury.
+We’ve discussed multiple methods that build strength and learned
+that combining a variety of methods will not only improve your classic
+lifts such as the squat, bench press, and deadlift but also elicit gains
+in muscular hypertrophy. We’ve discussed the role maximal strength
+development has at the center of all strength training in terms of its
+connection to all biomotor abilities. Although many people are not
+concerned with improving their big lifts, understanding why maximal
+strength can have a role in someone’s success makes it easy to build value
+in such methods as the ME method. It’s also important to remember
+that using a variety of methods can help you avoid overuse injury and
+overtraining, and the diversity created with multiple methods in one’s
+program design ensures that no stone is left unturned and that the
+training is varied enough to prevent accommodation.

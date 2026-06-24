@@ -1,0 +1,604 @@
+--- PAGE 15 ---
+6 | Metabolic Training
+• Multisport athletes. Multisport athletes deal with movements and metabolic
+changes specific to the demands of multiple disciplines. Multisport training
+is inherently varied, and cross-training is common. Specific and non-specific
+metabolic training would be a logical complement to any multisport regimen.
+Multisport athletes could adapt the principles of metabolic training to an array
+of sport-specific movements, like simulating contraction velocities, loading of
+anatomical regions, and work-rest ratios, to name a few.
+• Fitness enthusiasts. Fitness enthusiasts aren’t necessarily interested in improv-
+ing competitively. Instead, they enjoy non-competitive activities aimed at improv-
+ing one or more physical characteristics, such as agility, balance, coordination,
+strength, power, speed, or endurance. Metabolic training could be the perfect
+addition to their training routine. In this context, workouts could be used as a
+means and an end. In other words, the purpose of the workout is to do the workout.
+What’s more, the possibilities for varying exercises, workloads, intensity ranges,
+and work-rest ratios are endless.
+• Adaptive enthusiasts. Individuals with physical disabilities may want to con-
+sider metabolic training as an addition to their existing training programs. Due to
+the wide range of physical limitations among individuals, it does not make sense
+to make specific recommendations. However, some considerations for program
+design should be taken into account. These include participants’ physical safety,
+the physical space used as the exercise area, and the support required to perform
+a given exercise routine. Cables and dumbbells may offer advantages over barbell
+and machine exercises. Additionally, upper-body ergometers, ropes, and medicine
+balls used in the three planes of motion—sagittal (front to back), frontal (side to
+side), and transverse (rotational)—present viable options for alternative exercises.
+In sum, metabolic training lends itself well to a number of different exercise
+situations. Exercise combinations, exercise order, rest intervals, workout duration,
+exercise intensity, and individual goals can be adapted to suit an individual’s needs
+and fitness goals. Metabolic training can be used to educate, motivate, and inspire
+individuals looking to push the boundaries of their fitness.
+Basic Principles of Metabolic Training
+The following principles of exercise are particularly applicable to metabolic train-
+ing and should always be considered when designing and implementing metabolic-
+training programs. Adhering to these principles will optimize training results.
+Measures such as heart rate and rating of perceived exertion (RPE) can be used
+to objectively evaluate how the body responds to the exercise stimuli associated
+with these training approaches.
+1. Overload. The principle of overload refers to the application of a greater
+amount of stress than an individual has previously experienced. Increased
+intensity, duration, frequency volume, as well as new types of exercise, can
+all overload an athlete. For instance, adding a fourth day of running per
+week from three days is an overload of training.
+--- PAGE 16 ---
+Why Metabolic Training? | 7
+2.Specificity. According to the principle of specificity, a specific method of train-
+ing produces a specific outcome. As an example, someone who consistently
+runs long distances will adapt physiologically to long-distance running.
+3.FITT. FITT stands for “frequency, intensity, time, and type. ”Frequency refers
+to how often you exercise. Intensity is the effort exerted to perform a specific
+exercise. Time is the duration of an exercise session. Type indicates the kind
+of exercise (cardiorespiratory, strength, or a combination of the two, as well
+as the exercise modality).
+4.Rest/recovery. Rest or recovery describes breaks taken during an exercise
+session—between exercises or between exercise sets—as well as between
+one exercise session and the next.
+Training intensity can be evaluated using heart-rate monitoring. The higher
+the heart rate, the more intense the training, and vice versa. You should know
+your resting heart rate and your average heart rate during light to heavy (or very
+heavy) exercise. Maximal heart rates can be reached during metabolic training.
+It is important to understand that each individual has his own maximal heart
+rate (and associated training intensities), and a higher heart rate during the train-
+ing session does not mean a greater effort or more intense training. World-class
+athletes can have low or high maximal heart rates; neither is a predictor of car-
+diorespiratory fitness.
+Rating of perceived exertion (RPE) is a subjective measure of how difficult an
+exercise is. The RPE scale is typically 1-10, with 1 being the lowest level of exer-
+tion and 10 being the highest. The RPE scale is a simple and effective tool that
+can be used to determine exercise intensity or the physical demands associated
+with a particular exercise.
+Workout Structure
+The following general guidelines should be followed when designing a workout or
+series of workouts over days, weeks, and months. Doing so will ensure a higher-
+quality workout and will optimize training.
+• Fatigue management. Properly managing fatigue during a workout involves
+close monitoring of exercise selection, rest intervals, exercise order, exercise
+grouping, training tempo, and workout length. As fatigue accumulates during the
+workout, biomechanics and exercise technique can be compromised, which can
+present safety issues.
+• Speed before strength exercises. Exercises that require higher velocity of move-
+ment, like plyometrics or jump squats, should be performed before slower move-
+ments. High-velocity movements can tax the nervous system to an extent that
+compromises subsequent exercises. In these scenarios, it is advisable to alternate
+ground-based speed exercises with upper-body exercises. Split-squat jumps, for
+example, could be followed by push-ups.
+--- PAGE 17 ---
+8 | Metabolic Training
+• Technical before gross motor exercises. Metabolic training involves exercises
+ranging from low to high demand. Biceps dumbbell curls or jumping jacks, for
+example, are exercises that have low technical demands. On the other end of the
+spectrum, a power snatch from the floor or a burpee would present high techni-
+cal demands. Exercises with higher technical demands, like power movements,
+should be performed when fatigue is low. This can mean performing them earlier
+in the training session or after exercises that don’t bring about excessive fatigue.
+In the context of metabolic training, gross motor exercises should be performed
+after technical exercises. For instance, a hang power clean should be performed
+after back extensions.
+• Multijoint before single-joint exercises. Generally speaking, multijoint exercises
+should be performed before single-joint exercises. Multijoint exercises require
+more muscle mass and a higher degree of technique, and are more fatiguing, than
+single-joint exercises. A sequence of exercises might include a landmine squat to
+press followed by a supine triceps extension.
+• Exercise grouping. Exercises can be paired or combined to achieve various
+objectives, including, but not limited to, managing fatigue, promoting muscle
+growth, improving athletic performance, developing power, developing strength,
+and calibrating metabolic demand. Participant safety, available equipment, train-
+ing goals, and individual limitations are also important considerations when
+grouping exercises.
+• Exercise demand. Keep in mind that different exercises will have different
+levels of metabolic demand. Generally speaking, multijoint ground-based move-
+ments will have higher levels of metabolic demand than single-joint, isolated,
+machine-based exercises. Exercises that utilize more muscle mass, like squats
+and lunges, will have a greater metabolic demand than biceps curls or dumbbell
+side raises. For a training program to be successful, demand needs to be carefully
+calibrated.
+• Unstable and stable surfaces. The efficacy of unstable surfaces in developing
+athletic performance is debatable, and the primary goal of metabolic training
+is to improve metabolic efficiency and capacity. With that said, medicine balls,
+stability balls, balance pads, and balance boards are popular fitness tools. Should
+you choose to incorporate unstable surfaces into metabolic training, be aware of
+your surroundings and any safety issues they might present. Careful consider-
+ation should also be given to exercise selection. For instance, pre-fatiguing the
+lower body before performing one-leg squats on a balance pad will increase the
+difficulty of the exercise.
+• Rest intervals. Although metabolic training can be demanding, there are times
+when perceived effort is lower than expected. This is because neuromuscular
+fatigue is distributed through different areas of the body, not confined to one
+area or muscle group. One way to manage workout intensity or perceived effort
+is by changing the rest interval. Longer rest intervals may be warranted after
+high metabolic efforts, and shorter rest periods after reduced metabolic efforts.
+Keep in mind that metabolic training will tax nearly every major muscle group
+--- PAGE 18 ---
+Why Metabolic Training? | 9
+during each exercise session. A drawback of this approach is the high demand
+associated with metabolizing lactate and hydrogen ions and the subsequent high
+systemic acidity, especially among untrained individuals. Close monitoring of
+fatigue levels and technique is advised.
+• Ambient conditions. Ambient conditions—specifically, humidity and tempera-
+ture—can affect fatigue. The body strives to sustain an internal temperature of
+about 98.6 degrees Fahrenheit. The mechanical work of exercise generates heat. As
+body temperature rises, sweat is produced to cool the skin, which helps to main-
+tain body temperature. An indoor-gym temperature ranging from the low to high
+60s, with moderate airflow, will assist in fatigue moderation. Additionally, lower
+humidity will assist in sweat evaporation, which lowers the body’s temperature.
+For these reasons, it is recommended that gyms be kept cool and well circulated.
+• Safety. Safety considerations for metabolic training include exercise frequency,
+intensity, duration, and type, all of which should be determined based on each
+participant’s fitness level, as well as appropriate gear selection and proper hydra-
+tion. Additionally, adequate time and attention must be devoted to warming up
+and cooling down to ensure that the body transitions in and out of periods of
+activity safely.
+This chapter has covered the fundamental tenets of metabolic training, terms
+frequently associated with this style of exercise, and factors that must be consid-
+ered when designing an appropriate training program. The most important aspect
+of any training program is safety. Though safety is affected by many interrelated
+and interdependent factors, we recommend paying particular attention to whether
+a training program is appropriate for you and whether your physical environment
+is appropriate for exercise. Understanding the topics addressed in this chapter
+will help you utilize metabolic training to meet your goals and get the most out
+of your exercise program.
+--- PAGE 19 ---
+This Page Intentionally Left Blank.
+--- PAGE 20 ---
+2
+Physiological Adaptations
+to Metabolic Training
+Physiological adaptation refers to how the body responds to, accommodates, or
+adjusts to exercise. To give an over-simplified example, if you lift heavy weights,
+your muscles get bigger. But there are actually a number of adaptations taking
+place in response to such a stimulus. These adaptations include a more coordi-
+nated neural signal to the activated muscles, uptake of nutrients, and the release
+of muscle-building hormones.
+Learning about the process of physiological adaptation will help you design
+more effective workouts, understand how your body will respond to training,
+and know what to expect with consistent and focused training. Two of the most
+common fitness goals are burning fat and enhancing muscular development. This
+chapter takes a deeper dive into some of the physiological adaptations to training
+that can turn these goals into realities.
+Adapting to Demands
+As discussed in chapter 1, in reference to the specificity principle, adaptations are
+specific to imposed demands. Adaptions can be morphological (related to muscle
+size), biomechanical (related to strength and power), anatomical (related to muscle,
+bone, or fat volumes), neurological (related to motor control), or metabolic (related
+to aerobic or anaerobic energy pathways) in nature. Workout parameters such
+as intensity level and rest duration can be set to elicit specific adaptations. For
+instance, short, high-intensity exercise intervals (up to six seconds in duration,
+focusing on quick movement with maximal intensity) paired with longer rest
+intervals (1:1 to 1:4 work:rest ratio) can target the short-duration phosphagen meta-
+bolic pathway. Conversely, lower-intensity activity paired with shorter-duration
+rest intervals can target the aerobic metabolic pathway. Also, keep in mind that
+exercises targeting multiple joints and muscle groups at one time are more meta-
+bolically challenging than exercises targeting individual joints and muscle groups.
+It should be pointed out that metabolic training utilizes both aerobic and anaero-
+bic metabolic pathways, while also placing demand on the neuromuscular system
+11
+--- PAGE 21 ---
+12 | Metabolic Training
+by way of strength and power exercises. In other situations, metabolic training
+can elicit more of an aerobic metabolic (endurance) response—for example, when
+lighter weights are used. This de-emphasizes the neuromuscular system. These
+two examples represent the various ways in which metabolic training can be pro-
+grammed. Neither approach is superior to the other; the optimal program is best
+determined by the goals of the program and the individual. With this concept in
+mind, both aerobic and anaerobic adaptations can be observed.
+Some metabolic-training programs implement strength-power and aerobic
+(endurance) methodologies together. This approach is called concurrent training.
+Research on the effects of concurrent training has yielded the following conclu-
+sions:
+• Concurrent training does not appear to compromise gains in aerobic capacity.
+• The incorporation of resistance training may have a beneficial effect on
+short-term endurance.
+• The incorporation of aerobic training may compromise maximal strength in
+experienced, resistance-trained individuals.
+Consider the intensity of training: Short bursts of high-intensity training target
+the anaerobic pathway. Longer-duration efforts, lasting more than three minutes,
+start to emphasize the aerobic pathway. Metabolic activity is elevated by anaerobic
+efforts of shorter duration if these efforts are performed at high intensity, which
+includes heavy resistance training exercise (Herda & Cramer 2016). This idea
+constitutes a fundamental element and benefit of metabolic training.
+The Role of Excess Postexercise
+Oxygen Consumption
+It is also worth considering the impact of excess postexercise oxygen consumption
+(or EPOC). EPOC refers to the prolonged increase in O that may be observed
+2
+for hours after exercise. A comprehensive study conducted by Borsheim and Bahr
+(2003) determined that heavy resistance training produces greater EPOC than
+circuit weight training. In other words, EPOC is intensity dependent in response
+to resistance training. This study also found that EPOC is intensity dependent in
+relation to aerobic training, with the greatest EPOC values occurring when dura-
+tion and intensity were high, and that individuals vary in their response. The
+greatest EPOC values were recorded when the intensity of aerobic exercise was
+greater than 50 to 60 percent of O max and the duration was equal to or greater
+2
+than 40 minutes. It would stand to reason that maximal effort toward the end of
+a metabolic-training session could optimize EPOC. The benefit of EPOC in the
+context of metabolic training is its tendency to increase caloric expenditure and
+fat burning above resting levels following the completion of a workout.
+The following physiological factors, among others, are responsible for EPOC
+(Herda and Cramer 2016):
+1. Restoring oxygen in the blood and muscles, which enables the body to return
+to its pre-exercise state
+--- PAGE 22 ---
+Physiological Adaptations to Metabolic Training | 13
+2. Resynthesizing energy in the form of ATP, enabling the body to perform at
+an optimal level during a subsequent metabolic-training session
+3. Elevating body temperature, circulation, and respiration, which aids in
+recovery and reduces muscle soreness and fatigue
+4. Increasing protein turnover, which enables the body to increase lean body
+mass as a training effect.
+Short-Term Adaptations to Metabolic Training
+Short-term adaptations are those that occur within one to four weeks and are spe-
+cifically related to the composition of the training program. For example, heavy
+strength training will yield greater increases in strength than low-intensity, high-
+rep training programs. Short-term adaptations are relatively transient compared
+to long-term adaptions, meaning that if you stop training after one to four weeks,
+there is a relatively quick return to pre-training status. In practical terms, this
+means that you should remain consistent in your training if you want to continue
+to develop strength. It should be noted that nervous-system adaptations occur faster
+than structural changes in skeletal muscle. This has led researchers and practi-
+tioners to conclude that initial strength improvement is the result of neurological
+changes. Even if you can’t see changes in your muscle size or composition early
+on in your program, know that your body is adapting and building a foundation
+for strength. Stick to your program, and the changes will be noticeable over time.
+There are some adaptations that you may notice soon after beginning a met-
+abolic-training program. Immediate cardiorespiratory responses to metabolic
+training include increases in heart rate, oxygen uptake, systolic blood pressure,
+blood flow to active muscles, the heart’s stroke volume, and cardiac output (French
+2016). Ventilation rate increases significantly during resistance training (Statler
+and Dubois 2016), and especially metabolic training, when short rest intervals
+are employed. These improvements to your cardiorespiratory system will allow
+you to breathe easier and work harder as you take on more-challenging workouts.
+Long-Term Adaptations to Metabolic Training
+Following are several adaptions and outcomes that can be achieved when per-
+forming metabolic training.
+Performance Adaptations
+• Increased strength
+• Increased endurance
+• Increased anaerobic power
+• Increased rate of force production
+• Increased vertical jump
+• Increased aerobic power
+--- PAGE 23 ---
+14 | Metabolic Training
+Adaptations in Muscle Fiber
+• Increased cross-sectional area, also known as hypertrophy
+• Increases in type I, IIA, or IIB muscle fiber composition
+• Increased capillary density
+• Increased mitochondrial density
+Adaptations in Enzyme Activity
+• Increases in enzymes that contribute to strength and power production
+Adaptations in Metabolic Energy Stores
+• Increased glycogen stores
+• Increased creatine phosphate
+• Increased ATP storage
+• Increased capacity to buffer hydrogen-ion production
+Adaptations in Connective Tissue
+• Increased ligament strength
+• Increased tendon strength
+• Possible increases in collagen content
+• Possible increases in bone density
+The physiological adaptations to metabolic training can be seen in the resto-
+ration of oxygen to blood and muscle; the resynthesizing of energy in the form
+of ATP; the elevation of body temperature, circulation, and respiration; and
+increased protein turnover. These adaptations lead to increased strength, endur-
+ance, anaerobic power, force production, and explosive power, as well as a higher
+aerobic threshold. Muscular improvements include increased hypertrophy of Type
+I, IIA, or IIB muscle fibers and capillary and mitochondrial density. Additional
+benefits include improvements to metabolic-energy stores in all energy systems,
+improved connective-tissue strength, and greater resistance to injury.
+--- PAGE 24 ---
+3
+Metabolic-Training Tools
+The purpose of this chapter is to introduce the nine training tools utilized in our
+metabolic workouts. They are
+1.bodyweight,
+2.dumbbell,
+3.kettlebell,
+4.resistance band,
+5.medicine ball,
+6.heavy rope,
+7. suspension,
+8.weighted sled, and
+9.sandbag.
+Bodyweight training denotes strength-training exercises in which you move
+your body against the resistance of gravity. Dumbbell training utilizes round,
+hexagonal, or square weights connected by a short bar, which you lift or swing in
+your hand, often in pairs. Kettlebell training provides strength- and cardio-based
+exercise using a primitive piece of equipment that looks like a cannonball with
+a handle attached. Resistance-band training is a form of strength training that
+uses rubber bands of different levels of elasticity. Medicine ball training involves
+exercising with a weighted ball to increase muscular strength and endurance.
+Heavy-rope training uses ropes of varying lengths and weights, challenging both
+cardiorespiratory fitness and muscle strength and endurance. Suspension train-
+ing uses ropes and straps to increase the difficulty of bodyweight movements.
+Weighted-sled training uses a piece of equipment resembling a sled with rails
+or wheels; weight can be added to the sled to increase resistance and emphasize
+strength, speed, and power development. Sandbag training is a form of resistance
+training that uses a not-quite-full sandbag to improve functional strength, balance,
+and cardiorespiratory endurance.
+15
+--- PAGE 25 ---
+16 | Metabolic Training
+Bodyweight Training
+When it comes to enhancing functional strength, your own body can provide you
+with not only the most accessible and cost-effective training tool but in many
+ways the most beneficial. Bodyweight-training exercises do not require a gym or
+specialized equipment to deliver an effective workout—they can be performed
+virtually anywhere. This training style provides you with a functionally based
+approach to increasing power, strength, endurance, and flexibility in the pursuit
+of muscle development and fat metabolism. Most importantly, bodyweight train-
+ing can be done by anyone, regardless of fitness level.
+The simplicity of bodyweight training allows you to quickly transfer from
+one exercise to another without having to adjust equipment or resistance. This
+significantly reduces rest time while keeping your heart rate in a target training
+zone and increasing caloric expenditure per unit of time. Bodyweight training is
+an excellent way to burn body fat and increase metabolic rate, not only during
+exercise but after exercise.
+Bodyweight training allows for natural progressions in intensity. Progressions
+commonly involve simply adding repetitions or time to an exercise for increased
+fitness or changing the movement pattern to increase the demand on strength.
+Focusing on volume eliminates the risk of utilizing resistances that may potentially
+result in injury while simultaneously improving flexibility by involving a full
+range of movement. The engagement of the core musculature required to perform
+bodyweight exercises naturally develops core strength and stability, which, in
+turn, appears to reduce injury risk (Haff, Berninger, and Caulfield 2016).
+In summary, the benefits of bodyweight training can be tied to the use of
+functional exercises that are adaptable to all levels of fitness. The use of these
+exercises in a workout provides a low-cost training method that increases muscle
+strength in several muscle groups at once, develops relative strength, and improves
+balance and coordination (Harrison 2011).
+Dumbbell Training
+Developed over 2,500 years ago, no single piece of fitness equipment has stood
+the test of time like the dumbbell. Dumbbells can be found in almost any exercise
+environment, be it a high-tech fitness center, boutique fitness center, hard-core
+gym, school, hotel, or home gym. Dumbbells offer you the ability to train your
+entire body and can be utilized regardless of your level of experience, level of
+fitness, age, or training proficiency. They remain a staple for adults looking to
+get in shape, youth and professional athletes, tactical professionals, elite fitness
+participants, and bodybuilders.
+Believed to date back to the ancient Greeks, dumbbells (halteres or alteres, as
+they were termed) came in various shapes and sizes and were made from mate-
+rials that could be molded in different ways. Other ancient cultures, including
+the Indians, Egyptians, and Chinese, are believed to have utilized dumbbell-like
+objects as well, although the Greeks are recognized as their creators.
+--- PAGE 26 ---
+Metabolic-Training Tools | 17
+The ancient Greek physician Galen is regarded as the first person to write a
+text (ca. 200 AD) on the benefits of exercising with dumbbells (Ford 1955; Ber-
+ryman 2012). Other significant exercise-associated works, such as Dialogues des
+Gymnastica in 1544 (Todd 2003) and De Arte Gymnastica Aput Ancientes in 1569
+(Ford 1955; Todd 2003), discuss dumbbell training as well. The term dumbbell was
+believed to have been coined in England during the 16th century, when athletes
+trained with handheld bells from which the clappers had been removed. Once
+the clappers were removed, the bells became silent, which gave rise to the name
+“dumbbells.” In 1864, with the release of John Blundell’s book The Muscles and
+Their Story (Todd 2003), dumbbells became even more popular. Ranging from 3
+to 100 pounds (1.4 to 45.4 kilograms), they became increasingly commonplace
+among fitness enthusiasts everywhere and established themselves as standard
+pieces of gym equipment.
+On February 14, 1865, the first plate-loaded dumbbell was patented. Today,
+there are three different types of dumbbells, each of which offers benefits. Adjust-
+able dumbbells consist of a short metal bar that is slightly knurled in the middle
+to improve hand grip. Weight plates can be slid onto each end and secured with
+collars. Adjustable dumbbells are quickly adaptable to weight changes and can be
+utilized to exercise all muscle groups. Fixed-weight dumbbells are often referred
+to as gym-style dumbbells because they are most often found in gyms. While
+they do not offer the versatility of adjustable dumbbells, a complete set of fixed
+dumbbells allows you to change weights quickly. Selectorized dumbbells are
+designed to maximize your training time by offering a single pair of dumbbells
+that can be quickly adjusted using a selector pin or dial to set the desired weight.
+Training with dumbbells produces favorable alterations in the muscular,
+nervous, endocrine, and cardiorespiratory systems, as well as connective-tissue
+improvements (Ratames and Izquierdo 2008).
+• Muscular-system adaptations involve increases in muscle-fiber angle and
+length, muscle size, muscle fiber type transition (Type I to Type II), pre-
+exercise energy-substrate levels, protein concentration, fiber number, oxida-
+tive capacity (with higher-volume training), and fatigue resistance.
+• Neural alterations include increased muscle-fiber recruitment and potentia-
+tion, as well as fatigue resistance, which leads to a higher training capacity.
+• Benefits to connective tissue include increases in bone-mineral density, tendon
+and ligament size, and tendon and ligament strength.
+• Cardiorespiratory improvements encompass acute cardiac output and stroke
+volume increases.
+• Metabolic alterations are tied to three energy systems:
+1. Phosphagen energy system. Provides energy for short-term, high-intensity
+exercise of 0 to 30 seconds
+2. Glycolytic energy system. Provides energy for exercise of 30 seconds to 2
+minutes
+--- PAGE 27 ---
+18 | Metabolic Training
+Training Safely with Dumbbells
+When training with dumbbells, safety precautions should be taken to reduce the poten-
+tial for injury. Complete adequate movement preparation and a dynamic warm-up prior
+to a training session. Start with lighter weights and progress to heavier weights when
+performing multiple sets. Select a weight that will provide maximum training benefits
+without forcing you to sacrifice correct technique and risk getting injured.
+Maintain an erect, firm torso and lift the dumbbells from a rack or the floor using your
+legs, bending at the knees and maintaining a flat back. Enlist the assistance of a spotter
+when needed to ensure correct form and lift safety. Consult with a medical professional
+(physician or physical therapist) if you experience persistent or recurring pain or any pain
+prior to or after starting a lifting program.
+3. Oxidative energy system. Provides energy for exercise of 2 minutes or
+greater (Herda and Cramer 2016).
+Dumbbells offer an operative means to focus on major muscle groups of the
+entire body. They can be utilized in a gym, at home, or outdoors with no required
+installation or setup. Exercising with dumbbells necessitates greater stabilization,
+recruiting a greater number of secondary muscle groups than machine exercises
+and forcing limbs to work individually, which helps to prevent imbalances.
+Kettlebell Training
+Just about any gym, regardless of the population it serves, has kettlebells in its
+strength-training or group-exercise areas. While the use of kettlebells in the
+United States is new, training for strength and fitness with kettlebells can be
+traced back centuries to their Eastern European roots (Harrison, Schoenfeld, and
+Schoenfeld 2011). A kettlebell consists of an iron handle attached to an iron ball
+(Cotter 2022). Kettlebell training offers a safer alternative to heavy-load lifting,
+targeting weaknesses and imbalances and correcting them through short, high-
+intensity workouts that increase hormonal production for muscle development
+and keep cortisol levels low.
+Kettlebells have been studied more recently by strength and conditioning
+researchers interested in these tools’ ability to enhance strength, power, and car-
+diorespiratory fitness in individuals ranging from novice exercisers to elite-level
+athletes and fitness enthusiasts (Beardsley and Contreras 2014). The benefits of
+kettlebell training are numerous. Kettlebell training has been shown to increase
+overall strength and power production (Jay et al. 2011); improve core strength by
+emphasizing power, acceleration, and multiplanar and unilateral movement pat-
+terns (Lake and Lauder 2012); encourage the production of force and speed through
+the hips (Otto et al. 2012); and promote the development of lean body mass through
+high-repetition sets combined with short rest periods. Often-neglected muscles of
+the back of the body (core, shoulders, hips) are targeted, which improves posture
+--- PAGE 28 ---
+Metabolic-Training Tools | 19
+and posterior-chain function (Jay et al. 2011). Kettlebell training has also been
+shown to improve grip strength, which enables other strength gains (Manocchia
+et al. 2013).
+Because of its emphasis on higher volume and shorter rest periods, kettlebell
+training is associated with increased caloric expenditure per unit of time (20
+calories per minute), resulting in increased metabolism during and after training,
+increased fat metabolism, increased muscular endurance, and better cardiorespi-
+ratory function (Jay et al. 2011). Kettlebells provide the user with one piece of
+exercise equipment to train the entire body (Jay et al. 2011). If you are limited with
+space at home or want to minimize your movement around the gym, kettlebells
+are the perfect tools to simplify your workout. Kettlebell training uses dynamic
+movement patterns that increase mobility, proprioception, flexibility, and body
+awareness by forcing the user to move through all three planes of motion in a
+controlled, fluid manner. With kettlebells, stabilizing muscle groups are trained
+in combination with primary muscles, leading to improved joint stability, coor-
+dination, and balance (Manocchia et al. 2013). Finally, kettlebells offer a fun and
+exciting way to train because the exercises are based on movement patterns and
+require you to be more engaged (Jay et al. 2011).
+When performing kettlebell exercises, use the grip position (neutral grip, with
+palms facing in; supinated grip, with palms facing up; or pronated grip, with palms
+facing down) and hold position (at your side, between your palms, in your palm,
+or upside down) that best suits each exercise (Cotter 2022). When performing an
+exercise in a standing position, place your feet slightly wider than shoulder-width
+apart. With training resistances between 80 and 100 percent of your repetition
+maximum (the maximum resistance you can utilize with a given volume and
+intensity), avoid holding your breath—you should continue to inhale and exhale
+throughout the movement (Haff, Berninger, and Caulfield 2016).
+Resistance-Band Training
+Resistance bands have become a staple of just about every fitness environment.
+Resistance bands come in three basic forms: tube, loop, and mini. Each of the
+three types provides unique benefits. Resistance bands come in a variety of
+colors often with handles. The color of a resistance band designates its tension
+level. What makes resistance-band training unique is that tension increases as
+the bands are stretched, meaning that resistance increases as more muscle groups
+are incorporated in a movement pattern (Haff, Berninger, and Caulfield 2016).
+Resistance bands can be used at any fitness level and any age. Youth, adults,
+seniors, competitive athletes, tactical professionals, and individuals with chronic
+conditions or disorders can all benefit from resistance-band training. Addition-
+ally, resistance bands are among the most inexpensive pieces of equipment and
+can easily be packed in a suitcase and utilized anywhere.
+Resistance bands are beneficial for metabolic training because they can be
+used safely and effectively at higher volumes with shorter rest periods. Training
+with resistance bands is an excellent way to reduce body fat and simultaneously
+--- PAGE 29 ---
+20 | Metabolic Training
+develop muscle. In conjunction with dietary changes, resistance bands can bring
+about significant physiological changes when used three to five times per week.
+Resistance bands are frequently used while warming up and cooling down.
+In this context, they serve as an excellent primer, increasing heart rate and joint
+mobility through dynamic range-of-motion movements at reduced resistances.
+Following this approach ensures that there is adequate blood flow to the exer-
+cising muscles and the heart before higher-resistance exercise commences. The
+use of resistance bands as part of the postworkout cool-down can improve blood
+flow, reduce muscle soreness, and prevent injuries by enhancing stretches and
+flexibility exercises (Page and Ellenbecker 2020).
+Resistance bands are excellent tools for increasing muscle strength and endur-
+ance, and they can be used to simulate many of the same exercises performed
+with barbells and dumbbells. They also lend themselves well to developing explo-
+sive power, through multijoint exercises as well as exercises that target specific
+muscle groups. The unstable, elastic nature of resistance bands means that users
+will recruit secondary and stabilizing muscle groups when working with them.
+Resistance bands also allow exercisers to increase range of motion in a manner
+that is safe for the joints and the spine.
+Resistance bands can serve as an excellent tool to assist with bodyweight
+movements and other strength-training exercises. When utilized with bodyweight
+exercises, they can decrease bodyweight, for movements such as the pull-up, or
+increase resistance, for movements like the bodyweight squat. Adding bands to
+traditional strength-training exercises, such as the bench press or the squat, can
+increase the demands on muscle stabilization and power throughout the lift.
+Resistance bands are effective in targeting all three planes of movement uti-
+lized in sports and other fitness activities. Please refer to chapter 1 for a review
+of planes of motion. Sagittal-plane movements are movements that occur forward
+and backward. Frontal-plane movements are movements that occur side to side.
+One of the most important planes for functional movement is the transverse plane.
+Movement in the transverse plane is rotational in nature and can vary in speed.
+Developing power, muscle strength, and endurance in the transverse plane not
+only increases power for functional movement but also reduces injury risk from
+rotational movements.
+By following the FITT principle and adjusting training frequency (number of
+sessions per week), intensity (band resistance), type (exercise selection), and time
+(pace of the exercise, including movement speed, exercise volume, and recovery
+between sets or exercises), exercisers can use resistance bands to reach physiologi-
+cal and athletic goals, such as developing lean body mass, losing fat, increasing
+strength and conditioning levels, and enhancing sports performance. For example,
+performing higher-repetition sets with shorter rest periods can be effective in
+increasing lean body mass and burning body fat, while lower-repetition sets
+paired with longer rest periods can be effective in increasing strength, power, and
+technical skill. Based on the goals of the program, training loads and recovery
+periods can be assigned based on the repetition maximum (the maximum amount
+--- PAGE 30 ---
+Metabolic-Training Tools | 21
+of resistance that can be used to perform a given number of repetitions and sets
+with structured recovery periods) (Sheppard and Triplett 2016).
+Medicine Ball Training
+Medicine balls can be traced back to ancient Persia, Greece, and Rome, where
+they were used by athletes to increase strength, power, and athletic performance.
+It is believed that the ancient Greeks stuffed animal skins for patients to toss for
+medicinal purposes. A similar type of ball is believed to have been used in Persia
+in the 1700s. The term medicine ball can be dated back to 1876 (Roberts 2020). Hip-
+pocrates believed them to be an essential tool for helping people regain normal body
+movement after injury, as well as a means for enhancing and maintaining overall
+health. Few, if any, pieces of equipment are versatile in the way that medicine
+balls are: not only can they be lifted, but they can also be thrown and slammed.
+The adaptability of medicine balls enables users to utilize nontraditional methods
+to expand training goals and objectives. In addition, nearly every medicine ball
+exercise can be combined with other exercises to create a continuous flow with
+minimal rest. This is beneficial for two reasons:
+1. It mimics functional movements used in everyday life.
+2. It enables users to program any number of exercise combinations and varia-
+tions.
+Today, medicine balls are used to develop power, strength, anaerobic endurance,
+and cardiorespiratory fitness.
+Medicine balls can be soft or firm, can come with or without handles, and can
+vary in weight from 2 to 100 pounds (0.9 to 45.4 kilograms). Medicine ball training
+has a wide spectrum of applications, ranging from injury rehabilitation to strength
+and sports-performance enhancement (Faigenbaum et al. 2006; Hagberg et al.
+2009). Its ability to recruit a significant number of muscle groups and to develop
+explosive power through functional movement makes medicine ball training an
+essential tool in fitness, rehabilitation, and sports performance (Vincent, Traywick,
+and Washburn 2013). When training with a medicine ball, perform 10 to 15 reps
+or perform reps for a designated time, provided that you can do so with good form
+(Faigenbaum et al. 2006). When selecting a medicine ball, it is important to choose
+one heavy enough to reduce movement speed but not so heavy that technique,
+form, and range of motion will be negatively impacted. Medicine balls weighing
+between 4 and 15 pounds (1.8 to 6.8 kilograms) are generally recommended as a
+starting point (Faigenbaum et al. 2006; Vincent, Traywick, and Washburn 2013).
+Medicine ball training can be effective as a fat-burning exercise when periods of
+high-intensity, high-volume training are implemented to maximize caloric expen-
+diture. This results in an increased postexercise metabolic effect as well. Training
+with medicine balls allows exercisers to utilize their full range of movement, which
+is important for developing total-body strength. Medicine balls also lend themselves
+to developing strength in the context of sports that require rotational movement.
