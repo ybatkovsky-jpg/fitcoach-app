@@ -490,7 +490,7 @@ export function generateWorkout(
     estimatedDurationMin,
     workoutType: getWorkoutTypeLabel(phaseInfo.name as PeriodizationPhase),
     workoutTypeDescription: `${phaseInfo.description}. ${TRAINING_METHODS[method].repRange.min}-${TRAINING_METHODS[method].repRange.max} повторений, отдых ${getScientificRest(method, 'strength', profile.fitnessLevel)} сек.`,
-    periodizationPhase: phaseInfo.name as PeriodizationPhase,
+    periodizationPhase: phaseKey,
     blockNumber,
     weekInBlock: weekInPhase,
     totalCycleWeeks: TOTAL_CYCLE_WEEKS,
