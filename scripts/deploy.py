@@ -10,7 +10,6 @@ client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 
 try:
     client.connect(HOST, port=PORT, username=USER, password=PASS, timeout=15)
-    print("Connected!")
 
     cmds = [
         'cd /root/fitcoach-app && git pull origin main 2>&1 | tail -3',
@@ -28,7 +27,7 @@ try:
 
     import time; time.sleep(2)
     stdin, stdout, _ = client.exec_command('curl -s -o /dev/null -w "%{http_code}" http://localhost:3080/', timeout=10)
-    print(f"\nHTTP status: {stdout.read().decode()}")
+    print(f"\nHTTP: {stdout.read().decode()}")
 
 except Exception as e:
     print(f"Error: {e}")
