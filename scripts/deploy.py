@@ -1,4 +1,5 @@
 import paramiko
+import time
 
 HOST = '64.188.56.25'
 PORT = 22
@@ -25,7 +26,7 @@ try:
         if out: print(out)
         if err: print(f"ERR: {err}")
 
-    import time; time.sleep(2)
+    time.sleep(2)
     stdin, stdout, _ = client.exec_command('curl -s -o /dev/null -w "%{http_code}" http://localhost:3080/', timeout=10)
     print(f"\nHTTP: {stdout.read().decode()}")
 
