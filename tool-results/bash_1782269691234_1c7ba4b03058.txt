@@ -1,0 +1,761 @@
+--- PAGE 18 ---
+your stress level, intensity level, and rate of adaptation in terms of overall
+fitness. Recent advances in technology provide simple and noninvasive
+methods for measuring 24-hour heart rates. Previously, 24-hour monitoring
+was done only for medical reasons when a heart condition was suspected.
+This usually involved wearing a Holter monitor and was performed
+specifically on cardiac patients with the objective of detecting irregular
+rhythms. Today, however, 24-hour monitoring can be used in athletics to
+gauge recovery from training sessions, predict sickness, and ultimately
+allow for real-time manipulation of training loads and sessions. Collecting
+heart rate data over a 24-hour period allows one to detect very small, but
+meaningful, changes in resting and exercise heart rates. Data that reveals
+abnormal responses consequently allows both coach and athlete to
+manipulate rest, recovery, and workload. We do this with the specific
+objective of maximizing performance, minimizing injury, optimizing rest,
+and ensuring adequate recovery during exercise sessions such as interval
+workouts. Collectively, this allows for better overall progress and avoidance
+of cases of overtraining that so easily lead to injuries and illnesses.
+Of the many benefits of 24-hour monitoring, here are four:
+1. It allows an athlete to gauge the overall stress load outside of the
+exercise routine. Often an athlete’s daily routine can add significantly
+to his or her daily exertion, necessitating nutritional or recovery
+intervention.
+2. It gives a greater overall view of total caloric expenditure.
+3. It can provide feedback on sleep quality (another recovery indicator).
+4. It gives more real-time feedback about the body’s response to an
+individual workout and consequently allows for real-time adjustments
+to subsequent workouts, meaning it allows for smarter training.
+Of course, all this requires that you use and analyze your heart rate data
+correctly. So, understanding the basics of heart rate monitoring and training
+is necessary for you to achieve results. Once you understand how to
+monitor and interpret your heart rate response to any given exercise
+scenario and how to respond (e.g., rest, increase intensity, decrease
+intensity), you will be able to optimize your fitness adaptations. This
+chapter provides the information that will give you the independence to
+--- PAGE 19 ---
+confidently individualize your workouts. But before we go into details, we
+have important background information to cover.
+Four Components of Physical
+Fitness
+The process of getting in shape involves the four components of fitness—
+endurance, stamina, economy, and speed—and these are developed in
+phases. This is also their order of progression as you train. Figure 1.1, the
+basic model for training, shows these components schematically. Each is
+developed at a specific intensity, and in the early stages of training is
+optimally developed within a very specific intensity range. Exercising
+below the target intensity zones will not deliver the stimulus required to get
+in better shape. Exercising above the intensity range will result in
+maladaptations such as increased risk of injury, premature peaking, or
+staleness from overtraining, all of which result in poor performance. Each
+component has a zone with upper and lower limits. Heart rate is the
+simplest and most effective way to monitor intensity and therefore ensure
+training in the correct zone of effort.
+--- PAGE 20 ---
+FIGURE 1.1 Basic model for training.
+Here, we are trying to carefully mix both lay language and lab language
+to get our concepts across. We will use the terms aerobic and anaerobic
+quite freely to relate to these components of fitness. Oxygen is the common
+currency of both the circulatory and respiratory systems, and while we don’t
+count respiratory rates, these descriptions of your breathing will associate
+well with aerobic and anaerobic work. The breathing involved with aerobic
+work is so verbal it is like reading aloud one of Faulkner’s endless run-on
+sentences that may last a whole page before coming to a period. The
+breathing involved in anaerobic threshold work is less verbal, more like a
+classic Hemingway sentence of just several trenchant words. The breathing
+involved in anaerobic work is almost wordless with listeners hearing only
+very heavy, fast panting. Review the following definitions and explanations
+of these key components of fitness.
+Endurance (Phase I)
+Endurance is our first phase of training, and endurance is the ability of a
+muscle to repeat a movement aerobically, no matter how much it slows
+--- PAGE 21 ---
+down, until it runs out of fuel. Jogging for fun and fitness and long runs for
+a marathon are classic examples of endurance development exercises. To
+develop the endurance for a marathon, for example, requires lengthening
+each of the weekly long runs by a couple of miles. As runners reach their
+current level of endurance, they approach the point where fuel supplies of
+glycogen run low. To meet today’s mileage goal, they slow down to finally
+make it to the end of the workout. Endurance improves as muscles learn
+how to improve their metabolism of fat supplies. Simply put, it’s going
+from point A to point B no matter how much you have to slow down to
+lower levels of intensity. In general, basic aerobic endurance is developed at
+heart rates of less than 75 percent of the maximum heart rate (MHR). Think
+of this phase of conditioning as getting into shape. If you wish to jog to
+simply stay healthy, this is as hard as you have to work.
+Stamina (Phase II)
+Stamina is the second phase of training, and stamina is the ability of a
+muscle to repeat the movement at faster rates without exceeding your
+anaerobic threshold. Think of it as the ability to go at this faster pace, but
+over a shorter point A to point B distance. The objective of stamina training
+is to improve your tolerance of oxygen debts by minimizing the use of
+carbohydrate fuels (glycogen and glucose) while maximizing the use of
+fatty fuel. Consider this phase of conditioning as getting ready to race. The
+fitness emphasis in this phase is on preparing the cardiovascular and
+respiratory systems to work hard without overreaching. Steady-state
+workouts at 75 to 80 percent MHR for 45 to 60 minutes are good examples
+of stamina workouts. Tempo workouts at 80 to 85 percent for 20 to 30
+minutes are great for improving stamina to a slightly higher level. If you are
+a recreational athlete who wants to participate in events and finish smiling,
+this is as hard as you need to work. In general, stamina is developed in heart
+rate zones of 75 to 85 percent MHR.
+Economy (Phase III)
+Economy is our third phase of training, and economy is the ability of the
+muscle to repeat movements at an even faster rate, albeit for a shorter time,
+above its anaerobic threshold. Economy training develops the ability to
+--- PAGE 22 ---
+handle race paces while tolerating increasing levels of oxygen debt, which
+leads to the accumulation of lactic acid in the muscles. Economy workouts
+train the muscle cells how to optimize the use of oxygen and carbohydrate
+fuel at this higher level of effort. Think of this phase of conditioning as
+improving your racing fitness by adding more horsepower to your engine
+through workouts such as interval training, hill sprints, and fartlek running.
+(Fartlek, which literally means “speed play,” is a Swedish system of
+conditioning that features frequent changes in speed.) Good examples of
+economy workouts are those at moderate to high intensity for continuous
+tempo paces, or interval workouts featuring longer repetitions. If you wish
+to compete in athletic events, working this hard has to be included in your
+training program. In general, economy is developed in heart rate zones of
+85 to 95 percent MHR.
+Speed (Phase IV)
+Speed is our fourth and final phase of training, and speed is the ability of a
+muscle to repeat the movement at its maximum rate at full power under
+anaerobic conditions. It is the ability to go at top effort for short periods of
+time and to stay relaxed while tolerating increasing levels of lactic acid in
+the muscle tissue. The power training in this phase also will bring about
+final improvements in strength, flexibility, and coordination. Uphill sprints
+and interval workouts of shorter, faster, and maximum-intensity repeats
+with long and full recoveries are the best examples of speed workouts.
+Some might describe this wish to compete at full capacity as joining the
+P.T.A. (pain, torture, and agony) Society as you learn how to withstand the
+maximal exertion. In general, speed is developed in heart rate zones of 95 to
+100 percent MHR and often at speeds in excess of race pace.
+We fully recognize that these are not exactly dictionary definitions or
+standard laboratory usage; however, they are commonly used in the popular
+literature when discussing exercise and fitness. For the purpose of this
+book, we feel that they are useful in understanding the proper heart rate
+ranges so you can safely progress up the training triangle all the way to
+championship shape, depending on your goal. We start by identifying these
+concepts because they tie in well with the concept of oxygen use, which, of
+course, is conveniently estimated (albeit indirectly) by your heart rate.
+--- PAGE 23 ---
+Figure 1.1 on page 5 is our version of the classic training triangle and offers
+a graphic representation of this approach.
+Activities in the lower, easier zone result in specific physiological and
+biomechanical adaptations, whereas those in the upper, harder zone have
+their own important, yet different, biochemical and neurological
+adaptations. Developing speed requires fairly sophisticated training
+methods at even narrower effort zones within the anaerobic section of the
+triangle. These will be discussed in more detail in later chapters.
+Table 1.1 illustrates another way to present much of what we have
+covered so far and will talk about in later chapters.
+Consider the categories in table 1.1 with open-mindedness because the
+zones range as wide as 15 percent. The reason for this is that, in our
+experience, people generally run more comfortably at higher heart rates
+than they bike, row, or swim. While running in your endurance zone, you
+might be closer to the 70 to 75 percent mark; whereas when swimming, you
+may be closer to the 60 to 65 percent mark. When you become well trained,
+you will be able to perform more comfortably toward the upper level in any
+activity, which is the way we’d expect you to progress. An additional point
+about your maximum heart rate numbers: They will be different for each
+activity. Therefore, you need a true maximum heart rate for each activity,
+especially if you’re a triathlete. We will talk more about this in later
+chapters.
+Personal Considerations
+--- PAGE 24 ---
+Essentially, all people are made from the same parts. However, important
+differences, such as training objectives and genetics, affect their responses
+and adaptations to exercise.
+Do you want to improve your cardiovascular health and control your
+weight? If so, then we suggest that you exercise frequently and extensively
+at the very low levels of aerobic endurance effort, but don’t expect dramatic
+short-term gains. You need to make exercise a lifestyle habit.
+Does simply participating (but not really competing) in a 10K road race
+with the goal of just finishing with a smile seem like a good way to enjoy
+social recreation? If so, then for several months to a year, patiently increase
+the volume of your endurance training, but substitute a couple days of
+training in the stamina zone of the triangle.
+Do you want to compete and work hard at improving and setting
+personal records (PRs)? If so, you need to add at least a day per week of
+high-intensity, anaerobic economy or speed workouts at the very difficult
+and mentally challenging level.
+The preceding are general ideas to get you thinking about your training
+goals. Your reasons will affect your target heart rate choices. Your responses
+and adaptations, however, will also be affected by something else: your
+genetic makeup.
+Everyone understands that an easy effort results in a low heart rate and a
+harder effort raises it. Although this is true for the most part, the
+relationship is not uniformly predictable, especially in terms of absolute
+numbers. What this means is that two people exercising at the same
+absolute heart rate (145 beats per minute [bpm], for example) may have
+very different comfort levels and different physiological responses. Genetic
+differences such as the composition of fast- and slow-twitch muscle fibers
+can result in puzzling heart rate responses. Fast-twitch fibers (think
+sprinters) have different oxygen consumption rates than slow-twitch fibers
+do (think marathoners). Another factor that can result in widely different
+heart rates in two people of similar ability and fitness level is the anatomy
+and size of the heart. These differences may result in heart rates that differ
+from 35 to 70 bpm in people running at the same pace. Target heart rates are
+a lot like salaries—it’s best not to discuss them. Having a higher heart rate
+than someone else does not mean that you are less fit.
+--- PAGE 25 ---
+Your personal training goals and genetics will affect your responses to heart rate
+training.
+One last genetic issue to point out is significant, but far less remarkable
+—the difference in the heart size of men and women. This difference is
+revealed by the average resting heart rates of 72 bpm for men versus 84
+bpm for women. This book will help you monitor your training by showing
+you how to measure your cardiac response to your program designed
+around your specific goals.
+Rate of Perceived Exertion: Your
+Backup System
+Individualizing workouts assumes that you understand the difference
+between hard and easy effort. (The former makes you grimace and gasp for
+air, whereas the latter allows you to laugh and talk all the way home.) Each
+of us can make subjective distinctions between hard and easy tasks. Before
+telemetric heart rate monitors made counting pulses so convenient, the rate
+of perceived exertion (RPE), as illustrated by the Borg Scale, was the
+standard for using one’s own capacity for subjective measurement of hard
+and easy exercise effort. Dr. Borg’s 15-point scale could be used, for
+example, to describe how average people might feel as they progressed
+from walking a mile to trying to run it in 4 minutes. The scale described
+resting or walking as a very, very light effort, whereas exhaustion is
+--- PAGE 26 ---
+described as beyond very, very hard. In addition, the Borg Scale also
+introduced a value system of points ranging from 6 (resting) to 20
+(exhaustion). In short, Borg tried to correlate quantitative measures with his
+qualitative system.
+Although the Borg Scale is useful, it is an arbitrary system because it
+offers no objective way to measure exertion. For the competitive athlete, a
+heart rate monitor is a better way to quantify those measurements.
+Probably the most important reason for individualizing training is the
+fact that people have different workout objectives. What exactly, as a
+percentage of your maximum, are your target heart rate zones? The need to
+calculate these zones is the challenge that brought us to share our collective
+wisdom with you. So, there are plenty of reasons for using the information
+in this book to help you use your heart rate monitor intelligently. Your body
+is not like anyone else’s, so why work out like anyone else? Whatever your
+unique genetic gifts, current level of fitness, or goals are, this book will help
+you determine your target heart rates and individualize your training.
+Monitoring the heart rate of members of soccer, rugby, football, and
+lacrosse teams is growing as well as in athletes in other nonaerobic settings
+such as wrestling, weightlifting, and boxing. However, because of the start-
+and-stop nature of these sports, the use of heart rate to monitor intensity is
+somewhat limited; what it actually provides is information about energy
+expenditure and recovery rather than overall intensity. This doesn’t mean
+that you cannot use heart rate if you participate in these sports. Like aerobic
+athletes, you can use heart rate to monitor your training status and intensity
+during the aerobic training portion of your conditioning program or with
+interval training (a conditioning system that consists of repeated efforts over
+a time shorter than the length of the competition and done at fairly high
+intensities of 85 to 95 percent MHR), during which knowing the recovery
+heart rate is valuable. It is also a useful recovery tool.
+Using heart rate during higher-intensity anaerobic activity involves
+other, more complex physiological responses. Toward the end of the book,
+we provide more advice for using heart rate in the nonaerobic setting, but
+for now our focus is on the typical endurance athlete—the runner, cyclist,
+rower, cross-country skier, or triathlete.
+--- PAGE 27 ---
+What Heart Rate Reveals
+Heart rate provides a lot of information, but you must have an accurate
+monitor that provides reliable data. Accurate data will allow you to evaluate
+your own responses, adaptations, energy expenditure, training programs,
+and a lot more. The point to keep in mind is that you are embarking on a
+quest for knowledge that is highly individualized and therefore more likely
+to help you yield the results you want. Here is the information you can learn
+from heart rate monitoring, provided you have an accurate heart rate
+monitor:
+Correct intensity for aerobic system development
+Correct intensity for anaerobic system development
+Correct durations for time spent in appropriate training zones
+Appropriate recovery periods during interval training
+Appropriate recovery periods between exercise sessions
+Effective evaluation of adaptations to training programs
+Early warning signs of overtraining
+Early indications of heat stress
+Early indications of energy depletion
+Race pace strategy for longer competitions
+This list should convince you that heart rate training is indeed
+worthwhile (and these are only some of the benefits!).
+Understanding Heart Rate
+The simple beauty of monitoring heart rate is that it is based on your own
+heart’s capacity and nobody else’s. The heart is a muscle, and it responds in
+much the same way as any other muscle by getting bigger and stronger as
+you work out. When you are not working out, the heart continues to pump
+blood into your muscles to feed their repair and recovery. That’s why heart
+rate can inform you indirectly about the state of recovery of your muscles.
+If you still have microtears or are replacing fuel, your metabolism will be
+elevated, and your heart rate will reflect that by being slightly elevated.
+That’s why monitoring and recording your heart rate each morning when
+--- PAGE 28 ---
+you wake up will give you an idea of whether you’re still under a condition
+of repair from a previous workout. This is why your morning resting heart
+rate is one of the two most important numbers. Your maximum heart rate
+(MHR) is the other. Maximum heart rate is the fastest or highest number of
+times the heart can beat in a minute.
+Maximum heart rate doesn’t really change as a result of training, but all
+your training zones are calculated from that number. Therefore, you need an
+accurate maximum heart rate (see the Determining Maximum Heart Rate
+section in chapter 2). Resting heart rate, on the other hand, does change
+with training and generally decreases with increasing fitness. At times,
+resting heart rate can increase, which usually indicates fatigue, overtraining,
+or sickness. Charting your resting heart rate can help identify these
+conditions early.
+Take a look at the resting heart rate response of a runner over a one-
+month period depicted in figure 1.2. Notice what happens on the days
+following a high-intensity sprint workout or a long run. Each time the
+athlete performed a hard session or a long run, the resting heart rate was
+elevated on the following day. This information is useful because it can help
+the athlete adjust his or her workouts when he or she is not fully recovered
+and possibly prevent overtraining and injury. This is an example of how
+heart rate monitoring can help plan recovery, but it is equally useful in
+determining exercise intensity.
+--- PAGE 29 ---
+FIGURE 1.2 Morning resting heart rate over a period of 30 days. Harder workouts
+occurred on the day before each spike.
+Depending on the intensity of the exercise you’re doing, you’ll get a
+different adaptation throughout your body. We will simplify this by noting
+that easier exercise causes cardiovascular (aerobic) changes and harder
+exercise causes biochemical (anaerobic) changes. Both are necessary for
+good performance, and too much or too little of either will cause
+unwarranted adaptations. Your heart rate can help you determine the
+intensity of your training, thereby keeping you in the desired training zones.
+We’ll talk more about calculating target zones in chapter 2.
+Intensity Relationship of Heart Rate
+and Oxygen Consumption
+Our discussion so far has focused on heart rate. However, oxygen uptake, a
+close cousin of heart rate, is often mentioned in the popular literature.
+Experts seem to contradict each other or, at the very least, confuse readers
+as they recommend that training take place at various percentages of either
+of these physical capacities. Furthermore, oxygen uptake capacity is
+abbreviated different ways, sometimes as O or O uptake. At any rate,
+2 2
+O refers to the volume of oxygen consumed, and O max refers to the
+2 2
+--- PAGE 30 ---
+greatest amount of oxygen someone can consume, which usually occurs at
+maximum exercise intensity. In general, the fitter you are, the higher your
+O max will be. Both heart rate and O are ways to measure how hard
+2 2
+(intensely) someone is working. Heart rate response is simply a measure of
+how hard the cardiovascular system is working to distribute oxygen,
+whereas O measures include heart rate and the work of the respiratory
+2
+system’s and muscular system’s use of oxygen.
+During aerobic exercise, both heart rate and O increase as intensity
+2
+increases. However, the patterns of response for both variables are different.
+In science, terms such as linear and nonlinear are used to describe
+relationships between two variables. The term linear means that as one
+variable increases, the other variable increases in proportion to the change
+in the first variable. If one variable changes and the other changes but not in
+proportion, that is described as nonlinear.
+Although both heart rate and O increase in response to increasing
+2
+intensity, their responses are not entirely linear. For example, at lower
+exercise intensities, both variables increase in a similar (linear) manner, but
+at higher intensities, the heart rate response levels off (nonlinear) while the
+O response continues to climb. This does not detract from the value of the
+2
+information but instead shows that responses vary.
+Another important difference in response patterns is that we see a
+dramatic and rapid increase in heart rate at the start of exercise regardless of
+the intensity. Someone who begins to jog slowly may see a 25- to 40-beat
+increase in heart rate right away that could go, for example, from 75 to 110
+bpm. This heart rate will settle and may even decrease slightly after 5 to 10
+minutes and eventually remain at 105 bpm. On the other hand, O
+2
+responds slowly at the start of exercise, and we may see only a small
+change in the first 5 to 7 minutes that continues at a slow, steady pace, even
+with abrupt changes in intensity. Heart rate will continue to respond
+abruptly at the lower intensities and then smooth out and change more
+slowly at the higher intensities. It is important to understand this
+relationship because it can help explain aspects of performance such as
+warm-up and recovery. Let’s look at the overall relationship of heart rate,
+O , and intensity in more detail.
+2
+--- PAGE 31 ---
+The relationship between heart rate and intensity is convenient. Although
+O max is considered the gold standard for measuring intensity and work
+2
+capacity, its measurement is not easily available to the average athlete. This
+measurement needs to be done in a laboratory and can be expensive. But, if
+we can demonstrate a relationship between heart rate and O , we can use
+2
+the more convenient measure of heart rate to monitor training sessions
+anywhere.
+Table 1.2 shows what percentage of maximum heart rate you are
+working at based on your percentage of maximum oxygen uptake. For
+example, when you are working at 65 percent MHR, you are working at
+approximately 48 percent of O max. Remember, these numbers are not
+2
+absolute; they represent an approximation of where you’ll be at a certain
+heart rate and O . These numbers do vary a little more around the 70
+2
+percent mark, and for that reason, we need to use a range to ensure
+accuracy. In either situation, exercise slightly above or slightly below 75
+percent still represents an easy to comfortable workload.
+To further clarify the relationship between heart rate and O , let’s
+2
+consider data from the Human Performance Laboratory at the University of
+Vermont. Tables 1.3 and 1.4 show recorded data from two subjects. One
+subject performed on a treadmill and the other on a bike. Both were fairly
+well-trained athletes.
+TABLE 1.2 Percent MHR– O max Conversion Chart
+2
+% MHR Corresponding % O 2 max Training adaptation
+50% ~22% Minimal for trained athletes
+55 ~28
+60 ~42 Phase I: Endurance
+65 ~48
+70 ~52
+75 ~60 Phase II: Stamina
+80 ~70
+--- PAGE 32 ---
+85 ~78 Phase III: Economy
+90 ~85
+95–100 ~93 Phase IV: Speed
+TABLE 1.3 Data for a 19-Year-Old Female Cross-Country Skier*
+Time (min) Work rate (mph, % grade) Heart rate (bpm) O 2 (ml/kg/min)
+0:30 5, 0% 51 4.1
+1:00 5, 0% 93 11.3
+1:30 5, 0% 107 19.9
+2:00 5, 0% 116 29.5
+2:30 5, 0% 115 29.7
+3:00 6, 0% 117 29.5
+3:30 6, 0% 120 29.1
+4:00 6, 0% 118 28.5
+4:30 6, 0% 126 30.3
+5:00 7, 0% 128 31.7
+5:30 7, 0% 132 31.9
+6:00 7, 0% 137 36.0
+6:30 7, 0% 142 34.9
+7:00 7.5, 0% 144 38.0
+7:30 7.5, 0% 150 37.7
+8:00 7.5, 0% 153 37.7
+8:30 7.5, 0% 154 40.3
+9:00 8.0, 0% 156 39.7
+9:30 8.0, 0% 159 42.6
+10:00 8.0, 0% 162 42.7
+10:30 8.0, 0% 163 45.0
+11:00 8.5, 0% 163 41.6
+11:30 8.5, 0% 166 45.9
+--- PAGE 33 ---
+12:00 8.5, 0% 167 47.3
+12:30 8.5, 0% 171 45.9
+13:00 8.5, 2% 173 46.4
+13:30 8.5, 2% 171 47.5
+14:00 8.5, 2% 173 48.3
+14:30 8.5, 2% 174 50.7
+15:00 8.5, 4% 173 51.6
+15:30 8.5, 4% 176 54.8
+16:00 8.5, 4% 180 54.8
+16:30 8.5, 4% 183 54.7
+17:00 8.5, 4% 183 58.2
+17:30 8.5, 4% 182 58.1
+18:00 8.5, 6% 182 59.6
+18:30 8.5, 6% 183 61.2
+19:00 8.5, 6% 183 64.2
+*Test subject performed on a treadmill. Anaerobic threshold: 171 bpm; O max: 64.2 ml/kg/min; MHR: 183 bpm.
+2
+TABLE 1.4 Data for a 45-Year-Old Male Cyclist*
+Time (min) Work rate (watts) Heart rate (bpm) O (ml/kg/min)
+2
+0:30 120 110 3.4
+1:00 120 109 7.0
+1:30 120 105 24.0
+2:00 120 104 25.0
+2:30 120 100 26.1
+3:00 180 102 22.3
+3:30 180 109 27.3
+4:00 180 113 28.1
+4:30 180 114 31.8
+5:00 240 115 32.3
+--- PAGE 34 ---
+5:30 240 118 33.2
+6:00 240 127 36.8
+6:30 240 130 41.6
+7:00 280 134 42.8
+7:30 280 139 42.4
+8:00 280 141 45.7
+8:30 280 142 47.3
+9:00 320 145 48.0
+9:30 320 149 50.4
+10:00 320 152 53.0
+10:30 320 156 51.5
+11:00 360 156 57.9
+11:30 360 159 56.1
+12:00 360 163 59.5
+12:30 360 164 58.4
+13:00 400 167 62.2
+13:30 400 169 62.8
+14:00 400 172 64.8
+14:30 400 173 67.0
+15:00 410 173 66.0
+15:30 410 175 68.3
+16:00 410 177 67.2
+*Test subject performed on a bicycle. Anaerobic threshold: 152 bpm; O max: 68.3 ml/kg/min; MHR: 177 bpm.
+2
+The tables contain data for work rate, O max (ml/kg/min), and heart
+2
+rate (bpm). The other data of importance for both subjects is anaerobic
+threshold, which is noted in the footnotes. Pay attention to the anaerobic
+threshold data because we can use this as a reference point to demonstrate
+the relationships between heart rate and O . Anaerobic threshold will be
+2
+discussed in greater detail in chapter 6. For now, note that anaerobic
+threshold is the point at which you see heart rate creep up a little faster. It
+--- PAGE 35 ---
+also is the point at which you increase your anaerobic metabolism, which
+results in faster breathing, a higher heart rate, and less talking.
+Using heart rate calculations, you will see that subject 1 has an anaerobic
+threshold that occurs at 92 percent MHR but only 70 percent of O max.
+2
+For subject 2, the heart rate at anaerobic threshold occurs at 86 percent
+MHR but only 77 percent of O max. In other words, intensities will
+2
+always be lower when calculated as a function of O . The pattern of
+2
+response also is different between the two variables, and this partially
+explains the different percentages. O max has a pretty linear relationship
+2
+with work intensity, whereas heart rate is linear only up to 75 to 80 percent
+intensity. Then it flattens out and is nonlinear as you get closer to maximum
+(see figure 1.3).
+FIGURE 1.3 Heart rate versus O with increasing intensity.
+2
+Understanding this relationship is important because heart rate is a more
+reliable indicator of changes in fitness at any given workload. O , on the
+2
+other hand, is a better indicator of energy expenditure because energy
+expenditure is directly related to O . This is important because heart rate
+2
+response to a given workload will decrease with advancing fitness. O , or
+2
+--- PAGE 36 ---
+energy expenditure, will stay about the same for a given workload unless
+the subject loses weight.
+Figure 1.4 illustrates the fitness testing of a 40-year-old male subject
+before and after a brief training program. (These data are also presented in
+table 1.5.) The subject was tested after three months of training. Even
+though his body weight didn’t change much (he lost 4 pounds, or 1.8
+kilograms), his heart rate decreased over time even though his O stayed
+2
+pretty much the same at all submaximum values and then increased at
+maximum over time, showing improved fitness. Interestingly, maximum
+heart rate was the same as pretraining data even though the ending work
+rate was substantially higher. This is a desirable outcome.
+FIGURE 1.4 Heart data for a 40-year-old male before and after 12 weeks of easy
+baseline training. Data were collected on a bicycle in response to the same workload.
+This is exactly the outcome you would like to have after a period of
+training—lower heart rate at a fixed workload, same O max at a fixed
+2
+workload, but the O max is a lower percentage of maximum capacity
+2
+because maximum capacity has increased. (Improved skill levels also can
+contribute to the improvement of oxygen uptake capacity.) Both of these
+outcomes have to do with efficiency. The O max increases because of an
+2
+increased cardiorespiratory network in heart, lung, and skeletal muscle;
+--- PAGE 37 ---
+improved oxygen extraction; and improved fat metabolism. The heart rate
+at the fixed load decreases because the heart muscle is now stronger and can
+move more blood with each beat. The technical term for this is improved
+stroke volume. Later in the book we revisit these data by expanding them to
+look at power production at a given heart rate and how this can be used to
+improve fitness.
+--- PAGE 39 ---
+Energy Expenditure Relationship
+Between Heart Rate and O
+2
+So far, we have looked at the relationship between heart rate and intensity,
+the relationship between percent MHR and percent O max, and how these
+2
+variables can change with appropriate training over time. An important
+point is that there is a subtle difference in the response of both heart rate
+and O . As mentioned previously, heart rate is linear only up to 90 to 95
+2
+percent MHR, and then it smooths out and changes little in response to
+increasing workload. On the other hand, O continues to increase fairly
+2
+steadily all the way to maximum capacity. Figure 1.3 (see page 17) shows
+the relationship between heart rate and O during a maximum exercise
+2
+test. If you take a close look at the data, you’ll see that heart rate reaches
+maximum before O does. This means that you can increase intensity and
+2
+energy expenditure at maximum heart rate but not O max.
+2
+As intensity increases, so does energy expenditure, and O reflects
+2
+energy expenditure better than heart rate does. When we test subjects in the
+lab, we always determine energy expenditure from the oxygen consumption
+rates or O uptake. To do this, we need to understand the basic relationship
+2
+between energy expenditure (calories burned) and O . When people get a
+2
+O test, their scores are normally reported in milliliters of oxygen per
+2
+kilogram of body weight per minute (ml/kg/min). However, these data are
+actually recorded in liters per minute (L/min) and then converted to
+milliliters afterward. Consider this example of a 60-kilogram runner:
+Runner weight: 60 kg
+O max in L/min: 4.0 L/min
+2
+O max in ml/kg/min: 4.0 L × 1,000 = 4,000 ml
+2
+4,000 ml ÷ 60 kg = 66.6 ml/kg/min
+How much energy expenditure is taking place at this level? To answer
+this question, you need to remember the following relationship: 1 L oxygen
+= 5 cal. Therefore, a runner consuming 4.0 L/min (or 66 ml/kg/min) is
+burning approximately 20 calories per minute.
+--- PAGE 40 ---
+Now we can calculate the energy expenditure for any athlete in any sport
+at any intensity with some basic data. But more important, you can see that
+energy expenditure is a function of oxygen consumption and not necessarily
+of heart rate because the heart rate response to exercise changes as a
+function of many factors (which we’ll discuss in chapter 3), whereas O
+2
+tends to stay the same at rest or at any given workload.
+Any treadmill or stationary bike these days can calculate (guestimate)
+calories burned. When you exercise, you are moving a given load (your
+body weight) at a given speed or over a distance, or overcoming a load,
+such as the resistance on a bike. This provides a few known variables: loads
+or forces and distances. Using this information, we can calculate how much
+oxygen is needed to perform the workload. From there, we apply our 1 L
+oxygen = 5 cal calculation to get energy expenditure.
+When you get on a treadmill, the system asks for your weight. From
+there, it uses the speed and grade you select to calculate the rest. A
+stationary bike doesn’t need your body weight. Instead, it uses the selected
+level of resistance as the weight. As you get fitter, the O requirement
+2
+doesn’t change because the load stays the same, but your heart rate should
+decrease in response to the same load. This is another way to use heart rate
+to evaluate fitness response to a given workload. Now you can select a
+workout with the goal of burning a certain number of calories and even take
+it outside.
+By now you’re well on your way to understanding the relationships
+among intensity, heart rate, and O and can calculate anaerobic threshold
+2
+and heart rate changes at a given pace to changes in fitness over time,
+among other things. The coming chapters will add to your knowledge of
+how and why to use heart rate to guide your training program.
+--- PAGE 41 ---
+CHAPTER 2
+Evaluating and Customizing
+Your Zones
+T
+his chapter addresses what the heart rate numbers should look like
+depending on your chosen intensity. We also discuss calculating both
+maximum heart rate (MHR) and target heart rate zones properly. As we do
+this, we identify sources of error in the measurements so you’ll know right
+away if there’s a problem. Finally, we discuss how the numbers should
+change as you progress with your exercise program. Most important, you’ll
+understand how to manipulate your training times and intensities by using
+heart rate to ensure that you optimize your training and adaptations. We’ve
+included additional information about the heart rate response and
+distribution of the population in general to give you a bigger overall picture.
+However, we start with the basics—getting used to the heart rate monitor
+and learning what the numbers mean.
+Facts and Myths About Heart Rate
+Numbers
+What do heart rate numbers mean? Before interpreting the numbers, we’d
+like to share our experience in understanding heart rate responses to
+exercise. This is one of the most important benefits of this book because
+this information is seldom included in the instruction manuals that come
+with heart rate monitors. Knowing some basic truths and common
+--- PAGE 42 ---
+misunderstandings can help you avoid getting false feedback from your
+monitor. To see how well you understand heart rate, read each statement
+and determine if you believe it is true or false.
+1. The popular formula of subtracting your age from 220 bpm for
+predicting MHR is reliable for everyone.
+2. Treadmill or bike testing for MHR is not a learned skill and takes no
+experience.
+3. Treadmill or bike cardiac stress tests administered in physicians’
+offices often fall far short of revealing actual true MHR.
+4. A heart rate number is a heart rate number. In other words, once
+you’ve got a heart rate training zone for any sport, you can apply it
+across a range of sports.
+All in all, what you see on a heart rate monitor will be reliable and valid.
+But too many people who have spent money on monitors bury them in the
+back of their sock drawer and don’t use them because they have become
+frustrated by irrational numbers. So, let’s see how you did on the quiz.
+Myth 1: Predicting Maximum Heart Rate
+The idea that anyone can subtract his or her age from 220 bpm to predict a
+reliable MHR is a myth. That is only helpful for 65 percent of the
+population. Here’s a real-life example from Bob Johnson, who doesn’t
+realize that he has an exceptional heart. When he bought a monitor at age
+55, he had no idea that his MHR was way above predicted average. By
+using the age-adjusted formula suggested in the instructions that came with
+the monitor, he calculated his MHR to be 165. Using the standard target
+heart rate zone of 60 to 70 percent for an easy aerobic workout, he set his
+receiver to beep when he was outside the zone of 99 to 115 bpm. Bob went
+out for a jog and within minutes was exceeding 115 bpm. He slowed down
+to keep the alarm from sounding. In another few minutes, he was reduced to
+walking and then to a crawl to keep his monitor quiet. This was not the
+monitor’s fault. It was merely doing its job by warning him that he was out
+of his target zone. Bob knew that he was not in bad shape for his age, but
+this was shocking. After a few more workouts, Bob’s puzzlement over his
+new purchase was growing into a good case of frustration.
+--- PAGE 43 ---
+What was wrong? Bob didn’t realize that he had a smaller-than-average
+heart and that it could compensate by being able to reach a much higher
+MHR. In fact, his actual MHR turned out to be an even 200 bpm, 35 beats
+higher than predicted by the conventional formula.
+So what’s the story? Let’s start with this fact: The average MHR of a
+brand-new baby, who has a heart the size of a walnut, is 220 bpm. And we
+know that as a person grows up, the heart also grows bigger. At adulthood,
+the heart is about the size of the person’s fist. Naturally, it has more
+capacity for holding blood in its chambers. This means that more blood is
+pumped with each stroke (greater stroke volume), and hence, fewer beats
+are required. By age 20, growth of the heart brings the average MHR down
+to about 195 bpm. From that age, the aging process causes a further decline
+at the convenient rate of about one beat per year. This explains the logic of
+the formula 220 minus age equals predicted MHR.
+Now here is the key to understanding why Bob could hit 200 at age 55.
+Maximum heart rates are naturally spread across the standard distribution of
+a bell-shaped curve. As with intelligence, there is a wide range from one
+end of the curve to the other for people of the same age. On each of the plus
+and minus sides of the mean is a standard distribution of MHR of 12 bpm.
+This distribution means that only those at the mean can reliably predict
+MHR by using the age-adjusted formulas. Depending on where you fall on
+the curve, your MHR may be as high as 36 bpm above or below what the
+formula predicts.
+Trust us on this one. Long before telemetric heart rate monitors, when
+we used our fingers to palpate carotid arteries (the jugular vein in the neck),
+we counted maximum heart rates as high as 200 and as low as 140 bpm for
+50-year-olds. People with high maximum heart rates simply have smaller
+but much quicker hearts. Some young adults whose hearts are as big as
+grapefruits have maximum heart rates of 140 to 160 bpm at truly drop-dead
+levels of fatigue, and this is normal. Admittedly, these examples are few and
+far between, but they do exist, and maybe you’re one of them. The bottom
+line: You need an accurate measure of maximum heart rate.
+Myth 2: Enduring Fitness Testing
+--- PAGE 44 ---
+It’s true that someone not experienced with exhaustive levels of athletic
+effort might not do well on a first max treadmill stress test. So the idea that
+treadmill or bike testing for MHR is not a learned skill and takes no
+experience is a myth. People often bail out long before they reach their true
+maximum values because they don’t know how to endure the pain of full
+fatigue or they simply are unfamiliar with this level of effort and are
+uncomfortable with it. True MHR is not reached until the beats per minute
+plateau and refuse to rise any higher no matter how much harder, faster, or
+longer the subject moves. Most rookies have to survive several close
+brushes with exhaustion before they realize how hard they can push
+themselves and what levels of fatigue they can endure and live to tell about.
+If you have suspicions about your MHR, keep trying by repeating the tests
+we recommend, or checking your monitor at the end of really hard
+workouts or races.
+--- PAGE 45 ---
+Even an endurance fitness test in a clinical setting may not accurately reveal true
+maximum heart rate. Athletes have to push themselves until their heart rate plateaus,
+which is beyond what many people can endure.
+Myth 3: Getting a Real Maximum Effort
+Doctors usually don’t like to stand around watching patients perform heroic
+feats of athletic endurance during exercise stress tests. Because doctors are
+in the business of detecting hidden heart disease, treadmill or bike cardiac
+stress tests administered in a physician’s office are usually submaximal and
+don’t reveal true MHR. Symptoms of coronary artery problems usually
+surface once the subject reaches or slightly exceeds anaerobic threshold
+(AT). Despite the fact that the anaerobic threshold is fitness dependent and

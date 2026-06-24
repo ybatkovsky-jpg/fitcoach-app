@@ -1,0 +1,457 @@
+    46→    70→    70→can be used to determine exercise intensity or the physical demands associated
+    47→    71→    71→with a particular exercise.
+    48→    72→    72→Workout Structure
+    49→    73→    73→The following general guidelines should be followed when designing a workout or
+    50→    74→    74→series of workouts over days, weeks, and months. Doing so will ensure a higher-
+    51→    75→    75→quality workout and will optimize training.
+    52→    76→    76→• Fatigue management. Properly managing fatigue during a workout involves
+    53→    77→    77→close monitoring of exercise selection, rest intervals, exercise order, exercise
+    54→    78→    78→grouping, training tempo, and workout length. As fatigue accumulates during the
+    55→    79→    79→workout, biomechanics and exercise technique can be compromised, which can
+    56→    80→    80→present safety issues.
+    57→    81→    81→• Speed before strength exercises. Exercises that require higher velocity of move-
+    58→    82→    82→ment, like plyometrics or jump squats, should be performed before slower move-
+    59→    83→    83→ments. High-velocity movements can tax the nervous system to an extent that
+    60→    84→    84→compromises subsequent exercises. In these scenarios, it is advisable to alternate
+    61→    85→    85→ground-based speed exercises with upper-body exercises. Split-squat jumps, for
+    62→    86→    86→example, could be followed by push-ups.
+    63→    87→    87→--- PAGE 17 ---
+    64→    88→    88→8 | Metabolic Training
+    65→    89→    89→• Technical before gross motor exercises. Metabolic training involves exercises
+    66→    90→    90→ranging from low to high demand. Biceps dumbbell curls or jumping jacks, for
+    67→    91→    91→example, are exercises that have low technical demands. On the other end of the
+    68→    92→    92→spectrum, a power snatch from the floor or a burpee would present high techni-
+    69→    93→    93→cal demands. Exercises with higher technical demands, like power movements,
+    70→    94→    94→should be performed when fatigue is low. This can mean performing them earlier
+    71→    95→    95→in the training session or after exercises that don’t bring about excessive fatigue.
+    72→    96→    96→In the context of metabolic training, gross motor exercises should be performed
+    73→    97→    97→after technical exercises. For instance, a hang power clean should be performed
+    74→    98→    98→after back extensions.
+    75→    99→    99→• Multijoint before single-joint exercises. Generally speaking, multijoint exercises
+    76→   100→   100→should be performed before single-joint exercises. Multijoint exercises require
+    77→   101→   101→more muscle mass and a higher degree of technique, and are more fatiguing, than
+    78→   102→   102→single-joint exercises. A sequence of exercises might include a landmine squat to
+    79→   103→   103→press followed by a supine triceps extension.
+    80→   104→   104→• Exercise grouping. Exercises can be paired or combined to achieve various
+    81→   105→   105→objectives, including, but not limited to, managing fatigue, promoting muscle
+    82→   106→   106→growth, improving athletic performance, developing power, developing strength,
+    83→   107→   107→and calibrating metabolic demand. Participant safety, available equipment, train-
+    84→   108→   108→ing goals, and individual limitations are also important considerations when
+    85→   109→   109→grouping exercises.
+    86→   110→   110→• Exercise demand. Keep in mind that different exercises will have different
+    87→   111→   111→levels of metabolic demand. Generally speaking, multijoint ground-based move-
+    88→   112→   112→ments will have higher levels of metabolic demand than single-joint, isolated,
+    89→   113→   113→machine-based exercises. Exercises that utilize more muscle mass, like squats
+    90→   114→   114→and lunges, will have a greater metabolic demand than biceps curls or dumbbell
+    91→   115→   115→side raises. For a training program to be successful, demand needs to be carefully
+    92→   116→   116→calibrated.
+    93→   117→   117→• Unstable and stable surfaces. The efficacy of unstable surfaces in developing
+    94→   118→   118→athletic performance is debatable, and the primary goal of metabolic training
+    95→   119→   119→is to improve metabolic efficiency and capacity. With that said, medicine balls,
+    96→   120→   120→stability balls, balance pads, and balance boards are popular fitness tools. Should
+    97→   121→   121→you choose to incorporate unstable surfaces into metabolic training, be aware of
+    98→   122→   122→your surroundings and any safety issues they might present. Careful consider-
+    99→   123→   123→ation should also be given to exercise selection. For instance, pre-fatiguing the
+   100→   124→   124→lower body before performing one-leg squats on a balance pad will increase the
+   101→   125→   125→difficulty of the exercise.
+   102→   126→   126→• Rest intervals. Although metabolic training can be demanding, there are times
+   103→   127→   127→when perceived effort is lower than expected. This is because neuromuscular
+   104→   128→   128→fatigue is distributed through different areas of the body, not confined to one
+   105→   129→   129→area or muscle group. One way to manage workout intensity or perceived effort
+   106→   130→   130→is by changing the rest interval. Longer rest intervals may be warranted after
+   107→   131→   131→high metabolic efforts, and shorter rest periods after reduced metabolic efforts.
+   108→   132→   132→Keep in mind that metabolic training will tax nearly every major muscle group
+   109→   133→   133→--- PAGE 18 ---
+   110→   134→   134→Why Metabolic Training? | 9
+   111→   135→   135→during each exercise session. A drawback of this approach is the high demand
+   112→   136→   136→associated with metabolizing lactate and hydrogen ions and the subsequent high
+   113→   137→   137→systemic acidity, especially among untrained individuals. Close monitoring of
+   114→   138→   138→fatigue levels and technique is advised.
+   115→   139→   139→• Ambient conditions. Ambient conditions—specifically, humidity and tempera-
+   116→   140→   140→ture—can affect fatigue. The body strives to sustain an internal temperature of
+   117→   141→   141→about 98.6 degrees Fahrenheit. The mechanical work of exercise generates heat. As
+   118→   142→   142→body temperature rises, sweat is produced to cool the skin, which helps to main-
+   119→   143→   143→tain body temperature. An indoor-gym temperature ranging from the low to high
+   120→   144→   144→60s, with moderate airflow, will assist in fatigue moderation. Additionally, lower
+   121→   145→   145→humidity will assist in sweat evaporation, which lowers the body’s temperature.
+   122→   146→   146→For these reasons, it is recommended that gyms be kept cool and well circulated.
+   123→   147→   147→• Safety. Safety considerations for metabolic training include exercise frequency,
+   124→   148→   148→intensity, duration, and type, all of which should be determined based on each
+   125→   149→   149→participant’s fitness level, as well as appropriate gear selection and proper hydra-
+   126→   150→   150→tion. Additionally, adequate time and attention must be devoted to warming up
+   127→   151→   151→and cooling down to ensure that the body transitions in and out of periods of
+   128→   152→   152→activity safely.
+   129→   153→   153→This chapter has covered the fundamental tenets of metabolic training, terms
+   130→   154→   154→frequently associated with this style of exercise, and factors that must be consid-
+   131→   155→   155→ered when designing an appropriate training program. The most important aspect
+   132→   156→   156→of any training program is safety. Though safety is affected by many interrelated
+   133→   157→   157→and interdependent factors, we recommend paying particular attention to whether
+   134→   158→   158→a training program is appropriate for you and whether your physical environment
+   135→   159→   159→is appropriate for exercise. Understanding the topics addressed in this chapter
+   136→   160→   160→will help you utilize metabolic training to meet your goals and get the most out
+   137→   161→   161→of your exercise program.
+   138→   162→   162→--- PAGE 19 ---
+   139→   163→   163→This Page Intentionally Left Blank.
+   140→   164→   164→--- PAGE 20 ---
+   141→   165→   165→2
+   142→   166→   166→Physiological Adaptations
+   143→   167→   167→to Metabolic Training
+   144→   168→   168→Physiological adaptation refers to how the body responds to, accommodates, or
+   145→   169→   169→adjusts to exercise. To give an over-simplified example, if you lift heavy weights,
+   146→   170→   170→your muscles get bigger. But there are actually a number of adaptations taking
+   147→   171→   171→place in response to such a stimulus. These adaptations include a more coordi-
+   148→   172→   172→nated neural signal to the activated muscles, uptake of nutrients, and the release
+   149→   173→   173→of muscle-building hormones.
+   150→   174→   174→Learning about the process of physiological adaptation will help you design
+   151→   175→   175→more effective workouts, understand how your body will respond to training,
+   152→   176→   176→and know what to expect with consistent and focused training. Two of the most
+   153→   177→   177→common fitness goals are burning fat and enhancing muscular development. This
+   154→   178→   178→chapter takes a deeper dive into some of the physiological adaptations to training
+   155→   179→   179→that can turn these goals into realities.
+   156→   180→   180→Adapting to Demands
+   157→   181→   181→As discussed in chapter 1, in reference to the specificity principle, adaptations are
+   158→   182→   182→specific to imposed demands. Adaptions can be morphological (related to muscle
+   159→   183→   183→size), biomechanical (related to strength and power), anatomical (related to muscle,
+   160→   184→   184→bone, or fat volumes), neurological (related to motor control), or metabolic (related
+   161→   185→   185→to aerobic or anaerobic energy pathways) in nature. Workout parameters such
+   162→   186→   186→as intensity level and rest duration can be set to elicit specific adaptations. For
+   163→   187→   187→instance, short, high-intensity exercise intervals (up to six seconds in duration,
+   164→   188→   188→focusing on quick movement with maximal intensity) paired with longer rest
+   165→   189→   189→intervals (1:1 to 1:4 work:rest ratio) can target the short-duration phosphagen meta-
+   166→   190→   190→bolic pathway. Conversely, lower-intensity activity paired with shorter-duration
+   167→   191→   191→rest intervals can target the aerobic metabolic pathway. Also, keep in mind that
+   168→   192→   192→exercises targeting multiple joints and muscle groups at one time are more meta-
+   169→   193→   193→bolically challenging than exercises targeting individual joints and muscle groups.
+   170→   194→   194→It should be pointed out that metabolic training utilizes both aerobic and anaero-
+   171→   195→   195→bic metabolic pathways, while also placing demand on the neuromuscular system
+   172→   196→   196→11
+   173→   197→   197→--- PAGE 21 ---
+   174→   198→   198→12 | Metabolic Training
+   175→   199→   199→by way of strength and power exercises. In other situations, metabolic training
+   176→   200→   200→can elicit more of an aerobic metabolic (endurance) response—for example, when
+   177→   201→   201→lighter weights are used. This de-emphasizes the neuromuscular system. These
+   178→   202→   202→two examples represent the various ways in which metabolic training can be pro-
+   179→   203→   203→grammed. Neither approach is superior to the other; the optimal program is best
+   180→   204→   204→determined by the goals of the program and the individual. With this concept in
+   181→   205→   205→mind, both aerobic and anaerobic adaptations can be observed.
+   182→   206→   206→Some metabolic-training programs implement strength-power and aerobic
+   183→   207→   207→(endurance) methodologies together. This approach is called concurrent training.
+   184→   208→   208→Research on the effects of concurrent training has yielded the following conclu-
+   185→   209→   209→sions:
+   186→   210→   210→• Concurrent training does not appear to compromise gains in aerobic capacity.
+   187→   211→   211→• The incorporation of resistance training may have a beneficial effect on
+   188→   212→   212→short-term endurance.
+   189→   213→   213→• The incorporation of aerobic training may compromise maximal strength in
+   190→   214→   214→experienced, resistance-trained individuals.
+   191→   215→   215→Consider the intensity of training: Short bursts of high-intensity training target
+   192→   216→   216→the anaerobic pathway. Longer-duration efforts, lasting more than three minutes,
+   193→   217→   217→start to emphasize the aerobic pathway. Metabolic activity is elevated by anaerobic
+   194→   218→   218→efforts of shorter duration if these efforts are performed at high intensity, which
+   195→   219→   219→includes heavy resistance training exercise (Herda & Cramer 2016). This idea
+   196→   220→   220→constitutes a fundamental element and benefit of metabolic training.
+   197→   221→   221→The Role of Excess Postexercise
+   198→   222→   222→Oxygen Consumption
+   199→   223→   223→It is also worth considering the impact of excess postexercise oxygen consumption
+   200→   224→   224→(or EPOC). EPOC refers to the prolonged increase in O that may be observed
+   201→   225→   225→2
+   202→   226→   226→for hours after exercise. A comprehensive study conducted by Borsheim and Bahr
+   203→   227→   227→(2003) determined that heavy resistance training produces greater EPOC than
+   204→   228→   228→circuit weight training. In other words, EPOC is intensity dependent in response
+   205→   229→   229→to resistance training. This study also found that EPOC is intensity dependent in
+   206→   230→   230→relation to aerobic training, with the greatest EPOC values occurring when dura-
+   207→   231→   231→tion and intensity were high, and that individuals vary in their response. The
+   208→   232→   232→greatest EPOC values were recorded when the intensity of aerobic exercise was
+   209→   233→   233→greater than 50 to 60 percent of O max and the duration was equal to or greater
+   210→   234→   234→2
+   211→   235→   235→than 40 minutes. It would stand to reason that maximal effort toward the end of
+   212→   236→   236→a metabolic-training session could optimize EPOC. The benefit of EPOC in the
+   213→   237→   237→context of metabolic training is its tendency to increase caloric expenditure and
+   214→   238→   238→fat burning above resting levels following the completion of a workout.
+   215→   239→   239→The following physiological factors, among others, are responsible for EPOC
+   216→   240→   240→(Herda and Cramer 2016):
+   217→   241→   241→1. Restoring oxygen in the blood and muscles, which enables the body to return
+   218→   242→   242→to its pre-exercise state
+   219→   243→   243→--- PAGE 22 ---
+   220→   244→   244→Physiological Adaptations to Metabolic Training | 13
+   221→   245→   245→2. Resynthesizing energy in the form of ATP, enabling the body to perform at
+   222→   246→   246→an optimal level during a subsequent metabolic-training session
+   223→   247→   247→3. Elevating body temperature, circulation, and respiration, which aids in
+   224→   248→   248→recovery and reduces muscle soreness and fatigue
+   225→   249→   249→4. Increasing protein turnover, which enables the body to increase lean body
+   226→   250→   250→mass as a training effect.
+   227→   251→   251→Short-Term Adaptations to Metabolic Training
+   228→   252→   252→Short-term adaptations are those that occur within one to four weeks and are spe-
+   229→   253→   253→cifically related to the composition of the training program. For example, heavy
+   230→   254→   254→strength training will yield greater increases in strength than low-intensity, high-
+   231→   255→   255→rep training programs. Short-term adaptations are relatively transient compared
+   232→   256→   256→to long-term adaptions, meaning that if you stop training after one to four weeks,
+   233→   257→   257→there is a relatively quick return to pre-training status. In practical terms, this
+   234→   258→   258→means that you should remain consistent in your training if you want to continue
+   235→   259→   259→to develop strength. It should be noted that nervous-system adaptations occur faster
+   236→   260→   260→than structural changes in skeletal muscle. This has led researchers and practi-
+   237→   261→   261→tioners to conclude that initial strength improvement is the result of neurological
+   238→   262→   262→changes. Even if you can’t see changes in your muscle size or composition early
+   239→   263→   263→on in your program, know that your body is adapting and building a foundation
+   240→   264→   264→for strength. Stick to your program, and the changes will be noticeable over time.
+   241→   265→   265→There are some adaptations that you may notice soon after beginning a met-
+   242→   266→   266→abolic-training program. Immediate cardiorespiratory responses to metabolic
+   243→   267→   267→training include increases in heart rate, oxygen uptake, systolic blood pressure,
+   244→   268→   268→blood flow to active muscles, the heart’s stroke volume, and cardiac output (French
+   245→   269→   269→2016). Ventilation rate increases significantly during resistance training (Statler
+   246→   270→   270→and Dubois 2016), and especially metabolic training, when short rest intervals
+   247→   271→   271→are employed. These improvements to your cardiorespiratory system will allow
+   248→   272→   272→you to breathe easier and work harder as you take on more-challenging workouts.
+   249→   273→   273→Long-Term Adaptations to Metabolic Training
+   250→   274→   274→Following are several adaptions and outcomes that can be achieved when per-
+   251→   275→   275→forming metabolic training.
+   252→   276→   276→Performance Adaptations
+   253→   277→   277→• Increased strength
+   254→   278→   278→• Increased endurance
+   255→   279→   279→• Increased anaerobic power
+   256→   280→   280→• Increased rate of force production
+   257→   281→   281→• Increased vertical jump
+   258→   282→   282→• Increased aerobic power
+   259→   283→   283→--- PAGE 23 ---
+   260→   284→   284→14 | Metabolic Training
+   261→   285→   285→Adaptations in Muscle Fiber
+   262→   286→   286→• Increased cross-sectional area, also known as hypertrophy
+   263→   287→   287→• Increases in type I, IIA, or IIB muscle fiber composition
+   264→   288→   288→• Increased capillary density
+   265→   289→   289→• Increased mitochondrial density
+   266→   290→   290→Adaptations in Enzyme Activity
+   267→   291→   291→• Increases in enzymes that contribute to strength and power production
+   268→   292→   292→Adaptations in Metabolic Energy Stores
+   269→   293→   293→• Increased glycogen stores
+   270→   294→   294→• Increased creatine phosphate
+   271→   295→   295→• Increased ATP storage
+   272→   296→   296→• Increased capacity to buffer hydrogen-ion production
+   273→   297→   297→Adaptations in Connective Tissue
+   274→   298→   298→• Increased ligament strength
+   275→   299→   299→• Increased tendon strength
+   276→   300→   300→• Possible increases in collagen content
+   277→   301→   301→• Possible increases in bone density
+   278→   302→   302→The physiological adaptations to metabolic training can be seen in the resto-
+   279→   303→   303→ration of oxygen to blood and muscle; the resynthesizing of energy in the form
+   280→   304→   304→of ATP; the elevation of body temperature, circulation, and respiration; and
+   281→   305→   305→increased protein turnover. These adaptations lead to increased strength, endur-
+   282→   306→   306→ance, anaerobic power, force production, and explosive power, as well as a higher
+   283→   307→   307→aerobic threshold. Muscular improvements include increased hypertrophy of Type
+   284→   308→   308→I, IIA, or IIB muscle fibers and capillary and mitochondrial density. Additional
+   285→   309→   309→benefits include improvements to metabolic-energy stores in all energy systems,
+   286→   310→   310→improved connective-tissue strength, and greater resistance to injury.
+   287→   311→   311→--- PAGE 24 ---
+   288→   312→   312→3
+   289→   313→   313→Metabolic-Training Tools
+   290→   314→   314→The purpose of this chapter is to introduce the nine training tools utilized in our
+   291→   315→   315→metabolic workouts. They are
+   292→   316→   316→1.bodyweight,
+   293→   317→   317→2.dumbbell,
+   294→   318→   318→3.kettlebell,
+   295→   319→   319→4.resistance band,
+   296→   320→   320→5.medicine ball,
+   297→   321→   321→6.heavy rope,
+   298→   322→   322→7. suspension,
+   299→   323→   323→8.weighted sled, and
+   300→   324→   324→9.sandbag.
+   301→   325→   325→Bodyweight training denotes strength-training exercises in which you move
+   302→   326→   326→your body against the resistance of gravity. Dumbbell training utilizes round,
+   303→   327→   327→hexagonal, or square weights connected by a short bar, which you lift or swing in
+   304→   328→   328→your hand, often in pairs. Kettlebell training provides strength- and cardio-based
+   305→   329→   329→exercise using a primitive piece of equipment that looks like a cannonball with
+   306→   330→   330→a handle attached. Resistance-band training is a form of strength training that
+   307→   331→   331→uses rubber bands of different levels of elasticity. Medicine ball training involves
+   308→   332→   332→exercising with a weighted ball to increase muscular strength and endurance.
+   309→   333→   333→Heavy-rope training uses ropes of varying lengths and weights, challenging both
+   310→   334→   334→cardiorespiratory fitness and muscle strength and endurance. Suspension train-
+   311→   335→   335→ing uses ropes and straps to increase the difficulty of bodyweight movements.
+   312→   336→   336→Weighted-sled training uses a piece of equipment resembling a sled with rails
+   313→   337→   337→or wheels; weight can be added to the sled to increase resistance and emphasize
+   314→   338→   338→strength, speed, and power development. Sandbag training is a form of resistance
+   315→   339→   339→training that uses a not-quite-full sandbag to improve functional strength, balance,
+   316→   340→   340→and cardiorespiratory endurance.
+   317→   341→   341→15
+   318→   342→   342→--- PAGE 25 ---
+   319→   343→   343→16 | Metabolic Training
+   320→   344→   344→Bodyweight Training
+   321→   345→   345→When it comes to enhancing functional strength, your own body can provide you
+   322→   346→   346→with not only the most accessible and cost-effective training tool but in many
+   323→   347→   347→ways the most beneficial. Bodyweight-training exercises do not require a gym or
+   324→   348→   348→specialized equipment to deliver an effective workout—they can be performed
+   325→   349→   349→virtually anywhere. This training style provides you with a functionally based
+   326→   350→   350→approach to increasing power, strength, endurance, and flexibility in the pursuit
+   327→   351→   351→of muscle development and fat metabolism. Most importantly, bodyweight train-
+   328→   352→   352→ing can be done by anyone, regardless of fitness level.
+   329→   353→   353→The simplicity of bodyweight training allows you to quickly transfer from
+   330→   354→   354→one exercise to another without having to adjust equipment or resistance. This
+   331→   355→   355→significantly reduces rest time while keeping your heart rate in a target training
+   332→   356→   356→zone and increasing caloric expenditure per unit of time. Bodyweight training is
+   333→   357→   357→an excellent way to burn body fat and increase metabolic rate, not only during
+   334→   358→   358→exercise but after exercise.
+   335→   359→   359→Bodyweight training allows for natural progressions in intensity. Progressions
+   336→   360→   360→commonly involve simply adding repetitions or time to an exercise for increased
+   337→   361→   361→fitness or changing the movement pattern to increase the demand on strength.
+   338→   362→   362→Focusing on volume eliminates the risk of utilizing resistances that may potentially
+   339→   363→   363→result in injury while simultaneously improving flexibility by involving a full
+   340→   364→   364→range of movement. The engagement of the core musculature required to perform
+   341→   365→   365→bodyweight exercises naturally develops core strength and stability, which, in
+   342→   366→   366→turn, appears to reduce injury risk (Haff, Berninger, and Caulfield 2016).
+   343→   367→   367→In summary, the benefits of bodyweight training can be tied to the use of
+   344→   368→   368→functional exercises that are adaptable to all levels of fitness. The use of these
+   345→   369→   369→exercises in a workout provides a low-cost training method that increases muscle
+   346→   370→   370→strength in several muscle groups at once, develops relative strength, and improves
+   347→   371→   371→balance and coordination (Harrison 2011).
+   348→   372→   372→Dumbbell Training
+   349→   373→   373→Developed over 2,500 years ago, no single piece of fitness equipment has stood
+   350→   374→   374→the test of time like the dumbbell. Dumbbells can be found in almost any exercise
+   351→   375→   375→environment, be it a high-tech fitness center, boutique fitness center, hard-core
+   352→   376→   376→gym, school, hotel, or home gym. Dumbbells offer you the ability to train your
+   353→   377→   377→entire body and can be utilized regardless of your level of experience, level of
+   354→   378→   378→fitness, age, or training proficiency. They remain a staple for adults looking to
+   355→   379→   379→get in shape, youth and professional athletes, tactical professionals, elite fitness
+   356→   380→   380→participants, and bodybuilders.
+   357→   381→   381→Believed to date back to the ancient Greeks, dumbbells (halteres or alteres, as
+   358→   382→   382→they were termed) came in various shapes and sizes and were made from mate-
+   359→   383→   383→rials that could be molded in different ways. Other ancient cultures, including
+   360→   384→   384→the Indians, Egyptians, and Chinese, are believed to have utilized dumbbell-like
+   361→   385→   385→objects as well, although the Greeks are recognized as their creators.
+   362→   386→   386→--- PAGE 26 ---
+   363→   387→   387→Metabolic-Training Tools | 17
+   364→   388→   388→The ancient Greek physician Galen is regarded as the first person to write a
+   365→   389→   389→text (ca. 200 AD) on the benefits of exercising with dumbbells (Ford 1955; Ber-
+   366→   390→   390→ryman 2012). Other significant exercise-associated works, such as Dialogues des
+   367→   391→   391→Gymnastica in 1544 (Todd 2003) and De Arte Gymnastica Aput Ancientes in 1569
+   368→   392→   392→(Ford 1955; Todd 2003), discuss dumbbell training as well. The term dumbbell was
+   369→   393→   393→believed to have been coined in England during the 16th century, when athletes
+   370→   394→   394→trained with handheld bells from which the clappers had been removed. Once
+   371→   395→   395→the clappers were removed, the bells became silent, which gave rise to the name
+   372→   396→   396→“dumbbells.” In 1864, with the release of John Blundell’s book The Muscles and
+   373→   397→   397→Their Story (Todd 2003), dumbbells became even more popular. Ranging from 3
+   374→   398→   398→to 100 pounds (1.4 to 45.4 kilograms), they became increasingly commonplace
+   375→   399→   399→among fitness enthusiasts everywhere and established themselves as standard
+   376→   400→   400→pieces of gym equipment.
+   377→   401→   401→On February 14, 1865, the first plate-loaded dumbbell was patented. Today,
+   378→   402→   402→there are three different types of dumbbells, each of which offers benefits. Adjust-
+   379→   403→   403→able dumbbells consist of a short metal bar that is slightly knurled in the middle
+   380→   404→   404→to improve hand grip. Weight plates can be slid onto each end and secured with
+   381→   405→   405→collars. Adjustable dumbbells are quickly adaptable to weight changes and can be
+   382→   406→   406→utilized to exercise all muscle groups. Fixed-weight dumbbells are often referred
+   383→   407→   407→to as gym-style dumbbells because they are most often found in gyms. While
+   384→   408→   408→they do not offer the versatility of adjustable dumbbells, a complete set of fixed
+   385→   409→   409→dumbbells allows you to change weights quickly. Selectorized dumbbells are
+   386→   410→   410→designed to maximize your training time by offering a single pair of dumbbells
+   387→   411→   411→that can be quickly adjusted using a selector pin or dial to set the desired weight.
+   388→   412→   412→Training with dumbbells produces favorable alterations in the muscular,
+   389→   413→   413→nervous, endocrine, and cardiorespiratory systems, as well as connective-tissue
+   390→   414→   414→improvements (Ratames and Izquierdo 2008).
+   391→   415→   415→• Muscular-system adaptations involve increases in muscle-fiber angle and
+   392→   416→   416→length, muscle size, muscle fiber type transition (Type I to Type II), pre-
+   393→   417→   417→exercise energy-substrate levels, protein concentration, fiber number, oxida-
+   394→   418→   418→tive capacity (with higher-volume training), and fatigue resistance.
+   395→   419→   419→• Neural alterations include increased muscle-fiber recruitment and potentia-
+   396→   420→   420→tion, as well as fatigue resistance, which leads to a higher training capacity.
+   397→   421→   421→• Benefits to connective tissue include increases in bone-mineral density, tendon
+   398→   422→   422→and ligament size, and tendon and ligament strength.
+   399→   423→   423→• Cardiorespiratory improvements encompass acute cardiac output and stroke
+   400→   424→   424→volume increases.
+   401→   425→   425→• Metabolic alterations are tied to three energy systems:
+   402→   426→   426→1. Phosphagen energy system. Provides energy for short-term, high-intensity
+   403→   427→   427→exercise of 0 to 30 seconds
+   404→   428→   428→2. Glycolytic energy system. Provides energy for exercise of 30 seconds to 2
+   405→   429→   429→minutes
+   406→   430→   430→--- PAGE 27 ---
+   407→   431→   431→18 | Metabolic Training
+   408→   432→   432→Training Safely with Dumbbells
+   409→   433→   433→When training with dumbbells, safety precautions should be taken to reduce the poten-
+   410→   434→   434→tial for injury. Complete adequate movement preparation and a dynamic warm-up prior
+   411→   435→   435→to a training session. Start with lighter weights and progress to heavier weights when
+   412→   436→   436→performing multiple sets. Select a weight that will provide maximum training benefits
+   413→   437→   437→without forcing you to sacrifice correct technique and risk getting injured.
+   414→   438→   438→Maintain an erect, firm torso and lift the dumbbells from a rack or the floor using your
+   415→   439→   439→legs, bending at the knees and maintaining a flat back. Enlist the assistance of a spotter
+   416→   440→   440→when needed to ensure correct form and lift safety. Consult with a medical professional
+   417→   441→   441→(physician or physical therapist) if you experience persistent or recurring pain or any pain
+   418→   442→   442→prior to or after starting a lifting program.
+   419→   443→   443→3. Oxidative energy system. Provides energy for exercise of 2 minutes or
+   420→   444→   444→greater (Herda and Cramer 2016).
+   421→   445→   445→Dumbbells offer an operative means to focus on major muscle groups of the
+   422→   446→   446→entire body. They can be utilized in a gym, at home, or outdoors with no required
+   423→   447→   447→installation or setup. Exercising with dumbbells necessitates greater stabilization,
+   424→   448→   448→recruiting a greater number of secondary muscle groups than machine exercises
+   425→   449→   449→and forcing limbs to work individually, which helps to prevent imbalances.
+   426→   450→   450→Kettlebell Training
+   427→   451→   451→Just about any gym, regardless of the population it serves, has kettlebells in its
+   428→   452→   452→strength-training or group-exercise areas. While the use of kettlebells in the
+   429→   453→   453→United States is new, training for strength and fitness with kettlebells can be
+   430→   454→   454→traced back centuries to their Eastern European roots (Harrison, Schoenfeld, and
+   431→   455→   455→Schoenfeld 2011). A kettlebell consists of an iron handle attached to an iron ball
+   432→   456→   456→(Cotter 2022). Kettlebell training offers a safer alternative to heavy-load lifting,
+   433→   457→   457→targeting weaknesses and imbalances and correcting them through short, high-
+   434→   458→   458→intensity workouts that increase hormonal production for muscle development
+   435→   459→   459→and keep cortisol levels low.
+   436→   460→   460→Kettlebells have been studied more recently by strength and conditioning
+   437→   461→   461→researchers interested in these tools’ ability to enhance strength, power, and car-
+   438→   462→   462→diorespiratory fitness in individuals ranging from novice exercisers to elite-level
+   439→   463→   463→athletes and fitness enthusiasts (Beardsley and Contreras 2014). The benefits of
+   440→   464→   464→kettlebell training are numerous. Kettlebell training has been shown to increase
+   441→   465→   465→overall strength and power production (Jay et al. 2011); improve core strength by
+   442→   466→   466→emphasizing power, acceleration, and multiplanar and unilateral movement pat-
+   443→   467→   467→terns (Lake and Lauder 2012); encourage the production of force and speed through
+   444→   468→   468→the hips (Otto et al. 2012); and promote the development of lean body mass through
+   445→   469→   469→high-repetition sets combined with short rest periods. Often-neglected muscles of
+   446→   470→   470→the back of the body (core, shoulders, hips) are targeted, which improves posture
+   447→   471→   471→--- PAGE 28 ---
+   448→   472→   472→Metabolic-Training Tools | 19
+   449→   473→   473→and posterior-chain function (Jay et al. 2011). Kettlebell training has also been
+   450→   474→   474→shown to improve grip strength, which enables other strength gains (Manocchia
+   451→   475→   475→et al. 2013).
+   452→   476→   476→Because of its emphasis on higher volume and shorter rest periods, kettlebell
+   453→   477→   477→training is associated with increased caloric expenditure per unit of time (20
+   454→   478→   478→calories per minute), resulting in increased metabolism during and after training,
+   455→   479→   479→increased fat metabolism, increased muscular endurance, and better cardiorespi-
+   456→   480→   480→ratory function (Jay et al. 2011). Kettlebells provide the user with one piece of
+   457→   481→   481→exercise equipment to train the entire body (Jay et al. 2011). If you are limited with
+   458→   482→   482→space at home or want to minimize your movement around the gym, kettlebells
+   459→   483→   483→are the perfect tools to simplify your workout. Kettlebell training uses dynamic
+   460→   484→   484→movement patterns that increase mobility, proprioception, flexibility, and body
+   461→   485→   485→awareness by forcing the user to move through all three planes of motion in a
+   462→   486→   486→controlled, fluid manner. With kettlebells, stabilizing muscle groups are trained
+   463→   487→   487→in combination with primary muscles, leading to improved joint stability, coor-
+   464→   488→   488→dination, and balance (Manocchia et al. 2013). Finally, kettlebells offer a fun and
+   465→   489→   489→exciting way to train because the exercises are based on movement patterns and
+   466→   490→   490→require you to be more engaged (Jay et al. 2011).
+   467→   491→   491→When performing kettlebell exercises, use the grip position (neutral grip, with
+   468→   492→   492→palms facing in; supinated grip, with palms facing up; or pronated grip, with palms
+   469→   493→   493→facing down) and hold position (at your side, between your palms, in your palm,
+   470→   494→   494→or upside down) that best suits each exercise (Cotter 2022). When performing an
+   471→   495→   495→exercise in a standing position, place your feet slightly wider than shoulder-width
+   472→   496→   496→apart. With training resistances between 80 and 100 percent of your repetition
+   473→   497→   497→maximum (the maximum resistance you can utilize with a given volume and
+   474→   498→   498→intensity), avoid holding your breath—you should continue to inhale and exhale
+   475→   499→   499→throughout the movement (Haff, Berninger, and Caulfield 2016).
+   476→   500→   500→Resistance-Band Training
+   477→   501→   501→Resistance bands have become a staple of just about every fitness environment.
+   478→   502→   502→Resistance bands come in three basic forms: tube, loop, and mini. Each of the
+   479→   503→   503→three types provides unique benefits. Resistance bands come in a variety of
+   480→   504→   504→colors often with handles. The color of a resistance band designates its tension
+   481→   505→   505→level. What makes resistance-band training unique is that tension increases as
+   482→   506→   506→the bands are stretched, meaning that resistance increases as more muscle groups
+   483→   507→   507→are incorporated in a movement pattern (Haff, Berninger, and Caulfield 2016).
+   484→   508→   508→Resistance bands can be used at any fitness level and any age. Youth, adults,
+   485→   509→   509→seniors, competitive athletes, tactical professionals, and individuals with chronic
+   486→   510→   510→conditions or disorders can all benefit from resistance-band training. Addition-
+   487→   511→   511→ally, resistance bands are among the most inexpensive pieces of equipment and
+   488→   512→   512→can easily be packed in a suitcase and utilized anywhere.
+   489→   513→   513→Resistance bands are beneficial for metabolic training because they can be
+   490→   514→   514→used safely and effectively at higher volumes with shorter rest periods. Training
+   491→   515→   515→with resistance bands is an excellent way to reduce body fat and simultaneously
+   492→   516→   516→--- PAGE 29 ---
+   493→   517→   517→20 | Metabolic Training
+   494→   518→   518→develop muscle. In conjunction with dietary changes, resistance bands can bring
+   495→   519→   519→about significant physiological changes when used three to five times per week.
+   496→   520→   520→Resistance bands are frequently used while warming up and cooling down.
+   497→   521→   521→In this context, they serve as an excellent primer, increasing heart rate and joint
+   498→   522→   522→mobility through dynamic range-of-motion movements at reduced resistances.
+   499→   523→   523→Following this approach ensures that there is adequate blood flow to the exer-
+   500→   524→   524→cising muscles and the heart before higher-resistance exercise commences. The
+   501→
+   502→[showing lines 25-524 of 604; use offset=525 with limit to continue reading]

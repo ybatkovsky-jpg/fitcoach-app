@@ -1,0 +1,945 @@
+--- PAGE 86 ---
+0.95 17 83 85–95
+1.00 <1 100 95–100
+Therefore, how hard you exercise drives the metabolic response and
+ultimately the fuel you use. So, how do you know what intensity puts you at
+an RER of 0.85? In basic terms, an RER of 0.85 is roughly your AT. (Note:
+In well-trained athletes this approach does not hold true because the
+determination of AT is more complex.) So, if you have an accurate
+measurement of your heart rate at AT, you will have a reasonably accurate
+guideline for how hard to exercise to optimize your fat use. Research tells
+us that the highest fat use occurs at 40 to 45 percent of O max and this
+2
+corresponds to about 65 percent of maximal heart rate. These intensities
+vary depending on your fitness level, but to optimize your calories burned
+and fat used, stay below your AT. Figure 4.1 is an adaptation of data from
+our lab in which we plotted ventilation (breathing rate and volume) against
+heart rate. You can see that at around 18 minutes there is an abrupt increase
+in ventilation. That tells us that at this point, a marked increase in carbon
+dioxide production required the individual to start breathing faster. If we
+align that with the heart rate at that point, we see that this occurred at a
+heart rate of about 152 bpm. This would be considered the AT and the upper
+limit of exercise intensity above which fat use significantly declines. While
+it is perfectly fine to exercise above this level, know that a lower percentage
+of fat will be used. However, at higher intensities more calories are also
+used, so sometimes it is just a matter of mathematics to help you achieve
+your goal. Table 4.5 uses the example of a 50-year-old woman who weighs
+132 pounds (60 kg) and has an MHR of 170 bpm and AT of approximately
+119 bpm. She exercises for 30 minutes, either walking at 3 miles per hour
+(20 min/mile or 4.8 km/h) or jogging at 5 miles per hour (12 min/mile or 8
+km/h).
+--- PAGE 87 ---
+FIGURE 4.1 Heart rate versus ventilation with increasing workload.
+TABLE 4.5 Fat Calories Used Walking Versus Jogging
+Variable Walk 3 mph Jog 5 mph
+Heart rate bpm 110 156
+% MHR 65 91
+~% O max 48 85
+2
+Total calories used in 30 min 130 239
+Total fat % 60 15
+Total fat calories ~78 ~35
+From the table it is clear that significantly more calories are burned
+jogging at 5 miles per hour (8 km/h) than in walking at 3 miles per hour
+(4.8 km/h). However, significantly more fat calories are burned walking at 3
+miles per hour (4.8 km/h). So, it becomes a question of how much fat
+versus carbohydrate one wants to burn. At first glance it seems obvious that
+burning as many calories as possible would be desirable. However, if we
+dig deeper we can see that it may make more sense to burn fewer overall
+calories if the total number of calories burned from fat are higher.
+--- PAGE 88 ---
+Remember, body carbohydrate stores are replaced daily. Fat, on the other
+hand, is not necessarily replaced daily, but is stored as a result of daily
+excess energy consumption, and this accumulation of fat occurs whether the
+excess calories come from fat, carbohydrate, or protein (i.e., excess energy
+intake is converted to fat regardless of fuel source). Consider that there are
+3,500 calories in one pound (0.5 kg) of fat. So to drop one pound of fat, you
+need to either reduce caloric intake, increase caloric output, or arrive at a
+combination that reduces your net overall caloric balance to result in a
+3,500-calorie deficit per week or month or whatever time frame you chose.
+The key is that exercising at high intensity is not always the best approach.
+It is interesting that, despite this longstanding knowledge, exercisers
+have a steadfast and overreaching desire to work at higher intensities even
+though the data show us that more fat is used at lower work rates. In fact,
+one could argue that the ability to burn fat at any given intensity is a strong
+indicator of overall fitness because it shows where a person is on the AT
+continuum. Fitter athletes burn more fat at any given exercise level than
+their less fit counterparts: They are better butter burners. It is also important
+to consider the mode of exercise because we also know that different modes
+burn more calories at given intensities and that for most people, walking
+and running are the best bets for burning calories. As we mentioned earlier,
+overweight people cannot exercise intensely for long periods; therefore,
+they should select a low exercise intensity they can sustain for 30 to 60
+minutes. For weight loss, start slow and finish slow. If you start too fast and
+fatigue early, you will either have to cut the session short or continue at an
+intensity that is too low to use a meaningful number of calories.
+Monitoring heart rate after determining accurate heart rate training zones
+based on the results of a true maximum heart rate test is an effective way to
+regulate exercise intensity. And exercise intensity affects not only fitness
+training but also weight loss.
+Use the answers to the following questions to help you plan your training
+and how you will use heart rate to maximize your workouts:
+1. What is the aerobic versus anaerobic breakdown of your sport?
+2. How much time do you spend in aerobic and anaerobic work during a
+standard workout based on the demands of your sport?
+--- PAGE 89 ---
+3. What heart rate zones should you exercise at to cause adaptation and
+challenge the desired energy system?
+4. Should you increase your consumption of carbohydrate or fat
+depending on which energy system your sport uses?
+5. What recovery heart rates are appropriate between repeats or after
+other shorter periods of high-intensity exercise?
+The answers to these questions will allow you to select the right training
+intensities for your exercise program.
+--- PAGE 90 ---
+CHAPTER 5
+Increasing Aerobic
+Endurance
+T
+he background information we have provided so far about energy
+systems, how to use heart rate monitors, how to calculate training
+zones, as well as understanding the adaptations to exercise are all necessary
+in order for you to comprehend how the science of heart rate monitoring
+works. We trust that you now see the importance of aligning intensity with a
+specific fitness adaptation and that heart rate measurement is the
+mechanism that will allow you to best regulate that intensity.
+The coming chapters contain general discussions of principles of
+conditioning tied to the concepts of heart rate training so you can apply
+what you have learned so far. They cover the development of the four
+components of fitness by discussing their places in each of the four phases
+of training. After you finish these chapters, turn to the chapter that offers
+you a sample training plan and pattern of workouts for your choice of
+activity. However, study chapters 5 through 8 in their entirety before trying
+to implement any of these suggestions. In other words, don’t false start by
+jumping the gun. You need to see the big picture of all the training zones
+before developing a training plan.
+This chapter covers specific exercise intensity levels for developing,
+enhancing, and maintaining your crucial aerobic endurance base. Your
+endurance base is the building block of fitness and recovery for every sport.
+To help you fully appreciate the importance of endurance training, we also
+--- PAGE 91 ---
+discuss the physical changes needed to develop this critical component of
+overall fitness. Of course, we must discuss how endurance maintenance
+workouts are used for recovery and also the need for full days off for
+complete recovery, typically just before competition. All too often, rest and
+recovery are poorly planned, leading to injury, overtraining, and burnout.
+The use of heart rate variability to guide rest and recovery has increased in
+recent years, in part, because of more affordable monitoring options.
+Therefore, we will also discuss this new approach to using heart rate to
+guide recovery.
+Whether you are developing or increasing your base endurance for the
+first time or are redeveloping it after a layoff from an injury or postseason
+recovery period, this first, or base, phase of training is critical. Traditional
+views for building an endurance base have called for staying in the lower
+end of the 60 to 75 percent maximum heart rate (MHR) zone. This premise
+was built on the idea that continuous low-intensity stimulation (i.e., in the
+lower range at 60 to 65 percent MHR) allowed for longer and longer
+periods of nonstop exercise that resulted in improved cardiovascular
+adaptation. Although this works, new information has shown that
+alternating effort at both higher and lower ends of the 60 to 75 percent
+range during the same session can also develop endurance, especially for
+beginners. Therefore, if you are an absolute beginner who cannot run for 30
+minutes continuously, you can also develop your endurance by a
+combination, for example, of walking and jogging. The goal is to jog for
+progressively longer periods until your heart rate reaches the 75 percent
+upper limit. At that point, walk your heart rate down to the lower 60 percent
+at the bottom of the zone. Your muscles, lungs, and heart adapt quickly to
+this increased stimulus by improving their endurance capacities.
+Furthermore, even though the focus of this chapter is on increasing aerobic
+endurance, we will discuss mixing aerobic and anaerobic work to improve
+aerobic fitness.
+Physiological Adaptations to
+Endurance Training
+--- PAGE 92 ---
+For most people, the bottom-line goal of endurance training is to move
+faster for longer amounts of time. Although this may indeed be the net
+outcome, many microadaptations take place within the body to allow you to
+accomplish this objective. People vary by body type and in response to
+stimulus, and the type of training affects the response, which is why we
+need a varied complement of training approaches. In this next section we
+will discuss the main physiological variables of interest to us for improving
+basic endurance.
+Defining the Line Between Aerobic
+and Anaerobic Efforts
+As explained in chapter 1, the word aerobic means “with oxygen” and is associated with
+the easy, low-intensity effort that develops and maintains endurance. If a workout is
+easy and slow enough to allow casual conversation, you can rest assured that plenty of
+oxygen is present in the circulatory system. To be sure that the effort is aerobic, try the
+Faulkner test. Can you comfortably carry on conversations that resemble author William
+Faulkner’s sentences, which go on for pages between periods, without the slightest
+challenge to your breathing? If so, then it’s aerobic and you’re in your heart rate zone of
+60 to 75 percent MHR. However, if your breathing clips your sentences as short as
+Ernest Hemingway’s, you are approaching the upper edge of your aerobic zone around
+80 percent MHR and may soon reach your anaerobic threshold near 85 percent MHR,
+where one word may constitute a whole sentence.
+If you are coming back after a layoff to build a new aerobic endurance base, enough
+time and all efforts in the zone of 60 to 75 percent MHR will get the job done. Or, as
+explained earlier in this chapter, a blend of walking and jogging will also help. This
+seemingly wide range of percentage of MHR is appropriate because you will be working
+your way back into shape and your heart rate will elevate easily and quickly. Our
+generous allowance to the top of the endurance range will help you avoid paces that are
+so slow that you become discouraged.
+If you are already in training but are looking to improve your base endurance, efforts
+in the upper edge of your aerobic zone of 75 to 80 percent MHR at steady-state paces
+will enhance and increase endurance. The next several pages will explain the difference
+between developing endurance at 60 to 75 percent MHR effort, enhancing it at 75 to 80
+percent, and then maintaining it at both 65 to 70 percent and 60 to 65 percent.
+The physiological changes that occur in athletes are caused largely by
+the combined effects of cardiovascular, respiratory, metabolic, and muscular
+adaptations. The first and most obvious change is an increase in O max.
+2
+This is most simply explained by the Fick equation:
+--- PAGE 93 ---
+O max = MHR × SVmax × A O difference
+2 2
+in which MHR = maximum heart rate, SV = stroke volume (the amount of
+blood pumped per heartbeat), and A O difference is the difference in O
+2 2
+saturation between arterial and venous blood (arteriovenous oxygen
+difference), which is an indicator of O extraction in the muscles.
+2
+In locker room language, O max is the combined ability of your
+2
+respiratory, circulatory, and muscular systems to take in, distribute, and use
+oxygen, and then ultimately remove CO .
+2
+Oxygen Changes
+In the well-trained endurance athlete, MHR decreases slightly with
+progressing fitness. Stroke volume (SV), on the other hand, increases, and
+A O difference increases. These variables primarily explain the adaptation
+2
+of lower resting heart rate with increasing fitness. As a muscle, the heart
+moves more blood with each beat as it becomes stronger, resulting in a
+lower resting heart rate. The capillary density of the muscles increases,
+facilitating more blood and gas transport. The net outcome is an increase in
+O max. Long, slow, aerobic, low-intensity work early in a training
+2
+program promotes this capillary adaptation rather than the kinds of
+adaptations that take place during higher-intensity workouts after the
+endurance base is developed. This is why we initially want that longer,
+slower exposure at the beginning, even though you can also get initial
+adaptation using the walking–jogging approach.
+Endurance training also increases blood volume by expanding plasma
+volume and increasing the number of red blood cells. The change in plasma
+volume is caused by an increase in water retention, which causes a
+condition called hemodilution (a decrease in red blood cell percentage).
+However, the absolute numbers are increased, which facilitates more
+oxygen transport.
+--- PAGE 94 ---
+Endurance training causes many adaptations in the body, including an increase in
+stroke volume and blood volume, more efficient respiration, and developments in
+muscle structure that allow the athlete to perform longer before fatiguing.
+Respiratory adaptations also occur. In particular, an increase in
+maximum voluntary ventilation (MVV) occurs. This allows for a greater
+volume of air to be moved both in and out of the lungs, facilitating an
+increase in both carbon dioxide removal and oxygen uptake. This
+adaptation is explained by improvements in respiratory muscle endurance
+and economy.
+Muscle Changes
+Numerous changes also take place within the muscles as a result of
+endurance training. There is an increase in both the number and size of
+mitochondria, the so-called workhorses of the muscle. This adaptation
+promotes the use of fatty acids, allowing a greater production of energy
+ATP. This is particularly important for the endurance athlete, because it
+slows the depletion of body glycogen stores, which are limited. The net
+result is a longer time to fatigue. The preference for fatty acid use over
+glycogen by the endurance-trained body also results in slower lactic acid
+accumulation.
+At this point, we start to see the extent of the integration of various body
+systems. An increase in respiratory economy and endurance allows for
+greater carbon dioxide removal and oxygen transport to the blood. An
+--- PAGE 95 ---
+increase in capillary density then facilitates the transport of these gases to
+the mitochondria in the muscle. The gas diffusion rate at the mitochondria
+affects not only energy production but also the substrate source for this
+energy production. As carbohydrate (glycogen) is used more sparingly
+because of the greater use of fats, time to fatigue is prolonged and lactate
+accumulation is slowed. The net result is a faster or longer performance.
+Thus, we need to ensure that these three key systems—cardiovascular,
+respiratory, and muscular—are developed in unison, because failure of one
+system to adapt will compromise the adaptation of any other.
+Several other adaptations take place as you develop endurance:
+Less carbohydrate is burned and therefore less lactic acid is produced.
+The greater number of blood vessels (those little capillaries) allows for
+greater removal of metabolic waste products.
+Muscle strength improves.
+Joints, bones, tendons, and ligaments get stronger.
+Efficiency improves.
+These and other subtle changes improve a muscle’s ability to keep going.
+Think of it as going long, going slow, and going with someone who talks
+too much. That’s endurance.
+We can see from this list of myriad adaptations that a varied training
+approach is needed to address all the required adaptations. Not only should
+training be varied, but it should also be sequential because some adaptations
+are required before others. For example, long, slow work should precede
+high-intensity work. The following sections explain the progression from
+developing endurance at 60 to 75 percent MHR (or your walking–jogging
+mix), to enhancing endurance at 75 to 80 percent, to maintaining endurance
+at 65 to 70 percent and 60 to 65 percent.
+Endurance Development
+To develop and improve endurance in the zone of 60 to 75 percent MHR, it
+is more productive to spend as much time as close to 75 percent as possible.
+Exercising at the 60 percent end of the zone can be painfully slow. In the
+general endurance zone of 60 to 75 percent, the muscle uses a mixture of fat
+--- PAGE 96 ---
+and carbohydrate for fuel. These fuels are supplied at varying ratios
+depending on the intensity of the activity. For low-intensity endurance
+activities with lots of oxygen present, the majority of the fuel comes from
+fat, although carbohydrate still provides limited amounts of fuel. However,
+if the event lasts long enough, the limited supply of carbohydrate stored in
+the muscle can be depleted. In marathon runners this is known as hitting the
+wall and happens when the muscle has only fat remaining for its fuel
+supply. To burn fats cleanly, the body needs lots of oxygen, which forces
+the runner to slow down. Improving the body’s ability to burn fat more
+efficiently so carbohydrate supplies will last until the end of the event is one
+of the major goals of endurance training (i.e., becoming a better butter
+burner). A second one, which we will elaborate on shortly, is the
+strengthening of the musculoskeletal system.
+To demonstrate the importance of oxygen in endurance activities,
+consider that you draw 95 percent of your fuel from fat and 5 percent from
+carbohydrate at basal metabolism (when you are in deep sleep and your
+body is awash with oxygen). However, once you exercise hard enough to
+elevate your heart rate into the endurance training zone, that ratio quickly
+changes. For unfit folks, carbohydrate becomes more important as the
+availability of oxygen decreases. In the 70 to 75 percent maximum heart
+rate zone, as much as half of the energy comes from carbohydrate. It takes
+the liver 24 to 48 hours to convert glycogen, the chemical form of
+carbohydrate stored in the muscles, from various forms of carbohydrate. If
+you exercise after only 24 hours of recovery (i.e., daily), you will create a
+short-term glycogen deficit that will then cause muscle enzymes to improve
+their ability to break down and metabolize fats. This can happen to such a
+degree that endurance athletes such as long-distance runners and cross-
+country skiers get as much as 80 percent of their fuel from fat when in the
+low range of 60 to 70 percent MHR. Have you ever wondered why the great
+endurance athletes are so thin? One reason is that they burn a lot of fat.
+Keep this revelation in mind: Once you have felt what drop-dead, all-out
+maximum heart rate exhaustion feels like at 100 percent, you will never feel
+any worse. Every 100 percent effort in a race after that will feel the same—
+just as painful and agonizingly breathless, but those efforts will not feel any
+harder. If your training is successful and makes you faster, the pain, torture,
+and agony of an all-out effort just does not last as long. A 100 percent MHR
+--- PAGE 97 ---
+effort is the limit of human capacity that keeps us from working ourselves
+to death. The good-old-college try of 110 percent effort is a sportswriter’s
+myth.
+The good news is that your other training zones also will feel the same.
+Your perception of the effort of your slow pace at 70 percent MHR is still
+the same: It’s easy. Look at it this way: If your pace for a new 5K personal
+record gets faster at 100 percent MHR, why wouldn’t your training pace at
+70 percent also get faster while still feeling just as easy as it did when your
+PR was slower? If you are in better shape at harder, faster paces, your
+easier, slower paces will also get faster. Right? Therefore, do not make the
+false assumption that, in order to improve, you have to work harder at
+higher percentages. You can’t recover fully from a previous hard workout or
+race if you increase the effort on an easy day from 70 to 80 percent MHR.
+Harder workouts such as that are the poster children of the dreaded
+overtraining syndrome that inevitably leads to trashed and prematurely aged
+legs.
+So what do you do if you can’t train harder but want to get better?
+Simple—you run more. Go back and add minutes to your training
+programs. If you have already learned that you can’t get faster by training
+harder more often, then use the variable of duration to add more easy
+minutes to your training pattern while keeping the intensity levels at the
+same respective percentages. Run longer warm-ups before and cool-downs
+after hard workouts. Run a little longer on your recovery days and lengthen
+the time of your long run. When you run more low-intensity miles, you will
+get stronger as you progressively add the extra resistance of more strides
+against gravity. It’s the same principle of progressive resistance training as
+doing more reps of light weights in order to get stronger. You can compare
+the ground-hugging stride of easy jogging to lifting light weights. There is
+not too much gravity to overcome when you don’t bounce high into the air
+with each stride. Then sprinting, with its greater gravitational resistance,
+can be thought of as similar to lifting heavier weights fewer times in order
+to get stronger. Because you have probably already maxed out how often
+you can survive high-intensity work, the safer option is simply more LSD—
+long, slow distance, not the drug. In short, the stronger you get, the faster
+you will run. While reaching this stage of energy efficiency, you also will
+be performing enough aerobic exercise in the 60 to 75 percent zone to cause
+--- PAGE 98 ---
+the adaptations you need in the cardiovascular, respiratory, and muscular
+systems.
+Equally important as the ability of your muscular engine to use fuel is
+the strength of the transmission—your connective tissues. Ligaments,
+tendons, bones, cartilage, and joints take much longer than muscles to get
+stronger because their blood supply is not nearly as rich. Therefore, you
+need to beware of the dreaded Cadillac engine with a Chevy transmission
+syndrome. Because your powerful muscular engine can easily tear up your
+delicate connective transmission, you’ll be susceptible to classic overuse
+injuries such as Achilles tendonitis, plantar fasciitis, iliotibial band
+syndrome, and even stress fractures. Avoiding these perils will be covered
+in later discussions concerning the length of time you need to spend in
+phase I.
+Training Techniques for Developing
+Endurance
+You will develop and improve your endurance by spending more time
+exercising in the zone of 60 to 75 percent MHR. You can do so by using
+either one or both of two basic types of workouts. The most common is
+LSD using steady, continuous exercise in the 60 to 75 percent MHR range.
+Research, however, has shown that varying the paces of your workout is
+also an effective technique. In the first edition of this book, we labeled that
+type of training “heart rate fartlek.” The idea was to enjoy changes of speed
+that caused your heart rate to quickly reach the upper 75 percent limit.
+Then, by slowing down, your heart rate would recover to the lower limit of
+60 percent MHR. In the spirit of this book and with an apology to the
+Swedes who developed and popularized fartlek (which they defined as
+“speed play”) training, we prefer to use the term “heartlek,” which we
+coined while working with Wahoo Fitness a few years ago.
+Our experience is that beginners should not use heartlek training because
+the change in speeds can increase the likelihood of injury. If you can
+perform a continuous 30-minute bout of LSD, even at a lower intensity,
+that’s your best start.
+--- PAGE 99 ---
+To execute a heartlek workout, picture your heart rate fluctuating up and
+down like a roller coaster. You can make that happen by jogging up to 75
+percent MHR and then walking down to 60 percent MHR. Or, if you are in
+better shape, you can run up to 75 percent MHR and then jog your heart
+rate back down. You can be as creative as you wish. Use both target heart
+rates within this zone to elevate and lower your heart rate and vary your
+pace. The goal is simply to be able to increase the amount of work using
+either of these low-intensity modes of exercise to improve running duration
+from at least 30 minutes up to 60 minutes and beyond if your goal activity
+is something like a marathon.
+We have included this piece in the aerobic chapter even though we will
+develop it more in the anaerobic chapter. By this point you have achieved a
+solid endurance base that is strong enough to allow you to run for 30 to 60
+minutes and maintain your pace across a range of terrain. For example, you
+can push yourself on a hill and see an increase in exercise heart rate, and
+you are capable of holding that pace and then dropping your heart rate back
+down on the flats. Using the heartlek approach, you should be able to inject
+three or four higher-intensity spurts for 30 to 120 seconds over your 30-
+minute run without ever falling below your base of 60 percent MHR.
+Continuous or varied pace workouts can be used singularly or in
+combination with the base phase of conditioning to develop aerobic
+endurance. This is what we refer to as getting in shape. Using these
+approaches will allow you to stimulate your muscles long enough and over
+long enough periods of time to induce adaptations.
+If you are just getting in shape or if your level of athletic activity has
+been interrupted, you will need to redevelop your endurance base. Phase I
+of conditioning usually takes the average, sedentary adult up to 16 weeks. If
+you have already been through the conditioning process, you should be able
+to redevelop an endurance base within six to eight weeks. A shorter period
+of four weeks should be sufficient to redevelop endurance if you are coming
+back after a postseason period of active rest. In any case, an adaptation of
+classic heartlek training is ideal for training in the 60 to 75 percent MHR
+zone.
+--- PAGE 100 ---
+Heartlek workouts, in which you cycle your heart rate up and down within your
+training zone, will help you quickly build a base of endurance and prepare for more
+challenging events, such as races.
+If you are building a new base, take careful note of the following
+discussion. Our heart rate heartlek workouts are the essence of heart rate
+monitor training. If you have been fairly active and have had athletic
+experiences earlier in life, you might consider LSD the most attractive
+activity for getting back into shape. But please read the following to see
+how the advantages of monitored training can be applied. Heart rate
+heartlek training is perfect for whichever activity—jogging, rowing, cycling
+—you choose. Heart rate heartlek workouts are a great way to introduce
+small elements of faster movement into your workouts for manageable
+periods of time and still keep the risk of injury at a minimum.
+Our adaptation of heartlek training to the heart rate monitor is the perfect
+example of smart, individualized training. Here’s an example of a 20-
+minute session:
+1. Calculate your target heart rate zone with the upper limit at 75
+percent and a lower limit at 60 percent MHR.
+2. Pick an exercise mode—walking, jogging, running, cycling, rowing,
+or any of the machines such as the elliptical or stair-climbing types in
+the aerobic section of your fitness center.
+3. Start exercising slowly and easily as your heart rate eases up into
+your 60 to 75 percent zone. As you warm into the workout, you’ll
+--- PAGE 101 ---
+probably find yourself gradually picking up the pace and effort. Your
+heart rate will rise and eventually hit the 75 percent upper limit.
+4. At that point, to keep the workout aerobic, quickly slow until your
+heart rate drops back to as close to 60 percent as you can get it.
+5. Next, gradually play with the speed of your workout until you come
+back up to 75 percent effort. By this we mean that you should
+experiment with different speeds until you get a nice feel for how fast
+you need to move to elicit the heart rate response you need.
+Following this routine for the recommended number of weeks will
+greatly improve endurance and your overall fitness. Raising your heart rate
+will require faster and longer pickups. The result is that you will cover more
+distance during the 20-minute workout. You also will enjoy a nice, safe
+improvement in your speed without risk of injury because, at the upper limit
+of 75 percent MHR, your pickups will still be aerobic and, therefore, free of
+lactic acid buildup in the muscles.
+After your first couple of workouts, you’ll have a mental measure of the
+effort and be able to increase and decrease your heart rate without too much
+difficulty. How long you take to work up to 75 percent and then coast down
+to 60 percent will be your choice. This option gives you a choice of a
+variety of movements. You can increase the effort to 75 percent quickly by
+going faster, recover to 60 percent slowly by gradually easing off the pace,
+or vice versa.
+Heartlek workouts are a creative version of interval training without the
+rigorous repetitions of the same distance. It is a training system that can be
+used to develop all four fitness components of endurance, stamina,
+economy, and speed.
+The fartlek system originated in the 1930s and was made famous in the
+1940s by Gunder Hagg and Arne Andersson, who took turns lowering the
+world record for the mile as they tried to break the barrier of the magic 4-
+minute mile. Hagg eventually got his time down to 4:01.4, where the record
+stood for nine years until Roger Bannister ran 3:59.4 in 1954.
+LSD training, on the other hand, is all about consistency of pace and
+effort. Rather than raising and lowering your heart rate like a roller coaster,
+you simply maintain the same jog, or slow run, pace over a set time. As you
+work your way into shape, you start at the lower end of the intensity range
+--- PAGE 102 ---
+(60 to 75 percent MHR) to maintain the same pace for the allotted time and
+distance. Your heart rate will gradually rise to 75 percent as the workout
+continues. As your fitness improves, you’ll find it easier to train at a higher
+intensity with the same sense of effort, resulting in either more distance
+covered in the same amount of time or the same distance covered in less
+time.
+A note of caution: Depending on the shape you’re in, the opposite may
+happen. You may start out working too hard and reach your upper heart rate
+target in less than a New York minute. If so, then you’ll have to spend your
+whole workout tapping the brakes to stay in this zone. It’s best to keep in
+mind the advice of Walt Stack, a great amateur philosopher, about the
+running boom in the early 1970s: “Start slow, and then taper off.”
+LSD training is the natural follow-up to low-level heartlek training. As
+you increase fitness through heartlek training, you will be able to hold your
+pickups close to and at 75 percent for longer and longer periods. Eventually,
+you will be able to complete the entire training session holding pace at 75
+percent MHR with no need to slow down to keep your heart rate from
+creeping over 75 percent. When you get to this point, you are ready to add
+LSD training to the mix. The LSD training will be done at a lower intensity
+to allow you to go longer, but the concept is the same: Maintain an aerobic
+pace for the desired duration, gradually increasing that duration for greater
+endurance. Then once you have completed 12 to 16 weeks of solid LSD
+training, you can introduce the heartlek approach, which is a more advanced
+and higher-intensity version of training.
+Another note of caution: To prevent overuse injuries, sports medicine
+specialists advise that the volume of work should increase only 10 to 15
+percent per week. Of course, you should exercise caution, but if you are
+starting at 10 miles (16 km) per week, adding just 1 to 1.5 miles (1.6 to 2.4
+km) over the week might be a little too conservative.
+Duration of Workouts for Endurance
+Development
+Ultimately, you will execute the workouts outlined in this chapter for longer
+periods of time. However, for an exercise session to provide enough
+--- PAGE 103 ---
+stimulus to elicit a conditioning effect, it must last a minimum of 20
+minutes. The number of times during a heartlek workout that you raise and
+lower your heart rate within your 60 to 75 percent effort zone depends on
+your level of general fitness. As you get stronger and fitter, it will gradually
+take longer to elevate your heart rate to your upper target and take less time
+to recover.
+This 20-minute period may seem too short, and with the intensity so low,
+you may think that it is too easy. You may wonder whether you’ll ever get
+in shape at this rate. But hold on. This is a delicate period of adaptation.
+Your muscular system will get stronger rather quickly thanks to its good
+blood supply and may give you the impression that you’re ready for bigger
+and better workouts. At the start of this period of getting into shape, you
+will probably experience muscle stiffness and soreness. However, you’ll
+find that you quickly get over those little aches and pains, and your engine
+will start adding horsepower. To avoid setbacks, we suggest that you follow
+a hard–easy pattern of workouts until you finish the recommended number
+of weeks appropriate for your circumstance.
+Sample Base-Building Training
+Pattern
+At its most elemental level, here’s how a typical training plan begins and
+follows the classic pattern of hard–easy days. We use the word hard rather
+loosely here to refer to the days that you do the heartlek workouts. The
+remaining days are easy, continuous activity at 60 to 65 percent MHR, or
+total rest (because nothing is easier than a real day off).
+Please keep in mind as you study these samples that they are designed to
+demonstrate the principles involved and are not training programs. The
+sample training programs presented in the last chapters of the book contain
+the progressions in volume, intensity, and frequency that you would
+realistically expect to follow.
+For weeks 1 and 2, follow this pattern:
+Hard days (Monday and Thursday): 20-minute heartlek at 60 to 75
+percent MHR. The 20 minutes do not include slow, easy warm-up
+--- PAGE 104 ---
+activity or a similar period for cooling down at less than 60 percent
+MHR.
+Easy days (Tuesday and Saturday): 20-minute recovery effort at a
+steady pace of 65 to 70 percent MHR. Follow the same warm-up and
+cool-down patterns as you used on the hard days.
+Off days (Wednesday, Friday, and Sunday): Take days off. These are
+complete rest days with no activity.
+If you experience aches or pains or feel you need more time to adjust to
+this routine, extend these workouts for another week or two. If you feel
+good and are ready and eager to advance to harder work, move on to the
+next pattern.
+For weeks 3 and 4, follow this pattern:
+Hard days (Tuesday and Thursday): 20-minute heartlek at 60 to 75
+percent MHR.
+Easy days (Monday and Friday): 25- to 30-minute recovery effort at
+65 to 70 percent MHR.
+Long workout (Saturday): Begin to extend your continuous easy effort
+at 65 to 70 percent by making this workout 5 minutes longer than the
+time of your Monday and Friday workout each week until you reach 45
+minutes.
+Off days (Wednesday and Sunday): Take these days off.
+Repeat this pattern until you can do the heartlek workouts for 30 minutes
+by adding 3 to 5 minutes to them each week. Gauge your readiness to
+increase the length of the workouts by how your legs feel. Heartlek
+workouts are a rather artistic system of training and allow you the freedom
+to determine your own fate. One good rule of thumb to apply is the “three
+out of four” rule—every fourth week should be a shorter or lower-intensity
+recovery week.
+Be very conservative about how fast you add more volume in these
+zones to give those connective tissues a chance to strengthen so you don’t
+blow your transmission. One sign that you are ready to move on would be
+noting that your fitness level has improved to the point that the distance
+covered during the workouts has plateaued.
+--- PAGE 105 ---
+Once you are ready, move to the following plan for the next two to four
+weeks, adding the other endurance-building workout—long, slow distance,
+or LSD—to the pattern. Use nothing harder than 75 percent MHR on the
+LSD.
+For the next two to four weeks, follow this pattern:
+Hard days (Tuesday and Saturday): 30 minutes of heartlek at 65 to 75
+percent MHR.
+Hard days (Thursday and Sunday): 45 to 60 minutes of LSD at 60 to
+75 percent MHR.
+Easy days (Monday and Wednesday): 30 to 45 minutes of recovery
+effort at 65 to 70 percent MHR.
+Off day (Friday): Take the day off to recover fully.
+Start adding 5 minutes per workout to the time of your easy recovery
+days from the previous pattern. Work up to 45 minutes on Thursday and 60
+minutes on Sunday.
+During these weeks, the increased frequency of six sessions per week
+will result in your experiencing some days of accumulating fatigue in your
+working muscles. We’ve also increased the intensity of the heartlek by
+raising the lower limit of the recovery target heart rate from 60 to 65
+percent MHR. This will make the workout harder by cutting down the
+recovery time. All this is due to our deliberate attempt to create a short-term
+chronic glycogen deficit in your muscles to stimulate the cells to use more
+fat as fuel. The easy days will allow you to recover, but you will also have
+to make a determined effort to slow down and take it easy on the recovery
+workouts. To be sure that you recover as much as possible, keep your upper
+target heart rate at just 70 percent. You’ll notice that these workouts are
+definitely much harder, but still in the zone that has a low risk of injury.
+If going so easy on your recovery days seems like punishment, keep this
+pearl of wisdom about physiology in mind: The easier and more aerobic the
+workout, the more oxygen is present in the circulating blood. It is then
+available for the muscle to use so it can burn a higher percentage of its fuel
+from fat, thus sparing the carbohydrate you eat for conversion to glycogen.
+Transition to Enhance Endurance
+--- PAGE 106 ---
+A consequence of lower-intensity, easier training to develop endurance is
+the less-than-complete strengthening of muscles, ligaments, and tendons.
+Another, by the very definition of aerobic work (no huffing and puffing
+allowed), is that your respiratory system’s muscles are just beginning to get
+into good shape. Now it’s time to move those parts of your body through a
+transition zone that will focus on the upper edge of your aerobic capacity.
+The extra effort and speed will put a little more stress on these systems and
+will prepare you for the strains of high-intensity anaerobic conditioning that
+will come when you move up the training triangle into the stamina,
+economy, and speed zones.
+This transition work will be in the steady-state zone of 75 to 80 percent
+MHR. These two percentages are, respectively, right at the top of the
+aerobic zone and right at the bottom of the anaerobic zone. Workouts in this
+zone can put a modest stress on your respiratory system while you push
+your biomechanical system through bigger and faster ranges of motion.
+To see what we mean, picture this example of 28-year-old Hannah
+making this transition from jogging and easy, low-intensity LSD running to
+steady-state running:
+On easy days, she’s not just jogging with those little, bitty, mincing
+steps anymore or alternating easy strides for short heartlek pickups.
+She’s running lightly and comfortably with a smoother, longer, but not
+full stride for extended periods of time.
+She’s not breathing hard, but may have to talk in Hemingway
+sentences, which are much shorter than the Faulkner-style run-on
+sentences she used when jogging.
+She feels like she could run forever at this pace, which is close to what
+she would do if in shape to run for 10 to 13 miles (16 to 21 km).
+Picture yourself doing your activity of choice at an effort comparable to
+this example, and then apply the following sample workout pattern to your
+sport.
+Sample Endurance-Enhancing
+Training Pattern
+--- PAGE 107 ---
+Earlier in this chapter we introduced the concept of hard–easy training by
+alternating days of light-intensity exercise with complete days off for full
+recovery. Granted, the days of easy workouts probably did not require much
+time for energy restoration. However, they were important for giving your
+legs time to build stronger muscles and tendons. As you climb up the
+training triangle to harder levels of effort, the recovery days become even
+more important. Effective recovery between steady-state hard days at 75 to
+80 percent MHR demands that you keep your effort at 70 percent and lower
+on easy days. At this level of seriousness, you will still be working out on
+easy days with the emphasis on burning fat for fuel. Review the following
+workout pattern and then compare it with your endurance pattern. Picture
+yourself following these principles while pursuing the sport of your choice.
+The times in the following sample vary widely because of the differences in
+sports. See the chapter on your sport of interest for appropriate workouts.
+These can be found in part III of the book.
+Building Your Baseline, Trimming
+Your Waistline
+If you’re like us, you might come off the winter holiday season with a few extra pounds
+or kilograms and a bunch of missed workouts. However, in your haste to remedy the
+weight issue, you should literally slow down and consider the following points. First,
+although you might be concerned about body weight, doing the correct type of base
+training in the winter will more appropriately address this issue. Second, this time of
+year should be about base building, or developing an aerobic foundation. Third, to do
+this, you must pick the correct low level of intensity. Not only will this help build your
+aerobic base, but it also will help with fat burning and weight control.
+For simplicity, let’s assume that the body burns only carbohydrate and fat. At all times
+the body burns some combination of these two and never exclusively one or the other.
+We could further simplify this explanation by defining fat use as aerobic exercise and
+carbohydrate use as anaerobic exercise even though both contribute in all forms of
+exercise energy production.
+Assume we have two basic fiber types in skeletal muscle: fast twitch and slow twitch.
+They have different recruitment patterns that vary as a function of exercise intensity.
+Fast-twitch fibers are larger than slow-twitch fibers, and smaller fibers are always
+recruited first. We call this the size principle. As the intensity increases and more force
+is needed, more fast-twitch fibers are recruited. As force output or speed increases, you
+breathe more heavily at the same time that you need to produce more energy. In other
+words, you start to use more anaerobic energy or carbohydrate. The pattern goes like
+this: Increase the intensity, increase the fast-twitch recruitment; increase the fast-twitch
+--- PAGE 108 ---
+recruitment, increase anaerobic metabolism; increase anaerobic metabolism, increase
+carbohydrate use and decrease fat use. So, to burn fat, you need to exercise slower.
+Consider this: If you exercised at 85 to 90 percent MHR for 30 to 40 minutes, you
+would burn mostly carbohydrate. Carbohydrate is restored on a nearly daily basis,
+which means that this approach causes very little fat-weight loss. This is why many
+people exercise hard and yet do not lose weight and may, in fact, gain weight. The
+substrate (fat or carbohydrate) that is burned is pretty much a function of the oxygen
+available. The overall state of the cardiovascular and respiratory systems plays a large
+role in fuel economy. Increased aerobic fitness means increased fat burning. Therefore,
+you want to spend appropriate amounts of time developing your cardiorespiratory
+system at the right intensity. Here are factors to consider:
+It takes 12 to 16 weeks to develop and deposit new blood vessels.
+The stimulus for developing and depositing new blood vessels is consistent
+aerobic stimulus lasting 40 minutes or more four or five times a week.
+The intensity must be such that it predominantly taxes the aerobic system and not
+the anaerobic system.
+The process takes time and patience.
+In other words, aerobic base building and weight control require long periods of low-
+level, steady-state exercise, and the off-season is perfect for it.
+Finally let’s discuss the concept of exercise duration and a concept called oxygen
+deficit. Anytime metabolic intensity changes (you start to exercise or change the
+intensity during exercise), you’ll notice a short period of discomfort or heavier breathing.
+This is because you have briefly moved from a dependence on aerobic metabolism to a
+dependence on anaerobic metabolism. After a few minutes, the respiratory and
+cardiovascular systems catch up (reach a steady state), and this brief shortage of
+oxygen is corrected. This period of oxygen shortage is called the oxygen deficit, and it
+occurs at the beginning of exercise and with changes in intensity.
+What does all this mean? When you start to exercise, you experience an oxygen
+deficit that increases your dependence on anaerobic metabolism and carbohydrate.
+After 10 to 15 minutes, things settle down, and if the intensity is low enough, your
+dependence reverts back to fat. Even with this adjustment, it takes about 30 minutes to
+start using more fat than carbohydrate. This is why you must exercise steadily for 30 to
+40 minutes for weight control. You can kill two birds with one stone by methodically
+designing your off-season program to focus on base building and by being patient.
+We assume that the long workout is on the weekend because most people
+have more time available on Saturday or Sunday. This example uses
+Sunday; if your long workout is on Saturday, just move everything back one
+day.
+Sunday: 45 to 90 minutes in the 65 to 75 percent MHR zone. Because
+of the length of this workout, even though the intensity is rather low,
+we consider it a hard day because of the amount of fuel burned.
+--- PAGE 109 ---
+Monday and Wednesday: 20 to 45 minutes of easy recovery effort at 65
+to 70 percent MHR.
+Tuesday and Saturday: 30 to 45 minutes of steady-state effort at 75 to
+80 percent MHR. This includes 5 to 10 minutes at 60 to 70 percent to
+warm-up. Cool down with a few minutes of very easy, slow activity.
+Thursday: 5 to 10 minutes at 65 to 70 percent to warm up, then 15 to
+20 minutes of heart rate heartlek, raising and lowering your heart rate
+between 70 and 80 percent.
+Friday: Relax. You’ve worked long and hard, so take the day off.
+After several weeks of this training pattern, you might want to do a time
+trial or jump into competition to see what kind of shape you are in.
+However, test or not, you will be ready to take your training up a notch to
+phase II and to the anaerobic threshold level of effort.
+Maintenance of Aerobic Endurance
+We offer a fairly generous target heart rate range of 60 to 75 percent MHR
+to develop endurance. We offer the rather narrow but specific range of 75 to
+80 percent MHR to enhance endurance. Two other target heart rate zones
+within the endurance range have useful purposes. They are known as
+recovery zones. Working out in these zones allows you to maintain
+endurance while your muscles rebuild and refresh themselves with new
+supplies of glycogen, that ever-important source of energy used during
+longer and harder workouts.
+In addition to using fat for fuel, muscles also burn a carbohydrate fuel
+known as glycogen. A good way to distinguish the two fuels is to think of
+fat as diesel fuel and glycogen as rocket fuel. Fat (diesel fuel) is a greasy,
+slow-burning source of energy that needs a lot of oxygen to be burned
+efficiently. Glycogen (rocket fuel) is highly volatile energy that can be
+burned in the absence of oxygen, although not efficiently for very long.
+Taking the car engine analogy a bit further, imagine that your muscles are
+the cylinders of an engine to which your carburetor sends both the gasoline
+and the oxygen to be ignited by electricity from the spark plug. The
+controlled explosion drives the piston up and down, creating movement just
+the way your muscles make your bones move back and forth. However,
+--- PAGE 110 ---
+there is one important difference between our imaginary engine and your
+body: Your muscle cells are much more fuel efficient because they can burn
+two types of energy at the same time. Both diesel and rocket fuels are
+burned together so that the slow-burning fatty fuels are ignited by the hot-
+burning glycogen.
+All this happens adequately in the 65 to 70 percent effort range because
+the slower paces at this lower level of intensity provide more oxygen, thus
+allowing more of the always-available free fatty acids to be burned, sparing
+the glycogen.
+Of course, an even more effective recovery can be accomplished in the
+60 to 65 percent effort zone, but at this level the pace becomes so slow that
+it takes the threat of arrest by the pace police to get anyone to take it that
+easy. Therefore, the only time we would recommend staying in this zone is
+the day before an important competition if you are one of those compulsive,
+obsessive athletes who worry about getting out of shape if they miss a day
+of training.
+If you have become hooked on smart exercise and want to develop a
+higher level of fitness, the next chapters offer guidelines to follow in your
+quest for stamina, economy, and speed. Now it’s time to follow the old
+adage: If you want to race faster, you have to train faster.
+Rest, Recover, and Return
+Rest and recovery are just as important as the stimulus to the muscle and
+cardiovascular systems in the first place. Without adequate recovery,
+workouts become more difficult, the injury risk increases, and adaptations
+plateau. Residual soreness and fatigue have been replaced by training
+methods based on research that prescribes appropriate workloads and
+intelligent recovery, which lead to better performance. Recovery now
+involves nutrition, sleep, easy days, stretching, supplements, and much
+more. But the bottom line is that the muscle tissue needs time to recover
+and regenerate. The muscle needs these periods, generally 24 to 48 hours,
+of low-intensity activity to repair microtears in the tissue and restore energy
+supplies. On a simple level, we can detect the state of recovery by
+measuring resting heart rate.
+--- PAGE 111 ---
+Consider this: A musculoskeletal system in a state of repair leads to more
+physiological activity in the body. For example, it means increased blood
+flow, more tissue repair, more energy conversion and storage, more cooling,
+more waste product removal, and so on. Because the heart is the engine
+driving all activity, the engine’s RPMs will be higher than normal. So, if
+you monitor the heart’s RPMs 24-7, you can track very small increases and
+decreases in your average resting heart rate. An increase of even one or two
+beats over 24 hours is enough to inform you that recovery may be
+incomplete. Of course, you must first have established a solid baseline of
+resting heart rate data in order to have a reliable average resting heart rate.
+It is recommended that you measure this first thing in the morning upon
+awakening (see chapter 1 and chapter 2 for more details).
+Keep in mind that resting heart rate alone might not be able to tell you
+that the body is still in a state of heightened activity and that recovery is
+incomplete, but other heart rate data are available. Thanks to new
+understanding of data about cardiac health, heart rate variability (HRV) is a
+new tool that can provide athletes and exercisers more insight into recovery.
+In the past, an electrocardiogram (ECG) machine was needed to measure
+HRV by tracing the electrical activity of the cardiac muscles to measure the
+actual interval between heartbeats. But now the cheaper technology of chest
+and wrist heart rate monitors and new apps for smartphones make
+measuring and using HRV possible and more practical.
+Cardiologists have long used HRV, variation in the interval between
+heartbeats, as a measure of cardiac health. HRV scores range from 0 to 100,
+with low scores (little variation) indicating poor health, and high scores
+(greater variation) reflecting good health. HRV scores tend to peak between
+20 and 30 years of age and decline thereafter. Average HRV scores for
+healthy individuals tend to be about 60, but again it is age specific.
+So, what does this mean? Generally, HRV indicates the body’s health,
+fitness, and ability to handle a workload. Low HRV indicates poor fitness
+and the body’s inability to adapt to stress, whereas high HRV indicates
+fitness and that the body is able to tolerate stress or has recovered from a
+previous stressor. During your recovery periods, when you are not working
+out and while sleeping, you want to see variations in your resting heart rate
+response. Tracking this variation in the intervals between heartbeats
+provides useful data to be used in conjunction with your average resting
+--- PAGE 112 ---
+heart rate. Measuring HRV is becoming widely used in both clinical
+populations and among competitive athletes and is helpful in determining
+how well the body has recovered from training. Although it requires a little
+more daily analysis, it is worth the effort because it allows you to more
+effectively adjust your training sessions depending on whether you are
+recovered or not.
+Table 5.1 shows HRV across the lifespan. The data were adapted from
+several sources that include athletic and nonathletic populations.
+Calculating HRV is not straightforward, so we recommend investing in a
+system that will do the calculations for you (such as the Oura sleep and
+activity tracking ring).
+TABLE 5.1 HRV Scores by Age and Fitness
+Men Age group (years) High fitness HRV score
+18–25 68
+26–35 64
+36–45 60
+46–55 56
+56–65 53
+66–75 52
+75+ 53
+Women Age group (years) High fitness HRV score
+18–25 65
+26–35 61
+36–45 58
+46–55 57
+56–65 53
+66–75 49
+75+ 49
+Data from Umetani et al. (1998); Voss et al. (2015); www.elitehrv.com.
+--- PAGE 113 ---
+In the next few chapters we will look at training approaches to target
+different types of fitness, namely aerobic and anaerobic. You now know
+from this chapter that the intensity of exercise targets a specific energy
+system and, therefore, a specific adaptation. However, in reality, most
+exercise sessions involve varying intensities, and the use of energy systems
+changes frequently, even when a particular system is the focus. Traditional
+approaches to training have focused heavily on the consistent and steady
+stimulation of a particular system as the way to achieve best results.
+However, a growing band of research now suggests that for general fitness
+and even weight loss, varying your exercise intensity within a given session
+is extremely valuable and potentially even better, depending on your goals.
+Terms for varying intensity include interval training, circuit training, and
+heartlek training. These approaches vary the intensity on a continuum from
+maximal to easy throughout the workout, forcing you to develop and
+balance multiple systems at once and learn to tolerate the varying
+physiological challenges presented by heavy use of a particular energy
+system.
+In general, all these approaches are similar to interval training—mixing
+harder efforts with recovery periods—which provides several benefits:
+More calories burned per unit of time
+Adaptation of both aerobic and anaerobic systems
+Greater speed of movement
+Less boredom
+Of course, interval training is not for everyone. The higher intensity
+leads to quicker fatigue, greater discomfort, and even injury. So, it is
+generally a good idea to have a sufficient level of basic fitness before
+considering it. An interval training session might include 2 to 10 changes in
+intensity during a session. A successful interval session requires you to
+recover adequately so that you can perform the work pieces at the correct
+intensity.
+A common mistake in interval training is to perform at too high an
+intensity for the exercise segment and take a rest interval that is too short,
+leading to poor recovery and a failed workout. As a general rule, the shorter
+the intense portion, the higher the intensity, and the length of the recovery
+--- PAGE 114 ---
+interval is determined by the energy system used. For example, if you
+performed 10 × 100-meter sprints, you want 3 to 5 minutes of slow jogging
+or walking recovery between sprints. Why? These sprints use
+predominantly the ATP-PC system, which requires 3 to 5 minutes to
+replenish.
+Interval workouts are usually designed using a work-to-rest ratio. So
+someone performing 100 meters in 15 seconds, with 3 minutes of recovery
+would have a 1:12 work-to-rest ratio. Someone running 400 meters in 90
+seconds, with 3 minutes recovery would have a 1:2 work-to-rest ratio.
+Interval workouts are fun and valuable, but they must be designed carefully
+to allow the right balance between work and rest. You want to be able to
+complete your workout at the right intensity. If your rest interval is too
+short, you will not recover, and your last three sprints might be at only 80
+percent speed. What’s the point of that? More specific guidelines for
+interval training are presented in several of the later chapters.
+--- PAGE 115 ---
+CHAPTER 6
+Raising Anaerobic Threshold
+W
+e are doing our best to present the chapters and information in a
+logical sequence. In other words, it makes sense to develop and
+understand aerobic development as you learned in the previous chapter
+before worrying about the anaerobic threshold because training the
+threshold requires a certain level of aerobic fitness. As you will see in this
+chapter, the anaerobic threshold is the most important variable in
+competitive fitness because it determines how hard and for how long one
+can work. It is not pinpointed at a static percent of MHR, but is a fluid point
+of fitness that is generally raised from 75 percent MHR up to 85 percent
+MHR once endurance has been developed and stamina training commences
+with phase II workouts.
+Chapters 1 through 4 provided a background in heart rate response and
+measurement and the use of a heart rate monitor. Chapter 5 got you started
+on the path to fitness with phase I base training. You also learned how to
+develop and enhance endurance by using low-intensity or mixed-intensity
+workouts that can greatly improve cardiovascular, respiratory, and muscle
+cell function. That path developed a great base of aerobic endurance, which
+is the platform that every serious athlete needs to build on in order to
+perform better or faster. At some point your aerobic fitness will change very
+little regardless of the amount of training you do. However, you can get
+fitter and faster, and increasing the anaerobic threshold (AT) might just be
+your holy grail. In this chapter, we discuss the AT in greater detail.

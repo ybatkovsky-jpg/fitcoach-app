@@ -1,0 +1,702 @@
+  2760→effect.
+  2761→Once we structure the training plan, we can use VBT in our programming by
+  2762→simply assigning the appropriate velocity, which will allow us to use one of the
+  2763→five special strength zones. This will then make it possible to shift our focus to
+  2764→the particular adaptation that we are trying to achieve in that particular phase.
+  2765→The following chapters cover this in greater detail, but, for now, we will take a
+  2766→closer look at what cycles, periods, and phases are and how to organize them as a
+  2767→yearly training program specifically designed for individual athletes or teams.
+  2768→
+  2769→Training Cycles
+  2770→Training cycles (generally referred to as macrocycles, mesocycles, and
+  2771→microcycles) are implemented into a program as measurements of time that
+  2772→athletes will spend in a particular period or phase. These cycles are then broken
+  2773→down further into periods and phases. Table 7.1 provides the NSCA’s (2016)
+  2774→hierarchy and parameters of these cycles.
+  2775→
+  2776→Training cycles are implemented into a program as
+  2777→measurements of time that athletes will spend in a particular
+  2778→period or phase.
+  2779→Only when we understand how and when to use cycles can we begin to
+  2780→structure the athlete’s training program. The program usually occurs for an offseason (seasonal) or throughout the year (yearly plan).
+  2781→Table 7.1 PERIODIZATION CYCLES FOR A YEARLY PLAN
+  2782→TRAINING CYCLE
+  2783→
+  2784→DURATION
+  2785→
+  2786→DESCRIPTION
+  2787→
+  2788→Macrocycle
+  2789→
+  2790→Several months to one year
+  2791→(dependent upon schedule of the
+  2792→specific sport)
+  2793→
+  2794→Generally used when timing periods or yearly plans
+  2795→
+  2796→Mesocycle
+  2797→
+  2798→Two to six weeks
+  2799→
+  2800→Generally used when timing phases or blocks with
+  2801→the most common time frame being four to six
+  2802→weeks
+  2803→
+  2804→Microcycle
+  2805→
+  2806→Several days to two weeks
+  2807→
+  2808→Smallest training cycle with the most common time
+  2809→frame being one week
+  2810→
+  2811→Once we understand cycles, including how and when they are used, we can then begin to structure the
+  2812→athlete’s training program.
+  2813→© Human Kinetics
+  2814→
+  2815→Training Periods
+  2816→We use the training cycles to partition the year into training periods that are put
+  2817→together in a continuum, which, just like the body, is dynamic and progressive in
+  2818→its adaptation. Therefore, the periodization and programming of these periods
+  2819→should also be treated as a continuum. This way we can more efficiently
+  2820→implement the many different phases of training used throughout an athlete’s
+  2821→yearly plan. I break this yearly plan (macrocycle) into four different training
+  2822→periods, which helps me systematically organize an athlete’s or a team’s training
+  2823→with the main goal of promoting peak condition once competition (in-season)
+  2824→comes around.
+  2825→For the scope of this text, we will use an example of a yearly plan because it
+  2826→includes all training periods and phases and the velocities that are associated
+  2827→
+  2828→with each type of strength. Any or all of these parameters can then be applied to
+  2829→the structure of any athlete’s individualized training program specific to the
+  2830→athlete’s particular sport and competitive schedule. A sample yearly plan for a
+  2831→baseball player would look like this:
+  2832→Preparatory period. This period is the early or mid–off-season and lasts
+  2833→approximately four to five months.
+  2834→Transition period I (conversion to sport). This period is the late off-season
+  2835→or preseason and lasts approximately 6 to 12 weeks.
+  2836→Competitive period. This period is the in-season and duration is dependent
+  2837→upon the sport.
+  2838→Transition period II. This period is the post-season or recovery and lasts
+  2839→approximately one to four weeks.
+  2840→
+  2841→Training Phases
+  2842→The training periods are then further broken down into mesocycles, or what is
+  2843→often referred to as training blocks or phases. (For the scope of this text, we will
+  2844→simply refer to them as phases.) These phases help to guide the coach or athlete
+  2845→to the training focus and to design a well-structured and efficient training plan
+  2846→whose end goal is to reach peak performance when the competitive period, or inseason, arrives.
+  2847→Note that these phases are considered mesocycles because they are at least
+  2848→two to six weeks long. I personally rarely use microcycles (one to two weeks
+  2849→long) because I believe at least one week should be devoted to motor learning
+  2850→before we can even consider ourselves really working within that phase. Thus, I
+  2851→generally work in four- to six-week phases.
+  2852→
+  2853→To specifically address all the different ways yearly and monthly plans are
+  2854→laid out would require a whole other text. Table 7.2 shows an example of a
+  2855→yearly plan with the partitioning of training periods and phases that I use when
+  2856→working and programming for baseball players. Once again, these phases and
+  2857→their approximate durations can vary based on the sport, the timing of the sport,
+  2858→and the individual athlete.
+  2859→
+  2860→YEARLY PROGRAMMING WITH VBT
+  2861→To be able to train more efficiently with VBT, we must first expand our
+  2862→understanding of training periods and what we are trying to accomplish when
+  2863→breaking them down into phases.
+  2864→
+  2865→Preparatory Period
+  2866→The goal of the preparatory period (early or mid–off-season) is to develop a
+  2867→baseline of tensile strength, lean muscle mass, and absolute strength so that
+  2868→athletes can train at higher intensities and speeds in later phases when
+  2869→transitioning to sport. The preparatory period’s training phases generally include
+  2870→the following:
+  2871→Tissue prep (0.75 to 1.0 meters per second)
+  2872→Hypertrophy I (0.75 to 1.0 meters per second)
+  2873→Hypertrophy II (0.40 to 0.60 meters per second)
+  2874→
+  2875→Absolute strength (<0.50 meters per second)
+  2876→Core lifts such as squats, deadlifts, and bench presses and rows are the
+  2877→primary focus in the preparatory period. We use compound lifts (lifts that use
+  2878→multi-joint movements) early on to address overall strength of the prime movers
+  2879→while simultaneously working the accessory muscles (calves, triceps, etc.). We
+  2880→use heavier loads and long times under tension to create these adaptations in this
+  2881→period, so not much sport-specific work is done at this time.
+  2882→
+  2883→Core lifts such as squats, deadlifts, and bench presses and
+  2884→rows are the primary focus in the preparatory period.
+  2885→
+  2886→Developing a good, solid base of strength in the preparatory period helps prepare the athlete for higher
+  2887→intensities and speeds later in the off-season.
+  2888→
+  2889→© MoMo Productions/Stone Sub/Getty Images
+  2890→
+  2891→Transition Period I (Conversion to Sport)
+  2892→The transition I period (late off-season or preseason) takes the strength gained in
+  2893→the preparatory period and works on translating it into both the strength side of
+  2894→power (strength–power) and speed side of power (speed-strength). Which
+  2895→strength to use for training these types of power takes a higher priority and
+  2896→depends on both the athlete and the athlete’s respective sport. (This is covered in
+  2897→more detail in chapter 10.) The following training phases are generally used in
+  2898→the transition I period:
+  2899→Absolute strength (<.50 meters per second)
+  2900→Strength-speed (0.75 to 1.0 meters per second)
+  2901→Speed-strength (1.0 to 1.3 meters per second)
+  2902→The adaptations previously attained earlier in the off-season training transfer
+  2903→over to the performance of the athlete’s specific sport, and exercises, at this
+  2904→point, will begin to mimic movements closer to that of the athlete’s sport (see
+  2905→figure 7.1). For example, if we were training a basketball player or wide receiver
+  2906→in football, exercises such as walking lunges and lateral lunges could be used for
+  2907→training strength-power, and loaded jumps could be used for training speedpower.
+  2908→
+  2909→Figure 7.1 Learning to quickly apply the strength gained in the preparatory period to the
+  2910→athlete’s respective sport is the primary focus in the first transition period.
+  2911→
+  2912→Competitive Period
+  2913→During the competitive period (in-season), we maintain or even continue to
+  2914→increase strength and power slightly as we decrease volume. Decreasing volume
+  2915→(usually sets and reps), as well as eliminating any eccentric tempos greater than
+  2916→2-0-0, reduces our chances of causing any residual soreness that may translate to
+  2917→next day. It is also important to note the use of a conjugate style of training due
+  2918→to the specific training residuals that occur from playing competitive sport
+  2919→during this time. This is done in order to address several adaptations with little
+  2920→time available to train in the gym (more on this in chapter 11). The following
+  2921→training phases are generally used in the competitive period:
+  2922→Accelerative strength (0.50 to 0.75 meters per second)
+  2923→Strength-speed (0.75 to 1.0 meters per second)
+  2924→Speed-strength (1.0 to 1.3 meters per second)
+  2925→Exercises and energy system work mimic movements specific to a sport and
+  2926→may include: core lifts such as squat variations and bench variations at 0.50 to
+  2927→0.75 meters per second, or 60 to 80 percent 1RM, (accelerative strength);
+  2928→weighted jumps and Olympic lifts at 0.75 to 1.3 meters per second, or 20 to 60
+  2929→percent 1RM, (strength-speed or speed-strength); and sprint work and change-ofdirection (COD) drills (body weight to 20 percent) (see figure 7.2).
+  2930→
+  2931→Transition Period II
+  2932→Recovery is of the utmost importance in the transition II (post-season or
+  2933→recovery) period. This may include taking complete time off to allow the athlete
+  2934→to regroup both physically and mentally before beginning a new annual training
+  2935→plan or rehabilitating an injury. Another option is to perform a low volume of
+  2936→strength training to maintain strength levels while incorporating soft tissue and
+  2937→mobility work to expedite recovery. This option involves lighter strength training
+  2938→at low sets and intensities (volume), during which VBT can still be used
+  2939→sparingly. Unless more time is warranted for an injury, it is recommended to
+  2940→spend no more than one to four weeks in this period; otherwise an athlete will
+  2941→have to devote much more time in the following preparatory period when
+  2942→beginning the next macrocycle.
+  2943→
+  2944→Figure 7.2 In the competitive period, exercises and energy system work that mimic those
+  2945→movements of the sport are the most effective choices.
+  2946→
+  2947→LINEAR AND UNDULATING PERIODIZATION
+  2948→This section covers the two most popular methods of periodization: linear and
+  2949→nonlinear (also known as undulating). We will first take a brief look at each and
+  2950→discuss when one method may be the better option of the two.
+  2951→
+  2952→Linear Periodization
+  2953→In 1964, Leon Matveyev popularized linear periodization. It typically involves
+  2954→staying in the same loading zone over an entire mesocycle before transitioning
+  2955→into a different loading zone or training phase. Doing so allows the athlete to
+  2956→stay in a particular training adaptation for a longer period of time.
+  2957→Linear periodization is the most common method used with novice athletes
+  2958→and athletes who can afford a longer (greater than eight weeks) off-season. This
+  2959→type of programming is appealing because it prepares the athlete’s body to
+  2960→accept more variations in future training. This plays a considerable role in-
+  2961→
+  2962→season because the longer we train a strength adaptation, the longer it takes
+  2963→before that trait begins to decline once game play starts. For example, an athlete
+  2964→who stays in a maximal strength phase for four to eight weeks through linear
+  2965→periodization will retain that strength for a longer period of time than an athlete
+  2966→who trained strength only one time a week for a month in a nonlinear, or
+  2967→undulating, model. (Chapter 11 covers this in greater detail with in-season
+  2968→training and training residuals.)
+  2969→A linear method can be applied in two ways:
+  2970→Sets and reps remain the same, while intensity and volume increase. The
+  2971→early-to-mid–off-season is a better time for this method to be used for
+  2972→building strength because it produces an increase in overall volume as the
+  2973→phase progresses. (See table 7.3. Remember that VBT ranges are estimates.)
+  2974→Intensity increases while training volume decreases. This decrease in
+  2975→volume occurs when sets and reps are adjusted within the training phases.
+  2976→The late off-season is a better time to use this method when training
+  2977→progresses toward competition. (See table 7.4. Remember that VBT ranges
+  2978→are estimates.)
+  2979→I use a linear method of periodization for most of my athlete’s yearly plan.
+  2980→However, I do move to a nonlinear (undulating) method during the in-season and
+  2981→sometimes in the transition periods as well if practice or time becomes an issue
+  2982→and limits time in the weight room.
+  2983→Table 7.3 LINEAR PERIODIZATION MESOCYCLE DURING A
+  2984→STRENGTH PHASE WHEN BOTH VOLUME AND INTENSITY
+  2985→INCREASE
+  2986→WEEK 1
+  2987→5 × 5 sets or reps at 0.65-0.75
+  2988→m/sec (60% 1RM)
+  2989→
+  2990→WEEKS 2 AND 3
+  2991→5 × 5 sets or reps at 0.60-0.70
+  2992→m/sec (70% 1RM)
+  2993→
+  2994→WEEK 4
+  2995→5 × 5 sets or reps at 0.50-0.60
+  2996→m/sec (80% 1RM)
+  2997→
+  2998→Table 7.4 LINEAR PERIODIZATION MESOCYCLE DURING A POWER
+  2999→PHASE WHEN VOLUME DECREASES AND INTENSITY INCREASES
+  3000→WEEK 1
+  3001→8 × 2 sets or reps at 0.65-0.75
+  3002→m/sec (60% 1RM)
+  3003→
+  3004→WEEKS 2 AND 3
+  3005→6 × 2 sets or reps at 0.60-0.70
+  3006→m/sec (70% 1RM)
+  3007→
+  3008→WEEK 4
+  3009→4 × 2 sets or reps at 0.50-0.60
+  3010→m/sec (80% 1RM)
+  3011→
+  3012→Nonlinear, or Undulating, Periodization
+  3013→
+  3014→In 1988, Charles Poliquin popularized nonlinear, or undulating, periodization,
+  3015→the method that involves weekly or daily fluctuations in both training load and
+  3016→volume and trains different adaptations within a particular time period.
+  3017→Nonlinear periodization does not provide a long enough saturation period of
+  3018→anatomical adaptation (phases) in the early and mid–off-seasons because we are
+  3019→training different traits weekly or even daily during this time. However, the
+  3020→appeal is the ability to focus on multiple training adaptations (phases) at one
+  3021→time whether they are daily, weekly, or biweekly (microcycle), which allows the
+  3022→athlete’s body to respond to a variety of challenges within a weekly program
+  3023→(unlike a more linear model that only focuses on one strength trait at a time). As
+  3024→a result, nonlinear periodization is ideal for in-season programming in order for
+  3025→athletes to maintain several different qualities while playing their sport (see table
+  3026→7.5). This, too, is covered in more detail in chapter 11. Nonlinear periodization is
+  3027→the time during the year when I employ the use of microcycles.
+  3028→Table 7.5 UNDULATING PERIODIZATION MICROCYCLE WHEN
+  3029→TRAINING DIFFERENT ADAPTATIONS WITHIN THE SAME WEEK
+  3030→MONDAY
+  3031→5 × 5 sets or reps at 0.50-0.60
+  3032→m/sec, or 80% 1RM (maximal
+  3033→strength)
+  3034→
+  3035→WEDNESDAY
+  3036→6 × 3 sets or reps at 0.80-0.90
+  3037→m/sec, or 50% 1RM (strengthpower)
+  3038→
+  3039→FRIDAY
+  3040→8 × 3 sets or reps at 0.90-1.0
+  3041→m/sec, or 40% 1RM (speedpower)
+  3042→
+  3043→The amount of time and effort, the type of work and, most importantly, the time
+  3044→frame during which training occurs shapes and determines an athlete’s
+  3045→conditioning level. This is why programming with VBT is advantageous for a
+  3046→coach or an athlete. However, much like traditional percentage-based training,
+  3047→finding a system that works for you and your athletes requires a lot of trial and
+  3048→error: The more you use VBT in your programming, the more efficient you will
+  3049→get at using it. All of the information I have provided is from my own research
+  3050→and personal experiences. I recommend this as a good place for you to start, but,
+  3051→like anything, let the numbers talk to you and help you draw your own
+  3052→conclusions from the data. This is the best way to ensure that VBT will work for
+  3053→you and your specific clients.
+  3054→
+  3055→CHAPTER
+  3056→
+  3057→8
+  3058→Early Off-Season: Tissue Prep
+  3059→and Hypertrophy
+  3060→After a long season and only a few weeks of recovery, many athletes will still
+  3061→need to pay extra care to their joints going into the next early off-season. Once
+  3062→again, assessing your athlete’s current conditioning level is of paramount
+  3063→importance to determine where to begin from both a mobility and a strength
+  3064→standpoint. This is where VBT excels in giving the athlete and coach alike
+  3065→external information about appropriate velocity levels for gauging volume and
+  3066→autoregulation for keeping in perspective an athlete’s week-to-week and day-today recovery status.
+  3067→It is important to note that these programs are only starting points, meaning
+  3068→that there is no perfect program that works for every athlete. Remember, much is
+  3069→predicated upon the following:
+  3070→The needs of the sport (e.g., biomechanical profile, common injury sites,
+  3071→position-specific)
+  3072→An athlete’s current conditioning level (e.g., movement screen, strength
+  3073→testing injury history)
+  3074→It is important to keep in mind that many athletes expect to see huge leaps in
+  3075→performance after only four to six weeks of strength training. However, athletes
+  3076→generally do not experience the highest peaks in performance until the
+  3077→competitive period, or at best, when the competitive period draws near. Strength,
+  3078→much like athletic ability and technique, is a skill that can be developed much
+  3079→the same way through various methods and phases. These phases begin with the
+  3080→off-season and progress toward a peak at the beginning of the competitive period
+  3081→
+  3082→(in-season).
+  3083→The two primary phases in the early off-season are phase I tissue prep and
+  3084→phase II hypertrophy, and their primary goal is to prepare the athlete in both
+  3085→strength and conditioning for heavier lifting later in the off-season.
+  3086→
+  3087→Phase I: Tissue Prep
+  3088→Phase I tissue prep is the foundation for the other phases of training, and
+  3089→knowing this is especially crucial before entering into a strength phase
+  3090→where volume and load are higher. I have found that athletes who skip
+  3091→phase I and jump right into phase II hypertrophy do not reap the same
+  3092→benefits in later phases as those athletes who spend the necessary four
+  3093→to six weeks in this phase first. The name of this phase reflects the fact
+  3094→that the main objective is not to achieve an immediate overload, but,
+  3095→rather, to elicit a progressive adaptation of the athlete’s anatomy and
+  3096→tensile strength. While this phase does not focus on hypertrophy
+  3097→specifically, increases in cross-sectional area may develop due to the
+  3098→isometric time under tension nature of the training. In addition, an
+  3099→extended amount of time is spent in the eccentric and isometric phases
+  3100→of the exercise (see figure 8.1).
+  3101→
+  3102→GOALS
+  3103→The main goals during the tissue-prep phase are the following:
+  3104→Improving tensile strength. This phase prepares the tendons,
+  3105→ligaments, and joints for longer, more strenuous sessions in later
+  3106→phases. This is partially because hydrogen ions, which are released
+  3107→by lactic acid, have been proven to stimulate the release of growth
+  3108→hormone and, therefore, collagen synthesis (5). Using isometric
+  3109→holds in low positions increases time under tension and solidifies
+  3110→movement patterns where they are at the biggest mechanical
+  3111→disadvantage. Both tissue-prep and hypertrophy phases help
+  3112→increase applications of force in later phases when heavier loads are
+  3113→being used.
+  3114→Regrooving good movement patterns. This involves multiple muscle
+  3115→groups in order to groove or re-groove more efficient motor patterns
+  3116→(neuromuscular coordination) specific to the athlete’s sport. For this
+  3117→reason, longer eccentric tempos and isometric holds are
+  3118→implemented using low-resistance loads. However, concentric
+  3119→phases should remain explosive to stimulate fast-twitch fibers.
+  3120→
+  3121→Figure 8.1 In a tissue-prep phase, using isometric holds in low positions increases time under
+  3122→tension, as well as solidifying movement patterns where they are at the biggest mechanical
+  3123→disadvantage.
+  3124→
+  3125→All sports involve explosive movements. For this reason, even when longer eccentric tempos and isometric
+  3126→holds are implemented in a tissue-prep phase, concentric tempos should remain explosive to stimulate type
+  3127→II (fast-twitch) fibers.
+  3128→© Human Kinetics
+  3129→
+  3130→TRAINING PARAMETERS
+  3131→Types of exercises Multi-joint exercises such as squats, deadlifts, bench presses, rowing exercises, pushups, and chin-ups should be used to better stimulate the release of anabolic hormones,
+  3132→promoting muscle growth while strengthening the prime movers used in sport activities.
+  3133→Isolation exercises such as biceps curls and triceps extensions should be kept to a
+  3134→minimum.
+  3135→
+  3136→Training intensity
+  3137→
+  3138→VBT velocity
+  3139→
+  3140→VBT velocity loss
+  3141→
+  3142→The duration of time under tension is long, so low intensities as
+  3143→40%-60% 1RM
+  3144→well as high-velocity losses are used in both the tissue-prep phase (increasing weekly)
+  3145→and phase II for hypertrophy I.
+  3146→Start all athletes at 1.0 m/sec, and increase intensity weekly to
+  3147→0.75-0.80 m/sec based on the desired percentage of 1RM.
+  3148→Note: Because these first two phases involve maximum fatigue,
+  3149→VBT velocities are used only to provide a starting point. VBT is
+  3150→primarily used in these first two phases to monitor velocity loss to
+  3151→gauge reps and time.
+  3152→
+  3153→0.75-1.0 m/sec
+  3154→(starting velocity
+  3155→only)
+  3156→
+  3157→30%-40%
+  3158→
+  3159→Tempo
+  3160→
+  3161→Eccentric and isometric training are emphasized to maintain
+  3162→conditioning of the type II fibers. Concentric phases are still
+  3163→performed explosively.
+  3164→
+  3165→3-1-0, 3-2-0, 4-2-0
+  3166→
+  3167→Reps
+  3168→
+  3169→Start all athletes at 12-15 reps, and decrease weekly down to 6-8
+  3170→reps. Time under tension should vary anywhere between 40-70
+  3171→seconds. This time under tension involves the anaerobic lactic
+  3172→system as the main energy system. (See chapter 6, Method II: Set
+  3173→Manipulation Based On Velocity Loss section.)
+  3174→
+  3175→12-15 down to 8 reps
+  3176→(decreasing weekly
+  3177→by 2 reps, and
+  3178→incorporating velocity
+  3179→loss into rep
+  3180→scheme)
+  3181→
+  3182→Sets
+  3183→
+  3184→2-4 per exercise
+  3185→
+  3186→Rest
+  3187→
+  3188→1-2 min between sets
+  3189→
+  3190→Frequency of
+  3191→training
+  3192→
+  3193→2-4 sessions per week (full body: 2-3 per week; splits: 4 per week [2 upper, 2 lower])
+  3194→
+  3195→PROGRAMMING
+  3196→
+  3197→Phase II: Hypertrophy
+  3198→Once a good base of tensile strength has been developed in phase I, it is
+  3199→time for the athlete to work on increasing the lean body mass in phase II
+  3200→that will be translated into increased functional performance in later
+  3201→phases. To achieve this, an athlete increases not only the mechanical
+  3202→stress to the muscle fibers but also the load used, the total time under
+  3203→tension (especially of the eccentric phase), and the total volume of sets
+  3204→and reps–in other words, hypertrophy. The main difference between the
+  3205→two types, hypertrophy I and hypertrophy II, is motor unit recruitment (see
+  3206→figure 8.2). Each muscle contains a series of differently sized fibers: the
+  3207→low-threshold, or smaller, weaker fibers and the high-threshold, or larger,
+  3208→stronger fibers.
+  3209→
+  3210→Figure 8.2 In hypertrophy I, increasing the cross-sectional area of the low-threshold fibers
+  3211→involves using lower intensities with higher reps. But, as load intensity increases in hypertrophy II,
+  3212→high-threshold motor units are recruited earlier.
+  3213→
+  3214→Hypertrophy I
+  3215→This phase involves performing resistance training and focusing on
+  3216→increasing low-threshold muscle fibers in the cross-sectional area. These
+  3217→fibers are recruited during the first few reps of a set, and then the highthreshold fibers are recruited sequentially as needed when the athlete
+  3218→
+  3219→gets closer to failure. Using lighter loads and longer time under tension
+  3220→make hypertrophy I very effective in the early phases of the off-season
+  3221→for athletes whose main focus is to maximize lean muscle mass.
+  3222→Hypertrophy I is also used in bodybuilding for achieving aesthetic size
+  3223→and muscle symmetry; this phase is centered around an increase in the
+  3224→type I slow-twitch muscle fiber.
+  3225→
+  3226→While hypertrophy I is the main training adaptation used in bodybuilding, it is also useful in early phases of
+  3227→training for athletic performance.
+  3228→© Human Kinetics
+  3229→
+  3230→TRAINING PARAMETERS
+  3231→Types of
+  3232→exercises
+  3233→
+  3234→Multi-joint exercises such as squats, deadlifts, bench presses, rowing exercises, push-ups, and
+  3235→chin-ups should be used to better stimulate the release of anabolic hormones, promoting muscle
+  3236→growth while strengthening the prime movers used in sports. Isolation exercises should be kept
+  3237→to a minimum.
+  3238→
+  3239→Training
+  3240→intensity
+  3241→
+  3242→Start all athletes at 40% 1RM or one that allows 15 reps, and increase intensity
+  3243→weekly by 5% until 60% is achieved or training block is completed.
+  3244→
+  3245→VBT velocity Start all athletes at 1.0 m/sec, and increase intensity weekly to 0.75 m/sec based
+  3246→on desired percentage of 1RM. Note: Similar to phase I, the hypertrophy phase
+  3247→involves maximum fatigue; as a result, VBT velocities are used only to give us a
+  3248→starting point and are used primarily in these first two phases to monitor velocity
+  3249→loss to help gauge reps and time.
+  3250→
+  3251→40%-60%
+  3252→1RM
+  3253→(increase
+  3254→weekly)
+  3255→0.75-1.0
+  3256→m/sec
+  3257→(starting
+  3258→velocities
+  3259→only)
+  3260→
+  3261→VBT velocity 40%-50%
+  3262→loss
+  3263→Tempo
+  3264→
+  3265→Because the neuromuscular system adapts to slow concentric movement, it does 3-0-0, 4-0-0
+  3266→not stimulate the recruitment of fast-twitch muscle fibers that are crucial for speedand power-dominant sports if a slow concentric movement is used. As a result,
+  3267→velocities are used only as a starting point in this phase. There is no need to
+  3268→calculate reps because the goal is to do a high number of reps to create maximum
+  3269→fatigue. It is important to cue athletes to always try to move the weight as fast as
+  3270→possible during the concentric phase of the lift.
+  3271→
+  3272→Reps
+  3273→
+  3274→Start all athletes at 15-16 reps, and decrease weekly by 2 reps down to 10. Once
+  3275→again, this is when we are looking for higher drop-offs of 40%-50% from rep to rep
+  3276→or from set to set to elicit greater muscle breakdown and to optimize increases in
+  3277→the cross-sectional area of the type I muscle fibers.
+  3278→
+  3279→16 down to
+  3280→10
+  3281→(decrease
+  3282→weekly by 2
+  3283→reps;
+  3284→incorporate
+  3285→velocity loss
+  3286→into rep
+  3287→scheme)
+  3288→
+  3289→Sets
+  3290→
+  3291→3-5 sets per exercise for 10-12 total when using upper- and lower-splits, and 2024 total when using full-body workouts
+  3292→
+  3293→3-5 sets per
+  3294→exercise
+  3295→
+  3296→Rest
+  3297→
+  3298→The amount of rest is dependent upon the athlete’s muscular endurance, which is 1-3 min
+  3299→being built up at the same time. Use the minimum amount of rest needed to hit the
+  3300→desired velocities prescribed, but, as intensities increase and the athlete moves
+  3301→closer to phase III, rest intervals should increase.
+  3302→
+  3303→Frequency
+  3304→of training
+  3305→
+  3306→Training should be done 2 times per week if full-body workouts are prescribed, or 4 times per
+  3307→week if using upper- and lower-splits.
+  3308→
+  3309→PROGRAMMING
+  3310→
+  3311→For athletes who already possess a good amount of lean muscle mass, time may be better spent in
+  3312→hypertrophy II in order to train faster, more efficient motor unit recruitment rather than focusing on
+  3313→increases in low-threshold fiber size as with hypertrophy I.
+  3314→© Photodisc/Getty Images
+  3315→
+  3316→Hypertrophy II
+  3317→The focus in hypertrophy II is motor unit recruitment of the high-threshold
+  3318→fibers closer to the start of the lift. This is of great importance in athletic
+  3319→performance because we ultimately want to reduce the amount of time it
+  3320→takes to kick in the high-threshold motor units when playing our sport
+  3321→otherwise known as intramuscular coordination (see figure 8.3). This is
+  3322→why this type of hypertrophy is often defined as sport-specific
+  3323→hypertrophy.
+  3324→
+  3325→Figure 8.3 The use of exercises such as prone bench rows during a hypertrophy II phase helps
+  3326→better stimulate the release of anabolic hormones and increase contractile properties of highthreshold muscle fibers.
+  3327→
+  3328→During hypertrophy II, the sizes of the specific prime movers increase
+  3329→without neglecting the neural component of force expression (7). This
+  3330→holds true for most sports, but it is especially true in high-explosive sports
+  3331→such as football, baseball, sprinting, and shot put and discus. Intensities
+  3332→used in hypertrophy II are generally higher than those in hypertrophy I,
+  3333→but the number of reps is lower while the set number and work–rest ratios
+  3334→increase. So, athletes who already possess a good amount of lean
+  3335→muscle mass can use hypertrophy II in place of hypertrophy I to improve
+  3336→motor unit recruitment. With its use of heavier loads, hypertrophy II
+  3337→transitions well into submaximal strength in phase III.
+  3338→
+  3339→TRAINING PARAMETERS
+  3340→Types of
+  3341→exercises
+  3342→
+  3343→Multi-joint exercises such as squats, deadlifts, bench presses, rowing exercises, push-ups, and
+  3344→chin-ups should be used to better stimulate the release of anabolic hormones, promoting muscle
+  3345→growth while strengthening the prime movers used in sports. Isolation exercises should be kept
+  3346→to a minimum.
+  3347→
+  3348→Intensity
+  3349→
+  3350→Start all athletes at 70% 1RM or one that allows 10-12 reps, and increase
+  3351→intensity weekly by 5% until 85% is achieved or training block is completed.
+  3352→
+  3353→75%-85% 1RM
+  3354→(increase
+  3355→weekly)
+  3356→
+  3357→VBT velocity Start all athletes at 0.60-0.40 m/sec, and increase intensity weekly to 0.50
+  3358→0.60-0.40
+  3359→m/sec based on desired percentage of 1RM. Similar to phase I, the
+  3360→m/sec (starting
+  3361→hypertrophy phase involves muscle fatigue; as a result, VBT velocities are used velocities only)
+  3362→only to give us a starting point and are used primarily in these first two phases
+  3363→
+  3364→to monitor velocity loss to help gauge reps and time.
+  3365→VBT velocity Once again, velocities are used only as a starting point in this phase. Because
+  3366→loss
+  3367→velocity losses only fall between 10%-20%, hypertrophy II is sometimes
+  3368→referred to as “high-load power.” It is also important to cue athletes to try to
+  3369→move the weight as fast as possible during the concentric phase of the lift.
+  3370→
+  3371→10%-20%
+  3372→
+  3373→Tempo
+  3374→
+  3375→Because hypertrophy II uses higher loads (75%-85% 1RM) to quickly recruit
+  3376→high-threshold muscle fibers, longer eccentric tempos are not used. Thus,
+  3377→standard controlled tempos of 1-0-0 or 2-0-0 are used. Hypertrophy II allows
+  3378→the type II fibers to remain under tension for the majority of the movement or
+  3379→set, resulting in hypertrophy of the these fast-twitch fibers, which differentiates
+  3380→this method from hypertrophy I.
+  3381→
+  3382→1-0-0, 2-0-0
+  3383→
+  3384→Reps
+  3385→
+  3386→Start all athletes at 10 reps, and decrease weekly by 2 reps down to 5. Once
+  3387→again, this is when we are looking for velocity drop-offs of 10%-20% from rep to
+  3388→rep or from set to set to begin eliciting greater strength gains while optimizing
+  3389→increases in the cross-sectional area of the type I muscle fibers.
+  3390→
+  3391→10 down to 5
+  3392→(decrease
+  3393→weekly by 2
+  3394→reps;
+  3395→incorporate
+  3396→velocity loss
+  3397→into rep
+  3398→scheme)
+  3399→
+  3400→Sets
+  3401→
+  3402→3-8 sets per exercise when using upper- and lower-splits and 20-24 total when
+  3403→using full-body workouts
+  3404→
+  3405→3-8 per
+  3406→exercise
+  3407→
+  3408→Rest
+  3409→
+  3410→The amount of rest is dependent upon the athlete’s muscular endurance, which 2-5 min
+  3411→is being built up at the same time. Use the minimum amount of rest needed to
+  3412→hit the desired velocities prescribed, but do not exceed 2-5 minutes. As
+  3413→intensities increase and the athlete moves closer to phase III, increase rest
+  3414→intervals closer to 4-5 minutes.
+  3415→
+  3416→Frequency
+  3417→of training
+  3418→
+  3419→Training should be done 2-3 times per week if full-body workouts are prescribed or 4 times per
+  3420→week if using upper- and lower-splits.
+  3421→
+  3422→PROGRAMMING
+  3423→
+  3424→After a long season and some well-deserved time off, beginning a new
+  3425→preparatory period must involve getting back good form. To accomplish this, an
+  3426→athlete must regroove efficient movement patterns and increase both quality and
+  3427→strength of the tissues and tendons through tissue-prep (phase I). Further
+  3428→
+  3429→increases in lean body mass and mechanical tension for low- and high-threshold
+  3430→muscle fibers must then be the focus in phase II hypertrophy. This helps the
+  3431→athlete become better prepared for heavier loads in the upcoming phases.
+  3432→
+  3433→CHAPTER
+  3434→
+  3435→9
+  3436→Mid–Off-Season: Submaximal and
+  3437→Maximal Strengths
+  3438→In the latter portion of the preparatory period (mid–off-season), after some time
+  3439→has been spent preparing the tissue ligaments and joints in phase I, as well as
+  3440→increasing the cross-sectional area of the muscle fibers (size) in phase II, it’s
+  3441→time to create greater strength adaptations in phase III.
+  3442→
+  3443→In most sports, the development of maximum strength is crucial to recruiting fast-twitch muscle fibers, their
+  3444→frequency of activation, and the ability to simultaneously call into action all the primary muscles involved
+  3445→in a given movement.
+  3446→(a) © Human Kinetics; (b) Ulrik Pedersen/NurPhoto via Getty Images; (c) © vm/E+/Getty Images; (d) © Human Kinetics
+  3447→
+  3448→When building out an athlete’s off-season program, while all phases are
+  3449→important, I believe the key role is increasing general strength to its maximum
+  3450→
+  3451→because this is the foundation upon which to build all the other types of strength.
+  3452→In most sports, the development of maximum strength is used to recruit fasttwitch muscle fibers, their frequency of activation, and the ability to
+  3453→simultaneously call into action all the primary muscles involved in a given
+  3454→movement (Howard et al. 1985). A good example of this is during the late offseason when training power. Power is a product of strength and speed, so
+  3455→improving power requires improving maximum strength first. As a result,
+  3456→strength training is a prerequisite for attaining faster power improvement and
+  3457→allowing athletes to achieve higher levels of performance.
+  3458→When training strength, it is important to realize that not all strength is
+  3459→created equal. One strength just does not work as efficiently without the other, so
+
+[showing lines 2760-3459 of 5471; use offset=3460 with limit to continue reading]

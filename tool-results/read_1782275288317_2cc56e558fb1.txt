@@ -1,0 +1,819 @@
+     1→     1→import { create } from 'zustand';
+     2→     2→import { persist } from 'zustand/middleware';
+     3→     3→import {
+     4→     4→  type UserProfile,
+     5→     5→  type ExerciseInPlan,
+     6→     6→  type WorkoutPlan,
+     7→     7→  type WorkoutFeedback,
+     8→     8→  generateWorkout,
+     9→     9→  calculateFitnessLevel,
+    10→    10→  getAdaptiveMultiplier,
+    11→    11→  applyAdaptiveLoad,
+    12→    12→} from './workout-engine';
+    13→    13→import {
+    14→    14→  type PeriodizationPhase,
+    15→    15→  getScientificAdaptiveMultiplier,
+    16→    16→  getCurrentPhaseInfo,
+    17→    17→} from './training-science';
+    18→    18→import type { EquipmentType, FitnessLevel, ExerciseConfig } from './exercises';
+    19→    19→export type { WorkoutFeedback } from './workout-engine';
+    20→    20→import {
+    21→    21→  ACHIEVEMENTS,
+    22→    22→  getLevelInfo,
+    23→    23→  calculateStreak,
+    24→    24→  type AchievementDef,
+    25→    25→} from './achievements';
+    26→    26→
+    27→    27→// --- Screen types ---
+    28→    28→
+    29→    29→export type AppScreen =
+    30→    30→  | 'onboarding'
+    31→    31→  | 'dashboard'
+    32→    32→  | 'workout_preview'
+    33→    33→  | 'workout'
+    34→    34→  | 'feedback'
+    35→    35→  | 'profile'
+    36→    36→  | 'nutrition'
+    37→    37→  | 'exercise_guide'
+    38→    38→  | 'lab_tests'
+    39→    39→  | 'body_metrics'
+    40→    40→  | 'progress'
+    41→    41→  | 'achievements'
+    42→    42→  | 'knowledge'
+    43→    43→  | 'admin';
+    44→    44→
+    45→    45→// --- Workout session state ---
+    46→    46→
+    47→    47→export interface ExerciseTiming {
+    48→    48→  exerciseConfigId: string;
+    49→    49→  startedAt: number;   // timestamp when exercise began
+    50→    50→  finishedAt: number;  // timestamp when last set completed / skipped
+    51→    51→  totalRepsDone: number;
+    52→    52→  totalSeconds: number;
+    53→    53→}
+    54→    54→
+    55→    55→export interface WorkoutSession {
+    56→    56→  currentExerciseIndex: number;
+    57→    57→  currentSet: number;
+    58→    58→  isResting: boolean;
+    59→    59→  restSecondsLeft: number;
+    60→    60→  restDuration: number;  // NEW: total rest duration for current exercise
+    61→    61→  startTime: number;
+    62→    62→  exerciseTimings: ExerciseTiming[];
+    63→    63→}
+    64→    64→
+    65→    65→// --- History entry ---
+    66→    66→
+    67→    67→export interface ExerciseHistoryRecord {
+    68→    68→  exerciseConfigId: string;
+    69→    69→  exerciseName: string;
+    70→    70→  sets: number;
+    71→    71→  reps: number;
+    72→    72→  completed: boolean;
+    73→    73→  totalSeconds: number;  // time spent on this exercise
+    74→    74→  totalRepsDone: number; // actual reps performed (not target)
+    75→    75→  repsPerMinute: number; // calculated speed metric
+    76→    76→}
+    77→    77→
+    78→    78→export interface HistoryEntry {
+    79→    79→  id: string;
+    80→    80→  date: string;
+    81→    81→  planId: string;
+    82→    82→  feedback: WorkoutFeedback | null;
+    83→    83→  exercises: ExerciseHistoryRecord[];
+    84→    84→  durationMin: number;
+    85→    85→}
+    86→    86→
+    87→    87→// --- Lab test entry ---
+    88→    88→
+    89→    89→export interface LabTestEntry {
+    90→    90→  id: string;
+    91→    91→  date: string;
+    92→    92→  results: Record<string, number>; // biomarkerId -> value
+    93→    93→}
+    94→    94→
+    95→    95→// --- Body metrics ---
+    96→    96→
+    97→    97→export interface BodyMetricEntry {
+    98→    98→  id: string;
+    99→    99→  date: string;
+   100→   100→  weightKg: number | null;
+   101→   101→  waistCm: number | null;
+   102→   102→  chestCm?: number | null;
+   103→   103→  hipsCm?: number | null;
+   104→   104→  bicepsCm?: number | null;
+   105→   105→  thighCm?: number | null;
+   106→   106→}
+   107→   107→
+   108→   108→// --- Store interface ---
+   109→   109→
+   110→   110→interface AppState {
+   111→   111→  // Navigation
+   112→   112→  screen: AppScreen;
+   113→   113→  setScreen: (s: AppScreen) => void;
+   114→   114→
+   115→   115→  // Exercise guide
+   116→   116→  selectedExerciseId: string | null;
+   117→   117→  openExerciseGuide: (id: string) => void;
+   118→   118→
+   119→   119→  // Onboarding
+   120→   120→  onboardingStep: number;
+   121→   121→  setOnboardingStep: (s: number) => void;
+   122→   122→  isOnboarded: boolean;
+   123→   123→
+   124→   124→  // Profile (partial during onboarding)
+   125→   125→  profile: UserProfile | null;
+   126→   126→
+   127→   127→  // Onboarding field setters (for gradual collection)
+   128→   128→  setProfileField: <K extends keyof UserProfile>(key: K, value: UserProfile[K]) => void;
+   129→   129→
+   130→   130→  // Complete onboarding
+   131→   131→  completeOnboarding: () => void;
+   132→   132→
+   133→   133→  // Workout plan
+   134→   134→  currentPlan: WorkoutPlan | null;
+   135→   135→  generateNewPlan: () => void;
+   136→   136→
+   137→   137→  // Active workout session
+   138→   138→  workoutSession: WorkoutSession | null;
+   139→   139→  startWorkout: () => void;
+   140→   140→  beginWorkout: () => void;
+   141→   141→  completeSet: (reps: number, rpe?: number) => void;
+   142→   142→  skipSet: () => void;
+   143→   143→  startRest: () => void;
+   144→   144→  tickRest: () => void;
+   145→   145→  nextExercise: () => void;
+   146→   146→  finishWorkout: () => void;
+   147→   147→
+   148→   148→  // Feedback
+   149→   149→  lastFeedback: WorkoutFeedback | null;
+   150→   150→  workoutNotCounted: boolean;
+   151→   151→  setFeedback: (f: WorkoutFeedback) => void;
+   152→   152→  consecutiveHardCount: number;
+   153→   153→
+   154→   154→  // History
+   155→   155→  history: HistoryEntry[];
+   156→   156→  missedDays: number;
+   157→   157→
+   158→   158→  // --- PERIODIZATION ---
+   159→   159→  periodizationWeek: number;
+   160→   160→
+   161→   161→  // --- GAMIFICATION ---
+   162→   162→  totalXp: number;
+   163→   163→  unlockedAchievements: string[]; // achievement IDs
+   164→   164→  recentlyUnlocked: string[]; // IDs to show as notifications
+   165→   165→  awardXp: (amount: number, reason: string) => void;
+   166→   166→  checkAchievements: () => string[]; // returns newly unlocked IDs
+   167→   167→  clearRecentUnlocks: () => void;
+   168→   168→
+   169→   169→  // --- LAB TESTS ---
+   170→   170→  labTestEntries: LabTestEntry[];
+   171→   171→  addLabTestEntry: (results: Record<string, number>) => void;
+   172→   172→  removeLabTestEntry: (id: string) => void;
+   173→   173→
+   174→   174→  // --- BODY METRICS ---
+   175→   175→  bodyMetrics: BodyMetricEntry[];
+   176→   176→  addBodyMetric: (m: Omit<BodyMetricEntry, 'id' | 'date'>) => void;
+   177→   177→  removeBodyMetric: (id: string) => void;
+   178→   178→
+   179→   179→  // --- ADMIN ---
+   180→   180→  customExercises: ExerciseConfig[];
+   181→   181→  addCustomExercise: (ex: ExerciseConfig) => void;
+   182→   182→  updateCustomExercise: (id: string, ex: Partial<ExerciseConfig>) => void;
+   183→   183→  removeCustomExercise: (id: string) => void;
+   184→   184→
+   185→   185→  resetAll: () => void;
+   186→   186→}
+   187→   187→
+   188→   188→const defaultSession = (restDuration?: number): WorkoutSession => ({
+   189→   189→  currentExerciseIndex: 0,
+   190→   190→  currentSet: 0,
+   191→   191→  isResting: false,
+   192→   192→  restSecondsLeft: 0,
+   193→   193→  restDuration: restDuration ?? 60,
+   194→   194→  startTime: Date.now(),
+   195→   195→  exerciseTimings: [],
+   196→   196→});
+   197→   197→
+   198→   198→// Fallback rest duration for backward compatibility with old plans
+   199→   199→const FALLBACK_REST = 60;
+   200→   200→
+   201→   201→function makeDefaultProfile(): UserProfile {
+   202→   202→  return {
+   203→   203→    gender: 'male' as const,
+   204→   204→    age: 25,
+   205→   205→    height: 170,
+   206→   206→    weight: 70,
+   207→   207→    medicalRestrictions: false,
+   208→   208→    goal: 'maintain' as const,
+   209→   209→    inventory: [] as EquipmentType[],
+   210→   210→    rpeSquat: 5,
+   211→   211→    rpePushUp: 5,
+   212→   212→    rpePlank: 5,
+   213→   213→    comfortableMinutes: 15,
+   214→   214→    fitnessLevel: 'beginner' as FitnessLevel,
+   215→   215→  };
+   216→   216→}
+   217→   217→
+   218→   218→/** Get rest duration for current exercise (backward compatible) */
+   219→   219→function getRestForExercise(exercise: ExerciseInPlan | undefined): number {
+   220→   220→  // New plans have scientific rest
+   221→   221→  if (exercise?.restSeconds && exercise.restSeconds > 0) {
+   222→   222→    return exercise.restSeconds;
+   223→   223→  }
+   224→   224→  return FALLBACK_REST;
+   225→   225→}
+   226→   226→
+   227→   227→/** Get recent exercise IDs from history for rotation */
+   228→   228→function getRecentExerciseIds(history: HistoryEntry[], lastN: number = 3): string[] {
+   229→   229→  return history.slice(-lastN).flatMap((h) => h.exercises.map((e) => e.exerciseConfigId));
+   230→   230→}
+   231→   231→
+   232→   232→export const useAppStore = create<AppState>()(
+   233→   233→  persist(
+   234→   234→    (set, get) => ({
+   235→   235→      // Navigation
+   236→   236→      screen: 'onboarding' as AppScreen,
+   237→   237→      setScreen: (s) => set({ screen: s }),
+   238→   238→      selectedExerciseId: null,
+   239→   239→      openExerciseGuide: (id) => set({ selectedExerciseId: id, screen: 'exercise_guide' }),
+   240→   240→
+   241→   241→      // Onboarding
+   242→   242→      onboardingStep: 0,
+   243→   243→      setOnboardingStep: (s) => set({ onboardingStep: s }),
+   244→   244→      isOnboarded: false,
+   245→   245→
+   246→   246→      // Profile
+   247→   247→      profile: makeDefaultProfile() as UserProfile,
+   248→   248→      setProfileField: (key, value) =>
+   249→   249→        set((state) => ({
+   250→   250→          profile: {
+   251→   251→            ...(state.profile ?? makeDefaultProfile()),
+   252→   252→            [key]: value,
+   253→   253→          } as UserProfile,
+   254→   254→        })),
+   255→   255→
+   256→   256→      completeOnboarding: () => {
+   257→   257→        const state = get();
+   258→   258→        if (!state.profile) return;
+   259→   259→        const level = calculateFitnessLevel(state.profile, state.history.length);
+   260→   260→        const updatedProfile = { ...state.profile, fitnessLevel: level };
+   261→   261→        set({ isOnboarded: true, profile: updatedProfile, screen: 'dashboard' });
+   262→   262→        // Auto-generate first plan with scientific periodization
+   263→   263→        const recentIds = getRecentExerciseIds(state.history);
+   264→   264→        const plan = generateWorkout(updatedProfile, state.customExercises, state.periodizationWeek, recentIds);
+   265→   265→        set({ currentPlan: plan });
+   266→   266→      },
+   267→   267→
+   268→   268→      // Workout plan
+   269→   269→      currentPlan: null,
+   270→   270→      generateNewPlan: () => {
+   271→   271→        const state = get();
+   272→   272→        if (!state.profile) return;
+   273→   273→
+   274→   274→        let plan: ReturnType<typeof generateWorkout>;
+   275→   275→
+   276→   276→        if (state.currentPlan && state.lastFeedback && state.history.length > 0) {
+   277→   277→          // ADAPTIVE PATH: use scientific adaptive multiplier with phase context
+   278→   278→          const phase = (state.currentPlan as WorkoutPlan & { periodizationPhase?: PeriodizationPhase }).periodizationPhase ?? 'accumulation';
+   279→   279→          const multiplier = getScientificAdaptiveMultiplier(
+   280→   280→            state.lastFeedback,
+   281→   281→            state.missedDays,
+   282→   282→            state.consecutiveHardCount,
+   283→   283→            phase,
+   284→   284→          );
+   285→   285→          const adapted = applyAdaptiveLoad(state.currentPlan.exercises, multiplier);
+   286→   286→          plan = {
+   287→   287→            ...state.currentPlan,
+   288→   288→            id: `plan_${Date.now()}`,
+   289→   289→            exercises: adapted,
+   290→   290→            createdAt: Date.now(),
+   291→   291→          };
+   292→   292→        } else {
+   293→   293→          // FRESH PATH: generate with periodization and exercise rotation
+   294→   294→          const recentIds = getRecentExerciseIds(state.history);
+   295→   295→          plan = generateWorkout(state.profile, state.customExercises, state.periodizationWeek, recentIds);
+   296→   296→        }
+   297→   297→
+   298→   298→        set({ currentPlan: plan });
+   299→   299→      },
+   300→   300→
+   301→   301→      // Active workout
+   302→   302→      workoutSession: null,
+   303→   303→      startWorkout: () => {
+   304→   304→        set({ screen: 'workout_preview' });
+   305→   305→      },
+   306→   306→      beginWorkout: () => {
+   307→   307→        const state = get();
+   308→   308→        if (!state.currentPlan) return;
+   309→   309→
+   310→   310→        // Reset completion state but KEEP scientifically calculated sets
+   311→   311→        const newExercises = state.currentPlan.exercises.map((ex) => ({
+   312→   312→          ...ex,
+   313→   313→          completedSets: 0,
+   314→   314→          setResults: [] as { reps: number; rpe?: number }[],
+   315→   315→        }));
+   316→   316→
+   317→   317→        // Set rest duration from first exercise
+   318→   318→        const firstRest = getRestForExercise(newExercises[0]);
+   319→   319→
+   320→   320→        // Record start time for first exercise
+   321→   321→        const firstTiming: ExerciseTiming = {
+   322→   322→          exerciseConfigId: newExercises[0]?.exerciseConfigId ?? '',
+   323→   323→          startedAt: Date.now(),
+   324→   324→          finishedAt: Date.now(),
+   325→   325→          totalRepsDone: 0,
+   326→   326→          totalSeconds: 0,
+   327→   327→        };
+   328→   328→
+   329→   329→        set({
+   330→   330→          screen: 'workout',
+   331→   331→          workoutSession: {
+   332→   332→            ...defaultSession(firstRest),
+   333→   333→            exerciseTimings: [firstTiming],
+   334→   334→          },
+   335→   335→          currentPlan: { ...state.currentPlan, exercises: newExercises },
+   336→   336→        });
+   337→   337→      },
+   338→   338→      completeSet: (reps, rpe) =>
+   339→   339→        set((state) => {
+   340→   340→          if (!state.workoutSession || !state.currentPlan) return state;
+   341→   341→          const { currentExerciseIndex, currentSet } = state.workoutSession;
+   342→   342→          const exercises = [...state.currentPlan.exercises];
+   343→   343→          const exercise = { ...exercises[currentExerciseIndex] };
+   344→   344→          exercise.completedSets += 1;
+   345→   345→          exercise.setResults = [...exercise.setResults, { reps, rpe }];
+   346→   346→          exercises[currentExerciseIndex] = exercise;
+   347→   347→
+   348→   348→          const isLastSet = exercise.completedSets >= exercise.targetSets;
+   349→   349→          const isLastExercise = currentExerciseIndex >= exercises.length - 1;
+   350→   350→
+   351→   351→          // Scientific rest: use exercise's rest duration
+   352→   352→          const currentRest = getRestForExercise(exercise);
+   353→   353→          const shouldRest = !(isLastSet && isLastExercise);
+   354→   354→
+   355→   355→          return {
+   356→   356→            currentPlan: { ...state.currentPlan, exercises },
+   357→   357→            workoutSession: {
+   358→   358→              ...state.workoutSession,
+   359→   359→              isResting: shouldRest,
+   360→   360→              restSecondsLeft: shouldRest ? currentRest : 0,
+   361→   361→              restDuration: currentRest,
+   362→   362→              currentSet: isLastSet ? 0 : currentSet + 1,
+   363→   363→            },
+   364→   364→          };
+   365→   365→        }),
+   366→   366→      skipSet: () =>
+   367→   367→        set((state) => {
+   368→   368→          if (!state.workoutSession || !state.currentPlan) return state;
+   369→   369→          const { currentExerciseIndex, currentSet } = state.workoutSession;
+   370→   370→          const exercises = [...state.currentPlan.exercises];
+   371→   371→          const exercise = { ...exercises[currentExerciseIndex] };
+   372→   372→          exercise.setResults = [...exercise.setResults, { reps: 0 }];
+   373→   373→          exercises[currentExerciseIndex] = exercise;
+   374→   374→
+   375→   375→          const isLastSet = currentSet + 1 >= exercise.targetSets;
+   376→   376→          const isLastExercise = currentExerciseIndex >= exercises.length - 1;
+   377→   377→
+   378→   378→          const currentRest = getRestForExercise(exercise);
+   379→   379→          const shouldRest = !(isLastSet && isLastExercise);
+   380→   380→
+   381→   381→          return {
+   382→   382→            currentPlan: { ...state.currentPlan, exercises },
+   383→   383→            workoutSession: {
+   384→   384→              ...state.workoutSession,
+   385→   385→              isResting: shouldRest,
+   386→   386→              restSecondsLeft: shouldRest ? currentRest : 0,
+   387→   387→              restDuration: currentRest,
+   388→   388→              currentSet: isLastSet ? 0 : currentSet + 1,
+   389→   389→            },
+   390→   390→          };
+   391→   391→        }),
+   392→   392→      startRest: () =>
+   393→   393→        set((state) => {
+   394→   394→          if (!state.workoutSession || !state.currentPlan) return state;
+   395→   395→          const exercise = state.currentPlan.exercises[state.workoutSession.currentExerciseIndex];
+   396→   396→          const currentRest = getRestForExercise(exercise);
+   397→   397→          return {
+   398→   398→            workoutSession: state.workoutSession
+   399→   399→              ? { ...state.workoutSession, isResting: true, restSecondsLeft: currentRest, restDuration: currentRest }
+   400→   400→              : null,
+   401→   401→          };
+   402→   402→        }),
+   403→   403→      tickRest: () =>
+   404→   404→        set((state) => {
+   405→   405→          if (!state.workoutSession || !state.workoutSession.isResting) return state;
+   406→   406→          const left = state.workoutSession.restSecondsLeft - 1;
+   407→   407→          if (left <= 0) {
+   408→   408→            const { currentExerciseIndex, currentSet } = state.workoutSession;
+   409→   409→            const plan = state.currentPlan!;
+   410→   410→            const exercise = plan.exercises[currentExerciseIndex];
+   411→   411→            const isLastSet = currentSet >= exercise.targetSets;
+   412→   412→            if (isLastSet && currentExerciseIndex < plan.exercises.length - 1) {
+   413→   413→              // Move to next exercise
+   414→   414→              const nextIdx = currentExerciseIndex + 1;
+   415→   415→              const nextEx = plan.exercises[nextIdx];
+   416→   416→              const nextRest = getRestForExercise(nextEx);
+   417→   417→
+   418→   418→              return {
+   419→   419→                workoutSession: {
+   420→   420→                  ...state.workoutSession,
+   421→   421→                  isResting: false,
+   422→   422→                  currentExerciseIndex: nextIdx,
+   423→   423→                  currentSet: 0,
+   424→   424→                  restDuration: nextRest,
+   425→   425→                },
+   426→   426→              };
+   427→   427→            }
+   428→   428→            return {
+   429→   429→              workoutSession: { ...state.workoutSession, isResting: false, restSecondsLeft: 0 },
+   430→   430→            };
+   431→   431→          }
+   432→   432→          return {
+   433→   433→            workoutSession: { ...state.workoutSession, restSecondsLeft: left },
+   434→   434→          };
+   435→   435→        }),
+   436→   436→      nextExercise: () =>
+   437→   437→        set((state) => {
+   438→   438→          if (!state.workoutSession || !state.currentPlan) return state;
+   439→   439→          const nextIdx = state.workoutSession.currentExerciseIndex + 1;
+   440→   440→
+   441→   441→          // Finalize timing for current exercise
+   442→   442→          const timings = [...state.workoutSession.exerciseTimings];
+   443→   443→          const curEx = state.currentPlan.exercises[state.workoutSession.currentExerciseIndex];
+   444→   444→          if (curEx) {
+   445→   445→            const tIdx = timings.findIndex((t) => t.exerciseConfigId === curEx.exerciseConfigId);
+   446→   446→            if (tIdx >= 0) {
+   447→   447→              timings[tIdx] = {
+   448→   448→                ...timings[tIdx],
+   449→   449→                finishedAt: Date.now(),
+   450→   450→                totalRepsDone: curEx.setResults.reduce((s, r) => s + r.reps, 0),
+   451→   451→                totalSeconds: Math.round((Date.now() - timings[tIdx].startedAt) / 1000),
+   452→   452→              };
+   453→   453→            }
+   454→   454→          }
+   455→   455→
+   456→   456→          if (nextIdx >= state.currentPlan.exercises.length) {
+   457→   457→            const duration = Math.round((Date.now() - state.workoutSession.startTime) / 60000);
+   458→   458→            const entry: HistoryEntry = {
+   459→   459→              id: `hist_${Date.now()}`,
+   460→   460→              date: new Date().toISOString().split('T')[0],
+   461→   461→              planId: state.currentPlan.id,
+   462→   462→              feedback: null,
+   463→   463→              exercises: state.currentPlan.exercises.map((ex) => {
+   464→   464→                const timing = timings.find((t) => t.exerciseConfigId === ex.exerciseConfigId);
+   465→   465→                const totalRepsDone = ex.setResults.reduce((s, r) => s + r.reps, 0);
+   466→   466→                const totalSeconds = timing ? Math.round((timing.finishedAt - timing.startedAt) / 1000) : 0;
+   467→   467→                const repsPerMin = totalSeconds > 0 ? Math.round((totalRepsDone / totalSeconds) * 60) : 0;
+   468→   468→                return {
+   469→   469→                  exerciseConfigId: ex.exerciseConfigId,
+   470→   470→                  exerciseName: ex.exerciseName,
+   471→   471→                  sets: ex.targetSets,
+   472→   472→                  reps: ex.targetReps,
+   473→   473→                  completed: ex.completedSets >= ex.targetSets,
+   474→   474→                  totalSeconds,
+   475→   475→                  totalRepsDone,
+   476→   476→                  repsPerMinute: repsPerMin,
+   477→   477→                };
+   478→   478→              }),
+   479→   479→              durationMin: duration,
+   480→   480→            };
+   481→   481→            return {
+   482→   482→              screen: 'feedback',
+   483→   483→              workoutSession: null,
+   484→   484→              history: [...state.history, entry],
+   485→   485→            };
+   486→   486→          }
+   487→   487→
+   488→   488→          // Start timing for next exercise
+   489→   489→          const nextEx = state.currentPlan.exercises[nextIdx];
+   490→   490→          const nextRest = getRestForExercise(nextEx);
+   491→   491→          const newTiming: ExerciseTiming = {
+   492→   492→            exerciseConfigId: nextEx.exerciseConfigId,
+   493→   493→            startedAt: Date.now(),
+   494→   494→            finishedAt: Date.now(),
+   495→   495→            totalRepsDone: 0,
+   496→   496→            totalSeconds: 0,
+   497→   497→          };
+   498→   498→
+   499→   499→          return {
+   500→   500→            workoutSession: {
+   501→   501→              ...state.workoutSession,
+   502→   502→              currentExerciseIndex: nextIdx,
+   503→   503→              currentSet: 0,
+   504→   504→              isResting: false,
+   505→   505→              restDuration: nextRest,
+   506→   506→              exerciseTimings: [...timings, newTiming],
+   507→   507→            },
+   508→   508→          };
+   509→   509→        }),
+   510→   510→      finishWorkout: () =>
+   511→   511→        set((state) => {
+   512→   512→          const duration = state.workoutSession
+   513→   513→            ? Math.round((Date.now() - state.workoutSession.startTime) / 60000)
+   514→   514→            : 0;
+   515→   515→          const exercises = state.currentPlan?.exercises ?? [];
+   516→   516→          // Finalize timing for the last active exercise
+   517→   517→          const timings = (state.workoutSession?.exerciseTimings ?? []).map((t) => {
+   518→   518→            if (t.finishedAt <= t.startedAt) {
+   519→   519→              const curIdx = state.workoutSession?.currentExerciseIndex;
+   520→   520→              const curEx = curIdx !== undefined ? exercises[curIdx] : undefined;
+   521→   521→              if (curEx && t.exerciseConfigId === curEx.exerciseConfigId) {
+   522→   522→                const totalRepsDone = curEx.setResults.reduce((s, r) => s + r.reps, 0);
+   523→   523→                const totalSeconds = Math.round((Date.now() - t.startedAt) / 1000);
+   524→   524→                return { ...t, finishedAt: Date.now(), totalRepsDone, totalSeconds };
+   525→   525→              }
+   526→   526→            }
+   527→   527→            return t;
+   528→   528→          });
+   529→   529→
+   530→   530→          // Calculate completion: only sets with reps > 0 count
+   531→   531→          const totalTargetSets = exercises.reduce((s, ex) => s + ex.targetSets, 0);
+   532→   532→          const completedSets = exercises.reduce(
+   533→   533→            (s, ex) => s + ex.setResults.filter((r) => r.reps > 0).length,
+   534→   534→            0,
+   535→   535→          );
+   536→   536→          const completionPct = totalTargetSets > 0 ? completedSets / totalTargetSets : 0;
+   537→   537→
+   538→   538→          // Less than 10% = not counted
+   539→   539→          if (completionPct < 0.1) {
+   540→   540→            return {
+   541→   541→              screen: 'feedback',
+   542→   542→              workoutSession: null,
+   543→   543→              workoutNotCounted: true,
+   544→   544→            };
+   545→   545→          }
+   546→   546→
+   547→   547→          const entry: HistoryEntry = {
+   548→   548→            id: `hist_${Date.now()}`,
+   549→   549→            date: new Date().toISOString().split('T')[0],
+   550→   550→            planId: state.currentPlan?.id ?? '',
+   551→   551→            feedback: null,
+   552→   552→            exercises: exercises.map((ex) => {
+   553→   553→              const timing = timings.find((t) => t.exerciseConfigId === ex.exerciseConfigId);
+   554→   554→              const totalRepsDone = ex.setResults.reduce((s, r) => s + r.reps, 0);
+   555→   555→              const totalSeconds = timing ? Math.round((timing.finishedAt - timing.startedAt) / 1000) : 0;
+   556→   556→              const repsPerMin = totalSeconds > 0 ? Math.round((totalRepsDone / totalSeconds) * 60) : 0;
+   557→   557→              return {
+   558→   558→                exerciseConfigId: ex.exerciseConfigId,
+   559→   559→                exerciseName: ex.exerciseName,
+   560→   560→                sets: ex.targetSets,
+   561→   561→                reps: ex.targetReps,
+   562→   562→                completed: ex.completedSets >= ex.targetSets,
+   563→   563→                totalSeconds,
+   564→   564→                totalRepsDone,
+   565→   565→                repsPerMinute: repsPerMin,
+   566→   566→              };
+   567→   567→            }),
+   568→   568→            durationMin: duration,
+   569→   569→          };
+   570→   570→
+   571→   571→          // Proportional XP: base 100 * completion ratio
+   572→   572→          const baseXp = Math.round(100 * completionPct);
+   573→   573→          const allDone = completionPct >= 1;
+   574→   574→          const bonusXp = allDone ? 25 : 0;
+   575→   575→          const newXp = state.totalXp + baseXp + bonusXp;
+   576→   576→
+   577→   577→          return {
+   578→   578→            screen: 'feedback',
+   579→   579→            workoutSession: null,
+   580→   580→            workoutNotCounted: false,
+   581→   581→            history: [...state.history, entry],
+   582→   582→            totalXp: newXp,
+   583→   583→            recentlyUnlocked: [],
+   584→   584→          };
+   585→   585→        }),
+   586→   586→
+   587→   587→      // Feedback
+   588→   588→      lastFeedback: null,
+   589→   589→      workoutNotCounted: false,
+   590→   590→      setFeedback: (f) => {
+   591→   591→        const state = get();
+   592→   592→        if (state.workoutNotCounted) {
+   593→   593→          set({ screen: 'dashboard', workoutNotCounted: false });
+   594→   594→          return;
+   595→   595→        }
+   596→   596→        const newConsecutive =
+   597→   597→          f === 'very_hard' ? state.consecutiveHardCount + 1 : 0;
+   598→   598→
+   599→   599→        // Update last history entry
+   600→   600→        const history = [...state.history];
+   601→   601→        if (history.length > 0) {
+   602→   602→          history[history.length - 1] = {
+   603→   603→            ...history[history.length - 1],
+   604→   604→            feedback: f,
+   605→   605→          };
+   606→   606→        }
+   607→   607→
+   608→   608→        // Advance periodization week after each completed workout
+   609→   609→        const newWeek = state.periodizationWeek + 1;
+   610→   610→
+   611→   611→        // Re-evaluate fitness level (Benson: reassess every 6 weeks)
+   612→   612→        if (newWeek % 6 === 0 && state.profile) {
+   613→   613→          const newLevel = calculateFitnessLevel(state.profile, history.length);
+   614→   614→          if (newLevel !== state.profile.fitnessLevel) {
+   615→   615→            set((s) => ({
+   616→   616→              profile: s.profile ? { ...s.profile, fitnessLevel: newLevel } : s.profile,
+   617→   617→            }));
+   618→   618→          }
+   619→   619→        }
+   620→   620→
+   621→   621→        set({
+   622→   622→          lastFeedback: f,
+   623→   623→          consecutiveHardCount: newConsecutive,
+   624→   624→          history,
+   625→   625→          periodizationWeek: newWeek,
+   626→   626→          screen: 'dashboard',
+   627→   627→          workoutNotCounted: false,
+   628→   628→        });
+   629→   629→
+   630→   630→        // Check achievements after a tick
+   631→   631→        setTimeout(() => {
+   632→   632→          get().checkAchievements();
+   633→   633→        }, 50);
+   634→   634→      },
+   635→   635→      consecutiveHardCount: 0,
+   636→   636→
+   637→   637→      // History
+   638→   638→      history: [],
+   639→   639→      missedDays: 0,
+   640→   640→
+   641→   641→      // --- PERIODIZATION ---
+   642→   642→      periodizationWeek: 0,
+   643→   643→
+   644→   644→      // --- GAMIFICATION ---
+   645→   645→      totalXp: 0,
+   646→   646→      unlockedAchievements: [] as string[],
+   647→   647→      recentlyUnlocked: [] as string[],
+   648→   648→
+   649→   649→      awardXp: (amount: number, _reason: string) =>
+   650→   650→        set((state) => ({ totalXp: state.totalXp + amount })),
+   651→   651→
+   652→   652→      checkAchievements: () => {
+   653→   653→        const state = get();
+   654→   654→        const unlocked = new Set(state.unlockedAchievements);
+   655→   655→        const newUnlocks: string[] = [];
+   656→   656→
+   657→   657→        const history = state.history;
+   658→   658→        const totalWorkouts = history.length;
+   659→   659→        const streak = calculateStreak(history.map((h) => h.date));
+   660→   660→        const levelInfo = getLevelInfo(state.totalXp);
+   661→   661→        const totalMinutes = history.reduce((s, h) => s + h.durationMin, 0);
+   662→   662→
+   663→   663→        const normalFeedbacks = history.filter((h) => h.feedback === 'normal').length;
+   664→   664→
+   665→   665→        const lastEntry = history.length > 0 ? history[history.length - 1] : null;
+   666→   666→        const hadCardio = lastEntry
+   667→   667→          ? state.currentPlan?.exercises.some(
+   668→   668→              (ex) =>
+   669→   669→                ex.category === 'cardio' &&
+   670→   670→                lastEntry.exercises.some(
+   671→   671→                  (e) => e.exerciseName === ex.exerciseName && e.completed,
+   672→   672→                ),
+   673→   673→            ) ?? false
+   674→   674→          : false;
+   675→   675→        const allExercisesCompleted = lastEntry
+   676→   676→          ? lastEntry.exercises.every((e) => e.completed)
+   677→   677→          : false;
+   678→   678→
+   679→   679→        const checks: Record<string, boolean> = {
+   680→   680→          first_workout: totalWorkouts >= 1,
+   681→   681→          cardio_done: hadCardio,
+   682→   682→          all_exercises_done: allExercisesCompleted,
+   683→   683→          streak_3: streak.current >= 3,
+   684→   684→          streak_7: streak.current >= 7,
+   685→   685→          streak_14: streak.current >= 14,
+   686→   686→          streak_30: streak.current >= 30,
+   687→   687→          workouts_5: totalWorkouts >= 5,
+   688→   688→          workouts_10: totalWorkouts >= 10,
+   689→   689→          workouts_25: totalWorkouts >= 25,
+   690→   690→          workouts_50: totalWorkouts >= 50,
+   691→   691→          workouts_100: totalWorkouts >= 100,
+   692→   692→          level_5: levelInfo.level >= 5,
+   693→   693→          level_10: levelInfo.level >= 10,
+   694→   694→          minutes_60_total: totalMinutes >= 60,
+   695→   695→          minutes_300_total: totalMinutes >= 300,
+   696→   696→          first_feedback: history.some((h) => h.feedback !== null),
+   697→   697→          feedback_normal_5: normalFeedbacks >= 5,
+   698→   698→          intermediate_fitness: state.profile?.fitnessLevel === 'intermediate',
+   699→   699→          advanced_fitness: state.profile?.fitnessLevel === 'advanced',
+   700→   700→        };
+   701→   701→
+   702→   702→        let bonusXp = 0;
+   703→   703→        for (const [id, condition] of Object.entries(checks)) {
+   704→   704→          if (condition && !unlocked.has(id)) {
+   705→   705→            unlocked.add(id);
+   706→   706→            newUnlocks.push(id);
+   707→   707→            const def = ACHIEVEMENTS.find((a) => a.id === id);
+   708→   708→            if (def) bonusXp += def.xpReward;
+   709→   709→          }
+   710→   710→        }
+   711→   711→
+   712→   712→        if (newUnlocks.length > 0) {
+   713→   713→          set({
+   714→   714→            unlockedAchievements: [...unlocked],
+   715→   715→            totalXp: state.totalXp + bonusXp,
+   716→   716→            recentlyUnlocked: newUnlocks,
+   717→   717→          });
+   718→   718→        }
+   719→   719→        return newUnlocks;
+   720→   720→      },
+   721→   721→
+   722→   722→      clearRecentUnlocks: () => set({ recentlyUnlocked: [] }),
+   723→   723→
+   724→   724→      // --- LAB TESTS ---
+   725→   725→      labTestEntries: [] as LabTestEntry[],
+   726→   726→      addLabTestEntry: (results: Record<string, number>) =>
+   727→   727→        set((state) => ({
+   728→   728→          labTestEntries: [
+   729→   729→            ...state.labTestEntries,
+   730→   730→            {
+   731→   731→              id: `lab_${Date.now()}`,
+   732→   732→              date: new Date().toISOString().split('T')[0],
+   733→   733→              results,
+   734→   734→            },
+   735→   735→          ],
+   736→   736→        })),
+   737→   737→      removeLabTestEntry: (id: string) =>
+   738→   738→        set((state) => ({
+   739→   739→          labTestEntries: state.labTestEntries.filter((e) => e.id !== id),
+   740→   740→        })),
+   741→   741→
+   742→   742→      // --- BODY METRICS ---
+   743→   743→      bodyMetrics: [] as BodyMetricEntry[],
+   744→   744→      addBodyMetric: (m) =>
+   745→   745→        set((state) => ({
+   746→   746→          bodyMetrics: [
+   747→   747→            ...state.bodyMetrics,
+   748→   748→            {
+   749→   749→              ...m,
+   750→   750→              id: `metric_${Date.now()}`,
+   751→   751→              date: new Date().toISOString().split('T')[0],
+   752→   752→            },
+   753→   753→          ],
+   754→   754→        })),
+   755→   755→      removeBodyMetric: (id: string) =>
+   756→   756→        set((state) => ({
+   757→   757→          bodyMetrics: state.bodyMetrics.filter((e) => e.id !== id),
+   758→   758→        })),
+   759→   759→
+   760→   760→      // --- ADMIN ---
+   761→   761→      customExercises: [] as ExerciseConfig[],
+   762→   762→      addCustomExercise: (ex) =>
+   763→   763→        set((s) => ({ customExercises: [...s.customExercises, ex] })),
+   764→   764→      updateCustomExercise: (id, patch) =>
+   765→   765→        set((s) => ({
+   766→   766→          customExercises: s.customExercises.map((e) =>
+   767→   767→            e.id === id ? { ...e, ...patch } : e,
+   768→   768→          ),
+   769→   769→        })),
+   770→   770→      removeCustomExercise: (id) =>
+   771→   771→        set((s) => ({
+   772→   772→          customExercises: s.customExercises.filter((e) => e.id !== id),
+   773→   773→        })),
+   774→   774→
+   775→   775→      // Reset
+   776→   776→      resetAll: () =>
+   777→   777→        set({
+   778→   778→          screen: 'onboarding',
+   779→   779→          onboardingStep: 0,
+   780→   780→          isOnboarded: false,
+   781→   781→          profile: makeDefaultProfile() as UserProfile,
+   782→   782→          currentPlan: null,
+   783→   783→          workoutSession: null,
+   784→   784→          lastFeedback: null,
+   785→   785→          workoutNotCounted: false,
+   786→   786→          consecutiveHardCount: 0,
+   787→   787→          history: [],
+   788→   788→          missedDays: 0,
+   789→   789→          periodizationWeek: 0,
+   790→   790→          totalXp: 0,
+   791→   791→          unlockedAchievements: [],
+   792→   792→          recentlyUnlocked: [],
+   793→   793→          labTestEntries: [],
+   794→   794→          bodyMetrics: [],
+   795→   795→          customExercises: [],
+   796→   796→        }),
+   797→   797→    }),
+   798→   798→    {
+   799→   799→      name: 'fitcoach-storage',
+   800→   800→      partialize: (state) => ({
+   801→   801→        screen: state.isOnboarded ? state.screen : 'onboarding',
+   802→   802→        onboardingStep: state.onboardingStep,
+   803→   803→        isOnboarded: state.isOnboarded,
+   804→   804→        profile: state.profile,
+   805→   805→        currentPlan: state.currentPlan,
+   806→   806→        lastFeedback: state.lastFeedback,
+   807→   807→        consecutiveHardCount: state.consecutiveHardCount,
+   808→   808→        history: state.history,
+   809→   809→        missedDays: state.missedDays,
+   810→   810→        periodizationWeek: state.periodizationWeek,
+   811→   811→        totalXp: state.totalXp,
+   812→   812→        unlockedAchievements: state.unlockedAchievements,
+   813→   813→        labTestEntries: state.labTestEntries,
+   814→   814→        bodyMetrics: state.bodyMetrics,
+   815→   815→        customExercises: state.customExercises,
+   816→   816→      }),
+   817→   817→    },
+   818→   818→  ),
+   819→   819→);

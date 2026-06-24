@@ -1,0 +1,871 @@
+     1→// Exercise catalog matching the JSON schema from the spec
+     2→// All data is self-contained — no API calls needed
+     3→
+     4→export type EquipmentType =
+     5→  | 'none'
+     6→  | 'dumbbell'
+     7→  | 'kettlebell'
+     8→  | 'barbell'
+     9→  | 'bench'
+    10→  | 'resistance_band'
+    11→  | 'pullup_bar'
+    12→  | 'mat'
+    13→  | 'rowing_machine'
+    14→  | 'treadmill'
+    15→  | 'exercise_bike'
+    16→  | 'jump_rope';
+    17→
+    18→export interface RepRange {
+    19→  min: number;
+    20→  max: number;
+    21→}
+    22→
+    23→export interface VariantAdjustments {
+    24→  defaultWeightPercent: number;
+    25→  discreteWeights?: number[]; // fixed weights in kg (e.g. kettlebells: [16, 24, 32])
+    26→  repRange: RepRange;
+    27→  durationSeconds?: number; // for timed exercises (plank, cardio)
+    28→}
+    29→
+    30→export interface ExerciseVariant {
+    31→  variantId: string;
+    32→  variantName: string;
+    33→  requiredEquipment: EquipmentType;
+    34→  alternativeEquipmentHint?: string;
+    35→  adjustments: VariantAdjustments;
+    36→}
+    37→
+    38→export type ExerciseTier = 'bilateral_compound' | 'unilateral_compound' | 'isolation' | 'plyometric';
+    39→
+    40→export type MovementPattern =
+    41→  | 'squat_hinge'
+    42→  | 'lunge_single_leg'
+    43→  | 'push'
+    44→  | 'pull'
+    45→  | 'core'
+    46→  | 'cardio_metabolic'
+    47→  | 'flexibility';
+    48→
+    49→export interface ExerciseConfig {
+    50→  id: string;
+    51→  name: string;
+    52→  primaryMuscleGroups: string[];
+    53→  secondaryMuscleGroups: string[];
+    54→  difficultyLevel: 'beginner' | 'intermediate' | 'advanced';
+    55→  category: 'strength' | 'cardio' | 'flexibility';
+    56→  isTimed?: boolean; // isometric/cardio exercises measured in seconds
+    57→  variants: ExerciseVariant[];
+    58→  icon: string;
+    59→  instructions: string[];
+    60→  // Roberts Ch.9 / Bompa Ch.4: movement classification
+    61→  movementPattern?: MovementPattern;
+    62→  // Brown Ch.1-2 / Bompa Ch.4: exercise selection hierarchy
+    63→  tier?: ExerciseTier;
+    64→}
+    65→
+    66→// Priority map for equipment selection
+    67→export const EQUIPMENT_PRIORITY: Record<EquipmentType, number> = {
+    68→  none: 0,
+    69→  jump_rope: 0,
+    70→  resistance_band: 1,
+    71→  mat: 1,
+    72→  dumbbell: 2,
+    73→  kettlebell: 2,
+    74→  pullup_bar: 2,
+    75→  rowing_machine: 2,
+    76→  treadmill: 2,
+    77→  exercise_bike: 2,
+    78→  bench: 3,
+    79→  barbell: 3,
+    80→};
+    81→
+    82→// Equipment types that have discrete weights (user specifies exact weights available)
+    83→export type WeightedEquipmentType = 'dumbbell' | 'kettlebell' | 'barbell';
+    84→
+    85→// A single weight item the user owns
+    86→export interface WeightItem {
+    87→  weightKg: number;
+    88→  count: number; // how many of this weight (e.g. 2 dumbbells of 10kg)
+    89→}
+    90→
+    91→// Per-equipment-type weight inventory
+    92→export interface WeightedEquipment {
+    93→  dumbbell: WeightItem[];
+    94→  kettlebell: WeightItem[];
+    95→  barbell: WeightItem[]; // barbell: usually 1 bar + plates, but we store the total weight
+    96→}
+    97→
+    98→export type FitnessLevel = 'beginner' | 'intermediate' | 'advanced';
+    99→
+   100→
+   101→export const EQUIPMENT_LABELS: Record<EquipmentType, string> = {
+   102→  none: 'Без инвентаря',
+   103→  dumbbell: 'Гантели',
+   104→  kettlebell: 'Гири',
+   105→  barbell: 'Штанга',
+   106→  bench: 'Скамья',
+   107→  resistance_band: 'Резиновые петли',
+   108→  pullup_bar: 'Турник',
+   109→  mat: 'Коврик',
+   110→  rowing_machine: 'Гребной тренажёр',
+   111→  treadmill: 'Беговая дорожка',
+   112→  exercise_bike: 'Велотренажёр',
+   113→  jump_rope: 'Скакалка',
+   114→};
+   115→
+   116→export const INVENTORY_OPTIONS: { type: EquipmentType; label: string; icon: string }[] = [
+   117→  { type: 'mat', label: 'Коврик', icon: 'Square' },
+   118→  { type: 'dumbbell', label: 'Гантели', icon: 'Dumbbell' },
+   119→  { type: 'kettlebell', label: 'Гири', icon: 'CircleDot' },
+   120→  { type: 'barbell', label: 'Штанга', icon: 'Minus' },
+   121→  { type: 'pullup_bar', label: 'Турник', icon: 'GripHorizontal' },
+   122→  { type: 'resistance_band', label: 'Петли', icon: 'Link' },
+   123→  { type: 'bench', label: 'Скамья', icon: 'Armchair' },
+   124→  { type: 'rowing_machine', label: 'Гребной тренажёр', icon: 'Waves' },
+   125→  { type: 'treadmill', label: 'Беговая дорожка', icon: 'Activity' },
+   126→  { type: 'exercise_bike', label: 'Велотренажёр', icon: 'Bike' },
+   127→  { type: 'jump_rope', label: 'Скакалка', icon: 'RotateCw' },
+   128→];
+   129→
+   130→// --- Weight Resolution: pick best available weight from user inventory ---
+   131→
+   132→export function resolveWeightFromInventory(
+   133→  equipmentType: WeightedEquipmentType,
+   134→  targetWeightKg: number,
+   135→  weightedEquipment: WeightedEquipment | undefined,
+   136→  level: FitnessLevel,
+   137→): { weightKg: number; label: string } | null {
+   138→  const items = weightedEquipment?.[equipmentType];
+   139→  if (!items || items.length === 0) return null;
+   140→  const sorted = [...items].sort((a, b) => a.weightKg - b.weightKg);
+   141→  let best = null;
+   142→  for (const item of sorted) {
+   143→    if (item.weightKg <= targetWeightKg) { best = item; } else { break; }
+   144→  }
+   145→  if (!best) {
+   146→    if (level === 'beginner') return null;
+   147→    best = sorted[0];
+   148→  }
+   149→  const countLabel = equipmentType === 'barbell' ? '' : best.count >= 2 ? `${best.count}×` : '';
+   150→  const label = `${EQUIPMENT_LABELS[equipmentType]} ${countLabel}${best.weightKg} кг`;
+   151→  return { weightKg: best.weightKg, label };
+   152→}
+   153→
+   154→// Full exercise catalog
+   155→export const EXERCISE_CATALOG: ExerciseConfig[] = [
+   156→  // ===== STRENGTH EXERCISES =====
+   157→  {
+   158→    id: 'squat',
+   159→    name: 'Приседания',
+   160→    movementPattern: 'squat_hinge',
+   161→    tier: 'bilateral_compound',
+   162→    primaryMuscleGroups: ['quads', 'glutes'],
+   163→    secondaryMuscleGroups: ['hamstrings', 'core'],
+   164→    difficultyLevel: 'beginner',
+   165→    category: 'strength',
+   166→    icon: 'ArrowDownToLine',
+   167→    instructions: [
+   168→      'Стопы на ширине плеч, носки слегка развернуты наружу',
+   169→      'Спина прямая, грудь раскрыта, взгляд вперёд',
+   170→      'Опускайтесь вниз, отводя таз назад, как бы садясь на стул',
+   171→      'Колени следуют за носками, не заворачивайтесь внутрь',
+   172→      'Опуститесь до параллели бёдер с полом или чуть ниже',
+   173→      'Поднимайтесь, напрягая ягодицы и квадрицепсы',
+   174→    ],
+   175→    variants: [
+   176→      {
+   177→        variantId: 'squat_bodyweight',
+   178→        variantName: 'Приседания с собственным весом',
+   179→        requiredEquipment: 'none',
+   180→        adjustments: { defaultWeightPercent: 0, repRange: { min: 12, max: 20 } },
+   181→      },
+   182→      {
+   183→        variantId: 'squat_kettlebell',
+   184→        variantName: 'Кубковые приседания с гирей',
+   185→        requiredEquipment: 'kettlebell',
+   186→        alternativeEquipmentHint: 'Гирю можно заменить гантелью, удерживая вертикально',
+   187→        adjustments: { defaultWeightPercent: 35, repRange: { min: 8, max: 12 } },
+   188→      },
+   189→      {
+   190→        variantId: 'squat_dumbbell',
+   191→        variantName: 'Приседания с гантелями на плечах',
+   192→        requiredEquipment: 'dumbbell',
+   193→        adjustments: { defaultWeightPercent: 35, repRange: { min: 8, max: 12 } },
+   194→      },
+   195→      {
+   196→        variantId: 'squat_barbell',
+   197→        variantName: 'Приседания со штангой на спине',
+   198→        requiredEquipment: 'barbell',
+   199→        adjustments: { defaultWeightPercent: 50, repRange: { min: 6, max: 10 } },
+   200→      },
+   201→      {
+   202→        variantId: 'squat_band',
+   203→        variantName: 'Приседания с петлёй под стопами',
+   204→        requiredEquipment: 'resistance_band',
+   205→        adjustments: { defaultWeightPercent: 10, repRange: { min: 10, max: 15 } },
+   206→      },
+   207→    ],
+   208→  },
+   209→  {
+   210→    id: 'push_up',
+   211→    name: 'Отжимания',
+   212→    movementPattern: 'push',
+   213→    tier: 'bilateral_compound',
+   214→    primaryMuscleGroups: ['chest', 'triceps'],
+   215→    secondaryMuscleGroups: ['shoulders', 'core'],
+   216→    difficultyLevel: 'beginner',
+   217→    category: 'strength',
+   218→    icon: 'ArrowDown',
+   219→    instructions: [
+   220→      'Руки на ширине плеч, ладони под плечами',
+   221→      'Тело образует прямую линию от головы до пяток',
+   222→      'Опустите грудь к полу, сгибая локти под углом ~45°',
+   223→      'Не разводите локти в стороны (не более 90° от тела)',
+   224→      'Push up: вытолкните себя вверх, полностью выпрямив руки',
+   225→      'Держите корпус напряжённым на протяжении всего движения',
+   226→    ],
+   227→    variants: [
+   228→      {
+   229→        variantId: 'push_up_knee',
+   230→        variantName: 'Отжимания с колен',
+   231→        requiredEquipment: 'none',
+   232→        adjustments: { defaultWeightPercent: 0, repRange: { min: 8, max: 15 } },
+   233→      },
+   234→      {
+   235→        variantId: 'push_up_classic',
+   236→        variantName: 'Классические отжимания',
+   237→        requiredEquipment: 'none',
+   238→        adjustments: { defaultWeightPercent: 0, repRange: { min: 6, max: 12 } },
+   239→      },
+   240→      {
+   241→        variantId: 'push_up_band',
+   242→        variantName: 'Отжимания с резиновой петлёй',
+   243→        requiredEquipment: 'resistance_band',
+   244→        adjustments: { defaultWeightPercent: 10, repRange: { min: 6, max: 10 } },
+   245→      },
+   246→    ],
+   247→  },
+   248→  {
+   249→    id: 'row',
+   250→    name: 'Тяга к поясу',
+   251→    movementPattern: 'pull',
+   252→    tier: 'bilateral_compound',
+   253→    primaryMuscleGroups: ['back', 'biceps'],
+   254→    secondaryMuscleGroups: ['forearms'],
+   255→    difficultyLevel: 'beginner',
+   256→    category: 'strength',
+   257→    icon: 'ArrowUpFromLine',
+   258→    instructions: [
+   259→      'Наклоните корпус вперёд на ~45°, спина прямая',
+   260→      'Руки опущены вниз, удерживайте снаряд нейтральным хватом',
+   261→      'Тяните снаряд к нижней части груди / пупку',
+   262→      'Сводите лопатки вместе в верхней точке',
+   263→      'Медленно опустите вниз, контролируя движение',
+   264→      'Не.round спину — держите нейтральное положение позвоночника',
+   265→    ],
+   266→    variants: [
+   267→      {
+   268→        variantId: 'row_table',
+   269→        variantName: 'Австралийские подтягивания (стол)',
+   270→        requiredEquipment: 'none',
+   271→        alternativeEquipmentHint: 'Используйте прочный стол или две ручки на высоте пояса',
+   272→        adjustments: { defaultWeightPercent: 0, repRange: { min: 8, max: 15 } },
+   273→      },
+   274→      {
+   275→        variantId: 'row_dumbbell',
+   276→        variantName: 'Тяга гантели в наклоне',
+   277→        requiredEquipment: 'dumbbell',
+   278→        adjustments: { defaultWeightPercent: 25, repRange: { min: 10, max: 14 } },
+   279→      },
+   280→      {
+   281→        variantId: 'row_kettlebell',
+   282→        variantName: 'Тяга гири одной рукой',
+   283→        requiredEquipment: 'kettlebell',
+   284→        adjustments: { defaultWeightPercent: 25, repRange: { min: 10, max: 14 } },
+   285→      },
+   286→      {
+   287→        variantId: 'row_band',
+   288→        variantName: 'Тяга резиновой петли стоя',
+   289→        requiredEquipment: 'resistance_band',
+   290→        adjustments: { defaultWeightPercent: 10, repRange: { min: 10, max: 15 } },
+   291→      },
+   292→    ],
+   293→  },
+   294→  {
+   295→    id: 'plank',
+   296→    name: 'Планка',
+   297→    movementPattern: 'core',
+   298→    tier: 'isolation',
+   299→    primaryMuscleGroups: ['core'],
+   300→    secondaryMuscleGroups: ['shoulders', 'glutes'],
+   301→    difficultyLevel: 'beginner',
+   302→    category: 'strength',
+   303→    isTimed: true,
+   304→    icon: 'Minus',
+   305→    instructions: [
+   306→      'Встаньте на предплечья и носки стоп',
+   307→      'Локти строго под плечами',
+   308→      'Тело — одна прямая линия от головы до пяток',
+   309→      'Напрягите пресс и ягодицы, не прогибайтесь',
+   310→      'Дышите ровно, не задерживайте дыхание',
+   311→      'Удерживайте позицию заданное время',
+   312→    ],
+   313→    variants: [
+   314→      {
+   315→        variantId: 'plank_knee',
+   316→        variantName: 'Планка с колен',
+   317→        requiredEquipment: 'none',
+   318→        adjustments: { defaultWeightPercent: 0, repRange: { min: 20, max: 30 }, durationSeconds: 20 },
+   319→      },
+   320→      {
+   321→        variantId: 'plank_classic',
+   322→        variantName: 'Классическая планка',
+   323→        requiredEquipment: 'none',
+   324→        adjustments: { defaultWeightPercent: 0, repRange: { min: 30, max: 60 }, durationSeconds: 30 },
+   325→      },
+   326→      {
+   327→        variantId: 'plank_band',
+   328→        variantName: 'Планка с петлёй (anti-extension)',
+   329→        requiredEquipment: 'resistance_band',
+   330→        adjustments: { defaultWeightPercent: 10, repRange: { min: 20, max: 40 }, durationSeconds: 20 },
+   331→      },
+   332→    ],
+   333→  },
+   334→  {
+   335→    id: 'lunge',
+   336→    name: 'Выпады',
+   337→    movementPattern: 'lunge_single_leg',
+   338→    tier: 'unilateral_compound',
+   339→    primaryMuscleGroups: ['quads', 'glutes'],
+   340→    secondaryMuscleGroups: ['hamstrings', 'core'],
+   341→    difficultyLevel: 'beginner',
+   342→    category: 'strength',
+   343→    icon: 'Footprints',
+   344→    instructions: [
+   345→      'Встаньте прямо, стопы на ширине бёдер',
+   346→      'Шагните вперёд одной ногой, опуская таз вниз',
+   347→      'Оба колена должны образовывать угол ~90°',
+   348→      'Переднее колено не выходит за носок',
+   349→      'Заднее колено опускается к полу (но не касается)',
+   350→      'Вернитесь в исходное положение, оттолкнувшись пяткой',
+   351→    ],
+   352→    variants: [
+   353→      {
+   354→        variantId: 'lunge_bodyweight',
+   355→        variantName: 'Выпады на месте',
+   356→        requiredEquipment: 'none',
+   357→        adjustments: { defaultWeightPercent: 0, repRange: { min: 10, max: 16 } },
+   358→      },
+   359→      {
+   360→        variantId: 'lunge_dumbbell',
+   361→        variantName: 'Выпады с гантелями',
+   362→        requiredEquipment: 'dumbbell',
+   363→        adjustments: { defaultWeightPercent: 25, repRange: { min: 8, max: 12 } },
+   364→      },
+   365→      {
+   366→        variantId: 'lunge_kettlebell',
+   367→        variantName: 'Выпады с гирей (gorilla hold)',
+   368→        requiredEquipment: 'kettlebell',
+   369→        adjustments: { defaultWeightPercent: 30, repRange: { min: 8, max: 12 } },
+   370→      },
+   371→    ],
+   372→  },
+   373→  {
+   374→    id: 'shoulder_press',
+   375→    name: 'Жим над головой',
+   376→    movementPattern: 'push',
+   377→    tier: 'bilateral_compound',
+   378→    primaryMuscleGroups: ['shoulders', 'triceps'],
+   379→    secondaryMuscleGroups: ['core'],
+   380→    difficultyLevel: 'beginner',
+   381→    category: 'strength',
+   382→    icon: 'ArrowUp',
+   383→    instructions: [
+   384→      'Стойте прямо, снаряд на уровне плеч',
+   385→      'Ладони смотрят вперёд (или слегка внутрь)',
+   386→      'Жим вверх: вытолкните снаряд над головой',
+   387→      'Полностью выпрямите руки в верхней точке',
+   388→      'Голова слегка проходит между руками',
+   389→      'Контролируемо опустите в исходное положение',
+   390→    ],
+   391→    variants: [
+   392→      {
+   393→        variantId: 'shoulder_press_bodyweight',
+   394→        variantName: 'Пайк-отжимания (стена)',
+   395→        requiredEquipment: 'none',
+   396→        adjustments: { defaultWeightPercent: 0, repRange: { min: 6, max: 12 } },
+   397→      },
+   398→      {
+   399→        variantId: 'shoulder_press_dumbbell',
+   400→        variantName: 'Жим гантелей стоя',
+   401→        requiredEquipment: 'dumbbell',
+   402→        adjustments: { defaultWeightPercent: 25, repRange: { min: 8, max: 12 } },
+   403→      },
+   404→      {
+   405→        variantId: 'shoulder_press_kettlebell',
+   406→        variantName: 'Жим гири одной рукой',
+   407→        requiredEquipment: 'kettlebell',
+   408→        adjustments: { defaultWeightPercent: 30, repRange: { min: 6, max: 10 } },
+   409→      },
+   410→      {
+   411→        variantId: 'shoulder_press_band',
+   412→        variantName: 'Жим с петлёй над головой',
+   413→        requiredEquipment: 'resistance_band',
+   414→        adjustments: { defaultWeightPercent: 10, repRange: { min: 10, max: 15 } },
+   415→      },
+   416→    ],
+   417→  },
+   418→  {
+   419→    id: 'deadlift',
+   420→    name: 'Становая тяга',
+   421→    movementPattern: 'squat_hinge',
+   422→    tier: 'bilateral_compound',
+   423→    primaryMuscleGroups: ['hamstrings', 'glutes', 'back'],
+   424→    secondaryMuscleGroups: ['core', 'forearms'],
+   425→    difficultyLevel: 'intermediate',
+   426→    category: 'strength',
+   427→    icon: 'ArrowUpFromLine',
+   428→    instructions: [
+   429→      'Снаряд на полу перед вами, стопы на ширине бёдер',
+   430→      'Наклонитесь вперёд с прямой спиной, согнув колени слегка',
+   431→      'Возьмитесь за снаряд сверху (или mixed grip)',
+   432→      'Поднимите, выпрямляя ноги и одновременно корпус',
+   433→      'Встаньте прямо, грудь вперёд, плечи отведены назад',
+   434→      'Опускайте, отводя таз назад — сначала сгибаются бёдра',
+   435→    ],
+   436→    variants: [
+   437→      {
+   438→        variantId: 'deadlift_bodyweight',
+   439→        variantName: 'Румынская тяга на одной ноге',
+   440→        requiredEquipment: 'none',
+   441→        adjustments: { defaultWeightPercent: 0, repRange: { min: 8, max: 12 } },
+   442→      },
+   443→      {
+   444→        variantId: 'deadlift_dumbbell',
+   445→        variantName: 'Румынская тяга с гантелями',
+   446→        requiredEquipment: 'dumbbell',
+   447→        adjustments: { defaultWeightPercent: 40, repRange: { min: 8, max: 12 } },
+   448→      },
+   449→      {
+   450→        variantId: 'deadlift_kettlebell',
+   451→        variantName: 'Классическая тяга гири',
+   452→        requiredEquipment: 'kettlebell',
+   453→        adjustments: { defaultWeightPercent: 35, repRange: { min: 6, max: 10 } },
+   454→      },
+   455→      {
+   456→        variantId: 'deadlift_barbell',
+   457→        variantName: 'Становая тяга со штангой',
+   458→        requiredEquipment: 'barbell',
+   459→        adjustments: { defaultWeightPercent: 50, repRange: { min: 5, max: 8 } },
+   460→      },
+   461→    ],
+   462→  },
+   463→  {
+   464→    id: 'bridge',
+   465→    name: 'Ягодичный мостик',
+   466→    movementPattern: 'squat_hinge',
+   467→    tier: 'bilateral_compound',
+   468→    primaryMuscleGroups: ['glutes', 'hamstrings'],
+   469→    secondaryMuscleGroups: ['core'],
+   470→    difficultyLevel: 'beginner',
+   471→    category: 'strength',
+   472→    icon: 'TrendingUp',
+   473→    instructions: [
+   474→      'Лягте на спину, колени согнуты, стопы на полу',
+   475→      'Стопы на ширине бёдер, примерно на расстоянии вытянутой руки от таза',
+   476→      'Поднимите таз вверх, напрягая ягодичные мышцы',
+   477→      'В верхней точке тело от колен до плеч образует прямую линию',
+   478→      'Задержитесь на 1-2 секунды в верхнем положении',
+   479→      'Медленно опустите таз, не касаясь пола полностью',
+   480→    ],
+   481→    variants: [
+   482→      {
+   483→        variantId: 'bridge_bodyweight',
+   484→        variantName: 'Ягодичный мостик на полу',
+   485→        requiredEquipment: 'none',
+   486→        adjustments: { defaultWeightPercent: 0, repRange: { min: 12, max: 20 } },
+   487→      },
+   488→      {
+   489→        variantId: 'bridge_band',
+   490→        variantName: 'Ягодичный мостик с петлёй',
+   491→        requiredEquipment: 'resistance_band',
+   492→        adjustments: { defaultWeightPercent: 10, repRange: { min: 10, max: 16 } },
+   493→      },
+   494→      {
+   495→        variantId: 'bridge_barbell',
+   496→        variantName: 'Ягодичный мостик со штангой',
+   497→        requiredEquipment: 'barbell',
+   498→        adjustments: { defaultWeightPercent: 45, repRange: { min: 8, max: 12 } },
+   499→      },
+   500→    ],
+   501→  },
+   502→
+   503→  // ===== CARDIO EXERCISES =====
+   504→  {
+   505→    id: 'jumping_jacks',
+   506→    name: 'Прыжки с разведением рук',
+   507→    movementPattern: 'cardio_metabolic',
+   508→    tier: 'plyometric',
+   509→    primaryMuscleGroups: ['full_body'],
+   510→    secondaryMuscleGroups: ['shoulders', 'calves'],
+   511→    difficultyLevel: 'beginner',
+   512→    category: 'cardio',
+   513→    icon: 'Zap',
+   514→    instructions: [
+   515→      'Стойте прямо, руки по бокам, стопы вместе',
+   516→      'Прыжком разведите ноги в стороны и поднимите руки над головой',
+   517→      'Вернитесь в исходное положение прыжком',
+   518→      'Мягко приземляйтесь на носки, амортизируя коленями',
+   519→      'Держите ритм ~60 прыжков в минуту',
+   520→      'Дышите ровно: вверх — вдох, вниз — выдох',
+   521→    ],
+   522→    variants: [
+   523→      {
+   524→        variantId: 'jumping_jacks_bodyweight',
+   525→        variantName: 'Классические прыжки',
+   526→        requiredEquipment: 'none',
+   527→        adjustments: { defaultWeightPercent: 0, repRange: { min: 20, max: 40 } },
+   528→      },
+   529→      {
+   530→        variantId: 'jumping_jacks_step',
+   531→        variantName: 'Шаги с разведением (без прыжков)',
+   532→        requiredEquipment: 'none',
+   533→        adjustments: { defaultWeightPercent: 0, repRange: { min: 20, max: 40 } },
+   534→      },
+   535→    ],
+   536→  },
+   537→  {
+   538→    id: 'burpees',
+   539→    name: 'Бёрпи',
+   540→    movementPattern: 'cardio_metabolic',
+   541→    tier: 'plyometric',
+   542→    primaryMuscleGroups: ['full_body'],
+   543→    secondaryMuscleGroups: ['chest', 'quads', 'core'],
+   544→    difficultyLevel: 'intermediate',
+   545→    category: 'cardio',
+   546→    icon: 'Flame',
+   547→    instructions: [
+   548→      'Из стойки присядьте и положите ладони на пол',
+   549→      'Прыжком отбросьте ноги назад — позиция планки',
+   550→      'Выполните одно отжимание (опционально для новичков)',
+   551→      'Прыжком подтяните колени к груди',
+   552→      'Взрывным движением выпрямитесь и подпрыгните вверх',
+   553→      'Приземлитесь мягко и сразу переходите к следующему повторению',
+   554→    ],
+   555→    variants: [
+   556→      {
+   557→        variantId: 'burpees_bodyweight',
+   558→        variantName: 'Полные бёрпи с отжиманием',
+   559→        requiredEquipment: 'none',
+   560→        adjustments: { defaultWeightPercent: 0, repRange: { min: 6, max: 12 } },
+   561→      },
+   562→      {
+   563→        variantId: 'burpees_no_pushup',
+   564→        variantName: 'Бёрпи без отжимания',
+   565→        requiredEquipment: 'none',
+   566→        adjustments: { defaultWeightPercent: 0, repRange: { min: 8, max: 15 } },
+   567→      },
+   568→    ],
+   569→  },
+   570→  {
+   571→    id: 'high_knees',
+   572→    name: 'Бег на месте с высоким подъёмом колен',
+   573→    movementPattern: 'cardio_metabolic',
+   574→    tier: 'plyometric',
+   575→    primaryMuscleGroups: ['quads', 'calves'],
+   576→    secondaryMuscleGroups: ['core', 'hip_flexors'],
+   577→    difficultyLevel: 'beginner',
+   578→    category: 'cardio',
+   579→    icon: 'Activity',
+   580→    instructions: [
+   581→      'Стойте прямо, руки согнуты перед собой',
+   582→      'Поднимайте колени максимально высоко — до уровня таза',
+   583→      'Работайте руками в противоход: левое колено — правая рука',
+   584→      'Бегите на месте с максимальной частотой',
+   585→      'Держите корпус прямо, не наклоняйтесь вперёд',
+   586→      'Приземляйтесь на переднюю часть стопы',
+   587→    ],
+   588→    variants: [
+   589→      {
+   590→        variantId: 'high_knees_bodyweight',
+   591→        variantName: 'Бег с высоким подъёмом колен',
+   592→        requiredEquipment: 'none',
+   593→        adjustments: { defaultWeightPercent: 0, repRange: { min: 20, max: 40 } },
+   594→      },
+   595→    ],
+   596→  },
+   597→  {
+   598→    id: 'mountain_climbers',
+   599→    name: 'Скалолаз',
+   600→    movementPattern: 'cardio_metabolic',
+   601→    tier: 'plyometric',
+   602→    primaryMuscleGroups: ['core', 'hip_flexors'],
+   603→    secondaryMuscleGroups: ['shoulders', 'quads'],
+   604→    difficultyLevel: 'beginner',
+   605→    category: 'cardio',
+   606→    icon: 'TrendingUp',
+   607→    instructions: [
+   608→      'Примите позицию планки на прямых руках',
+   609→      'Поочерёдно подтягивайте колени к груди',
+   610→      'Двигайтесь быстро, как будто бежите в позиции планки',
+   611→      'Держите таз стабильным, не поднимайте его высоко',
+   612→      'Спина прямая, не прогибайтесь в пояснице',
+   613→      'Работайте в ритме ~30 подтягиваний в минуту на каждую ногу',
+   614→    ],
+   615→    variants: [
+   616→      {
+   617→        variantId: 'mountain_climbers_bodyweight',
+   618→        variantName: 'Классический скалолаз',
+   619→        requiredEquipment: 'none',
+   620→        adjustments: { defaultWeightPercent: 0, repRange: { min: 16, max: 30 } },
+   621→      },
+   622→    ],
+   623→  },
+   624→  {
+   625→    id: 'jump_rope',
+   626→    name: 'Прыжки на скакалке',
+   627→    movementPattern: 'cardio_metabolic',
+   628→    tier: 'plyometric',
+   629→    primaryMuscleGroups: ['calves', 'full_body'],
+   630→    secondaryMuscleGroups: ['shoulders', 'forearms'],
+   631→    difficultyLevel: 'beginner',
+   632→    category: 'cardio',
+   633→    icon: 'RotateCw',
+   634→    instructions: [
+   635→      'Скакалка за головой, рукоятки в руках',
+   636→      'Кисти рук у бёдер, локти прижаты к туловищу',
+   637→      'Вращайте скакалку запястьями, а не плечами',
+   638→      'Прыгайте на 2-3 см от пола, мягко на носках',
+   639→      'Отталкивайтесь подушечками стоп, колени слегка согнуты',
+   640→      'Держите ровный ритм и дыхание',
+   641→    ],
+   642→    variants: [
+   643→      {
+   644→        variantId: 'jump_rope_basic',
+   645→        variantName: 'Прыжки на двух ногах',
+   646→        requiredEquipment: 'jump_rope',
+   647→        adjustments: { defaultWeightPercent: 0, repRange: { min: 50, max: 100 } },
+   648→      },
+   649→      {
+   650→        variantId: 'jump_rope_improvise',
+   651→        variantName: 'Прыжки без скакалки (имитация)',
+   652→        requiredEquipment: 'none',
+   653→        adjustments: { defaultWeightPercent: 0, repRange: { min: 30, max: 60 } },
+   654→      },
+   655→    ],
+   656→  },
+   657→  {
+   658→    id: 'rowing_machine_ex',
+   659→    name: 'Гребной тренажёр',
+   660→    movementPattern: 'cardio_metabolic',
+   661→    tier: 'bilateral_compound',
+   662→    primaryMuscleGroups: ['back', 'legs'],
+   663→    secondaryMuscleGroups: ['arms', 'core'],
+   664→    difficultyLevel: 'beginner',
+   665→    category: 'cardio',
+   666→    icon: 'Waves',
+   667→    instructions: [
+   668→      'Сядьте на сиденье, закрепите ноги в упорах',
+   669→      'Возьмитесь за рукоятку прямым хватом, руки вытянуты',
+   670→      'Фаза 1 (захват): вытяните руки вперёд, наклоните корпус',
+   671→      'Фаза 2 (тяга): оттолкнитесь ногами, затем потяните рукоятку к животу',
+   672→      'Фаза 3 (финиш): корпус слегка отклонён назад, рукоятка у живота',
+   673→      'Фаза 4 (возврат): вытяните руки, затем согните колени, вернитесь в начало',
+   674→    ],
+   675→    variants: [
+   676→      {
+   677→        variantId: 'rowing_low',
+   678→        variantName: 'Гребля — низкая интенсивность',
+   679→        requiredEquipment: 'rowing_machine',
+   680→        adjustments: { defaultWeightPercent: 0, repRange: { min: 10, max: 15 }, durationSeconds: 300 },
+   681→      },
+   682→      {
+   683→        variantId: 'rowing_hiit',
+   684→        variantName: 'Гребля — интервалы (30с работа / 30с отдых)',
+   685→        requiredEquipment: 'rowing_machine',
+   686→        adjustments: { defaultWeightPercent: 0, repRange: { min: 8, max: 12 }, durationSeconds: 240 },
+   687→      },
+   688→    ],
+   689→  },
+   690→  {
+   691→    id: 'treadmill_run',
+   692→    name: 'Беговая дорожка',
+   693→    movementPattern: 'cardio_metabolic',
+   694→    tier: 'bilateral_compound',
+   695→    primaryMuscleGroups: ['legs', 'full_body'],
+   696→    secondaryMuscleGroups: ['calves', 'core'],
+   697→    difficultyLevel: 'beginner',
+   698→    category: 'cardio',
+   699→    icon: 'Activity',
+   700→    instructions: [
+   701→      'Встаньте на беговую дорожку, держитесь за поручни',
+   702→      'Начните с ходьбы, постепенно увеличивая скорость',
+   703→      'Для бега: мягко приземляйтесь на среднюю часть стопы',
+   704→      'Не бегайте «пяткой вперёд» — это создаёт ударную нагрузку',
+   705→      'Держите корпус прямо, руки согнуты под углом ~90°',
+   706→      'Дышите ритмично: 2 шага — вдох, 2 шага — выдох',
+   707→    ],
+   708→    variants: [
+   709→      {
+   710→        variantId: 'treadmill_walk',
+   711→        variantName: 'Быстрая ходьба',
+   712→        requiredEquipment: 'treadmill',
+   713→        adjustments: { defaultWeightPercent: 0, repRange: { min: 1, max: 1 }, durationSeconds: 600 },
+   714→      },
+   715→      {
+   716→        variantId: 'treadmill_run',
+   717→        variantName: 'Лёгкий бег',
+   718→        requiredEquipment: 'treadmill',
+   719→        adjustments: { defaultWeightPercent: 0, repRange: { min: 1, max: 1 }, durationSeconds: 300 },
+   720→      },
+   721→      {
+   722→        variantId: 'treadmill_hiit',
+   723→        variantName: 'Интервальный бег (1 мин бег / 1 мин ходьба)',
+   724→        requiredEquipment: 'treadmill',
+   725→        adjustments: { defaultWeightPercent: 0, repRange: { min: 1, max: 1 }, durationSeconds: 360 },
+   726→      },
+   727→    ],
+   728→  },
+   729→  {
+   730→    id: 'exercise_bike_ex',
+   731→    name: 'Велотренажёр',
+   732→    movementPattern: 'cardio_metabolic',
+   733→    tier: 'bilateral_compound',
+   734→    primaryMuscleGroups: ['quads', 'hamstrings'],
+   735→    secondaryMuscleGroups: ['calves', 'glutes'],
+   736→    difficultyLevel: 'beginner',
+   737→    category: 'cardio',
+   738→    icon: 'Bike',
+   739→    instructions: [
+   740→      'Отрегулируйте высоту сиденья: нога почти выпрямлена в нижней точке',
+   741→      'Зацепите стопы в педали (или закрепите ремешки)',
+   742→      'Держите спину прямо, не горбитесь',
+   743→      'Крутите педали ровным круговым движением',
+   744→      'Не переносите весь вес на рукоятки',
+   745→      'Поддерживайте каденс 60-90 оборотов в минуту',
+   746→    ],
+   747→    variants: [
+   748→      {
+   749→        variantId: 'bike_easy',
+   750→        variantName: 'Велотренажёр — умеренный темп',
+   751→        requiredEquipment: 'exercise_bike',
+   752→        adjustments: { defaultWeightPercent: 0, repRange: { min: 1, max: 1 }, durationSeconds: 600 },
+   753→      },
+   754→      {
+   755→        variantId: 'bike_hiit',
+   756→        variantName: 'Велотренажёр — интервалы',
+   757→        requiredEquipment: 'exercise_bike',
+   758→        adjustments: { defaultWeightPercent: 0, repRange: { min: 1, max: 1 }, durationSeconds: 360 },
+   759→      },
+   760→    ],
+   761→  },
+   762→
+   763→  // ===== FLEXIBILITY / MOBILITY =====
+   764→  {
+   765→    id: 'stretch_hamstrings',
+   766→    name: 'Растяжка задней поверхности бедра',
+   767→    movementPattern: 'flexibility',
+   768→    primaryMuscleGroups: ['hamstrings'],
+   769→    secondaryMuscleGroups: ['calves', 'lower_back'],
+   770→    difficultyLevel: 'beginner',
+   771→    category: 'flexibility',
+   772→    icon: 'StretchHorizontal',
+   773→    instructions: [
+   774→      'Сядьте на пол, ноги вытянуты перед вами',
+   775→      'Медленно наклоняйтесь вперёд к ногам',
+   776→      'Тянитесь кончиками пальцев к носочкам',
+   777→      'Держите спину прямой, не round плечи',
+   778→      'Удерживайте позицию 20-30 секунд',
+   779→      'Дышите глубоко, с каждым выдохом тянитесь чуть дальше',
+   780→    ],
+   781→    variants: [
+   782→      {
+   783→        variantId: 'stretch_hamstrings_floor',
+   784→        variantName: 'Наклон к ногам сидя',
+   785→        requiredEquipment: 'mat',
+   786→        adjustments: { defaultWeightPercent: 0, repRange: { min: 3, max: 5 }, durationSeconds: 30 },
+   787→      },
+   788→      {
+   789→        variantId: 'stretch_hamstrings_standing',
+   790→        variantName: 'Наклон к ногам стоя',
+   791→        requiredEquipment: 'none',
+   792→        adjustments: { defaultWeightPercent: 0, repRange: { min: 3, max: 5 }, durationSeconds: 20 },
+   793→      },
+   794→    ],
+   795→  },
+   796→  {
+   797→    id: 'cat_cow',
+   798→    name: 'Кошка-корова',
+   799→    movementPattern: 'flexibility',
+   800→    primaryMuscleGroups: ['core', 'spine'],
+   801→    secondaryMuscleGroups: ['neck', 'shoulders'],
+   802→    difficultyLevel: 'beginner',
+   803→    category: 'flexibility',
+   804→    icon: 'Move3D',
+   805→    instructions: [
+   806→      'Встаньте на четвереньки: руки под плечами, колени под тазом',
+   807→      'Вдох: прогните спину вниз, поднимите голову и копчик (корова)',
+   808→      'Выдох: round спину вверх, опустите голову (кошка)',
+   809→      'Двигайтесь плавно, синхронизируя движение с дыханием',
+   810→      'Выполняйте 10-15 циклов без пауз',
+   811→      'Не форсируйте амплитуду, работайте в комфортном диапазоне',
+   812→    ],
+   813→    variants: [
+   814→      {
+   815→        variantId: 'cat_cow_floor',
+   816→        variantName: 'Кошка-корова на полу',
+   817→        requiredEquipment: 'mat',
+   818→        adjustments: { defaultWeightPercent: 0, repRange: { min: 10, max: 15 } },
+   819→      },
+   820→      {
+   821→        variantId: 'cat_cow_no_mat',
+   822→        variantName: 'Кошка-корова без коврика',
+   823→        requiredEquipment: 'none',
+   824→        adjustments: { defaultWeightPercent: 0, repRange: { min: 10, max: 15 } },
+   825→      },
+   826→    ],
+   827→  },
+   828→];
+   829→
+   830→// Muscle group display labels
+   831→export const MUSCLE_LABELS: Record<string, string> = {
+   832→  quads: 'Квадрицепсы',
+   833→  glutes: 'Ягодицы',
+   834→  hamstrings: 'Задняя поверхность бедра',
+   835→  core: 'Кор',
+   836→  chest: 'Грудь',
+   837→  triceps: 'Трицепс',
+   838→  shoulders: 'Плечи',
+   839→  back: 'Спина',
+   840→  biceps: 'Бицепс',
+   841→  forearms: 'Предплечья',
+   842→  calves: 'Икры',
+   843→  legs: 'Ноги',
+   844→  full_body: 'Всё тело',
+   845→  hip_flexors: 'Сгибатели бедра',
+   846→  spine: 'Позвоночник',
+   847→  neck: 'Шея',
+   848→  lower_back: 'Поясница',
+   849→  arms: 'Руки',
+   850→};
+   851→
+   852→// Antagonist muscle pairs for workout ordering (agonist -> antagonist)
+   853→export const ANTAGONIST_PAIRS: Record<string, string> = {
+   854→  chest: 'back',
+   855→  back: 'chest',
+   856→  quads: 'hamstrings',
+   857→  hamstrings: 'quads',
+   858→  biceps: 'triceps',
+   859→  triceps: 'biceps',
+   860→  shoulders: 'back',
+   861→};
+   862→
+   863→// Target muscle groups for a full-body workout
+   864→export const FULL_BODY_TARGETS = [
+   865→  'quads', 'chest', 'back', 'core', 'shoulders', 'hamstrings',
+   866→] as const;
+   867→
+   868→// Cardio target groups
+   869→export const CARDIO_TARGETS = [
+   870→  'full_body', 'calves', 'legs',
+   871→] as const;

@@ -1,0 +1,602 @@
+  2160→conditions” (Brooks et al 2004).
+  2161→The brain and spinal cord make up CNS (see figure 6.1). The somatic nervous
+  2162→system transmits sensory and motor signals to and from the CNS. The efficient
+  2163→routing of these motor signals must be in place to achieve optimal performance
+  2164→and efficient technique. Famed performance coach Charlie Francis (1982)
+  2165→defines the CNS as “the optimal transmitter of nervous signals and motor
+  2166→pathways.”
+  2167→Francis describes CNS fatigue as the “by-products of high-intensity exercise[s
+  2168→that] build up to a point where the CNS impulses (necessary to contract the
+  2169→muscle fibers) are handicapped.” Most studies involving CNS fatigue have been
+  2170→done using endurance exercise rather than examining CNS function when
+  2171→
+  2172→training speed and power in a high-performance athlete. According to Francis,
+  2173→the following primarily causes this drop in function in explosive athletes:
+  2174→High-intensity work occurring too frequently in a training cycle
+  2175→Too much high-intensity volume in a single training session
+  2176→Introducing high-intensity training too rapidly into a training program when
+  2177→residual fatigue still exists
+  2178→
+  2179→Figure 6.1 The central nervous system: the optimal transmitter from the brain to the muscles
+  2180→and skeletal system.
+  2181→
+  2182→When we train, we must consider changes in readiness caused by this stress
+  2183→or fatigue, and not just the stress from training alone, but all stressors. Hans
+  2184→Selye stated in his book The Stress of Life (1956) that “all stressors draw from
+  2185→
+  2186→the same pool.” So, whether it is game play, weight training, school,
+  2187→relationships or a rough night out on the town, stress needs to be monitored and
+  2188→training adjusted accordingly. This is otherwise known as autoregulation, and it
+  2189→is one of the great advantages to using VBT.
+  2190→Traditionally, resistance-training intensity has been derived from a percentage
+  2191→of an athlete’s 1RM. More recently, however, a study has shown that practically
+  2192→perfect correlations (r = 0.95) were observed in the relationship between load–
+  2193→velocity and a predicted 1RM (Jidovtseff et al. 2011). This makes VBT an
+  2194→extremely reliable and more convenient alternative than the traditional
+  2195→percentage-based 1RM. It enables both the coach and the athlete to match
+  2196→established resisting training variables, such as the percentage of an athlete’s
+  2197→1RM, to specific movement velocities. Doing so helps them objectively identify
+  2198→the onset of neuromuscular fatigue so they can gauge training readiness.
+  2199→
+  2200→Introducing high-intensity work such as shuttle runs too frequently or too early in an athlete’s training
+  2201→program can reduce CNS output considerably.
+  2202→The Good Brigade/DigitalVision/Getty Images
+  2203→
+  2204→When we train, we must consider changes in readiness caused
+  2205→by this stress or fatigue, and not just the stress from training
+  2206→alone, but all stressors.
+  2207→Another study found that, based on these daily stressors, an athlete’s 1RMs
+  2208→can change by as much as +/- 18 percent from day to day (Flanagan and
+  2209→Jovanovic 2014). While I have used the traditional percentage-based 1RM
+  2210→protocol for years and still do sometimes, I have seen firsthand the ease of use as
+  2211→well as the ability to take day-to-day fatigue into account by monitoring velocity
+  2212→instead of load. The decline in velocity across a number of sets or reps can tell us
+  2213→the amount of muscle stress or teardown. This is especially useful when
+  2214→monitoring fatigue for several athletes in a group setting (see figure 6.2).
+  2215→The use of autoregulation allows athletes to train using loads that are
+  2216→appropriate for their specific readiness for that particular day, meaning, despite
+  2217→highs and lows in strength during the course of a training program, the correlated
+  2218→percentage of the 1RM to that particular velocity does not change (SánchezMedina and González-Badillo 2011). In other words, if you move 70 percent
+  2219→1RM at 0.62 meters per second, this velocity will always relate to 70 percent
+  2220→1RM even if strength gains go up or down.
+  2221→
+  2222→Figure 6.2 Using VBT to monitor velocity loss instead of load is especially helpful when working
+  2223→with groups.
+  2224→
+  2225→To further explain this point, table 6.1 provides details of three separate
+  2226→workouts for an athlete who has been profiled with a 285-pound (129 kg) 1RM
+  2227→for the split squat during the athlete’s initial testing. For the first workout, the
+  2228→athlete moves 200 pounds (91 kg) at 0.62 meters per second, which is
+  2229→approximately 70 percent 1RM (285 pounds [129 kg] × 0.70 = 200 pounds [91
+  2230→kg]). During the next workout, the athletes seems to be affected by outside
+  2231→stressors such as a lack of sleep or hydration and moves only 175 pounds (79 kg)
+  2232→at 0.62 meters per second, which is still 70 percent 1RM for this particular day.
+  2233→This now equates to a 250 pounds (113 kg) 1RM (250 pounds [113 kg] × 0.70 =
+  2234→175 pounds [79 kg]) and signifies a 12-percent decrease in this athlete’s 1RM
+  2235→from residual stress and accumulated fatigue. Simply plowing through day 1’s
+  2236→numbers could increase the likelihood of injury. Then, on the other hand, after
+  2237→sleeping well that night and then acing finals the next day, this athlete comes in
+  2238→
+  2239→feeling exuberant and pulls 210 pounds (95 kg) at 0.62 meters per second for a
+  2240→third workout. Because we base intensity on speed, we know that this is still 70
+  2241→percent 1RM that now equates to a 300-pound (136 kg) 1RM (300 pounds [136
+  2242→kg] × 0.70 = 210 pounds [95 kg]). This indicates a five-percent increase in this
+  2243→athlete’s 1RM—the kind of day we all hope for!
+  2244→If we just based every training session on this athlete’s initial 1RM test, we
+  2245→would be not only overtraining this athlete on day 2 when training readiness was
+  2246→lower but also increasing the athlete’s risk for possible injury. Sánchez-Medina
+  2247→and González-Badillo (2011) found that a high correlation between velocity loss
+  2248→and the metabolic stress (lactate and ammonia accumulation) stems from
+  2249→overtraining (fatigue). And, on day 3 when training readiness was high, we
+  2250→would be both undertraining the athlete and likely impeding training adaptation
+  2251→and progress. This is a terrific example of VBT’s extraordinary power for
+  2252→autoregulating training and maximizing gains for your athletes.
+  2253→Table 6.1 DAILY TRAINING READINESS FLUCTUATIONS FOR AN
+  2254→ATHLETE WITH AN ESTIMATED 285-POUND (129 KG) 1RM
+  2255→TRAINING DAY
+  2256→
+  2257→LOAD (3 REPS)
+  2258→
+  2259→AVERAGE VELOCITY (M/SEC PER SET)
+  2260→
+  2261→DAILY ESTIMATED 1RM
+  2262→
+  2263→Day 1
+  2264→
+  2265→200 lb (91 kg)
+  2266→
+  2267→0.62
+  2268→
+  2269→285 lb (129 kg)
+  2270→
+  2271→Day 2
+  2272→
+  2273→175 lb (79 kg)
+  2274→
+  2275→0.61
+  2276→
+  2277→250 lb (113 kg)
+  2278→
+  2279→Day 3
+  2280→
+  2281→210 lb (95 kg)
+  2282→
+  2283→0.63
+  2284→
+  2285→300 lb (136 kg)
+  2286→
+  2287→TARGETING STRENGTH ADAPTATIONS
+  2288→THROUGH VELOCITY-LOSS MONITORING
+  2289→When training with VBT, percentage of velocity loss can be monitored using an
+  2290→LPT or accelerometer. Each device can be set to signify losses in power output
+  2291→(measured in watts) between reps or from set to set (the more popular method)
+  2292→when training for power and power endurance (see figure 6.3). When work
+  2293→reaches the prescribed velocity or power loss, the athlete has the option to lower
+  2294→the weight, increase rest time, or end the workout altogether.
+  2295→Pareja-Blanco and colleagues (2016) found that the progressive buildup of
+  2296→muscle fatigue caused by a more pronounced repetition velocity loss is an
+  2297→important variable to exercise stimulus for resistance training concerning its
+  2298→influence on functional and structural neuromuscular changes in strength, power,
+  2299→and hypertrophy. Monitoring these losses is crucial to chasing specific training
+  2300→adaptations as well as ensuring we are not creating any residual soreness that
+  2301→
+  2302→may negatively affect upcoming games or event performances. Table 6.2 shows
+  2303→three different training adaptations based on repetition velocity losses within a
+  2304→set according to this study. (We will take a closer look at these parameters in the
+  2305→later chapters on programming.)
+  2306→
+  2307→Figure 6.3 Losses in velocity can be monitored (a) between reps or (b) from set to set when
+  2308→training for endurance.
+  2309→
+  2310→Table 6.2 VELOCITY LOSS AS ASSOCIATED WITH SPECIFIC
+  2311→TRAINING ADAPTATIONS
+  2312→TRAINING ADAPTATION
+  2313→
+  2314→VELOCITY LOSS
+  2315→
+  2316→Hypertrophy I
+  2317→
+  2318→40%-50%
+  2319→
+  2320→Hypertrophy II
+  2321→
+  2322→10%-20%
+  2323→
+  2324→Strength
+  2325→
+  2326→20%-30%
+  2327→
+  2328→Power or speed
+  2329→
+  2330→<10%
+  2331→
+  2332→Hypertrophy I and II
+  2333→When training hypertrophy I, higher drop-offs of 40 to 50 percent from rep to
+  2334→rep or from set to set elicit greater increases in the cross-sectional area of the
+  2335→type I (slow-twitch) muscle fibers, while drop-offs of 10 to 20 percent should be
+  2336→used for hypertrophy of the type II (fast-twitch) muscle fibers (hypertrophy II).
+  2337→To achieve hypertrophy I, athletes should use around 50 to 70 percent 1RM (or
+  2338→
+  2339→slightly less), which raises rep sets and increases time under tension, eliciting
+  2340→greater muscle damage. This, in turn, helps stimulate super compensation,
+  2341→resulting in the adaptive rebound above baseline after fatigue and recovery (rest).
+  2342→It allows the athlete to handle the same training load or an even greater load in
+  2343→subsequent workouts if recovery is adequate and the new stress is timed
+  2344→properly. This stimulus is key to creating greater training adaptations that
+  2345→increases the cross-sectional area of just the type I muscle fibers.
+  2346→
+  2347→Monitoring losses is crucial to chasing specific training adaptations as well as ensuring we are not creating
+  2348→any residual soreness that may negatively affect next-day game or event performance.
+  2349→
+  2350→LUIS ROBAYO/AFP via Getty Images
+  2351→
+  2352→When training hypertrophy I and II, higher drop-offs of 40 to 50
+  2353→percent and 10 to 20 percent respectively from rep to rep or
+  2354→from set to set elicit the greatest increases in the crosssectional area of the type I and type II muscle fibers.
+  2355→However, if the goal is hypertrophy II of the fast-twitch (type II) muscle
+  2356→fibers (more on this in chapter 8), it is better to stay with a 10- to 20-percent
+  2357→drop-off in order to still elicit some teardown of the type I fibers while still
+  2358→maintaining stimulation of the type II fibers (by keeping velocity losses lower
+  2359→than the 30 percent required to develop the type I fibers as described for
+  2360→hypertrophy I). This is important to remember because velocity losses greater
+  2361→than 40 percent or training to failure can severely limit jumping capabilities,
+  2362→resulting in direct onset muscle soreness (DOMS) for as much as 48 hours later.
+  2363→Note, however, that research has shown that the traditional approach of training
+  2364→to repetition failure does not necessarily lead to greater increases in strength or
+  2365→hypertrophy because an athlete’s strength and readiness changes daily based on
+  2366→various stressors both in the weight room and outside of it (Pareja-Blanco et. al.
+  2367→2020).
+  2368→
+  2369→Strength
+  2370→Contrary to popular belief, strength gains are significantly higher when lower
+  2371→velocity losses are used. As mentioned previously, a recent study showed that,
+  2372→while there were significant gains in hypertrophy, there were significant
+  2373→decreases in early rate of force development when athletes trained with velocityloss thresholds above 30 percent (Pareja-Blanco et al. 2020). With this in mind, I
+  2374→like to use more submaximal loads (60 to 70 percent 1RM, or 0.60 to 0.75
+  2375→meters per second) for multiple sets of three to five reps. Using a submaximal
+  2376→load to train strength with a high-set to low-rep–scheme ensures a moderate
+  2377→amount of velocity loss (20 to 30 percent), consistent rates of force development
+  2378→from set to set, and recovery within 24 to 48 hours. This is key to preventing
+  2379→residual soreness that may affect next-day performance.
+  2380→
+  2381→Figure 6.4 When training power and speed, it’s imperative that athletes are not in a fatigued
+  2382→state because fatigue makes them unable to efficiently summon the needed type II muscle fibers
+  2383→required to be truly explosive.
+  2384→
+  2385→Power and Speed
+  2386→When training power and speed, it’s imperative that athletes are not fatigued,
+  2387→otherwise they will be unable to efficiently summon the type II muscle fibers
+  2388→required to be explosive in the exercises (see figure 6.4). Training in a fatigued
+  2389→state can also create bad habits due to compensation patterns created by fatigue,
+  2390→but more importantly, it can lead to injury. When training power with VBT, I
+  2391→
+  2392→look for velocity losses at less than 10 percent as the season draws nearer, while
+  2393→monitoring power output instead of bar speeds. Either can be monitored,
+  2394→however.
+  2395→The following three examples are different ways I incorporate percentage of
+  2396→velocity loss into my programs when training for hypertrophy, power, and
+  2397→strength:
+  2398→Manipulation of reps
+  2399→Manipulation of sets
+  2400→Manipulation of load or intensity
+  2401→I have chosen these three methods to demonstrate how monitoring
+  2402→percentages of velocity loss can be used to help manipulate reps, sets, or load
+  2403→(intensity) when training different traits. It is important to note that what is being
+  2404→demonstrated is the manipulation of the set and rep scheme. As a result, all three
+  2405→traits can be trained using all three methods.
+  2406→Table 6.3 provides a summary of the three methods discussed in this section.
+  2407→
+  2408→Method I: Rep Manipulation Based on
+  2409→Velocity Loss
+  2410→I use this method when training muscular hypertrophy and muscular
+  2411→endurance (short). It is designed to use the same weight for a
+  2412→predetermined number of sets. The reps are terminated once a velocity
+  2413→loss of greater than 50 percent target velocity is recorded. If the athlete
+  2414→can move the weight at the desired velocity for more than 20 reps or
+  2415→beyond one minute for any given set, the load must be increased.
+  2416→
+  2417→TARGET VELOCITY LOSS
+  2418→40 to 50 percent
+  2419→
+  2420→ADAPTATION
+  2421→Muscular hypertrophy (hypertrophy I)
+  2422→
+  2423→ENERGY SYSTEM
+  2424→Lactic, aerobic
+  2425→
+  2426→SETS AND REPS
+  2427→8 sets × ? reps at 40 to 70 percent 1RM, or 0.75 to 1.0 meters per
+  2428→second (as long as reps do not exceed 20 or one minute total work time
+  2429→per set)
+  2430→
+  2431→REST
+  2432→One minute between sets
+  2433→
+  2434→PROTOCOL
+  2435→1. Select desired load and velocity (0.75 to 1.0 meters per second).
+  2436→2. Load does not change; perform set until the rep target velocity drops
+  2437→by 40 percent. For example: If 0.80 meters per second is the target
+  2438→velocity, the set ends when the first rep below 40 percent target
+  2439→velocity (0.32 meters per second) is recorded. Note: Always provide
+  2440→a second chance. Many times, athletes will rise to the occasion by
+  2441→pushing themselves a bit harder to meet the required parameters to
+  2442→
+  2443→continue. If the athlete fails two sets in a row, either lower the weight
+  2444→or terminate that specific workout.
+  2445→3. If athletes can move the bar at a desired velocity for more than 20
+  2446→reps or longer than one minute during a set, or if they can maintain
+  2447→the same amount of reps for all eight sets while maintaining the
+  2448→required velocity loss, the bar weight is too light and needs to be
+  2449→increased.
+  2450→
+  2451→Method II: Set Manipulation Based on
+  2452→Velocity Loss
+  2453→I use this method when training for power and power endurance (covered
+  2454→in detail in chapter 10). Once again, it is designed to use the same weight
+  2455→and same repetitions throughout all working sets. The sets are
+  2456→terminated when an average velocity loss for a set is greater than 10 to
+  2457→15 percent of the athlete’s initial average for a set’s target velocity is
+  2458→recorded. Again, always provide a second chance.
+  2459→
+  2460→TARGET VELOCITY LOSS
+  2461→Less than 10 percent
+  2462→
+  2463→ADAPTATION
+  2464→Speed or power
+  2465→
+  2466→ENERGY SYSTEM
+  2467→ATP-PC energy system (power sports)
+  2468→
+  2469→SETS AND REPS
+  2470→? sets × 3 reps at 40 to 70 percent 1RM, or 0.75 to 1.0 meters per
+  2471→second
+  2472→
+  2473→REST
+  2474→One minute between sets
+  2475→
+  2476→PROTOCOL
+  2477→1. Select desired load or velocity (0.75 to 1.0 meters per second).
+  2478→2. Establish the first set’s average velocity, which becomes your
+  2479→marker.
+  2480→3. Continue sets until any set’s average velocity drops below 10
+  2481→percent of the first set. For example, if 0.80 meters per second is the
+  2482→target velocity, the workout is over when the first set with an average
+  2483→set velocity loss above 10 to 15 percent (0.68 meters per second) is
+  2484→recorded. Again, always provide a second chance. Note: If the
+  2485→
+  2486→athlete can complete 8 to 10 full sets with a velocity loss less than 5
+  2487→percent on each set, then the load is too light and more weight
+  2488→needs to be added.
+  2489→
+  2490→Method III: Load Manipulation Based on
+  2491→Velocity Loss
+  2492→I use this method when training maximal and submaximal (accelerative)
+  2493→strength. This method is slightly different because it is designed to
+  2494→change the load from set to set if losses in velocity of 10 to 20 percent
+  2495→are recorded. It is also used to gauge an athlete’s training readiness for
+  2496→that particular day. Loads are adjusted any time a velocity loss greater
+  2497→than 10 to 20 percent of target velocity is recorded.
+  2498→
+  2499→TARGET VELOCITY LOSS
+  2500→20 to 30 percent
+  2501→
+  2502→ADAPTATION
+  2503→Strength, force development; This is also a good method for testing daily
+  2504→training readiness. Load is based on the athlete’s recovery on that given
+  2505→day.
+  2506→
+  2507→ENERGY SYSTEM
+  2508→ATP-PC (sets lasting 1 to 10 seconds), lactic (sets lasting 10 seconds to
+  2509→one minute)
+  2510→
+  2511→SETS AND REPS
+  2512→8 sets × 3 reps at 60 to 80 percent 1RM, or 0.50 to 0.75 meters per
+  2513→second
+  2514→
+  2515→REST
+  2516→Two minutes between sets
+  2517→
+  2518→PROTOCOL
+  2519→1. Select desired load or velocity (0.50 to 0.75 meters second).
+  2520→2. Increase or decrease the load from set to set in order to maintain
+  2521→target velocity within 10 to 20 percent for all eight sets.
+  2522→
+  2523→TESTING CNS READINESS WITH VBT
+  2524→When doing daily testing, the jury is still out about which types of movements
+  2525→are better to gauge training readiness. Most coaches use larger movements, such
+  2526→as CMJ jumps, but my personal preference is to use smaller and faster
+  2527→movements, such as pogo jumps, for the simple reason that these movements
+  2528→allow less time for the athlete to compensate for fatigue than the larger ones do
+  2529→(see figure 6.5).
+  2530→
+  2531→Figure 6.5 Pogo jumps are performed for jump testing prior to training to monitor fatigue.
+  2532→
+  2533→Performing jump testing before a training program begins can be used as a
+  2534→baseline to monitor fatigue. I like to use 10 pogo jumps for height and then take
+  2535→the average velocity of the set. On high-intent days, or days with a rate of
+  2536→perceived exertion (RPE) of nine or 10, we perform the test again and look for
+  2537→an average velocity that is within 10 percent of the athlete’s original baseline.
+  2538→For anything less than 10 percent, we reduce volume by 20 percent for that day.
+  2539→
+  2540→For anything below 20 percent, we eliminate the high-intensity workout
+  2541→altogether. The reason for this is that the athlete’s CNS is not up to the task,
+  2542→making the risk for injury much higher. Table 6.4 shows three different scenarios
+  2543→over the course of four different training days for an athlete with a baseline test
+  2544→of 0.92 meters per second average for pogo jumps.
+  2545→As we can see on day 1, this athlete was within the 10-percent velocity loss of
+  2546→the original 0.92 meters per second baseline testing, so training would proceed as
+  2547→usual. However, on day 2, after playing a double overtime match the day before,
+  2548→there is enough CNS fatigue to warrant a decrease in volume of 20 percent. On
+  2549→day 4, multiple stressors—from game play to midterms and a lack of adequate
+  2550→sleep—have brought CNS fatigue considerably below the baseline, so it would
+  2551→be best to skip high-intensity training on this day altogether. And finally, on day
+  2552→4, post-midterms and after some much-needed rest, levels are back to normal and
+  2553→even slightly above. Training would resume and load or volume would be
+  2554→increased if needed.
+  2555→This example perfectly illustrates how easy it can be to train when readiness
+  2556→is low. Overtraining or overreaching can result from a fatigued CNS. However,
+  2557→with VBT, we are now able to put some tangible numbers to CNS fatigue and
+  2558→possibly help athletes keep recovery levels more stable throughout the training
+  2559→period and beyond.
+  2560→Table 6.4 FOUR-DAY BASELINE AVERAGE FOR 10 POGO JUMPS
+  2561→FOR AN ATHLETE WITH 0.92 METERS PER SECOND BASELINE
+  2562→VELOCITY
+  2563→DAY 1
+  2564→
+  2565→0.84 m/sec
+  2566→
+  2567→9% velocity loss
+  2568→
+  2569→Ready to train
+  2570→
+  2571→DAY 2
+  2572→
+  2573→0.79 m/sec
+  2574→
+  2575→14% velocity loss
+  2576→
+  2577→Decrease volume by 20%
+  2578→
+  2579→DAY 3
+  2580→
+  2581→0.72 m/sec
+  2582→
+  2583→21% velocity loss
+  2584→
+  2585→Skip high-intensity day altogether
+  2586→
+  2587→DAY 4
+  2588→
+  2589→0.97 m/sec
+  2590→
+  2591→0% velocity loss
+  2592→
+  2593→Ready to train
+  2594→
+  2595→I have found VBT to be a game changer for autoregulation, the process that
+  2596→allows coaches and athletes to adjust to these individual stressors based on
+  2597→velocity losses within the set or from day to day. Overall volume–load (load ×
+  2598→reps × sets) is reduced as a result of loss and fatigue to prevent athletes from
+  2599→performing unnecessary repetitions and hampering the desired adaptation.
+  2600→One study suggests that the cutoff velocities of 10 to 30 percent can be used
+  2601→to limit metabolic stress while optimizing a strength-training stimulus and
+  2602→limiting the hampering effects of fatigue (Pareja-Blanco et al. 2016). The same
+  2603→
+  2604→study stated that using lower percentages (around 40 to 50 percent 1RM) not
+  2605→only allows for higher rep sets but also creates a higher time under tension. This
+  2606→elicits greater muscle damage and, in turn, increases in the cross-sectional area
+  2607→of type I muscle fibers. In other words, as fatigue sets in, velocity slows down,
+  2608→and VBT helps keep us in check on all counts.
+  2609→
+  2610→PART
+  2611→
+  2612→III
+  2613→PROGRAMMING
+  2614→
+  2615→THE USE OF FILLERS
+  2616→In the following programs, exercises are numbered as 1a and 1b, 2a and 2b, and so on.
+  2617→For example, the “1b” exercise is a mobility exercise used as a filler incorporated into the
+  2618→main exercise’s (1a) rest period. Fillers accomplish two things: They not only help maintain
+  2619→density in the program because time is usually a constraint but also account for some of
+  2620→the required rest periods between sets of the main lift. For example, let’s suppose a
+  2621→deadlift is numbered as 1a. The 1b exercise that immediately follows this deadlift will be
+  2622→done as some sort of mobility exercise. I calculate approximately one minute of the
+  2623→required rest period to performing the filler exercise. So, if we were in the strength phase
+  2624→and required a three-minute rest, it would look something like this:
+  2625→
+  2626→The following chapters cover the various training blocks, or phases. The five
+  2627→training phases comprise a complete one-year macrocycle of training, or a yearly
+  2628→plan. These phases are arranged in the following chronological order: from the
+  2629→beginning of the preparatory period (early off-season) through the transition
+  2630→(transfer to sport) and competitive (in-season) periods.
+  2631→It is important to note that intermittent periods of competition keep some
+  2632→athletes from having a full six months to train. In this case, the recommendation
+  2633→is to have the coach or athlete work backward, or back out, from the first day of
+  2634→competition and make sure that strength and the transfer of power to sport are
+  2635→always included.
+  2636→Note: I have not included a second transition or recovery period in this text
+  2637→because the time (two-to-four weeks) is generally treated as a recovery period
+  2638→and primarily involves intervals of complete rest. Training, however, can and
+  2639→should be done if the athlete or coach feels that a lower volume of accelerative
+  2640→strength work combined with complete rest would be more beneficial than total
+  2641→time off to adequately recover and prepare for the next off-season plan. If this is
+  2642→the case, my recommendation is to use a short phase of submaximal strength
+  2643→(phase III) at 70 percent of the volume generally prescribed in that phase.
+  2644→Since most of my work involves working with elite baseball players every
+  2645→day, I have provided an example of a yearly plan as it pertains to high school or
+  2646→college baseball athletes and their season. This could, however, be adapted to
+  2647→any sport and the sport’s yearly timing. As mentioned previously, when looking
+  2648→
+  2649→at the different phases, keep in mind that the amount of time spent in each phase
+  2650→differs slightly from sport to sport and from athlete to athlete. The following
+  2651→table is an example of how I would lay out yearly training for a baseball player.
+  2652→TRAINING VOLUME
+  2653→
+  2654→PLAYING
+  2655→VOLUME
+  2656→
+  2657→PERIOD
+  2658→
+  2659→PHASE
+  2660→
+  2661→Preparatory
+  2662→(early off-season)
+  2663→
+  2664→Phase I: tissue prep
+  2665→Phase II: hypertrophy I, II
+  2666→
+  2667→Moderate to high
+  2668→
+  2669→Low
+  2670→
+  2671→Preparatory
+  2672→(mid–off-season)
+  2673→
+  2674→Phase III: submaximal and maximal
+  2675→strengths
+  2676→
+  2677→High
+  2678→
+  2679→Low
+  2680→
+  2681→Transition I
+  2682→(late off-season to
+  2683→preseason)
+  2684→
+  2685→Phase IV: power, muscular endurance
+  2686→
+  2687→Moderate
+  2688→
+  2689→Moderate to
+  2690→high
+  2691→
+  2692→Competitive
+  2693→(in-season)
+  2694→
+  2695→Phase V: strength-power maintenance
+  2696→
+  2697→Low
+  2698→
+  2699→High
+  2700→
+  2701→Transition II
+  2702→(postseason)
+  2703→
+  2704→Strength maintenance, recovery
+  2705→
+  2706→Low to moderate
+  2707→
+  2708→Low
+  2709→
+  2710→CHAPTER
+  2711→
+  2712→7
+  2713→Yearly Periodization Using VBT
+  2714→The ultimate success of any training program centers on the ability to produce
+  2715→specific physiological adaptations that will translate into increases in
+  2716→performance (Poliquin 1988). This is achieved by using a concept called
+  2717→periodization for yearly programming. Without being familiar with a few key
+  2718→concepts of periodization, trying to apply bar and body speeds with VBT or any
+  2719→method will be premature at best. In previous chapters, we discussed in detail
+  2720→what VBT actually is, what its origins are, and how to read the data as well as
+  2721→monitor fatigue. We now turn to two of the most frequently asked questions
+  2722→regarding programming and the use of VBT.
+  2723→1. How do I program and use VBT over a complete training year for an
+  2724→athlete or a team?
+  2725→2. How do I break up the year’s training into different phases?
+  2726→To answer these questions, we must first have a discussion about
+  2727→periodization. We cannot effectively program for an athlete until we have
+  2728→reached a basic understanding of periodization. This chapter briefly explains
+  2729→training cycles and periods, breaking them down into various phases as well as
+  2730→the hierarchy (i.e., continuum) of these phases to reveal how and where the
+  2731→special strength zones (from chapter 4) fit into them.
+  2732→
+  2733→PERIODIZATION: TRAINING CYCLES, PERIODS,
+  2734→AND PHASES
+  2735→Periodization is an organized approach to training with the intent of maximizing
+  2736→recovery in order to elicit a performance effect. Periodization organizes a yearly
+  2737→or seasonal plan by partitioning it into smaller training periods and phases
+  2738→throughout the course of the athlete’s year or season in order to maximize
+  2739→competitive performance.
+  2740→In periodization, the structure (periods and phases) and timing (cycle) of these
+  2741→periods and phases highly depend on the following:
+  2742→The sport and type of athlete you are training
+  2743→The team’s or athlete’s specific needs
+  2744→The period or phase the team or athlete is currently in
+  2745→
+  2746→By partitioning an athlete’s yearly plan into smaller training periods, we can maximize recovery and
+  2747→maximize in-season performance.
+  2748→© Human Kinetics
+  2749→
+  2750→Each of these factors profoundly affects the program design and the desired
+  2751→training adaptation. For example, a professional baseball player has a very long
+  2752→season (approximately six months) that is followed by a long off-season
+  2753→(approximately five months). This makes programming somewhat easier to
+  2754→structure for a professional athlete than, say, for a high school soccer player who
+  2755→has multiple shorter competitive periods throughout the year.
+  2756→
+  2757→Periodization is an organized approach to training with the
+  2758→intent of maximizing recovery in order to elicit a performance
+  2759→
+
+[showing lines 2160-2759 of 5471; use offset=2760 with limit to continue reading]

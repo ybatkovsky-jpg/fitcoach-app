@@ -1,0 +1,702 @@
+    40→Push-up 1 20 sec 10 sec BW 112
+    41→March/walk 1 20 sec 10 sec BW N/A
+    42→Burpee 1 20 sec 10 sec BW 50
+    43→LOWER BODY
+    44→Exercise Sets Reps/time Rest Wt Page #
+    45→Dumbbell box step-up 1 15 reps 15 sec BW 86
+    46→Front lunge 1 15 reps 15 sec BW 41
+    47→Lateral lunge 1 15 reps 15 sec BW 42
+    48→Backward lunge 1 15 reps 15 sec BW 43
+    49→Single-leg squat (each leg) 1 15 reps 15 sec BW 52
+    50→Hip thrust 1 15 reps 15 sec BW 100
+    51→CALISTHENICS
+    52→Exercise Sets Reps/time Rest Wt Page #
+    53→Jumping jacks 1 20 sec 10 sec BW 48
+    54→Mountain climbers 1 20 sec 10 sec BW 49
+    55→Groiner 1 20 sec 10 sec BW 51
+    56→Single-leg squat (each leg) 1 20 sec 10 sec BW 52
+    57→Front lunge 1 20 sec 10 sec BW 41
+    58→Burpee 1 20 sec 10 sec BW 50
+    59→UPPER BODY
+    60→Exercise Sets Reps/time Rest Wt Page #
+    61→Dumbbell bench press 1 15 reps 15 sec 10 lb, 15 lb, or 20 lb 122
+    62→Dumbbell one-arm row 1 15 reps 15 sec 10 lb, 15 lb, or 20 lb 129
+    63→Dumbbell shoulder press 1 15 reps 15 sec 8 lb, 10 lb, or 12 lb 131
+    64→Dumbbell bent-over raise 1 15 reps 15 sec 5 lb, or 8 lb 140
+    65→Dumbbell alt-arm biceps curl 1 15 reps 15 sec 10 lb, 12 lb, or 15 lb 144
+    66→Dumbbell supine triceps extension 1 15 reps 15 sec 10 lb, 12 lb, or 15 lb 141
+    67→CORE
+    68→Exercise Sets Reps/time Rest Wt Page #
+    69→Abdominal crunch 1 20 reps 15 sec BW 155
+    70→Abdominal reach 1 20 reps 15 sec BW 157
+    71→Front plank 1 30 sec 15 sec BW 159
+    72→Side plank: right 1 30 sec 15 sec BW 160
+    73→Side plank: left 1 30 sec 15 sec BW 160
+    74→Birddog 1 30 sec 15 sec BW 161
+    75→Wt = Weight; BW = Bodyweight
+    76→187
+    77→--- PAGE 197 ---
+    78→Endurance Program 1B: Intermediate
+    79→WARM-UP
+    80→Exercise Sets Reps/time Rest Wt Page #
+    81→Jog 1 30 sec 10 sec BW N/A
+    82→Jumping jacks 1 30 sec 10 sec BW 48
+    83→Jog 1 30 sec 10 sec BW N/A
+    84→Single-leg squat (each leg) 1 30 sec 10 sec BW 52
+    85→Jog 1 30 sec 10 sec BW N/A
+    86→Mountain climbers 1 30 sec 10 sec BW 49
+    87→Jog 1 30 sec 10 sec BW N/A
+    88→Push-up 1 30 sec 10 sec BW 112
+    89→Jog 1 30 sec 10 sec BW N/A
+    90→Burpee 1 30 sec 10 sec BW 50
+    91→LOWER BODY
+    92→Exercise Sets Reps/time Rest Wt Page #
+    93→Dumbbell box step-up 1-2 15-20 reps 15 sec 8 lb, 10 lb, or 12 lb 86
+    94→Dumbbell front lunge 1-2 15-20 reps 15 sec 8 lb, 10 lb, or 12 lb 87
+    95→Dumbbell lateral lunge 1-2 15-20 reps 15 sec 8 lb, 10 lb, or 12 lb 90
+    96→Dumbbell backward lunge 1-2 15-20 reps 15 sec 8 lb, 10 lb, or 12 lb 92
+    97→Dumbbell squat 1-2 15-20 reps 15 sec 10 lb, 12 lb, or 15 lb 80
+    98→Dumbbell hip thrust 1-2 15-20 reps 15 sec 12 lb, 15 lb, or 20 lb 100
+    99→CALISTHENICS
+   100→Exercise Sets Reps/time Rest Wt Page #
+   101→Jumping jacks 1 30 sec 10 sec BW 48
+   102→Mountain climbers 1 30 sec 10 sec BW 49
+   103→Groiner 1 30 sec 10 sec BW 51
+   104→Single-leg squat (each leg) 1 30 sec 10 sec BW 52
+   105→Lunge 1 30 sec 10 sec BW 41
+   106→Burpee 1 30 sec 10 sec BW 50
+   107→UPPER BODY
+   108→Exercise Sets Reps/time Rest Wt Page #
+   109→Dumbbell bench press 1-2 15-20 reps 15 sec 10 lb, 15 lb, or 20 lb 122
+   110→Dumbbell one-arm row 1-2 15-20 reps 15 sec 10 lb, 15 lb, or 20 lb 129
+   111→Dumbbell shoulder press 1–2 15-20 reps 15 sec 8 lb, 10 lb, or 12 lb 131
+   112→Dumbbell bent-over raise 1-2 15-20 reps 15 sec 5 lb or 8 lb 140
+   113→Dumbbell alt-arm biceps curl 1-2 15-20 reps 15 sec 10 lb, 12 lb, or 15 lb 144
+   114→Dumbbell supine triceps extension 1-2 15-20 reps 15 sec 10 lb, 12 lb, or 15 lb 141
+   115→CORE
+   116→Exercise Sets Reps/time Rest Wt Page #
+   117→Abdominal crunch 1 30 reps 15 sec BW 155
+   118→Abdominal reach 1 30 reps 15 sec BW 157
+   119→Front plank 1 40 sec 15 sec BW 159
+   120→Side plank: right 1 40 sec 15 sec BW 160
+   121→Side plank: left 1 40 sec 15 sec BW 160
+   122→Birddog 1 40 sec 15 sec BW 161
+   123→Wt = Weight; BW = Bodyweight
+   124→188
+   125→--- PAGE 198 ---
+   126→Endurance Program 1C: Advanced
+   127→WARM-UP
+   128→Exercise Sets Reps/time Rest Wt Page #
+   129→Jog 1 40 sec 10 sec BW N/A
+   130→Jumping jacks 1 40 sec 10 sec BW 48
+   131→Jog 1 40 sec 10 sec BW N/A
+   132→Single-leg squat (each leg) 1 40 sec 10 sec BW 52
+   133→Jog 1 40 sec 10 sec BW N/A
+   134→Mountain climbers 1 40 sec 10 sec BW 49
+   135→Jog 1 40 sec 10 sec BW N/A
+   136→Push-up 1 40 sec 10 sec BW 112
+   137→Jog 1 40 sec 10 sec BW N/A
+   138→Burpee 1 40 sec 10 sec BW 50
+   139→LOWER BODY
+   140→Exercise Sets Reps/time Rest Wt Page #
+   141→Dumbbell box step-up 2 15-20 reps 15 sec 12 lb, 15 lb, or 20 lb 86
+   142→Dumbbell front lunge 2 15-20 reps 15 sec 12 lb, 15 lb, or 20 lb 87
+   143→Dumbbell lateral lunge 2 15-20 reps 15 sec 12 lb, 15 lb, or 20 lb 90
+   144→Dumbbell backward lunge 2 15-20 reps 15 sec 12 lb, 15 lb, or 20 lb 92
+   145→Dumbbell squat 2 15-20 reps 15 sec 12 lb, 15 lb, or 20 lb 80
+   146→Dumbbell hip thrust 2 15-20 reps 15 sec 12 lb, 15 lb, or 20 lb 100
+   147→CALISTHENICS
+   148→Exercise Sets Reps/time Rest Wt Page #
+   149→Jumping jacks 1 40 sec 10 sec BW 48
+   150→Mountain climbers 1 40 sec 10 sec BW 49
+   151→Groiner 1 40 sec 10 sec BW 51
+   152→Single-leg squat (each leg) 1 40 sec 10 sec BW 52
+   153→Front lunge 1 40 sec 10 sec BW 41
+   154→Burpee 1 40 sec 10 sec BW 50
+   155→UPPER BODY
+   156→Exercise Sets Reps/time Rest Wt Page #
+   157→Dumbbell bench press 2 15-20 reps 15 sec 20 lb, 25 lb, or 30 lb 122
+   158→Dumbbell one-arm row 2 15-20 reps 15 sec 20 lb, 25 lb, or 30 lb 129
+   159→Dumbbell shoulder press 2 15-20 reps 15 sec 12 lb, 15 lb, or 20 lb 131
+   160→Dumbbell bent-over raise 2 15-20 reps 15 sec 8 lb, 10 lb, or 12 lb 140
+   161→Dumbbell alt-arm biceps curl 2 15-20 reps 15 sec 15 lb, 20 lb, or 25 lb 144
+   162→Dumbbell supine triceps extension 2 15-20 reps 15 sec 15 lb, 20 lb, or 25 lb 141
+   163→CORE
+   164→Exercise Sets Reps/time Rest Wt Page #
+   165→Abdominal crunch 1-2 40 reps 15 sec BW 155
+   166→Abdominal reach 1 40 reps 15 sec BW 157
+   167→Front plank 1 50 sec 15 sec BW 159
+   168→Side plank: right 1 50 sec 15 sec BW 160
+   169→Side plank: left 1 50 sec 15 sec BW 160
+   170→Birddog 1 50 sec 15 sec BW 161
+   171→Wt = Weight; BW = Bodyweight
+   172→189
+   173→--- PAGE 199 ---
+   174→Endurance Program 2A: Beginner
+   175→WARM-UP
+   176→Exercise Sets Reps/time Rest Wt Page #
+   177→March/walk 1 20 sec 10 sec BW N/A
+   178→Single-leg squat (each leg) 1 20 sec 10 sec BW 52
+   179→March/walk 1 20 sec 10 sec BW N/A
+   180→Mountain climbers 1 20 sec 10 sec BW 49
+   181→March/walk 1 20 sec 10 sec BW N/A
+   182→Jumping jacks 1 20 sec 10 sec BW 48
+   183→March/walk 1 20 sec 10 sec BW N/A
+   184→Burpee 1 20 sec 10 sec BW 50
+   185→March/walk 1 20 sec 10 sec BW N/A
+   186→Push-up 1 20 sec 10 sec BW 112
+   187→LOWER BODY
+   188→Exercise Sets Reps/time Rest Wt Page #
+   189→Kettlebell deadlift 1 15 reps 15 sec 8 kg, 10 kg 94
+   190→Kettlebell goblet squat 1 15 reps 15 sec 8 kg, 10 kg 81
+   191→Resistance band forward walk 2 10 yd 15 sec Light 101
+   192→Resistance band lateral walk: right 1 10 yd 15 sec Light 102
+   193→Resistance band lateral walk: left 1 10 yd 15 sec Light 102
+   194→Kettlebell straight-leg deadlift 1 15 reps 15 sec 8 kg, 10 kg 95
+   195→Dumbbell hip thrust 1 15 reps 15 sec Light 100
+   196→CALISTHENICS
+   197→Exercise Sets Reps/time Rest Wt Page #
+   198→Mountain climbers 1 20 sec 10 sec BW 49
+   199→Groiner 1 20 sec 10 sec BW 51
+   200→Single-leg squat (each leg) 1 20 sec 10 sec BW 52
+   201→Burpee 1 20 sec 10 sec BW 50
+   202→Jumping jacks 1 20 sec 10 sec BW 48
+   203→Front lunge 1 20 sec 10 sec BW 41
+   204→UPPER BODY
+   205→Exercise Sets Reps/time Rest Wt Page #
+   206→Resistance band standing chest press 1 15 reps 15 sec Light 147
+   207→Kettlebell one-arm row 1 15 reps 15 sec 6 kg, 8 kg, 10 kg 129
+   208→Kettlebell upright row 1 15 reps 15 sec 6 kg, 8 kg, 10 kg 134
+   209→Resistance band T 1 15 reps 15 sec Light 117
+   210→Kettlebell alt-arm biceps curl 1 15 reps 15 sec 4 kg, 6 kg, 8 kg 144
+   211→Kettlebell overhead triceps extension 1 15 reps 15 sec 6 kg, 8 kg, 10 kg (22.0 lb 118
+   212→CORE
+   213→Exercise Sets Reps/time Rest Wt Page #
+   214→Abdominal crunch 1 20 reps 15 sec BW 155
+   215→Abdominal reach 1 20 reps 15 sec BW 157
+   216→Front plank 1 30 sec 15 sec BW 159
+   217→Side plank: right 1 30 sec 15 sec BW 160
+   218→Side plank: left 1 30 sec 15 sec BW 160
+   219→Birddog 1 30 sec 15 sec BW 161
+   220→Wt = Weight; BW = Bodyweight
+   221→190
+   222→--- PAGE 200 ---
+   223→Endurance Program 2B: Intermediate
+   224→WARM-UP
+   225→Exercise Sets Reps/time Rest Wt Page #
+   226→Jog 1 30 sec 10 sec BW N/A
+   227→Single-leg squat (each leg) 1 30 sec 10 sec BW 52
+   228→Jog 1 30 sec 10 sec BW N/A
+   229→Mountain climbers 1 30 sec 10 sec BW 49
+   230→Jog 1 30 sec 10 sec BW N/A
+   231→Jumping jacks 1 30 sec 10 sec BW 48
+   232→Jog 1 30 sec 10 sec BW N/A
+   233→Burpee 1 30 sec 10 sec BW 50
+   234→Jog 1 30 sec 10 sec BW N/A
+   235→Push-up 1 30 sec 10 sec BW 112
+   236→LOWER BODY
+   237→Exercise Sets Reps/time Rest Wt Page #
+   238→Kettlebell deadlift 1-2 15 reps 15 sec 12 kg, 14 kg, 16 kg 94
+   239→Kettlebell goblet squat 1-2 15 reps 15 sec 12 kg, 14 kg, 16 kg 81
+   240→Resistance band forward walk 1-2 10 yd 15 sec Light/moderate 101
+   241→Resistance band lateral walk: right 1-2 10 yd 15 sec Light/moderate 102
+   242→Resistance band lateral walk: left 1-2 10 yd 15 sec Light/moderate 102
+   243→Kettlebell straight-leg deadlift 1-2 15 reps 15 sec 12 kg, 14 kg, 16 kg 95
+   244→Dumbbell hip thrust 1-2 15 reps 15 sec Light/moderate 100
+   245→CALISTHENICS
+   246→Exercise Sets Reps/time Rest Wt Page #
+   247→Mountain climbers 1 30 sec 10 sec BW 49
+   248→Groiner 1 30 sec 10 sec BW 51
+   249→Single-leg squat (each leg) 1 30 sec 10 sec BW 52
+   250→Burpee 1 30 sec 10 sec BW 50
+   251→Jumping jacks 1 30 sec 10 sec BW 48
+   252→Front lunge 1 30 sec 10 sec BW 41
+   253→UPPER BODY
+   254→Exercise Sets Reps/time Rest Wt Page #
+   255→Resistance band standing chest press 1-2 15 reps 15 sec Moderate 147
+   256→Kettlebell one-arm row 1-2 15 reps 15 sec 12 kg, 14 kg, 16 kg 129
+   257→Kettlebell upright row 1-2 15 reps 15 sec 10 kg, 12 kg, 14 kg 134
+   258→Resistance band T 1-2 15 reps 15 sec Moderate 118
+   259→Kettlebell alt-arm biceps curl 1-2 15 reps 15 sec 8 kg, 10 kg, 12 kg 144
+   260→Kettlebell overhead triceps extension 1-2 15 reps 15 sec 8 kg, 10 kg, 12 kg 120
+   261→CORE
+   262→Exercise Sets Reps/time Rest Wt Page #
+   263→Abdominal crunch 1 30 sec 15 sec BW 155
+   264→Abdominal reach 1 30 sec 15 sec BW 157
+   265→Front plank 1 40 sec 15 sec BW 159
+   266→Side plank: right 1 40 sec 15 sec BW 160
+   267→Side plank: left 1 40 sec 15 sec BW 160
+   268→Birddog 1 40 sec 15 sec BW 161
+   269→Wt = Weight; BW = Bodyweight
+   270→191
+   271→--- PAGE 201 ---
+   272→Endurance Program 2C: Advanced
+   273→WARM-UP
+   274→Exercise Sets Reps/time Rest Wt Page #
+   275→Jog 1 40 sec 10 sec BW N/A
+   276→Single-leg squat (each leg) 1 40 sec 10 sec BW 52
+   277→Jog 1 40 sec 10 sec BW N/A
+   278→Mountain climbers 1 40 sec 10 sec BW 49
+   279→Jog 1 40 sec 10 sec BW N/A
+   280→Jumping jacks 1 40 sec 10 sec BW 48
+   281→Jog 1 40 sec 10 sec BW N/A
+   282→Burpee 1 40 sec 10 sec BW 50
+   283→Jog 1 40 sec 10 sec BW N/A
+   284→Push-up 1 40 sec 10 sec BW 112
+   285→LOWER BODY
+   286→Exercise Sets Reps/time Rest Wt Page #
+   287→Kettlebell deadlift 2 15 reps 15 sec 16 kg, 18 kg, 20 kg 94
+   288→Kettlebell goblet squat 2 15 reps 15 sec 14 kg, 16 kg, 18 kg 81
+   289→Resistance band forward walk 2 10 yd 15 sec Moderate/heavy 101
+   290→Resistance band lateral walk: right 2 10 yd 15 sec Moderate/heavy 102
+   291→Resistance band lateral walk: left 2 10 yd 15 sec Moderate/heavy 102
+   292→Kettlebell straight-leg deadlift 2 15 reps 15 sec 14 kg, 16 kg, 18 kg 95
+   293→Dumbbell hip thrust 1-2 15 reps 15 sec Moderate/heavy 100
+   294→CALISTHENICS
+   295→Exercise Sets Reps/time Rest Wt Page #
+   296→Mountain climbers 1 40 sec 10 sec BW 49
+   297→Groiner 1 40 sec 10 sec BW 51
+   298→Single-leg squat (each leg) 1 40 sec 10 sec BW 52
+   299→Burpee 1 40 sec 10 sec BW 50
+   300→Jumping jacks 1 40 sec 10 sec BW 48
+   301→Front lunge 1 40 sec 10 sec BW 41
+   302→UPPER BODY
+   303→Exercise Sets Reps/time Rest Wt Page #
+   304→Resistance band standing chest press 2 15 reps 15 sec Moderate/Heavy 147
+   305→Kettlebell one-arm row 2 15 reps 15 sec 14 kg, 16 kg, 18 kg 129
+   306→Kettlebell upright row 2 15 reps 15 sec 12 kg, 14 kg, 16 kg 134
+   307→Resistance band T 2 15 reps 15 sec Moderate/heavy 118
+   308→Kettlebell alt-arm biceps curl 2 15 reps 15 sec 10 kg, 12 kg, 14 kg 144
+   309→Kettlebell overhead triceps extension 2 15 reps 15 sec 10 kg, 12 kg, 14 kg 120
+   310→CORE
+   311→Exercise Sets Reps/time Rest Wt Page #
+   312→Abdominal crunch 1 40 reps 15 sec BW 155
+   313→Abdominal reach 1 40 reps 15 sec BW 157
+   314→Front plank 1 50 sec 15 sec BW 159
+   315→Side plank: right 1 50 sec 15 sec BW 160
+   316→Side plank: left 1 50 sec 15 sec BW 160
+   317→Birddog 1 50 sec 15 sec BW 161
+   318→Wt = Weight; BW = Bodyweight
+   319→192
+   320→--- PAGE 202 ---
+   321→Endurance Program 3A: Beginner
+   322→Note: Each exercise in a pod should be completed before moving to the next pod. A pod is a combination of
+   323→three or more exercises performed with short rest periods between them for either a set number of repetitions or
+   324→a prescribed amount of time.
+   325→WARM-UP
+   326→Exercise Sets Reps/time Rest Wt Page #
+   327→March/walk 1 20 sec 10 sec BW N/A
+   328→Single-leg squat (each leg) 1 20 sec 10 sec BW 52
+   329→March/walk 1 20 sec 10 sec BW N/A
+   330→Mountain climbers 1 20 sec 10 sec BW 49
+   331→March/walk 1 20 sec 10 sec BW N/A
+   332→Jumping jacks 1 20 sec 10 sec BW 48
+   333→March/walk 1 20 sec 10 sec BW N/A
+   334→Burpee 1 20 sec 10 sec BW 50
+   335→March/walk 1 20 sec 10 sec BW N/A
+   336→Push-up 1 20 sec 10 sec BW 112
+   337→POD 1
+   338→Exercise Sets Reps/time Rest Wt Page #
+   339→Kettlebell two-hand swing 1 15 reps 15 sec 6 kg, 8 kg 62
+   340→Push-up 1 15 reps 15 sec BW 112
+   341→Abdominal crunch 1 20 reps 15 sec BW 155
+   342→POD 2
+   343→Exercise Sets Reps/time Rest Wt Page #
+   344→Dumbbell squat 1 15 reps 15 sec 10 lb, 12 lb, 15 lb 80
+   345→Dumbbell one-arm row 1 15 reps 15 sec 12 lb, 15 lb, 17.5 lb 129
+   346→Abdominal reach 1 20 reps 15 sec BW 157
+   347→POD 3
+   348→Exercise Sets Reps/time Rest Wt Page #
+   349→Dumbbell front lunge 1 15 reps 15 sec 8 lb, 10 lb, 12 lb 87
+   350→Dumbbell shoulder press 1 15 reps 15 sec 8 lb, 10 lb, 12 lb 131
+   351→Scissors 1 30 sec 15 sec BW 162
+   352→POD 4
+   353→Exercise Sets Reps/time Rest Wt Page #
+   354→Heavy rope two-arm slams 1 30 sec 15 sec Rope 169
+   355→Heavy rope alt-arm slams 1 30 sec 15 sec Rope 170
+   356→Heavy rope scissors 1 30 sec 15 sec Rope 171
+   357→POD 5
+   358→Exercise Sets Reps/time Rest Wt Page #
+   359→Kettlebell goblet squat 1 15 reps 15 sec 6 kg, 8 kg, 10 kg 81
+   360→Dumbbell upright row 1 15 reps 15 sec 8 lb, 10 lb, 12 lb 134
+   361→Front plank 1 30 sec 15 sec BW 159
+   362→POD 6
+   363→Exercise Sets Reps/time Rest Wt Page #
+   364→Mountain climbers 1 30 sec 10 sec BW 49
+   365→Groiner 1 30 sec 10 sec BW 51
+   366→Single-leg squat (each leg) 1 30 sec 10 sec BW 52
+   367→(continued)
+   368→193
+   369→--- PAGE 203 ---
+   370→Endurance Program 3A: Beginner (continued)
+   371→POD 7
+   372→Exercise Sets Reps/time Rest Wt Page #
+   373→Burpee 1 30 sec 10 sec BW 50
+   374→Jumping jacks 1 30 sec 10 sec BW 48
+   375→Front lunge 1 30 sec 10 sec BW 41
+   376→POD 8
+   377→Exercise Sets Reps/time Rest Wt Page #
+   378→Dumbbell lateral lunge 1 15 reps 15 sec 8 lb, 10 lb, 12 lb 90
+   379→Dumbbell bench press 1 15 reps 15 sec 10 lb, 12 lb, 15 lb 122
+   380→Side plank: right 1 30 sec 15 sec BW 160
+   381→POD 9
+   382→Exercise Sets Reps/time Rest Wt Page #
+   383→Dumbbell box step-up 1 15 reps 15 sec 8 lb, 10 lb, 12 lb 86
+   384→Dumbbell upright row 1 15 reps 15 sec 10 lb, 12 lb, 15 lb 134
+   385→Side plank: left 1 30 sec 15 sec BW 160
+   386→POD 10
+   387→Exercise Sets Reps/time Rest Wt Page #
+   388→Dumbbell lateral box step-up 1 15 reps 15 sec 8 lb, 10 lb, 12 lb 86
+   389→Dumbbell front raise 1 15 reps 15 sec 5 lb, 8 lb, 10 lb 138
+   390→Superman 1 30 sec 15 sec BW 163
+   391→POD 11
+   392→Exercise Sets Reps/time Rest Wt Page #
+   393→Dumbbell straight-leg deadlift 1 15 reps 15 sec 10 lb, 12 lb, 15 lb 95
+   394→Dumbbell bent-over raise 1 15 reps 15 sec 5 lb, 8 lb, 10 lb 140
+   395→Scissors 1 30 sec 15 sec BW 162
+   396→POD 12
+   397→Exercise Sets Reps/time Rest Wt Page #
+   398→Weighted sled push 1 30 sec 15 sec 45 lb 74
+   399→Weighted sled pull and push 1 30 sec 15 sec 45 lb 75
+   400→Weighted sled push 1 30 sec 15 sec 45 lb 74
+   401→Wt = Weight; BW = Bodyweight
+   402→Endurance Program 3B: Intermediate
+   403→Note: Each exercise in a pod should be completed before moving to the next pod. A pod is a combination of
+   404→three or more exercises performed with short rest periods between them for either a set number of repetitions or
+   405→a prescribed amount of time.
+   406→WARM-UP
+   407→Exercise Sets Reps/time Rest Wt Page #
+   408→Jog in place / jump rope 1 40 sec 10 sec BW N/A
+   409→Single-leg squat (each leg) 1 40 sec 10 sec BW 52
+   410→Jog in place / jump rope 1 40 sec 10 sec BW N/A
+   411→Mountain climbers 1 40 sec 10 sec BW 49
+   412→Jog in place / jump rope 1 40 sec 10 sec BW N/A
+   413→Jumping jacks 1 40 sec 10 sec BW 48
+   414→Jog in place / jump rope 1 40 sec 10 sec BW N/A
+   415→Burpee 1 40 sec 10 sec BW 50
+   416→Jog in place / jump rope 1 40 sec 10 sec BW N/A
+   417→Push-up 1 40 sec 10 sec BW 112
+   418→194
+   419→--- PAGE 204 ---
+   420→POD 1
+   421→Exercise Sets Reps/time Rest Wt Page #
+   422→Kettlebell two-hand swing 1-2 15 reps 15 sec 10 kg, 12 kg, 14 kg 62
+   423→Push-up 1-2 15 reps 15 sec BW 112
+   424→Weighted abdominal crunch 1-2 30 reps 15 sec 10 lb 155
+   425→POD 2
+   426→Exercise Sets Reps/time Rest Wt Page #
+   427→Dumbbell squat 1-2 15 reps 15 sec 12 lb, 15 lb, 20 lb 80
+   428→Dumbbell one-arm row 1-2 15 reps 15 sec 15 lb, 20 lb, 25 lb 129
+   429→Weighted abdominal reach 1-2 30 reps 15 sec 10 lb 157
+   430→POD 3
+   431→Exercise Sets Reps/time Rest Wt Page #
+   432→Dumbbell front lunge 1-2 15 reps 15 sec 10 lb, 12 lb, 15 lb 87
+   433→Dumbbell shoulder press 1-2 15 reps 15 sec 10 lb, 12 lb, 15 lb 131
+   434→Scissors 1-2 40 sec 15 sec BW 162
+   435→POD 4
+   436→Exercise Sets Reps/time Rest Wt Page #
+   437→Heavy rope two-arm slams 1 40 sec 15 sec Rope 169
+   438→Heavy rope alt-arm slams 1 40 sec 15 sec Rope 170
+   439→Heavy rope scissors 1 40 sec 15 sec Rope 171
+   440→POD 5
+   441→Exercise Sets Reps/time Rest Wt Page #
+   442→Kettlebell goblet squat 1-2 15 reps 15 sec 8 , 10 kg, 12 kg 81
+   443→Dumbbell upright row 1-2 15 reps 15 sec 10 lb, 12 lb, 15 lb 134
+   444→Front plank 1-2 40 sec 15 sec BW 159
+   445→POD 6
+   446→Exercise Sets Reps/time Rest Wt Page #
+   447→Mountain climbers 1 40 sec 10 sec BW 49
+   448→Groiner 1 40 sec 10 sec BW 51
+   449→Single-leg squat (each leg) 1 40 sec 10 sec BW 52
+   450→POD 7
+   451→Exercise Sets Reps/time Rest Wt Page #
+   452→Burpee 1 40 sec 10 sec BW 50
+   453→Jumping jacks 1 40 sec 10 sec BW 48
+   454→Front lunge 1 40 sec 10 sec BW 41
+   455→POD 8
+   456→Exercise Sets Reps/time Rest Wt Page #
+   457→Dumbbell lateral lunge 1-2 15 reps 15 sec 10 lb, 12 lb, 15 lb 90
+   458→Dumbbell bench press 1-2 15 reps 15 sec 15 lb, 20 lb, 25 lb 122
+   459→Side plank: right 1-2 40 sec 15 sec BW 160
+   460→POD 9
+   461→Exercise Sets Reps/time Rest Wt Page #
+   462→Dumbbell box step-up 1-2 15 reps 15 sec 10 lb, 12 lb, 15 lb 86
+   463→Dumbbell upright row 1-2 15 reps 15 sec 15 lb, 20 lb, 25 lb 134
+   464→Side plank: left 1-2 40 sec 15 sec BW 160
+   465→(continued)
+   466→195
+   467→--- PAGE 205 ---
+   468→Endurance Program 3B: Intermediate (continued)
+   469→POD 10
+   470→Exercise Sets Reps/time Rest Wt Page #
+   471→Dumbbell lateral box step-up 1-2 15 reps 15 sec 10 lb, 12 lb, 15 lb 86
+   472→Dumbbell front raise 1-2 15 reps 15 sec 8 lb, 10 lb, 12 lb 138
+   473→Superman 1-2 40 sec 15 sec BW 163
+   474→POD 11
+   475→Exercise Sets Reps/time Rest Wt Page #
+   476→Dumbbell straight-leg deadlift 1-2 15 reps 15 sec 15 lb, 20 lb, 25 lb 95
+   477→Dumbbell bent-over raise 1-2 15 reps 15 sec 5 lb, 8 lb, 10 lb 140
+   478→Scissors 1-2 40 sec 15 sec BW 162
+   479→POD 12
+   480→Exercise Sets Reps/time Rest Wt Page #
+   481→Weighted sled push 1 40 sec 15 sec 70 lb 74
+   482→Weighted sled pull and push 1 40 sec 15 sec 70 lb 75
+   483→Weighted sled push 1 40 sec 15 sec 70 lb 74
+   484→Wt = Weight; BW = Bodyweight
+   485→Endurance Program 3C: Advanced
+   486→Note: Each exercise in a pod should be completed before moving to the next pod. A pod is a combination of
+   487→three or more exercises performed with short rest periods between them for either a set number of repetitions or
+   488→a prescribed amount of time.
+   489→WARM-UP
+   490→Exercise Sets Reps/time Rest Wt Page #
+   491→Jog in place / jump rope 1 50 sec 10 sec BW N/A
+   492→Single-leg squat (each leg) 1 50 sec 10 sec BW 52
+   493→Jog in place / jump rope 1 50 sec 10 sec BW N/A
+   494→Mountain climbers 1 50 sec 10 sec BW 49
+   495→Jog in place / jump rope 1 50 sec 10 sec BW N/A
+   496→Jumping jacks 1 50 sec 10 sec BW 48
+   497→Jog in place / jump rope 1 50 sec 10 sec BW N/A
+   498→Burpee 1 50 sec 10 sec BW 50
+   499→Jog in place / jump rope 1 50 sec 10 sec BW N/A
+   500→Push-up 1 50 sec 10 sec BW 112
+   501→POD 1
+   502→Exercise Sets Reps/time Rest Wt Page #
+   503→Kettlebell two-hand swing 1-2 15-20 reps 15 sec 10 kg, 12 kg, 14 kg 62
+   504→Push-up 1-2 15-20 reps 15 sec BW 112
+   505→Weighted abdominal crunch 1-2 40 reps 15 sec 10 lb 155
+   506→POD 2
+   507→Exercise Sets Reps/time Rest Wt Page #
+   508→Dumbbell squat 1-2 15-20 reps 15 sec 12 lb, 15 lb, 20 lb 80
+   509→Dumbbell one-hand row 1-2 15-20 reps 15 sec 15 lb, 20 lb, 25 lb 129
+   510→Weighted abdominal reach 1-2 40 reps 15 sec 10 lb 157
+   511→POD 3
+   512→Exercise Sets Reps/time Rest Wt Page #
+   513→Dumbbell front lunge 1-2 15-20 reps 15 sec 10 lb, 12 lb, 15 lb 87
+   514→Dumbbell shoulder press 1-2 15-20 reps 15 sec 10 lb, 12 lb, 15 lb 131
+   515→Scissors 1-2 50 sec 15 sec BW 162
+   516→196
+   517→--- PAGE 206 ---
+   518→POD 4
+   519→Exercise Sets Reps/time Rest Wt Page #
+   520→Heavy rope two-arm slams 1 40 sec 15 sec Rope 169
+   521→Heavy rope alt-arm slams 1 40 sec 15 sec Rope 170
+   522→Heavy rope scissors 1 40 sec 15 sec Rope 171
+   523→POD 5
+   524→Exercise Sets Reps/time Rest Wt Page #
+   525→Kettlebell goblet squat 1-2 15-20 reps 15 sec 8 kg, 10 kg, 12 kg 81
+   526→Dumbbell upright row 1-2 15-20 reps 15 sec 10 lb, 12 lb, 15 lb 134
+   527→Front plank 1-2 50 sec 15 sec BW 159
+   528→POD 6
+   529→Exercise Sets Reps/time Rest Wt Page #
+   530→Mountain climbers 1 50 sec 10 sec BW 49
+   531→Groiner 1 50 sec 10 sec BW 51
+   532→Single-leg squat (each leg) 1 50 sec 10 sec BW 52
+   533→POD 7
+   534→Exercise Sets Reps/time Rest Wt Page #
+   535→Burpee 1 50 sec 10 sec BW 50
+   536→Jumping jacks 1 50 sec 10 sec BW 48
+   537→Front lunge 1 50 sec 10 sec BW 41
+   538→POD 8
+   539→Exercise Sets Reps/time Rest Wt Page #
+   540→Dumbbell lateral lunge 1-2 15-20 reps 15 sec 10 lb, 12 lb, 15 lb 90
+   541→Dumbbell bench press 1-2 15-20 reps 15 sec 15 lb, 20 lb, 25 lb 122
+   542→Side plank: right 1-2 50 sec 15 sec BW 160
+   543→POD 9
+   544→Exercise Sets Reps/time Rest Wt Page #
+   545→Dumbbell box step-up 1-2 15-20 reps 15 sec 10 lb, 12 lb, 15 lb 86
+   546→Dumbbell upright row 1-2 15-20 reps 15 sec 15 lb, 20 lb, 25 lb 134
+   547→Side plank: left 1-2 50 sec 15 sec BW 160
+   548→POD 10
+   549→Exercise Sets Reps/time Rest Wt Page #
+   550→Dumbbell lateral box step-up 1-2 15-20 reps 15 sec 10 lb, 12 lb, 15 lb 86
+   551→Dumbbell front raise 1-2 15-20 reps 15 sec 8 lb, 10 lb, 12 lb 138
+   552→Superman 1-2 50 sec 15 sec BW 163
+   553→POD 11
+   554→Exercise Sets Reps/time Rest Wt Page #
+   555→Dumbbell straight-leg deadlift 1-2 15-20 reps 15 sec 15 lb, 20 lb, 25 lb 95
+   556→Dumbbell bent-over raise 1-2 15-20 reps 15 sec 5 lb, 8 lb, 10 lb 140
+   557→Scissors 1-2 50 sec 15 sec BW 162
+   558→POD 12
+   559→Exercise Sets Reps/time Rest Wt Page #
+   560→Weighted sled push 1 50 sec 15 sec 70 lb 74
+   561→Weighted sled pull and push 1 50 sec 15 sec 70 lb 75
+   562→Weighted sled push 1 50 sec 15 sec 70 lb 74
+   563→Wt = Weight; BW = Bodyweight
+   564→197
+   565→--- PAGE 207 ---
+   566→Endurance Program 4A: Beginner
+   567→Note: Each exercise in a pod should be completed before moving to the next pod. A pod is a combination of
+   568→three or more exercises performed with short rest periods between them for either a set number of repetitions or
+   569→a prescribed amount of time.
+   570→WARM-UP
+   571→Exercise Sets Reps/time Rest Wt Page #
+   572→March/walk 1 20 sec 10 sec BW N/A
+   573→Single-leg squat (each leg) 1 20 sec 10 sec BW 52
+   574→March/walk 1 20 sec 10 sec BW N/A
+   575→Mountain climbers 1 20 sec 10 sec BW 49
+   576→March/walk 1 20 sec 10 sec BW N/A
+   577→Jumping jacks 1 20 sec 10 sec BW 48
+   578→March/walk 1 20 sec 10 sec BW N/A
+   579→Burpee 1 20 sec 10 sec BW 50
+   580→March/walk 1 20 sec 10 sec BW N/A
+   581→Push-up 1 20 sec 10 sec BW 112
+   582→POD 1
+   583→Exercise Sets Reps/time Rest Wt Page #
+   584→Dumbbell squat 1 15 reps 15 sec 10 lb, 12 lb, 15 lb 80
+   585→Kettlebell goblet squat 1 15 reps 15 sec 8 kg, 10 kg, 12 kg 81
+   586→Kettlebell straight-leg deadlift 1 15 reps 15 sec 10 kg, 12 kg, 14 kg 95
+   587→POD 2
+   588→Exercise Sets Reps/time Rest Wt Page #
+   589→Medicine ball slam 1 15 reps 15 sec 10 lb, 12 lb 66
+   590→Medicine ball alt-side slam 1 15 reps 15 sec 10 lb, 12 lb 67
+   591→Medicine ball overhead squat 1 15 reps 15 sec 10 lb, 12 lb 85
+   592→POD 3
+   593→Exercise Sets Reps/time Rest Wt Page #
+   594→Dumbbell front lunge 1 15 reps 15 sec 8 lb, 10 lb, 12 lb 87
+   595→Dumbbell lateral lunge 1 15 reps 15 sec 8 lb, 10 lb, 12 lb 90
+   596→Dumbbell backward lunge 1 15 reps 15 sec 8 lb, 10 lb, 12 lb 92
+   597→POD 4
+   598→Exercise Sets Reps/time Rest Wt Page #
+   599→Heavy rope two-arm slams 1 30 sec 15 sec Rope 169
+   600→Heavy rope alt-arm slams 1 30 sec 15 sec Rope 170
+   601→Heavy rope scissors 1 30 sec 15 sec Rope 171
+   602→POD 5
+   603→Exercise Sets Reps/time Rest Wt Page #
+   604→Dumbbell box step-up: alt leg 1 15 reps 15 sec 8 lb, 10 lb, 12 lb 86
+   605→Resistance band lateral walk: right 1 15 reps 15 sec 8 lb, 10 lb, 12 lb 102
+   606→Resistance band lateral walk: left 1 15 reps 15 sec 8 lb, 10 lb, 12 lb 102
+   607→POD 6
+   608→Exercise Sets Reps/time Rest Wt Page #
+   609→Dumbbell bench press 1 15 reps 15 sec 12 lb, 15 lb, 20 lb 122
+   610→Dumbbell one-arm row 1 15 reps 15 sec 12 lb, 15 lb, 20 lb 129
+   611→Pullover 1 15 reps 15 sec 12 lb, 15 lb, 20 lb 128
+   612→198
+   613→--- PAGE 208 ---
+   614→POD 7
+   615→Exercise Sets Reps/time Rest Wt Page #
+   616→Dumbbell shoulder press 1 15 reps 15 sec 10 lb, 12 lb, 15 lb 131
+   617→Dumbbell upright row 1 15 reps 15 sec 10 lb, 12 lb, 15 lb 134
+   618→Dumbbell bent-over raise 1 15 reps 15 sec 8 lb, 10 lb, 12 lb 140
+   619→POD 8
+   620→Exercise Sets Reps/time Rest Wt Page #
+   621→Abdominal crunch 1 30 sec 15 sec BW 155
+   622→Scissors 1 30 sec 15 sec BW 162
+   623→Birddog 1 30 sec 15 sec BW 161
+   624→POD 9
+   625→Exercise Sets Reps/time Rest Wt Page #
+   626→Weighted sled push 1 30 sec 15 sec 45 lb 74
+   627→Weighted sled pull and push 1 30 sec 15 sec 45 lb 75
+   628→Weighted sled drag 1 30 sec 15 sec 45 lb 76
+   629→POD 10
+   630→Exercise Sets Reps/time Rest Wt Page #
+   631→Front plank 1 30 sec 15 sec BW 159
+   632→Side plank: right 1 30 sec 15 sec BW 160
+   633→Side plank: left 1 30 sec 15 sec BW 160
+   634→Wt = Weight; BW = Bodyweight
+   635→Endurance Program 4B: Intermediate
+   636→Note: Each exercise in a pod should be completed before moving to the next pod. A pod is a combination of
+   637→three or more exercises performed with short rest periods between them for either a set number of repetitions or
+   638→a prescribed amount of time.
+   639→WARM-UP
+   640→Exercise Sets Reps/time Rest Wt Page #
+   641→Jog in place / jump rope 1 40 sec 10 sec BW N/A
+   642→Single-leg squat (each leg) 1 40 sec 10 sec BW 52
+   643→Jog in place / jump rope 1 40 sec 10 sec BW N/A
+   644→Mountain climbers 1 40 sec 10 sec BW 49
+   645→Jog in place / jump rope 1 40 sec 10 sec BW N/A
+   646→Jumping jacks 1 40 sec 10 sec BW 48
+   647→Jog in place / jump rope 1 40 sec 10 sec BW N/A
+   648→Burpee 1 40 sec 10 sec BW 50
+   649→Jog in place / jump rope 1 40 sec 10 sec BW N/A
+   650→Push-up 1 40 sec 10 sec BW 112
+   651→POD 1
+   652→Exercise Sets Reps/time Rest Wt Page #
+   653→Dumbbell squat 1-2 15 reps 15 sec 15 lb, 20 lb, 25 lb 80
+   654→Kettlebell deadlift 1-2 15 reps 15 sec 14 kg, 16 kg, 18 kg 94
+   655→Kettlebell one-leg straight-leg deadlift 1-2 15 reps 15 sec 8 kg, 10 kg, 12 kg 98
+   656→(continued)
+   657→199
+   658→--- PAGE 209 ---
+   659→Endurance Program 4B: Intermediate (continued)
+   660→POD 2
+   661→Exercise Sets Reps/time Rest Wt Page #
+   662→Medicine ball slam 1 15 reps 15 sec 12 lb, 14 lb 66
+   663→Medicine ball alt-side slam 1 15 reps 15 sec 12 lb, 14 lb 67
+   664→Medicine ball overhead squat 1 15 reps 15 sec 12 lb, 14 lb 85
+   665→POD 3
+   666→Exercise Sets Reps/time Rest Wt Page #
+   667→Dumbbell front lunge 1-2 15 reps 15 sec 10 lb, 12 lb, 15 lb 87
+   668→Dumbbell lateral lunge 1-2 15 reps 15 sec 10 lb, 12 lb, 15 lb 90
+   669→Dumbbell backward lunge 1-2 15 reps 15 sec 10 lb, 12 lb, 15 lb 92
+   670→POD 4
+   671→Exercise Sets Reps/time Rest Wt Page #
+   672→Heavy rope jumping jacks 1 40 sec 15 sec Rope 172
+   673→Heavy rope arm circles: clockwise 1 40 sec 15 sec Rope 173
+   674→Heavy rope arm circles: counterclockwise 1 40 sec 15 sec Rope 173
+   675→POD 5
+   676→Exercise Sets Reps/time Rest Wt Page #
+   677→Dumbbell box step-up: alt leg 1-2 15 reps 15 sec 12 lb, 15 lb, 20 lb 86
+   678→Resistance band lateral walk: right 1-2 15 reps 15 sec 12 lb, 15 lb, 20 lb 102
+   679→Resistance band lateral walk: left 1-2 15 reps 15 sec 12 lb, 15 lb, 20 lb 102
+   680→POD 6
+   681→Exercise Sets Reps/time Rest Wt Page #
+   682→Dumbbell bench press 1-2 15 reps 15 sec 15 lb, 20 lb, 25 lb 122
+   683→Dumbbell one-arm row 1-2 15 reps 15 sec 15 lb, 20 lb, 25 lb 129
+   684→Pullover 1-2 15 reps 15 sec 20 lb, 25 lb 128
+   685→POD 7
+   686→Exercise Sets Reps/time Rest Wt Page #
+   687→Dumbbell shoulder press 1-2 15 reps 15 sec 12 lb, 15 lb, 20 lb 131
+   688→Dumbbell upright row 1-2 15 reps 15 sec 12 lb, 15 lb, 20 lb 134
+   689→Dumbbell bent-over raise 1-2 15 reps 15 sec 8 lb, 10 lb, 12 lb 140
+   690→POD 8
+   691→Exercise Sets Reps/time Rest Wt Page #
+   692→Weighted abdominal crunch 1-2 40 reps 15 sec 10 lb 155
+   693→Scissors 1-2 40 sec 15 sec BW 162
+   694→Birddog 1-2 40 sec 15 sec BW 161
+   695→POD 9
+   696→Exercise Sets Reps/time Rest Wt Page #
+   697→Weighted sled push 1 40 sec 15 sec 70 lb 74
+   698→Weighted sled pull and push 1 40 sec 15 sec 70 lb 75
+   699→Weighted sled drag 1 40 sec 15 sec 70 lb 76
+   700→POD 10
+   701→Exercise Sets Reps/time Rest Wt Page #
+   702→Front plank 1-2 40 sec 15 sec BW 159
+   703→Side plank: right 1-2 40 sec 15 sec BW 160
+   704→Side plank: left 1-2 40 sec 15 sec BW 160
+   705→Wt = Weight; BW = Bodyweight
+   706→200
+   707→--- PAGE 210 ---
+   708→Endurance Program 4C: Advanced
+   709→Note: Each exercise in a pod should be completed before moving to the next pod. A pod is a combination of
+   710→three or more exercises performed with short rest periods between them for either a set number of repetitions or
+   711→a prescribed amount of time.
+   712→WARM-UP
+   713→Exercise Sets Reps/time Rest Wt Page #
+   714→Jog in place / jump rope 1 50 sec 10 sec BW N/A
+   715→Single-leg squat (each leg) 1 50 sec 10 sec BW 52
+   716→Jog in place / jump rope 1 50 sec 10 sec BW N/A
+   717→Mountain climbers 1 50 sec 10 sec BW 49
+   718→Jog in place / jump rope 1 50 sec 10 sec BW N/A
+   719→Jumping jacks 1 50 sec 10 sec BW 48
+   720→Jog in place / jump rope 1 50 sec 10 sec BW N/A
+   721→Burpee 1 50 sec 10 sec BW 50
+   722→Jog in place / jump rope 1 50 sec 10 sec BW N/A
+   723→Push-up 1 50 sec 10 sec BW 112
+   724→POD 1
+   725→Exercise Sets Reps/time Rest Wt Page #
+   726→Dumbbell squat 1-2 15-20 reps 15 sec 20 lb, 25 lb, 30 lb 80
+   727→Kettlebell deadlift 1-2 15-20 reps 15 sec 16 kg, 18 kg, 20 kg 94
+   728→Kettlebell one-leg straight-leg deadlift 1-2 15-20 reps 15 sec 10 kg, 12 kg, 14 kg 98
+   729→POD 2
+   730→Exercise Sets Reps/time Rest Wt Page #
+   731→Medicine ball slam 1 20 reps 15 sec 14 lb, 16 lb 66
+   732→Medicine ball alt-side slam 1 20 reps 15 sec 14 lb, 16 lb 67
+   733→Medicine ball overhead squat 1 20 reps 15 sec 14 lb, 16 lb 85
+   734→POD 3
+   735→Exercise Sets Reps/time Rest Wt Page #
+   736→Dumbbell front lunge 1-2 15-20 reps 15 sec 15 lb, 20 lb, 25 lb 87
+   737→Dumbbell lateral lunge 1-2 15-20 reps 15 sec 15 lb, 20 lb, 25 lb 90
+   738→Dumbbell backward lunge 1-2 15-20 reps 15 sec 15 lb, 20 lb, 25 lb 92
+   739→POD 4
+
+[showing lines 40-739 of 1160; use offset=740 with limit to continue reading]

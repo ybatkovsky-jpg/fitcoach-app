@@ -1,0 +1,453 @@
+    50→    79→    79→and athletic performance. This method maximizes the velocity component
+    51→    80→    80→of the force-velocity curve while creating balanced programming to
+    52→    81→    81→reduce the risk of overtraining.
+    53→    82→    82→Submaximal Effort Training
+    54→    83→    83→The repeated effort method, covered in chapter 3, is an integral aspect
+    55→    84→    84→of every program in this book. While there are some similarities between
+    56→    85→    85→it and the submaximal effort method, the major difference is that
+    57→    86→    86→submaximal work is delivered exclusively through bilateral movements
+    58→    87→    87→(i.e., squats, presses, pulls). The submaximal effort method will be
+    59→    88→    88→used as a multiple-repetition maximum scenario (two- to six-rep max)
+    60→    89→    89→because true maximal effort training consists of a singular one-rep
+    61→    90→    90→maximal load set.
+    62→    91→    91→The goal with the submaximal effort method is twofold: (1) to develop
+    63→    92→    92→proper motor patterns with bilateral movements approaching heavier
+    64→    93→    93→loads and (2) to improve strength qualities via recruitment of high-
+    65→    94→    94→threshold motor units and thus improve neuromuscular efficiency.
+    66→    95→    95→Furthermore, this method is a prerequisite for maximal effort training,
+    67→    96→    96→meaning that one should have first developed efficient movement
+    68→    97→    97→before considering attempting maximal effort lifts. Moreover, the
+    69→    98→    98→submaximal effort method can be used strategically for autoregulation.
+    70→    99→    99→Stress affects all individuals differently, and asking someone to adhere
+    71→   100→   100→to rigid percentages (five sets of three reps at 75 percent of one-rep
+    72→   101→   101→max) does not account for daily fluctuations. Using submaximal effort
+    73→   102→   102→training allows the individual to build up in weight based on how they
+    74→   103→   103→are feeling on any given day. This method is also easier to navigate
+    75→   104→   104→because building to a heavy triple for the day is less confusing than
+    76→   105→   105→adhering to strict percentage-based guidelines. Submaximal effort
+    77→   106→   106→training works both aspects of the force-velocity curve while creating
+    78→   107→   107→balanced programming to reduce the risk of overtraining.
+    79→   108→   108→STRENGTH PROGRAMS
+    80→   109→   109→First, let’s discuss the ideal training splits for using these programs.
+    81→   110→   110→While this book focuses on strategies for the lower body, knowing where
+    82→   111→   111→to place these training days within the training cycle is important
+    83→   112→   112→so that you’re including upper body–centric days as well as energy
+    84→   113→   113→systems development (ESD). In regard to ESD training, while this
+    85→   114→   114→--- PAGE 224 ---
+    86→   115→   115→208 Lower Body Training
+    87→   116→   116→book isn’t intended to go into the nuances of training the aerobic and Table 10.1 Sample Training Split Options for Strength Training
+    88→   117→   117→anaerobic systems, knowing where conditioning fits into a training
+    89→   118→   118→template is important to ensure your training program is well-rounded. Day 1 Day 2 Day 3 Day 4 Day 5 Day 6 Day 7
+    90→   119→   119→A well-designed program will likely include conditioning, particularly
+    91→   120→   120→Training split Lower ESD Upper ESD Lower Upper OFF
+    92→   121→   121→for the aerobic system, which has the ability to improve recoverability
+    93→   122→   122→option 1
+    94→   123→   123→between your main strength sessions. Aerobic conditioning does not
+    95→   124→   124→need to be overly complicated, and you can improve work capacity as Training split Upper Lower ESD Upper Lower ESD OFF
+    96→   125→   125→well as your ability to recover between sessions by including one to two option 2
+    97→   126→   126→aerobic sessions per week performing steady-state cyclical work (i.e.,
+    98→   127→   127→Training split Upper ESD Lower ESD Upper ESD Lower
+    99→   128→   128→Stairmaster, treadmill, air bike, light sled pulls) for 20 to 30 minutes
+   100→   129→   129→option 3
+   101→   130→   130→keeping your heart rate at 60 to 70 percent of max heart rate. This
+   102→   131→   131→will not only help build your aerobic capacity but also improve things Training split Lower ESD Upper ESD Total OFF OFF
+   103→   132→   132→like cardiac output, which is your heart’s ability to pump blood to your option 4
+   104→   133→   133→extremities.
+   105→   134→   134→Training split Total ESD Total ESD Total ESD OFF
+   106→   135→   135→If regular conditioning is not a part of your program, I’d still recommend
+   107→   136→   136→option 5
+   108→   137→   137→using ESD days as listed in the program to perform modalities like sled
+   109→   138→   138→work (sled drag variations are mentioned several times throughout this
+   110→   139→   139→book in both chapters 5 and 6) as a bridge between your main training
+   111→   140→   140→sessions. Table 10.1 shows five training split options that will allow for
+   112→   141→   141→proper nervous system recovery between sessions. These splits assume
+   113→   142→   142→that you use a concurrent approach to training (i.e., training multiple
+   114→   143→   143→qualities of both strength and conditioning within the same week of
+   115→   144→   144→training).
+   116→   145→   145→This chapter includes four blocks of beginner-intermediate
+   117→   146→   146→programming and four blocks of advanced programming. Despite this
+   118→   147→   147→separation into beginner-intermediate and advanced programs, the
+   119→   148→   148→connection between all three levels of programming is stronger than
+   120→   149→   149→you might think because the primary goal across all levels is to train
+   121→   150→   150→foundational movement patterns. The difference between beginner,
+   122→   151→   151→intermediate, and advanced lies in the complexity of exercise variations,
+   123→   152→   152→the choice in training methods (i.e., maximal effort versus submaximal
+   124→   153→   153→effort), and the level of volume prescribed.
+   125→   154→   154→--- PAGE 225 ---
+   126→   155→   155→Strength Programs 209
+   127→   156→   156→book isn’t intended to go into the nuances of training the aerobic and Table 10.1 Sample Training Split Options for Strength Training
+   128→   157→   157→anaerobic systems, knowing where conditioning fits into a training
+   129→   158→   158→template is important to ensure your training program is well-rounded. Day 1 Day 2 Day 3 Day 4 Day 5 Day 6 Day 7
+   130→   159→   159→A well-designed program will likely include conditioning, particularly
+   131→   160→   160→Training split Lower ESD Upper ESD Lower Upper OFF
+   132→   161→   161→for the aerobic system, which has the ability to improve recoverability
+   133→   162→   162→option 1
+   134→   163→   163→between your main strength sessions. Aerobic conditioning does not
+   135→   164→   164→need to be overly complicated, and you can improve work capacity as Training split Upper Lower ESD Upper Lower ESD OFF
+   136→   165→   165→well as your ability to recover between sessions by including one to two option 2
+   137→   166→   166→aerobic sessions per week performing steady-state cyclical work (i.e.,
+   138→   167→   167→Training split Upper ESD Lower ESD Upper ESD Lower
+   139→   168→   168→Stairmaster, treadmill, air bike, light sled pulls) for 20 to 30 minutes
+   140→   169→   169→option 3
+   141→   170→   170→keeping your heart rate at 60 to 70 percent of max heart rate. This
+   142→   171→   171→will not only help build your aerobic capacity but also improve things Training split Lower ESD Upper ESD Total OFF OFF
+   143→   172→   172→like cardiac output, which is your heart’s ability to pump blood to your option 4
+   144→   173→   173→extremities.
+   145→   174→   174→Training split Total ESD Total ESD Total ESD OFF
+   146→   175→   175→If regular conditioning is not a part of your program, I’d still recommend
+   147→   176→   176→option 5
+   148→   177→   177→using ESD days as listed in the program to perform modalities like sled
+   149→   178→   178→work (sled drag variations are mentioned several times throughout this
+   150→   179→   179→book in both chapters 5 and 6) as a bridge between your main training
+   151→   180→   180→sessions. Table 10.1 shows five training split options that will allow for
+   152→   181→   181→proper nervous system recovery between sessions. These splits assume
+   153→   182→   182→that you use a concurrent approach to training (i.e., training multiple
+   154→   183→   183→qualities of both strength and conditioning within the same week of
+   155→   184→   184→training).
+   156→   185→   185→This chapter includes four blocks of beginner-intermediate
+   157→   186→   186→programming and four blocks of advanced programming. Despite this
+   158→   187→   187→separation into beginner-intermediate and advanced programs, the
+   159→   188→   188→connection between all three levels of programming is stronger than
+   160→   189→   189→you might think because the primary goal across all levels is to train
+   161→   190→   190→foundational movement patterns. The difference between beginner,
+   162→   191→   191→intermediate, and advanced lies in the complexity of exercise variations,
+   163→   192→   192→the choice in training methods (i.e., maximal effort versus submaximal
+   164→   193→   193→effort), and the level of volume prescribed.
+   165→   194→   194→--- PAGE 226 ---
+   166→   195→   195→BEGINNER-INTERMEDIATE PROGRAM
+   167→   196→   196→WITH STRENGTH EMPHASIS
+   168→   197→   197→BLOCK 1
+   169→   198→   198→Program Notes
+   170→   199→   199→• This training split can be run for 3 to 4 weeks.
+   171→   200→   200→• For the trap bar deadlift, build to a heavy 3 to 5 reps in 5 or more
+   172→   201→   201→sets.
+   173→   202→   202→• Increase training volume as your movement quality improves.
+   174→   203→   203→• Emphasize ingraining good motor patterns versus volume or load.
+   175→   204→   204→• This session should be separated from your other lower body ses-
+   176→   205→   205→sions by 72 hours.
+   177→   206→   206→Exercise Page Sets Reps Rest
+   178→   207→   207→1. Trap bar 116 5 Build to 2-3 min
+   179→   208→   208→deadlift a heavy
+   180→   209→   209→3-5RM
+   181→   210→   210→2. Goblet box 75 3-4 10-12 60 sec
+   182→   211→   211→squat
+   183→   212→   212→3. Barbell 152 3-4 12-15 60 sec
+   184→   213→   213→banded
+   185→   214→   214→glute hip
+   186→   215→   215→thrust
+   187→   216→   216→4. Dumbbell 53 2-3 8-10 each 60 sec
+   188→   217→   217→split squat side
+   189→   218→   218→5. X-band walk + banded good 156 3 5 left walks 60 sec
+   190→   219→   219→morning + 5 right
+   191→   220→   220→walks +
+   192→   221→   221→5 good
+   193→   222→   222→mornings
+   194→   223→   223→210
+   195→   224→   224→--- PAGE 227 ---
+   196→   225→   225→BLOCK 2
+   197→   226→   226→Program Notes
+   198→   227→   227→• This training split can be run for 3 to 4 weeks.
+   199→   228→   228→• For the barbell front box squat, perform 8 sets × 3 reps for speed
+   200→   229→   229→(dynamic effort using 50 to 60 percent of 1RM back squat to 16-
+   201→   230→   230→inch [40 cm] box). Each week, add 3 to 5 percent to your load
+   202→   231→   231→while maintaining bar velocity.
+   203→   232→   232→• Increase training volume as your movement quality improves.
+   204→   233→   233→• Emphasize ingraining good motor patterns versus volume or load.
+   205→   234→   234→• This session should be separated from your other lower body ses-
+   206→   235→   235→sions by 72 hours.
+   207→   236→   236→Exercise Page Sets Reps Rest
+   208→   237→   237→1. Barbell front 81 5-8 1-5RM 2.5 min
+   209→   238→   238→box squat
+   210→   239→   239→2. Glute-ham 112 3-4 6-8 90 sec
+   211→   240→   240→raise
+   212→   241→   241→3. Goblet 76 3-4 12-15 60 sec
+   213→   242→   242→squat
+   214→   243→   243→4. Cable pull- 94 3-4 15-20 60 sec
+   215→   244→   244→through
+   216→   245→   245→5. Seated calf 146 3 12-15 60 sec
+   217→   246→   246→raise
+   218→   247→   247→211
+   219→   248→   248→--- PAGE 228 ---
+   220→   249→   249→BEGINNER-INTERMEDIATE PROGRAM
+   221→   250→   250→WITH STRENGTH EMPHASIS (continued)
+   222→   251→   251→BLOCK 3
+   223→   252→   252→Program Notes
+   224→   253→   253→• This training split can be run for 3 to 4 weeks.
+   225→   254→   254→• For the Anderson front squat, build to 3RM set with pins so you
+   226→   255→   255→start at parallel. Each week, build to a heavy 4 in week 1; a heavy
+   227→   256→   256→3 in week 2; a heavy 2 in week 3; and a heavy 1 in week 4.
+   228→   257→   257→• Increase training volume as your movement quality improves.
+   229→   258→   258→• Emphasize ingraining good motor patterns versus volume or load.
+   230→   259→   259→• This session should be separated from your other lower body ses-
+   231→   260→   260→sions by 72 hours.
+   232→   261→   261→Exercise Page Sets Reps Rest
+   233→   262→   262→1. Anderson 78 Build in 5RM 2.5 min
+   234→   263→   263→front squat weight
+   235→   264→   264→over the
+   236→   265→   265→course
+   237→   266→   266→of 5 sets
+   238→   267→   267→2. Band- 114 4 6-8 90 sec
+   239→   268→   268→assisted
+   240→   269→   269→glute-ham
+   241→   270→   270→raise
+   242→   271→   271→3. Landmine reverse lunge 57 3-4 8-10 each 60 sec
+   243→   272→   272→side
+   244→   273→   273→4. Band- 142 3 8-10 60 sec
+   245→   274→   274→resisted
+   246→   275→   275→glute bridge
+   247→   276→   276→5. Backward sled drag 51 6 30 yd 60-90
+   248→   277→   277→(moderate load) (27 m) sec
+   249→   278→   278→212
+   250→   279→   279→--- PAGE 229 ---
+   251→   280→   280→BLOCK 4
+   252→   281→   281→Program Notes
+   253→   282→   282→• This training split can be run for 3 to 4 weeks.
+   254→   283→   283→• For the sumo stance deadlift against a band for dynamic effort,
+   255→   284→   284→use 60 to 70 percent of 1RM, adding 5 percent each week.
+   256→   285→   285→• Increase training volume as your movement quality improves.
+   257→   286→   286→• Emphasize ingraining good motor patterns versus volume or load.
+   258→   287→   287→• This session should be separated from your other lower body ses-
+   259→   288→   288→sions by 72 hours.
+   260→   289→   289→Exercise Page Sets Reps Rest
+   261→   290→   290→1. Sumo stance 123 6 2 @ 50% 60 sec
+   262→   291→   291→deadlift of 1RM
+   263→   292→   292→against a + band
+   264→   293→   293→band for tension
+   265→   294→   294→dynamic
+   266→   295→   295→effort
+   267→   296→   296→2. Barbell front 69 5 5 each 90 sec to
+   268→   297→   297→rack reverse side 2 min
+   269→   298→   298→lunge
+   270→   299→   299→3. Barbell glute 98 4-5 8-10 90 sec
+   271→   300→   300→hip thrust
+   272→   301→   301→4. Goblet box 75 3-4 10-12 60 sec
+   273→   302→   302→squat
+   274→   303→   303→5. Lateral sled drag (moderate 129 6 30 yd 60-90 sec
+   275→   304→   304→load) (27 m)
+   276→   305→   305→each side
+   277→   306→   306→213
+   278→   307→   307→--- PAGE 230 ---
+   279→   308→   308→ADVANCED PROGRAM WITH
+   280→   309→   309→STRENGTH EMPHASIS
+   281→   310→   310→BLOCK 1
+   282→   311→   311→Program Notes
+   283→   312→   312→• This training split can be run for 3 to 4 weeks.
+   284→   313→   313→• For the trap bar deadlift clusters, perform 3 reps, then rest for 15
+   285→   314→   314→seconds; perform 2 reps, then rest for 15 seconds; and finally per-
+   286→   315→   315→form 1 rep, and rest a full 3 minutes.
+   287→   316→   316→• Increase training volume as your movement quality improves.
+   288→   317→   317→• Emphasize ingraining good motor patterns versus volume or load.
+   289→   318→   318→• This session should be separated from your other lower body ses-
+   290→   319→   319→sions by 72 hours.
+   291→   320→   320→Exercise Page Sets Reps Rest
+   292→   321→   321→1. Trap bar 119 3 3.2.1 3 min
+   293→   322→   322→deadlift (15 sec)
+   294→   323→   323→clusters
+   295→   324→   324→2. Goblet 76 3-4 8-10 90 sec
+   296→   325→   325→squat
+   297→   326→   326→3. Barbell glute 98 4-5 8-10 90 sec
+   298→   327→   327→hip thrust
+   299→   328→   328→4. Dumbbell 60 3 20 total 60-90 sec
+   300→   329→   329→walking steps
+   301→   330→   330→lunge (10 on
+   302→   331→   331→each leg)
+   303→   332→   332→5. Forward sled drag (heavy 91 6-10 60 yd 60-90 sec
+   304→   333→   333→load) (55 m)
+   305→   334→   334→214
+   306→   335→   335→--- PAGE 231 ---
+   307→   336→   336→BLOCK 2
+   308→   337→   337→Program Notes
+   309→   338→   338→• This training split can be run for 3 to 4 weeks.
+   310→   339→   339→• Increase training volume as your movement quality improves.
+   311→   340→   340→• Emphasize ingraining good motor patterns versus volume or load.
+   312→   341→   341→• This session should be separated from your other lower body ses-
+   313→   342→   342→sions by 72 hours.
+   314→   343→   343→Exercise Page Sets Reps Rest
+   315→   344→   344→1. Barbell front 81 5-8 1-5RM 2.5 min
+   316→   345→   345→box squat
+   317→   346→   346→2. Glute-ham 112 3-4 6-8 90 sec
+   318→   347→   347→raise
+   319→   348→   348→3. Landmine lateral squat 72 3-4 6-8 each 90 sec
+   320→   349→   349→side
+   321→   350→   350→4. Cable pull- 94 3-4 15-20 60 sec
+   322→   351→   351→through
+   323→   352→   352→5. Backward sled drag (heavy 51 6 30 yd 60-90 sec
+   324→   353→   353→load) (27 m)
+   325→   354→   354→215
+   326→   355→   355→--- PAGE 232 ---
+   327→   356→   356→ADVANCED PROGRAM WITH
+   328→   357→   357→STRENGTH EMPHASIS (continued)
+   329→   358→   358→BLOCK 3
+   330→   359→   359→Program Notes
+   331→   360→   360→• This training split can be run for 3 to 4 weeks.
+   332→   361→   361→• For the sumo stance deadlift against a band for dynamic effort,
+   333→   362→   362→perform speed sets at 50 percent, 55 percent, 60 percent, and 65
+   334→   363→   363→percent of 1RM for 4 weeks.
+   335→   364→   364→• Increase training volume as your movement quality improves.
+   336→   365→   365→• Emphasize ingraining good motor patterns versus volume or load.
+   337→   366→   366→• This session should be separated from your other lower body ses-
+   338→   367→   367→sions by 72 hours.
+   339→   368→   368→Exercise Page Sets Reps Rest
+   340→   369→   369→1. Sumo stance 123 6 2 @ 50% 60 sec
+   341→   370→   370→deadlift of 1RM
+   342→   371→   371→against a + band
+   343→   372→   372→band for tension
+   344→   373→   373→dynamic effort
+   345→   374→   374→2. Rear-foot 63 3-4 6-10 each 90 sec
+   346→   375→   375→elevated side
+   347→   376→   376→split squat
+   348→   377→   377→3. Medicine ball 101 4 15-20 60 sec
+   349→   378→   378→loaded back
+   350→   379→   379→raise
+   351→   380→   380→4. Backward sled drag (heavy 51 6 30 yd 60-90 sec
+   352→   381→   381→load) (27 m)
+   353→   382→   382→5. Barbell tibia 135 4 8-10 60 sec
+   354→   383→   383→raise + calf
+   355→   384→   384→raise
+   356→   385→   385→216
+   357→   386→   386→--- PAGE 233 ---
+   358→   387→   387→BLOCK 4
+   359→   388→   388→Program Notes
+   360→   389→   389→• This training split can be run for 3 to 4 weeks.
+   361→   390→   390→• For the barbell front box squat, perform speed sets at 50 percent,
+   362→   391→   391→55 percent, 60 percent, and 65 percent of 1RM for 4 weeks.
+   363→   392→   392→• Increase training volume as your movement quality improves.
+   364→   393→   393→• Emphasize ingraining good motor patterns versus volume or load.
+   365→   394→   394→• This session should be separated from your other lower body ses-
+   366→   395→   395→sions by 72 hours.
+   367→   396→   396→Exercise Page Sets Reps Rest
+   368→   397→   397→1. Barbell front 81 5-8 1-5RM 2.5 min
+   369→   398→   398→box squat
+   370→   399→   399→2. Sumo stance 106 4-5 8-10 90 sec to
+   371→   400→   400→Romanian 2 min
+   372→   401→   401→deadlift with
+   373→   402→   402→bands
+   374→   403→   403→pulling
+   375→   404→   404→forward
+   376→   405→   405→3. Landmine goblet reverse 58 3-4 8-10 each 60 sec
+   377→   406→   406→lunge side
+   378→   407→   407→4. Single-leg 96 2-3 12-15 each 60 sec
+   379→   408→   408→glute hip side
+   380→   409→   409→thrust
+   381→   410→   410→5. Forward sled drag (heavy 91 6-10 60 yd 60-90 sec
+   382→   411→   411→load) (55 m)
+   383→   412→   412→217
+   384→   413→   413→--- PAGE 234 ---
+   385→   414→   414→218 Lower Body Training
+   386→   415→   415→In conclusion, strength development requires a multifaceted approach
+   387→   416→   416→in which all strengths are developed strategically in a concurrent training
+   388→   417→   417→plan. In this case, the objective is to work both ends of the force-velocity
+   389→   418→   418→curve: both the force component (submaximal effort training) and the
+   390→   419→   419→velocity component (DE training) within the same cycle of training.
+   391→   420→   420→Although there are varying opinions on whether it is prudent to train
+   392→   421→   421→multiple aspects of strength within the same microcycles, from my
+   393→   422→   422→professional experience it is not only possible but optimal for a large
+   394→   423→   423→percentage of the population. To be clear, I am taking into consideration
+   395→   424→   424→that the majority of people reading this book are likely very experienced
+   396→   425→   425→in training bilateral movements and likely have at least five years of
+   397→   426→   426→serious training under their belt. These approaches are certainly not for
+   398→   427→   427→the beginner, who should aim first to achieve a high level of competency
+   399→   428→   428→with foundational movement patterns and focus on one aspect of strength
+   400→   429→   429→at a time.
+   401→   430→   430→--- PAGE 235 ---
+   402→   431→   431→Chapter 11
+   403→   432→   432→Athletic
+   404→   433→   433→Performance
+   405→   434→   434→Programs
+   406→   435→   435→The athletic training programs you’ll find in this chapter are different
+   407→   436→   436→in many ways from the other training plans in the book, although there
+   408→   437→   437→are parallels to the hypertrophy and strength programs presented in the
+   409→   438→   438→previous two chapters. A training program with an athletic performance
+   410→   439→   439→focus needs to resemble the demands of your chosen sport with regard
+   411→   440→   440→to the following:
+   412→   441→   441→• Energy systems development (ESD)
+   413→   442→   442→• Volume, selection, and intensity of plyometric exercises
+   414→   443→   443→• Your choice of strength methods
+   415→   444→   444→Does that mean that athletic training programs can’t be used for
+   416→   445→   445→general fitness? No, it does not; many former athletes enjoy keeping their
+   417→   446→   446→competitive edge and like to train as if they were still competing as an
+   418→   447→   447→athlete. If that’s the case for you, keep in mind that your training methods
+   419→   448→   448→should always align with your goals. For example, maximal effort (ME)
+   420→   449→   449→training is something I use sparingly for myself and my clients who are
+   421→   450→   450→former athletes because we still like to hit the occasional personal record
+   422→   451→   451→on lifts. While ME training is a viable method for the right individual,
+   423→   452→   452→going past the point of mechanical breakdown will increase the risk in
+   424→   453→   453→the risk versus reward ratio, so it’s not something that I use with most
+   425→   454→   454→clients. Use the training methods that are appropriate for your goals and
+   426→   455→   455→your sport.
+   427→   456→   456→219
+   428→   457→   457→--- PAGE 236 ---
+   429→   458→   458→220 Lower Body Training
+   430→   459→   459→MEETING THE DEMANDS OF YOUR SPORT Table 11.1 Sample ESD Training Template
+   431→   460→   460→It’s no mystery that athletic programs have the goal of improving
+   432→   461→   461→performance and tailoring the programming to align with the demands Monday Tuesday Wednesday Thursday Friday Saturday Sunday
+   433→   462→   462→of a sport or event make sense. However, coaches often make the mistake
+   434→   463→   463→Maximal Strongman- Repeated Cardiac Dynamic Dynamic OFF
+   435→   464→   464→of going down the sport-specific rabbit hole trying to, in essence, reinvent
+   436→   465→   465→effort style effort output effort effort
+   437→   466→   466→the wheel. It is of my professional opinion that this is not the best way (lower) endurance (upper) method (lower) (upper)
+   438→   467→   467→to train an athlete for their sport. Instead, it is prudent to rely on sound (aerobic) (aerobic)
+   439→   468→   468→principles of programming such as foundational movement pattern
+   440→   469→   469→development, strength development (maximal strength, explosive
+   441→   470→   470→strength, and strength endurance), and aerobic fitness to improve
+   442→   471→   471→recovery between sets and overall recoverability. The major difference
+   443→   472→   472→in the programs found in this chapter versus other chapters in part III is
+   444→   473→   473→the utilization of different methods to improve athletic performance. In
+   445→   474→   474→this section, we will discuss those methods building upon what’s already
+   446→   475→   475→been discussed, such as maximal strength development, hypertrophy,
+   447→   476→   476→and general physical preparedness (GPP).
+   448→   477→   477→Energy Systems Development
+   449→   478→   478→ESD is a critical aspect of any athletic performance program, along
+   450→   479→   479→with understanding how to prioritize methods to improve the aerobic
+   451→   480→   480→system and the anaerobic system applicable to the specificity of the
+   452→   481→   481→sport. While this book is not meant to inform you on all of the methods
+   453→   482→   482→that can be used to develop both the aerobic and anaerobic systems, it’s
+   454→   483→   483→important to know that the lower body strength programs provided in
+   455→   484→   484→this book are a bridge to conditioning methods, meaning that they should
+   456→   485→   485→align with the conditioning methods a coach chooses. For example, if
+   457→   486→   486→athletes were performing an intensive ME lower body session on Monday
+   458→   487→   487→followed by methods to improve the capacity of their glycolytic system
+   459→   488→   488→on Tuesday, they may be at risk of overtraining due to the large neural
+   460→   489→   489→demand created by these methods performed on back-to-back days. A
+   461→   490→   490→better option would be to understand the neural load from each training
+   462→   491→   491→session and use your conditioning sessions to bridge the gap between
+   463→   492→   492→the main strength training sessions. Table 11.1 provides a sample ESD
+   464→   493→   493→training template that would ensure optimal central nervous system
+   465→   494→   494→recovery between sessions while still allowing athletes to improve their
+   466→   495→   495→conditioning concurrently.
+   467→   496→   496→There is a time and a place for conditioning within these training
+   468→   497→   497→programs, but methods cannot be haphazardly thrown in, and there
+   469→   498→   498→should be a structure in place (as in table 11.1) to ensure optimal recovery
+   470→   499→   499→between sessions.
+   471→   500→   500→--- PAGE 237 ---
+   472→   501→   501→Athletic Performance Programs 221
+   473→   502→   502→MEETING THE DEMANDS OF YOUR SPORT Table 11.1 Sample ESD Training Template
+   474→   503→   503→It’s no mystery that athletic programs have the goal of improving
+   475→   504→   504→performance and tailoring the programming to align with the demands Monday Tuesday Wednesday Thursday Friday Saturday Sunday
+   476→   505→   505→of a sport or event make sense. However, coaches often make the mistake
+   477→   506→   506→Maximal Strongman- Repeated Cardiac Dynamic Dynamic OFF
+   478→   507→   507→of going down the sport-specific rabbit hole trying to, in essence, reinvent
+   479→   508→   508→effort style effort output effort effort
+   480→   509→   509→the wheel. It is of my professional opinion that this is not the best way (lower) endurance (upper) method (lower) (upper)
+   481→   510→   510→to train an athlete for their sport. Instead, it is prudent to rely on sound (aerobic) (aerobic)
+   482→   511→   511→principles of programming such as foundational movement pattern
+   483→   512→   512→development, strength development (maximal strength, explosive
+   484→   513→   513→strength, and strength endurance), and aerobic fitness to improve
+   485→   514→   514→Plyometrics
+   486→   515→   515→recovery between sets and overall recoverability. The major difference
+   487→   516→   516→in the programs found in this chapter versus other chapters in part III is
+   488→   517→   517→Plyometric exercises are an important aspect of athletic programming
+   489→   518→   518→the utilization of different methods to improve athletic performance. In
+   490→   519→   519→because the application to the field of play is noteworthy. For instance,
+   491→   520→   520→this section, we will discuss those methods building upon what’s already
+   492→   521→   521→learning how to move explosively (explosive strength) and absorb force is
+   493→   522→   522→been discussed, such as maximal strength development, hypertrophy,
+   494→   523→   523→not only necessary for all sports but an important factor for performance
+   495→   524→   524→and general physical preparedness (GPP).
+   496→   525→   525→in sports. It’s well established that the adaptations that take place in
+   497→   526→   526→skeletal muscle from performing plyometrics are noticeable, but most
+   498→   527→   527→Energy Systems Development
+   499→   528→   528→strength professionals have questions around when plyometric exercises
+   500→   529→   529→ESD is a critical aspect of any athletic performance program, along are included in strength programming, what variations to choose, and
+   501→
+   502→[showing lines 30-529 of 874; use offset=530 with limit to continue reading]

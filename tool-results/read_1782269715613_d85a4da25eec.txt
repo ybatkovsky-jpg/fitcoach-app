@@ -1,0 +1,567 @@
+    87→   136→   160→   160→about your maximum heart rate numbers: They will be different for each
+    88→   137→   161→   161→activity. Therefore, you need a true maximum heart rate for each activity,
+    89→   138→   162→   162→especially if you’re a triathlete. We will talk more about this in later
+    90→   139→   163→   163→chapters.
+    91→   140→   164→   164→Personal Considerations
+    92→   141→   165→   165→--- PAGE 24 ---
+    93→   142→   166→   166→Essentially, all people are made from the same parts. However, important
+    94→   143→   167→   167→differences, such as training objectives and genetics, affect their responses
+    95→   144→   168→   168→and adaptations to exercise.
+    96→   145→   169→   169→Do you want to improve your cardiovascular health and control your
+    97→   146→   170→   170→weight? If so, then we suggest that you exercise frequently and extensively
+    98→   147→   171→   171→at the very low levels of aerobic endurance effort, but don’t expect dramatic
+    99→   148→   172→   172→short-term gains. You need to make exercise a lifestyle habit.
+   100→   149→   173→   173→Does simply participating (but not really competing) in a 10K road race
+   101→   150→   174→   174→with the goal of just finishing with a smile seem like a good way to enjoy
+   102→   151→   175→   175→social recreation? If so, then for several months to a year, patiently increase
+   103→   152→   176→   176→the volume of your endurance training, but substitute a couple days of
+   104→   153→   177→   177→training in the stamina zone of the triangle.
+   105→   154→   178→   178→Do you want to compete and work hard at improving and setting
+   106→   155→   179→   179→personal records (PRs)? If so, you need to add at least a day per week of
+   107→   156→   180→   180→high-intensity, anaerobic economy or speed workouts at the very difficult
+   108→   157→   181→   181→and mentally challenging level.
+   109→   158→   182→   182→The preceding are general ideas to get you thinking about your training
+   110→   159→   183→   183→goals. Your reasons will affect your target heart rate choices. Your responses
+   111→   160→   184→   184→and adaptations, however, will also be affected by something else: your
+   112→   161→   185→   185→genetic makeup.
+   113→   162→   186→   186→Everyone understands that an easy effort results in a low heart rate and a
+   114→   163→   187→   187→harder effort raises it. Although this is true for the most part, the
+   115→   164→   188→   188→relationship is not uniformly predictable, especially in terms of absolute
+   116→   165→   189→   189→numbers. What this means is that two people exercising at the same
+   117→   166→   190→   190→absolute heart rate (145 beats per minute [bpm], for example) may have
+   118→   167→   191→   191→very different comfort levels and different physiological responses. Genetic
+   119→   168→   192→   192→differences such as the composition of fast- and slow-twitch muscle fibers
+   120→   169→   193→   193→can result in puzzling heart rate responses. Fast-twitch fibers (think
+   121→   170→   194→   194→sprinters) have different oxygen consumption rates than slow-twitch fibers
+   122→   171→   195→   195→do (think marathoners). Another factor that can result in widely different
+   123→   172→   196→   196→heart rates in two people of similar ability and fitness level is the anatomy
+   124→   173→   197→   197→and size of the heart. These differences may result in heart rates that differ
+   125→   174→   198→   198→from 35 to 70 bpm in people running at the same pace. Target heart rates are
+   126→   175→   199→   199→a lot like salaries—it’s best not to discuss them. Having a higher heart rate
+   127→   176→   200→   200→than someone else does not mean that you are less fit.
+   128→   177→   201→   201→--- PAGE 25 ---
+   129→   178→   202→   202→Your personal training goals and genetics will affect your responses to heart rate
+   130→   179→   203→   203→training.
+   131→   180→   204→   204→One last genetic issue to point out is significant, but far less remarkable
+   132→   181→   205→   205→—the difference in the heart size of men and women. This difference is
+   133→   182→   206→   206→revealed by the average resting heart rates of 72 bpm for men versus 84
+   134→   183→   207→   207→bpm for women. This book will help you monitor your training by showing
+   135→   184→   208→   208→you how to measure your cardiac response to your program designed
+   136→   185→   209→   209→around your specific goals.
+   137→   186→   210→   210→Rate of Perceived Exertion: Your
+   138→   187→   211→   211→Backup System
+   139→   188→   212→   212→Individualizing workouts assumes that you understand the difference
+   140→   189→   213→   213→between hard and easy effort. (The former makes you grimace and gasp for
+   141→   190→   214→   214→air, whereas the latter allows you to laugh and talk all the way home.) Each
+   142→   191→   215→   215→of us can make subjective distinctions between hard and easy tasks. Before
+   143→   192→   216→   216→telemetric heart rate monitors made counting pulses so convenient, the rate
+   144→   193→   217→   217→of perceived exertion (RPE), as illustrated by the Borg Scale, was the
+   145→   194→   218→   218→standard for using one’s own capacity for subjective measurement of hard
+   146→   195→   219→   219→and easy exercise effort. Dr. Borg’s 15-point scale could be used, for
+   147→   196→   220→   220→example, to describe how average people might feel as they progressed
+   148→   197→   221→   221→from walking a mile to trying to run it in 4 minutes. The scale described
+   149→   198→   222→   222→resting or walking as a very, very light effort, whereas exhaustion is
+   150→   199→   223→   223→--- PAGE 26 ---
+   151→   200→   224→   224→described as beyond very, very hard. In addition, the Borg Scale also
+   152→   201→   225→   225→introduced a value system of points ranging from 6 (resting) to 20
+   153→   202→   226→   226→(exhaustion). In short, Borg tried to correlate quantitative measures with his
+   154→   203→   227→   227→qualitative system.
+   155→   204→   228→   228→Although the Borg Scale is useful, it is an arbitrary system because it
+   156→   205→   229→   229→offers no objective way to measure exertion. For the competitive athlete, a
+   157→   206→   230→   230→heart rate monitor is a better way to quantify those measurements.
+   158→   207→   231→   231→Probably the most important reason for individualizing training is the
+   159→   208→   232→   232→fact that people have different workout objectives. What exactly, as a
+   160→   209→   233→   233→percentage of your maximum, are your target heart rate zones? The need to
+   161→   210→   234→   234→calculate these zones is the challenge that brought us to share our collective
+   162→   211→   235→   235→wisdom with you. So, there are plenty of reasons for using the information
+   163→   212→   236→   236→in this book to help you use your heart rate monitor intelligently. Your body
+   164→   213→   237→   237→is not like anyone else’s, so why work out like anyone else? Whatever your
+   165→   214→   238→   238→unique genetic gifts, current level of fitness, or goals are, this book will help
+   166→   215→   239→   239→you determine your target heart rates and individualize your training.
+   167→   216→   240→   240→Monitoring the heart rate of members of soccer, rugby, football, and
+   168→   217→   241→   241→lacrosse teams is growing as well as in athletes in other nonaerobic settings
+   169→   218→   242→   242→such as wrestling, weightlifting, and boxing. However, because of the start-
+   170→   219→   243→   243→and-stop nature of these sports, the use of heart rate to monitor intensity is
+   171→   220→   244→   244→somewhat limited; what it actually provides is information about energy
+   172→   221→   245→   245→expenditure and recovery rather than overall intensity. This doesn’t mean
+   173→   222→   246→   246→that you cannot use heart rate if you participate in these sports. Like aerobic
+   174→   223→   247→   247→athletes, you can use heart rate to monitor your training status and intensity
+   175→   224→   248→   248→during the aerobic training portion of your conditioning program or with
+   176→   225→   249→   249→interval training (a conditioning system that consists of repeated efforts over
+   177→   226→   250→   250→a time shorter than the length of the competition and done at fairly high
+   178→   227→   251→   251→intensities of 85 to 95 percent MHR), during which knowing the recovery
+   179→   228→   252→   252→heart rate is valuable. It is also a useful recovery tool.
+   180→   229→   253→   253→Using heart rate during higher-intensity anaerobic activity involves
+   181→   230→   254→   254→other, more complex physiological responses. Toward the end of the book,
+   182→   231→   255→   255→we provide more advice for using heart rate in the nonaerobic setting, but
+   183→   232→   256→   256→for now our focus is on the typical endurance athlete—the runner, cyclist,
+   184→   233→   257→   257→rower, cross-country skier, or triathlete.
+   185→   234→   258→   258→--- PAGE 27 ---
+   186→   235→   259→   259→What Heart Rate Reveals
+   187→   236→   260→   260→Heart rate provides a lot of information, but you must have an accurate
+   188→   237→   261→   261→monitor that provides reliable data. Accurate data will allow you to evaluate
+   189→   238→   262→   262→your own responses, adaptations, energy expenditure, training programs,
+   190→   239→   263→   263→and a lot more. The point to keep in mind is that you are embarking on a
+   191→   240→   264→   264→quest for knowledge that is highly individualized and therefore more likely
+   192→   241→   265→   265→to help you yield the results you want. Here is the information you can learn
+   193→   242→   266→   266→from heart rate monitoring, provided you have an accurate heart rate
+   194→   243→   267→   267→monitor:
+   195→   244→   268→   268→Correct intensity for aerobic system development
+   196→   245→   269→   269→Correct intensity for anaerobic system development
+   197→   246→   270→   270→Correct durations for time spent in appropriate training zones
+   198→   247→   271→   271→Appropriate recovery periods during interval training
+   199→   248→   272→   272→Appropriate recovery periods between exercise sessions
+   200→   249→   273→   273→Effective evaluation of adaptations to training programs
+   201→   250→   274→   274→Early warning signs of overtraining
+   202→   251→   275→   275→Early indications of heat stress
+   203→   252→   276→   276→Early indications of energy depletion
+   204→   253→   277→   277→Race pace strategy for longer competitions
+   205→   254→   278→   278→This list should convince you that heart rate training is indeed
+   206→   255→   279→   279→worthwhile (and these are only some of the benefits!).
+   207→   256→   280→   280→Understanding Heart Rate
+   208→   257→   281→   281→The simple beauty of monitoring heart rate is that it is based on your own
+   209→   258→   282→   282→heart’s capacity and nobody else’s. The heart is a muscle, and it responds in
+   210→   259→   283→   283→much the same way as any other muscle by getting bigger and stronger as
+   211→   260→   284→   284→you work out. When you are not working out, the heart continues to pump
+   212→   261→   285→   285→blood into your muscles to feed their repair and recovery. That’s why heart
+   213→   262→   286→   286→rate can inform you indirectly about the state of recovery of your muscles.
+   214→   263→   287→   287→If you still have microtears or are replacing fuel, your metabolism will be
+   215→   264→   288→   288→elevated, and your heart rate will reflect that by being slightly elevated.
+   216→   265→   289→   289→That’s why monitoring and recording your heart rate each morning when
+   217→   266→   290→   290→--- PAGE 28 ---
+   218→   267→   291→   291→you wake up will give you an idea of whether you’re still under a condition
+   219→   268→   292→   292→of repair from a previous workout. This is why your morning resting heart
+   220→   269→   293→   293→rate is one of the two most important numbers. Your maximum heart rate
+   221→   270→   294→   294→(MHR) is the other. Maximum heart rate is the fastest or highest number of
+   222→   271→   295→   295→times the heart can beat in a minute.
+   223→   272→   296→   296→Maximum heart rate doesn’t really change as a result of training, but all
+   224→   273→   297→   297→your training zones are calculated from that number. Therefore, you need an
+   225→   274→   298→   298→accurate maximum heart rate (see the Determining Maximum Heart Rate
+   226→   275→   299→   299→section in chapter 2). Resting heart rate, on the other hand, does change
+   227→   276→   300→   300→with training and generally decreases with increasing fitness. At times,
+   228→   277→   301→   301→resting heart rate can increase, which usually indicates fatigue, overtraining,
+   229→   278→   302→   302→or sickness. Charting your resting heart rate can help identify these
+   230→   279→   303→   303→conditions early.
+   231→   280→   304→   304→Take a look at the resting heart rate response of a runner over a one-
+   232→   281→   305→   305→month period depicted in figure 1.2. Notice what happens on the days
+   233→   282→   306→   306→following a high-intensity sprint workout or a long run. Each time the
+   234→   283→   307→   307→athlete performed a hard session or a long run, the resting heart rate was
+   235→   284→   308→   308→elevated on the following day. This information is useful because it can help
+   236→   285→   309→   309→the athlete adjust his or her workouts when he or she is not fully recovered
+   237→   286→   310→   310→and possibly prevent overtraining and injury. This is an example of how
+   238→   287→   311→   311→heart rate monitoring can help plan recovery, but it is equally useful in
+   239→   288→   312→   312→determining exercise intensity.
+   240→   289→   313→   313→--- PAGE 29 ---
+   241→   290→   314→   314→FIGURE 1.2 Morning resting heart rate over a period of 30 days. Harder workouts
+   242→   291→   315→   315→occurred on the day before each spike.
+   243→   292→   316→   316→Depending on the intensity of the exercise you’re doing, you’ll get a
+   244→   293→   317→   317→different adaptation throughout your body. We will simplify this by noting
+   245→   294→   318→   318→that easier exercise causes cardiovascular (aerobic) changes and harder
+   246→   295→   319→   319→exercise causes biochemical (anaerobic) changes. Both are necessary for
+   247→   296→   320→   320→good performance, and too much or too little of either will cause
+   248→   297→   321→   321→unwarranted adaptations. Your heart rate can help you determine the
+   249→   298→   322→   322→intensity of your training, thereby keeping you in the desired training zones.
+   250→   299→   323→   323→We’ll talk more about calculating target zones in chapter 2.
+   251→   300→   324→   324→Intensity Relationship of Heart Rate
+   252→   301→   325→   325→and Oxygen Consumption
+   253→   302→   326→   326→Our discussion so far has focused on heart rate. However, oxygen uptake, a
+   254→   303→   327→   327→close cousin of heart rate, is often mentioned in the popular literature.
+   255→   304→   328→   328→Experts seem to contradict each other or, at the very least, confuse readers
+   256→   305→   329→   329→as they recommend that training take place at various percentages of either
+   257→   306→   330→   330→of these physical capacities. Furthermore, oxygen uptake capacity is
+   258→   307→   331→   331→abbreviated different ways, sometimes as O or O uptake. At any rate,
+   259→   308→   332→   332→2 2
+   260→   309→   333→   333→O refers to the volume of oxygen consumed, and O max refers to the
+   261→   310→   334→   334→2 2
+   262→   311→   335→   335→--- PAGE 30 ---
+   263→   312→   336→   336→greatest amount of oxygen someone can consume, which usually occurs at
+   264→   313→   337→   337→maximum exercise intensity. In general, the fitter you are, the higher your
+   265→   314→   338→   338→O max will be. Both heart rate and O are ways to measure how hard
+   266→   315→   339→   339→2 2
+   267→   316→   340→   340→(intensely) someone is working. Heart rate response is simply a measure of
+   268→   317→   341→   341→how hard the cardiovascular system is working to distribute oxygen,
+   269→   318→   342→   342→whereas O measures include heart rate and the work of the respiratory
+   270→   319→   343→   343→2
+   271→   320→   344→   344→system’s and muscular system’s use of oxygen.
+   272→   321→   345→   345→During aerobic exercise, both heart rate and O increase as intensity
+   273→   322→   346→   346→2
+   274→   323→   347→   347→increases. However, the patterns of response for both variables are different.
+   275→   324→   348→   348→In science, terms such as linear and nonlinear are used to describe
+   276→   325→   349→   349→relationships between two variables. The term linear means that as one
+   277→   326→   350→   350→variable increases, the other variable increases in proportion to the change
+   278→   327→   351→   351→in the first variable. If one variable changes and the other changes but not in
+   279→   328→   352→   352→proportion, that is described as nonlinear.
+   280→   329→   353→   353→Although both heart rate and O increase in response to increasing
+   281→   330→   354→   354→2
+   282→   331→   355→   355→intensity, their responses are not entirely linear. For example, at lower
+   283→   332→   356→   356→exercise intensities, both variables increase in a similar (linear) manner, but
+   284→   333→   357→   357→at higher intensities, the heart rate response levels off (nonlinear) while the
+   285→   334→   358→   358→O response continues to climb. This does not detract from the value of the
+   286→   335→   359→   359→2
+   287→   336→   360→   360→information but instead shows that responses vary.
+   288→   337→   361→   361→Another important difference in response patterns is that we see a
+   289→   338→   362→   362→dramatic and rapid increase in heart rate at the start of exercise regardless of
+   290→   339→   363→   363→the intensity. Someone who begins to jog slowly may see a 25- to 40-beat
+   291→   340→   364→   364→increase in heart rate right away that could go, for example, from 75 to 110
+   292→   341→   365→   365→bpm. This heart rate will settle and may even decrease slightly after 5 to 10
+   293→   342→   366→   366→minutes and eventually remain at 105 bpm. On the other hand, O
+   294→   343→   367→   367→2
+   295→   344→   368→   368→responds slowly at the start of exercise, and we may see only a small
+   296→   345→   369→   369→change in the first 5 to 7 minutes that continues at a slow, steady pace, even
+   297→   346→   370→   370→with abrupt changes in intensity. Heart rate will continue to respond
+   298→   347→   371→   371→abruptly at the lower intensities and then smooth out and change more
+   299→   348→   372→   372→slowly at the higher intensities. It is important to understand this
+   300→   349→   373→   373→relationship because it can help explain aspects of performance such as
+   301→   350→   374→   374→warm-up and recovery. Let’s look at the overall relationship of heart rate,
+   302→   351→   375→   375→O , and intensity in more detail.
+   303→   352→   376→   376→2
+   304→   353→   377→   377→--- PAGE 31 ---
+   305→   354→   378→   378→The relationship between heart rate and intensity is convenient. Although
+   306→   355→   379→   379→O max is considered the gold standard for measuring intensity and work
+   307→   356→   380→   380→2
+   308→   357→   381→   381→capacity, its measurement is not easily available to the average athlete. This
+   309→   358→   382→   382→measurement needs to be done in a laboratory and can be expensive. But, if
+   310→   359→   383→   383→we can demonstrate a relationship between heart rate and O , we can use
+   311→   360→   384→   384→2
+   312→   361→   385→   385→the more convenient measure of heart rate to monitor training sessions
+   313→   362→   386→   386→anywhere.
+   314→   363→   387→   387→Table 1.2 shows what percentage of maximum heart rate you are
+   315→   364→   388→   388→working at based on your percentage of maximum oxygen uptake. For
+   316→   365→   389→   389→example, when you are working at 65 percent MHR, you are working at
+   317→   366→   390→   390→approximately 48 percent of O max. Remember, these numbers are not
+   318→   367→   391→   391→2
+   319→   368→   392→   392→absolute; they represent an approximation of where you’ll be at a certain
+   320→   369→   393→   393→heart rate and O . These numbers do vary a little more around the 70
+   321→   370→   394→   394→2
+   322→   371→   395→   395→percent mark, and for that reason, we need to use a range to ensure
+   323→   372→   396→   396→accuracy. In either situation, exercise slightly above or slightly below 75
+   324→   373→   397→   397→percent still represents an easy to comfortable workload.
+   325→   374→   398→   398→To further clarify the relationship between heart rate and O , let’s
+   326→   375→   399→   399→2
+   327→   376→   400→   400→consider data from the Human Performance Laboratory at the University of
+   328→   377→   401→   401→Vermont. Tables 1.3 and 1.4 show recorded data from two subjects. One
+   329→   378→   402→   402→subject performed on a treadmill and the other on a bike. Both were fairly
+   330→   379→   403→   403→well-trained athletes.
+   331→   380→   404→   404→TABLE 1.2 Percent MHR– O max Conversion Chart
+   332→   381→   405→   405→2
+   333→   382→   406→   406→% MHR Corresponding % O 2 max Training adaptation
+   334→   383→   407→   407→50% ~22% Minimal for trained athletes
+   335→   384→   408→   408→55 ~28
+   336→   385→   409→   409→60 ~42 Phase I: Endurance
+   337→   386→   410→   410→65 ~48
+   338→   387→   411→   411→70 ~52
+   339→   388→   412→   412→75 ~60 Phase II: Stamina
+   340→   389→   413→   413→80 ~70
+   341→   390→   414→   414→--- PAGE 32 ---
+   342→   391→   415→   415→85 ~78 Phase III: Economy
+   343→   392→   416→   416→90 ~85
+   344→   393→   417→   417→95–100 ~93 Phase IV: Speed
+   345→   394→   418→   418→TABLE 1.3 Data for a 19-Year-Old Female Cross-Country Skier*
+   346→   395→   419→   419→Time (min) Work rate (mph, % grade) Heart rate (bpm) O 2 (ml/kg/min)
+   347→   396→   420→   420→0:30 5, 0% 51 4.1
+   348→   397→   421→   421→1:00 5, 0% 93 11.3
+   349→   398→   422→   422→1:30 5, 0% 107 19.9
+   350→   399→   423→   423→2:00 5, 0% 116 29.5
+   351→   400→   424→   424→2:30 5, 0% 115 29.7
+   352→   401→   425→   425→3:00 6, 0% 117 29.5
+   353→   402→   426→   426→3:30 6, 0% 120 29.1
+   354→   403→   427→   427→4:00 6, 0% 118 28.5
+   355→   404→   428→   428→4:30 6, 0% 126 30.3
+   356→   405→   429→   429→5:00 7, 0% 128 31.7
+   357→   406→   430→   430→5:30 7, 0% 132 31.9
+   358→   407→   431→   431→6:00 7, 0% 137 36.0
+   359→   408→   432→   432→6:30 7, 0% 142 34.9
+   360→   409→   433→   433→7:00 7.5, 0% 144 38.0
+   361→   410→   434→   434→7:30 7.5, 0% 150 37.7
+   362→   411→   435→   435→8:00 7.5, 0% 153 37.7
+   363→   412→   436→   436→8:30 7.5, 0% 154 40.3
+   364→   413→   437→   437→9:00 8.0, 0% 156 39.7
+   365→   414→   438→   438→9:30 8.0, 0% 159 42.6
+   366→   415→   439→   439→10:00 8.0, 0% 162 42.7
+   367→   416→   440→   440→10:30 8.0, 0% 163 45.0
+   368→   417→   441→   441→11:00 8.5, 0% 163 41.6
+   369→   418→   442→   442→11:30 8.5, 0% 166 45.9
+   370→   419→   443→   443→--- PAGE 33 ---
+   371→   420→   444→   444→12:00 8.5, 0% 167 47.3
+   372→   421→   445→   445→12:30 8.5, 0% 171 45.9
+   373→   422→   446→   446→13:00 8.5, 2% 173 46.4
+   374→   423→   447→   447→13:30 8.5, 2% 171 47.5
+   375→   424→   448→   448→14:00 8.5, 2% 173 48.3
+   376→   425→   449→   449→14:30 8.5, 2% 174 50.7
+   377→   426→   450→   450→15:00 8.5, 4% 173 51.6
+   378→   427→   451→   451→15:30 8.5, 4% 176 54.8
+   379→   428→   452→   452→16:00 8.5, 4% 180 54.8
+   380→   429→   453→   453→16:30 8.5, 4% 183 54.7
+   381→   430→   454→   454→17:00 8.5, 4% 183 58.2
+   382→   431→   455→   455→17:30 8.5, 4% 182 58.1
+   383→   432→   456→   456→18:00 8.5, 6% 182 59.6
+   384→   433→   457→   457→18:30 8.5, 6% 183 61.2
+   385→   434→   458→   458→19:00 8.5, 6% 183 64.2
+   386→   435→   459→   459→*Test subject performed on a treadmill. Anaerobic threshold: 171 bpm; O max: 64.2 ml/kg/min; MHR: 183 bpm.
+   387→   436→   460→   460→2
+   388→   437→   461→   461→TABLE 1.4 Data for a 45-Year-Old Male Cyclist*
+   389→   438→   462→   462→Time (min) Work rate (watts) Heart rate (bpm) O (ml/kg/min)
+   390→   439→   463→   463→2
+   391→   440→   464→   464→0:30 120 110 3.4
+   392→   441→   465→   465→1:00 120 109 7.0
+   393→   442→   466→   466→1:30 120 105 24.0
+   394→   443→   467→   467→2:00 120 104 25.0
+   395→   444→   468→   468→2:30 120 100 26.1
+   396→   445→   469→   469→3:00 180 102 22.3
+   397→   446→   470→   470→3:30 180 109 27.3
+   398→   447→   471→   471→4:00 180 113 28.1
+   399→   448→   472→   472→4:30 180 114 31.8
+   400→   449→   473→   473→5:00 240 115 32.3
+   401→   450→   474→   474→--- PAGE 34 ---
+   402→   451→   475→   475→5:30 240 118 33.2
+   403→   452→   476→   476→6:00 240 127 36.8
+   404→   453→   477→   477→6:30 240 130 41.6
+   405→   454→   478→   478→7:00 280 134 42.8
+   406→   455→   479→   479→7:30 280 139 42.4
+   407→   456→   480→   480→8:00 280 141 45.7
+   408→   457→   481→   481→8:30 280 142 47.3
+   409→   458→   482→   482→9:00 320 145 48.0
+   410→   459→   483→   483→9:30 320 149 50.4
+   411→   460→   484→   484→10:00 320 152 53.0
+   412→   461→   485→   485→10:30 320 156 51.5
+   413→   462→   486→   486→11:00 360 156 57.9
+   414→   463→   487→   487→11:30 360 159 56.1
+   415→   464→   488→   488→12:00 360 163 59.5
+   416→   465→   489→   489→12:30 360 164 58.4
+   417→   466→   490→   490→13:00 400 167 62.2
+   418→   467→   491→   491→13:30 400 169 62.8
+   419→   468→   492→   492→14:00 400 172 64.8
+   420→   469→   493→   493→14:30 400 173 67.0
+   421→   470→   494→   494→15:00 410 173 66.0
+   422→   471→   495→   495→15:30 410 175 68.3
+   423→   472→   496→   496→16:00 410 177 67.2
+   424→   473→   497→   497→*Test subject performed on a bicycle. Anaerobic threshold: 152 bpm; O max: 68.3 ml/kg/min; MHR: 177 bpm.
+   425→   474→   498→   498→2
+   426→   475→   499→   499→The tables contain data for work rate, O max (ml/kg/min), and heart
+   427→   476→   500→   500→2
+   428→   477→   501→   501→rate (bpm). The other data of importance for both subjects is anaerobic
+   429→   478→   502→   502→threshold, which is noted in the footnotes. Pay attention to the anaerobic
+   430→   479→   503→   503→threshold data because we can use this as a reference point to demonstrate
+   431→   480→   504→   504→the relationships between heart rate and O . Anaerobic threshold will be
+   432→   481→   505→   505→2
+   433→   482→   506→   506→discussed in greater detail in chapter 6. For now, note that anaerobic
+   434→   483→   507→   507→threshold is the point at which you see heart rate creep up a little faster. It
+   435→   484→   508→   508→--- PAGE 35 ---
+   436→   485→   509→   509→also is the point at which you increase your anaerobic metabolism, which
+   437→   486→   510→   510→results in faster breathing, a higher heart rate, and less talking.
+   438→   487→   511→   511→Using heart rate calculations, you will see that subject 1 has an anaerobic
+   439→   488→   512→   512→threshold that occurs at 92 percent MHR but only 70 percent of O max.
+   440→   489→   513→   513→2
+   441→   490→   514→   514→For subject 2, the heart rate at anaerobic threshold occurs at 86 percent
+   442→   491→   515→   515→MHR but only 77 percent of O max. In other words, intensities will
+   443→   492→   516→   516→2
+   444→   493→   517→   517→always be lower when calculated as a function of O . The pattern of
+   445→   494→   518→   518→2
+   446→   495→   519→   519→response also is different between the two variables, and this partially
+   447→   496→   520→   520→explains the different percentages. O max has a pretty linear relationship
+   448→   497→   521→   521→2
+   449→   498→   522→   522→with work intensity, whereas heart rate is linear only up to 75 to 80 percent
+   450→   499→   523→   523→intensity. Then it flattens out and is nonlinear as you get closer to maximum
+   451→   500→   524→   524→(see figure 1.3).
+   452→   501→   525→   525→FIGURE 1.3 Heart rate versus O with increasing intensity.
+   453→   502→   526→   526→2
+   454→   503→   527→   527→Understanding this relationship is important because heart rate is a more
+   455→   504→   528→   528→reliable indicator of changes in fitness at any given workload. O , on the
+   456→   505→   529→   529→2
+   457→   506→   530→   530→other hand, is a better indicator of energy expenditure because energy
+   458→   507→   531→   531→expenditure is directly related to O . This is important because heart rate
+   459→   508→   532→   532→2
+   460→   509→   533→   533→response to a given workload will decrease with advancing fitness. O , or
+   461→   510→   534→   534→2
+   462→   511→   535→   535→--- PAGE 36 ---
+   463→   512→   536→   536→energy expenditure, will stay about the same for a given workload unless
+   464→   513→   537→   537→the subject loses weight.
+   465→   514→   538→   538→Figure 1.4 illustrates the fitness testing of a 40-year-old male subject
+   466→   515→   539→   539→before and after a brief training program. (These data are also presented in
+   467→   516→   540→   540→table 1.5.) The subject was tested after three months of training. Even
+   468→   517→   541→   541→though his body weight didn’t change much (he lost 4 pounds, or 1.8
+   469→   518→   542→   542→kilograms), his heart rate decreased over time even though his O stayed
+   470→   519→   543→   543→2
+   471→   520→   544→   544→pretty much the same at all submaximum values and then increased at
+   472→   521→   545→   545→maximum over time, showing improved fitness. Interestingly, maximum
+   473→   522→   546→   546→heart rate was the same as pretraining data even though the ending work
+   474→   523→   547→   547→rate was substantially higher. This is a desirable outcome.
+   475→   524→   548→   548→FIGURE 1.4 Heart data for a 40-year-old male before and after 12 weeks of easy
+   476→   525→   549→   549→baseline training. Data were collected on a bicycle in response to the same workload.
+   477→   526→   550→   550→This is exactly the outcome you would like to have after a period of
+   478→   527→   551→   551→training—lower heart rate at a fixed workload, same O max at a fixed
+   479→   528→   552→   552→2
+   480→   529→   553→   553→workload, but the O max is a lower percentage of maximum capacity
+   481→   530→   554→   554→2
+   482→   531→   555→   555→because maximum capacity has increased. (Improved skill levels also can
+   483→   532→   556→   556→contribute to the improvement of oxygen uptake capacity.) Both of these
+   484→   533→   557→   557→outcomes have to do with efficiency. The O max increases because of an
+   485→   534→   558→   558→2
+   486→   535→   559→   559→increased cardiorespiratory network in heart, lung, and skeletal muscle;
+   487→   536→   560→   560→--- PAGE 37 ---
+   488→   537→   561→   561→improved oxygen extraction; and improved fat metabolism. The heart rate
+   489→   538→   562→   562→at the fixed load decreases because the heart muscle is now stronger and can
+   490→   539→   563→   563→move more blood with each beat. The technical term for this is improved
+   491→   540→   564→   564→stroke volume. Later in the book we revisit these data by expanding them to
+   492→   541→   565→   565→look at power production at a given heart rate and how this can be used to
+   493→   542→   566→   566→improve fitness.
+   494→   543→   567→   567→--- PAGE 39 ---
+   495→   544→   568→   568→Energy Expenditure Relationship
+   496→   545→   569→   569→Between Heart Rate and O
+   497→   546→   570→   570→2
+   498→   547→   571→   571→So far, we have looked at the relationship between heart rate and intensity,
+   499→   548→   572→   572→the relationship between percent MHR and percent O max, and how these
+   500→   549→   573→   573→2
+   501→   550→   574→   574→variables can change with appropriate training over time. An important
+   502→   551→   575→   575→point is that there is a subtle difference in the response of both heart rate
+   503→   552→   576→   576→and O . As mentioned previously, heart rate is linear only up to 90 to 95
+   504→   553→   577→   577→2
+   505→   554→   578→   578→percent MHR, and then it smooths out and changes little in response to
+   506→   555→   579→   579→increasing workload. On the other hand, O continues to increase fairly
+   507→   556→   580→   580→2
+   508→   557→   581→   581→steadily all the way to maximum capacity. Figure 1.3 (see page 17) shows
+   509→   558→   582→   582→the relationship between heart rate and O during a maximum exercise
+   510→   559→   583→   583→2
+   511→   560→   584→   584→test. If you take a close look at the data, you’ll see that heart rate reaches
+   512→   561→   585→   585→maximum before O does. This means that you can increase intensity and
+   513→   562→   586→   586→2
+   514→   563→   587→   587→energy expenditure at maximum heart rate but not O max.
+   515→   564→   588→   588→2
+   516→   565→   589→   589→As intensity increases, so does energy expenditure, and O reflects
+   517→   566→   590→   590→2
+   518→   567→   591→   591→energy expenditure better than heart rate does. When we test subjects in the
+   519→   568→   592→   592→lab, we always determine energy expenditure from the oxygen consumption
+   520→   569→   593→   593→rates or O uptake. To do this, we need to understand the basic relationship
+   521→   570→   594→   594→2
+   522→   571→   595→   595→between energy expenditure (calories burned) and O . When people get a
+   523→   572→   596→   596→2
+   524→   573→   597→   597→O test, their scores are normally reported in milliliters of oxygen per
+   525→   574→   598→   598→2
+   526→   575→   599→   599→kilogram of body weight per minute (ml/kg/min). However, these data are
+   527→   576→   600→   600→actually recorded in liters per minute (L/min) and then converted to
+   528→   577→   601→   601→milliliters afterward. Consider this example of a 60-kilogram runner:
+   529→   578→   602→   602→Runner weight: 60 kg
+   530→   579→   603→   603→O max in L/min: 4.0 L/min
+   531→   580→   604→   604→2
+   532→   581→   605→   605→O max in ml/kg/min: 4.0 L × 1,000 = 4,000 ml
+   533→   582→   606→   606→2
+   534→   583→   607→   607→4,000 ml ÷ 60 kg = 66.6 ml/kg/min
+   535→   584→   608→   608→How much energy expenditure is taking place at this level? To answer
+   536→   585→   609→   609→this question, you need to remember the following relationship: 1 L oxygen
+   537→   586→   610→   610→= 5 cal. Therefore, a runner consuming 4.0 L/min (or 66 ml/kg/min) is
+   538→   587→   611→   611→burning approximately 20 calories per minute.
+   539→   588→   612→   612→--- PAGE 40 ---
+   540→   589→   613→   613→Now we can calculate the energy expenditure for any athlete in any sport
+   541→   590→   614→   614→at any intensity with some basic data. But more important, you can see that
+   542→   591→   615→   615→energy expenditure is a function of oxygen consumption and not necessarily
+   543→   592→   616→   616→of heart rate because the heart rate response to exercise changes as a
+   544→   593→   617→   617→function of many factors (which we’ll discuss in chapter 3), whereas O
+   545→   594→   618→   618→2
+   546→   595→   619→   619→tends to stay the same at rest or at any given workload.
+   547→   596→   620→   620→Any treadmill or stationary bike these days can calculate (guestimate)
+   548→   597→   621→   621→calories burned. When you exercise, you are moving a given load (your
+   549→   598→   622→   622→body weight) at a given speed or over a distance, or overcoming a load,
+   550→   599→   623→   623→such as the resistance on a bike. This provides a few known variables: loads
+   551→   600→   624→   624→or forces and distances. Using this information, we can calculate how much
+   552→   601→   625→   625→oxygen is needed to perform the workload. From there, we apply our 1 L
+   553→   602→   626→   626→oxygen = 5 cal calculation to get energy expenditure.
+   554→   603→   627→   627→When you get on a treadmill, the system asks for your weight. From
+   555→   604→   628→   628→there, it uses the speed and grade you select to calculate the rest. A
+   556→   605→   629→   629→stationary bike doesn’t need your body weight. Instead, it uses the selected
+   557→   606→   630→   630→level of resistance as the weight. As you get fitter, the O requirement
+   558→   607→   631→   631→2
+   559→   608→   632→   632→doesn’t change because the load stays the same, but your heart rate should
+   560→   609→   633→   633→decrease in response to the same load. This is another way to use heart rate
+   561→   610→   634→   634→to evaluate fitness response to a given workload. Now you can select a
+   562→   611→   635→   635→workout with the goal of burning a certain number of calories and even take
+   563→   612→   636→   636→it outside.
+   564→   613→   637→   637→By now you’re well on your way to understanding the relationships
+   565→   614→   638→   638→among intensity, heart rate, and O and can calculate anaerobic threshold
+   566→   615→   639→   639→2
+   567→   616→   640→   640→and heart rate changes at a given pace to changes in fitness over time,
+   568→   617→   641→   641→among other things. The coming chapters will add to your knowledge of
+   569→   618→   642→   642→how and why to use heart rate to guide your training program.
+   570→   619→   643→   643→--- PAGE 41 ---
+   571→   620→   644→   644→CHAPTER 2
+   572→   621→   645→   645→Evaluating and Customizing
+   573→   622→   646→   646→Your Zones
+   574→   623→   647→   647→T
+   575→   624→   648→   648→his chapter addresses what the heart rate numbers should look like
+   576→   625→   649→   649→depending on your chosen intensity. We also discuss calculating both
+   577→   626→   650→   650→maximum heart rate (MHR) and target heart rate zones properly. As we do
+   578→   627→   651→   651→this, we identify sources of error in the measurements so you’ll know right
+   579→   628→   652→   652→away if there’s a problem. Finally, we discuss how the numbers should
+   580→   629→   653→   653→change as you progress with your exercise program. Most important, you’ll
+   581→   630→   654→   654→understand how to manipulate your training times and intensities by using
+   582→   631→   655→   655→heart rate to ensure that you optimize your training and adaptations. We’ve
+   583→   632→   656→   656→included additional information about the heart rate response and
+   584→   633→   657→   657→distribution of the population in general to give you a bigger overall picture.
+   585→   634→   658→   658→However, we start with the basics—getting used to the heart rate monitor
+   586→   635→   659→   659→and learning what the numbers mean.
+   587→   636→   660→   660→Facts and Myths About Heart Rate
+   588→   637→   661→   661→Numbers
+   589→   638→   662→   662→What do heart rate numbers mean? Before interpreting the numbers, we’d
+   590→   639→   663→   663→like to share our experience in understanding heart rate responses to
+   591→   640→   664→   664→exercise. This is one of the most important benefits of this book because
+   592→   641→   665→   665→this information is seldom included in the instruction manuals that come
+   593→   642→   666→   666→with heart rate monitors. Knowing some basic truths and common
+   594→   643→   667→   667→--- PAGE 42 ---
+   595→   644→   668→   668→misunderstandings can help you avoid getting false feedback from your
+   596→   645→   669→   669→monitor. To see how well you understand heart rate, read each statement
+   597→   646→   670→   670→and determine if you believe it is true or false.
+   598→   647→   671→   671→1. The popular formula of subtracting your age from 220 bpm for
+   599→   648→   672→   672→predicting MHR is reliable for everyone.
+   600→   649→   673→   673→2. Treadmill or bike testing for MHR is not a learned skill and takes no
+   601→   650→   674→   674→experience.
+   602→   651→   675→   675→3. Treadmill or bike cardiac stress tests administered in physicians’
+   603→   652→   676→   676→offices often fall far short of revealing actual true MHR.
+   604→   653→   677→   677→4. A heart rate number is a heart rate number. In other words, once
+   605→   654→   678→   678→you’ve got a heart rate training zone for any sport, you can apply it
+   606→   655→   679→   679→across a range of sports.
+   607→   656→   680→   680→All in all, what you see on a heart rate monitor will be reliable and valid.
+   608→   657→   681→   681→But too many people who have spent money on monitors bury them in the
+   609→   658→   682→   682→back of their sock drawer and don’t use them because they have become
+   610→   659→   683→   683→frustrated by irrational numbers. So, let’s see how you did on the quiz.
+   611→   660→   684→   684→Myth 1: Predicting Maximum Heart Rate
+   612→   661→   685→   685→The idea that anyone can subtract his or her age from 220 bpm to predict a
+   613→   662→   686→   686→reliable MHR is a myth. That is only helpful for 65 percent of the
+   614→   663→   687→   687→population. Here’s a real-life example from Bob Johnson, who doesn’t
+   615→   664→   688→   688→realize that he has an exceptional heart. When he bought a monitor at age
+   616→   665→   689→   689→55, he had no idea that his MHR was way above predicted average. By
+   617→   666→   690→   690→using the age-adjusted formula suggested in the instructions that came with
+   618→   667→   691→   691→the monitor, he calculated his MHR to be 165. Using the standard target
+   619→   668→   692→   692→heart rate zone of 60 to 70 percent for an easy aerobic workout, he set his
+   620→   669→   693→   693→receiver to beep when he was outside the zone of 99 to 115 bpm. Bob went
+   621→   670→   694→   694→out for a jog and within minutes was exceeding 115 bpm. He slowed down
+   622→   671→   695→   695→to keep the alarm from sounding. In another few minutes, he was reduced to
+   623→   672→   696→   696→walking and then to a crawl to keep his monitor quiet. This was not the
+   624→   673→   697→   697→monitor’s fault. It was merely doing its job by warning him that he was out
+   625→   674→   698→   698→of his target zone. Bob knew that he was not in bad shape for his age, but
+   626→   675→   699→   699→this was shocking. After a few more workouts, Bob’s puzzlement over his
+   627→   676→   700→   700→new purchase was growing into a good case of frustration.
+   628→   677→   701→   701→--- PAGE 43 ---
+   629→   678→   702→   702→What was wrong? Bob didn’t realize that he had a smaller-than-average
+   630→   679→   703→   703→heart and that it could compensate by being able to reach a much higher
+   631→   680→   704→   704→MHR. In fact, his actual MHR turned out to be an even 200 bpm, 35 beats
+   632→   681→   705→   705→higher than predicted by the conventional formula.
+   633→   682→   706→   706→So what’s the story? Let’s start with this fact: The average MHR of a
+   634→   683→   707→   707→brand-new baby, who has a heart the size of a walnut, is 220 bpm. And we
+   635→   684→   708→   708→know that as a person grows up, the heart also grows bigger. At adulthood,
+   636→   685→   709→   709→the heart is about the size of the person’s fist. Naturally, it has more
+   637→   686→   710→   710→capacity for holding blood in its chambers. This means that more blood is
+   638→   687→   711→   711→pumped with each stroke (greater stroke volume), and hence, fewer beats
+   639→   688→   712→   712→are required. By age 20, growth of the heart brings the average MHR down
+   640→   689→   713→   713→to about 195 bpm. From that age, the aging process causes a further decline
+   641→   690→   714→   714→at the convenient rate of about one beat per year. This explains the logic of
+   642→   691→   715→   715→the formula 220 minus age equals predicted MHR.
+   643→   692→   716→   716→Now here is the key to understanding why Bob could hit 200 at age 55.
+   644→   693→   717→   717→Maximum heart rates are naturally spread across the standard distribution of
+   645→   694→   718→   718→a bell-shaped curve. As with intelligence, there is a wide range from one
+   646→   695→   719→   719→end of the curve to the other for people of the same age. On each of the plus
+   647→   696→   720→   720→and minus sides of the mean is a standard distribution of MHR of 12 bpm.
+   648→   697→   721→   721→This distribution means that only those at the mean can reliably predict
+   649→   698→   722→   722→MHR by using the age-adjusted formulas. Depending on where you fall on
+   650→   699→   723→   723→the curve, your MHR may be as high as 36 bpm above or below what the
+   651→   700→   724→   724→formula predicts.
+   652→   701→
+   653→   702→[showing lines 25-724 of 761; use offset=725 with limit to continue reading]

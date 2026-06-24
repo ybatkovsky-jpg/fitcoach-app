@@ -1,0 +1,602 @@
+  4550→9
+  4551→
+  4552→Programming
+  4553→Components and
+  4554→Training Variables
+  4555→O
+  4556→
+  4557→ne of the most exciting elements of training is the body’s ability to adapt to
+  4558→virtually any stimulus. It’s these very adaptations that help clients get the
+  4559→sort of results they seek. Understanding programming principles and knowing
+  4560→how to manipulate the training variables makes this change possible. However,
+  4561→knowledge is not the same as having practical application skills; this is where
+  4562→the sample programs and sidebars in this book come into play. This chapter
+  4563→will help you bring your workouts to life using the teaching and communication
+  4564→skills you learned in chapters 6 and 7.
+  4565→Here you’re provided with the foundational information you’ll need to help
+  4566→your clients get results, along with ideas for how to construct effective programs for your classes. When the principles are correctly applied, working out
+  4567→is no longer a random series of exercises put together without true purpose,
+  4568→but instead a logical progression that leads from foundational skills to a more
+  4569→advanced training stimulus. The exercise and program progressions will help
+  4570→you develop appropriate programs for your classes based on sound principles.
+  4571→
+  4572→Specificity, Overload, and Progression
+  4573→A resistance training program is planned around the needs, goals, and current
+  4574→condition of the clients. Effective, long-term adaptation to a resistance training
+  4575→stimulus is guided by key principles that allow the body to adapt to the stress
+  4576→response from resistance training. This stress response can be created by a
+  4577→manipulation of the three primary principles of resistance training. These
+  4578→three principles are specificity, overload, and progression. The goal of exercise
+  4579→program design is to manipulate the variables of specificity, overload, and
+  4580→progression for a desired outcome. This creates a training overload and causes
+  4581→physical adaptation.
+  4582→
+  4583→95
+  4584→
+  4585→96   A Professional’s Guide to Small-Group Personal Training
+  4586→
+  4587→Principle of Specificity
+  4588→Our body adapts to the specific demands imposed on it. This principle of specificity is critical to understand! The specific adaptation to imposed demands
+  4589→(SAID) principle of training means that, for example, when a client works with
+  4590→barbells, their body will adapt to that stimulus, then when the same exercises
+  4591→are performed with dumbbells, they will readapt. Each change of equipment
+  4592→is a different stimulus and each new exercise provides a different training
+  4593→overload, even when using the same muscle group.
+  4594→This also means that when transitioning new clients from machine-based
+  4595→training into a small group with different equipment, there will be a whole new
+  4596→set of adaptation challenges. Balance, coordination, body control, and stabilization are new constraints that the individual needs to develop in order to
+  4597→perform skills correctly. For a client who’s been training on a machine, the pads
+  4598→of the machine stabilize and hold the body in place, the arms of the machine
+  4599→guide the limbs, and although strength is built, less control, stabilization, or
+  4600→balance is involved. Transitioning the client to standing exercises with elastic
+  4601→resistance bands means that loads need to be lighter, communication needs to
+  4602→be clear and concise, and exercise progressions and regressions become critical.
+  4603→The beauty of the specificity principle is that when training with simple exercises that represent functional movements found in daily life, such as squats,
+  4604→lunges, pushing, pulling, and rotational movements, an improvement in elements like coordination, balance, and body control is seen, thereby enhancing
+  4605→sports performance or activities of daily life. Clients who train functionally
+  4606→will naturally develop more coordination, body control, and balance, leading
+  4607→to greater movement efficiency.
+  4608→
+  4609→Principle of Overload
+  4610→To produce desired adaptations to a training program, the variables of the exercise program must be manipulated to create an overload on the physiological
+  4611→systems of the body. Overload can be achieved by increasing the load, increasing the volume (number of reps or sets), or decreasing rest between exercises
+  4612→or sets. In other words, for training to be effective, it’s necessary to drive the
+  4613→body to work harder than what it’s used to doing. The level of overload must
+  4614→be appropriate to the training experience and fitness level of the clients. When
+  4615→this principle is not correctly applied, injuries are more likely to occur. Muscles
+  4616→gain strength more rapidly than tendons and ligaments, so appropriate loading
+  4617→is an important consideration. For deconditioned and inexperienced clients,
+  4618→less intensity can provide adequate overload.
+  4619→Volume is defined as the total amount of work performed (weight lifted)
+  4620→during an exercise session. It is generally expressed as a product of intensity ×
+  4621→sets × number of repetitions. The total volume of a workout must be dictated
+  4622→by training experience and goals of the clients. Volume increases time under
+  4623→tension (TUT), which provides the training stimulus for muscular hypertrophy.
+  4624→Greater volume also requires greater amounts of time and should therefore be
+  4625→considered when planning your classes. Most critical is the fact that high-volume
+  4626→training is a natural progression and is unsuitable for novice exercisers. When
+  4627→training deconditioned individuals, lower workout volumes are more appropriate.
+  4628→Intensity is defined as the specific amount of resistance or external load
+  4629→applied to muscles. If the same resistive force is consistently applied, then
+  4630→
+  4631→Programming Components and Training Variables   97
+  4632→
+  4633→the muscle will not be stimulated and a training overload will not be created.
+  4634→Intensity is written as a percentage of the maximum amount of weight lifted
+  4635→for one repetition, or one-repetition max (1RM). Greater intensities increase
+  4636→motor unit recruitment and muscle force production, which translates into
+  4637→gains in strength and power. The external load must also be appropriately
+  4638→applied. Again, for deconditioned individuals, less intensity is more appropriate. For those groups, lower percentages of the 1RM are important to prevent
+  4639→injuries. As clients gain experience, greater levels of intensity can be tolerated
+  4640→and are necessary to continue making gains. Experienced clients will benefit
+  4641→from training at higher percentages of the 1RM.
+  4642→Table 9.1 is an example of the training outcomes for different volumes and
+  4643→intensities. This table is based on a periodization model of training, which
+  4644→means that a client begins with muscular endurance before moving to the next
+  4645→phase of training. Each training phase could take anything from three to eight
+  4646→weeks before progressing to the next phase. Remember that progressions in
+  4647→intensity and volume should always be in small increments. Even with strength
+  4648→as the goal, starting a novice exerciser at greater than 85 percent 1RM would be
+  4649→inadvisable. A good place to start would be to set a goal of improving muscular
+  4650→endurance, then building to the development of larger muscle mass, before
+  4651→moving to true strength training. The foundation must be built before progressing to greater increases in intensity and volume to ensure that ligaments
+  4652→and tendons are also ready for increases in intensity. Each phase has specific,
+  4653→goal-oriented variables of intensity and volume. Although this table may look
+  4654→confusing at first glance, a progressive training scheme is one of the keys to
+  4655→preventing overtraining or injury.
+  4656→
+  4657→TABLE 9.1 Training Outcome Recommendations for Repetitions,
+  4658→Sets, and Intensity
+  4659→Training goal
+  4660→
+  4661→Repetitions
+  4662→(per set)
+  4663→
+  4664→Sets
+  4665→(per exercise)
+  4666→
+  4667→Intensity
+  4668→(%1RM)
+  4669→
+  4670→Muscular endurance
+  4671→
+  4672→≥12
+  4673→
+  4674→2-3
+  4675→
+  4676→<67%
+  4677→
+  4678→Hypertrophy
+  4679→
+  4680→6-12
+  4681→
+  4682→3-6
+  4683→
+  4684→67%-85%
+  4685→
+  4686→Strength
+  4687→
+  4688→<6
+  4689→
+  4690→2-6
+  4691→
+  4692→>85%
+  4693→
+  4694→Adapted by permission from NSCA, "Program Design for Resistance Training," by J.M. Sheppard and N.T. Triplett, in Essentials of Strength Training and Conditioning, 4th ed, edited by G.G. Haff and N. T. Triplett (Champaign, IL: Human Kinetics,
+  4695→2016), 458, 463.
+  4696→
+  4697→Principle of Progression
+  4698→A training overload must be achieved in order to trigger changes. To create
+  4699→the safe and effective overload necessary to facilitate adaptation, the intensity,
+  4700→volume, and movement complexity must be increased gradually over time. Allow
+  4701→adequate time for adaptation before progressing to more challenging levels of
+  4702→intensity, volume, or movement complexity. If this principle is not adhered to,
+  4703→there is a high likelihood of injury.
+  4704→Progression must always be appropriate to the goal and fitness level of the
+  4705→client. Movement complexity and skill level of the clients is also an important
+  4706→component of progression to bear in mind. Progressions with small, incremental
+  4707→
+  4708→98   A Professional’s Guide to Small-Group Personal Training
+  4709→
+  4710→changes allow time for adaptation, so as not to physically and psychologically
+  4711→overwhelm your groups. Change only one element at a time and only alter the
+  4712→exercise once the client has mastered it. Remember that dramatic increases
+  4713→in intensity can be counterproductive, even to the advanced-level exerciser.
+  4714→
+  4715→Periodization
+  4716→Resistance training programs consist of numerous variables, including load
+  4717→(intensity), volume (reps and sets), frequency, rest interval, exercise selection,
+  4718→and exercise order (Williams et al., 2017). Periodization is defined as planned,
+  4719→cyclical (i.e., the program repeats) manipulation of these resistance training
+  4720→variables to attain peak performance at specific times of the year (Evans, 2019).
+  4721→In small-group training, an important consideration may be that load is not
+  4722→always a variable that can easily be manipulated. Bodyweight exercises and
+  4723→commonly used equipment such as rubber resistance bands and suspension
+  4724→training systems limit how much load can be added; therefore other variables
+  4725→(volume, rest interval, exercise selection, and exercise order) may need to be
+  4726→adjusted for SGT programming when considering the objectives of the group.
+  4727→Periodization training originated in sports with an annual competitive season,
+  4728→which require different levels of training volume, intensity, and specificity;
+  4729→these variables are manipulated depending on the competition schedule and
+  4730→the athlete’s goal. The method was developed to prevent overtraining, help prevent plateaus, and build optimal performance and fitness for the competitive
+  4731→season. Evans (2019) cites research indicating that lengthy periods of training
+  4732→that lack variation results in stagnation and fatigue. Consequently, one of the
+  4733→main purposes of periodization is to provide structure to the variability in
+  4734→the training components to decrease the likelihood of a plateau or decline in
+  4735→physical (and mental) performance. The success of periodization in sports has
+  4736→brought the protocol into mainstream fitness settings and with smart planning,
+  4737→can be incorporated into SGT settings.
+  4738→There are three basic periodization models: linear, block, and undulating or
+  4739→nonlinear. The two focused on here are linear and undulating. The training cycles
+  4740→are broken into phases that focus on one or more goals. The phase length can
+  4741→vary from sport to sport, depending on the length of the general physical conditioning, sports-specific training, and competitive season. For general conditioning
+  4742→for small-group training, the phases for linear periodization may be as follows:
+  4743→■
+  4744→■
+  4745→■
+  4746→
+  4747→Microcycle: Single training session or one week of training
+  4748→Mesocycle: Two to three weeks of training
+  4749→Macrocycle: Four weeks of training
+  4750→
+  4751→In SGT settings, a macrocycle may be four to eight weeks, depending on how
+  4752→you set up your training schedule, the goals of the group, and the type of people
+  4753→you work with. It may also follow linear or undulating formats, depending
+  4754→on your clients’ needs and goals. Each of the microcycle goals move toward a
+  4755→common mesocycle goal, and the mesocycle goals aim for the overall macrocycle goal. This type of training plan works well for closed sessions, in which
+  4756→you have continuity and consistency with your groups. Figure 9.1 provides
+  4757→an example of a four-week macrocycle, within which there are two two-week
+  4758→mesocycles and four one-week microcycles.
+  4759→
+  4760→Programming Components and Training Variables   99
+  4761→
+  4762→Figure 9.1
+  4763→
+  4764→Four-week macrocycle periodization model
+  4765→
+  4766→Macrocycle 1 (4 weeks)
+  4767→
+  4768→Mesocycle 1 (2 weeks)
+  4769→
+  4770→Week 1: Microcycle 1
+  4771→Week 2: Microcycle 2
+  4772→
+  4773→Mesocycle 2 (2 weeks)
+  4774→
+  4775→Week 3: Microcycle 3
+  4776→Week 4: Microcycle 4
+  4777→
+  4778→Linear Periodization
+  4779→The phases of training for linear periodization change load (intensity), volume,
+  4780→frequency, and rest in sequence according to the goals of each phase. This
+  4781→strategy starts with high volume, low intensity and then progresses to low
+  4782→volume, high intensity (Grgic et al., 2017). Each phase builds toward the next,
+  4783→thereby creating a foundation for the increases in intensity and volume in the
+  4784→subsequent stage. Theoretically, the initial high-volume phase provides the
+  4785→stimulus for hypertrophy and the later high-intensity period challenges the
+  4786→neural mechanisms in the body (Kok, Hamer, & Bishop, 2009). This cyclical
+  4787→manipulation of the training variables allows the body to adequately adapt to
+  4788→each phase. See figure 9.2 for a sample of how the phases are broken down
+  4789→using linear periodization.
+  4790→
+  4791→Figure 9.2 Typical linear periodization
+  4792→progression model
+  4793→Macrocycle (4+ weeks)
+  4794→
+  4795→Mesocycle (2-3 weeks)
+  4796→
+  4797→Microcycle (1 week)
+  4798→
+  4799→Mesocycle 1: Muscular
+  4800→endurance
+  4801→
+  4802→Build general muscular endurance,
+  4803→with low force and higher volume (2-3
+  4804→sets of 12-15 reps)
+  4805→
+  4806→Mesocycle 2: Muscular
+  4807→hypertrophy
+  4808→
+  4809→Muscular hypertrophy involving higher
+  4810→volume and varying loads (3-5 sets of
+  4811→6-12 reps)
+  4812→
+  4813→Mesocycle 3: Muscular
+  4814→strength
+  4815→
+  4816→Muscular strength, with highest load
+  4817→and lower volume (3-5 sets of 3-6
+  4818→reps)
+  4819→
+  4820→Mesocycle 4: Muscular
+  4821→power
+  4822→
+  4823→Explosive training, with high load,
+  4824→lower volume (3-5 sets of 2-4 reps)
+  4825→
+  4826→Undulating Periodization
+  4827→Undulating periodization involves frequent alterations in volume and intensity within a training program; these alterations often occur weekly or daily
+  4828→(Evans, 2019). When employing undulating periodization, each microcycle
+  4829→focuses on one specific goal: This could be high intensity, low volume, or low
+  4830→
+  4831→100   A Professional’s Guide to Small-Group Personal Training
+  4832→
+  4833→intensity high volume, for example. Evans’s research indicates that undulating
+  4834→periodization programs are likely the best choice for strength development.
+  4835→McNamara and Stearne (2010) propose that undulating programs have the
+  4836→advantage of a decrease in overtraining and mental boredom while allowing the
+  4837→greatest adaptability to travel or possible disruptions in the training program.
+  4838→Linear periodization doesn’t allow flexibility in this way. The training variables
+  4839→can be applied in any order according to your clients’ needs and goals, offering
+  4840→greater flexibility in their application.
+  4841→The advantages of undulating, or nonlinear, periodization in small-group
+  4842→training are many, especially for drop-in open sessions that don’t lend themselves to ongoing participation. It allows greater flexibility for the participants
+  4843→because it’s not as strict as a linear model. Undulating periodization has been
+  4844→studied in moderately resistance-trained women. Pelzer, Ullrich, and Pfeiffer
+  4845→(2017) researched the training effects of an undulating periodized program
+  4846→with 19 female college-aged students (none of whom were competitive athletes),
+  4847→and determined that both linear and undulating periodization programs were
+  4848→effective at producing hypertrophy in a time period of four to six weeks. In a
+  4849→unique study, De Souza et al. (2018) examined different patterns in muscular
+  4850→strength and hypertrophy adaptations in untrained individuals undergoing
+  4851→nonperiodized and periodized strength regimens. It was determined that in
+  4852→the latter part of a training program (after the initial six weeks) the periodized
+  4853→regimens elicited greater rates of muscular adaptations compared to non-periodized regimens, and that periodized regimens might be advantageous at
+  4854→latter stages of training even for untrained individuals.
+  4855→Figure 9.3 is an example of a four-week macrocycle utilizing an undulating
+  4856→model with a focus on hypertrophy. As illustrated, there are more hypertrophy
+  4857→workouts than strength or endurance. The emphasis can be changed based on
+  4858→the group goals. If your group has a six-week macrocycle, two more microcycle
+  4859→weeks would be added.
+  4860→
+  4861→Figure 9.3 Four-week undulating macrocycle
+  4862→periodization model emphasizing hypertrophy
+  4863→Macrocycle (4 weeks)
+  4864→
+  4865→Mesocycle 1
+  4866→
+  4867→Mesocycle 2
+  4868→
+  4869→Microcycle (week 1)
+  4870→
+  4871→Monday: Endurance
+  4872→Wednesday: Hypertrophy
+  4873→Friday: Strength
+  4874→
+  4875→Microcycle (week 2)
+  4876→
+  4877→Monday: Hypertrophy
+  4878→Wednesday: Strength
+  4879→Friday: Hypertrophy
+  4880→
+  4881→Microcycle (week 3)
+  4882→
+  4883→Monday: Endurance
+  4884→Wednesday: Strength
+  4885→Friday: Hypertrophy
+  4886→
+  4887→Microcycle (week 4)
+  4888→
+  4889→Monday: Hypertrophy
+  4890→Wednesday: Strength
+  4891→Friday: Hypertrophy
+  4892→
+  4893→Endurance: General muscular endurance, low load and higher volume (2-3 sets of 12-15 reps)
+  4894→Hypertrophy: High volume and varying loads (3-5 sets of 6-12 reps)
+  4895→Muscular strength: Highest load and lower volume (3-5 sets of 3-6 reps)
+  4896→
+  4897→Programming Components and Training Variables   101
+  4898→
+  4899→Ultimately, whether you decide to employ some sort of periodized plan in
+  4900→your training is based on the type of business model you have set up (closed or
+  4901→open session), your clients’ goals and needs, and the type of equipment available
+  4902→(heavier loads versus body weight). Studies that favor the results gained from
+  4903→a periodized model; clients’ goals, your business model, and available equipment may dictate whether or not periodization is appropriate. The programs
+  4904→outlined in this book offer a good starting place to manipulate the training
+  4905→variables and provide a periodized model of training that fits your clients. Use
+  4906→the basic structure of each plan, then vary the volume, intensity, exercise order,
+  4907→exercise selection, and rest interval to suit the needs and goals of your clients.
+  4908→
+  4909→Movement-Based Training
+  4910→Movement-based training, also known as functional training, is useful for individuals of all ages and abilities. It’s important to understand how all the body’s
+  4911→systems interact and work together, whether it’s finding a balance between
+  4912→the relationships of joint stability or appreciating how the body can create
+  4913→compensations for weakness. Recognizing how each system can support the
+  4914→enhancement of fitness and decrease the potential for injury assists trainers
+  4915→in designing goal-specific programs.
+  4916→
+  4917→Elements of Human Movement
+  4918→When broken into its raw components, human
+  4919→movement is a blend of multiple elements,
+  4920→with each intrinsically linked to the next—stability and mobility; coordination and balance;
+  4921→strength, flexibility, and endurance; and a
+  4922→motor program (see figure 9.4). This cyclical
+  4923→linkage means that each element is dependent on the other. If any of these elements
+  4924→are missing, movement efficiency decreases.
+  4925→Movement-based training builds whole-body
+  4926→coordination, which in turn enhances the stability and mobility relationships, which improve
+  4927→strength, flexibility, and endurance, which in
+  4928→turn will develop balance and the motor program. Ultimately, this entire cycle boosts fitness
+  4929→and well-being and decreases the potential for
+  4930→injury and movement deficiencies.
+  4931→
+  4932→Stability
+  4933→and
+  4934→mobility
+  4935→
+  4936→Motor
+  4937→program
+  4938→
+  4939→Human
+  4940→movement
+  4941→
+  4942→Coordination
+  4943→and balance
+  4944→
+  4945→Strength,
+  4946→flexibility, and
+  4947→endurance
+  4948→
+  4949→FIGURE 9.4
+  4950→Elements of human movement.
+  4951→E7020/Roberts/F09.04/649441/mh-R2
+  4952→
+  4953→Stability
+  4954→Stuart McGill, a spine research expert in sports and fitness and author of Low
+  4955→Back Disorders, states that stability is “your ability to maintain your posture
+  4956→and balance while moving your extremities” and that “increasing stiffness of
+  4957→the muscles increases stability and increases ability to support larger loads
+  4958→without failing” (2002). Training for stability is synonymous with core training.
+  4959→One mistake frequently made by trainers when core training is using static
+  4960→exercises, in which the position is sustained, the extremities are stationary,
+  4961→and the exercise is made more challenging by increasing the duration. However, as McGill succinctly put it, “while moving your extremities” is the key to
+  4962→
+  4963→102   A Professional’s Guide to Small-Group Personal Training
+  4964→
+  4965→training the core. Instead of simply holding the position, increase the intensity
+  4966→by moving the arms and legs through different planes of motion.
+  4967→
+  4968→Mobility
+  4969→Mobility allows the body to move fluidly, promotes good posture, and provides
+  4970→flexibility. Mobility is flexibility in action and can best be described as the
+  4971→synergistic actions of the skeletal joints and neuromuscular systems to allow
+  4972→uninhibited range of movement around a joint. Mobility is also dependent on
+  4973→joint structure to provide this freedom of movement, however, it must never
+  4974→compromise joint stability. For example, a ball-and-socket joint has greater
+  4975→mobility than a hinge joint. Just like stability, mobility allows the body to move
+  4976→efficiently. For professionals who sit for a living, whether behind a computer or
+  4977→the wheel of a car, the high volume of low-amplitude movement creates huge
+  4978→imbalances between stability and mobility. These are the folks who most need
+  4979→mobility training!
+  4980→
+  4981→Balance
+  4982→In order to have efficient human movement, balance is critical, particularly for
+  4983→the active older adult. Including exercises that challenge your client’s ability to
+  4984→maintain their center of gravity over their base of support, both dynamically
+  4985→and statically, is essential for preventing falls. Beyond mechanical balance,
+  4986→training the body to have good symmetry between opposing muscle groups
+  4987→can assist in injury prevention.
+  4988→The human body’s segments have a natural
+  4989→tendency to be either more stable or more
+  4990→Stability
+  4991→Mobility
+  4992→mobile based on how they need to function. For
+  4993→example, the foot needs elements of mobility but
+  4994→also needs to be stable enough to push off during
+  4995→Scapulothoracic
+  4996→Glenohumeral
+  4997→the gait cycle. The ankle needs to have excellent
+  4998→joint
+  4999→joint
+  5000→mobility in all three planes of motion, whereas
+  5001→the knee is a hinge joint, a naturally stable strucThoracic
+  5002→ture, moving primarily in the sagittal plane. The
+  5003→spine
+  5004→lumbar spine is also a stable structure, with the
+  5005→facet joints designed to only have one degree of
+  5006→Lumbar
+  5007→freedom, providing only limited movement in
+  5008→spine
+  5009→the sagittal plane. Further up the spine is the
+  5010→Hip
+  5011→thoracic spine, a mobile structure that has three
+  5012→degrees of freedom and movement in all three
+  5013→planes to allow full mobility for activities of
+  5014→daily living and many sports. The problem many
+  5015→clients have is a lack of mobility in their mobile
+  5016→structures, leading to overcompensation in the
+  5017→stable structures. For example, if a client has a
+  5018→thoracic spine that’s locked down and immobile
+  5019→due to a desk job, chances are they will not only
+  5020→Knee
+  5021→have an upper back problem, but also a lower
+  5022→back and shoulder problem. This is due to the
+  5023→law of facilitation.
+  5024→Figure 9.5 demonstrates the rhythm and balFoot
+  5025→Ankle
+  5026→ance between the body segments and joints from
+  5027→the foot to the shoulder. All the joints exhibit
+  5028→FIGURE 9.5 Stability–mobility relationships.
+  5029→E7020/Roberts/Fig. 09.05/649442/HR/R2
+  5030→
+  5031→Programming Components and Training Variables   103
+  5032→
+  5033→THE LAW OF FACILITATION
+  5034→When examining the human movement system, there is one additional element to
+  5035→consider: the law of facilitation. This principle is based on the idea that the human
+  5036→body will facilitate movement along the path of least resistance and will move habitually through the same path of motion, even when there is a lack of movement
+  5037→efficiency. These compensatory movement patterns become so ingrained that the
+  5038→individual may not be conscious of the habit. Think of someone walking with a limp.
+  5039→Without being aware, they favor one side of the body and their gait changes to accommodate pain and the movement pattern then becomes habitual.
+  5040→It’s also important to consider how this affects the stability–mobility relationships
+  5041→of the body. When a mobile joint lacks mobility, the body will facilitate that movement from the stable structure above or below in another plane of motion. This further disrupts the motor program, and smooth, coordinated, efficient motor patterns
+  5042→develop into movement compensations. For example, a knee problem is frequently
+  5043→caused by an ankle’s lack of mobility, forcing the knee to move into other planes of
+  5044→motion. It’s easy to look at the symptom and not the cause, but by understanding
+  5045→the relationships between stability and mobility, you can begin to unlock the secrets
+  5046→behind the causes of many of the body’s compensatory tendencies.
+  5047→Considering these relationships is important for exercise selection, program design, and injury prevention. Although the individual goals of group training make
+  5048→this more challenging, all human bodies function similarly. If you run a corporate
+  5049→wellness program, for example, you may have weight loss, stress reduction, and
+  5050→strength gain as individual goals for each client, but most of them sit for a living and
+  5051→will therefore have related stability and mobility issues.
+  5052→
+  5053→different levels of stability and mobility based on joint structure and function.
+  5054→Ball-and-socket joints are naturally more mobile, whereas hinge joints are
+  5055→stable. The facet joints of the lumbar spine are primarily stable and have only
+  5056→small amounts of movement, which occur mostly in the sagittal plane.
+  5057→
+  5058→Strength
+  5059→The ability to apply maximal force against gravity or resistance can be considered a good general definition of strength. Strength is an important element of
+  5060→fitness that should be developed in order to prevent age-related sarcopenia, or
+  5061→the loss of muscle mass after the age of 35. As the human body ages, sarcopenia
+  5062→can also cause a general overall decrease in mobility. Most research agrees that
+  5063→sarcopenia involves the loss of type II (fast-twitch) muscle fibers first, which
+  5064→means movements are not as powerful or quick. This in turn can increase the
+  5065→likelihood of a fall, because the body has to react quickly and powerfully to a
+  5066→loss of equilibrium. Therefore, maintaining or gaining muscular strength is an
+  5067→important goal for most fitness and wellness programs.
+  5068→
+  5069→Flexibility
+  5070→Optimal flexibility allows the body to move through a functional range of
+  5071→motion. In other words, you could say that people need to be as flexible as they
+  5072→need to be for what they do. A gymnast, for example, needs extreme levels of
+  5073→flexibility for their sport, yet a runner needs much less flexibility. If you were
+  5074→
+  5075→104   A Professional’s Guide to Small-Group Personal Training
+  5076→
+  5077→to compare the flexibility demand differences between a marathoner and a
+  5078→sprinter, however, you’d see that a sprinter also moves through much larger
+  5079→ranges of motion compared to someone who runs distance. When designing
+  5080→flexibility into your programs, you must consider what function that range
+  5081→of motion will provide for your clients’ activities of daily living and potential
+  5082→sports performance.
+  5083→
+  5084→Endurance
+  5085→Endurance is the ability to maintain or continue muscular contraction or
+  5086→cardiovascular movement. In cardiovascular terms, the heart, lungs, and vascular system are being trained to improve efficiency. With so many benefits
+  5087→to enhanced cardiovascular conditioning, it’s an essential element of health,
+  5088→fitness, and well-being. Muscular endurance training targets type I (slow-twitch)
+  5089→muscle fibers, which function for most sustained activities (e.g., postural stability). Many isometric core exercises train these muscles to sustain a desired
+  5090→specific position, such as prone or side planks. Even if traditional strength
+  5091→or hypertrophy are the program goals, maintaining muscular endurance for
+  5092→different areas of the body is valuable.
+  5093→
+  5094→Motor Program
+  5095→Motor program, or coordination, is the ability to move efficiently and as
+  5096→intended. When the body is trained as an integrated whole, the motor program
+  5097→is also trained as a direct result of these unified movement patterns. As skill
+  5098→is developed, there is a greater capacity for work because the client is able to
+  5099→train with greater efficiency.
+  5100→
+  5101→Patterns of Human Movement
+  5102→Human movement can be broken down into five primary patterns:
+  5103→1. Bilateral bend and lift (i.e., squat, deadlift, hip hinge)
+  5104→
+  5105→Programming Components and Training Variables   105
+  5106→
+  5107→2. Single-leg stance (i.e., gait, lunge, step-up, single-leg squat)
+  5108→
+  5109→3. Horizontal or vertical push (i.e., shoulder and chest musculature)
+  5110→
+  5111→4. Horizontal or vertical pull (i.e., shoulder and back musculature)
+  5112→
+  5113→106   A Professional’s Guide to Small-Group Personal Training
+  5114→
+  5115→5. Rotational and spiral movements (i.e., rib cage and pelvis moving in
+  5116→sync or out of sync)
+  5117→
+  5118→When movement-based training is the primary focus, each of these movement
+  5119→patterns should be included to enhance coordinated strength. A balanced and
+  5120→complete program will include
+  5121→all five patterns through all
+  5122→Sagittal
+  5123→plane
+  5124→planes of motion. By balancing the planes of motion with
+  5125→all five movement patterns,
+  5126→improved muscle symmetry is
+  5127→the outcome.
+  5128→
+  5129→Three Planes of Human
+  5130→Movement
+  5131→As an SGT instructor, it’s critical to understand the application of the planes of motion.
+  5132→Because different muscle
+  5133→groups work in different planes
+  5134→of motion, it’s important to
+  5135→create a program that trains
+  5136→the body through all planes
+  5137→to effectively train muscular
+  5138→balance. Training in all planes
+  5139→adapts the body more effectively to all activities of daily
+  5140→living and sports performance.
+  5141→The three planes of human
+  5142→movement are frontal, sagittal,
+  5143→and transverse (see figure 9.6).
+  5144→
+  5145→Transverse
+  5146→plane
+  5147→
+  5148→Frontal
+  5149→plane
+
+[showing lines 4550-5149 of 11901; use offset=5150 with limit to continue reading]

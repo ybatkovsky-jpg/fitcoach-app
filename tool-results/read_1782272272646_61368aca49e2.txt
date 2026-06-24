@@ -1,0 +1,602 @@
+   560→In table 1.3 , day 2 represents what the same day 1 lift might look like after a
+   561→long week of studying for finals, and a few nights out with friends. When we
+   562→take into account the various stressors that have been placed on this athlete
+   563→during the week, according to this athlete’s bar speed, the baseline 85 percent
+   564→now equates to roughly 95 percent of 1RM. Without the use of VBT, this athlete
+   565→may continue to muscle through the next four sets and possibly get hurt.
+   566→However, getting external cueing from VBT can let this athlete know early to
+   567→decrease the weight due to poor readiness on this particular day.
+   568→Take another look at table 1.3 and focus on day 3. Having aced all the tests
+   569→and taking better care of one’s body, this athlete’s next upper-body day shifts to
+   570→the other side of the curve. Here, the 85 percent that was prescribed now looks
+   571→more like 75 percent. Removing the negative stressors in this athlete’s life (in
+   572→this case worrying about test scores and nights out on the town) could attribute to
+   573→the increase in bar speed. It could also be that the athlete simply got stronger.
+   574→Either way, if the athlete continues to work at this speed and percentage, the
+   575→athlete may be undertraining and thus not getting the specific adaptation needed
+   576→for absolute strength.
+   577→This is just one example of how getting daily external feedback from VBT
+   578→not only helps athletes chase the specific adaptation they are looking for but also
+   579→helps prevent injury or even undertraining resulting from fluctuations in 1RM
+   580→because of day-to-day stress levels.
+   581→VBT allows us to better identify specific strength zones in order to create the
+   582→specific adaptations we are trying to produce with our athletes. While these
+   583→velocities are closely correlated at traditional 1RM, there will always be
+   584→discrepancies among athletes because of genetic makeup and training age. I have
+   585→personally witnessed the power and competitive environment VBT produces
+   586→through external cuing when working with my athletes in groups in the weight
+   587→room.
+   588→
+   589→CHAPTER
+   590→
+   591→2
+   592→Understanding the Metrics
+   593→Not all velocities are created equal. This chapter discusses the three types of
+   594→measuring protocols used for implementing VBT. It explains the significance of
+   595→each and why one metric may be more suitable than another depending on which
+   596→adaptation—strength, speed, or power—an athlete is looking to improve. This
+   597→chapter also reviews what eccentric and concentric contractions are, why they
+   598→are important, and how they play an integral role in VBT.
+   599→
+   600→ECCENTRIC AND CONCENTRIC
+   601→CONTRACTIONS AND DECELERATION
+   602→To understand the different metrics associated with VBT, we must first review
+   603→eccentric and concentric muscle contractions as well as deceleration in order to
+   604→know why different methods of tracking velocity should be used. The ability to
+   605→get in and out of concentric and eccentric muscle contractions quickly and more
+   606→efficiently allows athletes to better use the stretch shortening cycle (SSC) to
+   607→produce force at fast rates (discussed in greater depth in chapter 6) and
+   608→ultimately produce more power. This ability is the gold standard in performance
+   609→and is a big part of what separates elite athletes from the rest of the athletic field.
+   610→During this discussion, keep in mind that VBT only measures the concentric
+   611→portion of the lift or movement. However, it’s vitally important to understand the
+   612→eccentric portion because it substantially boosts the acceleration of the
+   613→concentric portion when we monitor bar or body speeds. This makes the
+   614→eccentric portion of the movement a key performance indicator (KPI) as well
+   615→when playing sports.
+   616→
+   617→Eccentric Contraction
+   618→An eccentric muscle contraction is the motion of an active muscle while it is
+   619→lengthening under a load. When a muscle contracts eccentrically, it is absorbing
+   620→energy (as opposed to a concentric contraction which uses energy). The
+   621→lengthening of the muscle also puts the tendons on slack as shown in figure 2.1.
+   622→
+   623→An eccentric muscle contraction is the motion of an active
+   624→muscle while it is lengthening under a load.
+   625→During this process, a few things happen—the muscle absorbs energy
+   626→developed by the external load in order to support the weight of the body against
+   627→gravity, helping absorb shock and reducing the risk of injury. On the
+   628→performance side, the storage of this elastic energy helps the muscle to recoil in
+   629→preparation for the following concentric contraction (i.e., acceleration). For
+   630→example, a countermovement jump improves the eccentric strength of the
+   631→muscle and helps the athlete store energy more easily in the low position (see
+   632→figure 2.2a), increasing neural drive and switching quickly to the concentric, or
+   633→elastic recoil, position, of the jump (see figure 2.2b).
+   634→
+   635→Figure 2.1 Eccentric muscle contraction.
+   636→
+   637→In addition, eccentric contractions require far less motor unit activity
+   638→(approximately four times less) and consume much less oxygen for a given
+   639→muscle movement than concentric contractions. These reductions allow an
+   640→eccentric contraction to handle more force (load), with a lower energy
+   641→requirement, which may explain why eccentric overload training is essential in
+   642→the early stages of a strength training program: It enhances tissue prep and
+   643→makes athletes stronger in low positions. Although VBT is not typically used in
+   644→
+   645→this portion of the lift, eccentric overload training maximizes training in later
+   646→stages when heavier loads are used. It also helps athletes better absorb and store
+   647→force eccentrically to achieve a higher end result—to produce a more explosive
+   648→movement in their sport.
+   649→
+   650→Figure 2.2 (a) Eccentric contraction, or the loading portion of a jump, and (b) concentric
+   651→contraction, or the explosive portion of the jump.
+   652→
+   653→Concentric Contraction
+   654→Intention to move a barbell or the body as fast as possible is one of the most
+   655→important factors for increasing strength and power, and it relies on neural
+   656→adaptations to achieve this. The increase in neural drive allows the athlete to feel
+   657→
+   658→what true explosiveness is all about. It not only requires a great application of
+   659→force during the concentric portion but also involves selecting the correct
+   660→exercise to maximize the type of concentric contraction needed (explained in
+   661→greater detail in chapter 4’s section on exercise selection). First, let’s briefly
+   662→focus on what a concentric contraction actually is.
+   663→A concentric contraction uses energy and will result in acceleration of an
+   664→object. When a muscle is activated and required to lift a load that is less than the
+   665→maximum tension it can generate, the muscle begins to shorten. This is referred
+   666→to as a concentric contraction. Two good examples of concentric contractions are
+   667→raising the weight during a biceps curl (see figure 2.3a) and coming out of the
+   668→bottom of a bench press (see figure 2.3b).
+   669→
+   670→A concentric contraction uses energy and will result in
+   671→acceleration of an object.
+   672→
+   673→Figure 2.3 (a) Concentric contractions during a biceps curl and (b) a bench press.
+   674→
+   675→However, the speed at which we perform these concentric movements
+   676→
+   677→distinguishes whether we are focusing more on strength or power. To increase
+   678→power, we must train both force (strength) and velocity (the ability to apply this
+   679→strength). This requires using heavier loads (force) and lighter loads (velocity).
+   680→During the concentric portion of a movement, the body as a protected device,
+   681→must reduce the velocity and force of the concentric portion of the rep to guard
+   682→against jerking the tendons or creating undue stress on the joint when coming to
+   683→an abrupt stop at the end range of motion. On the other hand, when training the
+   684→force side of the power equation, there is little deceleration because we are using
+   685→loads greater than 60 percent of 1RM. Due to the heavier load and slower speed,
+   686→there is no need for a longer range of deceleration. However, when training with
+   687→loads less than 60 percent, a larger portion of this concentric portion must be
+   688→used to decelerate the movement in order to protect the body as mentioned.
+   689→Therefore, to most efficiently train the velocity side of the equation, athletes use
+   690→ballistic exercises such as jumps and throws. Because the body is being thrown
+   691→into the air, it does not need to decelerate the load. As a result, higher velocities
+   692→can be attained because there is no deceleration.
+   693→
+   694→Deceleration
+   695→During the concentric contraction, we must both accelerate and decelerate the
+   696→load. Existing data show that as resistances increase toward 100 percent 1RM,
+   697→velocity decreases. This act of purposely slowing down the speed of the load or
+   698→movement is a natural reflex in order to avoid joint, tendon, or muscle injuries—
+   699→otherwise known as deceleration. Deceleration depends on the intensity of the
+   700→load we are lifting and the speed at which we are lifting it.
+   701→Here is a brief example of how a lighter load requires greater deceleration and
+   702→vice versa. Lighter loads can involve deceleration of up to 50 percent of the
+   703→entire concentric contraction. In the bench press, for example, someone using a
+   704→light load of 40 to 50 percent 1RM could be only pushing during the first half of
+   705→the exercise while the second half of the movement is spent decelerating. This
+   706→long deceleration time will have a sizeable impact on the average, or mean,
+   707→concentric velocity we receive from our training device. On the other hand, loads
+   708→over 65 to 75 percent 1RM should involve minimal or no deceleration because
+   709→the load being lifted is not being moved fast enough to affect the average or
+   710→mean velocity. There are ways to alter the mechanical profile of an exercise such
+   711→as utilizing bands or chains to decrease the decelerative portion of the lift. For
+   712→example, when using band resistance, the more stretch the band gets, the more
+   713→resistance it will offer. This forces the athlete to continue accelerating toward the
+   714→
+   715→end of the concentric action in order to overcome that resistance. This, in turn,
+   716→minimizes deceleration. These higher loads also mean lower velocities, resulting
+   717→in lower power outputs. Therefore, it is vitally important to use the correct type
+   718→of exercise and the correct means for measuring the velocity of that exercise.
+   719→This brings us to the three metrics we use for determining percentages and
+   720→strength zones as well as which method to use for specific exercises.
+   721→
+   722→Lighter loads can have deceleration of up to 50 percent of the
+   723→entire concentric contraction.
+   724→
+   725→METRICS FOR MEASURING
+   726→Traditionally, resistance exercise intensity has been shown to be the most vital
+   727→factor in producing adaptations of muscular strength. In recent years, however,
+   728→another underused factor to consider and measure is movement velocity. When
+   729→measuring velocities with VBT, we should first be cognizant of what our training
+   730→focus is. Are we training for strength or power? When distinguishing between
+   731→strength and power, we must take into consideration both the speed at which the
+   732→bar or body is being moved in relation to the load and the amount of deceleration
+   733→involved.
+   734→
+   735→When distinguishing between strength and power, we must take
+   736→into consideration both the speed at which the bar or body is
+   737→being moved in relation to the load and the amount of
+   738→deceleration involved.
+   739→One study found that when training for speed or power using loads between
+   740→20 and 100 percent 1RM with nonballistic exercises such as your standard bench
+   741→press or squat, the relative load at which the braking phase (deceleration) no
+   742→longer existed was 76 percent of 1RM (Sanchez-Medina, Perez, and GonzalezBadillo 2010). This tells us that we can get more accurate percentages of a 1RM
+   743→using loads above 75 percent because there is more deceleration when using
+   744→lighter loads (remember, the body is being protected as it comes to an abrupt
+   745→
+   746→stop at the end range of motion). In summary, when training for strength, using
+   747→loads greater than 60 percent of 1RM increases the time spent accelerating
+   748→through a larger range of motion and eliminates much of the deceleration
+   749→component found when using lighter loads and higher velocities. Knowing
+   750→which training adaptation to look for will help you choose not only the exercise
+   751→but also the method of measurement to use, ultimately affecting the accuracy of
+   752→calculated speeds while using VBT.
+   753→
+   754→Mean Concentric Velocity
+   755→Mean concentric velocity (MCV) is simply the average speed during the entire
+   756→concentric portion of the exercise, including the time spent decelerating through
+   757→that range of motion. Because strength-based exercises consist of both
+   758→acceleration and deceleration phases, the mean concentric velocity metric should
+   759→be used (see figure 2.4). This makes MCV a KPI for training absolute strength
+   760→exercises such as the squats, deadlifts, and bench presses. It is also the best
+   761→single velocity measurement to use at the beginning of the off-season when those
+   762→exercises are performed using loads greater than 60 percent 1RM. For sports
+   763→where upper-body actions are important and may require more capacity during
+   764→the second half of the movement, MCV is the way to go.
+   765→
+   766→Figure 2.4 An MCV metric is a better choice for strength-based exercises using heavier loads of
+   767→greater than 60 percent 1RM because they consist of both acceleration and less time spent
+   768→decelerating (because of the higher load).
+   769→
+   770→Mean concentric velocity (MCV) is simply the average speed
+   771→during the entire concentric portion of the exercise, including
+   772→the time spent decelerating through that range of motion.
+   773→
+   774→Remember that exercise selection matters. While traditional strength
+   775→exercises (squats, bench presses, deadlifts, pull-ups, etc.) are best for training
+   776→with medium resistances and higher reps for muscle hypertrophy, or for heavier
+   777→resistances and lower reps for neural activation adaptations, the slower velocities
+   778→involved with these exercises do not make them, by themselves, ideal choices for
+   779→power development. These more explosive power movements can be more
+   780→accurately measured through the use of peak concentric velocity (PCV), which is
+   781→discussed next.
+   782→
+   783→Peak Concentric Velocity
+   784→A key to continuing to progress and create performance adaptations is increasing
+   785→the rate of force development, or the speed at which we are applying this newly
+   786→acquired strength. After a good block(s) of strength (greater than 60 percent
+   787→1RM) and dynamic strength (40 to 60 percent 1RM) are attained, higher speeds
+   788→—depending on what is needed for the sport—can and should be used. This is
+   789→generally programmed in the final four-to-eight–week block (preseason period)
+   790→when PCV can be used. This means that the method of measurement will change
+   791→and the exercise selection will likely change as well.
+   792→
+   793→PCV is simply the peak speed during the concentric portion of
+   794→the exercise, and it is usually calculated every 5 to 10
+   795→milliseconds.
+   796→PCV is simply the peak speed during the concentric portion of the exercise,
+   797→and it is usually calculated every 5 to 10 milliseconds. This metric is used for
+   798→ballistic or power-based exercises. Ballistic exercises are movements where
+   799→force is produced for a very short amount of time before the implement or body
+   800→is projected into the air. During a large portion of these ballistic movements, the
+   801→athlete is not actually applying force to the bar, so using an average of the entire
+   802→movement is less efficient because no deceleration is produced from trying to
+   803→lock out the rep (see figure 2.5). Exercises such as power cleans, snatches, bench
+   804→press throws, and jump squats are generally used in this period. Because of the
+   805→ballistic nature of these exercises, it is important to remember that, although
+   806→MCV is still usable, it would not be as accurate or efficient, and therefore, PCV
+   807→may be a better option.
+   808→
+   809→Mean Propulsive Velocity
+   810→Mean propulsive velocity (MPV) is a bit more involved, but it is a great method
+   811→for measuring and assessing true muscular power. Unfortunately, MPV is not
+   812→available on many wearable devices such as linear transducers. Nonetheless, we
+   813→need to understand the importance of MPV to be able to apply it when devices
+   814→such as Tendo and GymAware units are available.
+   815→While MCV refers to and measures the entire upward portion of a lift
+   816→(including the braking phase), its accuracy begins to get compromised at or less
+   817→than 60 percent of 1RM. MPV refers to and measures only the portion of the
+   818→upward movement during which the measured acceleration is greater than the
+   819→acceleration related to gravity. In other words, it happens before deceleration
+   820→occurs.
+   821→
+   822→Figure 2.5 Using a PCV metric during ballistic movements, such as the hang clean.
+   823→
+   824→MPV may be a more valid measurement later in the off-season for both
+   825→traditional exercises when dynamic strength (loads between 40 to 60 percent
+   826→1RM are being used, and greater deceleration occurs due to the necessity to
+   827→brake at the end of the range of motion) and heavier ballistic jumps are
+   828→performed at or around 40 to 50 percent 1RM when the deceleration is not
+   829→significant because the upward phase occurs only after the implement has either
+   830→left the hands or the body has left the ground (i.e., takeoff).
+   831→
+   832→Mean propulsive velocity refers to and measures only the
+   833→portion of the upward movement during which the measured
+   834→
+   835→acceleration is greater than the acceleration related to gravity.
+   836→Based on this mechanical principle, the use of MCV related to the entire
+   837→upward portion of a given movement may be more biased and a less effective
+   838→means of measurement than the use of MPV with lighter loads. A training
+   839→system based on MPV may be a better option for measuring performance at both
+   840→ends of the force–velocity curve, whether it be a jump or maximum dynamic
+   841→strength ability, such as a 1RM for a back squat.
+   842→This information suggests that, by referring the MCVs to the propulsive
+   843→phase, we can avoid underestimating an athlete’s true neuromuscular potential
+   844→when lifting light and medium loads while training for power simply by taking
+   845→out the measurement of the deceleration phase. Therefore, many coaches and
+   846→athletes believe that using MPV in training and testing settings allows for a more
+   847→effective method of measuring training for strength or power than MCV.
+   848→Velocity is a useful parameter to measure during resistance training. However,
+   849→it is imperative to use the correct measuring protocol to factor in the amount of
+   850→time spent in the deceleration phase of the movement. Mean (average) velocity,
+   851→especially with resistances more than 60 percent 1RM, correlates well with
+   852→strength exercises such as squats, deadlifts, and bench presses and can be used
+   853→when training strength as well as for determining 1RMs. Dynamic strength and
+   854→power adaptations, on the other hand, typically occur using the same exercise at
+   855→more moderate resistances (approximately 40 to 60 percent) and require more
+   856→deceleration. This makes mean propulsive velocities a more efficient method
+   857→because the decelerated portion of the lift is eliminated when calculating average
+   858→speeds. Finally, more ballistic types of exercises, such as cleans, snatches,
+   859→weighted jumps, and throws, are used in training for explosiveness.
+   860→Peak power may be a better option to calculate the fastest 5 to 10 meters per
+   861→second—the closest to in-game speeds—of these lifts or jumps, making them
+   862→great options during preseason training (see figure 2.6). In a study by SanchezMedina et al. (2010), the relative load that maximized mechanical power output
+   863→was determined using three different parameters: mean concentric velocity and
+   864→power, mean power of the concentric portion, and peak power. The load at which
+   865→the braking phase no longer existed was (regardless of the method used) 76.1
+   866→percent (+/− 7.4) of 1RM. This is more than likely due to having to apply force
+   867→for a longer period of time because of the heavier load. Maximum mechanical
+   868→power output was dependent on the parameter used, making it imperative to
+   869→
+   870→select the appropriate parameter according to the type of exercise being done as
+   871→well as the load being used.
+   872→Table 2.1 provides a quick summary of the three main methods of
+   873→measurement, the various measurements, and the adaptations they calculate.
+   874→
+   875→Figure 2.6 Peak power may be a better option to calculate the fastest 5 to 10 meters per second
+   876→—the closest to in-game speeds—more ballistic types of exercises, like the trap bar jump shown
+   877→here.
+   878→
+   879→Table 2.1 VELOCITY MEASUREMENT METHODS
+   880→METHOD
+   881→
+   882→DESCRIPTION
+   883→
+   884→Mean concentric The average speed during the entire concentric
+   885→velocity (MCV)
+   886→portion of the exercise, including the time spent
+   887→decelerating
+   888→
+   889→SAMPLE EXERCISE SELECTION
+   890→Traditional exercises > 60% 1RM (e.g.,
+   891→back squats, bench presses, deadlifts)
+   892→
+   893→Peak concentric The peak speed during the concentric portion of the Ballistic or power-based exercises
+   894→velocity (PCV)
+   895→exercise, usually calculated every 5 to 10
+   896→(e.g., Olympic lifts)
+   897→milliseconds
+   898→Mean propulsive Measures only the portion of the upward movement
+   899→velocity (MPV)
+   900→during which the measured acceleration is greater
+   901→than the gravity-related acceleration (before
+   902→deceleration occurs)
+   903→
+   904→Traditional exercises in which dynamic
+   905→strength loads between 40%-60% 1RM
+   906→are used (e.g., squats, bench presses,
+   907→deadlifts)
+   908→
+   909→Hopefully, this chapter has cleared up a few things regarding the eccentric and
+   910→concentric portions of a movement and the relation of acceleration and
+   911→deceleration to different percentages of a 1RM. Using the correct metric—MCV,
+   912→PCV, or MPV—when taking measurements is essential for getting the most
+   913→accurate readings. We do, however, need to err on the side of caution with using
+   914→MPV because, even at the time of the printing of this book, the metric is not
+   915→available at most commercial units, making it an expensive option.
+   916→
+   917→CHAPTER
+   918→
+   919→3
+   920→Tools of the Trade
+   921→Not long ago, the linear position transducer (LPT) was the only way to measure
+   922→the velocity of the body or a bar. Now, with the addition of accelerometers,
+   923→coaches and trainers have various ways to monitor velocity and power output.
+   924→No matter the tool you choose, all calculate velocity by measuring the rate of
+   925→change in the body’s or bar’s position over time. Because each method measures
+   926→velocity a little differently, it is imperative to perform a velocity profile before
+   927→you begin training. By doing so, we are using the athlete’s specific means of
+   928→measurement in order to keep data consistent. (Velocity profiling is discussed in
+   929→upcoming chapters.)
+   930→
+   931→OVERVIEW OF VBT MEASURING TOOLS
+   932→Some coaches may prefer one type of measuring tool over another, but the
+   933→bottom line is each kind measures velocity by a different means. This section
+   934→discusses what makes these devices different from each other and the pros and
+   935→cons to consider when choosing the tool that may be most practical for you.
+   936→
+   937→Linear Position Transducers
+   938→LPTs such as GymAware or Tendo units are devices capable of measuring
+   939→displacement in a linear plane (see figure 3.1). An LPT consists of a hardwired
+   940→measuring cable—otherwise known as a tether, spool, or spring—and a sensor,
+   941→such as a potentiometer or rotary encoder. The sensor converts the change in
+   942→distance of the cable to voltage and, ultimately, velocity and acceleration. The
+   943→LPT also calculates average force using the summed mass of the barbell and the
+   944→mass of the lifter and multiplying by acceleration due to gravity (g = 9.81 m × s
+   945→
+   946→– 2). The average power may be calculated for each movement using the average
+   947→force and average velocity. Using a hardwired cable makes it easy to transition
+   948→from exercise to exercise without having to restart the device whenever changing
+   949→angles within the exercise selection. The advantage of using an encoder is simple
+   950→to see: The data is always a direct measure rather than a calculated estimate.
+   951→
+   952→Figure 3.1 (a) The GymAware and (b) Tendo unit are the two main LPTs.
+   953→(a) Courtesy of GymAware; (b) Courtesy of Tendo Sport
+   954→
+   955→In an attempt to validate LPT technology, a study was conducted using an
+   956→LPT that used three jumping conditions (squats, countermovements, and drops)
+   957→and compared the force plate’s values of average force, peak force, and time–
+   958→peak force to the LPT’s values. The study concluded that LPT technology is a
+   959→useful and accurate tool for measuring movement velocity (Cronin, Hing, and
+   960→McNair 2004). In another study that also examined the reliability of
+   961→measurement between the force plate and LPT technology, each subject
+   962→completed two testing sessions that were separated by one week and included
+   963→three rebound jump squats with an 88-pound (40 kg) external load. Again, the
+   964→force plate and the LPT were both found to be reliable in the measurement of
+   965→peak force (Hansen, Cronin, and Newton 2011).
+   966→While the price of Tendo units and GymAware might not be considered as
+   967→expensive as other measuring equipment, such as force plates, they do present
+   968→some budgetary concerns for many training facilities, as well as strength and
+   969→
+   970→conditioning coaches and personal trainers. Coaches who train athletes either
+   971→individually, or small in groups, might want to consider different options for
+   972→their day-to-day monitoring purposes. For this reason, all VBT examples shown
+   973→will use an accelerometer because it is currently the most practical application
+   974→used in the United States.
+   975→
+   976→Accelerometers
+   977→More recently accelerometers, such as the PUSH Band (see figure 3.2) and Bar
+   978→Sensei, which are able to accurately calculate velocity, have been making their
+   979→way into facilities much like mine. Accelerometers differ from LPTs because
+   980→they use an algorithm to determine where the body or bar is being positioned and
+   981→when each movement starts and stops. This algorithm adjusts according to the
+   982→exercise being performed; for example, with jumps, it adjusts through the change
+   983→in angles when a person moves from a vertical position to a wide position.
+   984→Accelerometers do not have the hardwired cable to calculate angles; instead,
+   985→they are preprogrammed to a built-in specific exercise suite. This feature works,
+   986→but its readings can be slightly more skewed than those of an LPT.
+   987→
+   988→Figure 3.2 The PUSH Band is one of a number of accelerometers currently available on the
+   989→market.
+   990→
+   991→Accelerometers are great for measuring peak velocity (PV), but they are
+   992→inferior at detecting where they are in time and space. They are usually included
+   993→
+   994→in other systems to assist the calculations, but again, the algorithms are usually a
+   995→step behind the technology. Small, subtle idiosyncrasies, such as gripping the
+   996→barbell and small micromovements, will throw off calculations with
+   997→accelerometers’ algorithms.
+   998→Another disadvantage of accelerometers is they currently lack the capability
+   999→to measure force (in real time) of rep-to-rep sets, which, as we know, is the other
+  1000→half of the power equation. These units only measure velocity. While some
+  1001→companies provide access to force readings via a company portal, there are
+  1002→downsides to this. Users are required to purchase expensive yearly subscriptions,
+  1003→and the readings are not immediate. There are, however, many benefits of using
+  1004→an accelerometer in a group setting. First and foremost is affordability:
+  1005→Accelerometers have a much lower price point than LPTs. Despite being slightly
+  1006→less accurate at pinpointing specific velocities, in a team setting where wider
+  1007→ranges are often used, accelerometers work just fine. Other benefits worth
+  1008→pointing out are that accelerometers are designed to be worn on the body or on
+  1009→the bar, do not require a hardwired cable, can be used anywhere, and require
+  1010→much less space in the weight room. I have about 15 of them in my facility and
+  1011→have been getting great results for years. I do, however, also have one LPT when
+  1012→individual profiles are necessary.
+  1013→While LPTs and accelerometers both show great accuracy and testing when
+  1014→compared to a 1RM, LPT technology in the Tendo unit and GymAware still
+  1015→seems to be the gold standard and the more valid and reliable way to measure
+  1016→velocity, acceleration, and force variables compared to any accelerometer.
+  1017→However, accelerometers are still a viable option for facilities in the private
+  1018→sector and in team settings where multiple units can be used and a wider velocity
+  1019→range is applied (see table 3.1).
+  1020→Table 3.1 PROS AND CONS OF LPTS AND ACCELEROMETERS
+  1021→DEVICE TYPE
+  1022→
+  1023→PROS
+  1024→
+  1025→CONS
+  1026→
+  1027→LPT (e.g., Tendo unit and
+  1028→GymAware)
+  1029→
+  1030→Cable attachment makes
+  1031→readings more accurate
+  1032→Measures force from rep to rep
+  1033→as well as velocity
+  1034→
+  1035→Very expensive
+  1036→Not very portable
+  1037→Easier to break (cable)
+  1038→
+  1039→Accelerometer (e.g., PUSH Band
+  1040→and Bar Sensei)
+  1041→
+  1042→Inexpensive
+  1043→Easily portable
+  1044→Works well in group setting
+  1045→
+  1046→Uses a slightly less accurate
+  1047→preprogrammed algorithm
+  1048→Currently does not read force output
+  1049→from rep to rep
+  1050→
+  1051→DEVICE SETUP AND DATA INTERPRETATION
+  1052→
+  1053→This section provides a brief overview of the basic setup for using both an LPT
+  1054→and accelerometer. This is not a how-to instruction manual; it is merely a
+  1055→glimpse of the step-by-step procedure from attaching the devices to reading the
+  1056→information. The setup is slightly different for each device.
+  1057→As with any device that incorporates the use of data, the best place to begin is
+  1058→by simply starting to use the device. I recommend getting used to the feedback
+  1059→of the unit by reading velocities from rep to rep and seeing if they improve or
+  1060→worsen. Even in these initial stages of learning to use and apply VBT, you will
+  1061→begin to see results.
+  1062→As discussed in the previous section, many different types of technology on
+  1063→the market are used for measuring VBT. Refer back to table 3.1 for a few of the
+  1064→more popular and most dependable (in my opinion) options for LPTs and
+  1065→accelerometers.
+  1066→
+  1067→Basic Setup for LPTs
+  1068→For LTPs, such as the GymAware and Tendo, a thin cable spool attaches to the
+  1069→barbell to measure distance and speed of the bar. The sensors sample not only
+  1070→the rate and distance the cable line is traveling but also the angle. Data can be
+  1071→stored locally on the device or through an online portal in the cloud. The basic
+  1072→setup is as follows:
+  1073→1. Set up the device.
+  1074→
+  1075→This step is easy and self-explanatory. Some coaches get
+  1076→concerned with the reliability when bar whip associated with the
+  1077→Olympic lifts causes cable slack. While every unit will have
+  1078→some issues with readings, absolute difference is so low that it
+  1079→should be of little concern. Most of the bar whip comes from
+  1080→very heavy competitive loads, not the typical ones used in sports
+  1081→training.
+  1082→2. Pair the device to an iPad.
+  1083→
+  1084→The first step before pairing anything is to ensure that the Wi-Fi
+  1085→is strong and secure. If you train in a basement or an
+  1086→underground weight room, test the saturation of the Wi-Fi
+  1087→connection to each iPad and lock it down.
+  1088→3. Place the iPad in a convenient and safe location.
+  1089→
+  1090→For the best functionality, iPads should be placed where athletes
+  1091→can get feedback conveniently but out of the way of weights.
+  1092→Make sure to use a mounting option that allows the tablet to be
+  1093→mobile. Each unit pairs within a specific iPad, but the data are
+  1094→universal, so, technically, any athlete can train off of any iPad or
+  1095→station.
+  1096→4. Synchronize with the unit’s portal through the cloud (optional).
+  1097→
+  1098→Most of the time, I record data locally (stored on the device);
+  1099→however, there is a great option for collecting data for teams to
+  1100→use. After each iPad is securely connected to Wi-Fi, connect the
+  1101→associated app to the cloud to access a user portal. Connecting is
+  1102→very simple and only requires a username and password. After
+  1103→that, the rest is basically done for you.
+  1104→5. Set target zones and timers for workflow (optional).
+  1105→
+  1106→These are great options that only LPTs offer. Refer to the user
+  1107→manual for more information on how set up these functions.
+  1108→6. Select your exercise.
+  1109→
+  1110→To get the most accurate readings, all VBT devices come with a
+  1111→library of exercises; however, most research and information
+  1112→refer to the big lifts (squats; d-lifts; and bench and body-weight
+  1113→exercises such as countermovement jumps, push-ups, and pullups).
+  1114→7. Select your load and start your set.
+  1115→
+  1116→Get into the habit of pushing every rep with maximal voluntary
+  1117→concentric (MVC) action. This just means pushing every single
+  1118→velocity measured rep as hard and as fast as you are physically
+  1119→capable. Doing so ensures readings are as accurate as possible.
+  1120→Slowing down concentric muscle action greatly skews the
+  1121→readings of the velocity measuring technology.
+  1122→
+  1123→Basic Setup for Accelerometers
+  1124→LPTs are wonderful, but, as you may recall, they are generally not practical for
+  1125→application in a large-group setting. Because of the high volume of athletes
+  1126→
+  1127→coming in on a daily basis, over the past three years, I have incorporated 14
+  1128→PUSH Bands for their use in my facility. PUSH Bands are easy to use and a great
+  1129→alternative to LPTs, which take up a lot of space and time in a rack when the
+  1130→gym gets crowded with 20 or more athletes all training at the same time with
+  1131→their own individualized programs. The basic setup instructions for
+  1132→accelerometers are as follows:
+  1133→
+  1134→1. Charge the band and download app.
+  1135→Most portable accelerometers use a micro USB adapter that can connect to
+  1136→a laptop or a wall connector. After connection, download the app onto the
+  1137→iOS device, launch the app, and click on the menu option to get started.
+  1138→
+  1139→2. Pair the band with the iOS device.
+  1140→
+  1141→Every unit has its own way of pairing an iOS device to a band, but all
+  1142→accelerometers currently on the market do it through the use of an app that
+  1143→needs to be downloaded. Note that the band can be connected to only one
+  1144→device at a time, so if the band is solid blue, it means it is already
+  1145→connected to another iOS device.
+  1146→
+  1147→3. Choose the mode.
+  1148→While most units come with adapters to enable direct placement on a bar,
+  1149→my experience has seen more variance in readings from set to set when
+  1150→using bar mode due to the possibility of the bar flying out of the hands or
+  1151→off the top of the shoulders when reaching end range. For this reason, I
+  1152→place the unit directly on the body, preferably using a belt around the
+  1153→center of mass exclusively.
+  1154→
+  1155→4. Place the iPad in a convenient and safe location.
+  1156→For the best functionality, iPads should be placed where athletes can get
+  1157→feedback conveniently but out of the way of weights. Make sure to use a
+  1158→mounting option that allows the tablet to be mobile. Each unit pairs within
+  1159→a specific iPad, but the data are universal, so, technically, any athlete can
+
+[showing lines 560-1159 of 5471; use offset=1160 with limit to continue reading]
