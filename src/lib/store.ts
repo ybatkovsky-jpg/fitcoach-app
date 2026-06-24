@@ -261,9 +261,14 @@ export const useAppStore = create<AppState>()(
         const updatedProfile = { ...state.profile, fitnessLevel: level };
         set({ isOnboarded: true, profile: updatedProfile, screen: 'dashboard' });
         // Auto-generate first plan with scientific periodization
-        const recentIds = getRecentExerciseIds(state.history);
-        const plan = generateWorkout(updatedProfile, state.customExercises, state.periodizationWeek, recentIds);
-        set({ currentPlan: plan });
+        try {
+          const recentIds = getRecentExerciseIds(state.history);
+          const plan = generateWorkout(updatedProfile, state.customExercises, state.periodizationWeek, recentIds);
+          set({ currentPlan: plan });
+        } catch (err) {
+          console.error('Failed to generate workout on onboarding:', err);
+          // Don't block onboarding — user can generate plan manually from dashboard
+        }
       },
 
       // Workout plan

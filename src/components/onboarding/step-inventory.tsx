@@ -138,7 +138,7 @@ export function StepInventory() {
         </button>
       </div>
 
-      {/* Weight specification for weighted equipment */
+      {/* Weight specification for weighted equipment */}
       {hasWeightedEquipment && (
         <div className="space-y-3">
           <div className="flex items-start gap-2.5 p-3.5 rounded-xl bg-muted/50 text-xs text-muted-foreground">

@@ -44,7 +44,27 @@ export function DashboardScreen() {
     unlockedAchievements,
   } = useAppStore();
 
-  if (!profile || !currentPlan) return null;
+  if (!profile) return null;
+
+  // If no plan yet, show generate button
+  if (!currentPlan || currentPlan.exercises.length === 0) {
+    return (
+      <div className="flex flex-col items-center justify-center h-full gap-4 px-6">
+        <div className="text-center space-y-2">
+          <Zap className="w-10 h-10 mx-auto text-primary" />
+          <h2 className="text-lg font-bold">Готовы к тренировке!</h2>
+          <p className="text-sm text-muted-foreground">
+            Нажмите кнопку ниже, чтобы сгенерировать план тренировки
+            на основе вашего уровня и инвентаря.
+          </p>
+        </div>
+        <Button onClick={generateNewPlan} className="w-full max-w-xs">
+          <Sparkles className="w-4 h-4 mr-2" />
+          Сгенерировать план
+        </Button>
+      </div>
+    );
+  }
 
   const completedCount = history.length;
   const totalExercises = currentPlan.exercises.length;

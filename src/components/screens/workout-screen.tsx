@@ -332,7 +332,7 @@ export function WorkoutScreen() {
                 </CardContent>
               </Card>
             )}
-            {/* Fallback: generic weight display (no actual inventory) */
+            {/* Fallback: generic weight display (no actual inventory) */}
             {!exercise.recommendedWeightLabel && exercise.weightKg && (
               <Card className="border-0 shadow-sm">
                 <CardContent className="p-4 text-center">

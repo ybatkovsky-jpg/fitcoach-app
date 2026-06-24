@@ -21,6 +21,9 @@ import {
   type EquipmentType,
   type ExerciseTier,
   type MovementPattern,
+  type WeightedEquipment,
+  type WeightedEquipmentType,
+  resolveWeightFromInventory,
 } from './exercises';
 import type { FitnessLevel } from './exercises';
 
@@ -55,6 +58,7 @@ export interface ExerciseInPlan {
   targetSets: number;
   targetReps: number;
   weightKg: number | null;
+  recommendedWeightLabel?: string;  // e.g. "Гиря 16 кг" or "Гантели 2×10 кг"
   durationSeconds?: number | null;
   isTimed?: boolean;
   primaryMuscleGroups: string[];
@@ -105,24 +109,44 @@ export type UserProfile = {
   fitnessLevel: FitnessLevel;
 };
 
-// --- Variant Resolution (unchanged — works well) ---
+// --- Variant Resolution (weight-aware) ---
 
 export function resolveBestVariant(
   config: ExerciseConfig,
   availableEquipment: Set<EquipmentType>,
+  weightedEquipment?: WeightedEquipment,
+  userWeight?: number,
+  level?: FitnessLevel,
 ): ExerciseVariant | null {
   const availableVariants = config.variants.filter(
     (v) =>
       v.requiredEquipment === 'none' ||
       availableEquipment.has(v.requiredEquipment),
   );
-
   if (availableVariants.length === 0) return null;
 
-  return availableVariants.reduce((best, current) => {
-    const currentPriority = EQUIPMENT_PRIORITY[current.requiredEquipment] ?? 0;
-    const bestPriority = EQUIPMENT_PRIORITY[best.requiredEquipment] ?? 0;
-    return currentPriority >= bestPriority ? current : best;
+  // If we have weight info, filter out variants whose required weight is unavailable
+  const weightedTypes: WeightedEquipmentType[] = ['dumbbell', 'kettlebell', 'barbell'];
+  let viableVariants = availableVariants;
+  if (weightedEquipment && userWeight && level) {
+    viableVariants = availableVariants.filter((v) => {
+      const eqType = v.requiredEquipment as WeightedEquipmentType;
+      if (!weightedTypes.includes(eqType)) return true;
+      const base = userWeight * (v.adjustments.defaultWeightPercent / 100);
+      const modifier = level === 'beginner' ? 0.6 : level === 'intermediate' ? 0.75 : 0.85;
+      return resolveWeightFromInventory(eqType, base * modifier, weightedEquipment, level) !== null;
+    });
+    if (viableVariants.length === 0) {
+      viableVariants = availableVariants.filter(
+        (v) => !weightedTypes.includes(v.requiredEquipment as WeightedEquipmentType),
+      );
+    }
+  }
+  if (viableVariants.length === 0) return null;
+  return viableVariants.reduce((best, current) => {
+    const cp = EQUIPMENT_PRIORITY[current.requiredEquipment] ?? 0;
+    const bp = EQUIPMENT_PRIORITY[best.requiredEquipment] ?? 0;
+    return cp >= bp ? current : best;
   });
 }
 
@@ -141,19 +165,41 @@ export function calculateSets(level: FitnessLevel): number {
   return calculateScientificSets('repeated_effort', level, false, 'strength', 'maintain');
 }
 
-// --- Weight Calculation ---
+// --- Weight Calculation (enhanced: uses actual inventory) ---
+
+interface WeightResult {
+  weightKg: number | null;
+  label?: string;
+}
 
 function calculateWeight(
   variant: ExerciseVariant,
   userWeight: number,
   level: FitnessLevel,
-): number | null {
-  if (variant.adjustments.defaultWeightPercent === 0) return null;
+  weightedEquipment?: WeightedEquipment,
+): WeightResult {
+  if (variant.adjustments.defaultWeightPercent === 0) return { weightKg: null };
 
   const base = userWeight * (variant.adjustments.defaultWeightPercent / 100);
   const modifier =
     level === 'beginner' ? 0.6 : level === 'intermediate' ? 0.75 : 0.85;
-  return Math.round(base * modifier * 10) / 10;
+  const targetWeight = Math.round(base * modifier * 10) / 10;
+
+  // Try to resolve from user's actual inventory
+  const eqType = variant.requiredEquipment as WeightedEquipmentType;
+  const weightedTypes: WeightedEquipmentType[] = ['dumbbell', 'kettlebell', 'barbell'];
+  
+  if (weightedTypes.includes(eqType) && weightedEquipment) {
+    const resolved = resolveWeightFromInventory(eqType, targetWeight, weightedEquipment, level);
+    if (resolved) {
+      return { weightKg: resolved.weightKg, label: resolved.label };
+    }
+    // No suitable weight found — return null (bodyweight fallback)
+    return { weightKg: null };
+  }
+
+  // For non-discrete equipment (bands, machines, etc.) — use calculated %
+  return { weightKg: targetWeight };
 }
 
 // --- Build Exercise In Plan (scientific version with Prilepin validation) ---
@@ -201,8 +247,8 @@ function buildExerciseInPlan(
   // Scientific rest period (Bompa: based on intensity and CNS demand)
   const restSeconds = getScientificRest(method, category, level);
 
-  // Weight
-  const weight = calculateWeight(variant, profile.weight, level);
+  // Weight (enhanced: from actual inventory)
+  const weightResult = calculateWeight(variant, profile.weight, level, profile.weightedEquipment);
 
   return {
     exerciseConfigId: config.id,
@@ -213,7 +259,8 @@ function buildExerciseInPlan(
     alternativeHint: variant.alternativeEquipmentHint,
     targetSets,
     targetReps: config.isTimed && dur ? dur : targetReps,
-    weightKg: weight,
+    weightKg: weightResult.weightKg,
+    recommendedWeightLabel: weightResult.label,
     durationSeconds: dur,
     isTimed: config.isTimed,
     primaryMuscleGroups: config.primaryMuscleGroups,
@@ -332,9 +379,9 @@ export function generateWorkout(
     // Sort by tier priority + recency (Brown Ch.1-2 hierarchy + Bomba accommodation)
     candidates = sortCandidatesByTierAndRecency(candidates, recentIdSet, priorityTiers);
 
-    // Pick first available with a valid variant
+    // Pick first available with a valid variant (weight-aware)
     for (const candidate of candidates) {
-      const variant = resolveBestVariant(candidate, availableSet);
+      const variant = resolveBestVariant(candidate, availableSet, profile.weightedEquipment, profile.weight, profile.fitnessLevel);
       if (!variant) continue;
 
       const rationale = getPhaseRationale(phaseKey, candidate.tier);
@@ -361,7 +408,7 @@ export function generateWorkout(
       const sorted = sortCandidatesByTierAndRecency(patternCandidates, recentIdSet, priorityTiers);
 
       for (const candidate of sorted) {
-        const variant = resolveBestVariant(candidate, availableSet);
+        const variant = resolveBestVariant(candidate, availableSet, profile.weightedEquipment, profile.weight, profile.fitnessLevel);
         if (!variant) continue;
         selectedExercises.push(
           buildExerciseInPlan(candidate, variant, profile, method, isDeload),

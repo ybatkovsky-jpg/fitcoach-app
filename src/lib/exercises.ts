@@ -110,6 +110,30 @@ export const INVENTORY_OPTIONS: { type: EquipmentType; label: string; icon: stri
   { type: 'jump_rope', label: 'Скакалка', icon: 'RotateCw' },
 ];
 
+// --- Weight Resolution: pick best available weight from user inventory ---
+
+export function resolveWeightFromInventory(
+  equipmentType: WeightedEquipmentType,
+  targetWeightKg: number,
+  weightedEquipment: WeightedEquipment | undefined,
+  level: FitnessLevel,
+): { weightKg: number; label: string } | null {
+  const items = weightedEquipment?.[equipmentType];
+  if (!items || items.length === 0) return null;
+  const sorted = [...items].sort((a, b) => a.weightKg - b.weightKg);
+  let best = null;
+  for (const item of sorted) {
+    if (item.weightKg <= targetWeightKg) { best = item; } else { break; }
+  }
+  if (!best) {
+    if (level === 'beginner') return null;
+    best = sorted[0];
+  }
+  const countLabel = equipmentType === 'barbell' ? '' : best.count >= 2 ? `${best.count}×` : '';
+  const label = `${EQUIPMENT_LABELS[equipmentType]} ${countLabel}${best.weightKg} кг`;
+  return { weightKg: best.weightKg, label };
+}
+
 // Full exercise catalog
 export const EXERCISE_CATALOG: ExerciseConfig[] = [
   // ===== STRENGTH EXERCISES =====
