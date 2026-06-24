@@ -1,0 +1,702 @@
+     1→   190→In the 1990s, Louie Simmons brought the Tendo unit to the United States’
+     2→   191→athletic-training community’s attention. The Tendo is a device that hooks to the
+     3→   192→barbell, plate stack, or athlete and measures velocity in meters per second. If the
+     4→   193→proper mass of the barbell or the athlete has been entered into the unit, it then
+     5→   194→provides power output as well as velocity measurements. During this time,
+     6→   195→Coach Dr. Bryan Mann also helped to further the attention and knowledge on
+     7→   196→VBT with his excellent work Developing Explosive Athletes: The Use of Velocity
+     8→   197→Based Training in Training Athletes, as well as innumerable published research
+     9→   198→articles and speaking events at a multitude of seminars on the topic. Through his
+    10→   199→book and articles, Mann continues to be a driving force in applying VBT to all
+    11→   200→sport athletes, and, to this day, is one of the premier authorities on research and
+    12→   201→direct application of VBT to sport.
+    13→   202→While I have always been an advocate of pushing the envelope on all things
+    14→   203→strength and conditioning, I, like everyone else 15 years ago, relied solely on
+    15→   204→percentages of a 1RM to delegate loads to specific phases of an athlete’s
+    16→   205→program design. This changed drastically a few years ago when I personally
+    17→   206→began experimenting with VBT in my own facility with my athletes after having
+    18→   207→read Dr. Mann’s book on the subject. I was pleased to find faster results in
+    19→   208→power, likely because with pinpoint accuracy, I was able to target specific types
+    20→   209→of strength. I hand-select which of my younger athletes are eligible to use VBT
+    21→   210→based on their training age, weight room discipline, and ability to exhibit good
+    22→   211→form. This, in turn, develops my trust for them to efficiently use it.
+    23→   212→
+    24→   213→While I train many high school, college, and professional athletes from all
+    25→   214→sports, the main clientele in my facility happens to be baseball players. With
+    26→   215→baseball being such an extremely explosive sport where things happen hard and
+    27→   216→fast, I have found the carryover to sport to be nothing short of amazing. Pitch
+    28→   217→velocities and exit velocities have increased exponentially, and gains in sprint
+    29→   218→times—both in the 30- and 40-yard dash—are apparent across all sports. Simply
+    30→   219→put, VBT is the perfect fit.
+    31→   220→I can tell you this: Since beginning to use VBT with my athletes and getting
+    32→   221→them to buy in as well, I have found increases in strength, speed, and, ultimately,
+    33→   222→power (with increases in jump height as high as three to four inches in a single
+    34→   223→off-season) at a much greater level and frequency. I hope that you find this
+    35→   224→information valuable and that you, too, can reap the rewards of using VBT with
+    36→   225→your athletes as I have.
+    37→   226→Nunzio Signore
+    38→   227→
+    39→   228→PART
+    40→   229→
+    41→   230→I
+    42→   231→WHAT IS VELOCITY-BASED
+    43→   232→TRAINING?
+    44→   233→
+    45→   234→CHAPTER
+    46→   235→
+    47→   236→1
+    48→   237→Breaking the VBT Code
+    49→   238→This chapter introduces the basic concept of VBT as well as why it is a great
+    50→   239→option for identifying specific adaptations and training zones with your athletes.
+    51→   240→It also includes a brief discussion on assessing the type of athlete you have in
+    52→   241→front of you in order to better use velocity to create programs for athletes based
+    53→   242→not only on the sport but also on the time of year.
+    54→   243→
+    55→   244→WHAT IS VELOCITY-BASED TRAINING?
+    56→   245→VBT is a method for evaluating the intensity of a given movement by calculating
+    57→   246→displacement and time through the monitoring of bar or body speeds. For many
+    58→   247→years, the standard method coaches used was determining the weight of that load
+    59→   248→based on a percentage of a one-repetition maximum (1RM). VBT, on the other
+    60→   249→hand, is based on the speed of a movement or load lifted.
+    61→   250→Today’s advancements in technology allow us to more precisely focus on the
+    62→   251→speed at which a bar or an athlete is moving as well as the percentage of loss in
+    63→   252→velocity from rep to rep or from set to set. The market has propelled the concept
+    64→   253→and application of VBT in recent years, which has caused the need for more
+    65→   254→information regarding this emerging technology. That is the purpose for me
+    66→   255→having written this book. While you don’t need to use VBT technology to be a
+    67→   256→good coach, having a better set of tools will always help a great craftsperson.
+    68→   257→Don’t just use VBT concepts or tools for the sake of relevance; use them to solve
+    69→   258→problems that are unique to your environment.
+    70→   259→Research in Spain revealed a few key findings about some of the benefits of
+    71→   260→VBT (González-Badillo and Sánchez-Medina 2010):
+    72→   261→People who train with maximal velocity during the concentric phase of a lift
+    73→   262→
+    74→   263→or movement attain better strength and power results than those who do not
+    75→   264→train with maximal intended velocity.
+    76→   265→Velocity decreases fairly linearly across a set of traditional strength training
+    77→   266→exercises such as bench presses and squats.
+    78→   267→Velocity is closely related to the percentage of the 1RM.
+    79→   268→
+    80→   269→VBT is a method for evaluating the intensity of a given
+    81→   270→movement by calculating displacement and time through the
+    82→   271→monitoring of bar or body speeds.
+    83→   272→More recently and in growing numbers, coaches and practitioners are using
+    84→   273→VBT to determine the optimal load independent of 1RM, optimize strength
+    85→   274→(force), or adjust the load intensity to optimize the velocity and speed at which
+    86→   275→an athlete can move that load to better produce power as the season draws near
+    87→   276→(see figure 1.1). VBT is also a powerful tool used to accurately monitor current
+    88→   277→stress or fatigue on the central nervous system on a daily or weekly basis.
+    89→   278→Most sports require approximately 0.150 to 0.220 milliseconds to produce
+    90→   279→enough force to be considered fast. In more power-based sports such as
+    91→   280→American football, baseball, or track and field, this time is even faster. While
+    92→   281→absolute strength, or more specifically, peak force, is still and always will be the
+    93→   282→foundation for all other types or speeds of strength, the key is to figure out which
+    94→   283→athletes require more force, or who benefits from working at higher velocities,
+    95→   284→and the specific loads needed to produce the training adaptations or speed most
+    96→   285→specific to an athlete’s given sport.
+    97→   286→Although coaches who implement higher velocity strength work frequently
+    98→   287→use VBT technology, VBT itself is not limited to developing dynamic strength at
+    99→   288→higher velocities alone. VBT is an objective method of evaluating intensity of a
+   100→   289→given movement. So, how exactly is this done? The speed output is typically
+   101→   290→tracked by a piece of technology or device known as a linear position transducer,
+   102→   291→which attaches to the bar, or, more recently, wearable accelerometers such as a
+   103→   292→PUSH Band can be worn around the arm (see figure 1.2), ankle, or waist (the
+   104→   293→center of mass). These devices help monitor the velocity of a movement,
+   105→   294→correlating more precisely to an athlete’s 1RM. Note that while an athlete’s body
+   106→   295→speed is far more important than simply looking at bar speed during weight
+   107→   296→training, the key takeaway here is that coaches should look at how using bar
+   108→   297→
+   109→   298→speeds in their training can help improve sport speed and the capacity to repeat
+   110→   299→it.
+   111→   300→
+   112→   301→Figure 1.1 More recently and in growing numbers, coaches are using VBT to determine optimal
+   113→   302→training loads.
+   114→   303→
+   115→   304→Figure 1.2 VBT is not limited to developing dynamic strength at higher velocities alone. Coaches
+   116→   305→and athletes should look at how using lower velocities with VBT in their training can help improve
+   117→   306→levels of absolute strength.
+   118→   307→
+   119→   308→Figure 1.3 is a chart of VBT ranges that I developed based on hundreds of
+   120→   309→athletes who have trained at my facility over the past few years. Inspired by Dr.
+   121→   310→Bryan Mann’s original chart found in his book Developing Explosive Athletes
+   122→   311→(2016), my modifications take into consideration the different ranges for upperand lower-body exercises. As you will soon learn, the VBT ranges in figure 1.3
+   123→   312→apply to most athletes, but these ranges do not always directly correlate because
+   124→   313→of varying genetic and training age differences in athletes. It is always best to
+   125→   314→gather your own data over time; however, I have shared this with many coaches
+   126→   315→who have reaped amazing results.
+   127→   316→The data in figure 1.3 provide coaches and athletes with invaluable external
+   128→   317→information regarding the speed and intensity of the lift or movement. The data
+   129→   318→also give instantaneous feedback to lifters about how appropriate the load is for
+   130→   319→the training session’s goal, allowing them to adjust the load or volume
+   131→   320→accordingly. This can go a long way in helping lifters make better decisions
+   132→   321→
+   133→   322→about load intensity when strength is the training focus, or as the season gets
+   134→   323→near and power becomes the main training objective, finding the appropriate
+   135→   324→load to use to improve the balance between force and velocity. More importantly,
+   136→   325→while the percentage-based 1RM has been the standard for many years, it is
+   137→   326→problematic because it considers neither the intensity nor the daily fluctuations
+   138→   327→in strength due to stress and fatigue (e.g., lack of sleep, personal issues, the
+   139→   328→residual effects of a game, the previous day’s training session, etc.). These
+   140→   329→decisions are imperative in order to help create the specific training adaptation
+   141→   330→we are looking to achieve based on the demands of the sport, a player’s position,
+   142→   331→or the time of the year.
+   143→   332→
+   144→   333→Figure 1.3 Special strength zone ranges and their association to percentage of 1RM.
+   145→   334→Reprinted by permission from J.B. Mann, Developing Explosive Athletes: Use of Velocity-Based Training in Athletes, 3rd
+   146→   335→ed. (Muskegon, MI: Ultimate Athlete Concepts, 2016).
+   147→   336→
+   148→   337→WHAT ARE VBT’S GOALS?
+   149→   338→This section defines 1RM as well as discusses its relationship to various types of
+   150→   339→strength. It also explores some of the shortcomings of this standard method, such
+   151→   340→as residual fatigue from stress and sport, and how VBT may be a much better
+   152→   341→option when taking these parameters into consideration.
+   153→   342→
+   154→   343→1RM: The Load–Velocity Relationship
+   155→   344→A 1RM is the maximum amount of weight that a person can lift for one
+   156→   345→repetition. This can also be used as an upper limit for determining the desired
+   157→   346→load of an exercise, as in a percentage of 1RM. This long-standing percentagebased approach has been used to gauge training intensity by helping determine
+   158→   347→appropriate load percentages to use at the start of a new training program. These
+   159→   348→percentages range from less than 60 percent maximum to train muscular
+   160→   349→endurance and hypertrophy to between 90 and 100 percent maximum when
+   161→   350→
+   162→   351→improvements in absolute strength are the focus. These percentages also help
+   163→   352→track improvements at the end of a training block in order to gain insight about a
+   164→   353→program’s validity based on the athlete’s pre- and post-1RM testing.
+   165→   354→
+   166→   355→A 1RM is the maximum amount of weight that a person can lift
+   167→   356→for one repetition.
+   168→   357→While traditional 1RMs work, and I have used them for many years, this
+   169→   358→method becomes somewhat problematic when we consider that strength levels
+   170→   359→vary before and after a competition or from other stressors, such as lack of sleep
+   171→   360→or dehydration. These day-to-day fluctuations in strength have been shown to be
+   172→   361→as large as 18 percent above and below a previously tested 1RM (Flanagan and
+   173→   362→Jovanovic 2014). For example, table 1.1 demonstrates how an athlete, with a
+   174→   363→“tested” 225 1RM for the bench press, performed 8 repetitions at 180 pounds (80
+   175→   364→percent of his estimated 1RM, or [0.80 m/sec]) on Monday. However, on
+   176→   365→Wednesday, this athlete performed the same 8 repetitions at 0.50 meters per
+   177→   366→second with a load of 185 pounds, making this approximately 83 percent of his
+   178→   367→1RM and showing a 3 percent fluctuation (improvement) in his baseline 1RM.
+   179→   368→Once again, on Friday, after a great night’s sleep, he hits a personal best of 190
+   180→   369→pounds at the same 0.50 meters per second velocity. This is now 85 percent of
+   181→   370→his tested 1RM—showing a fluctuation (improvement) of 5 percent in his
+   182→   371→baseline 1RM. But, overdoing it by lifting again on Saturday without adequate
+   183→   372→rest shows a decline of 8 percent. This downward fluctuation can produce
+   184→   373→suboptimal results while increasing the risk of injury.
+   185→   374→
+   186→   375→With VBT, however, we can measure movement velocity as a marker of
+   187→   376→
+   188→   377→intensity instead of the traditional 1RM. We can also use VBT to help prevent
+   189→   378→failure, which as we all know, can be extremely taxing on the central nervous
+   190→   379→system and equally difficult to recover from. These factors can slow down an
+   191→   380→athlete’s progress considerably. But, let’s not get ahead of ourselves—predicting
+   192→   381→a 1RM with VBT is covered in upcoming chapters.
+   193→   382→
+   194→   383→Using External Cueing
+   195→   384→Providing feedback allows people to take that information and make better, more
+   196→   385→educated decisions. This is especially true when talking about motor learning or
+   197→   386→the refinement of an athletic skill. External cueing focuses athletes on the effect
+   198→   387→of their movement through the use of outside information as opposed to internal
+   199→   388→cueing, where athletes focus only on their body movements or their own inner
+   200→   389→chatter. Many methods can be considered external cues—a coach’s feedback or
+   201→   390→visual cues from an apparatus, such as a stopwatch or VBT, are two great
+   202→   391→examples of external cueing.
+   203→   392→Research has consistently demonstrated that enhanced motor performance
+   204→   393→and learning extend across different types of tasks, skill levels, and age groups
+   205→   394→when using an external focus relative to an internal focus (Wulf 2012). Further
+   206→   395→studies show that when athletes are given external cueing relative to an internal
+   207→   396→focus or no focus instructions at all, it not only increases jump height and speed
+   208→   397→but also enhances neuromuscular coordination (Wulf 2012). Most good coaches
+   209→   398→and experienced athletes probably already use external cueing when it comes to
+   210→   399→coaching technique such as, “Extend your hip” or “Drive your feet through the
+   211→   400→ground” (see figure 1.4). With VBT, we can also get feedback regarding speed or
+   212→   401→velocity of the movement, whether it is from a bar or the body. Athletes who
+   213→   402→receive this type of external feedback have shown improved performance results
+   214→   403→because they were focused on the intent of the activity. VBT also helps to hold
+   215→   404→athletes accountable for their performance.
+   216→   405→
+   217→   406→Figure 1.4 While technology-based methods, such as VBT, can help assist coaches, there is no
+   218→   407→replacement for coaching. Here, an athlete receives important external cues about form from a
+   219→   408→coach.
+   220→   409→
+   221→   410→Here is an example of how VBT holds athletes accountable: When VBT
+   222→   411→provides a speed of a lift or movement, VBT is incapable of knowing who the
+   223→   412→athlete is, which makes its feedback a completely objective analysis of the
+   224→   413→athlete’s performance. So, let’s say an athlete performs a bench press in a
+   225→   414→strength speed zone (covered more later in the book), and the coach wants the
+   226→   415→velocity to be between 0.75 and 1.0 meters per second. The VBT unit will tell us
+   227→   416→if the athlete actually performed to the coach’s expectation. Despite the athlete
+   228→   417→thinking the movement was fast enough, if the athlete moved with lower
+   229→   418→velocity, the VBT unit would confirm so (see figure 1.5).
+   230→   419→VBT also taps into the competitive nature of athletes. When athletes are
+   231→   420→
+   232→   421→informed that they have one more chance to make the speed before the load is
+   233→   422→lowered, I have found that 90 percent of the time the intent of the next set
+   234→   423→increases substantially. As far as training in groups, competitive nature explodes
+   235→   424→when using VBT. For example, assume three athletes are all working within the
+   236→   425→same bar speeds. As soon as one athlete moves the weight quicker than another,
+   237→   426→weight room chatter and the true competitive nature of an athlete emerges. The
+   238→   427→next thing you know, loads have been increased and concentric velocities have
+   239→   428→gone up, helping to create these athletes’ best workout of the week. To further
+   240→   429→drive this point home, take a look at table 1.2, where two groups of rugby
+   241→   430→players were given the same workout with the exact same volume. Results found
+   242→   431→that the group that received feedback on their work showed greater gains in
+   243→   432→performance (Randell et al. 2011).
+   244→   433→
+   245→   434→Figure 1.5 Using velocity on a deadlift to stay within a specific strength speed zone.
+   246→   435→
+   247→   436→In a nutshell, using VBT for external cueing has provided my athletes with
+   248→   437→information that enables them to obtain a higher quality of work and volume and
+   249→   438→thus helps them produce greater gains on the track, court, or field.
+   250→   439→Table 1.2 PERFORMANCE INCREASE BASED ON FEEDBACK
+   251→   440→OUTCOME MEASURE
+   252→   441→
+   253→   442→FEEDBACK GROUP PERCENTAGE
+   254→   443→INCREASE
+   255→   444→
+   256→   445→NONFEEDBACK GROUP PERCENTAGE
+   257→   446→INCREASE
+   258→   447→
+   259→   448→Vertical jump
+   260→   449→
+   261→   450→4.6%
+   262→   451→
+   263→   452→2.8%
+   264→   453→
+   265→   454→Horizontal jump
+   266→   455→
+   267→   456→2.6%
+   268→   457→
+   269→   458→0.5%
+   270→   459→
+   271→   460→10-m sprint
+   272→   461→
+   273→   462→1.3%
+   274→   463→
+   275→   464→0.1%
+   276→   465→
+   277→   466→20-m sprint
+   278→   467→
+   279→   468→0.9%
+   280→   469→
+   281→   470→0.1%
+   282→   471→
+   283→   472→30-m sprint
+   284→   473→
+   285→   474→1.4%
+   286→   475→
+   287→   476→0.4%
+   288→   477→
+   289→   478→Data from A.D. Randell, J.B. Cronin, J.W.L. Keogh, N.D. Gill and M.C. Pedersen, “Effect of Instantaneous Performance
+   290→   479→Feedback During 6 Weeks of Velocity-Based Resistance Training on Sport-Specific Performance Tests,” Journal of
+   291→   480→Strength and Conditioning Research 25, no. 1 (2011): 87-93.
+   292→   481→
+   293→   482→Building Accountability
+   294→   483→I must preface this section with this statement: It is my experience and belief that
+   295→   484→athletes must have a solid base of absolute strength in order to be good
+   296→   485→candidates to use VBT in their training programs. In working with both youth
+   297→   486→and professional athletes, I have found that these younger, less mature athletes
+   298→   487→who do not possess either the adequate strength, nor mobility possibly because
+   299→   488→of existing growth plate issues, need to focus first and foremost on correct form
+   300→   489→and gains in hypertrophy. However, as an athlete matures and their training age
+   301→   490→increases, the athlete generally needs to be pushed harder to actually produce
+   302→   491→maximum effort concentric movements and continue to create positive
+   303→   492→adaptations. For such an athlete, VBT can be a game changer. Unfortunately, as
+   304→   493→with anything, there are no absolutes. Unmotivated or undedicated athletes can
+   305→   494→cheat the system with VBT. By purposely moving their bar or body slowly
+   306→   495→during initial testing, athletes can attain lower baseline speeds in order to avoid
+   307→   496→having to work as hard to match or increase those numbers and metrics later.
+   308→   497→That is why I require an athlete to earn “the right” prior to allowing them to start
+   309→   498→using VBT. To summarize, getting immediate feedback on speed makes the
+   310→   499→intention of the movement clear to hold our athletes accountable.
+   311→   500→
+   312→   501→Monitoring Fatigue
+   313→   502→Everything that happens in our lives causes either an action or a reaction.
+   314→   503→
+   315→   504→Whether it is training, practice, relationship or family issues, or a lack of sleep,
+   316→   505→all of these situations can profoundly affect an athlete’s central nervous system,
+   317→   506→or recovery. As previously mentioned, research suggests that 1RM strength can
+   318→   507→vary by 18 percent in either direction on any given day (Flanagan and Jovanovic
+   319→   508→2014), meaning that prescribed percentages can be wildly inappropriate in either
+   320→   509→direction depending on the amount of stress athletes have applied to their central
+   321→   510→nervous system.
+   322→   511→Autoregulation refers to a system that manages volume to regulate individual
+   323→   512→differences in an athlete’s work capacity based on stress-related fatigue. This can
+   324→   513→be a powerful tool for a coach helping an athlete to avoid over- or undertraining
+   325→   514→in terms of the athlete’s long-term athletic development (LTAD). Athletes will
+   326→   515→increase strength by progressing at their own pace based on daily and weekly
+   327→   516→variations in performance parameters, unlike traditional linear periodization
+   328→   517→(LP), during which there is a set increase in intensity from week to week. For
+   329→   518→example, one study showed that the progressive resistance through
+   330→   519→autoregulation was more effective than the LP model means of programming in
+   331→   520→increasing the bench press and squat over a period of six weeks (Mann et al.
+   332→   521→2010).
+   333→   522→By using VBT, we can take these parameters into account by locking into a
+   334→   523→percentage of a bar or body speed rather than a percentage of 1RM. By receiving
+   335→   524→a number after each rep on a daily basis, we can see if the weight needs to be
+   336→   525→decreased due to fatigue that particular day or increased because of new strength
+   337→   526→gains. For example, assume an athlete has recorded a baseline measurement of
+   338→   527→250 pounds (113 kg) for 1RM on a barbell bench press. If this athlete is in a
+   339→   528→maximal strength phase and the program calls for 5 × 5 at 85 percent 1RM, it
+   340→   529→would look something like this: 5 × 5 at 212 pounds (96 kg), or 85 percent of
+   341→   530→250 pounds (113 kg). We also know that by monitoring this athlete’s bar speed
+   342→   531→with VBT, this particular athlete moves 85 percent of 1RM at 0.48 meters per
+   343→   532→second. Using this information, let’s take a look at table 1.3, which represents
+   344→   533→three days of the athlete’s bench press at a baseline 85 percent of 1RM.
+   345→   534→Table 1.3 VARIATIONS IN VELOCITY BASED ON DAILY READINESS
+   346→   535→OR FATIGUE IN THE DEADLIFT
+   347→   536→DAY
+   348→   537→
+   349→   538→AMOUNT OF READINESS OR FATIGUE
+   350→   539→
+   351→   540→VOLUME AND INTENSITY
+   352→   541→
+   353→   542→1
+   354→   543→
+   355→   544→Normal readiness
+   356→   545→
+   357→   546→5 × 5 at 212 lb (96 kg): 0.48 m/sec
+   358→   547→
+   359→   548→2
+   360→   549→
+   361→   550→Poor readiness
+   362→   551→
+   363→   552→5 × 5 at 212 lb (96 kg): 0.35m/sec
+   364→   553→
+   365→   554→3
+   366→   555→
+   367→   556→Excellent readiness
+   368→   557→
+   369→   558→5 × 5 at 212 lb (96 kg): 0.52 m/sec
+   370→   559→
+   371→   560→In table 1.3 , day 2 represents what the same day 1 lift might look like after a
+   372→   561→long week of studying for finals, and a few nights out with friends. When we
+   373→   562→take into account the various stressors that have been placed on this athlete
+   374→   563→during the week, according to this athlete’s bar speed, the baseline 85 percent
+   375→   564→now equates to roughly 95 percent of 1RM. Without the use of VBT, this athlete
+   376→   565→may continue to muscle through the next four sets and possibly get hurt.
+   377→   566→However, getting external cueing from VBT can let this athlete know early to
+   378→   567→decrease the weight due to poor readiness on this particular day.
+   379→   568→Take another look at table 1.3 and focus on day 3. Having aced all the tests
+   380→   569→and taking better care of one’s body, this athlete’s next upper-body day shifts to
+   381→   570→the other side of the curve. Here, the 85 percent that was prescribed now looks
+   382→   571→more like 75 percent. Removing the negative stressors in this athlete’s life (in
+   383→   572→this case worrying about test scores and nights out on the town) could attribute to
+   384→   573→the increase in bar speed. It could also be that the athlete simply got stronger.
+   385→   574→Either way, if the athlete continues to work at this speed and percentage, the
+   386→   575→athlete may be undertraining and thus not getting the specific adaptation needed
+   387→   576→for absolute strength.
+   388→   577→This is just one example of how getting daily external feedback from VBT
+   389→   578→not only helps athletes chase the specific adaptation they are looking for but also
+   390→   579→helps prevent injury or even undertraining resulting from fluctuations in 1RM
+   391→   580→because of day-to-day stress levels.
+   392→   581→VBT allows us to better identify specific strength zones in order to create the
+   393→   582→specific adaptations we are trying to produce with our athletes. While these
+   394→   583→velocities are closely correlated at traditional 1RM, there will always be
+   395→   584→discrepancies among athletes because of genetic makeup and training age. I have
+   396→   585→personally witnessed the power and competitive environment VBT produces
+   397→   586→through external cuing when working with my athletes in groups in the weight
+   398→   587→room.
+   399→   588→
+   400→   589→CHAPTER
+   401→   590→
+   402→   591→2
+   403→   592→Understanding the Metrics
+   404→   593→Not all velocities are created equal. This chapter discusses the three types of
+   405→   594→measuring protocols used for implementing VBT. It explains the significance of
+   406→   595→each and why one metric may be more suitable than another depending on which
+   407→   596→adaptation—strength, speed, or power—an athlete is looking to improve. This
+   408→   597→chapter also reviews what eccentric and concentric contractions are, why they
+   409→   598→are important, and how they play an integral role in VBT.
+   410→   599→
+   411→   600→ECCENTRIC AND CONCENTRIC
+   412→   601→CONTRACTIONS AND DECELERATION
+   413→   602→To understand the different metrics associated with VBT, we must first review
+   414→   603→eccentric and concentric muscle contractions as well as deceleration in order to
+   415→   604→know why different methods of tracking velocity should be used. The ability to
+   416→   605→get in and out of concentric and eccentric muscle contractions quickly and more
+   417→   606→efficiently allows athletes to better use the stretch shortening cycle (SSC) to
+   418→   607→produce force at fast rates (discussed in greater depth in chapter 6) and
+   419→   608→ultimately produce more power. This ability is the gold standard in performance
+   420→   609→and is a big part of what separates elite athletes from the rest of the athletic field.
+   421→   610→During this discussion, keep in mind that VBT only measures the concentric
+   422→   611→portion of the lift or movement. However, it’s vitally important to understand the
+   423→   612→eccentric portion because it substantially boosts the acceleration of the
+   424→   613→concentric portion when we monitor bar or body speeds. This makes the
+   425→   614→eccentric portion of the movement a key performance indicator (KPI) as well
+   426→   615→when playing sports.
+   427→   616→
+   428→   617→Eccentric Contraction
+   429→   618→An eccentric muscle contraction is the motion of an active muscle while it is
+   430→   619→lengthening under a load. When a muscle contracts eccentrically, it is absorbing
+   431→   620→energy (as opposed to a concentric contraction which uses energy). The
+   432→   621→lengthening of the muscle also puts the tendons on slack as shown in figure 2.1.
+   433→   622→
+   434→   623→An eccentric muscle contraction is the motion of an active
+   435→   624→muscle while it is lengthening under a load.
+   436→   625→During this process, a few things happen—the muscle absorbs energy
+   437→   626→developed by the external load in order to support the weight of the body against
+   438→   627→gravity, helping absorb shock and reducing the risk of injury. On the
+   439→   628→performance side, the storage of this elastic energy helps the muscle to recoil in
+   440→   629→preparation for the following concentric contraction (i.e., acceleration). For
+   441→   630→example, a countermovement jump improves the eccentric strength of the
+   442→   631→muscle and helps the athlete store energy more easily in the low position (see
+   443→   632→figure 2.2a), increasing neural drive and switching quickly to the concentric, or
+   444→   633→elastic recoil, position, of the jump (see figure 2.2b).
+   445→   634→
+   446→   635→Figure 2.1 Eccentric muscle contraction.
+   447→   636→
+   448→   637→In addition, eccentric contractions require far less motor unit activity
+   449→   638→(approximately four times less) and consume much less oxygen for a given
+   450→   639→muscle movement than concentric contractions. These reductions allow an
+   451→   640→eccentric contraction to handle more force (load), with a lower energy
+   452→   641→requirement, which may explain why eccentric overload training is essential in
+   453→   642→the early stages of a strength training program: It enhances tissue prep and
+   454→   643→makes athletes stronger in low positions. Although VBT is not typically used in
+   455→   644→
+   456→   645→this portion of the lift, eccentric overload training maximizes training in later
+   457→   646→stages when heavier loads are used. It also helps athletes better absorb and store
+   458→   647→force eccentrically to achieve a higher end result—to produce a more explosive
+   459→   648→movement in their sport.
+   460→   649→
+   461→   650→Figure 2.2 (a) Eccentric contraction, or the loading portion of a jump, and (b) concentric
+   462→   651→contraction, or the explosive portion of the jump.
+   463→   652→
+   464→   653→Concentric Contraction
+   465→   654→Intention to move a barbell or the body as fast as possible is one of the most
+   466→   655→important factors for increasing strength and power, and it relies on neural
+   467→   656→adaptations to achieve this. The increase in neural drive allows the athlete to feel
+   468→   657→
+   469→   658→what true explosiveness is all about. It not only requires a great application of
+   470→   659→force during the concentric portion but also involves selecting the correct
+   471→   660→exercise to maximize the type of concentric contraction needed (explained in
+   472→   661→greater detail in chapter 4’s section on exercise selection). First, let’s briefly
+   473→   662→focus on what a concentric contraction actually is.
+   474→   663→A concentric contraction uses energy and will result in acceleration of an
+   475→   664→object. When a muscle is activated and required to lift a load that is less than the
+   476→   665→maximum tension it can generate, the muscle begins to shorten. This is referred
+   477→   666→to as a concentric contraction. Two good examples of concentric contractions are
+   478→   667→raising the weight during a biceps curl (see figure 2.3a) and coming out of the
+   479→   668→bottom of a bench press (see figure 2.3b).
+   480→   669→
+   481→   670→A concentric contraction uses energy and will result in
+   482→   671→acceleration of an object.
+   483→   672→
+   484→   673→Figure 2.3 (a) Concentric contractions during a biceps curl and (b) a bench press.
+   485→   674→
+   486→   675→However, the speed at which we perform these concentric movements
+   487→   676→
+   488→   677→distinguishes whether we are focusing more on strength or power. To increase
+   489→   678→power, we must train both force (strength) and velocity (the ability to apply this
+   490→   679→strength). This requires using heavier loads (force) and lighter loads (velocity).
+   491→   680→During the concentric portion of a movement, the body as a protected device,
+   492→   681→must reduce the velocity and force of the concentric portion of the rep to guard
+   493→   682→against jerking the tendons or creating undue stress on the joint when coming to
+   494→   683→an abrupt stop at the end range of motion. On the other hand, when training the
+   495→   684→force side of the power equation, there is little deceleration because we are using
+   496→   685→loads greater than 60 percent of 1RM. Due to the heavier load and slower speed,
+   497→   686→there is no need for a longer range of deceleration. However, when training with
+   498→   687→loads less than 60 percent, a larger portion of this concentric portion must be
+   499→   688→used to decelerate the movement in order to protect the body as mentioned.
+   500→   689→Therefore, to most efficiently train the velocity side of the equation, athletes use
+   501→   690→ballistic exercises such as jumps and throws. Because the body is being thrown
+   502→   691→into the air, it does not need to decelerate the load. As a result, higher velocities
+   503→   692→can be attained because there is no deceleration.
+   504→   693→
+   505→   694→Deceleration
+   506→   695→During the concentric contraction, we must both accelerate and decelerate the
+   507→   696→load. Existing data show that as resistances increase toward 100 percent 1RM,
+   508→   697→velocity decreases. This act of purposely slowing down the speed of the load or
+   509→   698→movement is a natural reflex in order to avoid joint, tendon, or muscle injuries—
+   510→   699→otherwise known as deceleration. Deceleration depends on the intensity of the
+   511→   700→load we are lifting and the speed at which we are lifting it.
+   512→   701→Here is a brief example of how a lighter load requires greater deceleration and
+   513→   702→vice versa. Lighter loads can involve deceleration of up to 50 percent of the
+   514→   703→entire concentric contraction. In the bench press, for example, someone using a
+   515→   704→light load of 40 to 50 percent 1RM could be only pushing during the first half of
+   516→   705→the exercise while the second half of the movement is spent decelerating. This
+   517→   706→long deceleration time will have a sizeable impact on the average, or mean,
+   518→   707→concentric velocity we receive from our training device. On the other hand, loads
+   519→   708→over 65 to 75 percent 1RM should involve minimal or no deceleration because
+   520→   709→the load being lifted is not being moved fast enough to affect the average or
+   521→   710→mean velocity. There are ways to alter the mechanical profile of an exercise such
+   522→   711→as utilizing bands or chains to decrease the decelerative portion of the lift. For
+   523→   712→example, when using band resistance, the more stretch the band gets, the more
+   524→   713→resistance it will offer. This forces the athlete to continue accelerating toward the
+   525→   714→
+   526→   715→end of the concentric action in order to overcome that resistance. This, in turn,
+   527→   716→minimizes deceleration. These higher loads also mean lower velocities, resulting
+   528→   717→in lower power outputs. Therefore, it is vitally important to use the correct type
+   529→   718→of exercise and the correct means for measuring the velocity of that exercise.
+   530→   719→This brings us to the three metrics we use for determining percentages and
+   531→   720→strength zones as well as which method to use for specific exercises.
+   532→   721→
+   533→   722→Lighter loads can have deceleration of up to 50 percent of the
+   534→   723→entire concentric contraction.
+   535→   724→
+   536→   725→METRICS FOR MEASURING
+   537→   726→Traditionally, resistance exercise intensity has been shown to be the most vital
+   538→   727→factor in producing adaptations of muscular strength. In recent years, however,
+   539→   728→another underused factor to consider and measure is movement velocity. When
+   540→   729→measuring velocities with VBT, we should first be cognizant of what our training
+   541→   730→focus is. Are we training for strength or power? When distinguishing between
+   542→   731→strength and power, we must take into consideration both the speed at which the
+   543→   732→bar or body is being moved in relation to the load and the amount of deceleration
+   544→   733→involved.
+   545→   734→
+   546→   735→When distinguishing between strength and power, we must take
+   547→   736→into consideration both the speed at which the bar or body is
+   548→   737→being moved in relation to the load and the amount of
+   549→   738→deceleration involved.
+   550→   739→One study found that when training for speed or power using loads between
+   551→   740→20 and 100 percent 1RM with nonballistic exercises such as your standard bench
+   552→   741→press or squat, the relative load at which the braking phase (deceleration) no
+   553→   742→longer existed was 76 percent of 1RM (Sanchez-Medina, Perez, and GonzalezBadillo 2010). This tells us that we can get more accurate percentages of a 1RM
+   554→   743→using loads above 75 percent because there is more deceleration when using
+   555→   744→lighter loads (remember, the body is being protected as it comes to an abrupt
+   556→   745→
+   557→   746→stop at the end range of motion). In summary, when training for strength, using
+   558→   747→loads greater than 60 percent of 1RM increases the time spent accelerating
+   559→   748→through a larger range of motion and eliminates much of the deceleration
+   560→   749→component found when using lighter loads and higher velocities. Knowing
+   561→   750→which training adaptation to look for will help you choose not only the exercise
+   562→   751→but also the method of measurement to use, ultimately affecting the accuracy of
+   563→   752→calculated speeds while using VBT.
+   564→   753→
+   565→   754→Mean Concentric Velocity
+   566→   755→Mean concentric velocity (MCV) is simply the average speed during the entire
+   567→   756→concentric portion of the exercise, including the time spent decelerating through
+   568→   757→that range of motion. Because strength-based exercises consist of both
+   569→   758→acceleration and deceleration phases, the mean concentric velocity metric should
+   570→   759→be used (see figure 2.4). This makes MCV a KPI for training absolute strength
+   571→   760→exercises such as the squats, deadlifts, and bench presses. It is also the best
+   572→   761→single velocity measurement to use at the beginning of the off-season when those
+   573→   762→exercises are performed using loads greater than 60 percent 1RM. For sports
+   574→   763→where upper-body actions are important and may require more capacity during
+   575→   764→the second half of the movement, MCV is the way to go.
+   576→   765→
+   577→   766→Figure 2.4 An MCV metric is a better choice for strength-based exercises using heavier loads of
+   578→   767→greater than 60 percent 1RM because they consist of both acceleration and less time spent
+   579→   768→decelerating (because of the higher load).
+   580→   769→
+   581→   770→Mean concentric velocity (MCV) is simply the average speed
+   582→   771→during the entire concentric portion of the exercise, including
+   583→   772→the time spent decelerating through that range of motion.
+   584→   773→
+   585→   774→Remember that exercise selection matters. While traditional strength
+   586→   775→exercises (squats, bench presses, deadlifts, pull-ups, etc.) are best for training
+   587→   776→with medium resistances and higher reps for muscle hypertrophy, or for heavier
+   588→   777→resistances and lower reps for neural activation adaptations, the slower velocities
+   589→   778→involved with these exercises do not make them, by themselves, ideal choices for
+   590→   779→power development. These more explosive power movements can be more
+   591→   780→accurately measured through the use of peak concentric velocity (PCV), which is
+   592→   781→discussed next.
+   593→   782→
+   594→   783→Peak Concentric Velocity
+   595→   784→A key to continuing to progress and create performance adaptations is increasing
+   596→   785→the rate of force development, or the speed at which we are applying this newly
+   597→   786→acquired strength. After a good block(s) of strength (greater than 60 percent
+   598→   787→1RM) and dynamic strength (40 to 60 percent 1RM) are attained, higher speeds
+   599→   788→—depending on what is needed for the sport—can and should be used. This is
+   600→   789→generally programmed in the final four-to-eight–week block (preseason period)
+   601→   790→when PCV can be used. This means that the method of measurement will change
+   602→   791→and the exercise selection will likely change as well.
+   603→   792→
+   604→   793→PCV is simply the peak speed during the concentric portion of
+   605→   794→the exercise, and it is usually calculated every 5 to 10
+   606→   795→milliseconds.
+   607→   796→PCV is simply the peak speed during the concentric portion of the exercise,
+   608→   797→and it is usually calculated every 5 to 10 milliseconds. This metric is used for
+   609→   798→ballistic or power-based exercises. Ballistic exercises are movements where
+   610→   799→force is produced for a very short amount of time before the implement or body
+   611→   800→is projected into the air. During a large portion of these ballistic movements, the
+   612→   801→athlete is not actually applying force to the bar, so using an average of the entire
+   613→   802→movement is less efficient because no deceleration is produced from trying to
+   614→   803→lock out the rep (see figure 2.5). Exercises such as power cleans, snatches, bench
+   615→   804→press throws, and jump squats are generally used in this period. Because of the
+   616→   805→ballistic nature of these exercises, it is important to remember that, although
+   617→   806→MCV is still usable, it would not be as accurate or efficient, and therefore, PCV
+   618→   807→may be a better option.
+   619→   808→
+   620→   809→Mean Propulsive Velocity
+   621→   810→Mean propulsive velocity (MPV) is a bit more involved, but it is a great method
+   622→   811→for measuring and assessing true muscular power. Unfortunately, MPV is not
+   623→   812→available on many wearable devices such as linear transducers. Nonetheless, we
+   624→   813→need to understand the importance of MPV to be able to apply it when devices
+   625→   814→such as Tendo and GymAware units are available.
+   626→   815→While MCV refers to and measures the entire upward portion of a lift
+   627→   816→(including the braking phase), its accuracy begins to get compromised at or less
+   628→   817→than 60 percent of 1RM. MPV refers to and measures only the portion of the
+   629→   818→upward movement during which the measured acceleration is greater than the
+   630→   819→acceleration related to gravity. In other words, it happens before deceleration
+   631→   820→occurs.
+   632→   821→
+   633→   822→Figure 2.5 Using a PCV metric during ballistic movements, such as the hang clean.
+   634→   823→
+   635→   824→MPV may be a more valid measurement later in the off-season for both
+   636→   825→traditional exercises when dynamic strength (loads between 40 to 60 percent
+   637→   826→1RM are being used, and greater deceleration occurs due to the necessity to
+   638→   827→brake at the end of the range of motion) and heavier ballistic jumps are
+   639→   828→performed at or around 40 to 50 percent 1RM when the deceleration is not
+   640→   829→significant because the upward phase occurs only after the implement has either
+   641→   830→left the hands or the body has left the ground (i.e., takeoff).
+   642→   831→
+   643→   832→Mean propulsive velocity refers to and measures only the
+   644→   833→portion of the upward movement during which the measured
+   645→   834→
+   646→   835→acceleration is greater than the acceleration related to gravity.
+   647→   836→Based on this mechanical principle, the use of MCV related to the entire
+   648→   837→upward portion of a given movement may be more biased and a less effective
+   649→   838→means of measurement than the use of MPV with lighter loads. A training
+   650→   839→system based on MPV may be a better option for measuring performance at both
+   651→   840→ends of the force–velocity curve, whether it be a jump or maximum dynamic
+   652→   841→strength ability, such as a 1RM for a back squat.
+   653→   842→This information suggests that, by referring the MCVs to the propulsive
+   654→   843→phase, we can avoid underestimating an athlete’s true neuromuscular potential
+   655→   844→when lifting light and medium loads while training for power simply by taking
+   656→   845→out the measurement of the deceleration phase. Therefore, many coaches and
+   657→   846→athletes believe that using MPV in training and testing settings allows for a more
+   658→   847→effective method of measuring training for strength or power than MCV.
+   659→   848→Velocity is a useful parameter to measure during resistance training. However,
+   660→   849→it is imperative to use the correct measuring protocol to factor in the amount of
+   661→   850→time spent in the deceleration phase of the movement. Mean (average) velocity,
+   662→   851→especially with resistances more than 60 percent 1RM, correlates well with
+   663→   852→strength exercises such as squats, deadlifts, and bench presses and can be used
+   664→   853→when training strength as well as for determining 1RMs. Dynamic strength and
+   665→   854→power adaptations, on the other hand, typically occur using the same exercise at
+   666→   855→more moderate resistances (approximately 40 to 60 percent) and require more
+   667→   856→deceleration. This makes mean propulsive velocities a more efficient method
+   668→   857→because the decelerated portion of the lift is eliminated when calculating average
+   669→   858→speeds. Finally, more ballistic types of exercises, such as cleans, snatches,
+   670→   859→weighted jumps, and throws, are used in training for explosiveness.
+   671→   860→Peak power may be a better option to calculate the fastest 5 to 10 meters per
+   672→   861→second—the closest to in-game speeds—of these lifts or jumps, making them
+   673→   862→great options during preseason training (see figure 2.6). In a study by SanchezMedina et al. (2010), the relative load that maximized mechanical power output
+   674→   863→was determined using three different parameters: mean concentric velocity and
+   675→   864→power, mean power of the concentric portion, and peak power. The load at which
+   676→   865→the braking phase no longer existed was (regardless of the method used) 76.1
+   677→   866→percent (+/− 7.4) of 1RM. This is more than likely due to having to apply force
+   678→   867→for a longer period of time because of the heavier load. Maximum mechanical
+   679→   868→power output was dependent on the parameter used, making it imperative to
+   680→   869→
+   681→   870→select the appropriate parameter according to the type of exercise being done as
+   682→   871→well as the load being used.
+   683→   872→Table 2.1 provides a quick summary of the three main methods of
+   684→   873→measurement, the various measurements, and the adaptations they calculate.
+   685→   874→
+   686→   875→Figure 2.6 Peak power may be a better option to calculate the fastest 5 to 10 meters per second
+   687→   876→—the closest to in-game speeds—more ballistic types of exercises, like the trap bar jump shown
+   688→   877→here.
+   689→   878→
+   690→   879→Table 2.1 VELOCITY MEASUREMENT METHODS
+   691→   880→METHOD
+   692→   881→
+   693→   882→DESCRIPTION
+   694→   883→
+   695→   884→Mean concentric The average speed during the entire concentric
+   696→   885→velocity (MCV)
+   697→   886→portion of the exercise, including the time spent
+   698→   887→decelerating
+   699→   888→
+   700→   889→SAMPLE EXERCISE SELECTION
+   701→
+   702→[showing lines 190-889 of 5471; use offset=890 with limit to continue reading]

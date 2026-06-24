@@ -1,0 +1,702 @@
+  1580→reinforcement. As the name implies, anatomical adaptation prepares the body
+  1581→for the more difficult phases that follow. General strength is further increased
+  1582→through the structural changes elicited by hypertrophy macrocycles and the
+  1583→neural adaptations that result from maximum strength macrocycles.
+  1584→
+  1585→Specific Strength
+  1586→Specific strength training takes into account the characteristics of the sport,
+  1587→such as the ergogenesis (energy systems contributions), the planes of
+  1588→movement, the prime movers, the joints’ range of motion, and the muscles’
+  1589→actions. As the term suggests, this type of strength is specific to each sport
+  1590→and requires a good deal of analysis. Therefore, it is incorrect to compare the
+  1591→strength levels of athletes involved in different sports. Specific strength
+  1592→training should be incorporated progressively, starting at the end of the
+  1593→preparatory phase, for all advanced athletes.
+  1594→
+  1595→Strength Reserve
+  1596→Strength reserve is the difference between maximum strength and the strength
+  1597→required to perform a skill under competitive conditions. For example, one
+  1598→study using strength-gauged techniques measured rowers’ mean force per
+  1599→stroke during a race, which was 123 lb (56 kg) (Bompa, Hebbelinck, and Van
+  1600→
+  1601→Gheluwe 1978). The same subjects were found to have absolute strength in
+  1602→power-clean lifts of 198 lb (90 kg). Subtracting the mean strength per race
+  1603→(123 lb [56 kg]) from absolute strength (198 lb [90 kg]) indicates a strength
+  1604→reserve of 75 lb (34 kg). In other words, the ratio of mean strength to absolute
+  1605→strength is about 1:1.6.
+  1606→Other subjects in the same study were found to have a higher strength
+  1607→reserve and a ratio of 1:1.85. Needless to say, these subjects performed better
+  1608→in rowing races, which supports the conclusion that an athlete with a higher
+  1609→strength reserve is capable of performing at a higher level. Therefore, in order
+  1610→to prevent a negative transfer, a strength and conditioning coach should aim
+  1611→to help athletes reach the highest possible level of maximum strength during
+  1612→the weekly time devoted to strength training in a rational ratio with more
+  1613→sport-specific sessions. Strength reserve is essential in sports such as
+  1614→throwing events and sports in which force is applied against resistance, such
+  1615→as swimming, canoeing, maximum velocity sports, and so on.
+  1616→
+  1617→Strength Training and Neuromuscular
+  1618→Adaptations
+  1619→Systematic strength training produces structural and functional changes, or
+  1620→adaptations, in the body. The level of adaptation is evidenced by the size and
+  1621→strength of the muscles. The magnitude of these adaptations is directly
+  1622→proportional to the demands placed on the body by the volume (quantity),
+  1623→intensity (load), and frequency of training, as well as to the body’s capability
+  1624→to adapt to such demands. Training rationally adapts to the stress of
+  1625→increasing physical work. In other words, if the body is exposed to a demand
+  1626→rationally greater than it is accustomed to and enough recovery time is given
+  1627→to the trained physiological systems, it adapts to the stressor by becoming
+  1628→stronger.
+  1629→Until a few years ago, we believed that strength was determined mainly by
+  1630→the muscles’ cross-sectional area (CSA). As a result, weight training was
+  1631→used to increase “engine size”—that is, to produce muscular hypertrophy.
+  1632→However, though CSA is the single best predictor of an individual’s strength
+  1633→(Lamb 1984), strength training research since the 1980s (and authors such as
+  1634→Zatsiorsky and Bompa) have shifted the focus to the neural component of
+  1635→strength expression. In fact, the primary role of the nervous system in
+  1636→
+  1637→strength expression was well documented by a 2001 review (Broughton).
+  1638→Neural adaptations to strength training involve disinhibition of inhibitory
+  1639→mechanisms as well as intra- and intermuscular coordination improvements.
+  1640→Disinhibition affects the following mechanisms:
+  1641→Golgi tendon organ—sensory receptors, located near the myotendinous
+  1642→junction, that elicit a reflex inhibition of the muscle they supply when it
+  1643→undergoes excessive tension, either by shortening or passive stretching
+  1644→Renshaw cells—inhibitory connecting neurons (interneurons) found in
+  1645→the spinal cord, whose role is to dampen the rate of discharge of alpha
+  1646→motor neurons, thus preventing the muscular damage derived from
+  1647→tetanic contraction
+  1648→Supraspinal inhibitory signals—conscious or unconscious inhibitory
+  1649→signals that come from the brain
+  1650→The components of intramuscular coordination are determinant factors for
+  1651→the improvement of strength, such as:
+  1652→Synchronization—the capacity to contract motor units simultaneously or
+  1653→with a minimum latency (that is, with a delay less than five
+  1654→milliseconds). Although motor units’ synchronization has a minimal
+  1655→influence on the maximum force exerted by muscles, it is important in
+  1656→the rapid expression of force (RFD, rate of force development).
+  1657→Recruitment—the capacity to recruit motor units simultaneously is
+  1658→important in speed-power sports and can be induced or improved only
+  1659→via MxS. Therefore, MxS is the determinant ingredient in the
+  1660→achievement of the neuromuscular potential and, ultimately, to reach
+  1661→peak performance.
+  1662→Rate coding—or discharge rate, refers to the capacity to increase firing
+  1663→rate (motor unit discharge rate) in order to express more strength. Force
+  1664→produced by a muscle depends on the rate at which motor neurons are
+  1665→discharged. Discharge rate ranges from a minimal of 5 to 8 pulses per
+  1666→second (pps) to a maximal of 20 to 60 pps or higher (Enoka 2015).
+  1667→Higher force capabilities result in higher rates.
+  1668→Adaptations in intramuscular coordination transfer well from one exercise
+  1669→to another, as long as the specific motor pattern is established (intermuscular
+  1670→coordination). For instance, the maximum voluntary recruitment of motor
+  1671→
+  1672→units developed through maximum strength training can be transferred to a
+  1673→sport-specific exercise skill as long as the athlete knows its technique. The
+  1674→objective of maximum strength macrocycles is to improve motor unit
+  1675→recruitment of the prime movers, whereas power macrocycles work mainly
+  1676→on quickness of discharge, or rate coding. Contrary to popular belief, these
+  1677→two aspects of intramuscular coordination—recruitment and rate coding—
+  1678→play greater determinant roles than synchronization does in muscular force
+  1679→production.
+  1680→Intermuscular coordination, the capacity of the muscles to learn to work
+  1681→together, on the other hand, is the capacity of the nervous system to
+  1682→coordinate the links of the kinetic chain, thus making the action more
+  1683→efficient. With time, as the nervous system learns the action, fewer motor
+  1684→units get activated by the same weight, which leaves more motor units
+  1685→available for activation by higher weights (see figure 2.7). Therefore, to
+  1686→increase the weight lifted in a given exercise over the long term,
+  1687→intermuscular coordination training (technique training) is key.
+  1688→Despite the fact that the hypertrophic response to training is immediate
+  1689→(Ploutz et al. 1994), the accretion (growth) of muscular protein becomes
+  1690→evident only after six weeks or more (Moritani and deVries 1979; Rasmussen
+  1691→and Phillips 2003). These proteins, which represent the specific adaptive
+  1692→response to the imposed training, stabilize the achieved neural adaptations.
+  1693→This is the way to read the famous study by Sale (1986) because the neural
+  1694→adaptations, once they take place, are neither at their full potential nor
+  1695→absolutely stable. Therefore, to increase strength over time, one must keep
+  1696→training the factors discussed here (figure 2.8). This is particularly true of
+  1697→intermuscular coordination, which allows load increase in the midterm and
+  1698→the long term on the basis of ever-increasing system efficiency, as well as
+  1699→specific hypertrophy.
+  1700→
+  1701→Figure 2.7 Over time, strength training for intermuscular coordination reduces the motor unit
+  1702→activation necessary to lift the same load, leaving more motor units available for higher loads.
+  1703→
+  1704→Figure 2.8 Factors contributing to the strength of the athlete over time.
+  1705→
+  1706→When it comes to designing a maximum strength training program, the
+  1707→information related to weightlifting and powerlifting should be analyzed and
+  1708→applied with some caution. For instance, while weightlifters train daily, often
+  1709→several times per day, some 6,000 to 9,000 hours per year, athletes from other
+  1710→sports may dedicate only 15% to 20% of the time to train for MxS. Different
+  1711→sports have different goals and different methods of training. During this
+  1712→time, athletes from various sports have to improve MxS in a progressive
+  1713→
+  1714→manner, mostly using intensities 3, 2, and 1, in that order. Most athletes have
+  1715→to improve MxS in a much shorter time and number of sessions, which might
+  1716→call for a higher average work intensity. This is why you should be
+  1717→circumspect in applying training methods from weightlifting and
+  1718→powerlifting.
+  1719→The field has shown us that the majority of adaptations of the
+  1720→neuromuscular system necessary to increase maximum strength involve loads
+  1721→of 80% to 95% of 1RM, and the time of exposure to loads of 90% or higher
+  1722→(necessary in order to elicit adaptations specific to that intensity range)
+  1723→should be very short.
+  1724→
+  1725→Table 2.2 summarizes the neuromuscular adaptations for each intensity
+  1726→range. From this table, we learn that
+  1727→the majority of intramuscular coordination gains involve loads over
+  1728→80%,
+  1729→the majority of intermuscular coordination gains involve loads under
+  1730→80%, and
+  1731→we need to use the full spectrum of intensities to maximize
+  1732→neuromuscular adaptations and, consequently, maximum strength.
+  1733→Taking into consideration the training methodology, we can infer the
+  1734→following points from this table.
+  1735→In a preparation phase with limited time for development of maximum
+  1736→
+  1737→strength, the average intensities used in the maximum strength
+  1738→macrocycles will be higher (80%-85% of 1RM). This approach is
+  1739→usually taken in team sports.
+  1740→In the preparation phase for an individual sport with ample time for
+  1741→development of maximum strength—and especially when a multiyear
+  1742→perspective projects continuous progression in the midterm and long
+  1743→term—the periodized strength plan will focus mostly on intermuscular
+  1744→coordination. Thus, the average, not the peak, intensities used in
+  1745→maximum strength macrocycles will be lower (70%-80% of 1RM).
+  1746→Nevertheless, for the development of maximum strength, every
+  1747→periodized plan starts with lower intensities, higher times under tension
+  1748→per set (which favor the anatomical adaptations), and a focus on
+  1749→technique so that higher intensities will elicit high muscular tension later
+  1750→on.
+  1751→
+  1752→Neuromuscular Strategy to Improve Athletic
+  1753→Performance
+  1754→The human body—in our context, the neuromuscular system—for speedpower sports, is trained, modeled to behave, and to react in a certain way,
+  1755→according to the training program planned by the coach. The agents that make
+  1756→the neuromuscular system react in a desired way is the training method used
+  1757→by a coach and the planning of these methods as per the specific requirements
+  1758→of the training phase of the annual plan. The entire training program of an
+  1759→annual plan is created with the scope of reaching maximum performance at
+  1760→the time of the main competitions of the year, or, in the case of team sport,
+  1761→during the league games or international championships (table 2.3). In order
+  1762→to achieve this goal, periodization of strength for speed-power sports has to
+  1763→be composed of two physiological phases:
+  1764→1. increasing the recruitment of fast-twitch muscle fibers via a maximum
+  1765→strength (MxS), and
+  1766→2. increasing the discharge rate prior to the start of the main competitions
+  1767→by using the best methods to induce the development of power,
+  1768→maximum speed, agility, and quickness.
+  1769→
+  1770→In the first phase, the goal can be achieved via a minimum, preferably six
+  1771→or more weeks of MxS training. As already discussed, MxS using loads of
+  1772→80% to 90% of 1RM results in increasing the recruitment capabilities of the
+  1773→prime movers to involve the highest number of fast-twitch muscle fibers in
+  1774→
+  1775→action. These capabilities will translate into exerting the highest force
+  1776→possible to overcome resistance or to defeat the resistance of an opponent,
+  1777→water resistance, or the weight of an implement. Increased capabilities of
+  1778→recruiting a high number of fast-twitch muscle fibers facilitate the success of
+  1779→the second phase.
+  1780→The transformation of muscle activation into muscle force is known as excitationcontraction coupling (Enoka 2015), where the interaction of actin and myosin muscle
+  1781→filaments and the work done by cross-bridges are determinant. A high discharge rate is
+  1782→quite impossible without first increasing the recruitment of fast-twitch fibers via MxS.
+  1783→This is why the periodization plans discussed in this book follow this physiological
+  1784→sequence: MxS, followed by power, speed, agility, and quickness.
+  1785→
+  1786→In the second phase, power training, maximum velocity drills, and agility
+  1787→training (exercises and courses) train the neuromuscular system to increase
+  1788→the discharge rate, the ability to display fast and powerful or explosive
+  1789→actions that results in peak physiological capabilities at the time of the main
+  1790→competitions of the year.
+  1791→The neuromuscular strategy is an essential part of the periodization of strength, the
+  1792→determinant two phases for achieving peak performance. Without the use of the
+  1793→neuromuscular strategy it is impossible to reach high performance.
+  1794→
+  1795→3
+  1796→Laws and Principles of Strength
+  1797→Training for Sports
+  1798→Proper application of scientific training laws and methodological principles
+  1799→can ensure superior organization of training with the fewest possible errors.
+  1800→The following laws and principles of strength training form the proper
+  1801→foundation for all strength training programs. These laws and principles are
+  1802→based on the laws of physics and how they are applied in sports training,
+  1803→whereas the methodological principles outline the practical application in
+  1804→strength training programs. A house is only as strong as its foundation. Both
+  1805→laws and principles can be applied together to produce a strong, flexible, and
+  1806→stable athlete who can sustain the vigor required in athletic competitions. The
+  1807→principles of training can ensure a steady and specific increase in strength and
+  1808→other abilities by specifically adapting the program to the needs of the
+  1809→athletes and the sport and, most important, to the physical capacity of the
+  1810→individual athlete.
+  1811→
+  1812→Newton’s Laws of Motion and Their Practical
+  1813→Application in Strength Training for Sports
+  1814→Newton’s laws of motion are essential to strength training and should be
+  1815→applied in all strength training programs for athletes, regardless of the
+  1816→physiological qualities of their chosen sport. We will discuss each law in a
+  1817→practical sense to show that the application of these laws can effectively help
+  1818→the athlete become stronger and faster.
+  1819→
+  1820→Law of Inertia
+  1821→Newton’s first law of motion states that an object at rest stays at rest and an
+  1822→object in motion stays in motion. If you want to change the status of the
+  1823→object you must apply force. Therefore, if an athlete wants to change position
+  1824→from rest or in motion, he has to apply force. The same athlete can move
+  1825→faster by applying concentric force or slow down quickly by applying
+  1826→eccentric force. In both cases, starting, slowing down into a stop, or changing
+  1827→direction (accelerate and deceleration) are possible if force is applied against
+  1828→the ground (gravitational force).
+  1829→More importantly, increasing acceleration or its tempo is possible only
+  1830→when the athlete can apply additional force. Gains in strength will always
+  1831→result in the capacity to increase or decrease velocity. An athlete’s mass
+  1832→(weight) dictates the amount of force necessary to change his status: lower
+  1833→force for lighter athletes and higher force for heavier athletes.
+  1834→Some coaches and athletes (e.g., in swimming or Nordic skiing) think
+  1835→strength is not needed for their sport. We strongly challenge that view.
+  1836→Uneducated opinions cannot stand or oppose the laws of physics.
+  1837→If you want to be faster, apply superior force against the ground.
+  1838→If you want to throw an object farther, improve your throwing force.
+  1839→If you want to defeat an opponent in combat sport, improve your
+  1840→strength.
+  1841→
+  1842→Law of Acceleration
+  1843→Newton’s second law of motion relates to the rate of changing velocity
+  1844→known as acceleration. A constant force always produces a constant
+  1845→
+  1846→acceleration. To increase acceleration, the athlete has to increase the
+  1847→propulsion force exerted against the ground.
+  1848→F=m×a
+  1849→Force is equal to the product of mass (m) and acceleration (a). An athlete
+  1850→can accelerate proportionally to the force applied against resistance. Gravity,
+  1851→air resistance (friction), the opponent, and the environment—such as water or
+  1852→terrain profile (in Nordic skiing, mountain biking, or BMX)—are some of the
+  1853→forces that must be overcome in order to achieve high velocity. An athlete
+  1854→can accelerate his mass proportional to his force, that is, to how much force
+  1855→he can apply against resistance. Consider the following conditions (Burkett
+  1856→2018).
+  1857→If two sprinters apply same propulsion force (push-off against the
+  1858→ground) for the same duration, the lighter athlete can accelerate more.
+  1859→If two sprinters have the same mass, the athlete who applies more force
+  1860→within the same period will accelerate more.
+  1861→Acceleration is measured in meters per second squared (m/s²). But when
+  1862→mass is also part of the equation, the final product is measured in N
+  1863→(Newtons). Therefore, for a sprinter with a mass of 100 kg who accelerates at
+  1864→10 m/s² (i.e., gravity):
+  1865→100 kg × 10 m/s² = 1,000 N
+  1866→To overcome the resistance an athlete always encounters, he has to
+  1867→increase his own force and, ultimately, be able to increase acceleration.
+  1868→Remember: The ability to accelerate is always proportional to the force the
+  1869→athlete applies against resistance. If you want to be faster, you must increase
+  1870→your force. There is no other way. Listen to science, not to modern gurus.
+  1871→Coaches cannot expect improvement of speed, acceleration, or change of
+  1872→direction without first improving strength, especially MxS.
+  1873→Impulse, a concept derived from Newton’s second law of motion, refers to
+  1874→a sudden transmission of force in the shortest period upon an athletic
+  1875→implement, such as a tennis or soccer ball, or against an opponent in contact
+  1876→sport. The impulse can change the state of an object (i.e., batting in baseball
+  1877→or serving in tennis), depending on the athlete’s strength. The force of an
+  1878→impulse is proportional to the force of the athlete delivering it. Once again,
+  1879→
+  1880→the strength of an athlete depends directly on the quality of his training,
+  1881→particularly upon his MxS and power. If athletes involved in a racquet,
+  1882→contact, or team sport desire to improve their quality of game or match, they
+  1883→need to improve their strength and power. The stronger the impulse, the
+  1884→higher the speed achieved or the distance covered by the ball.
+  1885→
+  1886→Law of Action–Reaction
+  1887→Newton’s third law of motion can be described this way: For an athlete to
+  1888→start a race, he has to apply force against starting blocks and gravity. The
+  1889→greater the athlete’s force, the easier it is to overcome resistance (gravity).
+  1890→When force is applied against starting blocks there is a reaction of equal force
+  1891→but in the opposite direction.
+  1892→For sports performed in or on water—such as swimming, synchronized
+  1893→swimming, water polo, rowing, cycling, kayaking, and canoeing—the body
+  1894→or the boat moves forward as a result of force. As force is applied against the
+  1895→water, the water exerts an equal and opposite force on the body or the boat;
+  1896→this is known as drag. As the boat or the swimmer moves through the water,
+  1897→the drag slows the forward motion or glide. To overcome drag, athletes must
+  1898→produce equal force to maintain speed and superior force to increase speed.
+  1899→The equation
+  1900→D ~ V²
+  1901→means that drag (D) is proportional to the square of velocity (V²). This
+  1902→equation is not only easier to understand but also easier to apply.
+  1903→In water sports, velocity increases when an athlete applies force against
+  1904→the water. As force increases, the body moves faster, but as velocity
+  1905→increases, drag increases proportionally to the square of velocity. For
+  1906→example, assume that an athlete swims or rows at 2 meters (about 6.5 feet)
+  1907→per second:
+  1908→D ~ V² = 2² = 4 kilograms (8.8 lb)
+  1909→In other words, the athlete pulls with a force of 4 kg (8.8 lb) per stroke. To
+  1910→be more competitive, the athlete has to swim or row faster—say, at 3 m (9.8
+  1911→ft) per second:
+  1912→D ~ V² = 3² = 9 kilograms (19.8 lb)
+  1913→
+  1914→For an even higher velocity, an athlete has to increase force by another 4
+  1915→kg (8.8 lb) while drag increases to 16 kilograms (35 lb).
+  1916→In order to pull with increased force, of course, one must increase MxS,
+  1917→because a body cannot generate increased velocity without increasing the
+  1918→force per stroke unit. The training implications are obvious: Not only must
+  1919→the athlete increase maximum strength, but the coach must also make sure
+  1920→that the athlete exerts almost the same force on all strokes for the duration of
+  1921→the race, because all water sports have a strong endurance component. This
+  1922→means that training must include both a phase addressing maximum strength
+  1923→and a phase addressing adequate muscular endurance.
+  1924→
+  1925→Selected Principles of Strength Training for
+  1926→Sports
+  1927→A successful strength training program should start by applying specific
+  1928→principles that maximize an athlete’s own abilities and talent in an
+  1929→environment that aims to produce a superior athlete, free of injuries. The
+  1930→following principles are important for both young and advanced athletes.
+  1931→
+  1932→Develop Joint Mobility
+  1933→In order to increase strength and mobility (flexibility) concurrently, most
+  1934→strength training exercises should be used for the entire range of motion,
+  1935→especially for ankles, knees, hips, and shoulders. Good joint mobility can
+  1936→prevent strain, pain, and stress injuries. Ankle mobility, in particular dorsal
+  1937→and plantar flexion (bringing the toes toward and then away from the calf),
+  1938→should be a major concern for beginners but also for soccer, tennis, the
+  1939→martial arts, contact sports, and so on.
+  1940→The best time for most athletes to begin mobility training is during
+  1941→prepubescence to make sure that at later stages of athletic development they
+  1942→just need to maintain it. When doing deep squats, an athlete may have evident
+  1943→strains and even mechanical stress if there is ankle, hip, and particularly knee
+  1944→mobility deficiency. Soccer is one of the sports in which ankle, knee, and hip
+  1945→flexibility are inadequately trained. Some exercises used in soccer are far
+  1946→from the range of motion needed during the game, and flexibility training is
+  1947→far from developing the needs of these joints. Remember that good range of
+  1948→motion can help prevent leg injuries.
+  1949→Many exercises for improving flexibility are partner-assisted stretching
+  1950→and proprioceptive neuromuscular facilitation (PNF), a technique that
+  1951→combines passive (isometric) with active stretching. Myofascial release (in
+  1952→the cervical and TMJ region) increases muscle flexibility and joint mobility
+  1953→without negatively affecting performance (Sullivan et al. 2013; Healey et al.
+  1954→2014). In fact, for peak performance, myofascial release should be planned
+  1955→before a competition, especially in speed and power sports.
+  1956→The maximum range of motion (ROM) required during the game should be the
+  1957→minimum level during daily practice.
+  1958→
+  1959→Develop Ligament and Tendon Strength
+  1960→Muscle strength improves faster than tendon and ligament strength. Many
+  1961→training specialists and coaches overlook the strengthening of ligaments and
+  1962→tendons because they misuse the principle of specificity or lack long-term
+  1963→vision. Yet most injuries occur not at the muscle but at the myotendinous
+  1964→junction. The reason is that without proper anatomical adaptation, vigorous
+  1965→strength training can injure the tendons and ligaments. With anatomical
+  1966→adaptation, however, tendons and ligaments grow strong. More specifically,
+  1967→training tendons and ligaments causes them to enlarge in diameter, increasing
+  1968→their ability to withstand tension and tearing.
+  1969→Ligaments, which are made up of the fibrous protein collagen, play the
+  1970→important role of attaching articulated bones to each other across a joint. The
+  1971→collagen fibrils are arranged in varying degrees of folds to help resist an
+  1972→increase in load. The strength of a ligament depends directly on its crosssectional area. A ligament may rupture when excessive force is directed at a
+  1973→joint. During regular exercise or activity, ligaments are easily elongated to
+  1974→allow movement in the joint to occur naturally. However, when a high load is
+  1975→applied, as in competition or training, ligament stiffness increases in order to
+  1976→restrict excessive motion in the joint. If the load is too great, the ligament is
+  1977→not able to withstand the stress, and an injury can occur.
+  1978→The best way to prevent such an injury is to condition the body properly to
+  1979→handle mechanical stress. To adapt ligaments to handle the stress, and
+  1980→provide adequate time for regeneration, athletes can condition them through a
+  1981→cycle of loading and unloading, as in the anatomical adaptation phase of
+  1982→training. Progressively increasing the training load improves the viscoelastic
+  1983→properties of ligaments and allows them to better accommodate high tensile
+  1984→loads such as those used in dynamic movements, maximum strength training,
+  1985→and plyometrics.
+  1986→Tendons, on the other hand, connect muscle to bone and transmit force
+  1987→from muscle to bone to allow movement to occur. Tendons also store elastic
+  1988→energy, which is crucial to any ballistic movement, such as those used in
+  1989→plyometrics and other forms of jumps (stretch–shortening cycle). The
+  1990→stronger the tendon, the greater its capacity to store elastic energy. That is
+  1991→why powerful tendons are characteristic of sprinters and jumpers. Without
+  1992→
+  1993→strong tendons, they would not be able to apply such great force against their
+  1994→bones to overcome the force of gravity.
+  1995→Ligaments and tendons are both trainable. Their material and structural
+  1996→properties change as a result of training, leading to increased thickness,
+  1997→strength, and stiffness by up to 20% (Frank 1996). Ligaments and tendons are
+  1998→also capable of healing, although more slowly than muscles, given the lower
+  1999→vascularization, and they might not recover to their preinjury capability.
+  2000→With all this in mind, exercise—especially the type performed during the
+  2001→anatomical adaptation phase—can be considered an injury prevention
+  2002→method. If the strengthening of tendons and ligaments is disrupted, the athlete
+  2003→may experience a decline in the tendons’ ability to transmit force and in the
+  2004→ligaments’ ability to secure the anatomical integrity of the joints. The abuse
+  2005→of steroids increases the muscle force at the expense of the ligaments’ and
+  2006→tendons’ material properties (Woo et al. 1994). More generally, increasing
+  2007→force without correspondingly strengthening the ligaments and tendons
+  2008→results in the ligament and tendon injuries experienced by some athletes,
+  2009→including professional American football players.
+  2010→
+  2011→Develop Core Strength
+  2012→The arms and legs are only as strong as the trunk. Put another way, a poorly
+  2013→developed trunk provides only weak support for hard-working limbs.
+  2014→Therefore, strength training programs should strengthen the core muscles
+  2015→before focusing on the arms and legs.
+  2016→Core muscles activate highly during jumps, rebounds, and plyometric
+  2017→exercises. They stabilize the body and serve as a link, or transmitter of force,
+  2018→between the legs and the arms. Weak core muscles fail in these essential
+  2019→roles, limiting the athlete’s ability to perform. Most of these muscles are
+  2020→dominated by slow-twitch fibers because of their supporting role in the
+  2021→body’s posture and their continuous activation during arm and leg actions.
+  2022→They contract constantly, but not necessarily dynamically, to create a solid
+  2023→base of support for the actions of other muscle groups.
+  2024→Many people complain of low-back problems yet do little to correct them.
+  2025→The best protection against low-back problems is to have well-developed
+  2026→back and abdominal muscles. Coaches and athletes should not neglect this
+  2027→area of the body. At the same time, although core strength training is
+  2028→
+  2029→currently touted as a new theory with concomitant new exercises, some of
+  2030→these are in fact useless and even dangerous. This section provides our point
+  2031→of view regarding core training. We believe that excessively focusing on the
+  2032→core does nothing to promote an increase in performance but serves only as a
+  2033→means of distracting the athlete from performing a host of exercises that are
+  2034→integral to sport performance—those that work the prime movers of the sport.
+  2035→The abdominal and back muscles surround the core area of the body with
+  2036→a tight and powerful support structure of muscle bundles running in different
+  2037→directions. If the abdominal muscles are poorly developed, the pelvis tilts
+  2038→forward, and lordosis (swayback) develops at the lumbar area of the spine.
+  2039→The rectus abdominis, for example, runs vertically and keeps the spine from
+  2040→extending when the legs are fixed, as in sit-ups, to maintain good posture.
+  2041→The internal and external obliques help the rectus abdominis bend the trunk
+  2042→forward (spine flexion) and perform all twisting, lateral-bending, and trunkrotating motions. They help an athlete recover from a fall in many sports and
+  2043→perform many actions in boxing, wrestling, and the martial arts. The anterior
+  2044→and lateral abdominal muscles perform delicate, precise trunk movements.
+  2045→These large muscles run vertically, diagonally, and horizontally.
+  2046→Because many athletes have weak abdominal muscles compared to their
+  2047→back muscles, general and specific abdominal muscle training is
+  2048→recommended. Isolating the abdominal muscles requires an exercise that
+  2049→flexes the spine but not the hips. Exercises that flex the hips are performed by
+  2050→the iliopsoas (a powerful hip flexor) and to a lesser extent by the abdominal
+  2051→muscles (which then work mostly isometrically to prevent spine extension in
+  2052→the sagittal plane). The most popular abdominal exercise is the sit-up. The situp can be considered a basic core strengthening exercise because it
+  2053→strengthens the hip flexors (iliopsoas) and the abdominal muscles
+  2054→simultaneously. The hip flexors have been overlooked as core muscles in the
+  2055→last two decades, supposedly because of their negative influence on posture
+  2056→(short hip flexors induce an anterior pelvic tilt and lumbar spine
+  2057→hyperlordosis). Nevertheless, strong hip flexors are paramount to avoid
+  2058→neural inhibition and promote strength development of the antagonist hip
+  2059→extensors, which is fundamental for the running and jumping athletes.
+  2060→Furthermore, the hip flexors are actively involved in the first acceleration
+  2061→steps, where there is a lesser elastic–reactive component compared to max
+  2062→velocity. Finally, the hip flexors are prime movers in combat sport, where
+  2063→
+  2064→there are grappling actions, in which the opponent’s body is driven not only
+  2065→with the strength of the upper body’s pulling muscles but also and mainly via
+  2066→hip flexion. These important muscles can also be trained through exercises
+  2067→such as leg and knee lifts against resistance.
+  2068→
+  2069→IRRADIATION
+  2070→When an athlete performs a strength exercise, many core muscles are activated and
+  2071→contract synergistically to stabilize the body and act as a support so that a limb can
+  2072→perform the exercise. This synergistic contraction is called activation overflow or
+  2073→irradiation (Enoka 2002; Zijdewind and Kernell 2001). The process is illustrated in the
+  2074→following examples.
+  2075→
+  2076→Upright Rowing
+  2077→The motion of upright rowing involves standing with the feet hip width apart while the
+  2078→arms, holding a barbell, are lowered in front of the thighs. As the arms flex to lift the
+  2079→weight to and from the chest, the abdominal and back muscles, including the erector
+  2080→spinae (core muscles), contract to stabilize the trunk so that the arms can perform the
+  2081→action smoothly (an anti-flexion action in the sagittal plane). Without support from the
+  2082→core muscles to stabilize the trunk, the prime movers would not be effective in
+  2083→performing the task.
+  2084→While the exercise is performed, all the core muscles (especially those of the back)
+  2085→are activated and contracted (activation overflow), and, as a result, are strengthened. In
+  2086→fact, the level of muscle contraction can be higher during this exercise than during many
+  2087→body weight exercises for core strength. Therefore, using it can better develop the core
+  2088→muscles (Hamlyn et al. 2007; Nuzzo 2008; Colado et al. 2011; Martuscello et al. 2012).
+  2089→
+  2090→Squatting and Deadlifting
+  2091→During any leg action performed against resistance in the upright position, all core
+  2092→muscles are strongly activated to stabilize the trunk and use it as a support (Martuscello
+  2093→et al. 2012). This activation also strengthens the muscles involved. In particular, heavy
+  2094→quarter squats (performed by elite athletes with a load three to four times body weight),
+  2095→for instance, elicit particularly strong contractions of the core muscles. The deadlift, on
+  2096→the other hand, is a great builder of back muscle strength. (The deadlift has been used to
+  2097→strengthen leg extensors and back muscles since the Bronze Age. It is not a weightlifting
+  2098→novelty. Not at all. Remember the Aeneas rowers? They used the deadlift.)
+  2099→
+  2100→Spiking
+  2101→One of the most dynamic athletic skills, volleyball spiking, could not be properly
+  2102→performed without the direct support of the core muscles. During spiking, the core
+  2103→muscles contract to stabilize the trunk so that the legs can perform an explosive takeoff
+  2104→and the arms can hit the ball. The core muscles also fixate and stabilize the trunk in
+  2105→other situations where the arms and legs need to perform an athletic task; examples
+  2106→include running, jumping, throwing, medicine ball exercises, and various quick or agile
+  2107→
+  2108→foot movements. Indeed, the core is engaged by any strength or sport-specific exercise
+  2109→in which the core must contract in order to resist flexion or extension of the spine. As a
+  2110→result, the overall volume of specific core strengthening exercises can be reduced to a
+  2111→few sets of essential exercises per session.
+  2112→
+  2113→The back muscles, including the deep back muscles along the vertebral
+  2114→column, are responsible for many movements, such as back extension and
+  2115→trunk extension and rotation. The trunk, in turn, acts as the transmitter and
+  2116→supporter of most arm and leg actions. The vertebral column also plays an
+  2117→essential role as a shock absorber during landing and takeoff.
+  2118→
+  2119→STABILITY BALL TRAINING
+  2120→Like everything in sport-specific training, the stability ball (also known as the Swiss ball
+  2121→or balance ball) is not new. It first hit the scene in the 1960s and has become very
+  2122→popular, especially in rehabilitative settings. Since the 1990s, it has also become popular
+  2123→in sport and fitness. Its popularity in the fitness field is understandable, given that the
+  2124→field is all about variety and excitement.
+  2125→Many exercises performed on the stability ball provide good upper- and lower-body
+  2126→strength, flexibility, and of course core strength. The benefit of these exercises for
+  2127→athletes is overemphasized, however, by some members of the sporting world, who
+  2128→claim that improvements in proprioception and balance translate to improvements in
+  2129→athletic performance. In reality, balance is not a limiting factor for performance; therefore,
+  2130→it is not in the same category as speed, strength, and endurance. The body will adapt to
+  2131→the unstable environment of sport through the stimulus of participating in the sport itself,
+  2132→as well as through the practice of technical and tactical drills related to the sport.
+  2133→Selected exercises can be performed on the ball, but they should be limited to the
+  2134→anatomical adaptation or transition phases of training, when general adaptation takes
+  2135→precedence over specific physiological adaptation.
+  2136→Beyond these caveats, athletes and coaches should be aware that performing at
+  2137→maximum strength on a stability ball can be detrimental to athletic performance. The ball
+  2138→limits the amount of weight that the athlete can lift because more neural drive is used to
+  2139→stabilize the body as a whole, as well as the specific joints involved, thus reducing the
+  2140→activation of the fast-twitch muscle fibers of the prime movers. The only stability ball
+  2141→exercises we recommend are those intended for training the abdominal muscles, which
+  2142→allow the athlete to stretch the abdominals fully before the concentric part of the
+  2143→exercise. Other muscle groups can be trained more effectively through other means.
+  2144→Stability balls do have a time and place in training. Activation overflow explains how all
+  2145→muscles involved in a movement essentially communicate with each other and offer their
+  2146→help. Our bodies are extremely pliable and adapt wonderfully to traditional methods of
+  2147→training. And, most important in sports, an athlete’s body performs better when it adapts
+  2148→better, thereby creating stability naturally.
+  2149→
+  2150→Back problems can result from excessive, uneven stress on the spine or
+  2151→from sudden movement in an unfavorable position. For athletes, back
+  2152→problems may result from wear and tear caused by improper positioning or
+  2153→forward tilting of the body. More specifically, disc pressure varies according
+  2154→to body position relative to external stress. For example, stress increases on
+  2155→the spine while lifting in seated positions or standing when the upper body
+  2156→swings, such as in upright rowing or elbow flexion. Sitting produces greater
+  2157→disc pressure than standing, and the least stress occurs when the body is
+  2158→supine or prone (as in bench presses or prone bench pulls). In many exercises
+  2159→that use the back muscles, abdominal muscles contract isometrically,
+  2160→stabilizing the body.
+  2161→
+  2162→Develop the Stabilizers
+  2163→Prime movers work more efficiently with strong stabilizer, or fixator,
+  2164→muscles. Stabilizers contract, primarily isometrically, to stabilize a joint so
+  2165→that another part of the body can act. For example, the shoulders are
+  2166→immobilized during elbow flexion, and the abdominal muscles serve as
+  2167→stabilizers when the arms throw a ball. In rowing, when the trunk muscles act
+  2168→as stabilizers, the trunk transmits leg power to the arms, which then drive the
+  2169→blade through the water. A weak stabilizer, therefore, inhibits the contracting
+  2170→capacity of the prime movers.
+  2171→Improperly developed stabilizers can also hamper the activity of major
+  2172→muscles. When placed under chronic stress, the stabilizers spasm, restraining
+  2173→the prime movers and reducing athletic effectiveness. This condition is often
+  2174→seen in volleyball players who suffer injury as a result of inadequate muscle
+  2175→strength and balance in the shoulder muscles (Kugler et al. 1996). At the
+  2176→shoulders, supra- and infraspinatus muscles rotate the arm. The simplest,
+  2177→most effective exercise to strengthen these two muscles is to rotate the arm
+  2178→while holding a dumbbell. The resistance provided stimulates the two
+  2179→muscles stabilizing the shoulder. At the hips, the piriformis and gluteus
+  2180→medius muscles perform external (outward) rotation. To strengthen these
+  2181→muscles, the athlete should stand with the knees locked and lift the leg to the
+  2182→side with a strap connected to a cable machine.
+  2183→Stabilizers also contract isometrically, immobilizing one part of the limb
+  2184→and allowing the other to move. In addition, they can monitor the state of the
+  2185→
+  2186→long bones’ interactions in joints and sense potential injury resulting from
+  2187→improper technique, inappropriate strength, or spasms produced by poor
+  2188→stress management. If one of these conditions occurs, the stabilizers restrain
+  2189→the activity of the prime movers, thus avoiding strain and injury.
+  2190→Stabilizers play important roles in athletic performance. However, some
+  2191→strength and conditioning coaches have exaggerated the training of the
+  2192→stabilizer muscles, especially through the use of proprioception training (also
+  2193→known as balance training). In fact, unstable surface training elicits high
+  2194→motor units activation due to co-contraction (simultaneous contraction of
+  2195→agonists and antagonists to stabilize a joint), which is not conducive to the
+  2196→neuromuscular adaptations required by speed and power athletes, who need
+  2197→“silent” (i.e., inactive) antagonists during powerful actions.
+  2198→On the other hand, a number of studies have shown that proprioception
+  2199→training with balance boards does help provide stability to a previously
+  2200→injured or unstable ankle (Caraffa et al. 1996; Wester et al. 1996; Willems et
+  2201→al. 2002). The theory is that if balance board training helps promote greater
+  2202→stability by increasing the proprioception and strength of the stabilizer
+  2203→muscles of an unstable structure, it will further strengthen and prevent injury
+  2204→to an already stable structure. This has yet to be proven, however, and in any
+  2205→case the real question is how much time should be devoted to exercises
+  2206→intended to strengthen the stabilizer muscles.
+  2207→Be selective regarding the time and energy you spend on a large variety of exercises
+  2208→and methods.
+  2209→Athletes are usually pressed for time; for top athletes, spending hours on balance
+  2210→training and the stability ball can be a waste of valuable time.
+  2211→Too much time is often spent on drills for agility and not enough on MxS/power.
+  2212→Coaches and instructors should review their training philosophy by creating a
+  2213→neuromuscular strategy to improve athletic performance.
+  2214→
+  2215→Certain studies show that proprioception training can decrease injury to
+  2216→the knee (Caraffa et al. 1996), whereas other studies disprove the benefits of
+  2217→proprioception training for injury prevention (Söderman et al. 2000). One
+  2218→review study in particular challenged flaws in the design and implementation
+  2219→of proprioception studies (Thacker et al. 2003). Furthermore, in the last 10
+  2220→years, strength and conditioning coaches who have refrained from using
+  2221→
+  2222→balance boards or proprioception training for team sports (soccer and
+  2223→volleyball) have reported no increase in ankle or knee injuries.
+  2224→That said, balance board or Swiss ball training can be helpful during the
+  2225→early part of the preparatory phase (the anatomical adaptation phase).
+  2226→Unilateral exercises are certainly the best choice for improving joint stability
+  2227→while training the prime movers. Nevertheless, if proprioceptive strength is
+  2228→trained during the anatomical adaptation phase, the board or Swiss ball
+  2229→should be put away in the next phase to allow time for training with methods
+  2230→that directly enhance the athlete’s physical stature and promote sport-specific
+  2231→strength, speed, and stamina. After all, even if exercises worked to improve
+  2232→an athlete’s proprioception, the slow to intermediate nature of these exercises
+  2233→would never protect the joint from the fast and powerful movements
+  2234→performed in sport (Ashton-Miller et al. 2001). Preparing the stabilizers for
+  2235→movement is important; specifically, training for the movements of the sport
+  2236→with ideal sport-specific speed and power or endurance is vital to the athlete’s
+  2237→performance and physical state.
+  2238→
+  2239→Train Movements, Not Individual Muscles
+  2240→The purpose of strength training in sports is to load the joints’ movements
+  2241→specifically used in performing the skills of a given sport. Athletes should
+  2242→resist training muscles in isolation, as is done in bodybuilding. From the start,
+  2243→bodybuilding has promoted the concept of working muscles in isolation, a
+  2244→concept that has served this activity very well for generations. However,
+  2245→isolation exercises do not apply to sports because athletic skills are multijoint
+  2246→movements performed in a certain order, forming what is called a kinetic
+  2247→(movement) chain.
+  2248→For instance, a takeoff to catch a ball uses the following kinetic chain: hip
+  2249→extensions, then knee extensions, and finally ankle extensions (push-off), in
+  2250→which the feet apply force against the ground to lift the body. This powerful
+  2251→sequence, typical of so many sport actions, is called triple extensions.
+  2252→According to the principle of specificity, especially during the conversion
+  2253→(to specific strength) phase, body position and limb angles should resemble
+  2254→those needed for the specific skills to be performed. When athletes train for a
+  2255→movement, the muscles are integrated and strengthened to perform the action
+  2256→with more power. Therefore, athletes should not resort to weight training
+  2257→
+  2258→alone but should broaden their training routines by incorporating medicine
+  2259→balls, power training with strength training machines, throwing with heavier
+  2260→implements, and plyometric equipment. Exercises performed with these
+  2261→instruments allow athletes to potentiate their athletic skills.
+  2262→Multijoint exercises, such as the squat, deadlift, bench press, military
+  2263→press, chin-up, and weightlift, as well as throws and jumps, in sport training
+  2264→have been used since track-and-field athletes introduced them in the early
+  2265→1930s, prior to the 1936 Olympic Games. Most athletes still follow this
+  2266→tradition. Such exercises are key to strength training efficiency and efficacy.
+  2267→A few isolation exercises (referred to as accessory exercises) can still be used
+  2268→to support hypertrophy of lacking muscles or to increase blood flow
+  2269→(necessary for tendon health) and to support the muscle protein content of the
+  2270→prime movers during periods of low reps and very high loads in training.
+  2271→Identify the prime movers in your sport first, and then train them as per the principles of
+  2272→periodization of strength.
+  2273→
+  2274→Focus Not on What Is New But on What Is
+  2275→Necessary
+  2276→Over the years, the North American sport and fitness market has been
+  2277→deluged by many products that supposedly improve athletic performance.
+  2278→Often, however, they do not. In fact, an understanding of biomechanics and
+  2279→exercise physiology reveals that many products that claim to improve
+
+[showing lines 1580-2279 of 13586; use offset=2280 with limit to continue reading]

@@ -9,7 +9,7 @@ import { EQUIPMENT_LABELS, MUSCLE_LABELS } from '@/lib/exercises';
 import type { FitnessLevel } from '@/lib/exercises';
 import {
   User, Dumbbell, Target, Activity, Calendar, RotateCcw,
-  ChevronRight, Trophy, Flame, Settings, Ruler, BarChart3,
+  ChevronRight, Trophy, Flame, Settings, Ruler, BarChart3, Library,
 } from 'lucide-react';
 
 const LEVEL_LABELS: Record<FitnessLevel, string> = {
@@ -148,14 +148,40 @@ export function ProfileScreen() {
       {/* Adaptive algorithm info */}
       <Card className="border-0 shadow-sm">
         <CardContent className="p-4 space-y-2">
-          <h3 className="text-sm font-semibold">Адаптивный алгоритм</h3>
+          <h3 className="text-sm font-semibold">Научный алгоритм</h3>
           <p className="text-xs text-muted-foreground leading-relaxed">
-            Нагрузка корректируется на основе ваших отзывов. «Нормально» — нагрузка растёт на 5–10%.
-            «Тяжело» — стабилизация. «Очень тяжело» 2 раза подряд — разгрузочная неделя.
-            Пропуски свыше 3 дней — мягкое снижение до 80%.
+            5-фазная периодизация Bompa (АА→Гип→Сила→Мощность→Разгрузка, 11 нед.).
+            Таблица Прилепина для валидации объёма. Volume landmarks Schoenfeld (10-20 сетов/мышцу/нед.).
+            Ротация упражнений по закону аккомодации (Zatsiorsky).
           </p>
         </CardContent>
       </Card>
+
+      {/* Quick links */}
+      <div className="space-y-2">
+        <button
+          onClick={() => setScreen('knowledge')}
+          className="w-full text-left"
+        >
+          <Card className="border-0 shadow-sm hover:shadow-md transition-shadow">
+            <CardContent className="p-4 flex items-center gap-3">
+              <div className="p-2.5 rounded-xl bg-violet-100 dark:bg-violet-900/30 shrink-0">
+                <Library className="w-5 h-5 text-violet-600 dark:text-violet-400" />
+              </div>
+              <div className="flex-1 min-w-0">
+                <div className="flex items-center gap-2">
+                  <span className="text-sm font-semibold">Конспекты</span>
+                  <Badge variant="secondary" className="text-[10px] bg-violet-100 text-violet-700 dark:bg-violet-900/30 dark:text-violet-300">
+                    8 книг
+                  </Badge>
+                </div>
+                <p className="text-[10px] text-muted-foreground mt-0.5">Научные основы: Bompa, Zatsiorsky, Signor, Schoenfeld и др.</p>
+              </div>
+              <ChevronRight className="w-4 h-4 text-muted-foreground shrink-0" />
+            </CardContent>
+          </Card>
+        </button>
+      </div>
 
       {/* History */}
       {history.length > 0 && (

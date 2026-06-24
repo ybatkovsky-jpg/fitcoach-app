@@ -15,6 +15,7 @@ import { BodyMetricsScreen } from '@/components/screens/body-metrics-screen';
 import { ProgressScreen } from '@/components/screens/progress-screen';
 import { AchievementsScreen } from '@/components/screens/achievements-screen';
 import { AdminScreen } from '@/components/screens/admin-screen';
+import { KnowledgeScreen } from '@/components/screens/knowledge-screen';
 import { BottomNav } from '@/components/screens/bottom-nav';
 import { Dumbbell } from 'lucide-react';
 
@@ -234,6 +235,20 @@ export default function Home() {
                 className="absolute inset-0"
               >
                 <AchievementsScreen />
+              </motion.div>
+            )}
+
+            {effectiveScreen === 'knowledge' && (
+              <motion.div
+                key="knowledge"
+                variants={screenVariants}
+                initial="initial"
+                animate="animate"
+                exit="exit"
+                transition={{ duration: 0.2 }}
+                className="absolute inset-0"
+              >
+                <KnowledgeScreen />
               </motion.div>
             )}
           </AnimatePresence>

@@ -1,0 +1,502 @@
+  5229→Phase 1: Anatomical Adaptation
+  5230→Periodization of strength has become very popular worldwide, and many
+  5231→training specialists and authors have discussed and written about this very
+  5232→efficient strength training concept. However, in their attempt to be different
+  5233→or to claim originality, some authors suggest a periodization of strength plan
+  5234→that starts with hypertrophy training. This might be acceptable in
+  5235→bodybuilding, but it is definitely not acceptable in strength training for sport.
+  5236→In fact, except for some throwers in track and field and some position players
+  5237→in American football, hypertrophy or muscle size is not a determining factor
+  5238→in high-performance athletics.
+  5239→To the contrary, athletes in most sports—such as basketball, soccer, and
+  5240→swimming, not to mention sports divided into weight-class categories—are
+  5241→extremely reluctant to increase nonfunctional muscle hypertrophy.
+  5242→Furthermore, to maximize hypertrophy, athletes must work each set to
+  5243→exhaustion, which at times may result in a high level of discomfort that
+  5244→negatively affects the sport-specific training or even causes injury. For this
+  5245→reason, the original model of periodization of strength starts with an
+  5246→anatomical adaptation phase.
+  5247→Following a transition phase, during which athletes usually do very little
+  5248→strength training, it is scientifically and methodologically sound to start a
+  5249→strength program aimed at adapting the anatomy for the heavy loads to
+  5250→follow. The main objectives of this phase are to involve most muscle groups
+  5251→and to prepare the muscles, ligaments, tendons, and joints to endure the
+  5252→subsequent lengthy and strenuous training phases. Strength training programs
+  5253→should not focus only on the legs or arms; they should also focus on
+  5254→strengthening the core area—the abdominal muscles, the low back, and the
+  5255→spinal column musculature. These sets of muscles work together to ensure
+  5256→that the trunk supports the legs and arms during all movements and also act
+  5257→as shock-absorbing devices during the performance of many skills and
+  5258→exercises, especially landing and falling.
+  5259→Additional objectives for anatomical adaptation are to balance strength
+  5260→between agonist and antagonist muscles surrounding each joint; to balance
+  5261→the two sides of the body, especially the legs, shoulders, and arms; and to
+  5262→strengthen the stabilizer muscles. The volume of strength training must be
+  5263→balanced between muscle functions (see figure 6.4)—in other words, between
+  5264→
+  5265→agonists and antagonists around a joint. Failing to do so may result in
+  5266→postural imbalances and injuries.
+  5267→In some cases, balanced development between agonist and antagonist
+  5268→muscles is impossible because some agonist muscles are larger and stronger
+  5269→than others. For instance, the knee extensors (quadriceps) are stronger than
+  5270→the knee flexors (hamstrings). The same is true for the ankle plantar flexors
+  5271→(gastrocnemii) and extensors (tibialis anteriori). The knee extensors and ankle
+  5272→plantar flexors are exposed to more training because activities such as
+  5273→running and jumping are used heavily in most sports. Professionals in the
+  5274→field, however, must be aware of the agonist-to-antagonist ratios and attempt
+  5275→to maintain them through training. If they neglect to do so and instead
+  5276→constantly train the agonists—the prime movers of given sport skills—the
+  5277→imbalance will likely result in impaired performance due both to neural
+  5278→inhibition of force expression of the prime movers and to injuries (for
+  5279→example, rotator cuff injuries in baseball).
+  5280→The transition and anatomical adaptation phases are ideal for balanced
+  5281→development of antagonist muscles because they occur at a time in the
+  5282→training cycle when there is no pressure from competition. Little information
+  5283→exists about the agonist-to-antagonist ratios, especially for the high-speed
+  5284→limb movements typical of sports. Table 6.1 provides some information on
+  5285→the subject for low, isokinetic speeds. This information should be used only
+  5286→as a guideline for maintaining these ratios, at least during the anatomical
+  5287→adaptation and transition phases.
+  5288→
+  5289→Figure 6.4 One way to achieve muscular balance is to use the same volume of work for the
+  5290→agonist and the antagonist muscles around a joint.
+  5291→
+  5292→Table 6.1 Agonist-to-Antagonist Ratios for Slow
+  5293→Concentric Isokinetic Movements
+  5294→Joint
+  5295→
+  5296→Strength training
+  5297→
+  5298→Ratio
+  5299→
+  5300→Ankle
+  5301→
+  5302→Plantar flexion (gastrocnemius, soleus) to dorsiflexion (tibialis anterior)
+  5303→
+  5304→3:1
+  5305→
+  5306→Ankle
+  5307→
+  5308→Inversion (tibialis anterior) to eversion (peroneus)
+  5309→
+  5310→1:1
+  5311→
+  5312→Knee
+  5313→
+  5314→Extension (quadriceps) to flexion (hamstrings)
+  5315→
+  5316→3:2
+  5317→
+  5318→Hip
+  5319→
+  5320→Extension (spinal erectors, gluteus maximus, hamstrings) to flexion (iliopsoas,
+  5321→rectus femoris, tensor fascia latae, sartorius)
+  5322→
+  5323→1:1
+  5324→
+  5325→Shoulder
+  5326→
+  5327→Flexion (anterior deltoids) to extension (trapezius, posterior deltoids)
+  5328→
+  5329→2:3
+  5330→
+  5331→Shoulder
+  5332→
+  5333→Internal rotation (subscapularis, latissimus dorsi, pectoralis major, teres
+  5334→major) to external rotation (supraspinatus, infraspinatus, teres minor)
+  5335→
+  5336→3:2
+  5337→
+  5338→Elbow
+  5339→
+  5340→Flexion (biceps) to extension (triceps)
+  5341→
+  5342→1:1
+  5343→
+  5344→Lumbar
+  5345→spine
+  5346→
+  5347→Flexion (abdominals) to extension (spinal erectors)
+  5348→
+  5349→1:1
+  5350→
+  5351→Reprinted by permission from D. Wathen, “Muscle Balance.” In Essentials of Strength Training and Conditioning,
+  5352→edited for the National Strength and Conditioning Association by T.R. Baechle (Champaign, IL: Human Kinetics,
+  5353→1994), 425.
+  5354→
+  5355→Throughout the anatomical adaptation phase, the goal is to involve most, if
+  5356→not all, muscle groups in a multilateral program. Such a program should
+  5357→
+  5358→include a high number of exercises (9-12) performed comfortably without
+  5359→pushing the athlete. Remember, vigorous strength training always develops
+  5360→the strength of the muscles faster than the strength of the muscle attachments
+  5361→(tendons) and joints (ligaments). Consequently, applying such programs too
+  5362→early often result in injuries to these tissues.
+  5363→In addition, when large-muscle groups are weak, the small muscles have
+  5364→to take over the strain of the work. As a result, the small-muscle groups may
+  5365→become injured more quickly. Other injuries occur because insufficiently
+  5366→trained muscles lack the force to control landings, absorb shock, and balance
+  5367→the body quickly to be ready to perform another action (not because of a lack
+  5368→of landing skills). This is the reason why plyometric training is introduced
+  5369→gradually after two or three weeks of anatomical adaptations, using lowintensity jumps and bounds to reach the highest intensities right after the
+  5370→maximum strength phase when a solid base of muscular strength has been
+  5371→laid down.
+  5372→The duration of the anatomical adaptation phase depends on the length of
+  5373→the preparation phase, the athlete’s background in strength training, and the
+  5374→importance of strength in the given sport. A long preparation phase, of
+  5375→course, allows more time for anatomical adaptation. Logically, athletes who
+  5376→have a weak strength training background require a much longer anatomical
+  5377→adaptation phase. This phase fosters progressive adaptation to training loads
+  5378→and improves the ability of muscle tissue and muscle attachments to
+  5379→withstand the heavier loads of the phases that follow.
+  5380→Young or inexperienced athletes need eight to ten weeks of anatomical
+  5381→adaptation training. In contrast, mature athletes with four to six years of
+  5382→strength training require no more than two or three weeks of this phase.
+  5383→Indeed, for these athletes, a longer anatomical adaptation phase likely
+  5384→provides no significant additional training effect.
+  5385→
+  5386→Phase 2: Hypertrophy
+  5387→In some sports, an increase in muscle size is an important asset. However, as
+  5388→mentioned throughout this text, hypertrophy training, which is extremely
+  5389→popular in bodybuilding, is overused in the sporting world. When applied to
+  5390→strength training for sports, hypertrophy training must extend beyond the old
+  5391→definition of training to exhaustion. Specifically, it can be used as a primer
+  5392→
+  5393→for the maximum strength phase to follow by adapting the body to using
+  5394→progressively heavier loads.
+  5395→If some athletes need to increase muscle size (e.g., competitors in shot put,
+  5396→heavy weight categories in wrestling, boxing, and martial arts, or scrum
+  5397→players in rugby), they can use two different approaches: hypertrophy I,
+  5398→hypertrophy II, or both. Hypertrophy I is often used with athletes who require
+  5399→a distinct increase in muscle size and strength. It relies on using loads
+  5400→between 15RM (i.e., 15 reps to failure) and 10RM with little rest (60-90
+  5401→seconds maximum) between sets. If bodybuilding techniques such as restpause and drop sets are used during this phase to increase the tension and
+  5402→protein synthesis within the musculature, the load used is between 8RM and
+  5403→5RM, because these techniques further increase the total time under tension
+  5404→per set.
+  5405→Hypertrophy II involves a more hybrid kind of work between hypertrophy
+  5406→and maximum strength that prepares the fast-twitch muscle fibers for the hard
+  5407→work to follow during the maximum strength training phase. Hypertrophy II
+  5408→increases absolute strength by eliciting both neural and structural adaptations.
+  5409→This phase uses loads from 8RM to 5RM with relatively long rest intervals
+  5410→(120-180 seconds).
+  5411→For both hypertrophy I and hypertrophy II, the time devoted and the loads
+  5412→are determined by the athlete’s age, physical development, and strength
+  5413→training experience. At the end of the hypertrophy phase, a maximum
+  5414→strength test is performed in order to plan the training percentage of the first
+  5415→maximum strength macrocycle.
+  5416→
+  5417→Phase 3: Maximum Strength
+  5418→The main objective of this phase is to develop the highest possible level of
+  5419→strength. This goal can be achieved only by using heavy loads in training:
+  5420→70% to 95% of 1RM or, less often, 90% to 100%.
+  5421→
+  5422→Figure 6.5 Suggested load progression for a 7-week maximum strength phase (a 3+1 and a
+  5423→2+1 structure) in which the unloading phases have the scope of testing a new 1RM. The 3+1
+  5424→structure is suggested for a national level athlete.
+  5425→Key: T = maximum strength testing
+  5426→
+  5427→For a better training progression, you can divide the maximum strength
+  5428→phase into two distinct parts: maximum strength I and II:
+  5429→Maximum strength I works mainly on the intermuscular coordination
+  5430→and is composed of one or two 3+1 macrocycles, in which the load for
+  5431→the main strength exercises is between 70% to 80% of 1RM.
+  5432→Maximum strength II has the objective of training mainly the
+  5433→intramuscular coordination via a 2+1 structure with heavy loads of 80%
+  5434→to 90 % of 1RM (figure 6.5). This type of strength training plan is
+  5435→suggested for athletes up to national level competitions. The other
+  5436→examples are suggested for above national, that is, international level
+  5437→athletes (figures 6.6-6.7).
+  5438→The duration of this phase, roughly from one to three months, is a function
+  5439→of the chosen sport or event and the athlete’s needs. A shot-putter or an
+  5440→American football player may need a lengthy phase of slightly more than
+  5441→three months, whereas many other athletes may need only one or two months
+  5442→to develop the necessary type of strength. The load can be increased in a
+  5443→three-week macrocycle, and it usually progresses by 5% per microcycle.
+  5444→Macrocycles for the intermuscular coordination type of maximum strength
+  5445→use loads up to 80% of 1RM, whereas a macrocycle for the intramuscular
+  5446→coordination type of maximum strength uses loads above 80%.
+  5447→This phase is characterized by a higher number of sets with a lower
+  5448→number of exercises. The duration of this phase also depends on whether the
+  5449→
+  5450→athlete follows a monocycle or bi-cycle annual plan. For obvious reasons,
+  5451→young athletes may have a shorter maximum strength phase with lower loads.
+  5452→
+  5453→Figure 6.6 Suggested load progression for an 8-week, high-demand maximum strength
+  5454→phase. During the last days of the low step microcycle (step 1), a test is planned to find the
+  5455→new 1RM.
+  5456→Key: T = maximum strength testing
+  5457→
+  5458→Figure 6.7 Suggested load progression for a three-macrocycle (11 weeks) maximum
+  5459→strength phase for a well-adapted athlete to high training demand/heavy loads.
+  5460→Key: T = maximum strength testing
+  5461→
+  5462→Most sports require either power (e.g., for jumps and throws in track and
+  5463→field), power endurance (e.g., for sprints in track and field), muscular
+  5464→endurance (e.g., for 800- to 1,500-meter swimming), or all three (e.g., for
+  5465→rowing, canoeing, wrestling, combat sports, the martial arts, and some team
+  5466→
+  5467→sports). Each of these types of specific strength is affected by the level of
+  5468→maximum strength. For instance, without a high level of maximum strength,
+  5469→an athlete cannot reach high levels of power. Because power is the product of
+  5470→force and velocity, it is logical to develop maximum strength first, then
+  5471→convert it to power.
+  5472→
+  5473→Phase 4: Conversion to Specific Strength
+  5474→The main purpose of this phase is to convert gains in maximum strength into
+  5475→competitive, sport-specific combinations of strength. Depending on the
+  5476→characteristics of the chosen sport or event, maximum strength must be
+  5477→converted into power, power endurance, or muscular endurance short,
+  5478→medium, or long. By applying an adequate training method for the type of
+  5479→strength sought and using training methods specific to the selected sport (for
+  5480→example, speed training), athletes gradually convert maximum strength into
+  5481→power.
+  5482→Throughout this phase, depending on the needs of the sport and the athlete,
+  5483→a certain level of maximum strength must be maintained (usually employing
+  5484→both sport-specific range and full-range-of-motion exercises). If not, power
+  5485→may decline (due to detraining of neuromuscular qualities) toward the end of
+  5486→the competitive phase. This is certainly the case for professional players in
+  5487→American football, soccer, and baseball, because each of these sports has
+  5488→such a long season.
+  5489→
+  5490→The conversion-to-specific-strength phase helps the athlete transfer his strength gains to
+  5491→performance.
+  5492→
+  5493→For sports in which power or muscular endurance is the dominant strength,
+  5494→the appropriate method must be dominant in training. When both power and
+  5495→muscular endurance are required, the training time and methods should
+  5496→adequately reflect the optimal ratio between these two abilities. For instance,
+  5497→for a wrestler, the ratio should be almost equal; for a speedskater in a 500meter event, power endurance should dominate; and for a rower, muscular
+  5498→endurance should dominate. In team sports, the martial arts, wrestling,
+  5499→boxing, and most other power-dominant sports, coaches should combine
+  5500→power training with exercises that lead to the development of agility and
+  5501→quick reaction and movement times during the conversion phase. Only this
+  5502→type of approach prepares athletes for the sport-specific requirements of
+  5503→competition.
+  5504→The duration of the conversion phase depends on the ability that needs to
+  5505→be developed. Conversion to power can be achieved in four to eight weeks of
+  5506→specific power training. On the other hand, conversion to muscular endurance
+  5507→requires as many as six to nine weeks because both the physiological and the
+  5508→
+  5509→anatomical adaptations to such demanding work take much longer.
+  5510→
+  5511→Phase 5: Maintenance
+  5512→The tradition in many sports is to eliminate strength training when the
+  5513→competitive season starts. However, athletes who do not maintain strength
+  5514→training during the competitive phase experience a detraining effect with the
+  5515→following repercussions.
+  5516→Muscle fibers decrease to their pretraining size, resulting in a strength
+  5517→and power loss (Thorstensson 1977; Staron, Hagerman, and Hikida
+  5518→1981; McMaster et al. 2013).
+  5519→Loss of strength also results from decreases in motor unit recruitment.
+  5520→The athlete fails to voluntarily activate the same number of motor units
+  5521→as before, which causes a net decrease in the amount of force that can be
+  5522→generated (Edgerton 1976; Hainaut and Duchateau 1989; Houmard
+  5523→1991; Kraemer and Ratamess 2005).
+  5524→Power decreases ensue because the rate of force production depends on
+  5525→the firing rate.
+  5526→Detraining becomes evident after four weeks, when athletes begin to be
+  5527→unable to perform skills requiring strength and power as proficiently as
+  5528→they did at the end of the conversion phase (Bompa 1993; Kraemer and
+  5529→Ratamess 2005).
+  5530→As the term suggests, the main objective of strength training during this
+  5531→phase is to maintain the standards achieved during the previous phases. Once
+  5532→again, the program followed during this phase is a function of the specific
+  5533→requirements of the chosen sport. Such requirements must be reflected in the
+  5534→training ratio between maximum strength and the specific strength. For
+  5535→instance, a shot-putter may plan two sessions to train for maximum strength
+  5536→and two to train for power, whereas a jumper may consider one for maximum
+  5537→strength and two for power. Similarly, a 100-meter swimmer may plan one
+  5538→session to train for maximum strength, one for power, and one to train for
+  5539→muscular endurance short, whereas a 1,500-meter swimmer may dedicate the
+  5540→entire strength program to perfecting muscular endurance long.
+  5541→For team sports, ratios should be calculated according to the role of
+  5542→strength in the particular sport; in addition, they should be position specific.
+  5543→
+  5544→For instance, a pitcher should perform maximum strength and power equally
+  5545→while also doing compensation work to avoid rotator cuff injury. Similarly,
+  5546→distinctions should be made between linemen and wide receivers in American
+  5547→football, and sweepers, midfielders, and forwards in soccer. Linemen and
+  5548→wide receivers should spend equal time on maximum strength and power but
+  5549→use different percentages of 1RM (linemen use a lower velocity of the
+  5550→application of force in their specific activity). Soccer players have to maintain
+  5551→both power and power endurance short—that is, the ability to repeat
+  5552→numerous power actions with incomplete rest.
+  5553→Between one and four sessions per week must be dedicated to maintaining
+  5554→the required strength qualities, depending on the athlete’s level of
+  5555→performance and the role of strength in skill performance. Studies show that
+  5556→at least one strength maintenance session per week is necessary to maintain
+  5557→most of the strength gains and the power output reached during preparation
+  5558→(Graves et al. 1988; Wilmore and Costill 2004; Rønnestad et al. 2011).
+  5559→Compared with the preparation phases, the time allocated to the
+  5560→maintenance of strength in the maintenance phase is much lower. Therefore,
+  5561→the coach has to develop a very efficient and specific program. For instance,
+  5562→two to (at most) four exercises involving the prime movers will enable the
+  5563→athlete to maintain previously reached strength levels. As a result, the
+  5564→duration of each strength training session will be short—20 to 40 minutes.
+  5565→
+  5566→Phase 6: Cessation
+  5567→As the main competition of the year approaches, most of the athlete’s energy
+  5568→must be directed to the main sport-specific biomotor ability or mix of
+  5569→biomotor abilities. Again, the purpose of the cessation phase is to conserve
+  5570→the athlete’s energy for competition and peak his or her sport-specific
+  5571→biomotor abilities. For this reason, the strength training program should end
+  5572→at least three to fourteen days before the main competition. The exact timing
+  5573→depends on multiple factors.
+  5574→The athlete’s sex. Female athletes, who retain strength gains less easily
+  5575→than males do, should usually maintain strength training until three days
+  5576→before competition.
+  5577→The chosen sport. A longer cessation phase, one to two weeks long, may
+  5578→result in improved alactic speed performance due to overshooting of the
+  5579→
+  5580→fast-twitch Type IIX muscle fibers. For long endurance sports for which
+  5581→strength is not as important as for anaerobic sports, strength training can
+  5582→be ended two weeks before the main competition for the year.
+  5583→Body type. Heavier athletes tend to retain both adaptations and residual
+  5584→fatigue longer and therefore should end strength training earlier than
+  5585→lighter athletes.
+  5586→
+  5587→Phase 7: Compensation
+  5588→Traditionally, the last phase of the annual plan has been inappropriately
+  5589→called the off-season; in reality, it represents a transition from one annual
+  5590→plan to another. The main goal of this phase is to remove fatigue acquired
+  5591→during the training year and replenish the exhausted energy stores by
+  5592→decreasing both volume (through a decrease in frequency) and intensity of
+  5593→training. During the months of training and competition, most athletes are
+  5594→exposed to numerous psychological and social stressors that drain their
+  5595→mental energy. During the transition phase, athletes can relax psychologically
+  5596→by getting involved in various physical and social activities that they enjoy.
+  5597→The transition phase between two parts of the annual plan should last no
+  5598→longer than two weeks, and usually lasts only one week. On the other hand,
+  5599→the transition phase at the end of the annual plan can last between four and
+  5600→eight weeks, depending on the level of the athlete: Beginners must have
+  5601→shorter transition phases because they have not stabilized their adaptations,
+  5602→and their competition phase is usually shorter than that of professional
+  5603→athletes. A longer phase results in detraining effects, such as the loss of most
+  5604→training gains, especially strength gains. Professional athletes in an Olympic
+  5605→sport, on the other hand, can take up to eight weeks of transition at the end of
+  5606→the quadrennial Olympic cycle. The detraining that results from neglecting
+  5607→strength training in the off-season can be detrimental to an athlete’s rate of
+  5608→performance improvement in the following year.
+  5609→
+  5610→DETRAINING
+  5611→Strength can be improved or maintained only if an adequate load or training intensity is
+  5612→administered continually. When strength training is decreased or ceased, as often
+  5613→happens during competitive or long transition phases, a disturbance occurs in the
+  5614→biological state of the muscle cells and the bodily organs. This disturbance results in a
+  5615→
+  5616→marked decrease in the athlete’s physiological well-being and work output (Fry, Morton,
+  5617→and Keast 1991; Kuipers and Keizer 1988; McMaster et al. 2013).
+  5618→Decreased or diminished training can leave athletes vulnerable to “detraining
+  5619→syndrome” (Israel 1972). The severity of strength loss depends on the elapsed time
+  5620→between training sessions. Many organic and cellular adaptation benefits may be
+  5621→degraded, including the protein content of myosin.
+  5622→When training proceeds as planned, the body uses protein to build and repair
+  5623→damaged tissues. When the body is in a state of disuse, however, it begins to catabolize
+  5624→or break down protein because it is no longer needed (Edgerton 1976; Appell 1990;
+  5625→Mujika and Padilla 2000). As this process of protein degradation continues, some of the
+  5626→gains made during training are reversed. Testosterone levels, which are important for
+  5627→strength gains, have also been shown to decrease as a result of detraining, which may,
+  5628→in turn, diminish the amount of protein synthesis (Houmard 1991; Kraemer and
+  5629→Ratamess 2005).
+  5630→Total abstinence from training is associated with a range of symptoms, including a rise
+  5631→in psychological disturbances, such as headache, insomnia, a feeling of exhaustion,
+  5632→increased tension, increased mood disturbance, lack of appetite, and psychological
+  5633→depression. An athlete may develop any one of these symptoms or a combination of two
+  5634→or more. The symptoms all have to do with lowered levels of testosterone and betaendorphin, a neuroendocrine compound that is the main forerunner of euphoric
+  5635→postexercise feelings (Houmard 1991, Petibois and Deleris, 2003).
+  5636→Detraining symptoms are not pathological and can be reversed if training resumes
+  5637→shortly. If training is discontinued for a prolonged period, however, athletes may display
+  5638→symptoms for some time. This pattern indicates the inability of the human body and its
+  5639→systems to adapt to the state of inactivity. The length of time needed for these symptoms
+  5640→to incubate varies from athlete to athlete, but they generally appear after two to three
+  5641→weeks of inactivity and vary in severity.
+  5642→Coaches of athletes involved in speed- and power-dominant sports must be aware of
+  5643→the fact that when muscles are not stimulated with strength or power training activities,
+  5644→muscle fiber recruitment is disrupted. This disruption results in a deterioration of
+  5645→performance (Wilmore and Costill 2004). Wilmore and Costill (2004) reported that
+  5646→strength gained during a 12-week program decreased by 68% as a result of 12 weeks of
+  5647→strength training interruption; this is a substantial loss for some athletes, especially those
+  5648→in speed- and power-dominant sports. In contrast, subjects who kept performing at least
+  5649→one strength training session per week retained all of the strength they had gained in the
+  5650→12 weeks of training.
+  5651→The decrease in muscle fiber cross-sectional area is quite apparent after a few weeks
+  5652→of inactivity. The fastest rate of muscle atrophy, especially the degradation of contractile
+  5653→protein, takes place in the first two weeks. These changes result from lower glycogen
+  5654→content in the muscle, and especially from protein breakdown, as a result of inhibition of
+  5655→the cellular anabolic pathways (Kandarian and Jackman 2006; Zhang et al. 2007). In
+  5656→addition, the tendons’ tensile strength diminishes as a consequence of atrophy in
+  5657→collagen fiber, and the ligaments’ total collagen mass diminishes as well (Kannus et al.
+  5658→1992).
+  5659→Slow-twitch fibers are usually the first to lose their ability to produce force. Fast-twitch
+  5660→fibers are generally least affected by inactivity. In fact, when exposed to lactic training,
+  5661→fast-twitch glycolytic muscle fibers of Type IIX (more precisely, their myosin-heavy
+  5662→chains) take on the characteristics of fast-twitch oxidative glycolytic fibers of Type IIA
+  5663→
+  5664→(Andersen et al. 2005). Yet they regain their faster characteristics when training volume
+  5665→is greatly reduced. This is not to say that atrophy does not occur in these fibers—it just
+  5666→takes a little longer than in slow-twitch fibers.
+  5667→After an initial increase due to rebound in fast-twitch fibers, speed is affected by longer
+  5668→detraining because the breakdown of muscle protein and the loss of neural adaptation
+  5669→decrease the power capabilities of muscle contractions. The loss in power becomes
+  5670→more pronounced as a result of diminished motor recruitment. The reduction in nerve
+  5671→impulses to the muscle fibers makes muscles contract and relax at slower rates.
+  5672→Reduction in the strength and frequency of these impulses can also decrease the total
+  5673→number of motor units recruited during a series of repeated contractions (Edgerton 1976;
+  5674→Hainaut and Duchateau 1989; Houmard 1991; Mujika and Padilla 2000).
+  5675→Detraining also affects aerobic-dominant sports. Coyle and colleagues (1991)
+  5676→observed that an 84-day training stoppage did not affect glycolytic enzyme activity but
+  5677→did decrease the activity of oxidative enzymes by 60%. This finding demonstrates that
+  5678→anaerobic performance can be maintained longer than aerobic performance, although
+  5679→both lactic capacity and aerobic power are affected by decreases in muscle glycogen of
+  5680→up to 40% that result from at least four weeks of detraining (Wilmore and Costill 2004).
+  5681→
+  5682→Athletes and coaches should remember that strength is hard to gain and
+  5683→easy to lose. Athletes who perform no strength training at all during the
+  5684→transition phase may experience decreased muscle size and considerable
+  5685→power loss (Wilmore and Costill 2004; Mujika and Padille 2000). Because
+  5686→power and speed are interdependent, such athletes also lose speed. Some
+  5687→authors claim that the disuse of muscles also reduces the frequency of
+  5688→discharge rate and the pattern of muscle fiber recruitment; thus, strength and
+  5689→power loss may be the result of not activating as many motor units.
+  5690→Although physical activity volume is reduced by 50% to 60% during the
+  5691→transition phase, athletes should find time to work on the maintenance of
+  5692→strength training. Specifically, it can be beneficial to work on the antagonists,
+  5693→stabilizers, and other muscles that may not necessarily be involved in the
+  5694→performance of the sport-specific skills. Similarly, compensation exercises
+  5695→should be planned for sports in which an imbalance may develop between
+  5696→parts or sides of the body—for example, pitching, throwing events, archery,
+  5697→soccer (work the upper body more), and cycling.
+  5698→
+  5699→Variations in the Periodization of Strength
+  5700→Model
+  5701→The periodization of strength example presented earlier in this chapter (see
+  5702→figure 6.3) was helpful for illustrating the basic concept, but it cannot serve as
+  5703→a model for every situation or every sport. Each individual or group of
+  5704→athletes requires specific planning and programming based on training
+  5705→background, sex, and the specific characteristics of the chosen sport or event.
+  5706→This section of the chapter explains variations of periodization of strength
+  5707→and offers follow-up illustrations of specific periodization models for certain
+  5708→sports and events.
+  5709→Some sports, and some positions in team sports, require strength and
+  5710→heavy muscle mass. For instance, it is advantageous for throwers in trackand-field events, linemen in American football, and heavyweight wrestlers
+  5711→and boxers to be both heavy and powerful. These athletes should follow a
+  5712→unique periodization model with a long phase of training planned to develop
+  5713→hypertrophy. Developing hypertrophy first seems to increase force potential
+  5714→faster, especially if followed by maximum strength and power development
+  5715→phases, which are known to stimulate the activation and firing rate of fasttwitch muscle fiber.
+  5716→Figure 6.8 shows a periodization model for heavy and powerful athletes.
+  5717→The traditional anatomical adaptation phase is followed by a hypertrophy
+  5718→phase of at least six weeks, which in turn is followed by maximum strength
+  5719→training and conversion to power. During the maintenance phase, these
+  5720→athletes should dedicate time to preserving maximum strength and power that
+  5721→will also preserve the hypertrophy gains obtained in the previous stages. The
+  5722→annual plan concludes with compensation training specific to the transition
+  5723→phase.
+  5724→Because the preparation phase in power sports can be very long (e.g., in
+  5725→U.S. and Canadian college football), the coach may decide to build even
+  5726→more muscle mass. To this end, another model can be followed—see figure
+  5727→6.9—in which phases of hypertrophy are alternated with phases of maximum
+  5728→strength. The numbers above each phase in figure 6.10 and some of the
+
+[showing lines 5229-5728 of 13586; use offset=5729 with limit to continue reading]

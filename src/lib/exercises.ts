@@ -35,6 +35,17 @@ export interface ExerciseVariant {
   adjustments: VariantAdjustments;
 }
 
+export type ExerciseTier = 'bilateral_compound' | 'unilateral_compound' | 'isolation' | 'plyometric';
+
+export type MovementPattern =
+  | 'squat_hinge'
+  | 'lunge_single_leg'
+  | 'push'
+  | 'pull'
+  | 'core'
+  | 'cardio_metabolic'
+  | 'flexibility';
+
 export interface ExerciseConfig {
   id: string;
   name: string;
@@ -46,6 +57,10 @@ export interface ExerciseConfig {
   variants: ExerciseVariant[];
   icon: string;
   instructions: string[];
+  // Roberts Ch.9 / Bompa Ch.4: movement classification
+  movementPattern?: MovementPattern;
+  // Brown Ch.1-2 / Bompa Ch.4: exercise selection hierarchy
+  tier?: ExerciseTier;
 }
 
 // Priority map for equipment selection
@@ -101,6 +116,8 @@ export const EXERCISE_CATALOG: ExerciseConfig[] = [
   {
     id: 'squat',
     name: 'Приседания',
+    movementPattern: 'squat_hinge',
+    tier: 'bilateral_compound',
     primaryMuscleGroups: ['quads', 'glutes'],
     secondaryMuscleGroups: ['hamstrings', 'core'],
     difficultyLevel: 'beginner',
@@ -151,6 +168,8 @@ export const EXERCISE_CATALOG: ExerciseConfig[] = [
   {
     id: 'push_up',
     name: 'Отжимания',
+    movementPattern: 'push',
+    tier: 'bilateral_compound',
     primaryMuscleGroups: ['chest', 'triceps'],
     secondaryMuscleGroups: ['shoulders', 'core'],
     difficultyLevel: 'beginner',
@@ -188,6 +207,8 @@ export const EXERCISE_CATALOG: ExerciseConfig[] = [
   {
     id: 'row',
     name: 'Тяга к поясу',
+    movementPattern: 'pull',
+    tier: 'bilateral_compound',
     primaryMuscleGroups: ['back', 'biceps'],
     secondaryMuscleGroups: ['forearms'],
     difficultyLevel: 'beginner',
@@ -232,6 +253,8 @@ export const EXERCISE_CATALOG: ExerciseConfig[] = [
   {
     id: 'plank',
     name: 'Планка',
+    movementPattern: 'core',
+    tier: 'isolation',
     primaryMuscleGroups: ['core'],
     secondaryMuscleGroups: ['shoulders', 'glutes'],
     difficultyLevel: 'beginner',
@@ -270,6 +293,8 @@ export const EXERCISE_CATALOG: ExerciseConfig[] = [
   {
     id: 'lunge',
     name: 'Выпады',
+    movementPattern: 'lunge_single_leg',
+    tier: 'unilateral_compound',
     primaryMuscleGroups: ['quads', 'glutes'],
     secondaryMuscleGroups: ['hamstrings', 'core'],
     difficultyLevel: 'beginner',
@@ -307,6 +332,8 @@ export const EXERCISE_CATALOG: ExerciseConfig[] = [
   {
     id: 'shoulder_press',
     name: 'Жим над головой',
+    movementPattern: 'push',
+    tier: 'bilateral_compound',
     primaryMuscleGroups: ['shoulders', 'triceps'],
     secondaryMuscleGroups: ['core'],
     difficultyLevel: 'beginner',
@@ -350,6 +377,8 @@ export const EXERCISE_CATALOG: ExerciseConfig[] = [
   {
     id: 'deadlift',
     name: 'Становая тяга',
+    movementPattern: 'squat_hinge',
+    tier: 'bilateral_compound',
     primaryMuscleGroups: ['hamstrings', 'glutes', 'back'],
     secondaryMuscleGroups: ['core', 'forearms'],
     difficultyLevel: 'intermediate',
@@ -393,6 +422,8 @@ export const EXERCISE_CATALOG: ExerciseConfig[] = [
   {
     id: 'bridge',
     name: 'Ягодичный мостик',
+    movementPattern: 'squat_hinge',
+    tier: 'bilateral_compound',
     primaryMuscleGroups: ['glutes', 'hamstrings'],
     secondaryMuscleGroups: ['core'],
     difficultyLevel: 'beginner',
@@ -432,6 +463,8 @@ export const EXERCISE_CATALOG: ExerciseConfig[] = [
   {
     id: 'jumping_jacks',
     name: 'Прыжки с разведением рук',
+    movementPattern: 'cardio_metabolic',
+    tier: 'plyometric',
     primaryMuscleGroups: ['full_body'],
     secondaryMuscleGroups: ['shoulders', 'calves'],
     difficultyLevel: 'beginner',
@@ -463,6 +496,8 @@ export const EXERCISE_CATALOG: ExerciseConfig[] = [
   {
     id: 'burpees',
     name: 'Бёрпи',
+    movementPattern: 'cardio_metabolic',
+    tier: 'plyometric',
     primaryMuscleGroups: ['full_body'],
     secondaryMuscleGroups: ['chest', 'quads', 'core'],
     difficultyLevel: 'intermediate',
@@ -494,6 +529,8 @@ export const EXERCISE_CATALOG: ExerciseConfig[] = [
   {
     id: 'high_knees',
     name: 'Бег на месте с высоким подъёмом колен',
+    movementPattern: 'cardio_metabolic',
+    tier: 'plyometric',
     primaryMuscleGroups: ['quads', 'calves'],
     secondaryMuscleGroups: ['core', 'hip_flexors'],
     difficultyLevel: 'beginner',
@@ -519,6 +556,8 @@ export const EXERCISE_CATALOG: ExerciseConfig[] = [
   {
     id: 'mountain_climbers',
     name: 'Скалолаз',
+    movementPattern: 'cardio_metabolic',
+    tier: 'plyometric',
     primaryMuscleGroups: ['core', 'hip_flexors'],
     secondaryMuscleGroups: ['shoulders', 'quads'],
     difficultyLevel: 'beginner',
@@ -544,6 +583,8 @@ export const EXERCISE_CATALOG: ExerciseConfig[] = [
   {
     id: 'jump_rope',
     name: 'Прыжки на скакалке',
+    movementPattern: 'cardio_metabolic',
+    tier: 'plyometric',
     primaryMuscleGroups: ['calves', 'full_body'],
     secondaryMuscleGroups: ['shoulders', 'forearms'],
     difficultyLevel: 'beginner',
@@ -575,6 +616,8 @@ export const EXERCISE_CATALOG: ExerciseConfig[] = [
   {
     id: 'rowing_machine_ex',
     name: 'Гребной тренажёр',
+    movementPattern: 'cardio_metabolic',
+    tier: 'bilateral_compound',
     primaryMuscleGroups: ['back', 'legs'],
     secondaryMuscleGroups: ['arms', 'core'],
     difficultyLevel: 'beginner',
@@ -606,6 +649,8 @@ export const EXERCISE_CATALOG: ExerciseConfig[] = [
   {
     id: 'treadmill_run',
     name: 'Беговая дорожка',
+    movementPattern: 'cardio_metabolic',
+    tier: 'bilateral_compound',
     primaryMuscleGroups: ['legs', 'full_body'],
     secondaryMuscleGroups: ['calves', 'core'],
     difficultyLevel: 'beginner',
@@ -643,6 +688,8 @@ export const EXERCISE_CATALOG: ExerciseConfig[] = [
   {
     id: 'exercise_bike_ex',
     name: 'Велотренажёр',
+    movementPattern: 'cardio_metabolic',
+    tier: 'bilateral_compound',
     primaryMuscleGroups: ['quads', 'hamstrings'],
     secondaryMuscleGroups: ['calves', 'glutes'],
     difficultyLevel: 'beginner',
@@ -676,6 +723,7 @@ export const EXERCISE_CATALOG: ExerciseConfig[] = [
   {
     id: 'stretch_hamstrings',
     name: 'Растяжка задней поверхности бедра',
+    movementPattern: 'flexibility',
     primaryMuscleGroups: ['hamstrings'],
     secondaryMuscleGroups: ['calves', 'lower_back'],
     difficultyLevel: 'beginner',
@@ -707,6 +755,7 @@ export const EXERCISE_CATALOG: ExerciseConfig[] = [
   {
     id: 'cat_cow',
     name: 'Кошка-корова',
+    movementPattern: 'flexibility',
     primaryMuscleGroups: ['core', 'spine'],
     secondaryMuscleGroups: ['neck', 'shoulders'],
     difficultyLevel: 'beginner',

@@ -39,6 +39,7 @@ export type AppScreen =
   | 'body_metrics'
   | 'progress'
   | 'achievements'
+  | 'knowledge'
   | 'admin';
 
 // --- Workout session state ---
