@@ -319,14 +319,27 @@ export function WorkoutScreen() {
               ))}
             </div>
 
-            {/* Weight display */}
-            {exercise.weightKg && (
+            {/* Weight recommendation from actual inventory */}
+            {exercise.recommendedWeightLabel && (
               <Card className="border-0 shadow-sm">
                 <CardContent className="p-4 text-center">
                   <div className="text-3xl font-bold text-primary">
                     {exercise.weightKg} <span className="text-base font-normal text-muted-foreground">кг</span>
                   </div>
-                  <div className="text-xs text-muted-foreground mt-1">Рабочий вес</div>
+                  <div className="text-xs text-muted-foreground mt-1">
+                    {exercise.recommendedWeightLabel}
+                  </div>
+                </CardContent>
+              </Card>
+            )}
+            {/* Fallback: generic weight display (no actual inventory) */
+            {!exercise.recommendedWeightLabel && exercise.weightKg && (
+              <Card className="border-0 shadow-sm">
+                <CardContent className="p-4 text-center">
+                  <div className="text-3xl font-bold text-primary">
+                    {exercise.weightKg} <span className="text-base font-normal text-muted-foreground">кг</span>
+                  </div>
+                  <div className="text-xs text-muted-foreground mt-1">Расчётный вес</div>
                 </CardContent>
               </Card>
             )}

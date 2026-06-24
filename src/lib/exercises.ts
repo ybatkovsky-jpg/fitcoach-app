@@ -79,7 +79,7 @@ export const EQUIPMENT_PRIORITY: Record<EquipmentType, number> = {
   barbell: 3,
 };
 
-export type FitnessLevel = 'beginner' | 'intermediate' | 'advanced';
+// Equipment types that have discrete weights (user specifies exact weights available)export type WeightedEquipmentType = 'dumbbell' | 'kettlebell' | 'barbell';// A single weight item the user ownsexport interface WeightItem {  weightKg: number;  count: number; // how many of this weight (e.g. 2 dumbbells of 10kg)}// Per-equipment-type weight inventoryexport interface WeightedEquipment {  dumbbell: WeightItem[];  kettlebell: WeightItem[];  barbell: WeightItem[]; // barbell: usually 1 bar + plates, but we store the total weight}export type FitnessLevel = 'beginner' | 'intermediate' | 'advanced';
 
 export const EQUIPMENT_LABELS: Record<EquipmentType, string> = {
   none: 'Без инвентаря',

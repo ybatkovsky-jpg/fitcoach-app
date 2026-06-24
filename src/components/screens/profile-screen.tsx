@@ -149,6 +149,18 @@ export function ProfileScreen() {
                 ))}
               </div>
             )}
+            {(() => {
+              const we = profile.weightedEquipment;
+              const hasWeights = (we?.dumbbell.length ?? 0) + (we?.kettlebell.length ?? 0) + (we?.barbell.length ?? 0);
+              if (hasWeights > 0) {
+                const parts: string[] = [];
+                if (we.dumbbell.length > 0) parts.push(we.dumbbell.map(d => `${d.weightKg}кг×${d.count}`).join(', '));
+                if (we.kettlebell.length > 0) parts.push(we.kettlebell.map(d => `${d.weightKg}кг×${d.count}`).join(', '));
+                if (we.barbell.length > 0) parts.push(we.barbell.map(d => `${d.weightKg}кг`).join(', '));
+                return <p className="text-[10px] text-muted-foreground mt-1.5">Веса: {parts.join(' · ')}</p>;
+              }
+              return null;
+            })()}
           </CardContent>
         </Card>
       </button>

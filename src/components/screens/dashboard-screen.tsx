@@ -7,7 +7,7 @@ import { Badge } from '@/components/ui/badge';
 import { MUSCLE_LABELS, EQUIPMENT_LABELS, type FitnessLevel } from '@/lib/exercises';
 import {
   Play, RotateCcw, Clock, Dumbbell, TrendingUp, Flame,
-  ChevronRight, Zap, Calendar, BookOpen, Trophy, Star,
+  ChevronRight, Zap, Calendar, BookOpen, Trophy, Star, Sparkles,
 } from 'lucide-react';
 import { getLevelInfo, getLevelTitle, calculateStreak, ACHIEVEMENTS as ACHIEVEMENT_DEF } from '@/lib/achievements';
 import { PHASE_CONFIG, TOTAL_CYCLE_WEEKS, TRAINING_METHODS, type PeriodizationPhase } from '@/lib/training-science';
@@ -211,6 +211,9 @@ export function DashboardScreen() {
                     {ex.durationSeconds
                       ? `${Math.round(ex.durationSeconds / 60)} мин`
                       : `${ex.targetSets} × ${ex.targetReps}`}
+                    {ex.recommendedWeightLabel && (
+                      <span className="text-[10px] text-primary/70 ml-1">· {ex.recommendedWeightLabel}</span>
+                    )}
                     {ex.restSeconds && ex.restSeconds !== 60 && (
                       <span className="text-[9px] text-muted-foreground/60 ml-1">
                         · {ex.restSeconds}с
