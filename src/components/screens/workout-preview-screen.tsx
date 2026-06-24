@@ -6,6 +6,7 @@ import { Badge } from '@/components/ui/badge';
 import { MUSCLE_LABELS } from '@/lib/exercises';
 import { ArrowLeft, Play, Clock, Dumbbell, Zap, Waves, Timer } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { PHASE_CONFIG, TRAINING_METHODS, type PeriodizationPhase } from '@/lib/training-science';
 
 const CATEGORY_ICONS: Record<string, React.ComponentType<{ className?: string }>> = {
   strength: Dumbbell,
@@ -53,6 +54,18 @@ export function WorkoutPreviewScreen() {
 
       {/* Content */}
       <div className="flex-1 overflow-y-auto px-5 pb-6 space-y-4 min-h-0">
+        {/* Scientific: Phase badge */}
+        {currentPlan.periodizationPhase && (
+          <div className="flex items-center gap-2">
+            <Badge className={`text-[10px] font-semibold ${PHASE_CONFIG[currentPlan.periodizationPhase as PeriodizationPhase]?.badgeClass ?? ''}`}>
+              {PHASE_CONFIG[currentPlan.periodizationPhase as PeriodizationPhase]?.nameRu}
+            </Badge>
+            {currentPlan.workoutType && (
+              <span className="text-[10px] text-muted-foreground">{currentPlan.workoutType}</span>
+            )}
+          </div>
+        )}
+
         {/* Stats row */}
         <div className="grid grid-cols-3 gap-2">
           <div className="bg-primary/5 rounded-xl p-3 text-center">
@@ -111,8 +124,11 @@ export function WorkoutPreviewScreen() {
                       </div>
                     ) : (
                       <div className="text-xs font-medium">
-                        {ex.targetReps} реп.
+                        {ex.targetSets}×{ex.targetReps}
                       </div>
+                    )}
+                    {ex.restSeconds && ex.restSeconds !== 60 && (
+                      <div className="text-[10px] text-muted-foreground mt-0.5">отдых {ex.restSeconds}с</div>
                     )}
                   </div>
                 </motion.div>

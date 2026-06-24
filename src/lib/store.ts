@@ -9,9 +9,14 @@ import {
   calculateFitnessLevel,
   getAdaptiveMultiplier,
   applyAdaptiveLoad,
-  calculateSets,
 } from './workout-engine';
+import {
+  type PeriodizationPhase,
+  getScientificAdaptiveMultiplier,
+  getCurrentPhaseInfo,
+} from './training-science';
 import type { EquipmentType, FitnessLevel, ExerciseConfig } from './exercises';
+export type { WorkoutFeedback } from './workout-engine';
 import {
   ACHIEVEMENTS,
   getLevelInfo,
@@ -51,6 +56,7 @@ export interface WorkoutSession {
   currentSet: number;
   isResting: boolean;
   restSecondsLeft: number;
+  restDuration: number;  // NEW: total rest duration for current exercise
   startTime: number;
   exerciseTimings: ExerciseTiming[];
 }
@@ -148,6 +154,9 @@ interface AppState {
   history: HistoryEntry[];
   missedDays: number;
 
+  // --- PERIODIZATION ---
+  periodizationWeek: number;
+
   // --- GAMIFICATION ---
   totalXp: number;
   unlockedAchievements: string[]; // achievement IDs
@@ -175,16 +184,18 @@ interface AppState {
   resetAll: () => void;
 }
 
-const defaultSession = (): WorkoutSession => ({
+const defaultSession = (restDuration?: number): WorkoutSession => ({
   currentExerciseIndex: 0,
   currentSet: 0,
   isResting: false,
   restSecondsLeft: 0,
+  restDuration: restDuration ?? 60,
   startTime: Date.now(),
   exerciseTimings: [],
 });
 
-const REST_DURATION = 60; // seconds between sets
+// Fallback rest duration for backward compatibility with old plans
+const FALLBACK_REST = 60;
 
 function makeDefaultProfile(): UserProfile {
   return {
@@ -201,6 +212,20 @@ function makeDefaultProfile(): UserProfile {
     comfortableMinutes: 15,
     fitnessLevel: 'beginner' as FitnessLevel,
   };
+}
+
+/** Get rest duration for current exercise (backward compatible) */
+function getRestForExercise(exercise: ExerciseInPlan | undefined): number {
+  // New plans have scientific rest
+  if (exercise?.restSeconds && exercise.restSeconds > 0) {
+    return exercise.restSeconds;
+  }
+  return FALLBACK_REST;
+}
+
+/** Get recent exercise IDs from history for rotation */
+function getRecentExerciseIds(history: HistoryEntry[], lastN: number = 3): string[] {
+  return history.slice(-lastN).flatMap((h) => h.exercises.map((e) => e.exerciseConfigId));
 }
 
 export const useAppStore = create<AppState>()(
@@ -230,11 +255,12 @@ export const useAppStore = create<AppState>()(
       completeOnboarding: () => {
         const state = get();
         if (!state.profile) return;
-        const level = calculateFitnessLevel(state.profile);
+        const level = calculateFitnessLevel(state.profile, state.history.length);
         const updatedProfile = { ...state.profile, fitnessLevel: level };
         set({ isOnboarded: true, profile: updatedProfile, screen: 'dashboard' });
-        // Auto-generate first plan
-        const plan = generateWorkout(updatedProfile, state.customExercises);
+        // Auto-generate first plan with scientific periodization
+        const recentIds = getRecentExerciseIds(state.history);
+        const plan = generateWorkout(updatedProfile, state.customExercises, state.periodizationWeek, recentIds);
         set({ currentPlan: plan });
       },
 
@@ -247,10 +273,13 @@ export const useAppStore = create<AppState>()(
         let plan: ReturnType<typeof generateWorkout>;
 
         if (state.currentPlan && state.lastFeedback && state.history.length > 0) {
-          const multiplier = getAdaptiveMultiplier(
+          // ADAPTIVE PATH: use scientific adaptive multiplier with phase context
+          const phase = (state.currentPlan as WorkoutPlan & { periodizationPhase?: PeriodizationPhase }).periodizationPhase ?? 'accumulation';
+          const multiplier = getScientificAdaptiveMultiplier(
             state.lastFeedback,
             state.missedDays,
             state.consecutiveHardCount,
+            phase,
           );
           const adapted = applyAdaptiveLoad(state.currentPlan.exercises, multiplier);
           plan = {
@@ -260,7 +289,9 @@ export const useAppStore = create<AppState>()(
             createdAt: Date.now(),
           };
         } else {
-          plan = generateWorkout(state.profile, state.customExercises);
+          // FRESH PATH: generate with periodization and exercise rotation
+          const recentIds = getRecentExerciseIds(state.history);
+          plan = generateWorkout(state.profile, state.customExercises, state.periodizationWeek, recentIds);
         }
 
         set({ currentPlan: plan });
@@ -269,32 +300,38 @@ export const useAppStore = create<AppState>()(
       // Active workout
       workoutSession: null,
       startWorkout: () => {
-        // Just navigate to preview — actual start happens via beginWorkout
         set({ screen: 'workout_preview' });
       },
       beginWorkout: () => {
         const state = get();
         if (!state.currentPlan) return;
-        const profile = state.profile;
-        const sets = profile ? calculateSets(profile.fitnessLevel) : 3;
-        const newSets = state.currentPlan.exercises.map((ex) => ({
+
+        // Reset completion state but KEEP scientifically calculated sets
+        const newExercises = state.currentPlan.exercises.map((ex) => ({
           ...ex,
-          targetSets: sets,
           completedSets: 0,
           setResults: [] as { reps: number; rpe?: number }[],
         }));
+
+        // Set rest duration from first exercise
+        const firstRest = getRestForExercise(newExercises[0]);
+
         // Record start time for first exercise
         const firstTiming: ExerciseTiming = {
-          exerciseConfigId: state.currentPlan.exercises[0]?.exerciseConfigId ?? '',
+          exerciseConfigId: newExercises[0]?.exerciseConfigId ?? '',
           startedAt: Date.now(),
           finishedAt: Date.now(),
           totalRepsDone: 0,
           totalSeconds: 0,
         };
+
         set({
           screen: 'workout',
-          workoutSession: { ...defaultSession(), exerciseTimings: [firstTiming] },
-          currentPlan: { ...state.currentPlan, exercises: newSets },
+          workoutSession: {
+            ...defaultSession(firstRest),
+            exerciseTimings: [firstTiming],
+          },
+          currentPlan: { ...state.currentPlan, exercises: newExercises },
         });
       },
       completeSet: (reps, rpe) =>
@@ -310,12 +347,17 @@ export const useAppStore = create<AppState>()(
           const isLastSet = exercise.completedSets >= exercise.targetSets;
           const isLastExercise = currentExerciseIndex >= exercises.length - 1;
 
+          // Scientific rest: use exercise's rest duration
+          const currentRest = getRestForExercise(exercise);
+          const shouldRest = !(isLastSet && isLastExercise);
+
           return {
             currentPlan: { ...state.currentPlan, exercises },
             workoutSession: {
               ...state.workoutSession,
-              isResting: !(isLastSet && isLastExercise),
-              restSecondsLeft: isLastSet && isLastExercise ? 0 : REST_DURATION,
+              isResting: shouldRest,
+              restSecondsLeft: shouldRest ? currentRest : 0,
+              restDuration: currentRest,
               currentSet: isLastSet ? 0 : currentSet + 1,
             },
           };
@@ -332,22 +374,31 @@ export const useAppStore = create<AppState>()(
           const isLastSet = currentSet + 1 >= exercise.targetSets;
           const isLastExercise = currentExerciseIndex >= exercises.length - 1;
 
+          const currentRest = getRestForExercise(exercise);
+          const shouldRest = !(isLastSet && isLastExercise);
+
           return {
             currentPlan: { ...state.currentPlan, exercises },
             workoutSession: {
               ...state.workoutSession,
-              isResting: !(isLastSet && isLastExercise),
-              restSecondsLeft: isLastSet && isLastExercise ? 0 : REST_DURATION,
+              isResting: shouldRest,
+              restSecondsLeft: shouldRest ? currentRest : 0,
+              restDuration: currentRest,
               currentSet: isLastSet ? 0 : currentSet + 1,
             },
           };
         }),
       startRest: () =>
-        set((state) => ({
-          workoutSession: state.workoutSession
-            ? { ...state.workoutSession, isResting: true, restSecondsLeft: REST_DURATION }
-            : null,
-        })),
+        set((state) => {
+          if (!state.workoutSession || !state.currentPlan) return state;
+          const exercise = state.currentPlan.exercises[state.workoutSession.currentExerciseIndex];
+          const currentRest = getRestForExercise(exercise);
+          return {
+            workoutSession: state.workoutSession
+              ? { ...state.workoutSession, isResting: true, restSecondsLeft: currentRest, restDuration: currentRest }
+              : null,
+          };
+        }),
       tickRest: () =>
         set((state) => {
           if (!state.workoutSession || !state.workoutSession.isResting) return state;
@@ -358,12 +409,18 @@ export const useAppStore = create<AppState>()(
             const exercise = plan.exercises[currentExerciseIndex];
             const isLastSet = currentSet >= exercise.targetSets;
             if (isLastSet && currentExerciseIndex < plan.exercises.length - 1) {
+              // Move to next exercise
+              const nextIdx = currentExerciseIndex + 1;
+              const nextEx = plan.exercises[nextIdx];
+              const nextRest = getRestForExercise(nextEx);
+
               return {
                 workoutSession: {
                   ...state.workoutSession,
                   isResting: false,
-                  currentExerciseIndex: currentExerciseIndex + 1,
+                  currentExerciseIndex: nextIdx,
                   currentSet: 0,
+                  restDuration: nextRest,
                 },
               };
             }
@@ -415,7 +472,7 @@ export const useAppStore = create<AppState>()(
                   completed: ex.completedSets >= ex.targetSets,
                   totalSeconds,
                   totalRepsDone,
-                  repsPerMinute,
+                  repsPerMinute: repsPerMin,
                 };
               }),
               durationMin: duration,
@@ -429,6 +486,7 @@ export const useAppStore = create<AppState>()(
 
           // Start timing for next exercise
           const nextEx = state.currentPlan.exercises[nextIdx];
+          const nextRest = getRestForExercise(nextEx);
           const newTiming: ExerciseTiming = {
             exerciseConfigId: nextEx.exerciseConfigId,
             startedAt: Date.now(),
@@ -443,6 +501,7 @@ export const useAppStore = create<AppState>()(
               currentExerciseIndex: nextIdx,
               currentSet: 0,
               isResting: false,
+              restDuration: nextRest,
               exerciseTimings: [...timings, newTiming],
             },
           };
@@ -456,7 +515,6 @@ export const useAppStore = create<AppState>()(
           // Finalize timing for the last active exercise
           const timings = (state.workoutSession?.exerciseTimings ?? []).map((t) => {
             if (t.finishedAt <= t.startedAt) {
-              // This timing was never finalized — do it now
               const curIdx = state.workoutSession?.currentExerciseIndex;
               const curEx = curIdx !== undefined ? exercises[curIdx] : undefined;
               if (curEx && t.exerciseConfigId === curEx.exerciseConfigId) {
@@ -471,7 +529,8 @@ export const useAppStore = create<AppState>()(
           // Calculate completion: only sets with reps > 0 count
           const totalTargetSets = exercises.reduce((s, ex) => s + ex.targetSets, 0);
           const completedSets = exercises.reduce(
-            (s, ex) => s + ex.setResults.filter((r) => r.reps > 0).length, 0,
+            (s, ex) => s + ex.setResults.filter((r) => r.reps > 0).length,
+            0,
           );
           const completionPct = totalTargetSets > 0 ? completedSets / totalTargetSets : 0;
 
@@ -502,7 +561,7 @@ export const useAppStore = create<AppState>()(
                 completed: ex.completedSets >= ex.targetSets,
                 totalSeconds,
                 totalRepsDone,
-                repsPerMinute,
+                repsPerMinute: repsPerMin,
               };
             }),
             durationMin: duration,
@@ -510,7 +569,6 @@ export const useAppStore = create<AppState>()(
 
           // Proportional XP: base 100 * completion ratio
           const baseXp = Math.round(100 * completionPct);
-          // Bonus for 100% completion
           const allDone = completionPct >= 1;
           const bonusXp = allDone ? 25 : 0;
           const newXp = state.totalXp + baseXp + bonusXp;
@@ -531,23 +589,39 @@ export const useAppStore = create<AppState>()(
       setFeedback: (f) => {
         const state = get();
         if (state.workoutNotCounted) {
-          // Don't process feedback for uncounted workouts
           set({ screen: 'dashboard', workoutNotCounted: false });
           return;
         }
-        const newConsecutive = f === 'very_hard'
-          ? state.consecutiveHardCount + 1
-          : 0;
+        const newConsecutive =
+          f === 'very_hard' ? state.consecutiveHardCount + 1 : 0;
+
         // Update last history entry
         const history = [...state.history];
         if (history.length > 0) {
-          history[history.length - 1] = { ...history[history.length - 1], feedback: f };
+          history[history.length - 1] = {
+            ...history[history.length - 1],
+            feedback: f,
+          };
+        }
+
+        // Advance periodization week after each completed workout
+        const newWeek = state.periodizationWeek + 1;
+
+        // Re-evaluate fitness level (Benson: reassess every 6 weeks)
+        if (newWeek % 6 === 0 && state.profile) {
+          const newLevel = calculateFitnessLevel(state.profile, history.length);
+          if (newLevel !== state.profile.fitnessLevel) {
+            set((s) => ({
+              profile: s.profile ? { ...s.profile, fitnessLevel: newLevel } : s.profile,
+            }));
+          }
         }
 
         set({
           lastFeedback: f,
           consecutiveHardCount: newConsecutive,
           history,
+          periodizationWeek: newWeek,
           screen: 'dashboard',
           workoutNotCounted: false,
         });
@@ -562,6 +636,9 @@ export const useAppStore = create<AppState>()(
       // History
       history: [],
       missedDays: 0,
+
+      // --- PERIODIZATION ---
+      periodizationWeek: 0,
 
       // --- GAMIFICATION ---
       totalXp: 0,
@@ -582,14 +659,16 @@ export const useAppStore = create<AppState>()(
         const levelInfo = getLevelInfo(state.totalXp);
         const totalMinutes = history.reduce((s, h) => s + h.durationMin, 0);
 
-        // Count normal feedbacks
         const normalFeedbacks = history.filter((h) => h.feedback === 'normal').length;
 
-        // Check last workout for cardio and all-completed
         const lastEntry = history.length > 0 ? history[history.length - 1] : null;
         const hadCardio = lastEntry
           ? state.currentPlan?.exercises.some(
-              (ex) => ex.category === 'cardio' && lastEntry.exercises.some((e) => e.name === ex.exerciseName && e.completed),
+              (ex) =>
+                ex.category === 'cardio' &&
+                lastEntry.exercises.some(
+                  (e) => e.exerciseName === ex.exerciseName && e.completed,
+                ),
             ) ?? false
           : false;
         const allExercisesCompleted = lastEntry
@@ -665,7 +744,11 @@ export const useAppStore = create<AppState>()(
         set((state) => ({
           bodyMetrics: [
             ...state.bodyMetrics,
-            { ...m, id: `metric_${Date.now()}`, date: new Date().toISOString().split('T')[0] },
+            {
+              ...m,
+              id: `metric_${Date.now()}`,
+              date: new Date().toISOString().split('T')[0],
+            },
           ],
         })),
       removeBodyMetric: (id: string) =>
@@ -684,7 +767,9 @@ export const useAppStore = create<AppState>()(
           ),
         })),
       removeCustomExercise: (id) =>
-        set((s) => ({ customExercises: s.customExercises.filter((e) => e.id !== id) })),
+        set((s) => ({
+          customExercises: s.customExercises.filter((e) => e.id !== id),
+        })),
 
       // Reset
       resetAll: () =>
@@ -700,6 +785,7 @@ export const useAppStore = create<AppState>()(
           consecutiveHardCount: 0,
           history: [],
           missedDays: 0,
+          periodizationWeek: 0,
           totalXp: 0,
           unlockedAchievements: [],
           recentlyUnlocked: [],
@@ -720,6 +806,7 @@ export const useAppStore = create<AppState>()(
         consecutiveHardCount: state.consecutiveHardCount,
         history: state.history,
         missedDays: state.missedDays,
+        periodizationWeek: state.periodizationWeek,
         totalXp: state.totalXp,
         unlockedAchievements: state.unlockedAchievements,
         labTestEntries: state.labTestEntries,

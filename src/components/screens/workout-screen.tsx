@@ -8,9 +8,10 @@ import { Progress } from '@/components/ui/progress';
 import { Badge } from '@/components/ui/badge';
 import {
   ChevronLeft, ChevronRight, Pause, Play, SkipForward, X, Timer,
-  CheckCircle2, Circle, BookOpen, Zap,
+  CheckCircle2, Circle, BookOpen, Zap, Dumbbell,
 } from 'lucide-react';
 import { MUSCLE_LABELS, EQUIPMENT_LABELS } from '@/lib/exercises';
+import { TRAINING_METHODS, PHASE_CONFIG, type TrainingMethod, type PeriodizationPhase } from '@/lib/training-science';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -20,7 +21,7 @@ type Phase = (typeof PHASES)[number];
 /** Auto-cycling 3-phase exercise illustration */
 function PhaseIllustration({ images, alt }: { images: { start: string; mid: string; finish: string }; alt: string }) {
   const [phase, setPhase] = useState<Phase>('start');
-  const [dir, setDir] = useState(1); // 1=forward, -1=backward
+  const [dir, setDir] = useState(1);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -50,7 +51,6 @@ function PhaseIllustration({ images, alt }: { images: { start: string; mid: stri
           <Image src={images[phase]} alt={`${alt} ${labels[phase]}`} fill className="object-contain p-2" sizes="360px" />
         </motion.div>
       </AnimatePresence>
-      {/* Phase dots */}
       <div className="absolute bottom-1.5 left-1/2 -translate-x-1/2 flex gap-1.5 z-10">
         {PHASES.map((p) => (
           <div key={p} className={`w-1.5 h-1.5 rounded-full transition-colors ${phase === p ? 'bg-primary' : 'bg-primary/30'}`} />
@@ -80,6 +80,17 @@ const EXERCISE_IMAGES: Record<string, { start: string; mid: string; finish: stri
   stretch_hamstrings: { start: '/exercises/stretch_hamstrings_start.png', mid: '/exercises/stretch_hamstrings.png', finish: '/exercises/stretch_hamstrings_finish.png' },
   cat_cow: { start: '/exercises/cat_cow_start.png', mid: '/exercises/cat_cow.png', finish: '/exercises/cat_cow_finish.png' },
 };
+
+/** Training method badge color */
+function getMethodBadgeClass(method?: TrainingMethod): string {
+  if (!method) return 'bg-secondary text-secondary-foreground';
+  switch (method) {
+    case 'repeated_effort': return 'bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-300';
+    case 'submaximal': return 'bg-blue-100 text-blue-800 dark:bg-blue-900/40 dark:text-blue-300';
+    case 'dynamic_effort': return 'bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-300';
+    case 'maximal_effort': return 'bg-rose-100 text-rose-800 dark:bg-rose-900/40 dark:text-rose-300';
+  }
+}
 
 export function WorkoutScreen() {
   const {
@@ -121,7 +132,7 @@ export function WorkoutScreen() {
 
   if (!currentPlan || !workoutSession) return null;
 
-  const { currentExerciseIndex, currentSet, isResting, restSecondsLeft } = workoutSession;
+  const { currentExerciseIndex, currentSet, isResting, restSecondsLeft, restDuration } = workoutSession;
   const exercise = currentPlan.exercises[currentExerciseIndex];
   if (!exercise) return null;
 
@@ -142,6 +153,14 @@ export function WorkoutScreen() {
   const isLastExercise = currentExerciseIndex >= totalExercises - 1;
   const allDone = exercise.completedSets >= exercise.targetSets;
 
+  // Scientific rest duration (from exercise or fallback to 60)
+  const activeRestDuration = restDuration || 60;
+
+  // Workout type info
+  const workoutPhase = currentPlan.periodizationPhase as PeriodizationPhase | undefined;
+  const phaseConfig = workoutPhase ? PHASE_CONFIG[workoutPhase] : null;
+  const methodInfo = exercise.trainingMethod ? TRAINING_METHODS[exercise.trainingMethod] : null;
+
   return (
     <div className="flex flex-col h-full">
       {/* Top bar */}
@@ -150,23 +169,45 @@ export function WorkoutScreen() {
           <Button variant="ghost" size="icon" className="h-9 w-9" onClick={finishWorkout}>
             <X className="w-5 h-5" />
           </Button>
+
+          {/* Workout type badge */}
+          {phaseConfig && (
+            <Badge className={`text-[10px] font-semibold px-2 py-0.5 ${phaseConfig.badgeClass}`}>
+              {phaseConfig.nameRu}
+            </Badge>
+          )}
+
           <span className="text-sm font-semibold tabular-nums">
             {formatTime(elapsed)}
           </span>
-          <span className="text-sm font-semibold">
-            {currentExerciseIndex + 1} / {totalExercises}
-          </span>
-          <div className="w-9" />
         </div>
         <Progress value={overallProgress} className="h-1.5" />
+        <div className="flex items-center justify-between mt-1.5">
+          <span className="text-[10px] text-muted-foreground">
+            Упражнение {currentExerciseIndex + 1} / {totalExercises}
+          </span>
+          {methodInfo && exercise.category === 'strength' && (
+            <span className="text-[10px] text-muted-foreground">
+              {methodInfo.nameRu} · отдых {activeRestDuration}с
+            </span>
+          )}
+        </div>
       </div>
 
       {/* Main content */}
       <div className="flex-1 overflow-y-auto px-5 pb-4 min-h-0">
         {isResting ? (
-          /* Rest screen */
+          /* Rest screen — scientific rest timer */
           <div className="flex flex-col items-center justify-center h-full gap-6">
             <p className="text-sm text-muted-foreground font-medium">Отдых</p>
+
+            {/* Dynamic rest duration label */}
+            <div className="text-xs text-muted-foreground/70">
+              {activeRestDuration !== 60 && (
+                <span>{activeRestDuration} сек · {methodInfo?.nameRu ?? 'стандартный отдых'}</span>
+              )}
+            </div>
+
             <div className="relative">
               <svg className="w-40 h-40 -rotate-90" viewBox="0 0 120 120">
                 <circle
@@ -181,7 +222,7 @@ export function WorkoutScreen() {
                   className="text-primary"
                   strokeWidth="6"
                   strokeDasharray={`${2 * Math.PI * 54}`}
-                  strokeDashoffset={`${2 * Math.PI * 54 * (1 - restSecondsLeft / 60)}`}
+                  strokeDashoffset={`${2 * Math.PI * 54 * (1 - restSecondsLeft / activeRestDuration)}`}
                   strokeLinecap="round"
                 />
               </svg>
@@ -231,15 +272,28 @@ export function WorkoutScreen() {
             <div className="text-center space-y-1">
               <div className="flex items-center justify-center gap-2">
                 {exercise.category === 'cardio' && <Zap className="w-4 h-4 text-orange-500" />}
+                {exercise.category === 'strength' && <Dumbbell className="w-4 h-4 text-primary" />}
                 <h2 className="text-2xl font-bold">{exercise.exerciseName}</h2>
               </div>
               <p className="text-sm text-muted-foreground">{exercise.variantName}</p>
+
+              {/* Training method badge */}
+              {exercise.trainingMethod && exercise.category === 'strength' && (
+                <div className="flex items-center justify-center gap-1.5 mt-1">
+                  <Badge className={`text-[10px] font-medium px-2 py-0 ${getMethodBadgeClass(exercise.trainingMethod)}`}>
+                    {TRAINING_METHODS[exercise.trainingMethod].nameRu}
+                  </Badge>
+                  <Badge variant="outline" className="text-[10px] px-2 py-0">
+                    Отдых {exercise.restSeconds}с
+                  </Badge>
+                </div>
+              )}
+
               {exercise.alternativeHint && (
                 <p className="text-xs text-amber-600 bg-amber-50 dark:bg-amber-900/20 dark:text-amber-400 rounded-lg px-3 py-2 mt-2">
                   💡 {exercise.alternativeHint}
                 </p>
               )}
-              {/* How to perform button */}
               <button
                 onClick={() => openExerciseGuide(exercise.exerciseConfigId)}
                 className="inline-flex items-center gap-1.5 text-xs text-primary font-medium mt-2 hover:underline"

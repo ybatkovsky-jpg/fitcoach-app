@@ -10,6 +10,7 @@ import {
   ChevronRight, Zap, Calendar, BookOpen, Trophy, Star,
 } from 'lucide-react';
 import { getLevelInfo, getLevelTitle, calculateStreak, ACHIEVEMENTS as ACHIEVEMENT_DEF } from '@/lib/achievements';
+import { PHASE_CONFIG, TOTAL_CYCLE_WEEKS, TRAINING_METHODS, type PeriodizationPhase } from '@/lib/training-science';
 
 const LEVEL_LABELS: Record<FitnessLevel, string> = {
   beginner: 'Новичок',
@@ -142,17 +143,42 @@ export function DashboardScreen() {
       <Card className="border-0 shadow-md overflow-hidden">
         <CardContent className="p-0">
           <div className="bg-gradient-to-br from-primary/10 via-primary/5 to-background p-5">
-            <div className="flex items-start justify-between mb-4">
-              <div>
+            <div className="flex items-start justify-between mb-3">
+              <div className="flex-1 min-w-0">
                 <h2 className="text-lg font-bold">Тренировка на сегодня</h2>
                 <p className="text-xs text-muted-foreground mt-0.5">
                   {totalExercises} упражнений · ~{estMinutes} мин
                 </p>
               </div>
-              <div className="p-2 rounded-xl bg-primary text-primary-foreground">
+              <div className="p-2 rounded-xl bg-primary text-primary-foreground shrink-0">
                 <Zap className="w-5 h-5" />
               </div>
             </div>
+
+            {/* Scientific: Periodization phase badge */}
+            {currentPlan.periodizationPhase && (
+              <div className="flex items-center gap-2 mb-3">
+                <Badge className={`text-[10px] font-semibold ${PHASE_CONFIG[currentPlan.periodizationPhase as PeriodizationPhase]?.badgeClass ?? ''}`}>
+                  {PHASE_CONFIG[currentPlan.periodizationPhase as PeriodizationPhase]?.nameRu}
+                </Badge>
+                {currentPlan.workoutType && (
+                  <span className="text-[10px] text-muted-foreground truncate">
+                    {currentPlan.workoutType}
+                  </span>
+                )}
+              </div>
+            )}
+
+            {/* Scientific: Block progress */}
+            {currentPlan.blockNumber && currentPlan.weekInBlock && (
+              <div className="flex items-center gap-2 mb-3 text-[10px] text-muted-foreground">
+                <span>Блок {currentPlan.blockNumber}</span>
+                <span>·</span>
+                <span>Неделя {currentPlan.weekInBlock} из {PHASE_CONFIG[currentPlan.periodizationPhase as PeriodizationPhase]?.weeksDuration ?? '?'}</span>
+                <span>·</span>
+                <span>Цикл {((currentPlan.totalCycleWeeks ?? TOTAL_CYCLE_WEEKS))} нед.</span>
+              </div>
+            )}
 
             {/* Exercise preview list */}
             <div className="space-y-2 mb-5">
@@ -185,6 +211,11 @@ export function DashboardScreen() {
                     {ex.durationSeconds
                       ? `${Math.round(ex.durationSeconds / 60)} мин`
                       : `${ex.targetSets} × ${ex.targetReps}`}
+                    {ex.restSeconds && ex.restSeconds !== 60 && (
+                      <span className="text-[9px] text-muted-foreground/60 ml-1">
+                        · {ex.restSeconds}с
+                      </span>
+                    )}
                   </div>
                 </div>
               ))}

@@ -64,6 +64,8 @@ export const EQUIPMENT_PRIORITY: Record<EquipmentType, number> = {
   barbell: 3,
 };
 
+export type FitnessLevel = 'beginner' | 'intermediate' | 'advanced';
+
 export const EQUIPMENT_LABELS: Record<EquipmentType, string> = {
   none: 'Без инвентаря',
   dumbbell: 'Гантели',
