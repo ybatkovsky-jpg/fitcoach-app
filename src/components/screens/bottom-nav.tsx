@@ -18,9 +18,9 @@ const NAV_ITEMS: {
 export function BottomNav() {
   const { screen, setScreen, workoutSession, isOnboarded, startWorkout } = useAppStore();
 
-  // Hide nav during onboarding, active workout, feedback, exercise guide, lab tests
+  // Hide nav only during onboarding, active workout, feedback, exercise guide
   const hasActiveWorkout = screen === 'workout' && !!workoutSession;
-  if (!isOnboarded || screen === 'onboarding' || hasActiveWorkout || screen === 'workout_preview' || screen === 'feedback' || screen === 'exercise_guide' || screen === 'lab_tests' || screen === 'body_metrics' || screen === 'progress' || screen === 'knowledge' || screen === 'inventory_edit') {
+  if (!isOnboarded || screen === 'onboarding' || hasActiveWorkout || screen === 'workout_preview' || screen === 'feedback' || screen === 'exercise_guide') {
     return null;
   }
 
@@ -33,9 +33,9 @@ export function BottomNav() {
   };
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 z-50">
+    <nav className="absolute bottom-0 left-0 right-0 z-50">
       <div className="mx-auto max-w-md">
-        <div className="flex items-center justify-around h-16 bg-background/95 backdrop-blur-sm border-t">
+        <div className="flex items-center justify-around h-14 bg-background border-t border-muted">
           {NAV_ITEMS.map((item) => {
             const Icon = item.icon;
             const active = screen === item.screen;
@@ -43,12 +43,15 @@ export function BottomNav() {
               <button
                 key={item.screen}
                 onClick={() => handleNavClick(item.screen)}
-                className={`flex flex-col items-center gap-0.5 px-2.5 py-1 transition-colors ${
+                className={`flex flex-col items-center justify-center gap-0.5 w-full h-full transition-colors relative ${
                   active ? 'text-primary' : 'text-muted-foreground hover:text-foreground'
                 }`}
               >
                 <Icon className="w-5 h-5" />
-                <span className="text-[10px] font-medium">{item.label}</span>
+                <span className="text-[10px] font-medium leading-tight">{item.label}</span>
+                {active && (
+                  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-6 h-0.5 bg-primary rounded-full" />
+                )}
               </button>
             );
           })}

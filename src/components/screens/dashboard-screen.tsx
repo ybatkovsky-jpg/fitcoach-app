@@ -160,13 +160,16 @@ export function DashboardScreen() {
       </div>
 
       {/* Today's workout card */}
-      <Card className="border-0 shadow-md overflow-hidden">
+      <Card 
+        className="border-0 shadow-md overflow-hidden cursor-pointer active:scale-[0.98] transition-transform"
+        onClick={startWorkout}
+      >
         <CardContent className="p-0">
-          <div className="bg-gradient-to-br from-primary/10 via-primary/5 to-background p-5">
-            <div className="flex items-start justify-between mb-3">
+          <div className="bg-gradient-to-br from-primary/10 via-primary/5 to-background p-4">
+            <div className="flex items-start justify-between mb-2">
               <div className="flex-1 min-w-0">
-                <h2 className="text-lg font-bold">Тренировка на сегодня</h2>
-                <p className="text-xs text-muted-foreground mt-0.5">
+                <h2 className="text-base font-bold">Тренировка на сегодня</h2>
+                <p className="text-[11px] text-muted-foreground mt-0.5">
                   {totalExercises} упражнений · ~{estMinutes} мин
                 </p>
               </div>
@@ -177,7 +180,7 @@ export function DashboardScreen() {
 
             {/* Scientific: Periodization phase badge */}
             {currentPlan.periodizationPhase && (
-              <div className="flex items-center gap-2 mb-3">
+              <div className="flex items-center gap-2 mb-2">
                 <Badge className={`text-[10px] font-semibold ${PHASE_CONFIG[currentPlan.periodizationPhase as PeriodizationPhase]?.badgeClass ?? ''}`}>
                   {PHASE_CONFIG[currentPlan.periodizationPhase as PeriodizationPhase]?.nameRu}
                 </Badge>
@@ -191,21 +194,19 @@ export function DashboardScreen() {
 
             {/* Scientific: Block progress */}
             {currentPlan.blockNumber && currentPlan.weekInBlock && (
-              <div className="flex items-center gap-2 mb-3 text-[10px] text-muted-foreground">
+              <div className="flex items-center gap-2 mb-2 text-[10px] text-muted-foreground">
                 <span>Блок {currentPlan.blockNumber}</span>
                 <span>·</span>
                 <span>Неделя {currentPlan.weekInBlock} из {PHASE_CONFIG[currentPlan.periodizationPhase as PeriodizationPhase]?.weeksDuration ?? '?'}</span>
-                <span>·</span>
-                <span>Цикл {((currentPlan.totalCycleWeeks ?? TOTAL_CYCLE_WEEKS))} нед.</span>
               </div>
             )}
 
             {/* Exercise preview list */}
-            <div className="space-y-2 mb-5">
+            <div className="space-y-1.5 mb-4">
               {currentPlan.exercises.slice(0, 4).map((ex, i) => (
                 <div
                   key={ex.exerciseConfigId}
-                  className="flex items-center justify-between py-2 px-3 rounded-xl bg-background/80"
+                  className="flex items-center justify-between py-1.5 px-3 rounded-xl bg-background/80"
                 >
                   <div className="flex items-center gap-3">
                     <span className="text-xs font-bold text-muted-foreground w-5">

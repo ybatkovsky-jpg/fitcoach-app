@@ -77,12 +77,23 @@ export function InventoryEditScreen() {
     setItems(type, getItems(type).filter(i => i.weightKg !== weightKg));
   }
 
+  function updateCount(type: WeightedEquipmentType, weightKg: number, newCount: number) {
+    if (newCount < 1) {
+      removeWeight(type, weightKg);
+      return;
+    }
+    const items = getItems(type).map(i =>
+      i.weightKg === weightKg ? { ...i, count: newCount } : i
+    );
+    setItems(type, items);
+  }
+
   function togglePreset(type: WeightedEquipmentType, weightKg: number) {
     const items = getItems(type);
     if (items.some(i => i.weightKg === weightKg)) {
       removeWeight(type, weightKg);
     } else {
-      addWeight(type, weightKg, type === 'barbell' ? 1 : 2);
+      addWeight(type, weightKg, 1);
     }
   }
 
@@ -271,7 +282,7 @@ export function InventoryEditScreen() {
                             if (e.key === 'Enter') {
                               const val = parseFloat((e.target as HTMLInputElement).value);
                               if (val > 0) {
-                                addWeight(type, val, type === 'barbell' ? 1 : 2);
+                                addWeight(type, val, 1);
                                 (e.target as HTMLInputElement).value = '';
                               }
                             }
@@ -285,7 +296,7 @@ export function InventoryEditScreen() {
                             const input = document.getElementById(`custom-weight-${type}`) as HTMLInputElement;
                             const val = parseFloat(input?.value ?? '0');
                             if (val > 0) {
-                              addWeight(type, val, type === 'barbell' ? 1 : 2);
+                              addWeight(type, val, 1);
                               if (input) input.value = '';
                             }
                           }}
@@ -306,9 +317,23 @@ export function InventoryEditScreen() {
                                   {item.weightKg} кг
                                 </span>
                                 {type !== 'barbell' && (
-                                  <span className="text-[10px] text-muted-foreground">
-                                    ×{item.count} шт
-                                  </span>
+                                  <div className="flex items-center gap-1">
+                                    <button
+                                      onClick={(e) => { e.stopPropagation(); updateCount(type, item.weightKg, item.count - 1); }}
+                                      className="w-6 h-6 rounded-full bg-muted flex items-center justify-center text-xs font-bold text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
+                                    >
+                                      -
+                                    </button>
+                                    <span className="text-xs font-medium w-8 text-center tabular-nums">
+                                      {item.count} шт
+                                    </span>
+                                    <button
+                                      onClick={(e) => { e.stopPropagation(); updateCount(type, item.weightKg, item.count + 1); }}
+                                      className="w-6 h-6 rounded-full bg-muted flex items-center justify-center text-xs font-bold text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
+                                    >
+                                      +
+                                    </button>
+                                  </div>
                                 )}
                               </div>
                               <button
